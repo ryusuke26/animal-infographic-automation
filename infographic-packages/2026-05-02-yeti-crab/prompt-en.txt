@@ -1,0 +1,7 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle field-notebook infographic about the Yeti crab, Kiwa hirsuta, focused on natural-history curiosity and discovery.
+Subject: Pale squat-lobster-like Yeti crab with long hairy chelipeds and walking legs, setae carrying tiny pale bacterial dots, dark deep-sea hydrothermal vent chimney, no fake map, not a generic round crab and not a large lobster.
+Style/medium: childlike crayon and oil pastel, warm textured paper, handmade field notebook, polished readable educational layout.
+Text verbatim: "Yeti crab" "Kiwa hirsuta" "Deep hydrothermal vents" "Setae carry bacteria" "Reduced eyes in darkness" "IUCN Red List: NE"
+Constraints: curiosity-first, no moralizing, no rescue framing, no blame, no population number, no unsupported urgency, accurate legible text.

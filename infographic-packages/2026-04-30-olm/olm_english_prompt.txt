@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about the olm, focused on discovery and observation, not advocacy.
+Subject: Olm, Proteus anguinus, a pale aquatic cave salamander with an elongated pink-white body, tiny limbs, skin-covered reduced eyes, and three pairs of red feathery external gills; not a fish, not an axolotl, not a generic lizard.
+Scene/backdrop: Quiet dark karst groundwater, limestone cave stream, soft blue-gray water, small pale stones, no map.
+Style/medium: Childlike crayon and oil-pastel field-notebook poster with adult art direction, textured warm paper, imperfect hand-drawn lines, gentle readable layout.
+Composition/framing: Top title and scientific name; center large olm illustration in cave water; three short observation labels around it; bottom quiet status note; generous whitespace.
+Text (verbatim): "The Olm of Underground Water" / "Proteus anguinus" / "Lives in dark karst groundwater" / "Skin-covered eyes; senses guide it through the water" / "Keeps feathery external gills as an adult" / "IUCN Red List: Vulnerable (VU)"
+Constraints: Discovery-first, calm, accurate, legible text, no population numbers, no blame, no rescue slogans, no fake maps, no logos, no watermark.
+Avoid: Crowded poster, aggressive conservation message, misspelled scientific name, making it look like a fish, axolotl, or dragon.

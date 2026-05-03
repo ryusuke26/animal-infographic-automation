@@ -1,0 +1,7 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: 深海の熱水噴出域にすむイエティクラブ Kiwa hirsuta を、好奇心と自然史の発見を中心にしたやさしい教育ポスターとして描く。
+Subject: イエティクラブ。白っぽいスクワットロブスター型の体、長いはさみ脚、はさみ脚と歩脚に毛のような剛毛、暗い海底、黒い熱水噴出孔、細菌を示す小さな淡い点。普通の丸いカニや大きなロブスターにしない。
+Style/medium: 子どものクレヨンとオイルパステル、フィールドノート、あたたかい紙、手描き、でも読みやすく整った構成。
+Text verbatim: 「イエティクラブ」「Kiwa hirsuta」「光の届かない熱水噴出域」「剛毛に細菌がつく」「小さな眼で暗い海底へ」「IUCN Red List: NE」
+Constraints: 発見と観察が主役。説教、救済、責任追及、個体数、偽の地図、過度な危機表現なし。文字は正確で読みやすく。

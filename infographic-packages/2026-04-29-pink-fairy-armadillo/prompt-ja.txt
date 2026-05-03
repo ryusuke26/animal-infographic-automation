@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about the pink fairy armadillo / ヒメアルマジロ, focused on discovery and education rather than advocacy.
+Subject: Pink fairy armadillo, Chlamyphorus truncatus. Show a very small armadillo-like mammal with silky pale white fur, a flexible pale-pink dorsal shell attached along the back, tiny eyes, large digging foreclaws, and a flat spatula-like tail. It is in sandy dry grassland/scrub habitat of central Argentina. Not a generic armadillo, not an otter, not a mouse, not a pangolin.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, adult art direction, polished and readable.
+Composition/framing: top title and scientific name; center large species illustration partly emerging from loose sand with sparse shrubs; three small observation-note labels around it; bottom quiet context/status note; generous whitespace.
+Color palette: warm sand, pale cream fur, soft shell pink, muted green shrubs, graphite note lines.
+Text (verbatim, exact Japanese lines):
+"砂の下のピンクのよろい"
+"ヒメアルマジロ"
+"Chlamyphorus truncatus"
+"アルゼンチン中部の砂地や乾いた草地"
+"夜に動き、砂の下で虫などを探す"
+"白い毛と、うすい桃色の甲羅"
+"IUCN: データ不足（2014年評価）"
+Constraints: Discovery-first, not moralizing. Accurate legible Japanese and scientific text. Do not invent population numbers. Do not imply blame. No fake maps, no logos, no watermark.
+Avoid: Crowded poster, tiny text, unsupported urgency, rescue slogans, misspelled scientific name, species misidentification.
+

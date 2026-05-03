@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 field-notebook poster
+Primary request: Create a warm curiosity-first biological infographic about Welwitschia mirabilis for Japanese readers. Discovery and education first, no advocacy, no blame.
+Subject: Welwitschia mirabilis, a strange Namib Desert gymnosperm plant. Accurate identity cues: low woody stump, only two very long strap-like green leaves that become torn into ribbons, sandy gravel desert ground, faint morning sea fog, small cone clusters; not a cactus, not an aloe, not many separate leaves, no flowers.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, handmade educational look with adult art direction, readable but playful labels.
+Composition/framing: vertical 4:5 poster; top title and scientific name; center large plant illustration in habitat; three small observation-note labels around it; bottom quiet context/status note; generous whitespace.
+Color palette: warm sand, pale fog blue, dusty green leaves, muted salmon and blue-green cone accents, dark pencil outlines.
+Text (verbatim, keep short and legible):
+「ウェルウィッチア」
+「Welwitschia mirabilis」
+「ナミブ砂漠の霧の帯」
+「葉はたった2枚」
+「根元から伸び続ける」
+「IUCN Red List: Not Evaluated」
+Constraints: Japanese title must be prominent. Scientific name must be spelled exactly. Accurate species identity and habitat cues. Discovery-first, not moralizing. Do not invent population numbers. No fake maps. No logos, no watermark.
+Avoid: crowded poster, tiny text, unsupported urgency, blame/rescue imagery, cactus-like body, aloe rosette, bright tropical forest, misspelled Japanese or scientific text, any Least Concern or endangered claim.

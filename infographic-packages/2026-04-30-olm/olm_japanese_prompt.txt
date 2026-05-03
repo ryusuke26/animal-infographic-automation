@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about the olm, focused on discovery and observation, not advocacy.
+Subject: オルム, Proteus anguinus, a pale aquatic cave salamander with an elongated pink-white body, tiny limbs, skin-covered reduced eyes, and three pairs of red feathery external gills; not a fish, not an axolotl, not a generic lizard.
+Scene/backdrop: Quiet dark karst groundwater, limestone cave stream, soft blue-gray water, small pale stones, no map.
+Style/medium: Childlike crayon and oil-pastel field-notebook poster with adult art direction, textured warm paper, imperfect hand-drawn lines, gentle readable layout.
+Composition/framing: Top title and scientific name; center large olm illustration in cave water; three short observation labels around it; bottom quiet status note; generous whitespace.
+Text (verbatim): 「地底水のオルム」 / 「Proteus anguinus」 / 「光のないカルストの地下水にすむ」 / 「目は皮ふにおおわれ、暗い水を感覚で読む」 / 「羽みたいな外えらを大人になってももつ」 / 「IUCN Red List: Vulnerable (VU)」
+Constraints: Discovery-first, calm, accurate, legible text, no population numbers, no blame, no rescue slogans, no fake maps, no logos, no watermark.
+Avoid: Crowded poster, aggressive conservation message, misspelled scientific name, making it look like a fish, axolotl, or dragon.

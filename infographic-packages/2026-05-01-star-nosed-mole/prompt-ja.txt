@@ -1,0 +1,15 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first field-notebook poster about the star-nosed mole, focused on natural-history discovery rather than advocacy.
+Subject: ホシバナモグラ, Condylura cristata, a small dark mole with broad digging forefeet, long tail, wetland mud and shallow water, and a clearly visible pink star-shaped nose with 22 fleshy rays around the nostrils; not an otter, not a shrew, not a platypus, not a generic mouse.
+Style/medium: childlike crayon and oil pastel, textured warm paper, imperfect hand-drawn lines, adult art direction, soft wetland greens, dark fur, pink nose accent.
+Composition/framing: top title and scientific-name line; center large species illustration half in muddy wetland edge and half near shallow water; three small observation labels around it; bottom quiet status note; generous whitespace.
+Text (verbatim):
+"ほし形の鼻でさぐる"
+"ホシバナモグラ / Condylura cristata"
+"湿った土と水辺にすむ"
+"22本の星で泥をさわる"
+"泡で水中のにおいをたどる"
+"IUCN: Least Concern (2016)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark.
+Avoid: crowded poster, tiny text, fake maps, rescue slogans, sad expression, unsupported urgency, misspelled scientific name, species misidentification.

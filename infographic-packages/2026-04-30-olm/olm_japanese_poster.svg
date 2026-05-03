@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">地底水のオルム</title>
+  <desc id="desc">Curiosity-first Japanese infographic about the olm, Proteus anguinus.</desc>
+  <rect width="1600" height="2000" fill="#f4ead8"/>
+  <rect x="88" y="88" width="1424" height="1824" rx="44" fill="#f8f0e2" stroke="#5a6f73" stroke-width="8"/>
+  <text x="800" y="218" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="86" font-weight="700" fill="#26393c">地底水のオルム</text>
+  <text x="800" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-style="italic" fill="#65764f">Proteus anguinus</text>
+  <path d="M280 1040 C430 760,690 680,980 720 C1210 752,1340 880,1380 1030 C1270 1188,1030 1250,760 1234 C515 1220,350 1150,280 1040 Z" fill="#dce8e3" stroke="#6e8b8c" stroke-width="6" opacity=".82"/>
+  <path d="M346 1048 C496 938,720 900,964 936 C1118 958,1208 1030,1196 1098 C1182 1174,1024 1204,788 1180 C566 1158,408 1120,346 1048 Z" fill="#f4cfd0" stroke="#9b7a7a" stroke-width="7"/>
+  <path d="M1110 986 C1206 945,1292 936,1370 952" fill="none" stroke="#f07f8e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1112 1028 C1210 1010,1306 1018,1378 1058" fill="none" stroke="#f07f8e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1102 1076 C1192 1104,1270 1150,1328 1210" fill="none" stroke="#f07f8e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M996 1180 C1026 1280,1078 1338,1168 1378" fill="none" stroke="#9b7a7a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M618 1164 C575 1240,504 1288,424 1302" fill="none" stroke="#9b7a7a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="1064" cy="1008" r="8" fill="#7f6b6b"/>
+  <g font-family="Yu Gothic, Meiryo, sans-serif" font-size="44" fill="#26393c">
+    <text x="170" y="525">光のないカルストの</text>
+    <text x="170" y="582">地下水にすむ</text>
+    <text x="980" y="520">目は皮ふにおおわれ、</text>
+    <text x="980" y="577">暗い水を感覚で読む</text>
+    <text x="258" y="1548">羽みたいな外えらを</text>
+    <text x="258" y="1605">大人になってももつ</text>
+  </g>
+  <path d="M520 620 C600 690,640 750,690 846" fill="none" stroke="#65764f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1040 610 C1026 690,1020 760,1042 880" fill="none" stroke="#65764f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M620 1505 C720 1420,820 1340,958 1196" fill="none" stroke="#65764f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="170" y="1748" width="1260" height="92" rx="22" fill="#e7dfcd" stroke="#91a19b" stroke-width="4"/>
+  <text x="800" y="1808" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="36" fill="#26393c">IUCN Red List: Vulnerable (VU)。地下水のよごれや環境変化に弱いとされる。</text>
+</svg>
