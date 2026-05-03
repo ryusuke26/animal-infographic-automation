@@ -14,6 +14,7 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-01 | Star-nosed Mole / ホシバナモグラ | *Condylura cristata* | `2026-05-01-star-nosed-mole-remake` | completed | Remake package counts as completed. |
 | 2026-05-01 | Long-eared Jerboa / オオミミトビネズミ | *Euchoreutes naso* | `2026-05-01-long-eared-jerboa` | completed | Caption shortened in `captions-short.md`. |
 | 2026-05-02 | Yeti crab / イエティクラブ | *Kiwa hirsuta* | `2026-05-02-yeti-crab` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups; generated_images mirror succeeded with approval. |
+| 2026-05-03 | Welwitschia / ウェルウィッチア | *Welwitschia mirabilis* | `2026-05-03-welwitschia` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups; optional generated_images mirror failed due permissions. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 

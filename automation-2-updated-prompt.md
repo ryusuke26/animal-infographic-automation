@@ -76,10 +76,11 @@ Produce both Japanese and English versions:
 6. English image-generation prompt for the matching English version.
 7. Japanese X post, ALT text, and optional source reply.
 8. English X post, ALT text, and optional source reply.
-9. Compact source list with dates or assessment years where available.
-10. Use Image Gen to generate both Japanese and English raster poster images and save final artifacts plus notes in the workspace.
-11. Update `INDEX.md`.
-12. Update automation memory.
+9. Japanese and English X free-version thread drafts when the main post would exceed 140 characters or become unclear when compressed.
+10. Compact source list with dates or assessment years where available.
+11. Use Image Gen to generate both Japanese and English raster poster images and save final artifacts plus notes in the workspace.
+12. Update `INDEX.md`.
+13. Update automation memory.
 
 ## Output and Archive Rules
 
@@ -97,6 +98,7 @@ Save all final artifacts there:
 - Japanese image prompt
 - English image prompt
 - Japanese and English posting copy with ALT text
+- Japanese and English X free-version thread copy when needed
 - Image Gen raster image assets
 - text-safe SVG poster assets when generated text may be unreliable
 - source and QA notes
@@ -217,7 +219,12 @@ When providing posting copy for X:
 - Use a strong curiosity-first opening line.
 - Use 0 to 2 relevant hashtags only.
 - Provide ALT text for each image.
-- Keep the main post readable; put sources or extra context in a reply when useful.
+- Keep the main post understandable; do not compress it so far that the species/topic becomes unclear.
+- If the target is the X free version or a 140-character limit, prefer a short thread instead of an over-compressed standalone post.
+- For 140-character threads, use this structure when useful: main post = curiosity hook + common/scientific name; reply 1 = what it is and where it lives; reply 2 = distinctive trait or behavior; reply 3 = quiet status and sources.
+- Keep each thread post under 140 characters when the free-version constraint applies.
+- Put sources or extra context in replies when useful.
+- Use ALT text for visual description and image-text support, not as the only place where the core explanation lives.
 - Prefer separate Japanese and English posts.
 - Keep a repeatable series identity, such as "世界の知らない生きもの" or "ちょっと不思議な暮らし図鑑".
 
@@ -269,6 +276,7 @@ The run is complete when:
 - text-safe SVG backups exist when generated text may be unreliable
 - fact-check sources are listed
 - X posting copy and ALT text are included
+- X free-version thread copy is included when 140-character posting constraints would make a standalone caption unclear
 - INDEX.md is updated
 - automation memory is updated
 

@@ -93,14 +93,20 @@ Image QA:
 - Dimension check: Japanese PNG 1003 x 1568; English PNG 1003 x 1568.
 - Visual identity is acceptable: low woody crown, two ribbon-like leaves, cones, gravelly Namib desert, fog belt.
 - Text appears mostly readable in both generated PNGs, but deterministic SVG backups are included because generated typography can still drift.
+- Optional `generated_images/animal_img/welwitschia` mirror failed due filesystem permission denial; workspace package images remain canonical.
+- Attempted SVG-to-PNG rendering with Chrome headless failed because Chrome Crashpad access was denied in this sandbox. SVG XML validation passed with UTF-8.
 
 ## 11. Text-Safe Backup Assets
 
 - `images/welwitschia_japanese_textsafe_2026-05-03.svg`
 - `images/welwitschia_english_textsafe_2026-05-03.svg`
+- `captions-short.md` was added after the user noted the original captions were too long for X.
+- `captions-140.md` was added after the user clarified the target account uses a 140-character X limit.
+- `captions-x-free-thread.md` was added as the preferred workaround for X free-version posting: 140-character thread posts plus ALT text for image description.
 
 ## 12. Archive Notes
 
 - INDEX.md updated with completed status.
 - Automation memory updated.
+- Optional generated_images mirror failed due permissions.
 - Avoid repeating next run: Welwitschia / ウェルウィッチア / *Welwitschia mirabilis*.

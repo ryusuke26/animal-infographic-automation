@@ -25,6 +25,7 @@ A package is `completed` only when all of these are true:
 - Japanese and English infographic copy exist.
 - Japanese and English image prompts exist.
 - Japanese and English X posts and ALT text exist.
+- X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - Image Gen raster PNGs exist for both Japanese and English versions.
 - Text-safe SVG/PNG backups exist when generated text may be unreliable.
@@ -129,8 +130,12 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 - Start with a strong curiosity hook.
 - Use 0 to 2 relevant hashtags only.
 - Add ALT text for each image.
-- Keep the main post readable.
-- Put sources or extra context in a reply when useful.
+- Keep the main post understandable; do not over-compress until the species/topic becomes unclear.
+- If the target is X free-version posting or a 140-character limit, prefer a short thread over a vague standalone caption.
+- Recommended 140-character thread structure: main post names the species/topic and hook; reply 1 says what it is and where it lives; reply 2 gives the distinctive trait or behavior; reply 3 gives quiet status and sources.
+- Keep every thread post under 140 characters when the free-version constraint applies.
+- Put sources or extra context in replies when useful.
+- Use ALT text for image description and image-text support; do not make ALT the only place where the core explanation lives.
 - Prefer separate Japanese and English posts.
 - Keep a repeatable series identity, such as "世界の知らない生きもの" or "ちょっと不思議な暮らし図鑑".
 

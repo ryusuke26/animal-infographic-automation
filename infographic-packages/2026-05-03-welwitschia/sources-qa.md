@@ -32,3 +32,5 @@ Checked: 2026-05-03
 - A first Image Gen attempt used an incorrect LC-style status phrase; it was discarded and overwritten in the workspace with corrected Not Evaluated versions.
 - Text-safe SVG backups contain deterministic copy and should be used if posting requires exact in-image wording.
 - The Kew profile and SANBI page both support publication-safe Not Evaluated / not assessed language for IUCN status.
+- Optional generated_images mirror failed because the sandbox denied creating `C:\Users\ryusu\.codex\generated_images\animal_img\welwitschia`.
+- Attempted Chrome headless rendering of text-safe SVGs to PNG failed with Crashpad access-denied errors; UTF-8 SVG XML validation passed.
