@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.78 0 0 0 0 0.68 0 0 0 0 0.49 0 0 0 .16 0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <style>
+      .paper { fill: #efe4c9; }
+      .ink { fill: #2f3029; font-family: "Yu Gothic", "Yu Mincho", "Hiragino Sans", "Noto Sans JP", sans-serif; }
+      .latin { fill: #245a8d; font-family: "Georgia", "Times New Roman", serif; font-style: italic; }
+      .small { font-size: 31px; }
+      .note { font-size: 34px; font-weight: 600; }
+      .footer { font-size: 30px; }
+      .line { stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+
+  <rect class="paper" width="1080" height="1350"/>
+  <rect width="1080" height="1350" fill="#f5edd8" opacity=".48" filter="url(#paperNoise)"/>
+
+  <path d="M212 126 C390 103 655 105 866 129" class="line" stroke="#9d5e55" stroke-width="8" opacity=".48"/>
+  <text x="540" y="124" text-anchor="middle" class="ink" font-size="76" font-weight="700">暗い水のオルム</text>
+  <text x="540" y="188" text-anchor="middle" class="latin" font-size="47">Proteus anguinus</text>
+  <path d="M335 204 C454 218 623 219 746 205" class="line" stroke="#4279a6" stroke-width="5" opacity=".7"/>
+
+  <rect x="94" y="244" width="892" height="632" rx="24" fill="#e9d9b5" stroke="#514b3d" stroke-width="4" opacity=".55"/>
+  <clipPath id="imageClip">
+    <rect x="112" y="262" width="856" height="596" rx="18"/>
+  </clipPath>
+  <image href="olm_illustration_textless.png" x="112" y="262" width="856" height="596" preserveAspectRatio="xMidYMid slice" clip-path="url(#imageClip)"/>
+  <rect x="112" y="262" width="856" height="596" rx="18" fill="none" stroke="#332f26" stroke-width="4" opacity=".62"/>
+
+  <g transform="translate(106 900)">
+    <rect x="0" y="0" width="868" height="76" rx="18" fill="#f6edda" stroke="#456f8d" stroke-width="4" opacity=".92"/>
+    <circle cx="40" cy="38" r="16" fill="none" stroke="#456f8d" stroke-width="5"/>
+    <path d="M51 50 L65 64" class="line" stroke="#456f8d" stroke-width="6"/>
+    <text x="120" y="50" class="ink note">ディナル・カルストの地下水にすむ</text>
+  </g>
+
+  <g transform="translate(106 992)">
+    <rect x="0" y="0" width="868" height="76" rx="18" fill="#f6edda" stroke="#456f8d" stroke-width="4" opacity=".92"/>
+    <path d="M31 49 C42 24 62 24 72 49" class="line" stroke="#8f6155" stroke-width="5"/>
+    <path d="M37 49 C45 34 58 34 66 49" class="line" stroke="#8f6155" stroke-width="4"/>
+    <text x="120" y="50" class="ink note">小さな水生動物を、ゆっくり探す</text>
+  </g>
+
+  <g transform="translate(106 1084)">
+    <rect x="0" y="0" width="868" height="76" rx="18" fill="#f6edda" stroke="#456f8d" stroke-width="4" opacity=".92"/>
+    <circle cx="48" cy="38" r="18" fill="#ead2c7" stroke="#8f6155" stroke-width="4"/>
+    <path d="M64 28 C80 20 86 27 72 37 M64 39 C82 37 86 49 70 48 M63 50 C77 62 70 68 57 55" class="line" stroke="#b05d63" stroke-width="5"/>
+    <text x="120" y="50" class="ink note">退化した目と赤い外鰓をもつ</text>
+  </g>
+
+  <rect x="94" y="1166" width="892" height="74" rx="18" fill="#e7f0ed" stroke="#7b8f80" stroke-width="4" opacity=".82"/>
+  <text x="540" y="1214" text-anchor="middle" class="ink footer">IUCN Red List: Vulnerable (VU), 2009評価</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">The Almiqui Reads the Forest</title>
+  <desc id="desc">A picturebook-page style infographic about the Cuban solenodon.</desc>
+  <defs>
+    <filter id="paper" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="4" seed="22"/>
+      <feColorMatrix type="saturate" values="0.2"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="wiggle" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="9" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    <style>
+      .sans { font-family: "Trebuchet MS", "Arial", sans-serif; fill: #312820; }
+      .serif { font-family: Georgia, "Times New Roman", serif; fill: #4b392c; }
+      .title { font-size: 68px; font-weight: 800; }
+      .name { font-size: 32px; }
+      .note { font-size: 34px; font-weight: 700; }
+      .footer { font-size: 26px; }
+      .thin { fill: none; stroke: #6b573d; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; filter: url(#wiggle); }
+      .crayon { stroke-linecap: round; stroke-linejoin: round; filter: url(#wiggle); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#f7eacb" filter="url(#paper)"/>
+  <rect x="52" y="50" width="1096" height="1400" rx="26" fill="none" stroke="#7c6849" stroke-width="5" stroke-dasharray="18 16" opacity="0.75"/>
+
+  <text x="110" y="145" class="sans title">The Almiqui Reads</text>
+  <text x="110" y="218" class="sans title">the Forest</text>
+  <text x="114" y="278" class="serif" font-size="38" font-style="italic">Atopogale cubana</text>
+  <text x="114" y="322" class="sans name">Cuban solenodon</text>
+
+  <circle cx="950" cy="235" r="82" fill="#d8e2df" opacity="0.85"/>
+  <path d="M100 1115 C270 1050 355 1132 520 1082 C700 1028 830 1115 1095 1030 L1095 1370 L100 1370 Z" fill="#d9c18a" opacity="0.5"/>
+  <path d="M115 1045 C235 960 360 1010 490 944 C620 878 720 960 850 910 C960 868 1040 880 1110 835" class="crayon" fill="none" stroke="#6d7d4b" stroke-width="16" opacity="0.25"/>
+
+  <g class="crayon">
+    <path d="M390 780 C420 660 555 590 710 620 C865 650 925 755 895 865 C862 980 735 1040 585 1015 C445 990 360 900 390 780 Z" fill="#7d5138" stroke="#503426" stroke-width="10"/>
+    <path d="M410 755 C340 710 265 710 206 762 C260 804 335 812 418 782 Z" fill="#91603f" stroke="#503426" stroke-width="9"/>
+    <path d="M205 764 C157 775 122 802 100 843" fill="none" stroke="#503426" stroke-width="8"/>
+    <path d="M198 767 C150 755 112 755 75 774" fill="none" stroke="#503426" stroke-width="5"/>
+    <path d="M215 744 C166 720 126 714 88 724" fill="none" stroke="#503426" stroke-width="5"/>
+    <circle cx="388" cy="735" r="12" fill="#16120f"/>
+    <path d="M383 690 C365 652 382 622 418 614 C441 643 436 677 407 700 Z" fill="#704631" stroke="#503426" stroke-width="7"/>
+    <path d="M870 860 C1010 885 1088 956 1100 1038" fill="none" stroke="#5d3f31" stroke-width="17"/>
+    <path d="M520 980 C493 1045 453 1090 402 1118" fill="none" stroke="#503426" stroke-width="14"/>
+    <path d="M705 994 C682 1055 646 1098 596 1128" fill="none" stroke="#503426" stroke-width="14"/>
+    <path d="M403 1118 L357 1142 M410 1115 L385 1158 M596 1128 L548 1150 M602 1125 L572 1167" stroke="#503426" stroke-width="7"/>
+  </g>
+
+  <path d="M205 440 C165 430 135 460 140 502 C145 555 200 575 247 550" class="thin"/>
+  <text x="155" y="485" class="sans note">Night-active in eastern</text>
+  <text x="155" y="530" class="sans note">Cuba's mountain forests</text>
+
+  <path d="M760 455 C835 425 945 450 978 530 C1008 600 970 660 895 680" class="thin"/>
+  <text x="728" y="520" class="sans note">Long snout probes</text>
+  <text x="728" y="565" class="sans note">leaves and soil</text>
+
+  <path d="M150 1190 C230 1265 360 1285 470 1230" class="thin"/>
+  <text x="178" y="1250" class="sans note">Grooved lower incisors</text>
+  <text x="178" y="1295" class="sans note">carry toxic saliva</text>
+
+  <rect x="110" y="1345" width="980" height="64" rx="12" fill="#efe0bd" opacity="0.78"/>
+  <text x="135" y="1387" class="sans footer">IUCN Red List: Endangered (EN). No reliable public total is used here.</text>
+</svg>

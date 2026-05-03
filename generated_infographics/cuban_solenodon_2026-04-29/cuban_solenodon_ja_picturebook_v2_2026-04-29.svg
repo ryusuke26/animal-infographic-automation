@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">鼻で森を読む、アルミキ</title>
+  <desc id="desc">子どもの絵の空気を残した、絵本の1ページ風キューバソレノドン紹介ポスター。</desc>
+  <defs>
+    <filter id="paper" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="4" seed="21"/>
+      <feColorMatrix type="saturate" values="0.2"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="wiggle" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    <style>
+      .jp { font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans CJK JP", sans-serif; fill: #312820; }
+      .serif { font-family: Georgia, "Times New Roman", serif; fill: #4b392c; }
+      .title { font-size: 70px; font-weight: 800; }
+      .name { font-size: 34px; }
+      .note { font-size: 34px; font-weight: 700; }
+      .footer { font-size: 27px; }
+      .thin { fill: none; stroke: #6b573d; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; filter: url(#wiggle); }
+      .crayon { stroke-linecap: round; stroke-linejoin: round; filter: url(#wiggle); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#f7eacb" filter="url(#paper)"/>
+  <rect x="52" y="50" width="1096" height="1400" rx="26" fill="none" stroke="#7c6849" stroke-width="5" stroke-dasharray="18 16" opacity="0.75"/>
+
+  <text x="110" y="145" class="jp title">鼻で森を読む、アルミキ</text>
+  <text x="114" y="204" class="serif" font-size="38" font-style="italic">Atopogale cubana</text>
+  <text x="114" y="250" class="jp name">キューバソレノドン</text>
+
+  <circle cx="950" cy="235" r="82" fill="#d8e2df" opacity="0.85"/>
+  <path d="M100 1115 C270 1050 355 1132 520 1082 C700 1028 830 1115 1095 1030 L1095 1370 L100 1370 Z" fill="#d9c18a" opacity="0.5"/>
+  <path d="M115 1045 C235 960 360 1010 490 944 C620 878 720 960 850 910 C960 868 1040 880 1110 835" class="crayon" fill="none" stroke="#6d7d4b" stroke-width="16" opacity="0.25"/>
+
+  <g class="crayon">
+    <path d="M390 760 C420 640 555 570 710 600 C865 630 925 735 895 845 C862 960 735 1020 585 995 C445 970 360 880 390 760 Z" fill="#7d5138" stroke="#503426" stroke-width="10"/>
+    <path d="M410 735 C340 690 265 690 206 742 C260 784 335 792 418 762 Z" fill="#91603f" stroke="#503426" stroke-width="9"/>
+    <path d="M205 744 C157 755 122 782 100 823" fill="none" stroke="#503426" stroke-width="8"/>
+    <path d="M198 747 C150 735 112 735 75 754" fill="none" stroke="#503426" stroke-width="5"/>
+    <path d="M215 724 C166 700 126 694 88 704" fill="none" stroke="#503426" stroke-width="5"/>
+    <circle cx="388" cy="715" r="12" fill="#16120f"/>
+    <path d="M383 670 C365 632 382 602 418 594 C441 623 436 657 407 680 Z" fill="#704631" stroke="#503426" stroke-width="7"/>
+    <path d="M870 840 C1010 865 1088 936 1100 1018" fill="none" stroke="#5d3f31" stroke-width="17"/>
+    <path d="M520 960 C493 1025 453 1070 402 1098" fill="none" stroke="#503426" stroke-width="14"/>
+    <path d="M705 974 C682 1035 646 1078 596 1108" fill="none" stroke="#503426" stroke-width="14"/>
+    <path d="M403 1098 L357 1122 M410 1095 L385 1138 M596 1108 L548 1130 M602 1105 L572 1147" stroke="#503426" stroke-width="7"/>
+  </g>
+
+  <path d="M230 430 C190 420 160 450 165 492 C170 545 225 565 272 540" class="thin"/>
+  <text x="178" y="475" class="jp note">キューバ東部の山地林で</text>
+  <text x="178" y="520" class="jp note">夜に動く</text>
+
+  <path d="M760 435 C835 405 945 430 978 510 C1008 580 970 640 895 660" class="thin"/>
+  <text x="728" y="503" class="jp note">長い鼻で</text>
+  <text x="728" y="548" class="jp note">落ち葉と土をさぐる</text>
+
+  <path d="M150 1170 C230 1245 360 1265 470 1210" class="thin"/>
+  <text x="178" y="1230" class="jp note">溝のある下の切歯と</text>
+  <text x="178" y="1275" class="jp note">毒性の唾液</text>
+
+  <rect x="110" y="1345" width="980" height="64" rx="12" fill="#efe0bd" opacity="0.78"/>
+  <text x="135" y="1387" class="jp footer">IUCN Red List: Endangered (EN)  個体数はよく分かっていません</text>
+</svg>
