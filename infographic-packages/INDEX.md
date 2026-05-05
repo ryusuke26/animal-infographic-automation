@@ -16,6 +16,9 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-02 | Yeti crab / イエティクラブ | *Kiwa hirsuta* | `2026-05-02-yeti-crab` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups; generated_images mirror succeeded with approval. |
 | 2026-05-03 | Welwitschia / ウェルウィッチア | *Welwitschia mirabilis* | `2026-05-03-welwitschia` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups; optional generated_images mirror failed due permissions. Avoid repeat. |
 
+| 2026-05-04 | Blue glaucus / アオミノウミウシ | *Glaucus atlanticus* | `2026-05-04-blue-glaucus` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups; optional generated_images mirror failed due sandbox permissions. Avoid repeat. |
+| 2026-05-05 | Hooded Pitohui / ズグロモリモズ | *Pitohui dichrous* | `2026-05-05-hooded-pitohui` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups. Avoid repeat. |
+
 ## Incomplete / Do Not Count As Completed
 
 | Date | Topic | Scientific name | Package | Status | Notes |

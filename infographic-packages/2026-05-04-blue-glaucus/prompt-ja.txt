@@ -1,0 +1,15 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 field-notebook poster
+Primary request: Create a warm, handmade curiosity-first biological infographic poster about アオミノウミウシ, Glaucus atlanticus. Discovery and natural-history education first; no advocacy, no blame, no urgency.
+Subject identity: Glaucus atlanticus, a tiny pelagic nudibranch/sea slug, not a fish, not a seahorse, not a leafy seadragon, not a fantasy dragon. Show a small blue-and-silver sea slug floating upside down at the ocean surface, with three pairs of wing-like/finger-like cerata spreading from the sides, dark blue stripes, pale blue body, silvery underside, delicate soft body. Include subtle ocean-surface habitat cues and a small distant bluebottle/Porpita-like prey cue without making a fake map.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, polished educational layout, readable but handmade.
+Composition/framing: top title and scientific name; center large species illustration in open ocean surface film; three small observation-note labels around it; bottom quiet status note. Generous whitespace, phone-readable.
+Color palette: warm paper, sea blue, turquoise, silver gray, small deep-blue accents.
+Text verbatim:
+"アオミノウミウシ"
+"Glaucus atlanticus"
+"海面をさかさまに漂う"
+"青い面は空へ、銀色は海へ"
+"刺胞をためて身を守る"
+"IUCN Red List: NE (2025-1)"
+Constraints: Keep all text exactly as written if possible. No population numbers. No fake maps. No logos, watermark, QR code, rescue framing, blame, or danger-poster tone. Accurate species identity and habitat cues.

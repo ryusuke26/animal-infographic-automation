@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Hooded Pitohui field-notebook poster</title>
+  <desc id="desc">Text-safe English poster for Hooded Pitohui, Pitohui dichrous.</desc>
+  <rect width="1200" height="1500" fill="#f7ecd8"/>
+  <rect x="52" y="52" width="1096" height="1396" rx="34" fill="#fff8e8" stroke="#4a3b28" stroke-width="5"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#2b241c">Hooded Pitohui</text>
+  <text x="600" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#4b4032">Pitohui dichrous</text>
+
+  <path d="M210 1125 C370 1015 615 988 980 1060" fill="none" stroke="#5b3d25" stroke-width="30" stroke-linecap="round"/>
+  <ellipse cx="590" cy="705" rx="220" ry="285" fill="#bc6735" stroke="#2b241c" stroke-width="9"/>
+  <ellipse cx="500" cy="570" rx="125" ry="132" fill="#1f1d1a" stroke="#2b241c" stroke-width="7"/>
+  <path d="M408 670 C265 704 228 832 316 930 C405 1028 515 933 494 790 Z" fill="#20201d" stroke="#2b241c" stroke-width="7"/>
+  <path d="M682 650 C824 682 870 802 795 920 C711 1049 602 940 624 787 Z" fill="#20201d" stroke="#2b241c" stroke-width="7"/>
+  <path d="M742 910 C812 978 875 1045 924 1130" fill="none" stroke="#20201d" stroke-width="32" stroke-linecap="round"/>
+  <circle cx="460" cy="538" r="13" fill="#f5f0d8"/>
+  <path d="M372 570 L305 596 L372 620 Z" fill="#2b241c"/>
+  <path d="M497 985 L455 1102" stroke="#2b241c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M620 986 L578 1110" stroke="#2b241c" stroke-width="10" stroke-linecap="round"/>
+
+  <circle cx="858" cy="476" r="30" fill="#8c2f24"/>
+  <circle cx="902" cy="515" r="24" fill="#a83a29"/>
+  <ellipse cx="844" cy="625" rx="25" ry="16" fill="#2d6f57"/>
+  <line x1="822" y1="625" x2="866" y2="625" stroke="#253d33" stroke-width="4"/>
+  <line x1="844" y1="608" x2="844" y2="642" stroke="#253d33" stroke-width="4"/>
+
+  <g font-family="Arial, sans-serif" font-size="36" fill="#2b241c">
+    <rect x="110" y="300" width="370" height="120" rx="18" fill="#e0ead5" stroke="#789168" stroke-width="4"/>
+    <text x="134" y="350">New Guinea</text>
+    <text x="134" y="392">forest bird</text>
+    <rect x="760" y="735" width="350" height="135" rx="18" fill="#e9dec9" stroke="#9a7a50" stroke-width="4"/>
+    <text x="784" y="785">Bitter toxins in</text>
+    <text x="784" y="830">skin and feathers</text>
+    <rect x="145" y="960" width="390" height="135" rx="18" fill="#e4e7ef" stroke="#738197" stroke-width="4"/>
+    <text x="169" y="1010">Toxins likely</text>
+    <text x="169" y="1055">come from diet</text>
+  </g>
+
+  <text x="600" y="1332" text-anchor="middle" font-family="Arial, sans-serif" font-size="35" fill="#4b4032">IUCN Red List: Least Concern (LC), 2018</text>
+  <text x="600" y="1390" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#6d5d49">Curious lives of the world</text>
+</svg>

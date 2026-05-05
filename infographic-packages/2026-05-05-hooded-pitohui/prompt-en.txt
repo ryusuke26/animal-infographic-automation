@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history poster about the Hooded Pitohui, focused on discovery and education rather than advocacy.
+Subject: Hooded Pitohui, Pitohui dichrous. Accurate identity traits: medium New Guinea forest songbird; black head, throat, wings, and tail; warm chestnut-orange back and belly; dark bill and legs; perched on a rainforest branch. Show subtle forest fruit and tiny Choresine-like beetles as diet/source-of-toxin cues, without making the bird look dangerous or monstrous. Not a crow, not a robin, not a generic orange bird, not a bird-of-paradise.
+Style/medium: childlike crayon and oil-pastel field-notebook poster on warm textured paper, handmade, soft, educational, polished and readable.
+Composition/framing: Top title and scientific name; center large bird illustration in New Guinea rainforest; three small observation-note labels; bottom quiet conservation/status note; generous whitespace.
+Color palette: warm paper, rainforest greens, black, chestnut-orange, small muted blue-gray note accents.
+Text (verbatim, accurate if possible): "Hooded Pitohui" "Pitohui dichrous" "New Guinea forest bird" "Bitter toxins in skin and feathers" "Toxins likely come from diet" "IUCN Red List: Least Concern (LC), 2018"
+Constraints: Discovery-first, not moralizing. Accurate legible English text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake map, no urgency slogan.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name.
