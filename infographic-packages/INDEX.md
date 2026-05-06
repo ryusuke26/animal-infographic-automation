@@ -19,6 +19,10 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-04 | Blue glaucus / アオミノウミウシ | *Glaucus atlanticus* | `2026-05-04-blue-glaucus` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups; optional generated_images mirror failed due sandbox permissions. Avoid repeat. |
 | 2026-05-05 | Hooded Pitohui / ズグロモリモズ | *Pitohui dichrous* | `2026-05-05-hooded-pitohui` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups. Avoid repeat. |
 
+| 2026-05-06 | Sargassum Frogfish / ハナオコゼ | *Histrio histrio* | `2026-05-06-sargassum-frogfish` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups. Avoid repeat. |
+
+| 2026-05-06 | Aardwolf / アードウルフ | *Proteles cristatus* | `2026-05-06-aardwolf` | completed | Redo package for today's run; package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups. Avoid repeat. |
+
 ## Incomplete / Do Not Count As Completed
 
 | Date | Topic | Scientific name | Package | Status | Notes |

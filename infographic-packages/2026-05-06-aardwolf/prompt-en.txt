@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first field-notebook poster about the Aardwolf, focused on natural-history discovery and education rather than advocacy.
+Subject: Aardwolf, Proteles cristatus, a small termite-eating hyena relative from dry open grasslands of eastern and southern Africa. Key identity traits: slender hyena-like body, large pointed ears, long narrow muzzle, pale buff-gray coat with dark vertical stripes, dark mane along neck and back, black lower legs and black tail tip, walking near a termite mound at dusk or night. Not a wolf, not an aardvark, not a spotted hyena, not a dog.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, warm handmade paper, imperfect lines, soft educational look, polished readable adult art direction.
+Composition/framing: Top title and scientific name; center aardwolf walking beside dry grass and a small termite mound under a calm night sky; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm cream paper, dry grass gold, dusky blue night, buff gray coat, dark brown stripes and mane.
+Text (verbatim):
+"Aardwolf"
+"Proteles cristatus"
+"Walks grasslands after dark"
+"Laps termites with a sticky tongue"
+"A hyena relative, not a wolf"
+"IUCN Red List: LC"
+Constraints: Discovery-first, not moralizing. Accurate species identity. No fake maps. No population numbers. No blame, no rescue imagery, no logos, no watermark.
+Avoid: Crowded poster, tiny text, unsupported threat claims, aggressive slogans, wolf-like face, aardvark body, spotted hyena spots, dramatic attack scene.
+

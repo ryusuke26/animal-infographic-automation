@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Sargassum Frogfish field-note infographic</title>
+  <desc id="desc">Text-safe English poster about the Sargassum frogfish, Histrio histrio.</desc>
+  <rect width="1200" height="1500" fill="#f7efd9"/>
+  <rect x="44" y="44" width="1112" height="1412" rx="28" fill="#fff8e8" stroke="#564433" stroke-width="5"/>
+  <text x="600" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="68" font-weight="700" fill="#2f3f34">Sargassum Frogfish</text>
+  <text x="600" y="202" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-style="italic" fill="#5d4b3b">Histrio histrio</text>
+  <g transform="translate(0,10)">
+    <path d="M180 430 C250 360 355 335 455 360 C540 382 630 455 690 520 C750 585 852 625 950 580" fill="none" stroke="#b98b35" stroke-width="30" stroke-linecap="round"/>
+    <path d="M220 700 C330 610 455 620 560 700 C675 790 800 820 980 730" fill="none" stroke="#a87b2e" stroke-width="28" stroke-linecap="round"/>
+    <path d="M190 1030 C300 950 470 930 590 1000 C730 1080 835 1085 1015 985" fill="none" stroke="#8b6b2f" stroke-width="24" stroke-linecap="round"/>
+    <g fill="#caa74d" stroke="#6d5b2b" stroke-width="4">
+      <circle cx="265" cy="398" r="28"/><circle cx="422" cy="362" r="24"/><circle cx="612" cy="497" r="26"/>
+      <circle cx="346" cy="657" r="25"/><circle cx="545" cy="695" r="22"/><circle cx="815" cy="790" r="28"/>
+      <circle cx="385" cy="960" r="25"/><circle cx="690" cy="1050" r="23"/><circle cx="895" cy="1040" r="25"/>
+    </g>
+  </g>
+  <g transform="translate(420,465)">
+    <path d="M115 72 C194 10 330 18 423 82 C519 148 560 265 506 360 C455 450 320 487 197 447 C66 405 7 294 34 190 C45 143 72 104 115 72Z" fill="#b78135" stroke="#3e3428" stroke-width="8"/>
+    <path d="M118 88 C190 36 309 46 391 101 C474 157 510 256 465 337 C421 414 306 441 207 409 C98 374 50 283 73 196 C83 154 91 120 118 88Z" fill="#d0a14b" opacity="0.88"/>
+    <circle cx="154" cy="188" r="24" fill="#1d1a17"/>
+    <circle cx="161" cy="181" r="7" fill="#fff7df"/>
+    <path d="M86 246 C150 275 225 275 297 240" fill="none" stroke="#2b211d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M118 310 C56 344 20 394 8 456 C78 446 134 407 178 349" fill="#a2682f" stroke="#3e3428" stroke-width="7"/>
+    <path d="M374 338 C433 386 493 406 565 398 C526 346 475 314 408 302" fill="#a2682f" stroke="#3e3428" stroke-width="7"/>
+    <g fill="none" stroke="#5e4c2c" stroke-width="10" stroke-linecap="round">
+      <path d="M210 22 C180 -28 155 -55 120 -82"/>
+      <path d="M281 18 C282 -35 294 -78 326 -112"/>
+      <path d="M362 50 C410 18 457 -5 508 -8"/>
+      <path d="M130 408 C82 455 36 482 -18 495"/>
+      <path d="M435 390 C491 430 545 453 602 460"/>
+    </g>
+    <g fill="#5d7b43" opacity="0.78">
+      <ellipse cx="230" cy="124" rx="24" ry="12" transform="rotate(-22 230 124)"/>
+      <ellipse cx="318" cy="170" rx="30" ry="13" transform="rotate(18 318 170)"/>
+      <ellipse cx="236" cy="315" rx="28" ry="12" transform="rotate(12 236 315)"/>
+      <ellipse cx="398" cy="256" rx="25" ry="11" transform="rotate(-30 398 256)"/>
+    </g>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="39" fill="#2f3f34">
+    <text x="145" y="900">1. Hides inside floating Sargassum weed</text>
+    <text x="145" y="972">2. Creeps with pectoral fins like little arms</text>
+    <text x="145" y="1044">3. Weed-like skin flaps blur its outline</text>
+  </g>
+  <rect x="130" y="1262" width="940" height="88" rx="22" fill="#e9dcc1" stroke="#6a573e" stroke-width="3"/>
+  <text x="600" y="1319" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#46392d">IUCN Red List 2013: Least Concern (LC)</text>
+</svg>
+

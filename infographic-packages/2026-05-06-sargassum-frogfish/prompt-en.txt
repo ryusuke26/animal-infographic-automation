@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first field-notebook poster about the Sargassum Frogfish, focused on natural-history discovery and education rather than advocacy.
+Subject: Sargassum Frogfish, Histrio histrio, a small frogfish living in floating Sargassum seaweed. Key identity traits: short rounded body, large mouth, mottled yellow-brown-green camouflage, many irregular weed-like skin flaps, pectoral fins posed like little arms gripping seaweed, hidden among floating Sargassum with gas bladders. Not a seahorse, not a generic reef fish, not a frog.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, warm handmade paper, imperfect lines, soft educational look, polished readable adult art direction.
+Composition/framing: Top title and scientific name; center large frogfish hidden among floating Sargassum; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm cream paper, golden brown and olive Sargassum, muted sea blue, small dark ink labels.
+Text (verbatim):
+"Sargassum Frogfish"
+"Histrio histrio"
+"Hides in floating weed"
+"Creeps with little arm-like fins"
+"Skin flaps mimic seaweed"
+"IUCN Red List 2013: LC"
+Constraints: Discovery-first, not moralizing. Accurate species identity. No fake maps. No population numbers. No blame, no rescue imagery, no logos, no watermark.
+Avoid: Crowded poster, tiny text, unsupported threat claims, aggressive slogans, misspelled scientific name, seahorse-like body, clownfish-like colors.
+
