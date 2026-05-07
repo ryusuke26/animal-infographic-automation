@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about the Surinam toad / コモリガエル (*Pipa pipa*) focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: コモリガエル, *Pipa pipa*, a very flat brown fully aquatic frog/toad from northern South American slow waters and Trinidad. Key identity traits: leaf-like flattened body, triangular flat head, tiny eyes, mottled brown rough skin, webbed hind feet, small front fingers with star-shaped sensory tips, muddy slow-water pond or swamp bottom, subtle female back-brooding pockets shown gently and non-graphically. Not a generic green frog, not a land toad, not a colorful poison frog, not horror.
+Style/medium: childlike observation sketch with adult art direction, crayon, oil pastel, colored pencil, textured warm paper, field-notebook feeling, polished and readable.
+Composition/framing: Top title and scientific name; center large flat toad resting on a muddy pond bottom with leaves and soft water plants; three small observation-note labels; bottom quiet conservation/status note; generous whitespace.
+Color palette: warm cream paper, muddy olive-brown water, leaf brown, soft green water plants, small blue-gray water accents.
+Text (verbatim):
+"コモリガエル"
+"Pipa pipa"
+"南米のにごった水底にひそむ"
+"星形の指先で小さな獲物を探す"
+"背中のくぼみで子ガエルが育つ"
+"IUCN Red List 2023: Least Concern (LC)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark. Avoid graphic birth imagery; make the back-brooding cue gentle and educational.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled names, horror/trypophobia framing, baby frogs bursting out dramatically.
