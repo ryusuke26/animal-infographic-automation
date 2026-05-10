@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f7edda"/>
+  <rect x="48" y="48" width="1104" height="1404" rx="24" fill="#fff8ea" stroke="#7d5b3f" stroke-width="4"/>
+  <text x="600" y="145" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="70" font-weight="700" fill="#2f251f">ヒドノラ・アフリカナ</text>
+  <text x="600" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-style="italic" fill="#46342a">Hydnora africana</text>
+  <line x1="230" y1="245" x2="970" y2="245" stroke="#b87545" stroke-width="5"/>
+
+  <rect x="100" y="320" width="1000" height="555" rx="18" fill="#eacb98" stroke="#7d5b3f" stroke-width="3"/>
+  <path d="M100 698 C260 640 420 715 590 675 C760 635 910 655 1100 600 L1100 875 L100 875 Z" fill="#d0aa74" opacity="0.85"/>
+  <g transform="translate(720 318)">
+    <path d="M92 360 C70 300 70 235 116 172 C160 238 162 318 132 380 Z" fill="#5a3a2b" stroke="#2d211b" stroke-width="5"/>
+    <path d="M180 360 C155 292 162 218 220 158 C255 240 260 315 220 385 Z" fill="#5a3a2b" stroke="#2d211b" stroke-width="5"/>
+    <path d="M78 365 C118 250 175 205 218 126 C270 205 275 305 228 405 C176 450 120 430 78 365 Z" fill="#db7246" stroke="#6a2f24" stroke-width="5"/>
+    <ellipse cx="176" cy="335" rx="56" ry="70" fill="#6a2f24" opacity="0.75"/>
+    <path d="M112 200 C143 238 187 250 224 186" fill="none" stroke="#f3c28f" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(190 360)" stroke="#58724d" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M85 315 C65 230 70 150 35 65"/>
+    <path d="M135 335 C150 240 140 130 170 35"/>
+    <path d="M190 342 C230 260 260 175 300 85"/>
+    <path d="M235 345 C300 270 360 210 425 150"/>
+  </g>
+  <g fill="#8ca267">
+    <circle cx="228" cy="492" r="13"/><circle cx="271" cy="426" r="12"/><circle cx="330" cy="520" r="13"/>
+    <circle cx="390" cy="428" r="12"/><circle cx="465" cy="510" r="13"/><circle cx="560" cy="485" r="12"/>
+  </g>
+
+  <rect x="100" y="875" width="1000" height="255" fill="#805d3a" opacity="0.25"/>
+  <path d="M560 875 C555 950 520 1020 452 1085" fill="none" stroke="#6d4930" stroke-width="14"/>
+  <path d="M560 875 C628 948 700 1000 785 1040" fill="none" stroke="#6d4930" stroke-width="10"/>
+  <path d="M470 1068 C420 1050 382 1080 340 1115" fill="none" stroke="#8b653e" stroke-width="8"/>
+  <path d="M780 1038 C835 1020 888 1048 950 1080" fill="none" stroke="#8b653e" stroke-width="8"/>
+  <circle cx="452" cy="1085" r="46" fill="#b77943" stroke="#6d4930" stroke-width="6"/>
+  <text x="146" y="939" font-family="Yu Gothic, Meiryo, sans-serif" font-size="34" fill="#2f251f">地下では宿主の根につながる</text>
+
+  <g font-family="Yu Gothic, Meiryo, sans-serif" font-size="38" fill="#2f251f">
+    <rect x="100" y="1165" width="300" height="150" rx="16" fill="#ffffff" stroke="#9b7048" stroke-width="3"/>
+    <text x="125" y="1228">雨のあと</text>
+    <text x="125" y="1278">花だけが出る</text>
+    <rect x="450" y="1165" width="300" height="150" rx="16" fill="#ffffff" stroke="#9b7048" stroke-width="3"/>
+    <text x="475" y="1228">葉も緑もない</text>
+    <text x="475" y="1278">寄生植物</text>
+    <rect x="800" y="1165" width="300" height="150" rx="16" fill="#ffffff" stroke="#9b7048" stroke-width="3"/>
+    <text x="825" y="1228">においで</text>
+    <text x="825" y="1278">甲虫をまねく</text>
+  </g>
+
+  <text x="600" y="1402" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#3d3128">IUCN Red List: Least Concern (LC) / SANBI 2021: LC</text>
+</svg>

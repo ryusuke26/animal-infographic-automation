@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6eedc"/>
+  <rect x="62" y="62" width="1076" height="1376" rx="28" fill="#fbf5e8" stroke="#6b6a4a" stroke-width="5"/>
+  <text x="600" y="145" text-anchor="middle" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="58" font-weight="700" fill="#3c3a2f">エダハヘラオヤモリ</text>
+  <text x="600" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="35" font-style="italic" fill="#5b5a44">Uroplatus phantasticus</text>
+  <ellipse cx="620" cy="735" rx="365" ry="95" fill="#6f5b37" opacity="0.35"/>
+  <path d="M245 930 C390 760, 650 695, 990 850" stroke="#5c4d35" stroke-width="54" stroke-linecap="round" fill="none"/>
+  <path d="M376 612 C455 475, 645 440, 805 532 C936 608, 935 792, 806 868 C633 970, 423 894, 365 746 C345 694, 349 654, 376 612Z" fill="#8a6a43" stroke="#3d3527" stroke-width="8"/>
+  <path d="M359 728 C238 738, 177 695, 126 626 C214 622, 288 584, 370 604Z" fill="#7e603e" stroke="#3d3527" stroke-width="8"/>
+  <path d="M782 795 C910 850, 1003 813, 1070 724 C953 755, 880 690, 796 650Z" fill="#7b5a37" stroke="#3d3527" stroke-width="8"/>
+  <path d="M744 530 L795 471 L815 550" fill="#8a6a43" stroke="#3d3527" stroke-width="7"/>
+  <circle cx="708" cy="591" r="32" fill="#f0c16c" stroke="#2b241c" stroke-width="7"/>
+  <circle cx="708" cy="591" r="10" fill="#171411"/>
+  <path d="M478 510 C520 568, 531 640, 506 730 M583 481 C608 573, 602 697, 567 802 M705 514 C703 610, 675 739, 626 842" stroke="#4c3b29" stroke-width="6" fill="none" opacity="0.65"/>
+  <path d="M425 667 C520 633, 672 633, 805 706" stroke="#d2b47a" stroke-width="7" fill="none" opacity="0.7"/>
+  <text x="210" y="355" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="35" fill="#3b4731">枯れ葉みたいに</text>
+  <text x="210" y="398" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="35" fill="#3b4731">じっとする</text>
+  <line x1="332" y1="418" x2="453" y2="540" stroke="#74835a" stroke-width="5"/>
+  <text x="820" y="360" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="35" fill="#3b4731">夜に小さな虫を</text>
+  <text x="820" y="403" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="35" fill="#3b4731">さがす</text>
+  <line x1="865" y1="425" x2="774" y2="592" stroke="#74835a" stroke-width="5"/>
+  <text x="150" y="1135" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="35" fill="#3b4731">ぎざぎざの尾で</text>
+  <text x="150" y="1178" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="35" fill="#3b4731">まぎれる</text>
+  <line x1="390" y1="1110" x2="846" y2="820" stroke="#74835a" stroke-width="5"/>
+  <text x="600" y="1304" text-anchor="middle" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="38" fill="#4b4a37">森の床近くで、葉っぱになりきる暮らし</text>
+  <text x="600" y="1370" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#58695e">IUCN Red List 2020: LC</text>
+</svg>
+

@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about the Satanic leaf-tailed gecko / Phantastic leaf-tailed gecko, Uroplatus phantasticus, focused on discovery and observation rather than advocacy.
+Subject: A small Malagasy satanic / phantastic leaf-tailed gecko with a triangular head, large eyes with vertical pupils, tiny horn-like scales above the eyes, mottled brown-gray-rust dead-leaf body, and a flattened ragged leaf-shaped tail. It is not a bright fantasy lizard, not a snake, not a generic cute gecko.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, accurate species identity, polished and readable adult art direction.
+Composition/framing: Top English title and scientific name; center large gecko resting on a mossy low rainforest branch beside leaf litter; three small observation note labels; bottom quiet IUCN status footer; generous whitespace.
+Color palette: warm cream paper, rainforest greens, bark brown, dry-leaf rust and gray, small quiet blue-green status accent.
+Text (verbatim):
+"Satanic Leaf-Tailed Gecko"
+"Uroplatus phantasticus"
+"rests like a dead leaf"
+"hunts small insects at night"
+"ragged tail breaks its outline"
+"IUCN Red List 2020: LC"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake map.
+Avoid: Crowded poster, tiny text, aggressive slogans, species misidentification, demon imagery, red horns, unsupported visual claims, misspelled names.
+

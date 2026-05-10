@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about Hydnora africana, focused on discovery and education rather than advocacy.
+Subject: Hydnora africana, a southern African holoparasitic flowering plant, often called jackal food. Key identity traits: no leaves, no green chlorophyll, mostly underground; only a strange fleshy flower emerges after rain; flower is brown/cracked outside and salmon-orange inside with 3 to 4 thick lobes; grows beside succulent Euphorbia host shrubs in dry Karoo/desert shrubland; carrion beetles are attracted by odor. Not a mushroom, not a generic cactus flower, not a red tropical blossom.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, adult art direction, polished and readable.
+Composition/framing: Top title and scientific name; center large Hydnora africana flower emerging from sandy soil near a Euphorbia shrub; show a small simple underground cross-section hint with roots/haustorium; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm sand, muted Karoo greens, earthy browns, salmon orange flower interior, soft charcoal ink.
+Text (verbatim): "ヒドノラ・アフリカナ\nHydnora africana\n雨のあと 地面から顔を出す\n葉も緑もない 寄生植物\nにおいで甲虫をまねく\nIUCN Red List: LC / SANBI 2021: LC"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark. No fake map.
+Avoid: crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, mushroom-like cap, cactus flower, demon imagery.

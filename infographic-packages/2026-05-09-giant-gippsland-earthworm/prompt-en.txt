@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about the Giant Gippsland Earthworm, *Megascolides australis*, focused on discovery and education rather than advocacy.
+Subject identity: one of the world's largest earthworms; long segmented earthworm, front third deep purple, rest pink-grey, moist blue-grey clay burrows in Gippsland, Victoria, Australia; underground tunnel cutaway with stream-bank/soak habitat cues. It must look like an earthworm, not a snake, not an eel, not a caterpillar.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, handmade educational tone with adult art direction, accurate species identity and habitat cues.
+Composition/framing: top title and scientific name; center large earthworm shown partly in a moist clay burrow cutaway; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm paper, blue-grey clay, soft greens, deep purple head/front body, pink-grey body, earthy browns.
+Text (verbatim): "Giant Gippsland Earthworm
+Megascolides australis
+Moist clay tunnels
+A gurgling sound underground
+Purple front, pink-grey body
+IUCN Red List 2014: Endangered (EN)
+EPBC Act: Vulnerable"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake maps, no rescue imagery.
+Avoid: crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, population counters, snake-like head, cute mascot face, horror/gross tone, misspelled scientific name.

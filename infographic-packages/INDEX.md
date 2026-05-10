@@ -25,6 +25,13 @@ This index is for the recurring automation "世界の知らない生きものイ
 
 | 2026-05-07 | Surinam toad / コモリガエル | *Pipa pipa* | `2026-05-07-surinam-toad` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG backups; SVG-to-PNG render failed due Chrome Crashpad access-denied. Avoid repeat. |
 
+| 2026-05-08 | Satanic leaf-tailed gecko / エダハヘラオヤモリ | *Uroplatus phantasticus* | `2026-05-08-satanic-leaf-tailed-gecko` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. Avoid repeat. |
+
+| 2026-05-08 | Hydnora africana / Jackal food / ヒドノラ・アフリカナ | *Hydnora africana* | `2026-05-08-hydnora-africana` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. Kew displays IUCN LC; SANBI Red List 2021 LC is used as dated status context. Avoid repeat. |
+
+| 2026-05-09 | Giant Gippsland Earthworm / メガスコリデス・アウストラリス | *Megascolides australis* | `2026-05-09-giant-gippsland-earthworm` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN 2014 EN cross-checked through SWIFFT/IUCN-derived references; EPBC VU and Victoria FFG 2025 EN recorded separately. Avoid repeat. |
+| 2026-05-10 | Harp sponge / ハープスポンジ | *Chondrocladia lyra* | `2026-05-10-harp-sponge` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. No dated IUCN species assessment located; public copy uses Not Evaluated / checked 2026. Avoid repeat. |
+
 ## Incomplete / Do Not Count As Completed
 
 | Date | Topic | Scientific name | Package | Status | Notes |
