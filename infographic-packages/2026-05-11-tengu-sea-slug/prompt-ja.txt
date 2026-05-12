@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle Japanese infographic about テングモウミウシ, Costasiella kuroshimae, focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: a tiny green sacoglossan sea slug on shallow marine algae; white face, dark eyes, black-tipped rhinophores, many rounded leaflike green cerata, delicate slug body, not an actual sheep, not a land snail, not a generic nudibranch with feather gills.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines with polished adult art direction.
+Composition/framing: Top title and scientific name; center large species illustration on green algal substrate; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm paper, soft sea green, pale cream, small dark eye accents, gentle teal water.
+Text (verbatim):
+"テングモウミウシ"
+"Costasiella kuroshimae"
+"浅い海の藻の上"
+"葉っぱみたいな突起"
+"藻の緑を少し借りる"
+"IUCN Red List: NE"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake map.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, actual sheep imagery.
+

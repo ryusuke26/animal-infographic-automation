@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f7efd9"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="28" fill="none" stroke="#b88458" stroke-width="6"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="78" font-weight="700" fill="#b83b2f">イバラカンザシ</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="42" font-style="italic" fill="#224f73">Spirobranchus giganteus</text>
+  <text x="600" y="274" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="30" fill="#48645a">多毛類・カンザシゴカイ科</text>
+  <ellipse cx="600" cy="910" rx="455" ry="180" fill="#d6be7b"/>
+  <g fill="#e4cf91" stroke="#b79756" stroke-width="3">
+    <circle cx="250" cy="900" r="42"/><circle cx="340" cy="840" r="48"/><circle cx="455" cy="890" r="52"/><circle cx="570" cy="835" r="58"/>
+    <circle cx="690" cy="890" r="54"/><circle cx="820" cy="850" r="48"/><circle cx="940" cy="910" r="44"/>
+  </g>
+  <g stroke-linecap="round" fill="none">
+    <path d="M500 820 C505 730 510 640 515 555" stroke="#593e31" stroke-width="18"/>
+    <path d="M700 820 C695 725 690 640 685 555" stroke="#593e31" stroke-width="18"/>
+    <g stroke-width="8">
+      <path d="M515 555 C410 590 380 690 490 735 C600 785 650 690 590 610 C565 575 540 560 515 555" stroke="#c73b2e"/>
+      <path d="M515 555 C625 590 655 690 545 735 C440 785 390 690 450 610 C475 575 500 560 515 555" stroke="#f7f0df"/>
+      <path d="M685 555 C590 590 565 675 665 715 C760 755 805 675 750 605 C730 578 705 560 685 555" stroke="#c73b2e"/>
+      <path d="M685 555 C785 590 810 675 710 715 C615 755 570 675 625 605 C645 578 665 560 685 555" stroke="#f7f0df"/>
+    </g>
+    <path d="M780 850 q60 25 95 -20 q-20 -80 -95 -70 q-45 30 0 90z" fill="#c98f49" stroke="#734b32" stroke-width="7"/>
+  </g>
+  <g font-family="Yu Gothic, Meiryo, sans-serif" font-size="34" fill="#3f3428">
+    <rect x="90" y="360" width="332" height="174" rx="24" fill="#fff8e7" stroke="#c96b5a" stroke-width="5"/>
+    <text x="125" y="430">サンゴの穴から</text>
+    <text x="125" y="482">2本のらせん</text>
+    <rect x="790" y="350" width="320" height="182" rx="24" fill="#fff8e7" stroke="#4f88aa" stroke-width="5"/>
+    <text x="825" y="417">鰓で食事と</text>
+    <text x="825" y="469">呼吸をする</text>
+    <rect x="360" y="1130" width="480" height="132" rx="24" fill="#fff8e7" stroke="#6c9a66" stroke-width="5"/>
+    <text x="600" y="1195" text-anchor="middle">近づくと、管へすっと隠れる</text>
+  </g>
+  <text x="600" y="1348" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="34" fill="#394a5a">IUCN Red List: 掲載評価未確認（2026-05-12確認）</text>
+</svg>

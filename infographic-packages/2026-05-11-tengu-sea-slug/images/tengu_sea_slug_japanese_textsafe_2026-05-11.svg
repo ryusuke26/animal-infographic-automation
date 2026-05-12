@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">テングモウミウシ infographic</title>
+  <desc id="desc">Text-safe Japanese infographic for Costasiella kuroshimae.</desc>
+  <rect width="1200" height="1500" fill="#fbf1df"/>
+  <rect x="55" y="55" width="1090" height="1390" rx="34" fill="#fff8ea" stroke="#6b8f78" stroke-width="5"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="74" font-weight="700" fill="#244437">テングモウミウシ</text>
+  <text x="600" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-style="italic" fill="#476255">Costasiella kuroshimae</text>
+  <ellipse cx="600" cy="740" rx="330" ry="245" fill="#d8efd9" stroke="#98b88d" stroke-width="6"/>
+  <path d="M300 965 C420 880 760 910 920 1005" fill="none" stroke="#72a665" stroke-width="22" stroke-linecap="round"/>
+  <path d="M270 1030 C430 930 710 955 980 1095" fill="none" stroke="#86b879" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="600" cy="765" rx="180" ry="130" fill="#eff8dd" stroke="#5b8f6a" stroke-width="7"/>
+  <circle cx="535" cy="720" r="17" fill="#1e2b28"/>
+  <circle cx="665" cy="720" r="17" fill="#1e2b28"/>
+  <path d="M555 680 C525 630 505 595 475 560" fill="none" stroke="#2f4b42" stroke-width="10" stroke-linecap="round"/>
+  <path d="M645 680 C680 628 705 595 742 562" fill="none" stroke="#2f4b42" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="472" cy="558" r="13" fill="#0f1f1a"/>
+  <circle cx="744" cy="560" r="13" fill="#0f1f1a"/>
+  <g fill="#6dbb62" stroke="#407b51" stroke-width="5">
+    <ellipse cx="435" cy="690" rx="54" ry="98" transform="rotate(-38 435 690)"/>
+    <ellipse cx="505" cy="625" rx="48" ry="92" transform="rotate(-22 505 625)"/>
+    <ellipse cx="600" cy="600" rx="46" ry="100"/>
+    <ellipse cx="695" cy="625" rx="48" ry="92" transform="rotate(22 695 625)"/>
+    <ellipse cx="765" cy="690" rx="54" ry="98" transform="rotate(38 765 690)"/>
+    <ellipse cx="450" cy="815" rx="50" ry="92" transform="rotate(-118 450 815)"/>
+    <ellipse cx="540" cy="875" rx="44" ry="88" transform="rotate(-155 540 875)"/>
+    <ellipse cx="660" cy="875" rx="44" ry="88" transform="rotate(155 660 875)"/>
+    <ellipse cx="750" cy="815" rx="50" ry="92" transform="rotate(118 750 815)"/>
+  </g>
+  <g font-family="Yu Gothic, Meiryo, Arial, sans-serif" fill="#244437">
+    <rect x="120" y="1010" width="270" height="112" rx="20" fill="#e6f3dc" stroke="#7ca46d" stroke-width="4"/>
+    <text x="255" y="1058" text-anchor="middle" font-size="29" font-weight="700">浅い海の</text>
+    <text x="255" y="1095" text-anchor="middle" font-size="29" font-weight="700">藻の上</text>
+    <rect x="465" y="1045" width="270" height="112" rx="20" fill="#e8f5e1" stroke="#7ca46d" stroke-width="4"/>
+    <text x="600" y="1093" text-anchor="middle" font-size="29" font-weight="700">葉っぱみたいな</text>
+    <text x="600" y="1130" text-anchor="middle" font-size="29" font-weight="700">突起</text>
+    <rect x="810" y="1010" width="270" height="112" rx="20" fill="#e6f3dc" stroke="#7ca46d" stroke-width="4"/>
+    <text x="945" y="1058" text-anchor="middle" font-size="29" font-weight="700">藻の緑を</text>
+    <text x="945" y="1095" text-anchor="middle" font-size="29" font-weight="700">少し借りる</text>
+  </g>
+  <text x="600" y="1280" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="36" fill="#365447">羊ではなく、藻場で暮らす小さなウミウシ。</text>
+  <text x="600" y="1365" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" fill="#5a6f63">IUCN Red List: Not Evaluated (NE; checked 2026)</text>
+</svg>
+

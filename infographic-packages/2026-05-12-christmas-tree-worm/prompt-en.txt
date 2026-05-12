@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle English infographic about the Christmas tree worm focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: Christmas tree worm, Spirobranchus giganteus, a small marine serpulid tube worm anchored in coral. Key identity traits: a pair of colorful spiral feather-like crowns (radioles) shaped like tiny trees, calcareous tube hidden in a coral head, small operculum lid, body mostly unseen inside coral; not a plant, not coral polyps, not a nudibranch, not a jellyfish.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, polished adult art direction, readable and calm.
+Composition/framing: Top title and scientific name; center large accurate species illustration on a coral head in shallow clear reef water; three small observation-note labels around the animal; bottom quiet context/status note; generous whitespace.
+Color palette: warm cream paper, coral pink, reef blue, soft yellow, red and white spiral crowns, small muted blue-green accents.
+Text (verbatim, keep short and legible):
+"Christmas tree worm"
+"Spirobranchus giganteus"
+"A tiny tube in coral"
+"Spiral gills feed and breathe"
+"It slips inside when startled"
+"IUCN: assessment not located (checked 2026)"
+Constraints: Discovery-first, not moralizing. Accurate legible English text. Do not invent population numbers. Do not imply blame. No logos, no watermark. No fake maps. Keep conservation/status as a quiet footer only.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, generic sea flower, generic coral polyps, showing the whole worm swimming.
