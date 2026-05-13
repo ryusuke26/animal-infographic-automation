@@ -28,11 +28,12 @@ A package is `completed` only when all of these are true:
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - Image Gen raster PNGs exist for both Japanese and English versions.
+- Image Gen raster PNGs pass visual identity QA: the species-specific body plan, distinctive structures, posture, and habitat cues are coherent enough for public posting.
 - Text-safe SVG/PNG backups exist when generated text may be unreliable.
 - `infographic-packages/INDEX.md` is updated.
 - Automation memory is updated.
 
-If Image Gen fails or is unavailable, keep the package artifacts but mark the topic as `incomplete` or `needs review`. SVG-only or SVG-derived PNG-only packages are not completed.
+If Image Gen fails, is unavailable, or produces species/anatomy-breaking art, keep the package artifacts but mark the topic as `incomplete` or `needs review`. SVG-only, SVG-derived PNG-only, or visually broken Image Gen packages are not completed.
 
 ## Canonical Storage
 
@@ -58,6 +59,12 @@ species_slug_english_textsafe_YYYY-MM-DD.svg
 ```
 
 Generated-image mirror copies under `.codex/generated_images/animal_img` are optional. If permissions fail, record it, but do not fail the run if package-local Image Gen PNGs exist.
+
+## Encoding Rules
+
+- Treat all package Markdown, text, SVG, and index files as UTF-8.
+- When reading or writing Japanese text from PowerShell, explicitly use UTF-8, for example `Get-Content -Encoding UTF8` and `Set-Content -Encoding UTF8`.
+- If Japanese common names, hashtags, or series labels display as mojibake, re-read the file as UTF-8 before editing or making a QA decision.
 
 ## Repeat-Avoidance Order
 
@@ -105,6 +112,8 @@ The static completed list in the automation prompt is only a fallback cue. Memor
 - Japanese-version posters should use the Japanese name or safe Japanese rendering as the main title.
 - English-version posters should use the English common name as the main title.
 - If generated text is unreliable, keep the Image Gen PNGs and add text-safe SVG/PNG backups.
+- Image QA must check the organism's body plan, distinctive structures, limb/appendage count, posture, and habitat. If the poster is merely cute or atmospheric but the anatomy/identity is wrong, mark it `needs review` instead of `completed`.
+- For species with difficult anatomy, avoid forcing dramatic poses that Image Gen repeatedly breaks. Use a safer natural posture and explain the behavior in labels or inset diagrams.
 - Avoid fake maps, unsupported visual claims, blame/rescue imagery, and unsupported population visuals.
 
 ## Caption Rules
@@ -128,7 +137,7 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 ## X Posting Rules
 
 - Start with a strong curiosity hook.
-- Use 0 to 2 relevant hashtags only.
+- Use 0 to 2 relevant hashtags only. For Japanese posts in this series, default to the fixed series tag `#世界の知らない生き物`.
 - Add ALT text for each image.
 - Keep the main post understandable; do not over-compress until the species/topic becomes unclear.
 - If the target is X free-version posting or a 140-character limit, prefer a short thread over a vague standalone caption.

@@ -1,0 +1,15 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a publication-ready field-notebook poster about the Sunda colugo / Malayan flying lemur, using a SAFE ANATOMY pose. Do not show a full spread-eagle glide. Show a side-on animal clinging vertically to a rainforest tree trunk, with the folded gliding membrane visible along the body edge.
+Subject: マレーヒヨケザル, Galeopterus variegatus. Accurate identity traits: a true colugo, not a flying squirrel, not a bat, not a lemur, not a monkey. Side profile on a tree trunk. Elongated small mammal body pressed to bark; large round dark eye; short rounded ear; blunt muzzle; mottled gray-brown lichen-like fur; four normal limbs with small clawed hands/feet gripping bark; a continuous furred patagium folded along the flank, visibly connecting neck/forelimb/hindlimb/tail as a soft edge, but NOT stretched like wings. Tail is slim and enclosed along the membrane edge, not bushy. Body anatomy must remain coherent and natural.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, warm textured paper, handmade educational tone, polished adult art direction, natural-history sketch accuracy, soft rainforest greens and bark browns.
+Composition/framing: Top title and scientific name; center large side-on colugo clinging to a tree; small inset sketch showing a simple silhouette of gliding path between two trees; three small observation labels; bottom quiet conservation/status note.
+Text:
+"マレーヒヨケザル"
+"Galeopterus variegatus"
+"木の幹にぴたりと張りつく"
+"夜に木から木へすべる"
+"折りたたんだ膜が尾までつづく"
+"IUCN Red List 2008: LC"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark.
+Avoid: spread-eagle flying pose, kite shape, huge triangular membrane, flying squirrel, bushy tail, bat wings, monkey or lemur face, extra limbs, melted fingers, missing limbs, impossible anatomy, fake map, crowded poster, tiny text, aggressive slogans, species misidentification, misspelled names.

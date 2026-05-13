@@ -45,6 +45,7 @@ This index is for the recurring automation "世界の知らない生きものイ
 | Date | Topic | Package | Reason |
 |---|---|---|---|
 | 2026-05-01 | Eastern Waterfan | `2026-05-01-eastern-waterfan` | Present in package folder but not confirmed in automation memory. Check contents before counting as completed. |
+| 2026-05-13 | Sunda Colugo / マレーヒヨケザル | `2026-05-13-sunda-colugo` | Image Gen v1 and v2 rejected for anatomy; v3 side-on clinging candidate exists, pending final human visual approval. |
 
 ## Maintenance Rules
 
