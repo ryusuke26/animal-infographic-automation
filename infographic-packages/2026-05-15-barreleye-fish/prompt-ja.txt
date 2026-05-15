@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle Japanese infographic about デメニギス, Macropinna microstoma, focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject identity: Pacific barreleye fish / デメニギス. Small deep-sea fish with a transparent fluid-filled dome on the head, two bright green tubular eyes visible inside the dome and pointing upward, small mouth, two dark nostril-like nares above the mouth that must NOT be drawn as the eyes, large flat fins, dark blue-black mesopelagic water. Not a generic goldfish, not an anglerfish, no lure, no big external cartoon eyes.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, handmade educational tone with adult art direction, polished and readable.
+Composition/framing: top title and scientific name, center large side/front three-quarter illustration of the fish hovering in deep midwater, small inset arrows showing eyes can look upward and forward, three short observation labels, bottom quiet status note. Generous whitespace.
+Color palette: deep indigo ocean, soft teal glow, transparent glassy head, bright green eyes, warm cream paper margins.
+Text (verbatim, keep short and legible):
+デメニギス
+Macropinna microstoma
+透明な頭の中の目
+北太平洋の中層
+上を見て、食べる時は前へ
+IUCN: NE (FishBase 2025-2)
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake map.
+Avoid: crowded poster, tiny text, dramatic monster mood, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, drawing the nostrils as eyes.

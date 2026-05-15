@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6efd9"/>
+  <rect x="58" y="58" width="1084" height="1384" rx="34" fill="#fff8e8" stroke="#6b705c" stroke-width="5"/>
+  <text x="600" y="145" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="76" font-weight="700" fill="#243322">コケガエル</text>
+  <text x="600" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#3f4738">Theloderma corticale</text>
+  <ellipse cx="602" cy="790" rx="355" ry="210" fill="#5c6f3a"/>
+  <ellipse cx="585" cy="760" rx="315" ry="190" fill="#6f8547"/>
+  <ellipse cx="430" cy="685" rx="72" ry="56" fill="#93a969"/>
+  <ellipse cx="732" cy="690" rx="70" ry="54" fill="#93a969"/>
+  <circle cx="420" cy="675" r="25" fill="#30281d"/>
+  <circle cx="742" cy="680" r="25" fill="#30281d"/>
+  <circle cx="412" cy="666" r="7" fill="#fff7cf"/>
+  <circle cx="734" cy="671" r="7" fill="#fff7cf"/>
+  <g fill="#263126" opacity="0.75">
+    <circle cx="505" cy="665" r="24"/><circle cx="600" cy="650" r="18"/><circle cx="680" cy="735" r="22"/>
+    <circle cx="520" cy="805" r="19"/><circle cx="655" cy="830" r="17"/><circle cx="770" cy="785" r="15"/>
+    <circle cx="360" cy="770" r="16"/><circle cx="475" cy="900" r="13"/><circle cx="715" cy="910" r="13"/>
+  </g>
+  <g fill="none" stroke="#243322" stroke-width="18" stroke-linecap="round">
+    <path d="M335 870 C260 950 215 1010 145 1040"/>
+    <path d="M855 865 C930 945 990 1005 1054 1034"/>
+    <path d="M520 930 C455 1015 405 1070 334 1120"/>
+    <path d="M690 930 C755 1015 805 1070 875 1120"/>
+  </g>
+  <g fill="#8aa35d" opacity="0.9">
+    <circle cx="260" cy="985" r="38"/><circle cx="930" cy="985" r="36"/><circle cx="405" cy="1070" r="34"/><circle cx="805" cy="1070" r="34"/>
+  </g>
+  <path d="M130 1125 C255 1055 375 1150 505 1090 C635 1030 760 1130 1068 1065 L1088 1225 L125 1225 Z" fill="#73735a"/>
+  <path d="M130 1165 C300 1110 445 1190 585 1140 C750 1080 880 1165 1070 1120" fill="none" stroke="#415a3e" stroke-width="28" stroke-linecap="round"/>
+  <g font-family="Yu Gothic, Meiryo, sans-serif" font-size="34" fill="#27351e">
+    <rect x="95" y="305" width="370" height="104" rx="26" fill="#e2edc0" stroke="#7b8f56" stroke-width="3"/>
+    <text x="280" y="370" text-anchor="middle">苔の岩みたいな皮ふ</text>
+    <rect x="730" y="315" width="370" height="104" rx="26" fill="#dce7c7" stroke="#7b8f56" stroke-width="3"/>
+    <text x="915" y="380" text-anchor="middle">渓流と洞窟の水辺</text>
+    <rect x="395" y="1238" width="410" height="104" rx="26" fill="#e8dfbc" stroke="#9b8750" stroke-width="3"/>
+    <text x="600" y="1304" text-anchor="middle">夜に虫をさがす</text>
+  </g>
+  <text x="600" y="1405" text-anchor="middle" font-family="Georgia, Yu Gothic, Meiryo, sans-serif" font-size="30" fill="#59604d">IUCN Red List 2017: Least Concern (LC)</text>
+</svg>

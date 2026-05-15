@@ -1,0 +1,9 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic poster about the Mossy Frog / Japanese common name コケガエル, scientific name Theloderma corticale.
+Subject identity: Vietnamese/Tonkin mossy frog, Theloderma corticale; mottled emerald green, dark brown and black bumpy skin; wart-like tubercles and tiny spines; large eyes partly protruding above water; sticky toe pads; blends into moss-covered wet limestone rock beside a cool mountain rainforest stream or flooded cave pool. It should look like a clump of moss on rock.
+Avoid identity errors: not a smooth generic green tree frog, not a poison dart frog, not a toad, not brightly warning-colored.
+Style/medium: childlike field notebook, crayon, oil pastel, colored pencil, warm textured paper, polished and readable.
+Composition/framing: top title and scientific name; center large frog camouflaged on mossy wet rock; three small observation labels; bottom quiet status note; generous whitespace; no map.
+Text (verbatim): "コケガエル\nTheloderma corticale\n苔の岩みたいな皮ふ\n渓流と洞窟の水辺\n夜に虫をさがす\nIUCN Red List 2017: LC"
+Constraints: Discovery-first, no moralizing, no rescue/blame imagery, no population numbers, no fake maps, no logos, no watermark.

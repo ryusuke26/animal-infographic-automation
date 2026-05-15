@@ -33,6 +33,8 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-10 | Harp sponge / ハープスポンジ | *Chondrocladia lyra* | `2026-05-10-harp-sponge` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. No dated IUCN species assessment located; public copy uses Not Evaluated / checked 2026. Avoid repeat. |
 | 2026-05-11 | Tengu sea slug / Leaf sheep sea slug / テングモウミウシ | *Costasiella kuroshimae* | `2026-05-11-tengu-sea-slug` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. Uses "leaf sheep" as an informal hook, with exact identity anchored to テングモウミウシ and *Costasiella kuroshimae*. Avoid repeat. |
 | 2026-05-12 | Christmas tree worm / イバラカンザシ | *Spirobranchus giganteus* | `2026-05-12-christmas-tree-worm` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. WoRMS taxonomic caution recorded; public copy anchors identity to Caribbean/western Atlantic *S. giganteus* and avoids fake global range claims. Avoid repeat. |
+| 2026-05-14 | Vietnamese mossy frog / Mossy Frog / コケガエル | *Theloderma corticale* | `2026-05-14-vietnamese-mossy-frog` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2017 LC; ASW broader range caution recorded. Avoid repeat. |
+| 2026-05-15 | Barreleye fish / Pacific barreleye / デメニギス | *Macropinna microstoma* | `2026-05-15-barreleye-fish` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. FishBase 2025-2 displays IUCN Red List Not Evaluated; MBARI identity cues recorded. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 

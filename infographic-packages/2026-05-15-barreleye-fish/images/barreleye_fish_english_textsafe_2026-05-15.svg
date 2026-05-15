@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Barreleye fish text-safe infographic</title>
+  <desc id="desc">Text-safe English infographic backup for Macropinna microstoma.</desc>
+  <rect width="1200" height="1500" fill="#f5ead4"/>
+  <rect x="70" y="70" width="1060" height="1360" rx="28" fill="#fff7e6" stroke="#25486b" stroke-width="6"/>
+  <text x="600" y="160" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="74" font-weight="700" fill="#16365f">Barreleye fish</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-style="italic" fill="#28616f">Macropinna microstoma</text>
+  <rect x="130" y="280" width="940" height="470" rx="34" fill="#0f2d4a"/>
+  <ellipse cx="610" cy="520" rx="360" ry="145" fill="#121820"/>
+  <polygon points="250,520 120,420 125,620" fill="#d7eaf2" opacity="0.9"/>
+  <ellipse cx="790" cy="505" rx="185" ry="135" fill="#a9d9e3" opacity="0.72" stroke="#d9fbff" stroke-width="8"/>
+  <ellipse cx="760" cy="490" rx="43" ry="62" fill="#93bd52" stroke="#244f40" stroke-width="7"/>
+  <ellipse cx="840" cy="490" rx="43" ry="62" fill="#93bd52" stroke="#244f40" stroke-width="7"/>
+  <ellipse cx="760" cy="510" rx="28" ry="9" fill="#15273b"/>
+  <ellipse cx="840" cy="510" rx="28" ry="9" fill="#15273b"/>
+  <circle cx="872" cy="575" r="12" fill="#101b24"/>
+  <circle cx="915" cy="575" r="12" fill="#101b24"/>
+  <path d="M885 626 Q920 638 952 626" fill="none" stroke="#d8e2e1" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="580" cy="675" rx="155" ry="48" fill="#24313b"/>
+  <ellipse cx="570" cy="367" rx="110" ry="55" fill="#202a33"/>
+  <text x="600" y="830" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="42" font-weight="700" fill="#173b5f">Green eyes look upward from inside a clear head.</text>
+  <rect x="135" y="900" width="285" height="220" rx="24" fill="#d8ead7" stroke="#79a98d" stroke-width="4"/>
+  <rect x="457" y="900" width="285" height="220" rx="24" fill="#d9edf2" stroke="#72a3b5" stroke-width="4"/>
+  <rect x="780" y="900" width="285" height="220" rx="24" fill="#f0e0be" stroke="#c69b5c" stroke-width="4"/>
+  <text x="278" y="975" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="30" font-weight="700" fill="#183a52">North Pacific</text>
+  <text x="278" y="1035" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="27" fill="#183a52">midwater in the</text>
+  <text x="278" y="1082" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="27" fill="#183a52">twilight zone</text>
+  <text x="600" y="975" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="30" font-weight="700" fill="#183a52">Eyes inside</text>
+  <text x="600" y="1035" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="27" fill="#183a52">Dark front spots</text>
+  <text x="600" y="1082" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="27" fill="#183a52">are nares, not eyes</text>
+  <text x="923" y="975" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="30" font-weight="700" fill="#183a52">Up, then forward</text>
+  <text x="923" y="1035" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="27" fill="#183a52">Looks up for prey</text>
+  <text x="923" y="1082" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="27" fill="#183a52">then forward to feed</text>
+  <text x="600" y="1245" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="34" fill="#173b5f">A slightly strange life spent looking through its own forehead.</text>
+  <text x="600" y="1335" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="30" fill="#456064">IUCN Red List: Not Evaluated (NE; FishBase 2025-2)</text>
+</svg>
