@@ -35,6 +35,8 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-12 | Christmas tree worm / イバラカンザシ | *Spirobranchus giganteus* | `2026-05-12-christmas-tree-worm` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. WoRMS taxonomic caution recorded; public copy anchors identity to Caribbean/western Atlantic *S. giganteus* and avoids fake global range claims. Avoid repeat. |
 | 2026-05-14 | Vietnamese mossy frog / Mossy Frog / コケガエル | *Theloderma corticale* | `2026-05-14-vietnamese-mossy-frog` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2017 LC; ASW broader range caution recorded. Avoid repeat. |
 | 2026-05-15 | Barreleye fish / Pacific barreleye / デメニギス | *Macropinna microstoma* | `2026-05-15-barreleye-fish` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. FishBase 2025-2 displays IUCN Red List Not Evaluated; MBARI identity cues recorded. Avoid repeat. |
+| 2026-05-16 | Devil's cigar / Texas star / キリノミタケ | *Chorioactis geaster* | `2026-05-16-devils-cigar` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. Japan Red List 2025 VU recorded separately; IUCN formal assessment not located / fungal red-list proposal under assessment. Avoid repeat. |
+| 2026-05-17 | Violet Snail / Common Violet Sea-snail / アサガオガイ | *Janthina janthina* | `2026-05-17-violet-snail` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List display is attributed through SeaLifeBase 2025-1 as Not Evaluated; no population number used. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 

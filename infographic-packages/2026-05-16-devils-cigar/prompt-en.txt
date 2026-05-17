@@ -1,0 +1,11 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about Devil's cigar / Texas star fungus, focused on discovery and education rather than advocacy.
+Subject: Chorioactis geaster, a rare cup fungus. Accurate identity cues: starts as a dark brown fuzzy cigar-shaped capsule emerging near decaying wood; mature body splits into 4 to 7 thick star-like rays; tan to orange inner surface; small smoky spore puff/hissing cue shown as a tiny visual note; forest floor / rotten cedar elm or broadleaf wood habitat. It is a fungus, not a flower, not a sea star, not a generic earthstar, not a plant.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, handmade but polished and readable, adult art direction.
+Composition/framing: Top title and scientific name; center large fungus illustration showing one unopened cigar capsule and one opened star form beside decaying wood; three small observation-note labels around it; bottom quiet status note; generous whitespace. Make it feel like a coherent pair with the Japanese version, but not an exact duplicate.
+Color palette: warm paper, deep browns, rust orange, tan, moss green, muted forest floor tones.
+Text (verbatim, keep large and short): "Devil's cigar" "Chorioactis geaster" "Cigar-like capsule" "Opens into a star" "Texas, Oklahoma & Japan" "IUCN: not assessed / Japan RL: VU"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No fake maps, no logos, no watermark. English common name must be the main title.
+Avoid: crowded poster, tiny text, misspelled scientific name, fake range map, rescue slogans, scary horror tone, generic mushroom cap, generic earthstar, sea star, flower.
+

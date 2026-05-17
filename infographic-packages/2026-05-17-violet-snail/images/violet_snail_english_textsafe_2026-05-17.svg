@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6eddc"/>
+  <path d="M0 900 C180 830 330 930 500 865 C690 792 850 830 1200 750 L1200 1500 L0 1500 Z" fill="#b8dbe2" opacity="0.55"/>
+  <path d="M0 995 C220 930 390 1040 600 970 C800 905 940 950 1200 885" fill="none" stroke="#5f9faf" stroke-width="10" opacity="0.35"/>
+  <text x="90" y="135" font-family="Arial, sans-serif" font-size="78" font-weight="700" fill="#3e3158">Violet Snail</text>
+  <text x="94" y="198" font-family="Georgia, serif" font-size="39" font-style="italic" fill="#5b4d6e">Janthina janthina</text>
+  <text x="92" y="260" font-family="Arial, sans-serif" font-size="31" fill="#5d5a52">A small snail that hangs from a bubble raft at the sea surface.</text>
+
+  <g transform="translate(610 620)">
+    <ellipse cx="0" cy="0" rx="218" ry="172" fill="#8e5fb7" stroke="#4b3565" stroke-width="9"/>
+    <path d="M-135 8 C-128 -95 -30 -142 60 -106 C139 -75 152 32 91 86 C31 140 -76 111 -84 31 C-91 -32 -30 -61 18 -43 C62 -27 72 28 41 57 C11 86 -43 69 -42 25" fill="none" stroke="#f2d7ef" stroke-width="38" stroke-linecap="round"/>
+    <path d="M168 38 C242 20 302 53 326 109 C265 121 202 107 159 78 Z" fill="#d7c8d6" stroke="#4b3565" stroke-width="7"/>
+    <path d="M310 100 C352 87 384 96 410 117" fill="none" stroke="#4b3565" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="340" cy="101" r="7" fill="#332844"/>
+    <path d="M-110 146 C-90 202 -36 233 20 242 C86 252 145 230 181 188" fill="none" stroke="#5a466e" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#eef8fb" stroke="#7bbeca" stroke-width="5" opacity="0.9">
+      <circle cx="-170" cy="228" r="37"/>
+      <circle cx="-96" cy="259" r="31"/>
+      <circle cx="-26" cy="272" r="42"/>
+      <circle cx="55" cy="263" r="34"/>
+      <circle cx="126" cy="232" r="39"/>
+      <circle cx="195" cy="192" r="27"/>
+    </g>
+  </g>
+
+  <g transform="translate(206 745)">
+    <ellipse cx="0" cy="0" rx="95" ry="32" fill="#e4a8ba" opacity="0.75"/>
+    <path d="M-72 25 C-92 80 -56 120 -75 170 M-22 29 C-44 96 -11 135 -38 190 M38 27 C12 84 54 128 24 178" fill="none" stroke="#b45f83" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+    <text x="-108" y="-54" font-family="Arial, sans-serif" font-size="28" fill="#7a5b70">floating cnidarian</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="32" fill="#3f3d39">
+    <rect x="95" y="1035" width="320" height="95" rx="18" fill="#fff8ec" stroke="#d4b481" stroke-width="4"/>
+    <text x="126" y="1094">hangs from bubbles</text>
+    <rect x="440" y="1035" width="320" height="95" rx="18" fill="#fff8ec" stroke="#d4b481" stroke-width="4"/>
+    <text x="468" y="1094">drifts below surface</text>
+    <rect x="785" y="1035" width="320" height="95" rx="18" fill="#fff8ec" stroke="#d4b481" stroke-width="4"/>
+    <text x="812" y="1094">eats floating prey</text>
+  </g>
+
+  <text x="94" y="1235" font-family="Arial, sans-serif" font-size="32" fill="#51483d">The thin violet shell and clear bubble raft are the key clues.</text>
+  <text x="94" y="1288" font-family="Arial, sans-serif" font-size="32" fill="#51483d">A slightly strange life suspended below wind and waves.</text>
+  <rect x="90" y="1360" width="1020" height="72" rx="18" fill="#e9ded0"/>
+  <text x="120" y="1407" font-family="Arial, sans-serif" font-size="29" fill="#50483f">IUCN Red List via SeaLifeBase 2025-1: Not Evaluated (NE)</text>
+</svg>

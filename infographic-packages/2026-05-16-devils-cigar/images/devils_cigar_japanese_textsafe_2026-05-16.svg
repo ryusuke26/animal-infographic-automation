@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="キリノミタケの日本語インフォグラフィック">
+  <rect width="1200" height="1500" fill="#f7efd9"/>
+  <rect x="58" y="58" width="1084" height="1384" rx="34" fill="#fff8e8" stroke="#5b4636" stroke-width="8"/>
+  <text x="600" y="155" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="86" font-weight="700" fill="#33261f">キリノミタケ</text>
+  <text x="600" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#604536">Chorioactis geaster</text>
+
+  <ellipse cx="600" cy="1050" rx="390" ry="70" fill="#d8c79d" opacity="0.7"/>
+  <path d="M235 1020 C385 940 585 960 850 1020" fill="none" stroke="#7f5b3b" stroke-width="45" stroke-linecap="round"/>
+  <path d="M250 1018 C400 970 625 984 850 1018" fill="none" stroke="#9a734e" stroke-width="24" stroke-linecap="round"/>
+
+  <g transform="translate(680 650)">
+    <path d="M0 -45 C60 -190 120 -250 175 -235 C225 -220 170 -120 70 -20 C185 -35 270 5 268 58 C265 118 145 102 42 47 C95 155 80 250 20 270 C-35 286 -47 150 -22 54 C-112 128 -235 155 -258 96 C-280 40 -150 -18 -43 -24 C-125 -110 -162 -220 -103 -250 C-50 -276 -25 -147 0 -45Z" fill="#c46f38" stroke="#4d3329" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M8 -31 C55 -124 102 -177 143 -170 M60 4 C145 -4 205 21 214 54 M17 51 C52 137 41 203 9 219 M-31 28 C-108 88 -181 105 -207 82 M-38 -21 C-103 -79 -125 -153 -91 -184" fill="none" stroke="#7b3f2d" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="12" cy="8" r="28" fill="#e2b36f" opacity="0.75"/>
+  </g>
+
+  <g transform="translate(360 780) rotate(-15)">
+    <path d="M-72 -185 C-20 -245 72 -210 90 -118 C110 -20 76 170 9 210 C-58 170 -103 7 -98 -96 C-96 -132 -88 -162 -72 -185Z" fill="#442d25" stroke="#2a1f1a" stroke-width="11"/>
+    <path d="M-52 -164 C-5 -202 52 -176 65 -103 C80 -15 50 125 7 164 C-37 128 -69 -9 -68 -89 C-67 -122 -61 -148 -52 -164Z" fill="#5d3a2b"/>
+    <g stroke="#2f211c" stroke-width="6" stroke-linecap="round" opacity="0.75">
+      <path d="M-62 -130 L-90 -150"/><path d="M-58 -82 L-88 -86"/><path d="M-46 -30 L-78 -17"/>
+      <path d="M-24 35 L-52 56"/><path d="M16 74 L-2 108"/><path d="M46 -130 L76 -151"/>
+      <path d="M58 -70 L91 -78"/><path d="M54 2 L88 15"/><path d="M35 80 L60 110"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#78624b" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <path d="M884 575 C950 520 990 470 978 426"/>
+    <path d="M905 608 C985 602 1040 578 1065 542"/>
+    <path d="M857 625 C935 680 1008 710 1078 692"/>
+  </g>
+  <text x="1000" y="428" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="28" fill="#5b4636">胞子の雲</text>
+
+  <g font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="37" font-weight="700" fill="#3e3028">
+    <rect x="115" y="335" width="345" height="88" rx="22" fill="#eadbb8" stroke="#6b513e" stroke-width="4"/>
+    <text x="287" y="392" text-anchor="middle">葉巻のように出る</text>
+    <rect x="745" y="335" width="340" height="88" rx="22" fill="#eadbb8" stroke="#6b513e" stroke-width="4"/>
+    <text x="915" y="392" text-anchor="middle">星形にひらく</text>
+    <rect x="256" y="1190" width="688" height="88" rx="22" fill="#eadbb8" stroke="#6b513e" stroke-width="4"/>
+    <text x="600" y="1247" text-anchor="middle">テキサス周辺と日本など</text>
+  </g>
+
+  <text x="600" y="1345" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="30" fill="#5b4636">IUCN: 正式評価未掲載（2026確認） / 日本RL 2025: VU</text>
+  <text x="600" y="1396" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="24" fill="#7d6650">自然史を知るための観察メモ。個体数は使わない。</text>
+</svg>
+

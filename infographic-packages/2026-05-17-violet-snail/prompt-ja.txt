@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a corrected Violet Snail / アサガオガイ poster where the animal is unmistakably hanging from the underside of its bubble raft. The image must not show many eyes or eye-like dots.
+Subject: Janthina janthina, a small pelagic marine snail with a thin violet-purple coiled shell and pale soft body. Show a clear side-view ocean-surface cross-section: a cluster of transparent mucus bubbles sits exactly at the water surface, and the violet snail hangs upside-down directly BELOW the bubbles, attached from underneath. The shell and body are suspended under the surface line like a pendant. If the head is visible, show only simple snail anatomy: at most two small tentacles and tiny understated eye dots, not a row of eyes. Make bubbles transparent circles, not eyes. Include one small by-the-wind sailor or bluebottle-like floating cnidarian off to the side as food context, but keep the snail as the main subject. It is a snail, not a nudibranch, not a jellyfish, not a hermit crab.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, handmade but polished, accurate species identity and habitat cues.
+Composition/framing: top Japanese title and scientific name; center large cross-section scene with bubbles above and violet snail dangling below; three small observation labels; bottom quiet status note; generous whitespace.
+Color palette: warm paper, violet shell, pale blue ocean surface, transparent bubbles, small soft pink/blue cnidarian accent.
+Text (verbatim): "アサガオガイ" "Janthina janthina" "泡からぶら下がる" "海面下をただよう巻貝" "浮く刺胞動物を食べる" "IUCN: Not Evaluated"
+Constraints: Discovery-first, not moralizing. Accurate legible text. No population numbers. No logos, no watermark. Bubbles must be clear bubbles, not eyes.
+Avoid: many eyes, eye clusters, face-like bubbles, snail sitting on top of bubbles, shell riding on bubbles like a boat, bubbles below the snail, generic purple seashell, fake maps, crowded poster, tiny text, aggressive conservation slogans, misspelled scientific name.
