@@ -1,0 +1,11 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle discovery-first infographic about the Orchid Mantis, *Hymenopus coronatus*, focused on natural-history curiosity rather than advocacy.
+Subject identity: a single orchid mantis, not a generic orchid flower, not a butterfly, not a grasshopper. Show mantis head, folded raptorial forelegs, white-to-pale-pink body, large petal-like lobes on the middle and hind legs, slender abdomen, sitting on green damp tropical rainforest vegetation. It can look flower-like but must remain clearly a mantis.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, warm handmade educational tone, textured paper, accurate species cues, polished and readable.
+Composition/framing: Top English title; scientific name below; center large mantis on green vegetation; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm cream paper, pale pink and white mantis, leafy green rainforest, tiny yellow pollen-like accent, calm ink lines.
+Text (verbatim, keep short and legible): "Orchid Mantis" "*Hymenopus coronatus*" "petal-like legs" "waits on vegetation" "lures visiting insects" "IUCN: no assessment located"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake map.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, turning the subject into only a flower.
+

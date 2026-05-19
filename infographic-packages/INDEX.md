@@ -37,6 +37,8 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-15 | Barreleye fish / Pacific barreleye / デメニギス | *Macropinna microstoma* | `2026-05-15-barreleye-fish` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. FishBase 2025-2 displays IUCN Red List Not Evaluated; MBARI identity cues recorded. Avoid repeat. |
 | 2026-05-16 | Devil's cigar / Texas star / キリノミタケ | *Chorioactis geaster* | `2026-05-16-devils-cigar` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. Japan Red List 2025 VU recorded separately; IUCN formal assessment not located / fungal red-list proposal under assessment. Avoid repeat. |
 | 2026-05-17 | Violet Snail / Common Violet Sea-snail / アサガオガイ | *Janthina janthina* | `2026-05-17-violet-snail` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List display is attributed through SeaLifeBase 2025-1 as Not Evaluated; no population number used. Avoid repeat. |
+| 2026-05-18 | Thorny Devil / モロクトカゲ | *Moloch horridus* | `2026-05-18-thorny-devil` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2017 LC is cross-checked through Reptile Database/Bush Heritage because direct IUCN fetch was unavailable; no population number used. Avoid repeat. |
+| 2026-05-19 | Orchid Mantis / ハナカマキリ | *Hymenopus coronatus* | `2026-05-19-orchid-mantis` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List checked 2026; no species assessment located, so no category or population number used. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 

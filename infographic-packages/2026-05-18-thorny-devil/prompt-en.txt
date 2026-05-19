@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about the Thorny Devil, *Moloch horridus*, focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: An Australian thorny devil lizard, *Moloch horridus*: squat small agamid lizard, orange-brown/yellow-brown sandy camouflage, body covered in many conical thorn-like spines, larger spikes above the eyes, a spiny false head / lump on the back of the neck, short tail, short legs, dry sand and spinifex grassland habitat, small ant trail nearby. It is not a North American horned lizard, not a bearded dragon, not a dinosaur, and must not squirt blood from the eyes.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, polished adult art direction, readable and uncrowded.
+Composition/framing: Top title and scientific name; center large thorny devil in dry sand and spinifex; three small observation labels around it; one tiny inset showing water droplets moving through skin grooves toward the mouth; bottom quiet conservation/status note; generous whitespace.
+Color palette: warm ochre sand, rust orange, soft brown, muted spinifex green, pale sky blue accent for water droplets, warm cream paper.
+Text (verbatim, keep short and legible):
+"Thorny Devil"
+"Moloch horridus"
+"Sandy thorn camouflage"
+"Waits beside ant trails"
+"Skin grooves guide water"
+"IUCN 2017: LC"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark. Avoid fake maps.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, North American horned-lizard traits, eye-blood behavior, extra eyes, dragon wings.
