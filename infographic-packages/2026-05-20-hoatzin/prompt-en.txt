@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle English infographic about the Hoatzin (*Opisthocomus hoazin*) focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject identity: Adult hoatzin, a real South American bird, not a dinosaur and not a pheasant. Show a stocky brown waterside bird with a spiky orange-brown crest, small head, blue bare facial skin, red eye, short dark bill, buff-streaked brown wings, rusty/chestnut belly, and a long square tail. It is perched in dense riverbank vegetation over still swamp water in an Amazon/Orinoco-style floodplain forest. Include one small inset sketch of a chick using tiny wing claws to climb a branch; make the inset clearly a chick, not the main adult.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, handmade educational tone, accurate species identity, polished but imperfect lines.
+Composition/framing: Top title and scientific name; center large adult hoatzin in habitat; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: warm paper, river greens, chestnut brown, rusty orange, blue face accent, small quiet gray status footer.
+Text (verbatim, keep short and legible):
+"Hoatzin"
+"Opisthocomus hoazin"
+"River-edge forests"
+"Leaves ferment in the crop"
+"Chicks climb with wing claws"
+"IUCN 2024: LC"
+Constraints: Discovery-first, not moralizing. Accurate legible English text. Do not invent population numbers. Do not imply blame. No logos, no watermark. No fake maps.
+Avoid: aggressive slogans, rescue imagery, many extra animals, dinosaur monster look, generic chicken look, incorrect many claws on the adult, unreadable dense typography.
+

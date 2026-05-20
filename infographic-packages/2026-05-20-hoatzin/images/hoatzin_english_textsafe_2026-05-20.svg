@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Hoatzin text-safe infographic</title>
+  <desc id="desc">A text-safe English infographic about the hoatzin, with accurate labels and a simple field-notebook illustration.</desc>
+  <rect width="1200" height="1500" fill="#f7ecd7"/>
+  <g opacity="0.25">
+    <path d="M40 120 C220 80 380 120 570 95 C770 68 945 100 1160 76" fill="none" stroke="#d6b98d" stroke-width="5"/>
+    <path d="M70 1380 C260 1350 430 1390 620 1365 C790 1340 980 1375 1140 1350" fill="none" stroke="#d6b98d" stroke-width="5"/>
+  </g>
+  <text x="600" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#9d4e1f">Hoatzin</text>
+  <text x="600" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-style="italic" fill="#4d463d">Opisthocomus hoazin</text>
+
+  <g transform="translate(80 250)">
+    <rect x="0" y="0" width="690" height="820" rx="24" fill="#dbe8cb" opacity="0.72"/>
+    <path d="M35 680 C150 560 190 430 260 335 C350 215 510 165 660 115" fill="none" stroke="#6f5a35" stroke-width="32" stroke-linecap="round"/>
+    <path d="M5 700 C180 740 375 720 690 760 L690 820 L0 820 Z" fill="#87ad9d" opacity="0.62"/>
+    <g stroke="#4c7d44" stroke-width="9" stroke-linecap="round" opacity="0.82">
+      <path d="M95 145 C70 300 72 495 38 650"/>
+      <path d="M210 80 C184 205 180 390 150 555"/>
+      <path d="M575 95 C530 250 505 445 480 640"/>
+      <path d="M645 230 C590 360 575 515 548 710"/>
+    </g>
+    <g fill="#6f9d4b" opacity="0.85">
+      <ellipse cx="115" cy="220" rx="36" ry="92" transform="rotate(28 115 220)"/>
+      <ellipse cx="175" cy="325" rx="34" ry="86" transform="rotate(-42 175 325)"/>
+      <ellipse cx="530" cy="245" rx="42" ry="102" transform="rotate(36 530 245)"/>
+      <ellipse cx="602" cy="410" rx="36" ry="98" transform="rotate(-34 602 410)"/>
+      <ellipse cx="412" cy="690" rx="42" ry="110" transform="rotate(66 412 690)"/>
+    </g>
+
+    <g transform="translate(265 185)">
+      <path d="M235 180 C380 210 455 390 415 565 C395 650 305 660 215 610 C105 550 70 405 88 295 C102 210 150 170 235 180 Z" fill="#6b4229" stroke="#2d241e" stroke-width="8"/>
+      <path d="M130 265 C235 310 330 350 405 440 C398 495 372 560 315 600 C250 545 165 492 95 405 C92 345 103 300 130 265 Z" fill="#9f4f22" opacity="0.9"/>
+      <path d="M155 210 C230 235 308 275 386 330" fill="none" stroke="#ead8a8" stroke-width="14" stroke-linecap="round" stroke-dasharray="18 28"/>
+      <path d="M350 555 C400 640 465 735 522 815" fill="none" stroke="#2d241e" stroke-width="58" stroke-linecap="round"/>
+      <path d="M360 595 C405 675 455 750 505 832" fill="none" stroke="#edd6a0" stroke-width="16" stroke-linecap="round"/>
+      <path d="M126 175 C82 168 58 133 70 96 C84 54 134 32 177 50 C225 72 232 132 203 162 C184 181 154 183 126 175 Z" fill="#c8843a" stroke="#2d241e" stroke-width="7"/>
+      <path d="M103 95 C50 33 18 -8 -40 -62 M117 92 C98 18 86 -35 58 -105 M137 92 C145 15 159 -43 170 -108 M155 98 C192 33 230 -12 270 -62" stroke="#9d4e1f" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="122" cy="110" rx="44" ry="34" fill="#5da4bd" stroke="#2d241e" stroke-width="5"/>
+      <circle cx="121" cy="109" r="11" fill="#d43b26" stroke="#1f1713" stroke-width="4"/>
+      <path d="M82 124 C38 126 10 137 -17 153 C19 161 52 158 80 145 Z" fill="#2e2a25" stroke="#1e1714" stroke-width="5"/>
+      <path d="M180 615 C138 680 100 735 62 790" fill="none" stroke="#2d241e" stroke-width="18" stroke-linecap="round"/>
+      <path d="M250 630 C234 700 225 760 215 822" fill="none" stroke="#2d241e" stroke-width="18" stroke-linecap="round"/>
+      <path d="M55 785 C30 800 15 812 -4 828 M55 785 C44 815 35 842 22 865" stroke="#2d241e" stroke-width="8" stroke-linecap="round"/>
+      <path d="M215 822 C188 835 168 848 145 865 M215 822 C210 855 202 880 196 908" stroke="#2d241e" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="805" y="285" width="335" height="120" rx="18" fill="#fbf7e8" stroke="#6f9d4b" stroke-width="6"/>
+    <text x="973" y="335" text-anchor="middle" font-size="34" font-weight="700" fill="#3f4a34">River-edge</text>
+    <text x="973" y="378" text-anchor="middle" font-size="34" font-weight="700" fill="#3f4a34">forests</text>
+    <rect x="790" y="465" width="365" height="145" rx="18" fill="#fbf7e8" stroke="#c77c35" stroke-width="6"/>
+    <text x="973" y="522" text-anchor="middle" font-size="31" font-weight="700" fill="#55341f">Leaves ferment</text>
+    <text x="973" y="565" text-anchor="middle" font-size="31" font-weight="700" fill="#55341f">in the crop</text>
+    <rect x="795" y="680" width="360" height="150" rx="18" fill="#fbf7e8" stroke="#5da4bd" stroke-width="6"/>
+    <text x="975" y="737" text-anchor="middle" font-size="30" font-weight="700" fill="#294655">Chicks climb</text>
+    <text x="975" y="780" text-anchor="middle" font-size="30" font-weight="700" fill="#294655">with wing claws</text>
+  </g>
+
+  <g transform="translate(820 870)">
+    <circle cx="130" cy="130" r="120" fill="#e7f0dc" stroke="#6f9d4b" stroke-width="7"/>
+    <path d="M115 220 C145 160 170 95 195 40" fill="none" stroke="#6f5a35" stroke-width="24" stroke-linecap="round"/>
+    <ellipse cx="112" cy="124" rx="44" ry="82" transform="rotate(-20 112 124)" fill="#8a5c36" stroke="#2d241e" stroke-width="5"/>
+    <circle cx="103" cy="64" r="34" fill="#c8843a" stroke="#2d241e" stroke-width="5"/>
+    <path d="M87 45 C63 20 45 3 20 -18 M102 43 C98 10 96 -15 93 -42 M117 48 C135 16 152 -7 174 -30" stroke="#9d4e1f" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="95" cy="62" r="7" fill="#202020"/>
+    <path d="M75 72 C55 77 41 83 26 93" fill="none" stroke="#202020" stroke-width="5" stroke-linecap="round"/>
+    <path d="M78 152 C42 176 32 196 18 218 M137 150 C164 178 171 198 180 225" stroke="#2d241e" stroke-width="8" stroke-linecap="round"/>
+    <path d="M18 218 C0 221 -12 230 -24 242 M180 225 C197 219 211 218 226 219" stroke="#2d241e" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="1260" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#44382e">A slow, leaf-fermenting riverbank life.</text>
+  <text x="600" y="1370" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#5f5a51">IUCN Red List 2024: Least Concern (LC)</text>
+</svg>
+
