@@ -40,6 +40,8 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-18 | Thorny Devil / モロクトカゲ | *Moloch horridus* | `2026-05-18-thorny-devil` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2017 LC is cross-checked through Reptile Database/Bush Heritage because direct IUCN fetch was unavailable; no population number used. Avoid repeat. |
 | 2026-05-19 | Orchid Mantis / ハナカマキリ | *Hymenopus coronatus* | `2026-05-19-orchid-mantis` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List checked 2026; no species assessment located, so no category or population number used. Avoid repeat. |
 | 2026-05-20 | Hoatzin / ツメバケイ | *Opisthocomus hoazin* | `2026-05-20-hoatzin` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2024 LC is cited through Birds of the World/IUCN data display; no population number used. Avoid repeat. |
+| 2026-05-21 | Giant Siphonophore / マヨイアイオイクラゲ | *Praya dubia* | `2026-05-21-giant-siphonophore` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List checked 2026; no species assessment located, so no category or population number used. Avoid repeat. |
+| 2026-05-22 | Tufted deer / マエガミジカ | *Elaphodus cephalophus* | `2026-05-22-tufted-deer` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2015 NT; no population number used. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 

@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about the giant siphonophore, focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: *Praya dubia*, a transparent deep-sea siphonophore colony; show a very long thin chain-like body made of many tiny zooid beads, paired swimming-bell structures near the front, fine trailing stinging tentacles, soft blue bioluminescent glow, dark pelagic midwater. It is not a single jellyfish bell, not an octopus, not a fish, not seaweed.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, handmade educational tone, adult art direction, polished and readable.
+Composition/framing: Top title and name; center large long transparent colony in deep water; three small observation-note labels; bottom quiet status note; generous whitespace.
+Color palette: deep indigo water, translucent blue-white animal, warm paper, small pale cyan glow.
+Text (verbatim):
+"Giant Siphonophore"
+"Praya dubia"
+"Many small roles"
+"A glowing thread"
+"Pelagic midwater"
+"IUCN: not assessed / checked 2026"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake map.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, one big jellyfish bell, octopus arms, fish body, seaweed.
+

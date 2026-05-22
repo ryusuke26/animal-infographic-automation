@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f7edd8"/>
+  <rect x="70" y="80" width="1060" height="1340" rx="34" fill="#11304a"/>
+  <g opacity="0.18">
+    <circle cx="220" cy="300" r="3" fill="#d8f6ff"/>
+    <circle cx="880" cy="260" r="2" fill="#d8f6ff"/>
+    <circle cx="1010" cy="630" r="3" fill="#d8f6ff"/>
+    <circle cx="180" cy="980" r="2" fill="#d8f6ff"/>
+    <circle cx="940" cy="1110" r="2" fill="#d8f6ff"/>
+  </g>
+  <text x="600" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#fff5dc">Giant Siphonophore</text>
+  <text x="600" y="228" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-style="italic" fill="#bdefff">Praya dubia</text>
+  <text x="600" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" fill="#fff5dc">a long, thin deep-sea colony</text>
+  <path d="M185 560 C310 440, 505 430, 650 520 S900 640, 1020 535" fill="none" stroke="#bff7ff" stroke-width="20" stroke-linecap="round" opacity="0.9"/>
+  <path d="M185 560 C310 440, 505 430, 650 520 S900 640, 1020 535" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.95"/>
+  <g fill="#e8fdff" stroke="#78d9ee" stroke-width="3">
+    <ellipse cx="190" cy="558" rx="28" ry="38"/>
+    <ellipse cx="245" cy="512" rx="19" ry="24"/>
+    <ellipse cx="300" cy="480" rx="16" ry="20"/>
+    <ellipse cx="360" cy="460" rx="13" ry="17"/>
+    <ellipse cx="430" cy="455" rx="12" ry="16"/>
+    <ellipse cx="505" cy="470" rx="12" ry="16"/>
+    <ellipse cx="580" cy="500" rx="13" ry="17"/>
+    <ellipse cx="655" cy="526" rx="12" ry="16"/>
+    <ellipse cx="730" cy="560" rx="11" ry="15"/>
+    <ellipse cx="805" cy="596" rx="11" ry="14"/>
+    <ellipse cx="880" cy="602" rx="10" ry="14"/>
+    <ellipse cx="955" cy="568" rx="11" ry="15"/>
+    <ellipse cx="1015" cy="535" rx="10" ry="14"/>
+  </g>
+  <g stroke="#7ee9ff" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M380 462 C345 620, 380 710, 330 835"/>
+    <path d="M515 472 C490 615, 545 710, 505 900"/>
+    <path d="M650 525 C620 675, 670 780, 625 955"/>
+    <path d="M805 595 C780 735, 835 850, 805 1030"/>
+    <path d="M955 568 C935 715, 995 820, 940 1010"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="135" y="865" width="305" height="132" rx="22" fill="#fff5dc"/>
+    <text x="165" y="920" font-size="31" font-weight="700" fill="#11304a">Many small roles</text>
+    <text x="165" y="960" font-size="22" fill="#11304a">swim, feed, defend</text>
+    <rect x="455" y="1022" width="300" height="132" rx="22" fill="#fff5dc"/>
+    <text x="485" y="1077" font-size="31" font-weight="700" fill="#11304a">A glowing thread</text>
+    <text x="485" y="1117" font-size="22" fill="#11304a">fine tentacles catch prey</text>
+    <rect x="765" y="850" width="300" height="132" rx="22" fill="#fff5dc"/>
+    <text x="795" y="905" font-size="31" font-weight="700" fill="#11304a">Pelagic midwater</text>
+    <text x="795" y="945" font-size="22" fill="#11304a">drifting in deep open water</text>
+  </g>
+  <text x="600" y="1325" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" fill="#fff5dc">IUCN Red List checked 2026: species assessment not located</text>
+</svg>
+

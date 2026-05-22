@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6efe0"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="42" fill="#fbf7eb" stroke="#67513f" stroke-width="6"/>
+  <g opacity="0.28">
+    <path d="M105 1230 C230 1170 295 1248 420 1190 C545 1132 650 1178 765 1125 C880 1072 975 1130 1094 1078 L1094 1440 L105 1440 Z" fill="#7d9b66"/>
+    <path d="M105 1100 C250 1038 352 1120 500 1054 C650 986 790 1056 1095 976 L1095 1440 L105 1440 Z" fill="#95b987"/>
+  </g>
+  <text x="600" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="84" font-weight="700" fill="#2f2a23">Tufted deer</text>
+  <text x="600" y="214" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#4b4034">Elaphodus cephalophus</text>
+
+  <g transform="translate(0,22)">
+    <ellipse cx="610" cy="845" rx="260" ry="74" fill="#c9b18f" opacity="0.45"/>
+    <path d="M375 650 C405 520 520 448 690 488 C810 515 865 606 855 712 C846 822 730 886 575 856 C445 831 360 760 375 650 Z" fill="#5b463b" stroke="#2f2824" stroke-width="8"/>
+    <path d="M450 710 C400 800 332 885 268 962" stroke="#4a382e" stroke-width="28" stroke-linecap="round"/>
+    <path d="M545 724 C505 840 460 955 405 1068" stroke="#4a382e" stroke-width="28" stroke-linecap="round"/>
+    <path d="M715 718 C760 826 825 935 890 1046" stroke="#4a382e" stroke-width="28" stroke-linecap="round"/>
+    <path d="M790 684 C850 770 920 856 1005 932" stroke="#4a382e" stroke-width="28" stroke-linecap="round"/>
+    <path d="M815 520 C910 482 1010 534 1040 622 C1068 706 1016 778 928 792 C850 804 780 738 770 650 C762 588 780 548 815 520 Z" fill="#5b463b" stroke="#2f2824" stroke-width="8"/>
+    <path d="M850 505 C870 455 900 421 940 402" stroke="#2f2824" stroke-width="11" stroke-linecap="round"/>
+    <path d="M928 508 C945 456 978 424 1022 410" stroke="#2f2824" stroke-width="11" stroke-linecap="round"/>
+    <path d="M823 526 C856 474 922 454 990 481 C948 514 895 528 823 526 Z" fill="#191715"/>
+    <ellipse cx="952" cy="605" rx="18" ry="15" fill="#141312"/>
+    <path d="M1025 650 C1070 665 1088 697 1064 724" fill="none" stroke="#2f2824" stroke-width="10" stroke-linecap="round"/>
+    <path d="M1012 700 C1027 746 1008 778 982 802" fill="none" stroke="#ead9bd" stroke-width="10" stroke-linecap="round"/>
+    <path d="M997 705 C1008 742 992 767 968 790" fill="none" stroke="#ead9bd" stroke-width="7" stroke-linecap="round"/>
+    <path d="M367 606 C305 570 270 520 255 470 C335 482 382 522 410 590 Z" fill="#fbf7eb" stroke="#2f2824" stroke-width="7"/>
+    <path d="M818 688 C910 688 984 720 1048 764" fill="none" stroke="#d0c0a8" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="495" cy="575" r="8" fill="#d7c19d" opacity="0.9"/>
+    <circle cx="548" cy="555" r="7" fill="#d7c19d" opacity="0.85"/>
+    <circle cx="615" cy="565" r="6" fill="#d7c19d" opacity="0.8"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="34" fill="#2f2a23">
+    <rect x="112" y="300" width="410" height="102" rx="24" fill="#e8d9b9" stroke="#8b7358" stroke-width="3"/>
+    <text x="142" y="362">Mountain forest understory</text>
+    <rect x="95" y="1070" width="405" height="102" rx="24" fill="#d7e3c3" stroke="#6f8d5b" stroke-width="3"/>
+    <text x="122" y="1132">Dusk and night browser</text>
+    <rect x="604" y="1034" width="500" height="102" rx="24" fill="#e9cfbf" stroke="#9a705d" stroke-width="3"/>
+    <text x="632" y="1096">Forehead tuft, antlers, canines</text>
+  </g>
+
+  <rect x="155" y="1300" width="890" height="76" rx="24" fill="#efe7d4" stroke="#8b7358" stroke-width="3"/>
+  <text x="600" y="1350" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#4b4034">IUCN Red List 2015: Near Threatened (NT)</text>
+</svg>

@@ -1,0 +1,11 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about マエガミジカ / Tufted deer / Elaphodus cephalophus focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: A male tufted deer, Elaphodus cephalophus, in moist mountain forest understory. Key identity traits: small dark brown-gray deer, black forehead tuft, very short simple antlers partly hidden by tuft, long upper canines visible at the mouth, white underside of raised tail, slender muntjac-like body. Not a generic deer, not a vampire monster, not a large-antlered stag, not a fawn.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines, adult art direction, accurate natural-history cues.
+Composition/framing: Top title and scientific name; center large deer in leafy mountain-forest understory; three small observation labels; bottom quiet conservation/status note; generous whitespace.
+Color palette: moss green, dark brown, warm gray, cream paper, soft black tuft accent.
+Text (verbatim): "マエガミジカ / Elaphodus cephalophus / 山地林のしげみにすむ / 夕方と夜に草木を食べる / 前髪にかくれる角と犬歯 / IUCN Red List 2015: NT"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, horror vampire styling, oversized antlers, species misidentification, misspelled names.
+
