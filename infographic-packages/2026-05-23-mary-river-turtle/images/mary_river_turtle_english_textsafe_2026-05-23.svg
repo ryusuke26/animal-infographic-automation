@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6efd9"/>
+  <rect x="70" y="70" width="1060" height="1360" rx="36" fill="#fff8e8" stroke="#435f52" stroke-width="8"/>
+  <text x="600" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#263d35">Mary River Turtle</text>
+  <text x="600" y="235" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-style="italic" fill="#4a5b57">Elusor macrurus</text>
+  <g transform="translate(0,30)">
+    <path d="M170 845 C260 720 390 655 570 665 C760 675 920 760 1015 900 C865 855 740 875 610 930 C450 1000 290 975 170 845Z" fill="#8cc6c2" opacity="0.34"/>
+    <path d="M175 1070 C330 995 490 980 650 1025 C795 1065 910 1050 1030 985" fill="none" stroke="#5797a0" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+    <ellipse cx="555" cy="760" rx="270" ry="165" fill="#536f4f" stroke="#283d31" stroke-width="10"/>
+    <ellipse cx="555" cy="760" rx="205" ry="118" fill="#75915d" stroke="#39533d" stroke-width="5" opacity="0.9"/>
+    <path d="M785 735 C880 700 945 720 980 775 C940 800 870 800 800 770Z" fill="#587a58" stroke="#283d31" stroke-width="8"/>
+    <circle cx="930" cy="755" r="12" fill="#18241f"/>
+    <path d="M300 720 C215 705 165 735 140 800 C205 825 275 805 335 765Z" fill="#4f7454" stroke="#283d31" stroke-width="8"/>
+    <path d="M310 805 C220 830 180 880 175 950 C250 945 315 900 360 835Z" fill="#4f7454" stroke="#283d31" stroke-width="8"/>
+    <path d="M720 870 C790 930 885 980 990 1015" fill="none" stroke="#425b3f" stroke-width="44" stroke-linecap="round"/>
+    <path d="M706 860 C790 940 900 1010 1060 1068" fill="none" stroke="#2e4634" stroke-width="12" stroke-linecap="round"/>
+    <g stroke="#4a9f62" stroke-width="8" stroke-linecap="round" opacity="0.92">
+      <path d="M825 685 C835 640 850 610 870 580"/>
+      <path d="M855 690 C880 640 905 610 940 580"/>
+      <path d="M610 625 C630 575 650 545 690 510"/>
+      <path d="M545 620 C535 570 545 535 565 500"/>
+      <path d="M485 625 C455 580 440 545 435 510"/>
+      <path d="M650 665 C710 625 755 600 815 585"/>
+    </g>
+    <g fill="#eadfbf" stroke="#8c7b51" stroke-width="4" opacity="0.9">
+      <ellipse cx="245" cy="1110" rx="72" ry="25"/>
+      <ellipse cx="420" cy="1165" rx="86" ry="30"/>
+      <ellipse cx="720" cy="1145" rx="104" ry="33"/>
+      <ellipse cx="940" cy="1115" rx="70" ry="24"/>
+    </g>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#263d35">
+    <rect x="120" y="350" width="470" height="118" rx="24" fill="#e3f0de" stroke="#74936a" stroke-width="4"/>
+    <text x="355" y="397" text-anchor="middle">Only in Queensland's</text>
+    <text x="355" y="445" text-anchor="middle">Mary River</text>
+    <rect x="650" y="380" width="430" height="118" rx="24" fill="#e2f2f3" stroke="#67999e" stroke-width="4"/>
+    <text x="865" y="427" text-anchor="middle">Algae can grow</text>
+    <text x="865" y="475" text-anchor="middle">like green hair</text>
+    <rect x="180" y="1260" width="840" height="112" rx="24" fill="#f0e6c6" stroke="#a28750" stroke-width="4"/>
+    <text x="600" y="1306" text-anchor="middle">Uses cloacal glands to take</text>
+    <text x="600" y="1353" text-anchor="middle">oxygen underwater</text>
+  </g>
+  <text x="600" y="1410" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#536055">IUCN Red List 1996: Endangered (EN)</text>
+</svg>

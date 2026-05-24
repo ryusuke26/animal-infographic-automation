@@ -42,6 +42,8 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-20 | Hoatzin / ツメバケイ | *Opisthocomus hoazin* | `2026-05-20-hoatzin` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2024 LC is cited through Birds of the World/IUCN data display; no population number used. Avoid repeat. |
 | 2026-05-21 | Giant Siphonophore / マヨイアイオイクラゲ | *Praya dubia* | `2026-05-21-giant-siphonophore` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List checked 2026; no species assessment located, so no category or population number used. Avoid repeat. |
 | 2026-05-22 | Tufted deer / マエガミジカ | *Elaphodus cephalophus* | `2026-05-22-tufted-deer` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2015 NT; no population number used. Avoid repeat. |
+| 2026-05-23 | Mary River Turtle / カクレガメ | *Elusor macrurus* | `2026-05-23-mary-river-turtle` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 1996 EN; Australian EPBC 2024 CR recorded separately; no population number used. Avoid repeat. |
+| 2026-05-24 | Boquila trifoliolata / ボキラ・トリフォリオラータ | *Boquila trifoliolata* | `2026-05-24-boquila-trifoliolata` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List checked 2026; no public species assessment located, so NE wording is used; no population number used. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 

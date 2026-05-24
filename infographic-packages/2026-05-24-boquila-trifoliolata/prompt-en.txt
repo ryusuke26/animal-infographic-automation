@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about Boquila trifoliolata, the chameleon vine, focused on discovery and education rather than advocacy.
+Subject: Boquila trifoliolata, a woody/twining vine in the family Lardizabalaceae from Chilean and Argentine temperate forests. Key identity cues: thin climbing stems winding around forest branches, some ordinary compound leaves with three leaflets, and nearby vine leaves subtly resembling different host leaves in shape, size, color, angle, petiole length, or small pointed tips. Not ivy, not grapevine, not a houseplant, not a fern.
+Style/medium: childlike observation sketch with adult art direction, crayon and oil pastel, colored pencil details, warm textured paper, handmade field-notebook feeling, polished and readable.
+Composition/framing: Top title and scientific name; center large vine climbing on mossy humid forest branches; three small observation-note labels with leaf comparison insets; bottom quiet status note; generous whitespace.
+Color palette: warm paper, humid temperate forest greens, moss, bark brown, pale cream, small soft blue accent.
+Text (verbatim):
+"Chameleon vine
+Boquila trifoliolata
+Temperate forest climber
+Leaves can resemble nearby host leaves
+How it works is still studied
+IUCN checked 2026: NE"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. Do not claim that the plant sees, thinks, chooses, or uses magic. No logos, no watermark.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, grape clusters, ivy leaves, tropical houseplant leaves, eyes or faces on leaves.
+

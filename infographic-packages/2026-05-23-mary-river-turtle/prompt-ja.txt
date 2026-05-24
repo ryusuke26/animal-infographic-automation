@@ -1,0 +1,15 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about カクレガメ / Mary River Turtle, Elusor macrurus, focused on curiosity and natural-history discovery rather than advocacy.
+Subject: Mary River Turtle, Elusor macrurus. Identity traits: low streamlined freshwater turtle shell, moderately short neck, small head, very large webbed feet, extremely long thick tail behind the shell, green filamentous algae on the head and shell like soft hair. Not a sea turtle, not a tortoise, not a snapping turtle.
+Style/medium: childlike crayon and oil pastel field-notebook poster, warm textured paper, handmade educational tone, polished and readable.
+Composition/framing: top title and scientific name; center large turtle underwater in a clear flowing river with rounded stones and aquatic plants; three short observation labels; bottom quiet status note; generous whitespace.
+Text (verbatim):
+"カクレガメ
+Elusor macrurus
+メアリー川だけにすむ淡水ガメ
+藻の髪で川底になじむ
+しっぽ側の器官で水中の酸素も使う
+IUCN Red List 1996: EN"
+Constraints: discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark.
+Avoid: crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, punk-rock caricature, species misidentification, misspelled names.
