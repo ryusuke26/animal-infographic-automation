@@ -1,0 +1,19 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle discovery-first natural-history poster about Darwin's Bark Spider and the web it suspends above flowing water in Madagascar.
+Scene/backdrop: A narrow rainforest stream in Madagascar with green banks; a large orb web visibly anchored between branches on opposite sides above the water; no map.
+Subject: Darwin's Bark Spider, Caerostris darwini. A small, mottled grey-brown, bark-like orb-weaver sitting at the hub with eight natural legs and a broad angular abdomen. Add a few small flying aquatic insects near the web; keep the spider realistic in scale.
+Style/medium: Childlike field-notebook observation sketch with adult art direction; crayon, soft oil pastel, colored pencil, warm textured paper, clear readable type.
+Composition/framing: Large English title and scientific name on top; the stream-spanning web as the central discovery image; three short observation cards; a quiet footer.
+Color palette: Warm paper, rainforest greens, blue-green running water, grey-brown bark spider, fine silver web.
+Text (verbatim):
+"A single thread crosses the river."
+"DARWIN'S BARK SPIDER"
+"Caerostris darwini"
+"Orb webs above waterways"
+"Anchor threads up to about 25 m"
+"Waits for insects above the flow"
+"IUCN public search 2026: assessment not located"
+Constraints: Discovery-first, not moralizing. Present about 25 m as a reported maximum, not a promise for every web. No population or threat claim. Keep the spider small relative to its extraordinary web.
+Avoid: giant monster spider, hairy tarantula, bright golden generic orb-weaver, trapped bird or bat, fake map, tensile-strength chart, unsupported IUCN category, logo, watermark, misspelled scientific name.
+

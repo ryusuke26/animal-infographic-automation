@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6eed9"/>
+  <path d="M0 536 Q210 446 420 536 T840 526 T1200 478 V0 H0 Z" fill="#dce1bf"/>
+  <path d="M0 1170 C210 1050 386 1110 542 1042 C750 950 941 1026 1200 940 V1500 H0 Z" fill="#9db8ac"/>
+  <path d="M0 1232 C245 1104 388 1176 567 1098 C770 1009 956 1077 1200 995 V1500 H0 Z" fill="#6d9895"/>
+  <text x="62" y="85" font-family="'Yu Gothic', sans-serif" font-size="39" font-weight="700" fill="#574339">川をまたぐ、一本の糸。</text>
+  <text x="62" y="164" font-family="'Yu Gothic', sans-serif" font-size="55" font-weight="700" fill="#362d2b">ダーウィンズ・バーク・スパイダー</text>
+  <text x="65" y="211" font-family="Georgia, serif" font-size="31" font-style="italic" fill="#5f4f43">Caerostris darwini</text>
+  <path d="M100 376 Q600 228 1100 386 M100 376 Q594 858 1100 386 M160 334 Q600 696 1040 346 M233 301 Q600 578 966 314 M312 277 Q600 482 886 289 M402 256 Q600 393 800 267 M497 241 Q600 323 707 250" fill="none" stroke="#e6e2d2" stroke-width="3"/>
+  <path d="M600 238 V850 M100 376 L1100 386 M214 294 L990 330 M394 256 L812 267 M276 716 L930 719 M388 795 L823 792 M492 837 L714 838" fill="none" stroke="#e3ddcb" stroke-width="3"/>
+  <path d="M117 373 Q81 545 105 720" stroke="#6b5342" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M1084 382 Q1126 516 1102 665" stroke="#6b5342" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <g transform="translate(530 500)" fill="#655447" stroke="#483b34" stroke-width="6">
+    <ellipse cx="70" cy="95" rx="54" ry="63"/>
+    <path d="M45 40 L17 10 L35 70 M92 40 L125 8 L105 70 M33 75 L-20 52 M104 75 L160 50 M29 100 L-24 122 M107 101 L164 128 M40 124 L3 175 M96 126 L137 174" fill="none" stroke-width="11" stroke-linecap="round"/>
+    <path d="M32 80 L70 49 L108 80 L99 122 L67 148 L37 119 Z" fill="#706051"/>
+    <path d="M49 66 L86 129 M88 63 L49 128" stroke="#988273" stroke-width="6"/>
+  </g>
+  <rect x="58" y="276" width="258" height="124" rx="19" fill="#f1e7cc" stroke="#9c876c" stroke-width="3"/>
+  <text x="80" y="316" font-family="'Yu Gothic', sans-serif" font-size="20" font-weight="700" fill="#59483e">観察 1</text>
+  <text x="80" y="354" font-family="'Yu Gothic', sans-serif" font-size="25" fill="#403533">川の上に</text>
+  <text x="80" y="385" font-family="'Yu Gothic', sans-serif" font-size="25" fill="#403533">円い網を張る</text>
+  <rect x="844" y="279" width="294" height="124" rx="19" fill="#f1e7cc" stroke="#9c876c" stroke-width="3"/>
+  <text x="868" y="319" font-family="'Yu Gothic', sans-serif" font-size="20" font-weight="700" fill="#59483e">観察 2</text>
+  <text x="868" y="358" font-family="'Yu Gothic', sans-serif" font-size="25" fill="#403533">岸をつなぐ糸</text>
+  <text x="868" y="389" font-family="'Yu Gothic', sans-serif" font-size="25" fill="#403533">最大約25 m</text>
+  <circle cx="375" cy="650" r="12" fill="#786954"/><path d="M358 641 l-28 -14 M358 652 l-31 10 M392 641 l27 -15 M392 653 l29 12" stroke="#786954" stroke-width="5"/>
+  <circle cx="825" cy="608" r="9" fill="#786954"/><path d="M815 602 l-21 -13 M815 610 l-23 9 M835 601 l20 -11 M835 611 l22 9" stroke="#786954" stroke-width="4"/>
+  <rect x="62" y="924" width="465" height="130" rx="20" fill="#edf0df" stroke="#879478" stroke-width="3"/>
+  <text x="88" y="966" font-family="'Yu Gothic', sans-serif" font-size="20" font-weight="700" fill="#526049">観察 3</text>
+  <text x="88" y="1007" font-family="'Yu Gothic', sans-serif" font-size="26" fill="#403533">水上を飛ぶ小さな虫を</text>
+  <text x="88" y="1040" font-family="'Yu Gothic', sans-serif" font-size="26" fill="#403533">大きな網で待ち受ける</text>
+  <text x="62" y="1313" font-family="'Yu Gothic', sans-serif" font-size="31" font-weight="700" fill="#4e423a">樹皮のような小さなクモが、</text>
+  <text x="62" y="1358" font-family="'Yu Gothic', sans-serif" font-size="31" fill="#4e423a">流れの上に居場所をつくる。</text>
+  <rect x="62" y="1400" width="1075" height="64" rx="17" fill="#dfcfac"/>
+  <text x="86" y="1430" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#453a35">IUCN public search 2026: assessment not located</text>
+  <text x="86" y="1455" font-family="'Yu Gothic', sans-serif" font-size="18" fill="#564841">公開された種評価を確認できず</text>
+</svg>
+

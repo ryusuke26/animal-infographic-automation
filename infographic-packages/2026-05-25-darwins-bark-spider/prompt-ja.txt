@@ -1,0 +1,19 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: 川の上に網を張るダーウィンズ・バーク・スパイダーを、自然史の発見を中心に紹介する日本語ポスターを制作する。保全訴求ではなく、知らなかった暮らしに目を向ける紙面。
+Scene/backdrop: マダガスカルの緑の林を流れる細い川。両岸の枝と葉の間に、川面の上へ張られた大きな円網。偽の地図は入れない。
+Subject: ダーウィンズ・バーク・スパイダー, Caerostris darwini。網の中央にいる、樹皮のような灰褐色のまだら模様をもつ小さな円網性のクモ。八本脚を自然に描き、太いタランチュラや巨大怪物にしない。水面近くに小さな飛翔昆虫を少数添える。
+Style/medium: 子どもの観察ノートを大人が整えたようなクレヨン、オイルパステル、色鉛筆、生成り紙。温かく手描きで、文字はスマホで読める。
+Composition/framing: 上に日本語タイトルと学名。中央は川を横切る網を主役にし、クモは小さいが見つけられる大きさ。三つの観察札。下に静かな確認注記。
+Color palette: 生成り、熱帯林の濃緑、川の青緑、樹皮の灰褐色、糸の淡い銀白。
+Text (verbatim):
+"川をまたぐ、一本の糸。"
+"ダーウィンズ・バーク・スパイダー"
+"Caerostris darwini"
+"川の上に円い網を張る"
+"岸をつなぐ糸 最大約25 m"
+"水上を飛ぶ虫を待つ"
+"IUCN public search 2026: assessment not located"
+Constraints: 日本語名を大きく出す。25 m は報告された最大値として簡潔に見せる。発見優先、命令・罪悪感・救済表現・個体数・脅威表現なし。クモは現実的な小ささで、網と川の関係を中心にする。
+Avoid: giant monster spider, hairy tarantula, bright golden generic orb-weaver, trapped bird or bat, fake map, web-strength chart, unsupported IUCN category, logo, watermark, misspelled scientific name.
+
