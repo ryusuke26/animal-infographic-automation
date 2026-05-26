@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a warm natural-history poster introducing the Red Handfish, a small Tasmanian fish that walks across the seabed on hand-like fins. Curiosity and observation first, not advocacy.
+Scene/backdrop: A shallow temperate reef seafloor in south-eastern Tasmania: sand, low rocks, green macroalgae and seagrass. No fake map and no colourful tropical coral reef.
+Subject: Red Handfish, Thymichthys politus. A tiny benthic anglerfish-like fish with an elongated body tapering to the tail, red to pink-red mottling, pale bluish-white fin edging, and broadened hand-like pectoral fins planted on the seabed in a walking stance. Do not turn it into a human hand, frog, octopus, seahorse or generic reef fish.
+Style/medium: Childlike observation sketch with adult art direction; crayon, oil pastel and coloured pencil on textured warm paper; gentle field-notebook poster; readable typography.
+Composition/framing: Title and scientific name at top; one clear walking fish centred on the seabed; three short observation labels; quiet IUCN footer at bottom; generous whitespace.
+Color palette: Warm paper, seaweed olive and deep green, shallow blue-green water, sandy beige, red/pink-red fish, pale blue-white fin tips.
+Text (verbatim):
+"A small red fish walks on the seabed."
+"RED HANDFISH"
+"Thymichthys politus"
+"Shallow reefs among seaweed"
+"Hand-like fins for walking"
+"Eggs attached near algae"
+"IUCN Red List 2020: Critically Endangered (CR)"
+Constraints: Discovery-first, no blame, rescue request, population count or urgency slogan. Keep the fish anatomically coherent, small and bottom-dwelling, with its pectoral fins touching the substrate. Spell the scientific name exactly.
+Avoid: human hand, walking person, frog, octopus, seahorse, tropical clownfish, giant fish, fake map, population chart, logo, watermark, misspelled name.

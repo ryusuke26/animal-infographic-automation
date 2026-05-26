@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: タスマニアの浅い海底を歩くレッドハンドフィッシュを、自然史の発見を中心に紹介する日本語ポスターを制作する。保全訴求を主役にせず、知らなかった暮らしに目を向ける紙面。
+Scene/backdrop: タスマニア南東部の温帯の浅い岩礁。砂と低い岩、緑の海藻や海草が揺れる海底。偽の地図やサンゴ礁風の派手な背景は入れない。
+Subject: レッドハンドフィッシュ, Thymichthys politus。小さな底生のアンコウ目魚類で、体は赤から桃赤色のまだら、尾に向かって細くなる。幅広い胸びれが小さな手のように海底に接し、歩く姿勢。小さな誘引突起は自然な範囲でよい。人間の手、カエル、タコ、タツノオトシゴ、一般的な熱帯魚にしない。
+Style/medium: 子どもの観察ノートを大人が整えたようなクレヨン、オイルパステル、色鉛筆、生成り紙。温かく手描きで、文字はスマホで読める。
+Composition/framing: 上に日本語タイトルと学名。中央は海底を歩く一匹を大きく見せ、周囲に三つの観察札。下部に静かな保全区分フッター。余白を十分に取る。
+Color palette: 生成り、海藻の深緑とオリーブ、浅瀬の青緑、砂の薄茶、魚の赤と桃赤、ひれの淡い白青。
+Text (verbatim):
+"海底を歩く、赤い小さな魚。"
+"レッドハンドフィッシュ"
+"Thymichthys politus"
+"浅い岩礁と海藻のあいだ"
+"手のようなひれで歩く"
+"海藻の根元などに卵をつける"
+"IUCN Red List 2020: Critically Endangered (CR)"
+Constraints: 日本語名を最も大きく出す。発見優先で、命令、罪悪感、救済表現、個体数表示、脅威の煽りなし。魚は現実的な小さな底生魚で、胸びれが海底に触れる姿を明瞭にする。学名は正確に綴る。
+Avoid: human hand, walking person, frog, octopus, seahorse, tropical clownfish, giant monster fish, fake map, population-count graphic, alarm slogan, logo, watermark, misspelled scientific name.

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6eed9"/>
+  <path d="M0 452 C170 400 320 428 496 405 C692 378 913 442 1200 392 V0 H0 Z" fill="#c8ddd2"/>
+  <path d="M0 1045 C190 1000 362 1032 526 1002 C768 958 971 1028 1200 972 V1500 H0 Z" fill="#d8c39a"/>
+  <path d="M0 1130 C197 1082 351 1112 550 1070 C783 1022 1014 1098 1200 1042 V1500 H0 Z" fill="#c6ab7c"/>
+  <g fill="none" stroke="#657c4f" stroke-width="18" stroke-linecap="round">
+    <path d="M112 1085 Q82 916 142 765"/>
+    <path d="M171 1092 Q205 896 174 710"/>
+    <path d="M1012 1058 Q970 885 1031 720"/>
+    <path d="M1092 1060 Q1120 855 1085 695"/>
+  </g>
+  <g fill="#839758">
+    <path d="M135 908 Q58 842 72 789 Q135 827 148 874Z"/>
+    <path d="M171 842 Q252 773 244 723 Q177 760 166 800Z"/>
+    <path d="M1018 855 Q930 794 941 745 Q1008 776 1027 817Z"/>
+    <path d="M1088 820 Q1156 747 1145 698 Q1094 733 1080 780Z"/>
+  </g>
+  <text x="62" y="82" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#544139">A small red fish walks on the seabed.</text>
+  <text x="62" y="165" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#7a382f">RED HANDFISH</text>
+  <text x="65" y="214" font-family="Georgia, serif" font-size="32" font-style="italic" fill="#514941">Thymichthys politus</text>
+  <g transform="translate(350 505)">
+    <path d="M88 203 Q78 117 173 62 Q292 -5 422 83 Q495 133 557 150 L630 110 L611 196 L638 260 L553 218 Q471 270 355 286 Q215 304 129 265Z" fill="#cf6157" stroke="#6e4038" stroke-width="9"/>
+    <path d="M212 99 Q298 44 395 90 Q431 110 462 141 Q344 121 224 155Z" fill="#db7d6a"/>
+    <path d="M158 222 Q92 253 32 319 Q104 311 179 274 L240 248Z" fill="#d14c48" stroke="#6e4038" stroke-width="8"/>
+    <path d="M433 221 Q501 249 550 313 Q480 305 403 267 L353 243Z" fill="#d14c48" stroke="#6e4038" stroke-width="8"/>
+    <path d="M70 319 L35 338 M104 309 L78 345 M141 290 L126 330 M514 309 L544 337 M480 295 L503 337 M448 278 L459 324" stroke="#e8cfc0" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="193" cy="129" r="13" fill="#2d2927"/>
+    <circle cx="189" cy="125" r="4" fill="#f5efe5"/>
+    <path d="M225 76 Q229 20 267 0 Q282 28 270 62" fill="none" stroke="#954139" stroke-width="10" stroke-linecap="round"/>
+    <path d="M299 164 l28 25 M350 140 l25 30 M395 181 l35 18 M257 216 l28 18" stroke="#f0aa8b" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <rect x="50" y="293" width="308" height="126" rx="20" fill="#f1e7cc" stroke="#968567" stroke-width="3"/>
+  <text x="74" y="333" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#554a3f">OBSERVATION 1</text>
+  <text x="74" y="372" font-family="Arial, sans-serif" font-size="24" fill="#3d3531">Shallow reefs</text>
+  <text x="74" y="404" font-family="Arial, sans-serif" font-size="24" fill="#3d3531">among seaweed</text>
+  <rect x="838" y="304" width="312" height="126" rx="20" fill="#f1e7cc" stroke="#968567" stroke-width="3"/>
+  <text x="862" y="344" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#554a3f">OBSERVATION 2</text>
+  <text x="862" y="383" font-family="Arial, sans-serif" font-size="23" fill="#3d3531">Hand-like fins</text>
+  <text x="862" y="415" font-family="Arial, sans-serif" font-size="23" fill="#3d3531">for walking</text>
+  <rect x="62" y="885" width="414" height="128" rx="20" fill="#e9efdb" stroke="#88976a" stroke-width="3"/>
+  <text x="88" y="927" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#526049">OBSERVATION 3</text>
+  <text x="88" y="968" font-family="Arial, sans-serif" font-size="24" fill="#3d3531">Eggs attached</text>
+  <text x="88" y="1000" font-family="Arial, sans-serif" font-size="24" fill="#3d3531">near algae</text>
+  <text x="62" y="1280" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#4d4038">Small steps among seaweed</text>
+  <text x="62" y="1330" font-family="Arial, sans-serif" font-size="35" fill="#4d4038">on a temperate seafloor.</text>
+  <rect x="62" y="1380" width="1075" height="80" rx="18" fill="#e3d2ab"/>
+  <text x="88" y="1427" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#443833">IUCN Red List 2020: Critically Endangered (CR)</text>
+</svg>
