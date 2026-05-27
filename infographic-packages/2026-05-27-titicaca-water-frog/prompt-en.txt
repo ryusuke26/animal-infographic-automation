@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a warm natural-history poster introducing the Titicaca Water Frog, a fully aquatic frog whose loose skin folds assist underwater respiration in cold high-Andean waters. Curiosity and observation first, not advocacy.
+Scene/backdrop: Cold clear freshwater on the floor of the Lake Titicaca region, with rounded grey-brown stones, soft silt, sparse submerged plants, and muted light filtering down through water. No fake map and no ocean reef.
+Subject: Titicaca Water Frog, Telmatobius culeus. One broad, flattened aquatic frog resting underwater: olive-brown to grey-brown mottled skin, small eyes, broad head, webbed hind feet, and conspicuous loose rippled folds along flanks and hind limbs. The folds should look like realistic living skin adapted for gas exchange. Do not turn it into an axolotl, salamander, fish, smooth bright-green frog, or land toad.
+Style/medium: Childlike observation sketch with adult art direction; crayon, oil pastel and coloured pencil on textured warm paper; gentle field-notebook poster; readable typography.
+Composition/framing: English title and scientific name at top; one clear underwater frog centred on the lake bottom; three short observation labels; quiet IUCN footer at bottom; generous whitespace.
+Color palette: Warm paper, cool blue-green freshwater, slate and brown stones, subdued aquatic green, olive-brown frog with soft shadowing.
+Text (verbatim):
+"A frog with rippled skin beneath highland water."
+"TITICACA WATER FROG"
+"Telmatobius culeus"
+"Lake Titicaca region"
+"Lives entirely in water"
+"Skin folds aid underwater breathing"
+"IUCN Red List 2020: Endangered (EN)"
+Constraints: Discovery-first, no blame, rescue request, population count or urgency slogan. Keep the frog anatomically coherent and aquatic, resting on the lake bottom with visible folds and webbed feet. Spell the scientific name exactly.
+Avoid: axolotl external gills, salamander tail, fish fins, smooth bright-green frog, land toad, ocean coral, fake map, collection scene, population chart, logo, watermark, misspelled scientific name.

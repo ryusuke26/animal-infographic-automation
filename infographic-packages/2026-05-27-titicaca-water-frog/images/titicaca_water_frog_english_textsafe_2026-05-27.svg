@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6efdd"/>
+  <path d="M0 0H1200V1080C990 1040 812 1072 612 1048C390 1022 218 1060 0 1026Z" fill="#c6dedb"/>
+  <path d="M0 282C190 236 376 266 566 248C790 226 1002 278 1200 232" fill="none" stroke="#afcfca" stroke-width="24" opacity="0.7"/>
+  <path d="M0 1060C222 1016 394 1046 612 1020C818 994 1002 1024 1200 982V1500H0Z" fill="#d5c19d"/>
+  <path d="M0 1154C222 1110 422 1144 594 1112C806 1072 990 1128 1200 1080V1500H0Z" fill="#c4aa80"/>
+  <g fill="#8d846f" stroke="#665f52" stroke-width="5">
+    <ellipse cx="164" cy="1122" rx="78" ry="34"/>
+    <ellipse cx="1034" cy="1094" rx="98" ry="38"/>
+    <ellipse cx="836" cy="1164" rx="68" ry="29"/>
+  </g>
+  <g fill="none" stroke="#647e61" stroke-width="14" stroke-linecap="round">
+    <path d="M112 1082Q78 904 132 760"/>
+    <path d="M178 1090Q218 914 190 734"/>
+    <path d="M1058 1060Q1012 904 1070 744"/>
+  </g>
+  <g fill="#789369">
+    <path d="M122 900Q53 848 76 793Q130 828 143 870Z"/>
+    <path d="M180 855Q258 788 246 742Q188 772 175 818Z"/>
+    <path d="M1058 884Q980 830 996 779Q1044 804 1068 844Z"/>
+  </g>
+  <text x="62" y="78" font-family="Arial, sans-serif" font-size="41" font-weight="700" fill="#48423b">A frog with rippled skin beneath highland water.</text>
+  <text x="62" y="158" font-family="Arial, sans-serif" font-size="65" font-weight="700" fill="#47584b">TITICACA WATER FROG</text>
+  <text x="65" y="208" font-family="Georgia, serif" font-size="31" font-style="italic" fill="#514a43">Telmatobius culeus</text>
+  <g transform="translate(300 518)">
+    <ellipse cx="302" cy="204" rx="255" ry="145" fill="#767354" stroke="#514d3e" stroke-width="10"/>
+    <path d="M74 190Q34 124 81 84Q154 25 294 44Q444 30 530 86Q579 122 548 190Q509 157 459 146Q377 126 301 136Q216 120 143 145Q106 154 74 190Z" fill="#83805d" stroke="#514d3e" stroke-width="9"/>
+    <ellipse cx="170" cy="111" rx="20" ry="15" fill="#302f28"/>
+    <ellipse cx="430" cy="111" rx="20" ry="15" fill="#302f28"/>
+    <circle cx="165" cy="106" r="5" fill="#eee7d5"/>
+    <circle cx="425" cy="106" r="5" fill="#eee7d5"/>
+    <path d="M244 163Q301 182 357 163" fill="none" stroke="#514d3e" stroke-width="8" stroke-linecap="round"/>
+    <path d="M122 240Q39 252 0 335Q83 332 171 278" fill="#716e52" stroke="#514d3e" stroke-width="10"/>
+    <path d="M478 240Q565 250 606 334Q518 331 430 278" fill="#716e52" stroke="#514d3e" stroke-width="10"/>
+    <path d="M167 277Q88 331 81 401Q149 374 215 310" fill="#6e6c51" stroke="#514d3e" stroke-width="10"/>
+    <path d="M433 277Q512 331 520 401Q449 373 386 310" fill="#6e6c51" stroke="#514d3e" stroke-width="10"/>
+    <g fill="none" stroke="#b3aa7d" stroke-width="12" stroke-linecap="round">
+      <path d="M100 170Q50 210 86 250Q42 284 78 314"/>
+      <path d="M131 194Q84 233 116 267Q76 301 111 329"/>
+      <path d="M500 170Q550 210 514 250Q558 284 522 314"/>
+      <path d="M469 194Q516 233 484 267Q524 301 489 329"/>
+      <path d="M154 285Q118 314 135 344"/>
+      <path d="M446 285Q482 314 465 344"/>
+    </g>
+    <g stroke="#d7cb9e" stroke-width="8" stroke-linecap="round">
+      <path d="M80 399L46 420M91 386L74 428M108 373L103 417"/>
+      <path d="M520 399L554 420M509 386L526 428M492 373L497 417"/>
+    </g>
+  </g>
+  <rect x="48" y="286" width="328" height="132" rx="20" fill="#f2e8d2" stroke="#96866e" stroke-width="3"/>
+  <text x="72" y="326" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#4d4a41">OBSERVATION 1</text>
+  <text x="72" y="366" font-family="Arial, sans-serif" font-size="24" fill="#393731">Lake Titicaca region</text>
+  <text x="72" y="399" font-family="Arial, sans-serif" font-size="24" fill="#393731">of Peru and Bolivia</text>
+  <rect x="836" y="292" width="316" height="132" rx="20" fill="#f2e8d2" stroke="#96866e" stroke-width="3"/>
+  <text x="860" y="332" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#4d4a41">OBSERVATION 2</text>
+  <text x="860" y="372" font-family="Arial, sans-serif" font-size="24" fill="#393731">Spends its life</text>
+  <text x="860" y="405" font-family="Arial, sans-serif" font-size="24" fill="#393731">entirely in water</text>
+  <rect x="62" y="889" width="408" height="130" rx="20" fill="#e9efdf" stroke="#7d9274" stroke-width="3"/>
+  <text x="88" y="930" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#465b4a">OBSERVATION 3</text>
+  <text x="88" y="971" font-family="Arial, sans-serif" font-size="23" fill="#393731">Loose skin folds aid</text>
+  <text x="88" y="1004" font-family="Arial, sans-serif" font-size="23" fill="#393731">underwater breathing</text>
+  <text x="62" y="1275" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#454039">A quiet life in the cold water</text>
+  <text x="62" y="1325" font-family="Arial, sans-serif" font-size="35" fill="#454039">of a high Andean lake.</text>
+  <rect x="62" y="1380" width="1076" height="80" rx="18" fill="#e2d1ad"/>
+  <text x="88" y="1428" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#403a35">IUCN Red List 2020: Endangered (EN)</text>
+</svg>

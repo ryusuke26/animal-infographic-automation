@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: アンデス高地の水中で暮らすチチカカミズガエルを、自然史の発見を中心に紹介する日本語ポスターを制作する。保全訴求を主役にせず、皮膚のひだと水中生活に気づく紙面。
+Scene/backdrop: ペルーとボリビアにまたがるチチカカ湖周辺を思わせる、冷たい澄んだ淡水の湖底。丸い石、淡い砂泥、少量の沈水植物、水面から差す柔らかな光。偽の地図や海のサンゴ礁は入れない。
+Subject: チチカカミズガエル, Telmatobius culeus。水底にいる幅広く平たい水生カエル。オリーブ褐色から灰褐色の体、やや小さな目、幅広い頭、後脚の水かき、脇腹と後脚の周囲に目立つ自然な皮膚のひだ。ひだは水中での皮膚呼吸を助ける形質として見せる。アホロートル、サンショウウオ、魚、滑らかな緑色の普通のカエル、陸上のヒキガエルにしない。
+Style/medium: 子どもの観察ノートを大人が整えたようなクレヨン、オイルパステル、色鉛筆、生成り紙。温かく手描きで、文字はスマホで読める。
+Composition/framing: 上に日本語タイトルと学名。中央は湖底に静止する一匹を大きく描き、周囲に三つの観察札。下部に静かな保全区分フッター。余白を十分に取る。
+Color palette: 生成り、湖水の青緑と深い青、石の灰褐色、沈水植物のくすんだ緑、カエルのオリーブ褐色。
+Text (verbatim):
+"水の底で、皮膚のひだをゆらすカエル。"
+"チチカカミズガエル"
+"Telmatobius culeus"
+"アンデス高地の湖と周辺水域"
+"一生を水のなかでくらす"
+"皮膚のひだで水中の酸素を取り込む"
+"IUCN Red List 2020: Endangered (EN)"
+Constraints: 日本語名を最も大きく出す。発見優先で、命令、罪悪感、救済表現、個体数表示、脅威の煽りなし。皮膚のひだ、水底姿勢、水かきのある後脚を明瞭にする。学名は正確に綴る。
+Avoid: axolotl external gills, salamander tail, fish fins, generic bright green frog, land toad, ocean coral, fake map, collecting scene, population-count graphic, alarm slogan, logo, watermark, misspelled scientific name.

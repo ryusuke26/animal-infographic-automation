@@ -47,6 +47,7 @@ This index is for the recurring automation "世界の知らない生きものイ
 | 2026-05-24 | Boquila trifoliolata / ボキラ・トリフォリオラータ | *Boquila trifoliolata* | `2026-05-24-boquila-trifoliolata` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List checked 2026; no public species assessment located, so NE wording is used; no population number used. Avoid repeat. |
 | 2026-05-25 | Darwin's Bark Spider / ダーウィンズ・バーク・スパイダー | *Caerostris darwini* | `2026-05-25-darwins-bark-spider` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. Reported river-spanning web hook is sourced to 2010-2011 studies; IUCN public species assessment not located in 2026 search. Avoid repeat. |
 | 2026-05-26 | Red Handfish / レッドハンドフィッシュ | *Thymichthys politus* | `2026-05-26-red-handfish` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2020 CR; public copy focuses on seabed walking and algae-associated life without population numbers. Avoid repeat. |
+| 2026-05-27 | Titicaca Water Frog / チチカカミズガエル | *Telmatobius culeus* | `2026-05-27-titicaca-water-frog` | completed | Package-local `images/` contains Image Gen raster PNGs plus text-safe SVG/PNG backups. IUCN Red List 2020 EN after official CR-to-EN reassessment; public copy focuses on aquatic life and folded-skin respiration without population numbers. Avoid repeat. |
 
 ## Incomplete / Do Not Count As Completed
 
