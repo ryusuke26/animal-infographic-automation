@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: 幹から直接花と実をつけるジャボチカバを、自然史の発見を中心に紹介する日本語ポスターを制作する。保全訴求を主役にせず、幹生花と幹果に気づく紙面。
+Scene/backdrop: 南米の季節乾燥林や果樹園を思わせる暖かい森の空気。偽の地図は入れない。
+Subject: ジャボチカバ, Plinia cauliflora。フトモモ科の常緑果樹。なめらかな斑模様の茶灰色の幹、幹や太い枝に直接つく小さな白い4弁花、光沢のある濃い紫色の丸い果実、つやのある楕円形の緑葉。果実はツルにぶら下がるブドウではなく、樹皮に接して実る。カカオの大きな莢、ブドウの房、低いベリー低木にしない。
+Style/medium: 子どもの観察ノートを大人が整えたようなクレヨン、オイルパステル、色鉛筆、生成り紙。温かく手描きで、文字はスマホで読める。
+Composition/framing: 上に日本語タイトルと学名。中央は幹に白い花と紫の実が直接つく様子を大きく描き、周囲に三つの観察札。果実断面と葉の小さな挿絵。下部に静かな保全区分フッター。余白を十分に取る。
+Color palette: 生成り、森の緑、幹の茶色と灰色、白い花、濃い紫の果実。
+Text (verbatim):
+"幹から花と実が顔を出す、南米の果樹。"
+"ジャボチカバ"
+"Plinia cauliflora"
+"南米の季節乾燥林など"
+"白い花が幹に咲く"
+"紫の果実も幹に実る"
+"IUCN Red List 2021: Least Concern (LC)"
+Constraints: 日本語名を最も大きく出す。発見優先で、命令、罪悪感、救済表現、個体数表示、脅威の煽りなし。幹から直接花と実が出る特徴を明瞭にする。学名は正確に綴る。
+Avoid: grape vine, hanging grape bunches, cacao pods, generic berry shrub, fake map, collecting scene, population-count graphic, alarm slogan, logo, watermark, misspelled scientific name.

@@ -1,0 +1,19 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster for World Dhole Day
+Primary request: Create a gentle infographic about the dhole for World Dhole Day, focused on curiosity and natural-history discovery rather than guilt or rescue messaging.
+Scene/backdrop: Asian forest edge with dry leaves, bamboo-like greenery, dappled sunlight, and a narrow wildlife trail. No fake map.
+Subject: Dhole, Cuon alpinus, also called Asiatic wild dog. Medium-sized wild canid with rusty red-orange coat, pale throat and underside, rounded ears, slim legs, dark bushy tail tip, and short broad muzzle. Show one main dhole with two smaller pack companions in the background. Not a domestic dog, fox, wolf, coyote, African painted dog, or red panda.
+Style/medium: Childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines with adult art direction, polished readable layout.
+Composition/framing: Top title and May 28 date; center large dhole in forest habitat; three small observation-note labels; small whistle/sound-wave motif; bottom quiet conservation/status footer.
+Color palette: Warm paper, rust orange fur, cream underside, black tail tip, forest greens, dry leaf browns.
+Text (verbatim):
+"World Dhole Day"
+"May 28"
+"Dhole"
+"Cuon alpinus"
+"Asia's whistling wild dog"
+"Forest paths and family groups"
+"Whistles carry through trees"
+"IUCN Red List 2015: Endangered (EN)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark, no fake maps.
+Avoid: human dolls, toy dolls, creepy dolls, domestic dog, fox, wolf, coyote, African painted dog spots, red panda, tiger confrontation, attack scene, blood, threat collage, population numbers, guilt slogan, misspelled scientific name.

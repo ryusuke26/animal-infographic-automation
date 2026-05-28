@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6eedb"/>
+  <path d="M0 1080C210 1020 420 1062 620 1015C845 962 1015 1018 1200 960V1500H0Z" fill="#d8e0bd"/>
+  <path d="M0 1220C210 1170 430 1195 620 1160C850 1115 1015 1170 1200 1128V1500H0Z" fill="#b8c88e"/>
+  <g fill="#6e8f60" opacity="0.85">
+    <ellipse cx="165" cy="1130" rx="88" ry="28"/>
+    <ellipse cx="1015" cy="1105" rx="118" ry="32"/>
+    <ellipse cx="895" cy="1198" rx="82" ry="28"/>
+  </g>
+  <text x="64" y="76" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="40" font-weight="700" fill="#4b463b">幹から花と実が顔を出す、南米の果樹。</text>
+  <text x="64" y="158" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="82" font-weight="700" fill="#36543a">ジャボチカバ</text>
+  <text x="68" y="211" font-family="Georgia, serif" font-size="34" font-style="italic" fill="#4d473f">Plinia cauliflora</text>
+
+  <g transform="translate(430 265)">
+    <path d="M178 820C132 650 112 430 140 210C153 104 187 34 230 0C286 84 310 220 298 365C286 515 313 680 358 820Z" fill="#a57548" stroke="#5c4635" stroke-width="12"/>
+    <path d="M218 90C170 245 192 392 168 538C154 620 172 735 202 820" fill="none" stroke="#d6b37f" stroke-width="34" opacity="0.7"/>
+    <path d="M296 258C398 218 510 188 638 112" fill="none" stroke="#7b5638" stroke-width="52" stroke-linecap="round"/>
+    <path d="M315 300C438 276 548 236 670 188" fill="none" stroke="#a77548" stroke-width="34" stroke-linecap="round"/>
+    <path d="M154 344C70 298 12 240 -52 172" fill="none" stroke="#7b5638" stroke-width="45" stroke-linecap="round"/>
+    <path d="M146 382C58 348 -18 302 -90 242" fill="none" stroke="#a77548" stroke-width="28" stroke-linecap="round"/>
+    <g fill="#4d743d">
+      <ellipse cx="675" cy="105" rx="43" ry="18" transform="rotate(-28 675 105)"/>
+      <ellipse cx="724" cy="74" rx="45" ry="18" transform="rotate(-18 724 74)"/>
+      <ellipse cx="722" cy="139" rx="43" ry="18" transform="rotate(22 722 139)"/>
+      <ellipse cx="-78" cy="182" rx="42" ry="17" transform="rotate(25 -78 182)"/>
+      <ellipse cx="-126" cy="136" rx="39" ry="17" transform="rotate(-8 -126 136)"/>
+      <ellipse cx="-104" cy="236" rx="44" ry="17" transform="rotate(34 -104 236)"/>
+    </g>
+    <g fill="#3a1f3c" stroke="#221528" stroke-width="5">
+      <circle cx="222" cy="196" r="26"/><circle cx="265" cy="228" r="24"/><circle cx="210" cy="255" r="22"/>
+      <circle cx="250" cy="422" r="30"/><circle cx="196" cy="450" r="25"/><circle cx="294" cy="470" r="23"/>
+      <circle cx="170" cy="642" r="28"/><circle cx="224" cy="678" r="24"/><circle cx="286" cy="634" r="27"/>
+      <circle cx="390" cy="262" r="22"/><circle cx="468" cy="232" r="20"/>
+    </g>
+    <g fill="#f8f1da" stroke="#b68e36" stroke-width="4">
+      <g transform="translate(178 158)"><circle r="9"/><ellipse cx="0" cy="-22" rx="8" ry="18"/><ellipse cx="19" cy="-7" rx="8" ry="18" transform="rotate(72 19 -7)"/><ellipse cx="12" cy="17" rx="8" ry="18" transform="rotate(144 12 17)"/><ellipse cx="-12" cy="17" rx="8" ry="18" transform="rotate(216 -12 17)"/><ellipse cx="-19" cy="-7" rx="8" ry="18" transform="rotate(288 -19 -7)"/></g>
+      <g transform="translate(310 372)"><circle r="8"/><ellipse cx="0" cy="-19" rx="7" ry="16"/><ellipse cx="17" cy="-5" rx="7" ry="16" transform="rotate(72 17 -5)"/><ellipse cx="11" cy="15" rx="7" ry="16" transform="rotate(144 11 15)"/><ellipse cx="-11" cy="15" rx="7" ry="16" transform="rotate(216 -11 15)"/><ellipse cx="-17" cy="-5" rx="7" ry="16" transform="rotate(288 -17 -5)"/></g>
+      <g transform="translate(170 520)"><circle r="8"/><ellipse cx="0" cy="-19" rx="7" ry="16"/><ellipse cx="17" cy="-5" rx="7" ry="16" transform="rotate(72 17 -5)"/><ellipse cx="11" cy="15" rx="7" ry="16" transform="rotate(144 11 15)"/><ellipse cx="-11" cy="15" rx="7" ry="16" transform="rotate(216 -11 15)"/><ellipse cx="-17" cy="-5" rx="7" ry="16" transform="rotate(288 -17 -5)"/></g>
+    </g>
+    <g fill="#fff1d6" opacity="0.55">
+      <circle cx="212" cy="187" r="8"/><circle cx="254" cy="417" r="9"/><circle cx="169" cy="633" r="8"/><circle cx="383" cy="254" r="6"/>
+    </g>
+  </g>
+
+  <rect x="54" y="286" width="340" height="142" rx="18" fill="#f2e7cf" stroke="#8c7b61" stroke-width="3"/>
+  <text x="82" y="330" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="20" font-weight="700" fill="#4a473d">観察 1</text>
+  <text x="82" y="374" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="26" fill="#37342d">南米の季節乾燥林などに</text>
+  <text x="82" y="410" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="26" fill="#37342d">関わるフトモモ科の木</text>
+
+  <rect x="806" y="318" width="340" height="142" rx="18" fill="#f2e7cf" stroke="#8c7b61" stroke-width="3"/>
+  <text x="834" y="362" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="20" font-weight="700" fill="#4a473d">観察 2</text>
+  <text x="834" y="406" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="26" fill="#37342d">白い花が</text>
+  <text x="834" y="442" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="26" fill="#37342d">幹や太い枝に咲く</text>
+
+  <rect x="66" y="892" width="362" height="142" rx="18" fill="#e7efdc" stroke="#738764" stroke-width="3"/>
+  <text x="94" y="936" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="20" font-weight="700" fill="#46533d">観察 3</text>
+  <text x="94" y="980" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="26" fill="#37342d">紫の丸い果実も</text>
+  <text x="94" y="1016" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="26" fill="#37342d">木の肌から実る</text>
+
+  <g transform="translate(884 872)">
+    <circle cx="84" cy="72" r="56" fill="#3b203f" stroke="#241528" stroke-width="7"/>
+    <path d="M158 20A64 64 0 1 0 158 124A64 64 0 1 0 158 20" fill="#f1dfb4" stroke="#5a333e" stroke-width="7"/>
+    <ellipse cx="158" cy="72" rx="18" ry="32" fill="#b88938"/>
+    <circle cx="65" cy="48" r="12" fill="#fff4dc" opacity="0.7"/>
+  </g>
+
+  <text x="62" y="1268" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="34" font-weight="700" fill="#454039">木の肌から実りが生まれる、</text>
+  <text x="62" y="1320" font-family="'Yu Gothic', 'Meiryo', sans-serif" font-size="36" fill="#454039">ちょっと不思議な暮らし。</text>
+  <rect x="62" y="1382" width="1076" height="80" rx="18" fill="#dfd1af"/>
+  <text x="88" y="1430" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#403a35">IUCN Red List 2021: Least Concern (LC)</text>
+</svg>

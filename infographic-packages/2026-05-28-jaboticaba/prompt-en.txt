@@ -1,0 +1,18 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about Jaboticaba focused on curiosity, natural-history discovery, and education rather than advocacy.
+Scene/backdrop: A warm South American seasonally dry tropical woodland or orchard feeling. Do not include a fake map.
+Subject: Jaboticaba, Plinia cauliflora, a small evergreen Myrtaceae fruit tree. Key identity traits: smooth mottled brown-gray trunk, clusters of tiny white four-petaled flowers and glossy dark purple round berries growing directly from the trunk and older branches, simple oval glossy green leaves. Show fruit flush on bark, not hanging from vines. Not grapes on a vine, not cacao pods, not a generic berry bush.
+Style/medium: Childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines with adult art direction, polished readable layout.
+Composition/framing: Top title and scientific name; center large tree trunk with flowers and purple fruit growing directly on bark; small inset leaf and fruit cross-section; three small observation-note labels; bottom quiet conservation/status note; generous whitespace.
+Color palette: Warm paper, soft forest greens, bark browns and grays, white flower accents, dark purple fruit.
+Text (verbatim):
+"Flowers and fruit appear from the trunk."
+"Jaboticaba"
+"Plinia cauliflora"
+"A South American fruit tree"
+"White blossoms open on bark"
+"Purple berries ripen on the trunk"
+"IUCN Red List 2021: Least Concern (LC)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled scientific name, grape vine, hanging grape bunches, cacao pods.

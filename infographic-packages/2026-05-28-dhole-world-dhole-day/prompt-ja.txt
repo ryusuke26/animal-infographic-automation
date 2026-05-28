@@ -1,0 +1,19 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster for World Dhole Day
+Primary request: 世界ドールの日に合わせて、ドールを自然史の発見を中心に紹介する日本語ポスターを制作する。人形ではなく、アジアにすむ野生イヌのドール。
+Scene/backdrop: アジアの森の林縁。落ち葉、竹のような緑、木漏れ日、細い獣道。偽の地図は入れない。
+Subject: ドール, Cuon alpinus。中型の野生イヌ。赤褐色の体、淡い喉と腹、丸みのある耳、細い脚、黒っぽくふさふさした尾の先、短めで幅広い口先。主役を1頭、背景に小さな仲間を2頭。キツネ、オオカミ、コヨーテ、家庭犬、リカオン、レッサーパンダにしない。
+Style/medium: 子どもの観察ノートを大人が整えたようなクレヨン、オイルパステル、色鉛筆、生成り紙。温かく手描きで、文字はスマホで読める。
+Composition/framing: 上に世界ドールの日と5月28日。中央に森の中のドール。周囲に三つの観察札。口笛のような声を示す小さな音波モチーフ。下部に静かな保全区分フッター。
+Color palette: 生成り、赤褐色、淡いクリーム、黒い尾先、森の緑、落ち葉の茶色。
+Text (verbatim):
+"世界ドールの日"
+"5月28日"
+"ドール"
+"Cuon alpinus"
+"森を走るアジアの野生イヌ"
+"口笛のような声で合図"
+"家族の群れでくらす"
+"IUCN Red List 2015: Endangered (EN)"
+Constraints: 発見優先で、命令、罪悪感、救済表現、個体数表示、脅威の煽りなし。人形ではなく動物のドールとして描く。学名は正確に綴る。
+Avoid: human dolls, toy dolls, creepy dolls, domestic dog, fox, wolf, coyote, African painted dog spots, red panda, tiger attack, blood, fake map, population-count graphic, alarm slogan, logo, watermark.

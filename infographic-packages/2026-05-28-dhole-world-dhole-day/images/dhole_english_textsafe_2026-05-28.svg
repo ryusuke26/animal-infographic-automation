@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f5ecd7"/>
+  <path d="M0 1110C260 1060 450 1090 650 1048C895 996 1010 1040 1200 990V1500H0Z" fill="#d8d7a6"/>
+  <path d="M0 1230C260 1180 490 1210 700 1170C940 1128 1040 1180 1200 1145V1500H0Z" fill="#b9c887"/>
+  <text x="62" y="92" font-family="Arial,sans-serif" font-size="68" font-weight="700" fill="#7f3f1f">World Dhole Day</text>
+  <text x="62" y="158" font-family="Arial,sans-serif" font-size="45" font-weight="700" fill="#496539">May 28</text>
+  <text x="62" y="250" font-family="Arial,sans-serif" font-size="98" font-weight="700" fill="#355238">Dhole</text>
+  <text x="68" y="306" font-family="Georgia,serif" font-size="36" font-style="italic" fill="#51453b">Cuon alpinus</text>
+  <g transform="translate(360 415)">
+    <ellipse cx="292" cy="360" rx="245" ry="118" fill="#b95f24" stroke="#5d341f" stroke-width="11"/>
+    <path d="M105 320Q-8 333 -90 390Q-22 424 115 392Z" fill="#3a2820" stroke="#2c201a" stroke-width="8"/>
+    <path d="M92 270Q38 160 118 92Q192 26 300 54Q424 62 482 150Q548 236 500 335Q455 282 342 262Q215 240 92 270Z" fill="#c86c28" stroke="#5d341f" stroke-width="10"/>
+    <path d="M198 132L160 18L252 90Z" fill="#c86c28" stroke="#5d341f" stroke-width="9"/>
+    <path d="M378 132L420 18L318 88Z" fill="#c86c28" stroke="#5d341f" stroke-width="9"/>
+    <ellipse cx="225" cy="163" rx="19" ry="15" fill="#29211c"/>
+    <ellipse cx="356" cy="163" rx="19" ry="15" fill="#29211c"/>
+    <ellipse cx="290" cy="204" rx="30" ry="22" fill="#29211c"/>
+    <path d="M232 232Q292 268 350 232" fill="none" stroke="#3b2920" stroke-width="8" stroke-linecap="round"/>
+    <path d="M214 212Q292 302 374 212Q358 300 292 336Q232 302 214 212Z" fill="#f1d7aa" opacity="0.9"/>
+    <path d="M130 442L92 640M245 462L222 662M400 462L430 662M498 426L548 620" stroke="#6b3a21" stroke-width="34" stroke-linecap="round"/>
+    <path d="M132 638L82 638M225 660L176 660M430 662L482 662M548 620L600 620" stroke="#3a2820" stroke-width="22" stroke-linecap="round"/>
+  </g>
+  <g fill="#7b9a5d">
+    <ellipse cx="135" cy="430" rx="76" ry="22" transform="rotate(-22 135 430)"/>
+    <ellipse cx="980" cy="396" rx="82" ry="24" transform="rotate(18 980 396)"/>
+    <ellipse cx="1038" cy="472" rx="78" ry="22" transform="rotate(-28 1038 472)"/>
+  </g>
+  <rect x="54" y="350" width="340" height="140" fill="#efe3c8" stroke="#8d7b60" stroke-width="3"/>
+  <text x="82" y="392" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#3d392f">Observation 1</text>
+  <text x="82" y="435" font-family="Arial,sans-serif" font-size="27" fill="#3d392f">Rusty coat and</text>
+  <text x="82" y="472" font-family="Arial,sans-serif" font-size="27" fill="#3d392f">dark tail tip</text>
+  <rect x="790" y="360" width="350" height="140" fill="#efe3c8" stroke="#8d7b60" stroke-width="3"/>
+  <text x="818" y="402" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#3d392f">Observation 2</text>
+  <text x="818" y="445" font-family="Arial,sans-serif" font-size="27" fill="#3d392f">Whistle-like calls</text>
+  <text x="818" y="482" font-family="Arial,sans-serif" font-size="27" fill="#3d392f">carry through forest</text>
+  <rect x="66" y="930" width="360" height="140" fill="#e7efdc" stroke="#738764" stroke-width="3"/>
+  <text x="94" y="972" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#3d392f">Observation 3</text>
+  <text x="94" y="1015" font-family="Arial,sans-serif" font-size="27" fill="#3d392f">Family groups move</text>
+  <text x="94" y="1052" font-family="Arial,sans-serif" font-size="27" fill="#3d392f">along hidden paths</text>
+  <text x="66" y="1274" font-family="Arial,sans-serif" font-size="39" font-weight="700" fill="#454039">A forest voice</text>
+  <text x="66" y="1327" font-family="Arial,sans-serif" font-size="39" fill="#454039">many people have never met.</text>
+  <rect x="62" y="1382" width="1076" height="80" fill="#dfd1af"/>
+  <text x="88" y="1430" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#403a35">IUCN Red List 2015: Endangered (EN)</text>
+</svg>
