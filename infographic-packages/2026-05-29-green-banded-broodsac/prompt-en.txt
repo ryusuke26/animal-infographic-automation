@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first natural-history infographic about the green-banded broodsac, *Leucochloridium paradoxum*, focused on discovery and education rather than horror or advocacy.
+Subject: *Leucochloridium paradoxum*, a parasitic trematode flatworm whose larval broodsac appears inside the eyestalk/tentacle of a succineid amber snail. Key identity cues: amber snail on damp leaf litter or moss, one eyestalk enlarged with visible green and brown banded broodsac, soft pulsing-looking stripes, tiny bird silhouette in background as life-cycle context. The main organism is the parasite/broodsac, not a generic snail. Not a caterpillar, not a slug, not a monster, not a human-infecting parasite.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines with adult art direction, polished and readable, warm educational tone.
+Composition/framing: Top English title and scientific name; center large amber snail with one green-banded broodsac visible in eyestalk; three small observation-note labels around it; bottom quiet status note; generous whitespace.
+Color palette: moss green, leaf brown, amber shell, cream paper, muted blue-gray for quiet context.
+Text:
+"Green-banded Broodsac"
+"Leucochloridium paradoxum"
+"Appears in a snail eyestalk"
+"A life cycle linked to birds"
+"A tiny drama in damp woods"
+"IUCN Red List: Not Evaluated (NE)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No gore. No logos, no watermark.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled names, horror imagery, giant monster parasite, human infection framing.
