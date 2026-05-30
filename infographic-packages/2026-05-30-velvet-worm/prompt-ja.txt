@@ -1,0 +1,16 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle Japanese infographic about Euperipatoides rowelli, a velvet worm, focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: Euperipatoides rowelli, a small Australian velvet worm / onychophoran. Key identity traits: elongated soft velvety blue-grey to brown body, two antennae, two small eyes near antenna bases, paired oral slime papillae/nozzles beside the mouth, about 15 pairs of short stubby clawed lobopod legs, moving on damp leaf litter beside a decaying log. It is not a caterpillar, not a millipede, not a leech, not a slug.
+Style/medium: childlike field-notebook poster with crayon, oil pastel, colored pencil, textured warm paper, imperfect but accurate sketch, adult art direction, polished and readable.
+Composition/framing: Top title and scientific name; center large side-view velvet worm in damp forest floor habitat, partly beside a rotting eucalyptus log; three small observation-note labels around it; bottom quiet IUCN status footer; generous whitespace.
+Color palette: warm cream paper, moss green, bark brown, blue-grey velvet worm, small pale yellow note labels.
+Text (verbatim):
+"カギムシの一種
+Euperipatoides rowelli
+湿った倒木のすき間
+ねばる糸で狩る
+小さな脚で歩く
+IUCN: Not Evaluated"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark. Keep all text short and spelled exactly.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, rescue framing, species misidentification, misspelled scientific name, horror style, giant monster framing, caterpillar/millipede anatomy, too many or too few major body structures.

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">カギムシの一種 Euperipatoides rowelli</title>
+  <desc id="desc">湿った倒木のそばを歩くカギムシの一種。触角、粘液を出す管、多数の短い脚を示した教育ポスター。</desc>
+  <rect width="1200" height="1500" fill="#f7efd8"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="38" fill="#fff8e8" stroke="#6f5c3f" stroke-width="5"/>
+
+  <text x="600" y="148" text-anchor="middle" font-family="'Yu Gothic','Meiryo',sans-serif" font-size="70" font-weight="700" fill="#26342d">カギムシの一種</text>
+  <text x="600" y="210" text-anchor="middle" font-family="Georgia,serif" font-size="39" font-style="italic" fill="#42534a">Euperipatoides rowelli</text>
+
+  <g transform="translate(0,8)">
+    <ellipse cx="600" cy="790" rx="390" ry="185" fill="#d9c092" opacity="0.32"/>
+    <path d="M172 897 C330 826 513 832 708 864 C832 884 941 872 1030 820" fill="none" stroke="#7b5a36" stroke-width="42" stroke-linecap="round"/>
+    <path d="M172 898 C330 828 513 834 708 866 C832 886 941 874 1030 822" fill="none" stroke="#9b7241" stroke-width="30" stroke-linecap="round"/>
+    <path d="M138 940 C300 876 520 895 735 922 C875 940 1017 915 1086 857" fill="none" stroke="#556b4b" stroke-width="10" stroke-linecap="round" opacity="0.65"/>
+    <g fill="#6b7d4a" opacity="0.55">
+      <ellipse cx="236" cy="1000" rx="70" ry="16" transform="rotate(-18 236 1000)"/>
+      <ellipse cx="413" cy="982" rx="58" ry="15" transform="rotate(14 413 982)"/>
+      <ellipse cx="848" cy="990" rx="68" ry="17" transform="rotate(-8 848 990)"/>
+      <ellipse cx="1000" cy="940" rx="54" ry="14" transform="rotate(-24 1000 940)"/>
+    </g>
+
+    <g id="velvet-worm" transform="translate(0,0)">
+      <path d="M271 686 C380 575 613 539 797 604 C917 646 976 733 936 810 C891 895 714 897 538 853 C374 812 206 769 271 686 Z" fill="#667982" stroke="#2f3b3f" stroke-width="7"/>
+      <path d="M291 684 C406 614 608 586 769 636 C866 666 915 727 893 778 C862 848 706 852 548 812 C417 779 252 744 291 684 Z" fill="#78909a" opacity="0.72"/>
+      <path d="M302 706 C439 653 609 633 771 671" fill="none" stroke="#a4b4b2" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+      <path d="M328 748 C490 713 653 707 820 738" fill="none" stroke="#3d545b" stroke-width="8" stroke-linecap="round" opacity="0.42"/>
+      <circle cx="305" cy="680" r="9" fill="#161b1d"/>
+      <circle cx="335" cy="673" r="7" fill="#161b1d"/>
+      <path d="M286 654 C236 603 201 572 159 548" fill="none" stroke="#2f3b3f" stroke-width="9" stroke-linecap="round"/>
+      <path d="M324 650 C294 592 271 558 234 514" fill="none" stroke="#2f3b3f" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="158" cy="548" r="12" fill="#2f3b3f"/>
+      <circle cx="234" cy="514" r="12" fill="#2f3b3f"/>
+      <path d="M245 720 C203 713 170 700 139 674" fill="none" stroke="#d7eef0" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <path d="M251 743 C203 755 162 753 124 734" fill="none" stroke="#d7eef0" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <path d="M136 674 C111 657 93 659 75 672" fill="none" stroke="#d7eef0" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M122 734 C95 743 78 735 64 720" fill="none" stroke="#d7eef0" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+      <g stroke="#2f3b3f" stroke-width="8" stroke-linecap="round" fill="none">
+        <path d="M346 829 C326 884 304 901 276 912"/>
+        <path d="M392 842 C377 893 355 914 329 929"/>
+        <path d="M440 854 C424 904 404 927 376 941"/>
+        <path d="M490 866 C476 914 455 938 428 952"/>
+        <path d="M542 876 C527 923 507 948 479 962"/>
+        <path d="M596 884 C585 930 565 956 537 970"/>
+        <path d="M650 888 C641 934 620 960 592 972"/>
+        <path d="M704 886 C699 932 678 956 650 966"/>
+        <path d="M758 876 C758 918 739 944 713 954"/>
+        <path d="M807 860 C816 900 802 927 779 940"/>
+      </g>
+    </g>
+  </g>
+
+  <g font-family="'Yu Gothic','Meiryo',sans-serif" font-size="42" font-weight="700" fill="#26342d">
+    <g transform="translate(94 300)">
+      <rect width="360" height="98" rx="22" fill="#e9d475" stroke="#6f5c3f" stroke-width="4"/>
+      <text x="180" y="62" text-anchor="middle">湿った倒木のすき間</text>
+    </g>
+    <g transform="translate(746 308)">
+      <rect width="330" height="98" rx="22" fill="#d7e5b1" stroke="#6f5c3f" stroke-width="4"/>
+      <text x="165" y="62" text-anchor="middle">ねばる糸で狩る</text>
+    </g>
+    <g transform="translate(418 1094)">
+      <rect width="360" height="98" rx="22" fill="#bfd8d5" stroke="#6f5c3f" stroke-width="4"/>
+      <text x="180" y="62" text-anchor="middle">小さな脚で歩く</text>
+    </g>
+  </g>
+
+  <text x="600" y="1342" text-anchor="middle" font-family="'Yu Gothic','Meiryo',sans-serif" font-size="34" fill="#475047">IUCN Red List checked 2026: Not Evaluated (NE)</text>
+  <text x="600" y="1395" text-anchor="middle" font-family="'Yu Gothic','Meiryo',sans-serif" font-size="24" fill="#706a5b">Text-safe backup poster / no population number used</text>
+</svg>
