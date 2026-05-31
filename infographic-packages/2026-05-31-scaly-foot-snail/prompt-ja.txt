@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle curiosity-first infographic about the Scaly-foot Snail, focused on natural-history discovery rather than advocacy.
+Subject: スケーリーフット, Chrysomallon squamiferum, a deep-sea hydrothermal vent snail with a black coiled shell, dark charcoal body, overlapping iron-sulfide scales on the foot like chainmail, small snail shape about 5 cm shell length, near a black smoker vent in the Indian Ocean. It is a gastropod snail, not an ammonite, not a crab, not a fantasy creature, not a giant monster.
+Style/medium: childlike crayon and oil-pastel field-notebook poster, textured warm paper, imperfect hand-drawn lines with adult art direction, polished and readable.
+Composition/framing: top title and scientific name; center large accurate snail in vent habitat; three small observation-note labels; bottom quiet IUCN status note; generous whitespace.
+Color palette: warm paper, deep ocean blue-black, soft vent mineral gray, charcoal shell, small muted orange vent glow.
+Text (verbatim, keep short and legible): "スケーリーフット\nChrysomallon squamiferum\n深海の熱水域にすむ\n足に鉄のうろこをまとう\n共生細菌から栄養を得る\nIUCN Red List 2019: Endangered (EN)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No fake maps, no logos, no watermark.
+Avoid: Crowded poster, tiny text, aggressive slogans, rescue imagery, misspelled names, cute generic garden snail, nautilus/ammonite shape, crab legs, fish fins, incorrect shell-less slug body.
