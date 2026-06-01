@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: English educational social media infographic, vertical 4:5 poster
+Primary request: Create a gentle infographic about the Oilbird, focused on curiosity, natural-history discovery, and education rather than advocacy.
+Subject: Oilbird, Steatornis caripensis, a reddish-brown cave-roosting South American bird in the oilbird family, with white spotting, very large dark eyes, a broad hooked bill, long bristles around the gape, long wings and tail; not an owl, not a bat, not a generic nightjar.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, imperfect lines with polished adult art direction, readable labels.
+Composition/framing: Top title and scientific name; center large oilbird at a cave mouth with dark rainforest outside and fruit branches nearby; three small observation-note labels around it; bottom quiet status note; generous whitespace.
+Color palette: warm cave browns, moss green rainforest, muted fruit purple, cream paper, tiny amber sound-click marks.
+Text (verbatim): "Oilbird\nSteatornis caripensis\nRests in caves by day\nSearches for fruit at night\nClicks through the dark\nIUCN Red List: Least Concern (LC)"
+Constraints: Discovery-first, not moralizing. Accurate legible text. Do not invent population numbers. Do not imply blame. No logos, no watermark. No fake maps.
+Avoid: Crowded poster, tiny text, fake maps, unsupported facts, aggressive slogans, species misidentification, misspelled names, owl ear tufts, bat wings, predatory talons, monster framing.
