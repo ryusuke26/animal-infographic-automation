@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">ミミナガバンディクート infographic</title>
+  <desc id="desc">Text-safe educational poster about the Greater Bilby, Macrotis lagotis.</desc>
+  <rect width="1200" height="1500" fill="#f7e6bf"/>
+  <rect x="58" y="58" width="1084" height="1384" rx="34" fill="#fff4d7" stroke="#24486d" stroke-width="8"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="72" font-weight="700" fill="#183b5e">ミミナガバンディクート</text>
+  <text x="600" y="218" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#29486b">Macrotis lagotis</text>
+
+  <rect x="115" y="270" width="970" height="610" rx="28" fill="#e6b26d"/>
+  <rect x="115" y="270" width="970" height="250" rx="28" fill="#263f75"/>
+  <circle cx="210" cy="348" r="34" fill="#ffe8a3"/>
+  <circle cx="225" cy="337" r="34" fill="#263f75"/>
+  <path d="M150 795 C280 650 550 690 740 795 C865 865 1005 835 1085 780 L1085 880 L150 880 Z" fill="#cf8f44" opacity="0.55"/>
+  <g fill="none" stroke="#506d39" stroke-width="13" stroke-linecap="round">
+    <path d="M930 695 C935 600 950 515 980 430"/>
+    <path d="M960 695 C972 580 1005 510 1045 438"/>
+    <path d="M910 690 C875 592 850 505 840 430"/>
+    <path d="M998 695 C1040 625 1080 555 1115 510"/>
+  </g>
+  <ellipse cx="940" cy="735" rx="130" ry="62" fill="#87552a"/>
+  <ellipse cx="940" cy="735" rx="86" ry="38" fill="#3e2a1c"/>
+
+  <g transform="translate(300 485)">
+    <ellipse cx="350" cy="260" rx="270" ry="150" fill="#748190" stroke="#334257" stroke-width="8"/>
+    <ellipse cx="180" cy="270" rx="142" ry="80" fill="#e6d8be" stroke="#334257" stroke-width="7"/>
+    <path d="M70 280 C15 275 5 245 80 230" fill="none" stroke="#334257" stroke-width="7"/>
+    <circle cx="135" cy="238" r="18" fill="#151515"/>
+    <ellipse cx="88" cy="272" rx="18" ry="10" fill="#d38f77"/>
+    <path d="M172 200 C135 50 155 -72 220 -95 C272 -10 260 120 216 215 Z" fill="#c0a487" stroke="#334257" stroke-width="7"/>
+    <path d="M235 198 C222 45 260 -85 325 -92 C360 20 330 133 280 220 Z" fill="#c0a487" stroke="#334257" stroke-width="7"/>
+    <path d="M192 185 C168 65 180 -35 218 -55 C245 18 239 115 216 188 Z" fill="#efb19e"/>
+    <path d="M260 185 C257 55 280 -42 318 -55 C330 30 310 115 282 190 Z" fill="#efb19e"/>
+    <path d="M570 265 C720 285 820 335 890 425" fill="none" stroke="#202633" stroke-width="30" stroke-linecap="round"/>
+    <path d="M862 420 C905 455 930 470 955 465" fill="none" stroke="#fff1cf" stroke-width="28" stroke-linecap="round"/>
+    <g stroke="#1f2430" stroke-width="7" stroke-linecap="round">
+      <path d="M285 375 L255 465"/>
+      <path d="M340 383 L318 480"/>
+      <path d="M473 384 L450 470"/>
+      <path d="M528 378 L545 465"/>
+      <path d="M244 462 L216 488"/>
+      <path d="M312 478 L282 505"/>
+      <path d="M448 468 L420 500"/>
+      <path d="M545 463 L570 500"/>
+    </g>
+  </g>
+
+  <g font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="38" fill="#1f2f3d">
+    <rect x="150" y="920" width="900" height="74" rx="16" fill="#fdf3d5" stroke="#2b6d91" stroke-width="5"/>
+    <text x="185" y="970">長い耳で夜をきく</text>
+    <rect x="150" y="1018" width="900" height="74" rx="16" fill="#fdf3d5" stroke="#657d35" stroke-width="5"/>
+    <text x="185" y="1068">砂の下の虫や種をさがす</text>
+    <rect x="150" y="1116" width="900" height="74" rx="16" fill="#fdf3d5" stroke="#8a5a2a" stroke-width="5"/>
+    <text x="185" y="1166">らせんの巣穴で昼をすごす</text>
+  </g>
+
+  <text x="600" y="1270" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="46" fill="#183b5e">砂の下にも、ちょっと不思議な暮らし。</text>
+  <text x="600" y="1350" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#183b5e">IUCN Red List 2016: Vulnerable (VU)</text>
+</svg>
