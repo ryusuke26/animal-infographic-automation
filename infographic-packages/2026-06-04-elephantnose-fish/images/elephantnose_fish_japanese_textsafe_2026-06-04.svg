@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f4ead7"/>
+  <rect x="64" y="64" width="1072" height="1372" rx="28" fill="#fbf4e6" stroke="#51766d" stroke-width="8"/>
+  <text x="600" y="150" text-anchor="middle" font-family="'Yu Gothic','Meiryo',sans-serif" font-size="60" font-weight="700" fill="#304f49">エレファントノーズフィッシュ</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Georgia,serif" font-size="43" font-style="italic" fill="#574631">Gnathonemus petersii</text>
+  <path d="M165 1180 C320 1110 540 1105 760 1140 C895 1160 1025 1140 1090 1090" fill="none" stroke="#8ab2b4" stroke-width="55" stroke-linecap="round" opacity="0.55"/>
+  <path d="M155 1215 C340 1270 805 1260 1070 1160" fill="none" stroke="#bdd9d6" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+  <path d="M285 745 C435 610 710 610 890 720 C975 770 1045 790 1110 765 C1042 850 940 910 812 925 C610 948 405 885 285 745 Z" fill="#302b2a" stroke="#1d2220" stroke-width="10"/>
+  <path d="M322 742 C450 670 690 670 845 742 C700 710 498 710 322 742 Z" fill="#5b4b40" opacity="0.8"/>
+  <path d="M895 720 L1100 625 L1060 765 Z" fill="#303437" stroke="#1d2220" stroke-width="9"/>
+  <path d="M860 640 C835 585 825 545 835 505 C880 545 900 590 895 650" fill="#4a4f4c" stroke="#1d2220" stroke-width="7"/>
+  <path d="M820 885 C805 955 820 1012 872 1050 C815 1030 770 985 752 925" fill="#47413b" stroke="#1d2220" stroke-width="7"/>
+  <circle cx="382" cy="690" r="18" fill="#f0e1bd" stroke="#1d2220" stroke-width="5"/>
+  <circle cx="388" cy="690" r="8" fill="#1d2220"/>
+  <path d="M320 760 C245 800 245 890 324 928 C380 955 370 1035 300 1070" fill="none" stroke="#1d2220" stroke-width="18" stroke-linecap="round"/>
+  <path d="M324 928 C365 950 420 946 455 918" fill="none" stroke="#1d2220" stroke-width="9" stroke-linecap="round"/>
+  <g fill="none" stroke="#94c7c3" stroke-width="8" stroke-linecap="round" opacity="0.85">
+    <path d="M422 650 C458 605 498 578 548 565"/>
+    <path d="M468 705 C520 662 585 640 655 640"/>
+    <path d="M500 825 C570 860 650 875 735 870"/>
+  </g>
+  <g font-family="'Yu Gothic','Meiryo',sans-serif" font-size="35" fill="#243d3a">
+    <rect x="115" y="315" width="470" height="92" rx="18" fill="#dcebd2" stroke="#5f8255" stroke-width="4"/>
+    <text x="145" y="372">くらい川底をすいすい</text>
+    <rect x="625" y="350" width="455" height="92" rx="18" fill="#e6ddc7" stroke="#89774b" stroke-width="4"/>
+    <text x="670" y="407">あごの小さな鼻で探る</text>
+    <rect x="140" y="500" width="555" height="92" rx="18" fill="#d9e9ed" stroke="#5d7e84" stroke-width="4"/>
+    <text x="170" y="557">弱い電気でまわりを感じる</text>
+  </g>
+  <text x="600" y="1400" text-anchor="middle" font-family="Arial,sans-serif" font-size="44" fill="#304f49">IUCN Red List 2019: LC</text>
+</svg>
