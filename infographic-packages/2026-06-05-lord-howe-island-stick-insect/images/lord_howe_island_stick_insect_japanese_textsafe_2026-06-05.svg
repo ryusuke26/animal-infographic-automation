@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6ead4"/>
+  <rect x="56" y="58" width="1088" height="1384" rx="28" fill="#fff8e8" stroke="#4d4031" stroke-width="5"/>
+  <text x="600" y="145" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="76" font-weight="700" fill="#2f261e">ロードハウ島ナナフシ</text>
+  <text x="600" y="207" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-style="italic" fill="#3e3429">Dryococelus australis</text>
+  <rect x="150" y="278" width="900" height="560" rx="20" fill="#293b50"/>
+  <path d="M165 735 C300 620 385 675 485 575 C600 455 725 515 815 405 C895 312 975 340 1040 305" fill="none" stroke="#d6c09a" stroke-width="18" stroke-linecap="round" opacity="0.25"/>
+  <ellipse cx="595" cy="570" rx="310" ry="74" fill="#1d1712" stroke="#f0d49c" stroke-width="5"/>
+  <circle cx="346" cy="570" r="28" fill="#1d1712" stroke="#f0d49c" stroke-width="5"/>
+  <path d="M265 555 C190 535 140 506 101 468" stroke="#1d1712" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M270 585 C200 623 145 670 102 730" stroke="#1d1712" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <g stroke="#1d1712" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M400 625 L315 770"/>
+    <path d="M505 632 L455 790"/>
+    <path d="M625 635 L635 805"/>
+    <path d="M742 628 L830 775"/>
+    <path d="M805 585 L965 660"/>
+    <path d="M430 515 L325 400"/>
+  </g>
+  <g stroke="#7e9e61" stroke-width="14" stroke-linecap="round">
+    <path d="M830 365 L1030 280"/>
+    <path d="M860 360 L915 300"/>
+    <path d="M900 345 L970 315"/>
+    <path d="M935 325 L1010 300"/>
+    <path d="M815 385 L900 410"/>
+  </g>
+  <circle cx="250" cy="345" r="48" fill="#f8edbf"/>
+  <rect x="118" y="900" width="430" height="130" rx="16" fill="#f8edbf" stroke="#7a644a" stroke-width="4"/>
+  <text x="333" y="940" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" font-weight="700" fill="#2f261e">夜の岩棚で</text>
+  <text x="333" y="990" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" font-weight="700" fill="#2f261e">葉を食べる</text>
+  <rect x="650" y="900" width="430" height="130" rx="16" fill="#f8edbf" stroke="#7a644a" stroke-width="4"/>
+  <text x="865" y="940" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" font-weight="700" fill="#2f261e">昼はすき間に</text>
+  <text x="865" y="990" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" font-weight="700" fill="#2f261e">かくれる</text>
+  <rect x="260" y="1070" width="680" height="130" rx="16" fill="#f8edbf" stroke="#7a644a" stroke-width="4"/>
+  <text x="600" y="1110" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" font-weight="700" fill="#2f261e">羽のない</text>
+  <text x="600" y="1160" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" font-weight="700" fill="#2f261e">大きなナナフシ</text>
+  <text x="600" y="1330" text-anchor="middle" font-family="Yu Gothic, Meiryo, sans-serif" font-size="45" font-weight="700" fill="#2f4858">IUCN Red List 2017: CR</text>
+</svg>

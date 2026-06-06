@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f5ecd7"/>
+  <rect x="44" y="44" width="1112" height="1412" rx="34" fill="none" stroke="#6b5542" stroke-width="6" stroke-dasharray="14 12"/>
+  <text x="600" y="135" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="70" font-weight="700" fill="#8c2f2b">デビルズ・フィンガーズ</text>
+  <text x="600" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#40352d">Clathrus archeri</text>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M430 1060 C390 920 410 730 510 510 C545 435 570 360 555 300" fill="none" stroke="#d84a3f" stroke-width="88"/>
+    <path d="M505 1065 C490 900 540 700 620 500 C650 420 655 350 630 285" fill="none" stroke="#c93f37" stroke-width="82"/>
+    <path d="M585 1065 C610 900 690 710 760 545 C795 465 810 390 785 330" fill="none" stroke="#e05a46" stroke-width="86"/>
+    <path d="M660 1060 C720 900 825 760 875 635 C910 550 915 485 900 435" fill="none" stroke="#c84438" stroke-width="78"/>
+    <path d="M745 1065 C815 940 920 845 970 755 C1000 700 1000 650 985 610" fill="none" stroke="#df604d" stroke-width="72"/>
+    <path d="M480 900 C455 790 480 650 540 520" fill="none" stroke="#4a4930" stroke-width="24" stroke-dasharray="28 20"/>
+    <path d="M575 900 C595 760 650 625 705 510" fill="none" stroke="#4a4930" stroke-width="22" stroke-dasharray="26 18"/>
+    <path d="M680 930 C740 800 800 690 845 590" fill="none" stroke="#4a4930" stroke-width="22" stroke-dasharray="25 19"/>
+    <path d="M365 1050 Q600 1180 835 1050 Q790 1215 600 1240 Q410 1215 365 1050" fill="#eee3cc" stroke="#927762" stroke-width="10"/>
+  </g>
+  <g fill="#7b664e" opacity="0.8">
+    <ellipse cx="180" cy="1190" rx="110" ry="28" transform="rotate(-15 180 1190)"/>
+    <ellipse cx="1010" cy="1160" rx="100" ry="25" transform="rotate(18 1010 1160)"/>
+    <rect x="90" y="1260" width="260" height="32" rx="16" transform="rotate(8 90 1260)"/>
+    <rect x="850" y="1270" width="250" height="30" rx="15" transform="rotate(-10 850 1270)"/>
+  </g>
+  <g font-family="Meiryo, sans-serif" fill="#3f392f">
+    <text x="100" y="330" font-size="38" font-weight="700">白い姿から</text>
+    <text x="100" y="377" font-size="38" font-weight="700">赤い腕がひらく</text>
+    <line x1="300" y1="385" x2="430" y2="480" stroke="#6b5542" stroke-width="5"/>
+    <text x="80" y="700" font-size="36" font-weight="700">落ち葉や木片を分解</text>
+    <line x1="320" y1="710" x2="385" y2="890" stroke="#6b5542" stroke-width="5"/>
+    <text x="785" y="290" font-size="34" font-weight="700">匂いでハエを呼び</text>
+    <text x="785" y="333" font-size="34" font-weight="700">胞子を運ぶ</text>
+  </g>
+  <g fill="#3a3028">
+    <ellipse cx="930" cy="395" rx="13" ry="8"/>
+    <ellipse cx="920" cy="386" rx="10" ry="6" fill="#a9b6a8" opacity="0.8"/>
+    <ellipse cx="940" cy="386" rx="10" ry="6" fill="#a9b6a8" opacity="0.8"/>
+    <line x1="918" y1="401" x2="905" y2="414" stroke="#3a3028" stroke-width="4"/>
+    <line x1="942" y1="401" x2="955" y2="414" stroke="#3a3028" stroke-width="4"/>
+  </g>
+  <rect x="115" y="1330" width="970" height="78" rx="18" fill="#dfd2b7"/>
+  <text x="600" y="1380" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="28" fill="#4a4035">IUCN：公開種別評価を確認できず（2026年確認）</text>
+</svg>

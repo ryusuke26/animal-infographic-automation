@@ -2,7 +2,7 @@
 
 This file is the operating policy for the recurring automation:
 
-`世界の知らない生きものインフォグラフィック日次作成`
+`世界の知らない生きものインフォグラフィック日次制作`
 
 Use this policy to keep the automation from drifting as the archive grows. The automation prompt should be self-contained, but this file is the human-readable source of truth for how the workflow is organized.
 
@@ -13,7 +13,7 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Execution instructions | `automation-2-updated-prompt.md` | Text to paste into the Automation body. |
 | Completed/incomplete topic index | `infographic-packages/INDEX.md` | Lightweight archive table and repeat-avoidance ledger. |
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each run. |
-| Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical image folder for Image Gen PNGs and text-safe backups. |
+| Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical folder for Image Gen base art and final bilingual posters. |
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
 
@@ -27,13 +27,30 @@ A package is `completed` only when all of these are true:
 - Japanese and English X posts and ALT text exist.
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
-- Image Gen raster PNGs exist for both Japanese and English versions.
-- Image Gen raster PNGs pass visual identity QA: the species-specific body plan, distinctive structures, posture, and habitat cues are coherent enough for public posting.
-- Text-safe SVG/PNG backups exist when generated text may be unreliable.
+- An accepted Image Gen base illustration exists.
+- Final Japanese and English poster PNGs exist and use the locked copy.
+- The Image Gen artwork passes visual identity QA: the species-specific body plan, distinctive structures, posture, and habitat cues are coherent enough for public posting.
+- Text-safe SVG/PNG assets exist when useful for editing or backup.
 - `infographic-packages/INDEX.md` is updated.
 - Automation memory is updated.
 
-If Image Gen fails, is unavailable, or produces species/anatomy-breaking art, keep the package artifacts but mark the topic as `incomplete` or `needs review`. SVG-only, SVG-derived PNG-only, or visually broken Image Gen packages are not completed.
+If Image Gen fails, is unavailable, or produces species/anatomy-breaking art, keep the package artifacts but mark the topic as `incomplete` or `needs review`. Deterministic poster text does not replace the required Image Gen base illustration.
+
+## Fixed Workflow
+
+Every run follows this order:
+
+1. Preflight and pending-publication check.
+2. Topic and region lock.
+3. Evidence Lock.
+4. Copy Lock.
+5. Image Gen and deterministic bilingual poster production.
+6. Visual and mechanical QA.
+7. INDEX and automation-memory update.
+
+Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
+
+If a later correction only affects spelling, translation, year, footer, font, clipping, or layout, repair the deterministic text layer instead of regenerating the artwork. Regenerate the Image Gen base only for organism identity, anatomy, posture, habitat, or major composition failures.
 
 ## Canonical Storage
 
@@ -58,6 +75,16 @@ species_slug_japanese_textsafe_YYYY-MM-DD.svg
 species_slug_english_textsafe_YYYY-MM-DD.svg
 ```
 
+New packages may instead use:
+
+```text
+species_slug_base_imagegen_YYYY-MM-DD.png
+species_slug_japanese_poster_YYYY-MM-DD.png
+species_slug_english_poster_YYYY-MM-DD.png
+species_slug_japanese_poster_YYYY-MM-DD.svg
+species_slug_english_poster_YYYY-MM-DD.svg
+```
+
 Generated-image mirror copies under `.codex/generated_images/animal_img` are optional. If permissions fail, record it, but do not fail the run if package-local Image Gen PNGs exist.
 
 ## Encoding Rules
@@ -70,19 +97,25 @@ Generated-image mirror copies under `.codex/generated_images/animal_img` are opt
 
 Before selecting a topic, check in this order:
 
-1. `$CODEX_HOME/automations/automation-2/memory.md`
+1. `C:\Users\ryusu\.codex\automations\automation-2\memory.md`
 2. `C:\Users\ryusu\Documents\New project 2\infographic-packages\INDEX.md`
 3. Existing folders under `C:\Users\ryusu\Documents\New project 2\infographic-packages`
 
-The static completed list in the automation prompt is only a fallback cue. Memory and `INDEX.md` are more current.
+Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The static completed list in the automation prompt is only a fallback cue. Memory and `INDEX.md` are more current.
 
 ## Topic Selection
 
 - Do not limit selection to the Pyrenees.
 - Prioritize overlooked animals, plants, fungi, or unusual ecosystems.
-- Choose a different lineage, habitat, region, or ecological hook from the most recent 3-5 completed topics.
+- Assign each candidate a broad native region: Africa, Asia, Europe, North America, Central America/Caribbean, South America, Australia/Oceania, or Ocean/Global.
+- Review the most recent 8 completed packages before selection.
+- Prefer regions with 0 appearances and avoid a region already used 2 or more times when a credible underrepresented alternative exists.
+- Avoid the same broad region in consecutive runs.
+- Australia/Oceania is currently on cooldown because it is overrepresented in the recent archive; resume it only when the rolling rule allows.
+- Choose a different lineage, habitat, region, and ecological hook where practical.
 - Avoid completed species unless the user explicitly requests a remake or comparison.
 - Reuse incomplete topics only when deliberately completing missing deliverables.
+- User-requested topics, dated awareness days, and deliberate remakes may override region rotation when the reason is recorded.
 
 ## Fact-Check Rules
 
@@ -94,6 +127,7 @@ The static completed list in the automation prompt is only a fallback cue. Memor
 - Do not include population numbers unless they are current, geographically specific, and clearly sourced.
 - Do not transfer facts from related species onto the selected species unless clearly labeled as related-species context.
 - If sources disagree or are outdated, state uncertainty and use publication-safe wording.
+- Evidence Lock requires the accepted name, native region, exact status footer and year, three core public claims, and visual identity guidance to be settled before image work.
 
 ## Tone Rules
 
@@ -104,14 +138,24 @@ The static completed list in the automation prompt is only a fallback cue. Memor
 - No unsupported urgency.
 - Conservation/status appears quietly in a footer, not as the emotional center.
 
+## Copy Lock
+
+- Write final Japanese and English titles, scientific name, three observation labels, footer, infographic copy, X copy, ALT text, and image prompts before Image Gen.
+- Save the locked copy to the package folder.
+- Do not leave placeholders or unresolved dates/categories in image-facing text.
+- Recheck image-facing claims against `sources-qa.md` before generating art.
+
 ## Image Rules
 
-- Use Image Gen for every completed package.
-- Generate both Japanese and English raster poster images.
+- Use Image Gen for every completed package, after Evidence Lock and Copy Lock.
+- Prefer one strong text-light or text-free base illustration followed by deterministic Japanese and English text composition.
+- Keep the accepted Image Gen base art in the package.
+- Separate Japanese and English Image Gen scenes are optional when they add real value; they are not a completion requirement.
 - Use childlike crayon/oil-pastel field-notebook poster style.
 - Japanese-version posters should use the Japanese name or safe Japanese rendering as the main title.
 - English-version posters should use the English common name as the main title.
-- If generated text is unreliable, keep the Image Gen PNGs and add text-safe SVG/PNG backups.
+- Use deterministic typography for final factual text whenever possible.
+- Do not regenerate Image Gen artwork for text errors, translation, footer-year changes, clipping, or font problems.
 - Image QA must check the organism's body plan, distinctive structures, limb/appendage count, posture, and habitat. If the poster is merely cute or atmospheric but the anatomy/identity is wrong, mark it `needs review` instead of `completed`.
 - For species with difficult anatomy, avoid forcing dramatic poses that Image Gen repeatedly breaks. Use a safer natural posture and explain the behavior in labels or inset diagrams.
 - Avoid fake maps, unsupported visual claims, blame/rescue imagery, and unsupported population visuals.
@@ -153,7 +197,10 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 Before finishing every run:
 
 - Update `infographic-packages/INDEX.md`.
-- Update `$CODEX_HOME/automations/automation-2/memory.md`.
-- Record whether Image Gen PNGs exist.
+- Update `C:\Users\ryusu\.codex\automations\automation-2\memory.md`.
+- Record the broad native region in the INDEX Notes field and automation memory.
+- Record whether Evidence Lock and Copy Lock were completed before Image Gen.
+- Record whether accepted Image Gen base art and deterministic bilingual posters exist.
 - Record whether generated_images mirror succeeded or failed.
+- Record whether the package is local-ready or published.
 - Record whether the topic should be avoided next time.

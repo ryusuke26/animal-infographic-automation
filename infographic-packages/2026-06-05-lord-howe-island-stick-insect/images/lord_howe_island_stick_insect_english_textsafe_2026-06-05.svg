@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f6ead4"/>
+  <rect x="56" y="58" width="1088" height="1384" rx="28" fill="#fff8e8" stroke="#4d4031" stroke-width="5"/>
+  <text x="600" y="135" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="64" font-weight="700" fill="#2f261e">Lord Howe Island</text>
+  <text x="600" y="205" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="64" font-weight="700" fill="#2f261e">Stick Insect</text>
+  <text x="600" y="267" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-style="italic" fill="#3e3429">Dryococelus australis</text>
+  <rect x="150" y="320" width="900" height="518" rx="20" fill="#293b50"/>
+  <path d="M165 735 C300 620 385 675 485 575 C600 455 725 515 815 405 C895 312 975 340 1040 305" fill="none" stroke="#d6c09a" stroke-width="18" stroke-linecap="round" opacity="0.25"/>
+  <ellipse cx="595" cy="585" rx="310" ry="74" fill="#1d1712" stroke="#f0d49c" stroke-width="5"/>
+  <circle cx="346" cy="585" r="28" fill="#1d1712" stroke="#f0d49c" stroke-width="5"/>
+  <path d="M265 570 C190 550 140 521 101 483" stroke="#1d1712" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M270 600 C200 638 145 685 102 745" stroke="#1d1712" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <g stroke="#1d1712" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M400 640 L315 785"/>
+    <path d="M505 647 L455 805"/>
+    <path d="M625 650 L635 820"/>
+    <path d="M742 643 L830 790"/>
+    <path d="M805 600 L965 675"/>
+    <path d="M430 530 L325 415"/>
+  </g>
+  <g stroke="#7e9e61" stroke-width="14" stroke-linecap="round">
+    <path d="M830 365 L1030 280"/>
+    <path d="M860 360 L915 300"/>
+    <path d="M900 345 L970 315"/>
+    <path d="M935 325 L1010 300"/>
+    <path d="M815 385 L900 410"/>
+  </g>
+  <circle cx="250" cy="390" r="48" fill="#f8edbf"/>
+  <rect x="118" y="900" width="430" height="140" rx="16" fill="#f8edbf" stroke="#7a644a" stroke-width="4"/>
+  <text x="333" y="955" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="38" font-weight="700" fill="#2f261e">Nocturnal on</text>
+  <text x="333" y="1000" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="38" font-weight="700" fill="#2f261e">Ball's Pyramid</text>
+  <rect x="650" y="900" width="430" height="140" rx="16" fill="#f8edbf" stroke="#7a644a" stroke-width="4"/>
+  <text x="865" y="955" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="38" font-weight="700" fill="#2f261e">Hides in rock</text>
+  <text x="865" y="1000" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="38" font-weight="700" fill="#2f261e">crevices by day</text>
+  <rect x="260" y="1080" width="680" height="130" rx="16" fill="#f8edbf" stroke="#7a644a" stroke-width="4"/>
+  <text x="600" y="1138" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="42" font-weight="700" fill="#2f261e">A large wingless phasmid</text>
+  <text x="600" y="1330" text-anchor="middle" font-family="Trebuchet MS, Arial, sans-serif" font-size="45" font-weight="700" fill="#2f4858">IUCN Red List 2017: CR</text>
+</svg>

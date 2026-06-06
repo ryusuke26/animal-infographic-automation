@@ -1,6 +1,6 @@
 # Automation: 世界の知らない生きものインフォグラフィック日次制作
 
-Create one curiosity-first biological infographic package about a lesser-known living thing from anywhere in the world. Use `$bio-discovery-infographic` for the discovery-first package workflow and `$endangered-species-factcheck` for publication-safe fact checks when available.
+Create one curiosity-first biological infographic package about a lesser-known living thing from anywhere in the world. Use `$bio-discovery-infographic` for the discovery-first workflow and `$endangered-species-factcheck` for publication-safe fact checks when available.
 
 Reference policy:
 
@@ -8,77 +8,136 @@ Reference policy:
 automation-2-production-policy.md
 ```
 
-## 1. Start Here
+Follow the phases below in order. Do not start image generation early.
+
+## Phase 0: Preflight
 
 Before choosing a topic, read:
 
 ```text
-$CODEX_HOME/automations/automation-2/memory.md
+C:\Users\ryusu\.codex\automations\automation-2\memory.md
 infographic-packages/INDEX.md
 infographic-packages/
 ```
 
-Avoid completed topics found in memory, `INDEX.md`, or package folders. Prefer a different lineage, habitat, region, or ecological hook from the most recent 3-5 completed packages. Incomplete topics do not count as completed unless this run deliberately finishes them.
+Use the absolute memory path above when `$CODEX_HOME` is empty or unavailable. Check `git status --short` and note any completed but unpublished package without modifying or mixing unrelated work.
 
-## 2. Tone
+## Phase 1: Topic And Region Lock
 
-- Natural-history discovery first.
-- No moralizing, savior framing, blame, or urgency slogans.
-- Keep conservation/status as a quiet footer.
-- Do not use population numbers unless they are current, geographically scoped, and clearly sourced.
-- Japanese posters should foreground the Japanese common name.
+Reject completed topics found in memory, `INDEX.md`, or package folders.
 
-## 3. Fact Check
+For each candidate, identify:
 
-Verify before writing final copy:
+- broad native region: Africa, Asia, Europe, North America, Central America/Caribbean, South America, Australia/Oceania, or Ocean/Global
+- lineage
+- habitat
+- ecological or visual hook
 
-- common name and scientific name
-- taxonomy
-- range and habitat
+Review the most recent 8 completed packages. Prefer regions with 0 appearances, avoid a region that already appears 2 or more times when a credible underrepresented alternative exists, and avoid using the same broad region in consecutive runs. Australia/Oceania is currently overrepresented and remains on cooldown until the rolling rule allows it again. User-requested species, dated awareness days, and deliberate remakes may override the rotation rule when recorded.
+
+Choose a topic only after checking regional, lineage, habitat, and hook variety.
+
+## Phase 2: Evidence Lock
+
+Do not call Image Gen during this phase.
+
+Verify and record in `sources-qa.md`:
+
+- accepted common and scientific names
+- taxonomy and naming caveats
+- native range and broad region
+- habitat
 - behavior and distinctive traits
-- conservation status
-- threats, if mentioned
-- image identity guidance
+- conservation status, assessment year, and jurisdiction
+- threats, only if public copy mentions them
+- exact visual identity guidance
 
-Use authoritative sources first: IUCN Red List when relevant, official regional lists with jurisdiction labels, CITES/legal listings when applicable, peer-reviewed papers, and official monitoring or recovery reports. If sources disagree, state the uncertainty and use conservative public wording.
+Use authoritative sources first: IUCN Red List when relevant, official regional lists with jurisdiction labels, CITES/legal listings when applicable, peer-reviewed papers, and official monitoring or recovery reports.
 
-## 4. Package
+Resolve source disagreements before proceeding. If a claim remains uncertain, use conservative public wording and record the uncertainty. Do not use population numbers unless they are current, geographically scoped, and clearly sourced.
 
-Create one canonical package folder:
+Evidence Lock is complete only when the exact status footer, assessment year, scientific name, native region, and three core public claims are settled.
+
+## Phase 3: Copy Lock
+
+Do not call Image Gen until this phase is complete.
+
+Write and cross-check:
+
+- Japanese and English infographic copy
+- exact Japanese and English titles
+- scientific name
+- three short observation labels
+- exact footer/status wording
+- Japanese and English X posts with ALT text
+- Japanese and English thread drafts when needed
+- image prompts based only on Evidence Lock claims
+
+Save these files in the package folder before generating images. Recheck every image-facing fact against `sources-qa.md`.
+
+Copy Lock is complete only when no unresolved placeholder, year, category, name, label, or footer remains.
+
+## Phase 4: Visual Production
+
+Create:
 
 ```text
 infographic-packages/YYYY-MM-DD-species-slug/
 infographic-packages/YYYY-MM-DD-species-slug/images/
 ```
 
+Use Image Gen only after Evidence Lock and Copy Lock.
+
+Preferred visual workflow:
+
+1. Generate one strong text-light or text-free base illustration with accurate organism identity and habitat.
+2. Add the locked Japanese and English text locally with deterministic typography to create final Japanese and English poster PNGs.
+3. Keep the accepted Image Gen base artwork in `images/`.
+4. Create text-safe SVG files when useful for editing or backup.
+
+Separate Japanese and English Image Gen scenes are optional, not required. Use them only when two distinct compositions add real value and generation capacity allows.
+
+Do not regenerate artwork for spelling, footer-year, font, clipping, or translation problems. Fix those in the deterministic text layer. Regenerate Image Gen artwork only when the organism identity, anatomy, posture, habitat, or major composition is wrong.
+
+Style: childlike crayon/oil-pastel field-notebook poster, warm handmade educational tone, accurate identity and habitat cues, no fake maps, no unsupported visual claims.
+
+Image QA must check body plan, distinctive structures, limb/appendage count, posture, habitat, and absence of confusing lookalikes. Use a safer natural posture for difficult anatomy. If the generated organism remains incorrect, mark the package `needs review` rather than forcing repeated generations.
+
+## Phase 5: Package And QA
+
 Save at least:
 
-- package notes or `README.md` with rationale, fact-check table, source list, and QA notes
+- `README.md` with rationale and completion notes
+- `sources-qa.md`
 - Japanese and English infographic copy
-- Japanese and English Image Gen prompts
+- Japanese and English image prompts
 - Japanese and English X post copy with ALT text
-- short 140-character thread drafts when a standalone X free-version post would be unclear
-- Japanese and English Image Gen raster poster PNGs in `images/`
-- image QA notes confirming species identity, body structure, posture, and habitat cues are coherent enough for public posting
-- text-safe SVG/PNG backups when generated text may be unreliable
+- short thread drafts when needed
+- accepted Image Gen base artwork
+- final Japanese and English poster PNGs
+- text-safe SVG/PNG assets when useful
 
 Use stable ASCII filenames with species slug, language, asset type, and date.
 
-Use UTF-8 for all package Markdown, text, SVG, and index files. When reading or writing Japanese text from PowerShell, explicitly use UTF-8. If Japanese common names, hashtags, or series labels display as mojibake, re-read as UTF-8 before editing or making QA decisions.
+Use UTF-8 for all Markdown, text, SVG, and index files. In PowerShell, explicitly use UTF-8. If Japanese text displays as mojibake or `?`, re-read the source as UTF-8 and regenerate the affected deterministic asset before making a QA decision.
 
-## 5. Visual Rules
+Verify:
 
-Use Image Gen for every completed package. Generate both Japanese and English raster posters.
+- required files exist
+- final PNG dimensions are suitable for posting
+- SVG files parse as XML
+- final Japanese and English poster text matches Copy Lock
+- all thread posts satisfy the intended character limit
+- `git diff --check` reports no whitespace errors
 
-Style: childlike crayon/oil-pastel field-notebook poster, warm handmade educational tone, accurate species identity and habitat cues, no fake maps, no unsupported visual claims.
+## Tone And Caption Rules
 
-Text-safe SVG/PNG backups are accuracy backups. They do not replace the required Image Gen raster images.
+- Natural-history discovery first.
+- No moralizing, savior framing, blame, or urgency slogans.
+- Keep conservation/status as a quiet footer.
+- Japanese posters foreground the Japanese common name or a clearly labeled safe rendering.
 
-Image Gen PNGs also need visual identity QA. Check body plan, distinctive structures, limb/appendage count, posture, and habitat. If the art is cute or atmospheric but species/anatomy-breaking, mark the package `needs review` instead of `completed`. For difficult anatomy, avoid repeated dramatic poses that break the organism; use a safer natural posture and explain the behavior in labels or an inset.
-
-## 6. Caption Rules
-
-For Japanese X copy, keep the user's compact structure:
+Japanese X copy should follow:
 
 ```text
 [curiosity-first poetic Japanese line]
@@ -89,20 +148,31 @@ For Japanese X copy, keep the user's compact structure:
 [short distinctive trait line]
 [species-specific line using ちょっと不思議な暮らし]
 
-IUCN Red List [assessment year]: [category] ([abbreviation])
+[locked conservation/status footer]
 ```
 
-Also provide ALT text, 0-2 relevant hashtags, and an optional source/context reply. For Japanese posts, default to the fixed series tag `#世界の知らない生き物`. Prefer separate Japanese and English posts.
+Provide ALT text, 0-2 relevant hashtags, and an optional source/context reply. For Japanese posts, default to `#世界の知らない生き物`. Prefer separate Japanese and English posts.
 
-## 7. Finish
+## Phase 6: Finish
 
 Before finishing, update:
 
 ```text
 infographic-packages/INDEX.md
-$CODEX_HOME/automations/automation-2/memory.md
+C:\Users\ryusu\.codex\automations\automation-2\memory.md
 ```
 
-Record topic, scientific name, package folder, artifacts, source years, image QA, Image Gen status, optional mirror result if attempted, and whether the topic should be avoided next time.
+In the INDEX Notes field and automation memory, record:
 
-The run is complete only when the package folder, text deliverables, sources, Japanese and English Image Gen PNGs, visual identity QA, needed backups, X copy/ALT text, `INDEX.md`, and automation memory are all present. Optional `generated_images` mirroring may fail without failing the run if package-local assets are complete and the failure is recorded.
+- broad native region
+- topic and scientific name
+- package folder and artifacts
+- source and assessment years
+- Evidence Lock and Copy Lock completion
+- Image Gen base status and visual QA
+- whether deterministic Japanese and English posters exist
+- optional mirror result if attempted
+- local-ready or published state
+- whether the topic should be avoided next time
+
+The run is `completed` when the evidence and copy are locked, the accepted Image Gen base exists, final Japanese and English poster PNGs pass QA, text deliverables and sources are present, and INDEX plus automation memory are updated. Optional mirroring and Git publishing may remain separate, but their state must be recorded.
