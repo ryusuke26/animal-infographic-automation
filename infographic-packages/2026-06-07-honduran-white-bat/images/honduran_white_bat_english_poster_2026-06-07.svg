@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <clipPath id="artClip"><rect x="80" y="245" width="1040" height="790" rx="24"/></clipPath>
+  </defs>
+  <rect width="1200" height="1500" fill="#f3e7cc"/>
+  <rect x="42" y="42" width="1116" height="1416" rx="30" fill="#fff9e9" stroke="#4b5038" stroke-width="5"/>
+  <text x="600" y="145" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="72" font-weight="700" fill="#263b31">Honduran White Bat</text>
+  <text x="600" y="212" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-style="italic" fill="#4b5038">Ectophylla alba</text>
+  <image x="80" y="245" width="1040" height="790" preserveAspectRatio="xMidYMid slice" clip-path="url(#artClip)" xlink:href="honduran_white_bat_base_imagegen_2026-06-07.png"/>
+  <rect x="80" y="245" width="1040" height="790" rx="24" fill="none" stroke="#526b52" stroke-width="5"/>
+  <rect x="75" y="1080" width="350" height="180" rx="20" fill="#fff5da" stroke="#6e7650" stroke-width="4"/><text x="250.0" y="1170.0" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="34" font-weight="700" fill="#2f392a"><tspan x="250.0" y="1148.0">Cuts leaves into</tspan><tspan x="250.0" y="1192.0">roost tents</tspan></text><rect x="425" y="1080" width="350" height="180" rx="20" fill="#fff5da" stroke="#6e7650" stroke-width="4"/><text x="600.0" y="1170.0" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="34" font-weight="700" fill="#2f392a"><tspan x="600.0" y="1126.0">White fur,</tspan><tspan x="600.0" y="1170.0">yellow ears</tspan><tspan x="600.0" y="1214.0">and nose</tspan></text><rect x="775" y="1080" width="350" height="180" rx="20" fill="#fff5da" stroke="#6e7650" stroke-width="4"/><text x="950.0" y="1170.0" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="34" font-weight="700" fill="#2f392a"><tspan x="950.0" y="1148.0">Day-rests in</tspan><tspan x="950.0" y="1192.0">lowland forest</tspan></text>
+  <rect x="150" y="1320" width="900" height="90" rx="18" fill="#dce6cf"/>
+  <text x="600" y="1376" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="35" font-weight="700" fill="#304c3d">IUCN Red List 2015: Near Threatened (NT)</text>
+</svg>

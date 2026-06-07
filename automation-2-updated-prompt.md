@@ -88,16 +88,16 @@ infographic-packages/YYYY-MM-DD-species-slug/images/
 
 Use Image Gen only after Evidence Lock and Copy Lock.
 
-Preferred visual workflow:
+Required visual workflow:
 
-1. Generate one strong text-light or text-free base illustration with accurate organism identity and habitat.
-2. Add the locked Japanese and English text locally with deterministic typography to create final Japanese and English poster PNGs.
-3. Keep the accepted Image Gen base artwork in `images/`.
-4. Create text-safe SVG files when useful for editing or backup.
+1. Generate a complete Japanese poster with Image Gen using only the locked Japanese copy.
+2. Generate a complete English poster with Image Gen using only the locked English copy.
+3. Keep both accepted direct Image Gen poster PNGs in `images/`.
+4. Create deterministic text-safe SVG/PNG versions when useful for editing or backup, but do not use them as substitutes for a missing Japanese or English Image Gen poster.
 
-Separate Japanese and English Image Gen scenes are optional, not required. Use them only when two distinct compositions add real value and generation capacity allows.
+The Japanese and English direct Image Gen posters are both completion requirements. If either language is absent, rejected by visual QA, or replaced only by a deterministic layout, mark the package `incomplete` or `needs review`.
 
-Do not regenerate artwork for spelling, footer-year, font, clipping, or translation problems. Fix those in the deterministic text layer. Regenerate Image Gen artwork only when the organism identity, anatomy, posture, habitat, or major composition is wrong.
+Do not change facts or wording during image generation. If a factual correction is required, return to Evidence Lock and Copy Lock before generating again. Use at most one targeted visual retry at a time for anatomy, posture, habitat, major composition, or generated-text failure, then re-run QA instead of repeatedly changing the whole workflow.
 
 Style: childlike crayon/oil-pastel field-notebook poster, warm handmade educational tone, accurate identity and habitat cues, no fake maps, no unsupported visual claims.
 
@@ -113,8 +113,8 @@ Save at least:
 - Japanese and English image prompts
 - Japanese and English X post copy with ALT text
 - short thread drafts when needed
-- accepted Image Gen base artwork
-- final Japanese and English poster PNGs
+- final direct Japanese Image Gen poster PNG
+- final direct English Image Gen poster PNG
 - text-safe SVG/PNG assets when useful
 
 Use stable ASCII filenames with species slug, language, asset type, and date.
@@ -126,7 +126,7 @@ Verify:
 - required files exist
 - final PNG dimensions are suitable for posting
 - SVG files parse as XML
-- final Japanese and English poster text matches Copy Lock
+- final Japanese and English Image Gen poster text matches Copy Lock
 - all thread posts satisfy the intended character limit
 - `git diff --check` reports no whitespace errors
 
@@ -169,10 +169,10 @@ In the INDEX Notes field and automation memory, record:
 - package folder and artifacts
 - source and assessment years
 - Evidence Lock and Copy Lock completion
-- Image Gen base status and visual QA
-- whether deterministic Japanese and English posters exist
+- Japanese and English direct Image Gen poster status and visual QA
+- whether deterministic text-safe backups exist
 - optional mirror result if attempted
 - local-ready or published state
 - whether the topic should be avoided next time
 
-The run is `completed` when the evidence and copy are locked, the accepted Image Gen base exists, final Japanese and English poster PNGs pass QA, text deliverables and sources are present, and INDEX plus automation memory are updated. Optional mirroring and Git publishing may remain separate, but their state must be recorded.
+The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen poster PNGs both exist and pass visual/text QA, text deliverables and sources are present, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
