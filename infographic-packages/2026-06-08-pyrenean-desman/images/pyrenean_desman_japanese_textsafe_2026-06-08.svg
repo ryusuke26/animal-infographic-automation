@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#f7efd9"/>
+  <rect x="55" y="55" width="1090" height="1390" rx="28" fill="#fff8e8" stroke="#6f8f5e" stroke-width="8"/>
+  <text x="600" y="150" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="82" font-weight="700" fill="#3e3125">イベリアデスマン</text>
+  <text x="600" y="225" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#476247">Galemys pyrenaicus</text>
+
+  <path d="M110 720 C220 520 430 455 620 510 C800 560 980 510 1090 390" fill="none" stroke="#88bdd4" stroke-width="82" stroke-linecap="round" opacity="0.55"/>
+  <path d="M100 760 C260 620 420 660 560 620 C760 560 870 630 1085 520" fill="none" stroke="#427f9f" stroke-width="38" stroke-linecap="round" opacity="0.55"/>
+  <g fill="#8a7d61" opacity="0.9">
+    <ellipse cx="210" cy="870" rx="70" ry="34"/>
+    <ellipse cx="325" cy="590" rx="66" ry="32"/>
+    <ellipse cx="930" cy="775" rx="78" ry="36"/>
+    <ellipse cx="1040" cy="620" rx="70" ry="32"/>
+  </g>
+
+  <g transform="translate(210 555)">
+    <ellipse cx="365" cy="310" rx="285" ry="145" fill="#665d4d"/>
+    <ellipse cx="255" cy="285" rx="145" ry="105" fill="#756b59"/>
+    <path d="M135 295 C60 295 25 320 0 355 C70 340 120 350 165 330" fill="#584f42"/>
+    <circle cx="210" cy="250" r="12" fill="#171717"/>
+    <path d="M625 330 C760 335 835 395 920 465" fill="none" stroke="#5b5244" stroke-width="24" stroke-linecap="round"/>
+    <path d="M455 420 C505 485 565 480 615 430" fill="#5b5244"/>
+    <path d="M290 415 C330 478 390 475 440 425" fill="#5b5244"/>
+    <path d="M455 422 l30 80 M485 427 l55 75 M518 420 l74 58" stroke="#302a24" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Meiryo, sans-serif" font-size="40" fill="#2f3b2c">
+    <rect x="105" y="340" width="350" height="130" rx="20" fill="#fbf7e8" stroke="#6f8f5e" stroke-width="5"/>
+    <text x="280" y="418" text-anchor="middle">冷たい山の渓流にすむ</text>
+    <rect x="700" y="405" width="380" height="140" rx="20" fill="#fbf7e8" stroke="#6f8f5e" stroke-width="5"/>
+    <text x="890" y="466" text-anchor="middle">やわらかな鼻で</text>
+    <text x="890" y="518" text-anchor="middle">川底をさぐる</text>
+    <rect x="195" y="1080" width="420" height="145" rx="20" fill="#fbf7e8" stroke="#6f8f5e" stroke-width="5"/>
+    <text x="405" y="1144" text-anchor="middle">水生昆虫の幼虫を</text>
+    <text x="405" y="1196" text-anchor="middle">食べる</text>
+  </g>
+
+  <rect x="150" y="1320" width="900" height="90" rx="20" fill="#fbf7e8" stroke="#6f8f5e" stroke-width="5"/>
+  <text x="600" y="1382" text-anchor="middle" font-family="Georgia, serif" font-size="45" fill="#3e3125">IUCN Red List 2022: Endangered (EN)</text>
+</svg>
