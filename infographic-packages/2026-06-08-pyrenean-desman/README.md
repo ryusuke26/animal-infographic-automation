@@ -6,7 +6,7 @@ Topic: Pyrenean Desman / Iberian Desman / イベリアデスマン
 Scientific name: *Galemys pyrenaicus*
 Broad native region: Europe
 Lineage: Mammalia, Talpidae, Desmanini
-Status: completed; local-ready, not published
+Status: completed; published to GitHub
 
 ## Rationale
 
@@ -49,5 +49,6 @@ Spain's 2026 national Red List context is recorded separately in `sources-qa.md`
 - Mechanical QA: direct Image Gen PNGs are 1024x1536; text-safe PNGs are 1200x1500; SVG files parse as XML; all short thread posts are under 140 characters.
 - INDEX update: completed.
 - Automation memory update: completed.
+- GitHub publication: completed on 2026-06-08.
 
 Avoid repeating Pyrenean / Iberian Desman / イベリアデスマン / *Galemys pyrenaicus* in later runs unless explicitly requested.
