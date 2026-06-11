@@ -4,7 +4,7 @@ Date: 2026-06-11
 Topic: Rubber Boa / ラバーボア
 Scientific name: *Charina bottae*
 Broad native region: North America
-State: local-ready, not published
+State: published
 
 ## Why This Topic
 
@@ -32,6 +32,7 @@ North America had no appearances among the previous eight completed packages, an
 - End-of-day review accepted corrected Japanese v4 and English v3 as the final direct posters.
 - The corrected files were promoted to the canonical Japanese and English direct-poster filenames.
 - Final visual QA passed: one continuous side-on snake, one small blunt head, one flat rounded tail, no second-head/rattle reading, no duplicated upper callout, and each locked observation label appears once.
+- Published to GitHub `origin/master` during end-of-day closeout.
 - Text-safe Japanese and English SVG/PNG backups exist.
 - Direct Image Gen posters are 1023 x 1537 (Japanese) and 1024 x 1536 (English). Text-safe PNGs are 1200 x 1500.
 - Optional `generated_images/animal_img` mirror was not attempted.
