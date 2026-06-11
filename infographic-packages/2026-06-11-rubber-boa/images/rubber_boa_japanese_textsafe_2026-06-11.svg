@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<rect width="1200" height="1500" fill="#eadbb8"/>
+<rect x="38" y="38" width="1124" height="1424" rx="28" fill="#fff8e8" stroke="#586a4d" stroke-width="5"/>
+<text x="600" y="140" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="60" font-weight="700" fill="#3d4c36">ラバーボア</text>
+<text x="600" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#665c48">Charina bottae</text>
+<rect x="120" y="290" width="960" height="750" rx="45" fill="#d8e2c2" stroke="#6f8061" stroke-width="5"/>
+<rect x="120" y="820" width="960" height="220" fill="#9b7653"/>
+<ellipse cx="355" cy="858" rx="175" ry="112" fill="#777267" stroke="#4e5049" stroke-width="5"/>
+<rect x="660" y="690" width="370" height="160" rx="55" fill="#72533d" stroke="#4c382b" stroke-width="6"/>
+<path d="M360 710 C390 600 520 550 630 575 C755 600 820 700 770 785 C710 875 560 875 455 800 C390 755 350 720 360 710" fill="none" stroke="#735b3f" stroke-width="82" stroke-linecap="round"/>
+<ellipse cx="360" cy="708" rx="44" ry="42" fill="#735b3f" stroke="#4f422f" stroke-width="4"/>
+<circle cx="344" cy="691" r="5" fill="#151913"/>
+<path d="M785 735 Q830 700 850 685" fill="none" stroke="#735b3f" stroke-width="70" stroke-linecap="round"/>
+<ellipse cx="850" cy="685" rx="35" ry="35" fill="#735b3f" stroke="#4f422f" stroke-width="4"/>
+<rect x="65" y="1090" width="340" height="155" rx="18" fill="#f7edcf" stroke="#8b765c" stroke-width="4"/><text text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="28" font-weight="700" fill="#493b2c"><tspan x="235" y="1150">岩や倒木の下に</tspan><tspan x="235" y="1192">ひそむ</tspan></text><rect x="430" y="1090" width="340" height="155" rx="18" fill="#f7edcf" stroke="#8b765c" stroke-width="4"/><text text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="28" font-weight="700" fill="#493b2c"><tspan x="600" y="1150">つやのある</tspan><tspan x="600" y="1192">小さなボア</tspan></text><rect x="795" y="1090" width="340" height="155" rx="18" fill="#f7edcf" stroke="#8b765c" stroke-width="4"/><text text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="28" font-weight="700" fill="#493b2c"><tspan x="965" y="1150">丸い尾を</tspan><tspan x="965" y="1192">盾にする</tspan></text>
+<rect x="145" y="1325" width="910" height="90" rx="17" fill="#dce2c4"/>
+<text x="600" y="1382" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="29" font-weight="700" fill="#35402f">IUCN Red List 2019: Least Concern (LC)</text>
+</svg>
