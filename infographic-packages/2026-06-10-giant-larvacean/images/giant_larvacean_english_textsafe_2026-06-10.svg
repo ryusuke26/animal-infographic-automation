@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#eee2bf"/>
+  <rect x="38" y="38" width="1124" height="1424" rx="28" fill="#fff9e8" stroke="#2b6670" stroke-width="5"/>
+  <text x="600" y="135" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="68" font-weight="700" fill="#173f5c">Giant Larvacean</text>
+  <text x="600" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-style="italic" fill="#3f6472">Bathochordaeus stygius</text>
+  <ellipse cx="600" cy="667" rx="465" ry="382" fill="#173c64" stroke="#8cc4cc" stroke-width="4"/>
+  <ellipse cx="495" cy="625" rx="210" ry="235" fill="#8dd4d2" fill-opacity="0.24" stroke="#bce5de" stroke-width="8"/>
+  <ellipse cx="710" cy="625" rx="210" ry="235" fill="#8dd4d2" fill-opacity="0.24" stroke="#bce5de" stroke-width="8"/>
+  <ellipse cx="600" cy="632" rx="160" ry="158" fill="#c9eef0" fill-opacity="0.30" stroke="#d8f3ed" stroke-width="6"/>
+  <path d="M405 550 Q600 470 795 550 M405 625 Q600 545 795 625 M405 700 Q600 620 795 700" fill="none" stroke="#9ed9d4" stroke-width="3"/>
+  <ellipse cx="602" cy="628" rx="58" ry="63" fill="#dcefcf" stroke="#eff8e8" stroke-width="4"/>
+  <path d="M620 665 Q760 710 770 850" fill="none" stroke="#e8f4d8" stroke-width="32" stroke-linecap="round"/>
+  <path d="M185 515 L405 550 M185 585 L405 620 M185 655 L405 690 M185 725 L405 760" fill="none" stroke="#a8d6ce" stroke-width="4"/>
+  <ellipse cx="600" cy="945" rx="110" ry="65" fill="#8bbfbd" fill-opacity="0.30" stroke="#bce5de" stroke-width="5"/>
+  <path d="M600 1010 V1065" stroke="#bce5de" stroke-width="5"/><path d="M600 1080 L585 1055 H615 Z" fill="#bce5de"/>
+  <rect x="65" y="1090" width="340" height="160" rx="18" fill="#f7edcf" stroke="#74a9a4" stroke-width="4"/><text x="235" y="1170" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="29" font-weight="700" fill="#183f55"><tspan x="235" y="1150.5">A pelagic tunicate</tspan><tspan x="235" y="1189.5">in deep water</tspan></text><rect x="430" y="1090" width="340" height="160" rx="18" fill="#f7edcf" stroke="#74a9a4" stroke-width="4"/><text x="600" y="1170" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="29" font-weight="700" fill="#183f55"><tspan x="600" y="1150.5">A mucus house</tspan><tspan x="600" y="1189.5">filters fine particles</tspan></text><rect x="795" y="1090" width="340" height="160" rx="18" fill="#f7edcf" stroke="#74a9a4" stroke-width="4"/><text x="965" y="1170" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="29" font-weight="700" fill="#183f55"><tspan x="965" y="1150.5">Used houses sink</tspan><tspan x="965" y="1189.5">into the deep</tspan></text>
+  <rect x="75" y="1325" width="1050" height="90" rx="17" fill="#d2e6de"/>
+  <text x="600" y="1380" text-anchor="middle" font-family="Yu Gothic, Meiryo, Arial, sans-serif" font-size="25" font-weight="700" fill="#173f4e">IUCN Red List: No species assessment located (checked 2026)</text>
+</svg>
