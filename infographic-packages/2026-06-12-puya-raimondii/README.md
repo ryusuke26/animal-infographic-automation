@@ -6,7 +6,7 @@ Topic: Queen of the Andes / プヤ・ライモンディ
 Scientific name: *Puya raimondii*
 Broad native region: South America
 Lineage: Plantae, Bromeliaceae
-Status: completed; local-ready, not published
+Status: completed; published
 
 ## Rationale
 
@@ -65,7 +65,7 @@ IUCN Red List 2009: Endangered (EN)
 - INDEX update: completed.
 - Automation memory update: completed.
 - Optional `generated_images/animal_img` mirror: not attempted.
-- GitHub publication: not attempted; package is local-ready.
+- GitHub publication: completed to `origin/master`.
 
 Avoid repeating Queen of the Andes / プヤ・ライモンディ /
 *Puya raimondii* after completion unless explicitly requested.
