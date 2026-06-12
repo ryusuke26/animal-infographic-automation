@@ -6,7 +6,7 @@ Topic: Low's Pitcher Plant / ネペンテス・ローウィー
 Scientific name: *Nepenthes lowii*
 Broad native region: Asia
 Lineage: Plantae, Nepenthaceae
-Status: completed; local-ready, not published
+Status: completed; published
 
 ## Rationale
 
@@ -50,6 +50,6 @@ IUCN Red List 2000: Vulnerable (VU)
 - INDEX update: completed.
 - Automation memory update: completed.
 - Optional `generated_images/animal_img` mirror: not attempted.
-- GitHub publication: not attempted; package is local-ready.
+- GitHub publication: completed to `origin/master`.
 
 Avoid repeating Low's Pitcher Plant / ネペンテス・ローウィー / *Nepenthes lowii* after this package is completed unless explicitly requested.

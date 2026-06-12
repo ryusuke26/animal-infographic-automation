@@ -4,7 +4,7 @@ Date: 2026-06-10
 Topic: Giant Larvacean / ジャイアント・ラーバシアン
 Scientific name: *Bathochordaeus stygius*
 Broad native region: Ocean/Global
-State: local-ready, not published
+State: published
 
 ## Why This Topic
 
@@ -24,6 +24,7 @@ Ocean/Global had no appearances among the previous eight completed packages, whi
 - Text-safe Japanese and English SVG/PNG backups exist.
 - Direct Image Gen posters are 1024 x 1536. Text-safe PNGs are 1200 x 1500.
 - Optional `generated_images/animal_img` mirror was not attempted.
+- GitHub publication completed to `origin/master`.
 
 ## Required Direct Poster Filenames
 
