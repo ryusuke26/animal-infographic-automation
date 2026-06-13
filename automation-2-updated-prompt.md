@@ -58,6 +58,40 @@ Resolve source disagreements before proceeding. If a claim remains uncertain, us
 
 Evidence Lock is complete only when the exact status footer, assessment year, scientific name, native region, and three core public claims are settled.
 
+## Phase 2.5: Independent Verifier Trial
+
+Run this trial once, after Evidence Lock and before Copy Lock.
+
+Check `C:\Users\ryusu\.codex\automations\automation-2\memory.md` for the exact
+marker `Independent verifier trial: completed`.
+
+- If the marker is absent and sub-agent tools are available, spawn exactly one
+  read-only verifier.
+- Give the verifier the selected topic, draft `sources-qa.md`, locked public
+  claims, proposed status footer, source list, and visual identity guidance.
+- Ask it to independently check the accepted name, latest formal conservation
+  status and assessment year, native range and habitat, the three public
+  claims, source fit, and lookalike or anatomy risks.
+- Do not delegate topic selection, final copy decisions, image generation,
+  file editing, INDEX updates, memory updates, or publication.
+- Reconcile every verifier finding against authoritative sources. The main
+  agent owns the final decision and must record accepted corrections, rejected
+  suggestions, and unresolved uncertainty in `sources-qa.md`.
+- If a material conflict remains unresolved, do not start Copy Lock or Image
+  Gen. Mark the package `needs review`.
+- If sub-agent tools are unavailable, the verifier errors, or it times out,
+  perform the same independent checklist locally and continue. Record the
+  fallback instead of failing the run.
+- Do not spawn replacement or additional verifiers during this trial.
+- If the verifier ran successfully and the tooling supports reuse, keep that
+  same verifier available for one post-Image Gen identity check in Phase 5.
+
+At Phase 6, record the trial result in the package `README.md` and automation
+memory, including whether a verifier ran, pre-copy and post-image findings,
+corrections, and fallbacks. Add the exact marker
+`Independent verifier trial: completed` to automation memory so later runs do
+not repeat the trial automatically.
+
 ## Phase 3: Copy Lock
 
 Do not call Image Gen until this phase is complete.
@@ -92,10 +126,21 @@ Required visual workflow:
 
 1. Generate a complete Japanese poster with Image Gen using only the locked Japanese copy.
 2. Generate a complete English poster with Image Gen using only the locked English copy.
-3. Keep both accepted direct Image Gen poster PNGs in `images/`.
-4. Create deterministic text-safe SVG/PNG versions when useful for editing or backup, but do not use them as substitutes for a missing Japanese or English Image Gen poster.
+3. Require each direct Image Gen source to be vertical `4:5`. Pixel dimensions may vary, but the aspect ratio must be within normal pixel-rounding tolerance of `4:5`.
+4. If either source is not `4:5`, reject that language version and regenerate it with a targeted instruction to use a vertical `4:5` canvas. Do not add borders or padding, crop the poster, stretch it, or accept a different ratio.
+5. After a ratio failure, make a targeted regeneration attempt for that language. If the regenerated poster still fails the ratio or other QA, keep the artifacts but mark the package `needs review`; do not fabricate a compliant posting file.
+6. Keep accepted direct Image Gen source PNGs in `images/`.
+7. Resize each accepted `4:5` source to an exact `1200x1500` posting PNG with `scripts/normalize_poster.py`. Use the Python executable returned by `load_workspace_dependencies`; do not assume `python` is on `PATH`.
+8. Save the final files as `species_slug_japanese_posting_YYYY-MM-DD.png` and `species_slug_english_posting_YYYY-MM-DD.png`.
+9. Create deterministic text-safe SVG/PNG versions when useful for editing or backup, but do not use them as substitutes for a missing Japanese or English Image Gen poster.
 
-The Japanese and English direct Image Gen posters are both completion requirements. If either language is absent, rejected by visual QA, or replaced only by a deterministic layout, mark the package `incomplete` or `needs review`.
+Normalization command shape:
+
+```text
+<bundled-python> scripts/normalize_poster.py --input <accepted-imagegen.png> --output <language-posting.png>
+```
+
+The Japanese and English direct Image Gen source posters must themselves be `4:5`. Their exact `1200x1500` posting versions are also completion requirements. If either language is absent, has the wrong aspect ratio, is rejected by visual QA, is replaced only by a deterministic layout, or lacks an exact-size posting PNG, mark the package `incomplete` or `needs review`.
 
 Do not change facts or wording during image generation. If a factual correction is required, return to Evidence Lock and Copy Lock before generating again. Use at most one targeted visual retry at a time for anatomy, posture, habitat, major composition, or generated-text failure, then re-run QA instead of repeatedly changing the whole workflow.
 
@@ -115,6 +160,8 @@ Save at least:
 - short thread drafts when needed
 - final direct Japanese Image Gen poster PNG
 - final direct English Image Gen poster PNG
+- final Japanese posting PNG at exactly `1200x1500`
+- final English posting PNG at exactly `1200x1500`
 - text-safe SVG/PNG assets when useful
 
 Use stable ASCII filenames with species slug, language, asset type, and date.
@@ -124,11 +171,21 @@ Use UTF-8 for all Markdown, text, SVG, and index files. In PowerShell, explicitl
 Verify:
 
 - required files exist
-- final PNG dimensions are suitable for posting
+- both accepted direct Image Gen source posters are vertical `4:5`
+- both normalized posting PNGs are exactly `1200x1500` pixels
+- no padding, borders, cropping, or stretching were used to repair an incorrect source ratio
 - SVG files parse as XML
 - final Japanese and English Image Gen poster text matches Copy Lock
 - all thread posts satisfy the intended character limit
 - `git diff --check` reports no whitespace errors
+
+If the independent verifier trial ran and the same verifier is still
+available, send it the final `sources-qa.md`, locked copy, and both direct
+poster images for one read-only identity audit. Ask it to check anatomy,
+diagnostic markings, posture, habitat, lookalike confusion, and whether visible
+text still matches Copy Lock. Reconcile its findings locally. Do not spawn a
+second verifier. If reuse is unavailable, perform this checklist locally and
+record the fallback.
 
 ## Tone And Caption Rules
 
@@ -169,10 +226,12 @@ In the INDEX Notes field and automation memory, record:
 - package folder and artifacts
 - source and assessment years
 - Evidence Lock and Copy Lock completion
-- Japanese and English direct Image Gen poster status and visual QA
+- Japanese and English direct Image Gen poster status, source dimensions, `4:5` validation, and visual QA
+- Japanese and English normalized posting PNG status and exact `1200x1500` dimensions
 - whether deterministic text-safe backups exist
+- independent verifier trial result, when the one-run trial occurs
 - optional mirror result if attempted
 - local-ready or published state
 - whether the topic should be avoided next time
 
-The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen poster PNGs both exist and pass visual/text QA, text deliverables and sources are present, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
+The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `4:5` and pass visual/text QA, exact `1200x1500` posting PNGs exist for both languages without padding/cropping/stretching, text deliverables and sources are present, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.

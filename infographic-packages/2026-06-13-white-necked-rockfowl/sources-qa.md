@@ -41,7 +41,7 @@ previous run was South America. Australia/Oceania remains on cooldown.
 | Native range | accurate | Western Africa from Guinea through Sierra Leone, Liberia, and Côte d'Ivoire to Ghana. | IUCN/BirdLife 2018 assessment; BirdLife action-plan literature. |
 | Broad region | accurate | Africa. | West African native range. |
 | Habitat | accurate | Rocky, hilly forest, often near streams and suitable rock faces or overhangs. | IUCN/BirdLife assessment and action-plan literature. |
-| Distinctive appearance | accurate | Bare bright yellow to yellow-orange head with a large black patch around and behind each eye, white neck and underparts, dark upperparts, long dark tail, and long pale blue-grey legs. | Cornell Birds of the World visual reference; GBIF taxonomy and image-linked records. |
+| Distinctive appearance | accurate after verifier correction | Bare bright yellow to yellow-orange head with a narrow dark eye-ring and a large rounded dark patch immediately behind each eye, white neck and underparts, dark upperparts, long dark tail, and long pale blue-grey legs. | Cornell Birds of the World and eBird visual references; GBIF taxonomy and image-linked records. |
 | Nesting behavior | accurate | Builds a deep cup nest from mud and plant fibres, attached to rock in caves, cliffs, or overhangs. | Thompson 2004 reproductive study; BirdLife action plan. |
 | Global conservation status | accurate, dated | `IUCN Red List 2018: Vulnerable (VU)`. Assessment e.T22692100A132172250. | BirdLife International 2018, IUCN Red List. |
 | Threats | not used publicly | No short threat ranking in the poster or main post. | Omitted to keep the dated assessment from reading as a current threat update. |
@@ -70,12 +70,13 @@ The assessment year is mandatory because the formal global assessment is dated.
 Show one adult White-necked Rockfowl in a safe upright side or three-quarter
 standing posture on a mossy boulder or forest floor beneath a broad rock
 overhang. It must have a nearly featherless bright yellow to yellow-orange head,
-one large rounded black skin patch around and behind each visible eye, a stout
-black slightly downcurved bill, white throat, neck, breast, and belly, dark
-charcoal-grey back and wings, one very long dark tail, and two long pale
-blue-grey legs with ordinary bird feet. Include damp leaf litter, moss, vines,
-a small stream cue, and one thick-walled brown mud cup nest attached high on
-the protected rock surface.
+a narrow dark eye-ring, and one large rounded dark skin patch immediately behind
+each visible eye like an earmuff, separated from the eye by visible yellow skin.
+It must also have a stout black slightly downcurved bill, white throat, neck,
+breast, and belly, dark charcoal-grey back and wings, one very long dark tail,
+and two long pale blue-grey legs with ordinary bird feet. Include damp leaf
+litter, moss, vines, a small stream cue, and one thick-walled brown mud cup nest
+attached high on the protected rock surface.
 
 Avoid the Grey-necked Rockfowl: no blue crown, red nape, grey breast, or yellow
 belly. Avoid crow, vulture, turkey, chicken, hornbill, toucan, bald eagle,
@@ -90,6 +91,12 @@ Overall: Ready for Copy Lock and visual production.
 The exact name, native region, habitat, three public claims, status authority,
 category, assessment year, and visual identity constraints are settled.
 
+Independent verifier correction on 2026-06-13: the original phrase `around and
+behind each eye` over-expanded the black facial marking into an eye mask. The
+corrected guidance uses a narrow eye-ring plus a separate rounded patch
+immediately behind the eye. Corrected Japanese and English direct posters were
+generated from this guidance.
+
 ## Sources
 
 - [GBIF species record: *Picathartes gymnocephalus*](https://www.gbif.org/species/2482632), accessed 2026-06-13. Current backbone classification, synonyms, and common-name cross-check including `ハゲチメドリ`.
@@ -98,6 +105,7 @@ category, assessment year, and visual identity constraints are settled.
 - Thompson, H.S.S. 2004. The reproductive biology of the White-necked Picathartes *Picathartes gymnocephalus*. *Ibis* 146. Mud cup nest construction and breeding-site context.
 - Thompson, H.S.S., Siaka, A., Lebbie, A., Evans, S.W. & Hoffmann, D. 2004. International Action Plan for the White-necked Picathartes *Picathartes gymnocephalus*. BirdLife International Africa Partnership Secretariat. Range, rocky forest habitat, and nesting-site context.
 - [Cornell Birds of the World: White-necked Rockfowl](https://birdsoftheworld.org/bow/species/whnroc1/cur/introduction), checked 2026-06-13. Visual identity cross-check.
+- [eBird: White-necked Rockfowl](https://ebird.org/species/whnroc1), checked 2026-06-13. Facial-marking and field-identity cross-check.
 
 ## Evidence Lock Result
 

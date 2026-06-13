@@ -8,6 +8,7 @@ Use this as the quick navigation map for the infographic automation.
 |---|---|
 | `automation-2-updated-prompt.md` | Current Automation body text to paste into the Automation settings. |
 | `automation-2-production-policy.md` | Human-readable operating policy and responsibility map. |
+| `scripts/normalize_poster.py` | Rejects non-4:5 Image Gen posters and resizes accepted 4:5 sources to the canonical `1200x1500` posting size. |
 | `infographic-packages/INDEX.md` | Archive ledger for completed, incomplete, and needs-review packages. |
 | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each generated topic. |
 | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical image assets folder for Image Gen PNGs and text-safe backups. |
@@ -27,4 +28,7 @@ If a future run needs to know whether a topic is completed, check:
 2. `infographic-packages/INDEX.md`
 3. package folders
 
-If a future run needs to know where final assets are, check the package-local `images/` folder first.
+If a future run needs to know where final upload assets are, check the
+package-local `images/` folder for `*_posting_YYYY-MM-DD.png`. These posting
+files must be exactly `1200x1500`; `*_imagegen_*.png` files preserve the direct
+source output.

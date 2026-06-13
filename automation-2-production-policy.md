@@ -28,12 +28,19 @@ A package is `completed` only when all of these are true:
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - Separate direct Japanese and English Image Gen poster PNGs exist and use the locked copy.
+- Both direct Image Gen source posters are vertical `4:5`.
+- Separate Japanese and English posting PNGs exist at exactly `1200x1500` pixels.
 - Both Image Gen posters pass visual identity QA: the species-specific body plan, distinctive structures, posture, habitat cues, and language-specific text are coherent enough for public posting.
 - Text-safe SVG/PNG assets exist when useful for editing or backup.
 - `infographic-packages/INDEX.md` is updated.
 - Automation memory is updated.
 
-If Image Gen fails, is unavailable, one language is missing, or either poster produces species/anatomy-breaking art, keep the package artifacts but mark the topic as `incomplete` or `needs review`. A base illustration or deterministic bilingual layout does not replace the required direct Japanese and English Image Gen posters.
+If Image Gen fails, is unavailable, one language is missing, either direct
+poster has the wrong aspect ratio after its targeted regeneration, or either
+poster produces species/anatomy-breaking art, keep the package artifacts but
+mark the topic as `incomplete` or `needs review`. A base illustration,
+padding-based repair, or deterministic bilingual layout does not replace the
+required direct Japanese and English Image Gen posters.
 
 ## Fixed Workflow
 
@@ -42,10 +49,13 @@ Every run follows this order:
 1. Preflight and pending-publication check.
 2. Topic and region lock.
 3. Evidence Lock.
-4. Copy Lock.
-5. Direct Japanese and English Image Gen poster production, with optional deterministic text-safe backups.
-6. Visual and mechanical QA.
-7. INDEX and automation-memory update.
+4. One-run independent verifier trial when its completion marker is absent.
+5. Copy Lock.
+6. Direct Japanese and English Image Gen poster production.
+7. Direct-source `4:5` validation and targeted regeneration of any wrong-ratio poster.
+8. Resize accepted `4:5` posters to `1200x1500`.
+9. Visual and mechanical QA, with optional deterministic text-safe backups.
+10. INDEX and automation-memory update.
 
 Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
 
@@ -70,9 +80,22 @@ Use stable ASCII filenames:
 ```text
 species_slug_japanese_imagegen_YYYY-MM-DD.png
 species_slug_english_imagegen_YYYY-MM-DD.png
+species_slug_japanese_posting_YYYY-MM-DD.png
+species_slug_english_posting_YYYY-MM-DD.png
 species_slug_japanese_textsafe_YYYY-MM-DD.svg
 species_slug_english_textsafe_YYYY-MM-DD.svg
 ```
+
+The `imagegen` files preserve the accepted direct service output and must
+already be vertical `4:5`. The `posting` files are the canonical upload assets
+and must both be exactly `1200x1500`.
+
+Normalize with `scripts/normalize_poster.py` using the Python executable
+returned by `load_workspace_dependencies`; plain `python` is not guaranteed to
+be on `PATH`. The script rejects a source outside normal pixel-rounding
+tolerance of `4:5`. It only resizes an already compliant source. Never add
+padding or borders, crop the artwork, or stretch a wrong-ratio source to make
+it appear compliant.
 
 Text-safe backups should use:
 
@@ -129,6 +152,34 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - If sources disagree or are outdated, state uncertainty and use publication-safe wording.
 - Evidence Lock requires the accepted name, native region, exact status footer and year, three core public claims, and visual identity guidance to be settled before image work.
 
+## Independent Verifier Trial
+
+The next eligible run performs one controlled sub-agent trial. It spawns
+exactly one read-only verifier after Evidence Lock and before Copy Lock, then
+reuses that same verifier after Image Gen when the tooling supports reuse. It
+must not delegate final decisions or file edits.
+
+The verifier independently checks the accepted name, latest formal
+conservation status and assessment year, native range and habitat, the three
+public claims, source fit, and visual identity risks. The main agent reconciles
+all findings and remains responsible for the final Evidence Lock.
+
+After the direct Japanese and English posters exist, the same verifier performs
+one final identity audit covering diagnostic anatomy and markings, posture,
+habitat, lookalike confusion, and visible-text consistency. Do not spawn a
+second verifier if the first verifier cannot be reused; perform the final
+checklist locally instead.
+
+The trial is non-blocking when tooling fails: if sub-agent tools are
+unavailable, error, or time out, the main agent performs the same checklist
+locally and records the fallback. A material unresolved factual conflict still
+blocks Copy Lock and Image Gen.
+
+After the trial, add the exact marker `Independent verifier trial: completed`
+to automation memory and record both pre-copy and post-image results in the
+package README. Later runs skip the verifier unless the automation policy is
+deliberately changed.
+
 ## Tone Rules
 
 - Discovery and education first.
@@ -150,6 +201,11 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - Use Image Gen for every completed package, after Evidence Lock and Copy Lock.
 - Generate separate complete Japanese and English posters with Image Gen after both locks.
 - Keep both accepted direct Image Gen poster PNGs in the package.
+- Require each direct Image Gen source poster to be vertical `4:5`.
+- If a source has the wrong ratio, reject and regenerate that language version with a targeted `4:5` instruction.
+- If the targeted regeneration still fails, mark the package `needs review`; do not add padding, crop, or stretch.
+- Resize each accepted `4:5` source to a canonical `1200x1500` posting PNG.
+- Do not mark a package completed unless both posting PNGs are exactly `1200x1500`.
 - Both language versions are completion requirements, even when they share the same composition.
 - Deterministic text-safe SVG/PNG files are optional editing and fallback assets, not substitutes for either direct Image Gen poster.
 - Use childlike crayon/oil-pastel field-notebook poster style.
@@ -202,7 +258,9 @@ Before finishing every run:
 - Record the broad native region in the INDEX Notes field and automation memory.
 - Record whether Evidence Lock and Copy Lock were completed before Image Gen.
 - Record whether separate direct Japanese and English Image Gen posters exist and pass QA.
+- Record both direct source dimensions, confirm both sources are `4:5`, and confirm both posting PNGs are exactly `1200x1500`.
 - Record whether optional deterministic text-safe backups exist.
+- Record the one-run independent verifier result when the trial occurs.
 - Record whether generated_images mirror succeeded or failed.
 - Record whether the package is local-ready or published.
 - Record whether the topic should be avoided next time.

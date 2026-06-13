@@ -6,7 +6,7 @@ Topic: White-necked Rockfowl / ハゲチメドリ
 Scientific name: *Picathartes gymnocephalus*
 Broad native region: Africa
 Lineage: Animalia, Aves, Passeriformes, Picathartidae
-Status: completed; published
+Status: completed; published baseline; corrected posting assets local-only
 
 ## Rationale
 
@@ -40,7 +40,7 @@ IUCN Red List 2018: Vulnerable (VU)
 - `x-post-japanese.md` - Japanese post, ALT text, and source reply.
 - `x-post-english.md` - English post, ALT text, and source reply.
 - `thread-drafts.md` - short Japanese and English thread drafts.
-- `images/` - direct Image Gen posters and text-safe backups.
+- `images/` - direct Image Gen sources, normalized posting PNGs, and text-safe backups.
 - `render_textsafe.py` - deterministic SVG/PNG backup renderer.
 
 ## Completion Notes
@@ -48,9 +48,21 @@ IUCN Red List 2018: Vulnerable (VU)
 - Evidence Lock: completed before Image Gen.
 - Copy Lock: completed before Image Gen.
 - Japanese direct Image Gen poster: accepted,
-  `images/white_necked_rockfowl_japanese_imagegen_2026-06-13.png`.
+  `images/white_necked_rockfowl_japanese_imagegen_corrected_2026-06-13.png`.
 - English direct Image Gen poster: accepted,
-  `images/white_necked_rockfowl_english_imagegen_2026-06-13.png`.
+  `images/white_necked_rockfowl_english_imagegen_corrected_2026-06-13.png`.
+- Canonical Japanese posting image:
+  `images/white_necked_rockfowl_japanese_posting_2026-06-13.png`.
+- Canonical English posting image:
+  `images/white_necked_rockfowl_english_posting_2026-06-13.png`.
+- Independent verifier correction: the original posters enlarged the dark
+  post-ocular patch into an eye mask. The corrected posters retain a narrow
+  eye-ring and place the rounded dark patch immediately behind the eye. The
+  original direct posters remain in `images/` as superseded history.
+- Post-edit independent identity audit: passed. Both corrected adult heads and
+  the English inset show a narrow eye-ring, visible yellow skin, and a separate
+  rounded post-ocular patch. No new material anatomy, habitat, layout, or text
+  errors were found.
 - Visual QA: passed. Both posters show one coherent upright adult with a
   yellow-orange bare head, black facial patch, black bill, white throat and
   underparts, dark folded wings, two long pale legs, and one long dark tail in
@@ -60,13 +72,20 @@ IUCN Red List 2018: Vulnerable (VU)
 - Text QA: passed by visual inspection. Both direct posters contain the locked
   title, scientific name, three observation labels, and dated IUCN footer once.
 - Deterministic text-safe backups: Japanese and English SVG/PNG files exist.
-- Mechanical QA: direct PNGs are 1122x1402 Japanese and 1024x1536 English;
-  text-safe PNGs are 1200x1500; SVG files parse as XML; all thread posts are
-  under 140 characters; `git diff --check` reports no whitespace errors.
+- Size normalization: both canonical posting PNGs are exactly 1200x1500.
+  Aspect ratio was preserved; no title, label, footer, or artwork was cropped.
+  The narrower English source uses sampled paper-colored side padding as a
+  one-time legacy exception. Future packages reject and regenerate non-4:5
+  direct sources; padding is no longer permitted.
+- Mechanical QA: corrected direct PNGs are 1122x1402 Japanese and 1024x1536
+  English; posting and text-safe PNGs are 1200x1500; SVG files parse as XML;
+  all thread posts are under 140 characters; `git diff --check` reports no
+  whitespace errors.
 - INDEX update: completed.
 - Automation memory update: completed.
 - Optional `generated_images/animal_img` mirror: not attempted.
-- GitHub publication: completed to `origin/master`.
+- GitHub publication: the original package was published to `origin/master`;
+  the corrected and normalized assets in this revision are local-only.
 
 Avoid repeating White-necked Rockfowl / ハゲチメドリ /
 *Picathartes gymnocephalus* after completion unless explicitly requested.

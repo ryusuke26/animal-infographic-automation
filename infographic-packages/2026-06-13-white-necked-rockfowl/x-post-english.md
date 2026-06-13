@@ -17,7 +17,7 @@ IUCN Red List 2018: Vulnerable (VU)
 ## ALT Text
 
 ```text
-Vertical crayon and oil-pastel field-notebook infographic. An adult White-necked Rockfowl stands upright on a mossy boulder in damp rocky West African forest. Its nearly bare head is yellow-orange with a large rounded black patch around and behind the eye. It has a stout black bill, white throat and underparts, charcoal-grey back and wings, one long dark tail, and two long pale blue-grey legs. A thick brown mud cup nest is attached beneath a broad rock overhang above the bird. Text reads: White-necked Rockfowl; Picathartes gymnocephalus; Rocky forests of West Africa; A bare yellow head and long tail; Mud cup nests beneath rock; IUCN Red List 2018: Vulnerable (VU).
+Vertical crayon and oil-pastel field-notebook infographic. An adult White-necked Rockfowl stands upright on a mossy boulder in damp rocky West African forest. Its nearly bare head is yellow-orange with a narrow dark eye-ring and a large rounded dark patch immediately behind the eye, separated by visible yellow skin. It has a stout black bill, white throat and underparts, charcoal-grey back and wings, one long dark tail, and two long pale blue-grey legs. A thick brown mud cup nest is attached beneath a broad rock overhang above the bird. Text reads: White-necked Rockfowl; Picathartes gymnocephalus; Rocky forests of West Africa; A bare yellow head and long tail; Mud cup nests beneath rock; IUCN Red List 2018: Vulnerable (VU).
 ```
 
 ## Optional Source / Context Reply
