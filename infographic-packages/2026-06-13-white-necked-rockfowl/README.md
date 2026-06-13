@@ -6,7 +6,7 @@ Topic: White-necked Rockfowl / ハゲチメドリ
 Scientific name: *Picathartes gymnocephalus*
 Broad native region: Africa
 Lineage: Animalia, Aves, Passeriformes, Picathartidae
-Status: completed; local-ready, not published
+Status: completed; published
 
 ## Rationale
 
@@ -66,7 +66,7 @@ IUCN Red List 2018: Vulnerable (VU)
 - INDEX update: completed.
 - Automation memory update: completed.
 - Optional `generated_images/animal_img` mirror: not attempted.
-- GitHub publication: not attempted; target state is local-ready.
+- GitHub publication: completed to `origin/master`.
 
 Avoid repeating White-necked Rockfowl / ハゲチメドリ /
 *Picathartes gymnocephalus* after completion unless explicitly requested.
