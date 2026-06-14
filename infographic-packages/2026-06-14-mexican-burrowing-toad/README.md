@@ -6,7 +6,7 @@ Topic: Mexican Burrowing Toad / メキシコジムグリガエル
 Scientific name: *Rhinophrynus dorsalis*
 Broad native region: Central America/Caribbean
 Lineage: Animalia, Amphibia, Anura, Rhinophrynidae
-Status: completed; regenerated for the 1024x1536 vertical 2:3 standard; local-ready
+Status: completed; regenerated for the 1024x1536 vertical 2:3 standard; published
 
 ## Rationale
 
@@ -98,7 +98,7 @@ assessment date was not claimed.
 - Post-regeneration identity audit: completed locally because the original
   one-run verifier was no longer available for reuse.
 - Optional mirror: not attempted.
-- Publication state: local-ready, not published.
+- Publication state: published to `origin/master` in commit `331a8e2`.
 
 Avoid selecting this species again unless a deliberate remake or comparison is
 requested.
