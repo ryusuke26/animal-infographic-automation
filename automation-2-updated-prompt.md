@@ -122,15 +122,29 @@ infographic-packages/YYYY-MM-DD-species-slug/images/
 
 Use Image Gen only after Evidence Lock and Copy Lock.
 
+Default poster density and composition:
+
+- Use the 2026-06-12 Puya raimondii poster as the reference level.
+- Show one large hero organism in its habitat.
+- Put the title and scientific name at the top.
+- Add exactly three short observation callouts around the hero.
+- Put one quiet conservation/status footer at the bottom.
+- Keep each callout to one short idea, normally one or two display lines.
+- Do not add anatomical close-ups, duplicate specimens, lifecycle panels,
+  cutaways, maps, timelines, comparison species, or behavior insets when a
+  callout can explain the fact.
+- Add a secondary visual only when essential, simple, and identity-safe.
+  Difficult anatomical detail belongs in the caption or ALT text.
+
 Required visual workflow:
 
 1. Generate a complete Japanese poster with Image Gen using only the locked Japanese copy.
 2. Generate a complete English poster with Image Gen using only the locked English copy.
-3. Require each direct Image Gen source to be vertical `4:5`. Pixel dimensions may vary, but the aspect ratio must be within normal pixel-rounding tolerance of `4:5`.
-4. If either source is not `4:5`, reject that language version and regenerate it with a targeted instruction to use a vertical `4:5` canvas. Do not add borders or padding, crop the poster, stretch it, or accept a different ratio.
+3. Require each direct Image Gen source to be vertical `2:3`. Pixel dimensions may vary, but the aspect ratio must be within normal pixel-rounding tolerance of `2:3`.
+4. If either source is not `2:3`, reject that language version and regenerate it with a targeted instruction to use a vertical `2:3` canvas. Do not add borders or padding, crop the poster, stretch it, or accept a different ratio.
 5. After a ratio failure, make a targeted regeneration attempt for that language. If the regenerated poster still fails the ratio or other QA, keep the artifacts but mark the package `needs review`; do not fabricate a compliant posting file.
 6. Keep accepted direct Image Gen source PNGs in `images/`.
-7. Resize each accepted `4:5` source to an exact `1200x1500` posting PNG with `scripts/normalize_poster.py`. Use the Python executable returned by `load_workspace_dependencies`; do not assume `python` is on `PATH`.
+7. Resize each accepted `2:3` source to an exact `1024x1536` posting PNG with `scripts/normalize_poster.py`. Use the Python executable returned by `load_workspace_dependencies`; do not assume `python` is on `PATH`.
 8. Save the final files as `species_slug_japanese_posting_YYYY-MM-DD.png` and `species_slug_english_posting_YYYY-MM-DD.png`.
 9. Create deterministic text-safe SVG/PNG versions when useful for editing or backup, but do not use them as substitutes for a missing Japanese or English Image Gen poster.
 
@@ -140,13 +154,13 @@ Normalization command shape:
 <bundled-python> scripts/normalize_poster.py --input <accepted-imagegen.png> --output <language-posting.png>
 ```
 
-The Japanese and English direct Image Gen source posters must themselves be `4:5`. Their exact `1200x1500` posting versions are also completion requirements. If either language is absent, has the wrong aspect ratio, is rejected by visual QA, is replaced only by a deterministic layout, or lacks an exact-size posting PNG, mark the package `incomplete` or `needs review`.
+The Japanese and English direct Image Gen source posters must themselves be `2:3`. Their exact `1024x1536` posting versions are also completion requirements. If either language is absent, has the wrong aspect ratio, is rejected by visual QA, is replaced only by a deterministic layout, or lacks an exact-size posting PNG, mark the package `incomplete` or `needs review`.
 
 Do not change facts or wording during image generation. If a factual correction is required, return to Evidence Lock and Copy Lock before generating again. Use at most one targeted visual retry at a time for anatomy, posture, habitat, major composition, or generated-text failure, then re-run QA instead of repeatedly changing the whole workflow.
 
 Style: childlike crayon/oil-pastel field-notebook poster, warm handmade educational tone, accurate identity and habitat cues, no fake maps, no unsupported visual claims.
 
-Image QA must check body plan, distinctive structures, limb/appendage count, posture, habitat, and absence of confusing lookalikes. Use a safer natural posture for difficult anatomy. If the generated organism remains incorrect, mark the package `needs review` rather than forcing repeated generations.
+Image QA must check body plan, distinctive structures, limb/appendage count, posture, habitat, and absence of confusing lookalikes. Use a safer natural posture for difficult anatomy and do not require a generated anatomical inset. If the generated organism remains incorrect, mark the package `needs review` rather than forcing repeated generations.
 
 ## Phase 5: Package And QA
 
@@ -160,8 +174,8 @@ Save at least:
 - short thread drafts when needed
 - final direct Japanese Image Gen poster PNG
 - final direct English Image Gen poster PNG
-- final Japanese posting PNG at exactly `1200x1500`
-- final English posting PNG at exactly `1200x1500`
+- final Japanese posting PNG at exactly `1024x1536`
+- final English posting PNG at exactly `1024x1536`
 - text-safe SVG/PNG assets when useful
 
 Use stable ASCII filenames with species slug, language, asset type, and date.
@@ -171,8 +185,8 @@ Use UTF-8 for all Markdown, text, SVG, and index files. In PowerShell, explicitl
 Verify:
 
 - required files exist
-- both accepted direct Image Gen source posters are vertical `4:5`
-- both normalized posting PNGs are exactly `1200x1500` pixels
+- both accepted direct Image Gen source posters are vertical `2:3`
+- both normalized posting PNGs are exactly `1024x1536` pixels
 - no padding, borders, cropping, or stretching were used to repair an incorrect source ratio
 - SVG files parse as XML
 - final Japanese and English Image Gen poster text matches Copy Lock
@@ -226,12 +240,12 @@ In the INDEX Notes field and automation memory, record:
 - package folder and artifacts
 - source and assessment years
 - Evidence Lock and Copy Lock completion
-- Japanese and English direct Image Gen poster status, source dimensions, `4:5` validation, and visual QA
-- Japanese and English normalized posting PNG status and exact `1200x1500` dimensions
+- Japanese and English direct Image Gen poster status, source dimensions, `2:3` validation, and visual QA
+- Japanese and English normalized posting PNG status and exact `1024x1536` dimensions
 - whether deterministic text-safe backups exist
 - independent verifier trial result, when the one-run trial occurs
 - optional mirror result if attempted
 - local-ready or published state
 - whether the topic should be avoided next time
 
-The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `4:5` and pass visual/text QA, exact `1200x1500` posting PNGs exist for both languages without padding/cropping/stretching, text deliverables and sources are present, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
+The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, text deliverables and sources are present, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.

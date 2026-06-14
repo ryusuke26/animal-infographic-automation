@@ -28,8 +28,8 @@ A package is `completed` only when all of these are true:
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - Separate direct Japanese and English Image Gen poster PNGs exist and use the locked copy.
-- Both direct Image Gen source posters are vertical `4:5`.
-- Separate Japanese and English posting PNGs exist at exactly `1200x1500` pixels.
+- Both direct Image Gen source posters are vertical `2:3`.
+- Separate Japanese and English posting PNGs exist at exactly `1024x1536` pixels.
 - Both Image Gen posters pass visual identity QA: the species-specific body plan, distinctive structures, posture, habitat cues, and language-specific text are coherent enough for public posting.
 - Text-safe SVG/PNG assets exist when useful for editing or backup.
 - `infographic-packages/INDEX.md` is updated.
@@ -52,8 +52,8 @@ Every run follows this order:
 4. One-run independent verifier trial when its completion marker is absent.
 5. Copy Lock.
 6. Direct Japanese and English Image Gen poster production.
-7. Direct-source `4:5` validation and targeted regeneration of any wrong-ratio poster.
-8. Resize accepted `4:5` posters to `1200x1500`.
+7. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
+8. Resize accepted `2:3` posters to `1024x1536`.
 9. Visual and mechanical QA, with optional deterministic text-safe backups.
 10. INDEX and automation-memory update.
 
@@ -87,13 +87,13 @@ species_slug_english_textsafe_YYYY-MM-DD.svg
 ```
 
 The `imagegen` files preserve the accepted direct service output and must
-already be vertical `4:5`. The `posting` files are the canonical upload assets
-and must both be exactly `1200x1500`.
+already be vertical `2:3`. The `posting` files are the canonical upload assets
+and must both be exactly `1024x1536`.
 
 Normalize with `scripts/normalize_poster.py` using the Python executable
 returned by `load_workspace_dependencies`; plain `python` is not guaranteed to
 be on `PATH`. The script rejects a source outside normal pixel-rounding
-tolerance of `4:5`. It only resizes an already compliant source. Never add
+tolerance of `2:3`. It only resizes an already compliant source. Never add
 padding or borders, crop the artwork, or stretch a wrong-ratio source to make
 it appear compliant.
 
@@ -196,25 +196,52 @@ deliberately changed.
 - Do not leave placeholders or unresolved dates/categories in image-facing text.
 - Recheck image-facing claims against `sources-qa.md` before generating art.
 
+## Default Information Density
+
+Use the 2026-06-12 Puya raimondii poster as the default density and composition
+reference:
+
+- one large hero organism in its habitat;
+- title and scientific name at the top;
+- exactly three short observation callouts placed around the hero;
+- one quiet conservation/status footer;
+- no extra explanatory paragraphs inside the poster.
+
+Keep each observation callout to one short idea, normally one or two display
+lines. The three callouts should cover habitat, visible identity, and one
+behavior or life-history hook.
+
+Do not add anatomical close-ups, duplicate specimens, lifecycle panels,
+cutaways, maps, timelines, comparison species, or behavior insets when the
+same fact can be stated in a callout. Add one secondary visual only when it is
+essential to understand the subject, is easy to render accurately, and does
+not compete with the hero organism. Difficult anatomy should remain in the
+caption or ALT text rather than becoming an image-generation requirement.
+
 ## Image Rules
 
 - Use Image Gen for every completed package, after Evidence Lock and Copy Lock.
 - Generate separate complete Japanese and English posters with Image Gen after both locks.
 - Keep both accepted direct Image Gen poster PNGs in the package.
-- Require each direct Image Gen source poster to be vertical `4:5`.
-- If a source has the wrong ratio, reject and regenerate that language version with a targeted `4:5` instruction.
+- Require each direct Image Gen source poster to be vertical `2:3`.
+- If a source has the wrong ratio, reject and regenerate that language version with a targeted `2:3` instruction.
 - If the targeted regeneration still fails, mark the package `needs review`; do not add padding, crop, or stretch.
-- Resize each accepted `4:5` source to a canonical `1200x1500` posting PNG.
-- Do not mark a package completed unless both posting PNGs are exactly `1200x1500`.
+- Resize each accepted `2:3` source to a canonical `1024x1536` posting PNG.
+- Do not mark a package completed unless both posting PNGs are exactly `1024x1536`.
 - Both language versions are completion requirements, even when they share the same composition.
 - Deterministic text-safe SVG/PNG files are optional editing and fallback assets, not substitutes for either direct Image Gen poster.
 - Use childlike crayon/oil-pastel field-notebook poster style.
 - Japanese-version posters should use the Japanese name or safe Japanese rendering as the main title.
 - English-version posters should use the English common name as the main title.
 - Use the exact locked text verbatim in each Image Gen prompt.
+- Default to one hero organism and three simple callouts. Do not ask Image Gen
+  to solve a detailed anatomical diagram and a finished social poster in the
+  same generation.
 - If generated text or visual structure fails, make one targeted retry and re-check it. Do not alter facts, labels, or workflow during the retry.
 - Image QA must check the organism's body plan, distinctive structures, limb/appendage count, posture, and habitat. If the poster is merely cute or atmospheric but the anatomy/identity is wrong, mark it `needs review` instead of `completed`.
-- For species with difficult anatomy, avoid forcing dramatic poses that Image Gen repeatedly breaks. Use a safer natural posture and explain the behavior in labels or inset diagrams.
+- For species with difficult anatomy, avoid forcing dramatic poses or close-up
+  diagrams that Image Gen is likely to break. Use a safer natural posture and
+  explain the behavior in the three labels, caption, or ALT text.
 - Avoid fake maps, unsupported visual claims, blame/rescue imagery, and unsupported population visuals.
 
 ## Caption Rules
@@ -258,7 +285,7 @@ Before finishing every run:
 - Record the broad native region in the INDEX Notes field and automation memory.
 - Record whether Evidence Lock and Copy Lock were completed before Image Gen.
 - Record whether separate direct Japanese and English Image Gen posters exist and pass QA.
-- Record both direct source dimensions, confirm both sources are `4:5`, and confirm both posting PNGs are exactly `1200x1500`.
+- Record both direct source dimensions, confirm both sources are `2:3`, and confirm both posting PNGs are exactly `1024x1536`.
 - Record whether optional deterministic text-safe backups exist.
 - Record the one-run independent verifier result when the trial occurs.
 - Record whether generated_images mirror succeeded or failed.

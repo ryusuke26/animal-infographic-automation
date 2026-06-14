@@ -1,4 +1,4 @@
-"""Validate a 4:5 poster and resize it to the series' 1200x1500 delivery size."""
+"""Validate a 2:3 poster and resize it to the series' 1024x1536 delivery size."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 
-DEFAULT_SIZE = (1200, 1500)
+DEFAULT_SIZE = (1024, 1536)
 MAX_ASPECT_ERROR = 0.005
 
 
@@ -16,7 +16,7 @@ def parse_size(value: str) -> tuple[int, int]:
     try:
         width, height = (int(part) for part in value.lower().split("x", 1))
     except (TypeError, ValueError) as exc:
-        raise argparse.ArgumentTypeError("size must look like 1200x1500") from exc
+        raise argparse.ArgumentTypeError("size must look like 1024x1536") from exc
     if width <= 0 or height <= 0:
         raise argparse.ArgumentTypeError("size dimensions must be positive")
     return width, height
@@ -39,7 +39,7 @@ def normalize(
         error = aspect_error(image.size, size)
         if error > MAX_ASPECT_ERROR:
             raise ValueError(
-                f"{source} is {image.width}x{image.height}, not vertical 4:5 "
+                f"{source} is {image.width}x{image.height}, not vertical 2:3 "
                 f"(aspect error {error:.2%}). Regenerate the poster; padding, "
                 "cropping, and stretching are not allowed."
             )
@@ -58,7 +58,7 @@ def normalize(
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Reject posters that are not already vertical 4:5, then resize "
+            "Reject posters that are not already vertical 2:3, then resize "
             "accepted posters to the fixed delivery dimensions. No padding, "
             "cropping, or material aspect-ratio correction is used."
         )
