@@ -6,7 +6,7 @@ Topic: Western Underground Orchid / 地下に咲くラン
 Scientific name: *Rhizanthella gardneri*
 Broad native region: Australia/Oceania
 Lineage: Plantae, Orchidaceae
-Status: completed; local-ready
+Status: completed; published
 
 ## Rationale
 
@@ -85,7 +85,7 @@ Australian EPBC Act (checked 2026): Critically Endangered
 - INDEX update: completed.
 - Automation memory update: completed.
 - Optional `generated_images/animal_img` mirror: not attempted.
-- GitHub publication: not attempted; package is local-ready.
+- GitHub publication: completed to `origin/master`.
 
 Avoid repeating Western Underground Orchid / *Rhizanthella gardneri* after
 completion unless explicitly requested.
