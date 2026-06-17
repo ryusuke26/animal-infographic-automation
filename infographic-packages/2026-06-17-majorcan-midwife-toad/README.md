@@ -2,7 +2,7 @@
 
 Date: 2026-06-17
 
-Package status: completed, local-ready, not published.
+Package status: completed and published.
 
 ## Topic
 

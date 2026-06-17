@@ -3,7 +3,7 @@
 Date: 2026-06-16  
 Topic: Saiga Antelope / サイガ / *Saiga tatarica*  
 Broad native region: Asia  
-Status: completed and local-ready, not published
+Status: completed and published
 
 ## Rationale
 
