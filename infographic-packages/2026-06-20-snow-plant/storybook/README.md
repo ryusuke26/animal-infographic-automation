@@ -24,4 +24,4 @@
 
 ## State
 
-Completed, local-ready, not published.
+Completed and published to `origin/master` as part of commit `18b81cd`.

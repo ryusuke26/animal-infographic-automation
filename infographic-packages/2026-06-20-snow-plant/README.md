@@ -5,7 +5,7 @@ Date: 2026-06-20
 Topic: Snow Plant / スノープラント / *Sarcodes sanguinea*
 
 Package slug: `2026-06-20-snow-plant`
-Status: completed, local-ready, not published
+Status: completed, published
 
 ## Rationale
 
@@ -51,7 +51,7 @@ Alternatives considered before lock included a North American ice crawler and th
 
 ## Publication
 
-- Package state: completed and local-ready, not published.
+- Package state: completed and published to `origin/master` in commit `18b81cd` (`Add snow plant infographic package`).
 - Avoid selecting this topic again unless explicitly requested.
 
 ## Mini Picture Book Extension
