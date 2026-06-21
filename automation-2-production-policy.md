@@ -134,7 +134,7 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - Review the most recent 8 completed packages before selection.
 - Prefer regions with 0 appearances and avoid a region already used 2 or more times when a credible underrepresented alternative exists.
 - Avoid the same broad region in consecutive runs.
-- Australia/Oceania is currently on cooldown because it is overrepresented in the recent archive; resume it only when the rolling rule allows.
+- Do not keep a permanent regional cooldown. Recalculate the latest-eight distribution every run and use a temporary cooldown only when current memory or INDEX notes give a still-valid reason.
 - Choose a different lineage, habitat, region, and ecological hook where practical.
 - Avoid completed species unless the user explicitly requests a remake or comparison.
 - Reuse incomplete topics only when deliberately completing missing deliverables.
@@ -150,6 +150,7 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - Do not include population numbers unless they are current, geographically specific, and clearly sourced.
 - Do not transfer facts from related species onto the selected species unless clearly labeled as related-species context.
 - If sources disagree or are outdated, state uncertainty and use publication-safe wording.
+- If no global IUCN assessment can be confirmed, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
 - Evidence Lock requires the accepted name, native region, exact status footer and year, three core public claims, and visual identity guidance to be settled before image work.
 
 ## Independent Verifier Trial
@@ -267,6 +268,7 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 - Start with a strong curiosity hook.
 - Use 0 to 2 relevant hashtags only. For Japanese posts in this series, default to the fixed series tag `#世界の知らない生き物`.
 - Add ALT text for each image.
+- Add a separate copy-paste-ready source/context reply in both languages. The Japanese reply must begin with `出典メモ：`; the English reply must begin with `Source note:`. Name the strongest sources, include useful direct links, and state any access or status caveat. This source note is required, not optional.
 - Keep the main post understandable; do not over-compress until the species/topic becomes unclear.
 - If the target is X free-version posting or a 140-character limit, prefer a short thread over a vague standalone caption.
 - Recommended 140-character thread structure: main post names the species/topic and hook; reply 1 says what it is and where it lives; reply 2 gives the distinctive trait or behavior; reply 3 gives quiet status and sources.

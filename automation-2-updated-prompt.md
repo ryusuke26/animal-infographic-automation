@@ -33,7 +33,7 @@ For each candidate, identify:
 - habitat
 - ecological or visual hook
 
-Review the most recent 8 completed packages. Prefer regions with 0 appearances, avoid a region that already appears 2 or more times when a credible underrepresented alternative exists, and avoid using the same broad region in consecutive runs. Australia/Oceania is currently overrepresented and remains on cooldown until the rolling rule allows it again. User-requested species, dated awareness days, and deliberate remakes may override the rotation rule when recorded.
+Review the most recent 8 completed packages. Prefer regions with 0 appearances, avoid a region that already appears 2 or more times when a credible underrepresented alternative exists, and avoid using the same broad region in consecutive runs. Do not keep a permanent regional cooldown: recalculate the latest-eight distribution every run and use a temporary cooldown only when current memory or INDEX notes give a still-valid reason. User-requested species, dated awareness days, and deliberate remakes may override the rotation rule when recorded.
 
 Choose a topic only after checking regional, lineage, habitat, and hook variety.
 
@@ -57,6 +57,8 @@ Use authoritative sources first: IUCN Red List when relevant, official regional 
 Resolve source disagreements before proceeding. If a claim remains uncertain, use conservative public wording and record the uncertainty. Do not use population numbers unless they are current, geographically scoped, and clearly sourced.
 
 Evidence Lock is complete only when the exact status footer, assessment year, scientific name, native region, and three core public claims are settled.
+
+If no global IUCN assessment can be confirmed, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
 
 ## Phase 2.5: Independent Verifier Trial
 
@@ -103,7 +105,7 @@ Write and cross-check:
 - scientific name
 - three short observation labels
 - exact footer/status wording
-- Japanese and English X posts with ALT text
+- Japanese and English X posts with ALT text and separate source/context replies
 - Japanese and English thread drafts when needed
 - image prompts based only on Evidence Lock claims
 
@@ -188,8 +190,11 @@ Verify:
 - both accepted direct Image Gen source posters are vertical `2:3`
 - both normalized posting PNGs are exactly `1024x1536` pixels
 - no padding, borders, cropping, or stretching were used to repair an incorrect source ratio
-- SVG files parse as XML
+- any SVG files that exist parse as XML
 - final Japanese and English Image Gen poster text matches Copy Lock
+- Japanese X copy has a separate source/context reply beginning exactly with `出典メモ：`
+- English X copy has a separate source/context reply beginning exactly with `Source note:`
+- both source notes name the strongest sources, include useful direct links, and state any source-access or status caveat
 - all thread posts satisfy the intended character limit
 - `git diff --check` reports no whitespace errors
 
@@ -222,7 +227,7 @@ Japanese X copy should follow:
 [locked conservation/status footer]
 ```
 
-Provide ALT text, 0-2 relevant hashtags, and an optional source/context reply. For Japanese posts, default to `#世界の知らない生き物`. Prefer separate Japanese and English posts.
+Provide ALT text, 0-2 relevant hashtags, and a required separate source/context reply. The Japanese reply must begin exactly with `出典メモ：`; the English reply must begin exactly with `Source note:`. Keep each source note in its own copy-paste-ready code block, name the strongest sources, include useful direct links, and state any source-access or status caveat. For Japanese posts, default to `#世界の知らない生き物`. Prefer separate Japanese and English posts.
 
 ## Phase 6: Finish
 
@@ -242,10 +247,11 @@ In the INDEX Notes field and automation memory, record:
 - Evidence Lock and Copy Lock completion
 - Japanese and English direct Image Gen poster status, source dimensions, `2:3` validation, and visual QA
 - Japanese and English normalized posting PNG status and exact `1024x1536` dimensions
+- Japanese and English labeled source-note status
 - whether deterministic text-safe backups exist
 - independent verifier trial result, when the one-run trial occurs
 - optional mirror result if attempted
 - local-ready or published state
 - whether the topic should be avoided next time
 
-The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, text deliverables and sources are present, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
+The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, Japanese and English labeled source notes are present, text deliverables and sources are complete, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
