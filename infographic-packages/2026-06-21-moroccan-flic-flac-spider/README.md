@@ -5,7 +5,7 @@ Date: 2026-06-21
 Topic: Moroccan Flic-Flac Spider / フリックフラック・スパイダー / *Cebrennus rechenbergi*
 
 Package slug: `2026-06-21-moroccan-flic-flac-spider`
-Status: completed, local-ready, not published
+Status: completed, published
 
 ## Rationale
 
@@ -57,5 +57,5 @@ This package was produced while the automation body temporarily required vertica
 
 ## Publication
 
-- Package state: completed and local-ready, not published.
+- Package state: completed and published to `origin/master` in commit `821c25c` (`Add flic-flac spider package and restore workflow`).
 - Avoid selecting this topic again unless explicitly requested.
