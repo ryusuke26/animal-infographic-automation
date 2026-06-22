@@ -14,6 +14,8 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Completed/incomplete topic index | `infographic-packages/INDEX.md` | Lightweight archive table and repeat-avoidance ledger. |
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each run. |
 | Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical folder for separate direct Japanese and English Image Gen posters. |
+| X copy layout | `templates/x-post-copy-template.md` | Canonical section order and three copy-paste blocks for each language file. |
+| X copy validation | `scripts/validate_x_post_format.py` | Mechanical check for the canonical three-block format and labeled source notes. |
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
 
@@ -24,7 +26,8 @@ A package is `completed` only when all of these are true:
 - Fact-check table exists.
 - Japanese and English infographic copy exist.
 - Japanese and English image prompts exist.
-- Japanese and English X posts and ALT text exist.
+- Japanese and English X-post files exist, with the main post, ALT text, and source/context reply each in its own copy-paste-ready fenced `text` code block.
+- `scripts/validate_x_post_format.py` passes for both language files.
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - Separate direct Japanese and English Image Gen poster PNGs exist and use the locked copy.
@@ -265,10 +268,13 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 
 ## X Posting Rules
 
+`templates/x-post-copy-template.md` is the source of truth for file structure. Do not create a new caption layout per package.
+
 - Start with a strong curiosity hook.
 - Use 0 to 2 relevant hashtags only. For Japanese posts in this series, default to the fixed series tag `#世界の知らない生き物`.
 - Add ALT text for each image.
-- Add a separate copy-paste-ready source/context reply in both languages. The Japanese reply must begin with `出典メモ：`; the English reply must begin with `Source note:`. Name the strongest sources, include useful direct links, and state any access or status caveat. This source note is required, not optional.
+- In each language file, place the complete main post, ALT text, and source/context reply in three separate fenced `text` code blocks. Do not leave any of these three copy targets as ordinary Markdown paragraphs.
+- The Japanese source/context reply must begin with `出典メモ：`; the English reply must begin with `Source note:`. Name the strongest sources, include useful direct links, and state any access or status caveat. This source note is required, not optional.
 - Keep the main post understandable; do not over-compress until the species/topic becomes unclear.
 - If the target is X free-version posting or a 140-character limit, prefer a short thread over a vague standalone caption.
 - Recommended 140-character thread structure: main post names the species/topic and hook; reply 1 says what it is and where it lives; reply 2 gives the distinctive trait or behavior; reply 3 gives quiet status and sources.
@@ -277,6 +283,14 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 - Use ALT text for image description and image-text support; do not make ALT the only place where the core explanation lives.
 - Prefer separate Japanese and English posts.
 - Keep a repeatable series identity, such as "世界の知らない生きもの" or "ちょっと不思議な暮らし図鑑".
+
+Validate both files with the bundled workspace Python before completion:
+
+```text
+<bundled-python> scripts/validate_x_post_format.py --ja <japanese-x-post.md> --en <english-x-post.md>
+```
+
+If validation fails, the package is not completed even when the wording itself is accurate.
 
 ## End-of-Run Updates
 

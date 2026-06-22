@@ -105,11 +105,11 @@ Write and cross-check:
 - scientific name
 - three short observation labels
 - exact footer/status wording
-- Japanese and English X posts with ALT text and separate source/context replies
+- Japanese and English X posts with the main post, ALT text, and source/context reply each in its own copy-paste-ready fenced `text` code block
 - Japanese and English thread drafts when needed
 - image prompts based only on Evidence Lock claims
 
-Save these files in the package folder before generating images. Recheck every image-facing fact against `sources-qa.md`.
+Build both X-post files from `templates/x-post-copy-template.md`; do not invent a package-specific caption layout. Save these files in the package folder before generating images. Recheck every image-facing fact against `sources-qa.md`.
 
 Copy Lock is complete only when no unresolved placeholder, year, category, name, label, or footer remains.
 
@@ -194,8 +194,10 @@ Verify:
 - final Japanese and English Image Gen poster text matches Copy Lock
 - Japanese X copy has a separate source/context reply beginning exactly with `出典メモ：`
 - English X copy has a separate source/context reply beginning exactly with `Source note:`
+- each Japanese and English X-post file contains three separate copy-paste-ready fenced `text` code blocks: one for the main post, one for ALT text, and one for the source/context reply
 - both source notes name the strongest sources, include useful direct links, and state any source-access or status caveat
 - all thread posts satisfy the intended character limit
+- the bundled workspace Python successfully runs `scripts/validate_x_post_format.py --ja <japanese-x-post.md> --en <english-x-post.md>`
 - `git diff --check` reports no whitespace errors
 
 If the independent verifier trial ran and the same verifier is still
@@ -227,7 +229,7 @@ Japanese X copy should follow:
 [locked conservation/status footer]
 ```
 
-Provide ALT text, 0-2 relevant hashtags, and a required separate source/context reply. The Japanese reply must begin exactly with `出典メモ：`; the English reply must begin exactly with `Source note:`. Keep each source note in its own copy-paste-ready code block, name the strongest sources, include useful direct links, and state any source-access or status caveat. For Japanese posts, default to `#世界の知らない生き物`. Prefer separate Japanese and English posts.
+Provide ALT text, 0-2 relevant hashtags, and a required separate source/context reply. Use `templates/x-post-copy-template.md` as the canonical layout. In each language file, put the complete main post, the ALT text, and the source/context reply in three separate fenced `text` code blocks so each item can be copied with one action. Do not leave any of those three items as ordinary Markdown paragraphs. The Japanese reply must begin exactly with `出典メモ：`; the English reply must begin exactly with `Source note:`. Name the strongest sources, include useful direct links, and state any source-access or status caveat. For Japanese posts, default to `#世界の知らない生き物`. Prefer separate Japanese and English posts.
 
 ## Phase 6: Finish
 
