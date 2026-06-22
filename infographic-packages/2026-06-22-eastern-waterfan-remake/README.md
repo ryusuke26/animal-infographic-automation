@@ -3,7 +3,7 @@
 Date: 2026-06-22 JST
 Scientific name: *Peltigera hydrothyria*
 Broad native region: North America
-Package status: completed, local-ready, not published
+Package status: completed and published to GitHub
 
 ## Rationale
 
@@ -63,3 +63,7 @@ Both posting files were created with `scripts/normalize_poster.py` using the bun
 - four canonical PNG files under `images/`
 
 Avoid this topic next time. The legacy 2026-05-01 folder remains as historical working material and is superseded by this completed remake.
+
+## Publication
+
+- Package and workflow commit: `5fc2146` (`Add Eastern Waterfan package and standardize X copy`), pushed to `origin/master` on 2026-06-22.
