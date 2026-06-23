@@ -3,7 +3,7 @@
 Date: 2026-06-23 JST
 Scientific name: *Polymita picta*
 Broad native region: Central America/Caribbean
-Package status: completed and local-ready, not published
+Package status: completed and published to GitHub
 
 ## Rationale
 
@@ -63,3 +63,7 @@ Both posting files were created with `scripts/normalize_poster.py` using the bun
 - accepted Japanese and English direct Image Gen sources plus exact-size posting PNGs under `images/`
 
 Avoid this topic next time unless a deliberate remake or comparison is requested.
+
+## Publication
+
+- Package and workflow commit: `26a0ceb` (`Add painted tree snail infographic package`), pushed to `origin/master` on 2026-06-23.
