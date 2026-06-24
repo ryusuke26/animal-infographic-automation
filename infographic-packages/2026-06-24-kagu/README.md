@@ -3,7 +3,7 @@
 Date: 2026-06-24 JST
 Scientific name: *Rhynochetos jubatus*
 Broad native region: Australia/Oceania
-Package status: completed and local-ready, not published
+Package status: completed and published to GitHub
 
 ## Rationale
 
@@ -56,3 +56,7 @@ Australia/Oceania had zero appearances in the latest eight completed packages, w
 - accepted Japanese and English direct Image Gen sources plus exact-size posting PNGs under `images/`
 
 Avoid this topic next time unless a deliberate remake or comparison is requested.
+
+## Publication
+
+- Package and INDEX commit: `665912a` (`Add Kagu infographic package`), pushed to `origin/master` on 2026-06-24.
