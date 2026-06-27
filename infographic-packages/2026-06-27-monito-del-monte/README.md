@@ -3,7 +3,7 @@
 Date: 2026-06-27
 Topic: Monito del Monte / モニート・デル・モンテ / *Dromiciops gliroides*
 Broad native region: South America
-State: completed and local-ready, not published
+State: completed and published to GitHub
 
 ## Rationale
 
