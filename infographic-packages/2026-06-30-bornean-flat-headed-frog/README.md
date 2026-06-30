@@ -6,7 +6,7 @@ Topic: Bornean Flat-headed Frog / ボルネオ・ヒラタガエル / *Barbourul
 
 Broad native region: Asia
 
-Status: completed and local-ready
+Status: completed and published
 
 ## Rationale
 
@@ -49,4 +49,4 @@ The discovery hook is a small, flattened stream frog whose unusual breathing-ana
 - Phase 5.5 Dual Final Review: affirmative read-only review found only stale completion notes, which were auto-fixed; critical reviewer timed out and was closed; local critical fallback found no unresolved blocker.
 - Deterministic text-safe backups: not created.
 - Optional mirror: not attempted.
-- State: completed and local-ready, not published.
+- State: completed and published to GitHub.
