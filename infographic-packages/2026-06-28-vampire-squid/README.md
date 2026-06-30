@@ -1,7 +1,7 @@
 # Vampire Squid Infographic Package
 
 Date: 2026-06-28
-Status: completed, local-ready, not published
+Status: completed and published to GitHub
 
 ## Rationale
 
@@ -35,4 +35,4 @@ This is not a formal IUCN Not Evaluated category claim.
 - `git diff --check`: passed.
 - Deterministic text-safe backup: not created because both accepted direct posters passed text QA.
 - Dual final review: not rerun with sub-agents after the post-run footer correction; local critical review corrected the misread footer record.
-- State: completed and local-ready, not published to GitHub.
+- State: completed and published to GitHub.

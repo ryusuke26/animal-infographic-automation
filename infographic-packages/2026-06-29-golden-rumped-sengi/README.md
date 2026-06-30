@@ -3,7 +3,7 @@
 Date: 2026-06-29
 Topic: Golden-rumped Sengi / キンシリハネジネズミ / *Rhynchocyon chrysopygus*
 Broad native region: Africa
-State: completed and local-ready, not published after Phase 6 updates
+State: completed and published to GitHub
 
 ## Rationale
 
