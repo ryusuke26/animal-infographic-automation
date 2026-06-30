@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the canonical three-block X-post copy format."""
+"""Validate the canonical X-post copy format and series copy rules."""
 
 from __future__ import annotations
 
@@ -11,9 +11,51 @@ from pathlib import Path
 
 SECTION_NAMES = ("Main post", "ALT text", "Source/context reply")
 BLOCK_RE = re.compile(r"```text\r?\n(.*?)\r?\n```", re.DOTALL)
+JA_SERIES_ENDING = "ちょっと不思議な暮らし。"
+JA_FORBIDDEN_SERIES_PHRASES = (
+    "ちょっと不思議な暮らしがあります",
+    "ちょっと不思議な暮らしをしています",
+)
 
 
-def validate_file(path: Path, source_prefix: str) -> list[str]:
+def validate_japanese_main_post(path: Path, main_post: str) -> list[str]:
+    errors: list[str] = []
+
+    for phrase in JA_FORBIDDEN_SERIES_PHRASES:
+        if phrase in main_post:
+            errors.append(
+                f"{path}: Japanese main post must end the species-specific line "
+                f"with '{JA_SERIES_ENDING}', not use '{phrase}'"
+            )
+
+    lines = [line.strip() for line in main_post.splitlines() if line.strip()]
+    body_lines: list[str] = []
+    for line in lines:
+        if (
+            line.startswith("保全メモ")
+            or line.startswith("IUCN Red List")
+            or line.startswith("Conservation note")
+            or line.startswith("#")
+        ):
+            break
+        body_lines.append(line)
+
+    matching_lines = [line for line in body_lines if line.endswith(JA_SERIES_ENDING)]
+    if not matching_lines:
+        errors.append(
+            f"{path}: Japanese main post needs a species-specific body line "
+            f"ending exactly with '{JA_SERIES_ENDING}' before the footer/hashtags"
+        )
+    elif any(line == JA_SERIES_ENDING for line in matching_lines):
+        errors.append(
+            f"{path}: Japanese series-ending line is generic; add species-specific "
+            f"context before '{JA_SERIES_ENDING}'"
+        )
+
+    return errors
+
+
+def validate_file(path: Path, source_prefix: str, *, language: str) -> list[str]:
     errors: list[str] = []
 
     try:
@@ -45,6 +87,9 @@ def validate_file(path: Path, source_prefix: str) -> list[str]:
             errors.append(f"{path}: '{name}' block is empty")
 
     if len(blocks) == 3:
+        if language == "ja":
+            errors.extend(validate_japanese_main_post(path, blocks[0].strip()))
+
         source_note = blocks[2].strip()
         if not source_note.startswith(source_prefix):
             errors.append(
@@ -76,8 +121,8 @@ def main() -> int:
     args = parser.parse_args()
 
     errors = [
-        *validate_file(args.ja, "出典メモ："),
-        *validate_file(args.en, "Source note:"),
+        *validate_file(args.ja, "出典メモ：", language="ja"),
+        *validate_file(args.en, "Source note:", language="en"),
     ]
 
     if errors:

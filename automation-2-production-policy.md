@@ -15,7 +15,7 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each run. |
 | Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical folder for separate direct Japanese and English Image Gen posters. |
 | X copy layout | `templates/x-post-copy-template.md` | Canonical section order and three copy-paste blocks for each language file. |
-| X copy validation | `scripts/validate_x_post_format.py` | Mechanical check for the canonical three-block format and labeled source notes. |
+| X copy validation | `scripts/validate_x_post_format.py` | Mechanical check for the canonical three-block format, labeled source notes, and Japanese series-ending copy rule. |
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
 
@@ -28,6 +28,7 @@ A package is `completed` only when all of these are true:
 - Japanese and English image prompts exist.
 - Japanese and English X-post files exist, with the main post, ALT text, and source/context reply each in its own copy-paste-ready fenced `text` code block.
 - `scripts/validate_x_post_format.py` passes for both language files.
+- Japanese X main post includes a species-specific body line ending exactly with `ちょっと不思議な暮らし。`.
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - Separate direct Japanese and English Image Gen poster PNGs exist and use the locked copy.
@@ -54,11 +55,13 @@ Every run follows this order:
 3. Evidence Lock.
 4. One-run independent verifier trial when its completion marker is absent.
 5. Copy Lock.
-6. Direct Japanese and English Image Gen poster production.
-7. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
-8. Resize accepted `2:3` posters to `1024x1536`.
-9. Visual and mechanical QA, with optional deterministic text-safe backups.
-10. INDEX and automation-memory update.
+6. Dual copy review with affirmative and critical reviewers when tools are available, or a local two-pass fallback.
+7. Direct Japanese and English Image Gen poster production.
+8. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
+9. Resize accepted `2:3` posters to `1024x1536`.
+10. Visual and mechanical QA, with optional deterministic text-safe backups.
+11. Dual final review with affirmative and critical reviewers when tools are available, or a local two-pass fallback.
+12. INDEX and automation-memory update.
 
 Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
 
@@ -184,6 +187,48 @@ to automation memory and record both pre-copy and post-image results in the
 package README. Later runs skip the verifier unless the automation policy is
 deliberately changed.
 
+## Dual Review Gates
+
+Every run should use lightweight dual reviews at two points. These are
+separate from the one-run independent verifier trial.
+
+When sub-agent tools are available, spawn or reuse two read-only reviewers:
+
+- Affirmative reviewer: assumes the existing workflow is mostly sound and looks
+  for low-cost fixes that preserve the package.
+- Critical reviewer: assumes the package can still fail and looks for
+  completion-blocking contradictions, missing files, weak assumptions, and
+  prose rules that are not mechanically enforced.
+
+Give both reviewers the package folder, `sources-qa.md`, locked copy, X-post
+files, README status, INDEX entry if present, direct poster paths, posting PNG
+paths, and validator output. Ask them for concrete findings only. They should
+not edit files, choose topics, change facts, generate images, publish, or make
+final decisions.
+
+Use the first gate after Copy Lock and before Image Gen. Give reviewers the
+locked copy, X-post files, image prompts, and source QA. Apply deterministic
+copy fixes automatically, then rerun copy validation before image generation.
+If a finding changes facts or unresolved status wording, return to Evidence
+Lock or keep the package blocked.
+
+Use the second gate after visual/mechanical QA and before INDEX or
+automation-memory completion updates. Give reviewers the final package state,
+poster paths, posting PNG paths, README status, INDEX entry if present, and
+validator output. Their job is to find remaining completion blockers and
+auto-fixable inconsistencies before the run is marked completed.
+
+The main agent owns the result. Apply deterministic, low-risk fixes without
+waiting for the user, such as copy format corrections, missing status notes,
+README/INDEX status mismatches, or validator failures. Re-run the relevant
+validators after every fix. If a finding requires factual judgment, new image
+generation, source reinterpretation, or user taste, mark the package
+`needs review` instead of silently changing the claim.
+
+If sub-agent tools are unavailable, perform the same review locally in two
+passes: an affirmative pass for small repairable gaps, then a critical pass for
+stop-ship issues. Record whether sub-agents or the fallback were used.
+
 ## Tone Rules
 
 - Discovery and education first.
@@ -276,6 +321,7 @@ The final "ちょっと不思議な暮らし" line must be species-specific, not
 - In each language file, place the complete main post, ALT text, and source/context reply in three separate fenced `text` code blocks. Do not leave any of these three copy targets as ordinary Markdown paragraphs.
 - The Japanese source/context reply must begin with `出典メモ：`; the English reply must begin with `Source note:`. Name the strongest sources, include useful direct links, and state any access or status caveat. This source note is required, not optional.
 - Keep the main post understandable; do not over-compress until the species/topic becomes unclear.
+- Japanese main posts must contain one species-specific body line before the footer/hashtags that ends exactly with `ちょっと不思議な暮らし。`. Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
 - If the target is X free-version posting or a 140-character limit, prefer a short thread over a vague standalone caption.
 - Recommended 140-character thread structure: main post names the species/topic and hook; reply 1 says what it is and where it lives; reply 2 gives the distinctive trait or behavior; reply 3 gives quiet status and sources.
 - Keep every thread post under 140 characters when the free-version constraint applies.
@@ -304,6 +350,7 @@ Before finishing every run:
 - Record both direct source dimensions, confirm both sources are `2:3`, and confirm both posting PNGs are exactly `1024x1536`.
 - Record whether optional deterministic text-safe backups exist.
 - Record the one-run independent verifier result when the trial occurs.
+- Record the dual final review result or local fallback, including any auto-fixes applied and remaining blockers.
 - Record whether generated_images mirror succeeded or failed.
 - Record whether the package is local-ready or published.
 - Record whether the topic should be avoided next time.

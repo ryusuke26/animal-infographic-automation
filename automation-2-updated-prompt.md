@@ -111,7 +111,38 @@ Write and cross-check:
 
 Build both X-post files from `templates/x-post-copy-template.md`; do not invent a package-specific caption layout. Save these files in the package folder before generating images. Recheck every image-facing fact against `sources-qa.md`.
 
+Japanese X main-post copy must include one species-specific body line before the footer/hashtags that ends exactly with `ちょっと不思議な暮らし。`. Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
+
 Copy Lock is complete only when no unresolved placeholder, year, category, name, label, or footer remains.
+
+## Phase 3.5: Dual Copy Review
+
+Before Image Gen, run a lightweight copy review using affirmative and critical
+perspectives.
+
+- If sub-agent tools are available, spawn or reuse exactly two read-only
+  reviewers:
+  - Affirmative reviewer: look for low-cost fixes that preserve the package and
+    existing workflow.
+  - Critical reviewer: look for completion-blocking contradictions, missing
+    copy, validator gaps, status mismatches, and prose rules not enforced by
+    scripts.
+- Give both reviewers `sources-qa.md`, locked infographic copy, Japanese and
+  English X-post files, image prompts, proposed README status, and the current
+  `scripts/validate_x_post_format.py` output.
+- Do not delegate topic choice, factual final decisions, file editing, image
+  generation, INDEX updates, memory updates, publication, or user taste calls.
+- Apply deterministic, low-risk copy fixes automatically when they do not
+  change facts or visual claims, then rerun validators. Examples: X-format
+  mistakes, Japanese series-ending copy rule violations, source-note prefix
+  errors, prompt/copy string mismatches, and missing completion notes.
+- If a finding requires factual judgment, new source interpretation, new image
+  generation, or subjective style choice, return to Evidence Lock/Copy Lock or
+  mark the package `needs review`; do not silently change the claim.
+- If sub-agent tools are unavailable, perform the same two-pass review locally:
+  first affirmative repair pass, then critical stop-ship pass.
+- Record the dual copy review result or fallback in `sources-qa.md` or
+  `README.md`.
 
 ## Phase 4: Visual Production
 
@@ -196,6 +227,7 @@ Verify:
 - English X copy has a separate source/context reply beginning exactly with `Source note:`
 - each Japanese and English X-post file contains three separate copy-paste-ready fenced `text` code blocks: one for the main post, one for ALT text, and one for the source/context reply
 - both source notes name the strongest sources, include useful direct links, and state any source-access or status caveat
+- the Japanese main post includes a species-specific body line ending exactly with `ちょっと不思議な暮らし。`
 - all thread posts satisfy the intended character limit
 - the bundled workspace Python successfully runs `scripts/validate_x_post_format.py --ja <japanese-x-post.md> --en <english-x-post.md>`
 - `git diff --check` reports no whitespace errors
@@ -207,6 +239,35 @@ diagnostic markings, posture, habitat, lookalike confusion, and whether visible
 text still matches Copy Lock. Reconcile its findings locally. Do not spawn a
 second verifier. If reuse is unavailable, perform this checklist locally and
 record the fallback.
+
+## Phase 5.5: Dual Final Review
+
+Before INDEX or automation-memory completion updates, run a lightweight final
+review using affirmative and critical perspectives.
+
+- If sub-agent tools are available, spawn or reuse exactly two read-only
+  reviewers:
+  - Affirmative reviewer: look for low-cost fixes that preserve the package and
+    existing workflow.
+  - Critical reviewer: look for completion-blocking contradictions, missing
+    files, validator gaps, status mismatches, and prose rules not enforced by
+    scripts.
+- Give both reviewers the package folder, `sources-qa.md`, locked copy,
+  Japanese and English X-post files, README status, INDEX entry if present,
+  direct poster paths, posting PNG paths, and validator output.
+- Do not delegate topic choice, factual final decisions, file editing, image
+  generation, INDEX updates, memory updates, publication, or user taste calls.
+- Apply deterministic, low-risk fixes automatically when they do not change
+  facts or visual claims, then rerun validators. Examples: X-format mistakes,
+  Japanese series-ending copy rule violations, source-note prefix errors,
+  README/INDEX status mismatches, and missing completion notes.
+- If a finding requires factual judgment, new source interpretation, new image
+  generation, or subjective style choice, mark the package `needs review`
+  instead of silently changing the claim.
+- If sub-agent tools are unavailable, perform the same two-pass review locally:
+  first affirmative repair pass, then critical stop-ship pass.
+- Record the dual review result or fallback in `README.md`,
+  `infographic-packages/INDEX.md`, and automation memory.
 
 ## Tone And Caption Rules
 
@@ -224,7 +285,7 @@ Japanese X copy should follow:
 
 [short habitat/behavior paragraph]
 [short distinctive trait line]
-[species-specific line using ちょっと不思議な暮らし]
+[species-specific line ending exactly with ちょっと不思議な暮らし。]
 
 [locked conservation/status footer]
 ```
@@ -252,6 +313,7 @@ In the INDEX Notes field and automation memory, record:
 - Japanese and English labeled source-note status
 - whether deterministic text-safe backups exist
 - independent verifier trial result, when the one-run trial occurs
+- dual final review result or local two-pass fallback, including auto-fixes and unresolved blockers
 - optional mirror result if attempted
 - local-ready or published state
 - whether the topic should be avoided next time

@@ -4,6 +4,9 @@ Use one file per language. Keep exactly these three sections and put each copy t
 
 ## Main post
 
+For Japanese posts, include one species-specific body line before the footer/hashtags that ends exactly with `ちょっと不思議な暮らし。`.
+Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
+
 ```text
 <complete main post, including hashtags>
 ```
