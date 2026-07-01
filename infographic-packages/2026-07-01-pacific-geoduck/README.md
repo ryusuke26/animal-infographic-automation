@@ -1,6 +1,6 @@
 # Pacific Geoduck / ジオダック
 
-Status: local-ready, not published
+Status: published
 
 Package date: 2026-07-01
 Scientific name: *Panopea generosa*
@@ -34,7 +34,7 @@ No formal IUCN category, population number, population trend, legal status, or t
 - Visual QA: passed. Both posters show one burrowing bivalve with pale paired shell valves, a large tan siphon rising from sandy/muddy seabed, cool Pacific Northwest nearshore habitat, exactly three callouts, and no harvest/food scene, fake map, duplicate specimen, or rescue imagery. Japanese generated text is handmade but readable against the locked copy.
 - Post-image verifier fallback: local identity checklist used because the one-run verifier marker was already complete and no reusable verifier was active.
 - Phase 5.5 dual final review: completed with two read-only reviewers. Affirmative review flagged deterministic cleanup items; critical review found no completion blockers. Source-reply series-ending suggestion was rejected because the rule applies to the Japanese main post, which already passes.
-- INDEX update: complete.
+- INDEX update: complete; published state recorded after GitHub push.
 - Automation memory update: complete.
 
 ## Final Assets
@@ -44,3 +44,8 @@ No formal IUCN category, population number, population trend, legal status, or t
 - Japanese posting PNG: `images/pacific_geoduck_japanese_posting_2026-07-01.png` (1024x1536)
 - English posting PNG: `images/pacific_geoduck_english_posting_2026-07-01.png` (1024x1536)
 - Deterministic text-safe backups: not created because both direct posters passed QA.
+
+## Publication
+
+- Published to GitHub on 2026-07-01 in commit `dcfef08` (`Add pacific geoduck infographic package`).
+- Metadata published-state update follows in the closeout commit.
