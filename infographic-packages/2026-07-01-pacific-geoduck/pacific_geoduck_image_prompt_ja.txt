@@ -1,0 +1,10 @@
+Use case: infographic-diagram
+Asset type: Japanese educational social media infographic, vertical 2:3 poster
+Primary request: Create a gentle curiosity-first natural-history poster about the Pacific geoduck, focused on hidden sandy-seabed life rather than advocacy.
+Subject: Pacific geoduck clam, *Panopea generosa*, with key identity traits: one large burrowing bivalve mostly under sand or mud, two pale shell valves partly visible, a very large tan fleshy siphon extending upward, mantle and siphon much larger than shell. It is a clam, not an elephant trunk, not a worm, not a sea cucumber, not a snail, not an octopus.
+Style/medium: childlike crayon and oil pastel field-notebook poster, textured warm paper, accurate natural-history sketch with adult art direction.
+Composition/framing: vertical 2:3 canvas. Top title and scientific name. Center one large geoduck in sandy/muddy nearshore Pacific Northwest seabed, mostly buried with the siphon reaching upward. Exactly three short observation callouts around the hero. Bottom quiet conservation/status footer. Generous whitespace.
+Color palette: warm sand, muted tan siphon, pale shell, cool green-blue nearshore water, small quiet footer accent.
+Text (verbatim): "砂の下の長い水管" / "*Panopea generosa*" / "北米太平洋岸の砂泥底" / "からだの大半は砂の下" / "長い水管で海水を通す" / "保全メモ：IUCN全球評価は確認できず（2026年確認）"
+Constraints: Discovery-first, not moralizing. Accurate legible Japanese text. Do not invent population numbers. Do not imply blame. No logos, no watermark. One organism only.
+Avoid: Crowded poster, tiny text, fake maps, harvest tools, plates or food imagery, market scene, pearl oyster, multiple clams, unsupported facts, aggressive slogans, species misidentification, misspelled names.
