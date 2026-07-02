@@ -8,6 +8,7 @@ Use this as the quick navigation map for the infographic automation.
 |---|---|
 | `automation-2-updated-prompt.md` | Current Automation body text to paste into the Automation settings. |
 | `automation-2-production-policy.md` | Human-readable operating policy and responsibility map. |
+| `daily-quality-loop.md` | Lightweight end-of-run improvement loop: priorities, tags, next actions, and skill-update triggers. |
 | `scripts/normalize_poster.py` | Rejects non-2:3 Image Gen posters and resizes accepted 2:3 sources to the canonical `1024x1536` posting size. |
 | `infographic-packages/INDEX.md` | Archive ledger for completed, incomplete, and needs-review packages. |
 | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each generated topic. |

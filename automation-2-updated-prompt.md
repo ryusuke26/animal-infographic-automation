@@ -6,6 +6,7 @@ Reference policy:
 
 ```text
 automation-2-production-policy.md
+daily-quality-loop.md
 ```
 
 Follow the phases below in order. Do not start image generation early.
@@ -59,6 +60,8 @@ Resolve source disagreements before proceeding. If a claim remains uncertain, us
 Evidence Lock is complete only when the exact status footer, assessment year, scientific name, native region, and three core public claims are settled.
 
 If no global IUCN assessment can be confirmed, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
+
+If the live IUCN page is unavailable, retry when cheap, then check official PDFs, official status-change tables, or saved official screenshots/snapshots. If an official snapshot is used, disclose the snapshot date or access caveat. If only secondary sources are available, remove the IUCN category from public copy and use conservative evidence-availability wording. If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review`.
 
 ## Phase 2.5: Independent Verifier Trial
 
@@ -115,34 +118,36 @@ Japanese X main-post copy must include one species-specific body line before the
 
 Copy Lock is complete only when no unresolved placeholder, year, category, name, label, or footer remains.
 
-## Phase 3.5: Dual Copy Review
+## Phase 3.5: Risk-Triggered Copy Review
 
-Before Image Gen, run a lightweight copy review using affirmative and critical
-perspectives.
+Before Image Gen, run a lightweight local copy review: first an affirmative
+repair pass for small deterministic fixes, then a critical stop-ship pass for
+contradictions, missing copy, validator gaps, status mismatches, and prose
+rules not enforced by scripts.
 
-- If sub-agent tools are available, spawn or reuse exactly two read-only
-  reviewers:
-  - Affirmative reviewer: look for low-cost fixes that preserve the package and
-    existing workflow.
-  - Critical reviewer: look for completion-blocking contradictions, missing
-    copy, validator gaps, status mismatches, and prose rules not enforced by
-    scripts.
-- Give both reviewers `sources-qa.md`, locked infographic copy, Japanese and
-  English X-post files, image prompts, proposed README status, and the current
-  `scripts/validate_x_post_format.py` output.
-- Do not delegate topic choice, factual final decisions, file editing, image
-  generation, INDEX updates, memory updates, publication, or user taste calls.
-- Apply deterministic, low-risk copy fixes automatically when they do not
-  change facts or visual claims, then rerun validators. Examples: X-format
-  mistakes, Japanese series-ending copy rule violations, source-note prefix
-  errors, prompt/copy string mismatches, and missing completion notes.
-- If a finding requires factual judgment, new source interpretation, new image
-  generation, or subjective style choice, return to Evidence Lock/Copy Lock or
-  mark the package `needs review`; do not silently change the claim.
-- If sub-agent tools are unavailable, perform the same two-pass review locally:
-  first affirmative repair pass, then critical stop-ship pass.
-- Record the dual copy review result or fallback in `sources-qa.md` or
-  `README.md`.
+Use sub-agent reviewers only when a risk trigger is present: IUCN or another
+authoritative source is unavailable, authoritative sources conflict, a status,
+population, legal-protection, or threat claim is prominent, the species has
+high lookalike/anatomy risk, the same Daily Quality Loop tag appeared in a
+recent run, or the package is close to `needs review`.
+
+If sub-agents are used, spawn or reuse read-only reviewers only. Give them
+`sources-qa.md`, locked infographic copy, Japanese and English X-post files,
+image prompts, proposed README status, and the current
+`scripts/validate_x_post_format.py` output. Do not delegate topic choice,
+factual final decisions, file editing, image generation, INDEX updates, memory
+updates, publication, or user taste calls.
+
+Apply deterministic, low-risk copy fixes automatically when they do not change
+facts or visual claims, then rerun validators. Examples: X-format mistakes,
+Japanese series-ending copy rule violations, source-note prefix errors,
+prompt/copy string mismatches, and missing completion notes.
+
+If a finding requires factual judgment, new source interpretation, new image
+generation, or subjective style choice, return to Evidence Lock/Copy Lock or
+mark the package `needs review`; do not silently change the claim. Record
+sub-agent use or local fallback only when it matters to a logged issue or
+completion blocker.
 
 ## Phase 4: Visual Production
 
@@ -240,34 +245,36 @@ text still matches Copy Lock. Reconcile its findings locally. Do not spawn a
 second verifier. If reuse is unavailable, perform this checklist locally and
 record the fallback.
 
-## Phase 5.5: Dual Final Review
+## Phase 5.5: Risk-Triggered Final Review
 
-Before INDEX or automation-memory completion updates, run a lightweight final
-review using affirmative and critical perspectives.
+Before INDEX, Daily Quality Loop, or automation-memory completion updates, run
+a lightweight local final review: first an affirmative repair pass for small
+deterministic fixes, then a critical stop-ship pass for completion blockers,
+missing files, validator gaps, status mismatches, and prose rules not enforced
+by scripts.
 
-- If sub-agent tools are available, spawn or reuse exactly two read-only
-  reviewers:
-  - Affirmative reviewer: look for low-cost fixes that preserve the package and
-    existing workflow.
-  - Critical reviewer: look for completion-blocking contradictions, missing
-    files, validator gaps, status mismatches, and prose rules not enforced by
-    scripts.
-- Give both reviewers the package folder, `sources-qa.md`, locked copy,
-  Japanese and English X-post files, README status, INDEX entry if present,
-  direct poster paths, posting PNG paths, and validator output.
-- Do not delegate topic choice, factual final decisions, file editing, image
-  generation, INDEX updates, memory updates, publication, or user taste calls.
-- Apply deterministic, low-risk fixes automatically when they do not change
-  facts or visual claims, then rerun validators. Examples: X-format mistakes,
-  Japanese series-ending copy rule violations, source-note prefix errors,
-  README/INDEX status mismatches, and missing completion notes.
-- If a finding requires factual judgment, new source interpretation, new image
-  generation, or subjective style choice, mark the package `needs review`
-  instead of silently changing the claim.
-- If sub-agent tools are unavailable, perform the same two-pass review locally:
-  first affirmative repair pass, then critical stop-ship pass.
-- Record the dual review result or fallback in `README.md`,
-  `infographic-packages/INDEX.md`, and automation memory.
+Use sub-agent reviewers only when a risk trigger is present: IUCN or another
+authoritative source is unavailable, authoritative sources conflict, a status,
+population, legal-protection, or threat claim is prominent, the species has
+high lookalike/anatomy risk, the same Daily Quality Loop tag appeared in a
+recent run, or the package is close to `needs review`.
+
+If sub-agents are used, spawn or reuse read-only reviewers only. Give them the
+package folder, `sources-qa.md`, locked copy, Japanese and English X-post
+files, README status, INDEX entry if present, direct poster paths, posting PNG
+paths, and validator output. Do not delegate topic choice, factual final
+decisions, file editing, image generation, INDEX updates, memory updates,
+publication, or user taste calls.
+
+Apply deterministic, low-risk fixes automatically when they do not change
+facts or visual claims, then rerun validators. Examples: X-format mistakes,
+Japanese series-ending copy rule violations, source-note prefix errors,
+README/INDEX status mismatches, and missing completion notes.
+
+If a finding requires factual judgment, new source interpretation, new image
+generation, or subjective style choice, mark the package `needs review`
+instead of silently changing the claim. Record sub-agent use or local fallback
+only when it matters to a logged issue or completion blocker.
 
 ## Tone And Caption Rules
 
@@ -301,6 +308,8 @@ infographic-packages/INDEX.md
 C:\Users\ryusu\.codex\automations\automation-2\memory.md
 ```
 
+Then add the Daily Quality Loop entry to automation memory.
+
 In the INDEX Notes field and automation memory, record:
 
 - broad native region
@@ -313,9 +322,11 @@ In the INDEX Notes field and automation memory, record:
 - Japanese and English labeled source-note status
 - whether deterministic text-safe backups exist
 - independent verifier trial result, when the one-run trial occurs
-- dual final review result or local two-pass fallback, including auto-fixes and unresolved blockers
+- risk-triggered final review result or local two-pass fallback, including auto-fixes and unresolved blockers
+- Daily Quality Loop entry using `issue`, `priority`, `tags`, `cause`, `next_action`, and `tomorrow_change`
 - optional mirror result if attempted
 - local-ready or published state
 - whether the topic should be avoided next time
+- the one concrete `tomorrow_change`, if any
 
-The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, Japanese and English labeled source notes are present, text deliverables and sources are complete, and INDEX plus automation memory are updated. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
+The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, Japanese and English labeled source notes are present, text deliverables and sources are complete, and INDEX plus automation memory are updated with the Daily Quality Loop entry. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.

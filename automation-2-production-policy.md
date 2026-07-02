@@ -16,6 +16,7 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical folder for separate direct Japanese and English Image Gen posters. |
 | X copy layout | `templates/x-post-copy-template.md` | Canonical section order and three copy-paste blocks for each language file. |
 | X copy validation | `scripts/validate_x_post_format.py` | Mechanical check for the canonical three-block format, labeled source notes, and Japanese series-ending copy rule. |
+| Daily quality loop | `daily-quality-loop.md` | End-of-run priorities, tags, next actions, and rules for when repeated issues become skill or policy updates. |
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
 
@@ -37,7 +38,7 @@ A package is `completed` only when all of these are true:
 - Both Image Gen posters pass visual identity QA: the species-specific body plan, distinctive structures, posture, habitat cues, and language-specific text are coherent enough for public posting.
 - Text-safe SVG/PNG assets exist when useful for editing or backup.
 - `infographic-packages/INDEX.md` is updated.
-- Automation memory is updated.
+- Automation memory is updated, including the Daily Quality Loop entry.
 
 If Image Gen fails, is unavailable, one language is missing, either direct
 poster has the wrong aspect ratio after its targeted regeneration, or either
@@ -60,8 +61,8 @@ Every run follows this order:
 8. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
 9. Resize accepted `2:3` posters to `1024x1536`.
 10. Visual and mechanical QA, with optional deterministic text-safe backups.
-11. Dual final review with affirmative and critical reviewers when tools are available, or a local two-pass fallback.
-12. INDEX and automation-memory update.
+11. Final visual/mechanical QA and any risk-triggered review.
+12. INDEX, Daily Quality Loop, and automation-memory update.
 
 Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
 
@@ -157,6 +158,9 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - Do not transfer facts from related species onto the selected species unless clearly labeled as related-species context.
 - If sources disagree or are outdated, state uncertainty and use publication-safe wording.
 - If no global IUCN assessment can be confirmed, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
+- If the live IUCN page is unavailable, do not stop at `unconfirmed` by default. Retry when cheap, then check official PDFs, official status-change tables, or previously saved official screenshots/snapshots.
+- If an official snapshot is used, disclose the snapshot date or access caveat in the source note. If only secondary sources are available, remove the IUCN category from public copy and use conservative evidence-availability wording.
+- If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review` instead of publishing a confident category.
 - Evidence Lock requires the accepted name, native region, exact status footer and year, three core public claims, and visual identity guidance to be settled before image work.
 
 ## Independent Verifier Trial
@@ -187,36 +191,36 @@ to automation memory and record both pre-copy and post-image results in the
 package README. Later runs skip the verifier unless the automation policy is
 deliberately changed.
 
-## Dual Review Gates
+## Risk-Triggered Review Gates
 
-Every run should use lightweight dual reviews at two points. These are
-separate from the one-run independent verifier trial.
+Every run still performs local review before Image Gen and before completion,
+but sub-agents are not routine. Keep normal copy polish, visual QA, and
+mechanical checks local unless a risk trigger is present.
 
-When sub-agent tools are available, spawn or reuse two read-only reviewers:
+Use sub-agents only when one or more of these triggers applies:
 
-- Affirmative reviewer: assumes the existing workflow is mostly sound and looks
-  for low-cost fixes that preserve the package.
-- Critical reviewer: assumes the package can still fail and looks for
-  completion-blocking contradictions, missing files, weak assumptions, and
-  prose rules that are not mechanically enforced.
+- IUCN or another authoritative source is unavailable.
+- Authoritative sources conflict.
+- A status, population, legal protection, or threat claim is prominent.
+- The species has high lookalike or anatomy risk.
+- The same Daily Quality Loop tag appeared in a recent run.
+- The package is close to `needs review` or publication blocking.
 
-Give both reviewers the package folder, `sources-qa.md`, locked copy, X-post
-files, README status, INDEX entry if present, direct poster paths, posting PNG
-paths, and validator output. Ask them for concrete findings only. They should
-not edit files, choose topics, change facts, generate images, publish, or make
-final decisions.
+When sub-agent tools are used, spawn or reuse read-only reviewers only. They
+should provide concrete findings and must not edit files, choose topics,
+change facts, generate images, publish, or make final decisions.
 
-Use the first gate after Copy Lock and before Image Gen. Give reviewers the
-locked copy, X-post files, image prompts, and source QA. Apply deterministic
-copy fixes automatically, then rerun copy validation before image generation.
-If a finding changes facts or unresolved status wording, return to Evidence
-Lock or keep the package blocked.
+Use the first review after Copy Lock and before Image Gen. Review the locked
+copy, X-post files, image prompts, and source QA. Apply deterministic copy
+fixes automatically, then rerun copy validation before image generation. If a
+finding changes facts or unresolved status wording, return to Evidence Lock or
+keep the package blocked.
 
-Use the second gate after visual/mechanical QA and before INDEX or
-automation-memory completion updates. Give reviewers the final package state,
-poster paths, posting PNG paths, README status, INDEX entry if present, and
-validator output. Their job is to find remaining completion blockers and
-auto-fixable inconsistencies before the run is marked completed.
+Use the second review after visual/mechanical QA and before INDEX,
+Daily Quality Loop, or automation-memory completion updates. Review the final
+package state, poster paths, posting PNG paths, README status, INDEX entry if
+present, and validator output. The goal is to find remaining completion
+blockers and auto-fixable inconsistencies before the run is marked completed.
 
 The main agent owns the result. Apply deterministic, low-risk fixes without
 waiting for the user, such as copy format corrections, missing status notes,
@@ -225,9 +229,11 @@ validators after every fix. If a finding requires factual judgment, new image
 generation, source reinterpretation, or user taste, mark the package
 `needs review` instead of silently changing the claim.
 
-If sub-agent tools are unavailable, perform the same review locally in two
-passes: an affirmative pass for small repairable gaps, then a critical pass for
-stop-ship issues. Record whether sub-agents or the fallback were used.
+If sub-agent tools are unavailable, unnecessary, error, or time out, perform
+the same review locally in two passes: an affirmative pass for small
+repairable gaps, then a critical pass for stop-ship issues. Record whether
+sub-agents or the local fallback were used only when that detail matters to a
+logged issue or completion blocker.
 
 ## Tone Rules
 
@@ -338,19 +344,47 @@ Validate both files with the bundled workspace Python before completion:
 
 If validation fails, the package is not completed even when the wording itself is accurate.
 
+## Daily Quality Loop
+
+Use `daily-quality-loop.md` at the end of every run. Add one to three entries
+to automation memory; prefer one. If no meaningful issue occurred, add a short
+`issue: none` entry so the next run knows the loop was checked.
+
+Record each entry with:
+
+```text
+issue:
+priority:
+tags:
+cause:
+next_action:
+tomorrow_change:
+```
+
+Choose the issue by priority: `fact-risk`, then `publish-blocker`, then
+`quality-drift`, then `ops-friction`. Use the initial tags from
+`daily-quality-loop.md` so repeats can be found with search. The next run
+should carry forward at most one concrete `tomorrow_change`.
+
+Do not update skills or policy for every issue. Single issues usually stay in
+memory. Repeated tags become `skill-candidate` according to the escalation
+rules in `daily-quality-loop.md`.
+
 ## End-of-Run Updates
 
 Before finishing every run:
 
 - Update `infographic-packages/INDEX.md`.
 - Update `C:\Users\ryusu\.codex\automations\automation-2\memory.md`.
+- Add the Daily Quality Loop entry from `daily-quality-loop.md`.
 - Record the broad native region in the INDEX Notes field and automation memory.
 - Record whether Evidence Lock and Copy Lock were completed before Image Gen.
 - Record whether separate direct Japanese and English Image Gen posters exist and pass QA.
 - Record both direct source dimensions, confirm both sources are `2:3`, and confirm both posting PNGs are exactly `1024x1536`.
 - Record whether optional deterministic text-safe backups exist.
 - Record the one-run independent verifier result when the trial occurs.
-- Record the dual final review result or local fallback, including any auto-fixes applied and remaining blockers.
+- Record the risk-triggered final review result or local fallback, including any auto-fixes applied and remaining blockers.
 - Record whether generated_images mirror succeeded or failed.
 - Record whether the package is local-ready or published.
 - Record whether the topic should be avoided next time.
+- Record the one concrete `tomorrow_change`, if any.
