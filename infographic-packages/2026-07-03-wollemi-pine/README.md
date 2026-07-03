@@ -1,6 +1,6 @@
 # Wollemi Pine Infographic Package
 
-Status: completed and local-ready, not published
+Status: completed and published to GitHub
 
 Topic: Wollemi pine / ウォレミア（ウォレミ・パイン）
 Scientific name: *Wollemia nobilis*
@@ -42,4 +42,4 @@ User-supplied IUCN screenshot of `https://www.iucnredlist.org/ja/species/34926/2
 - Automation memory update: completed.
 - Text-safe backups: not created because both direct posters passed visual/text QA.
 - Optional generated-images mirror: source cache exists under `C:\Users\ryusu\.codex\generated_images\019f25fb-637c-7be0-9cb9-2d949f48d8ec`; no separate mirror copy attempted.
-- Local state: completed and local-ready, not published.
+- Published state: package commit `afa74b2` (`Add wollemi pine infographic package`) pushed to `origin/master`; metadata commit follows this closeout.
