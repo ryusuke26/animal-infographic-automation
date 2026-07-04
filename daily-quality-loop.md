@@ -82,16 +82,23 @@ usually stay in memory. Repeated tags become candidates.
 
 ## Source Access And IUCN
 
-Do not convert "IUCN could not be opened" into a confident status claim.
+Do not convert "IUCN could not be opened" into a confident status claim, and
+do not convert failed access into a completed "no assessment confirmed"
+footer.
 When the live IUCN page is unavailable:
 
 1. Retry during Evidence Lock when it is cheap.
 2. Check official PDFs, official status-change tables, or a previously saved
    official screenshot/snapshot.
 3. If an official snapshot is used, state the snapshot date or access caveat.
-4. If only secondary sources are available, remove the IUCN category from
-   public copy and use conservative evidence-availability wording.
-5. If the IUCN category is central to the story and no official basis can be
+4. If an official route or completed official search supports no global
+   assessment, use short label-free evidence-availability wording such as
+   `IUCN世界評価は確認できず（2026年確認）` or
+   `No global IUCN assessment confirmed (checked 2026)`.
+5. If only secondary sources are available, remove the IUCN category from
+   public copy and mark the status route unresolved; do not mark the package
+   `completed` from that evidence alone.
+6. If the IUCN category is central to the story and no official basis can be
    confirmed, mark the package `needs review`.
 
 ## Sub-Agent Use

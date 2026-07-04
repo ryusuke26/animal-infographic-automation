@@ -57,11 +57,15 @@ Use authoritative sources first: IUCN Red List when relevant, official regional 
 
 Resolve source disagreements before proceeding. If a claim remains uncertain, use conservative public wording and record the uncertainty. Do not use population numbers unless they are current, geographically scoped, and clearly sourced.
 
-Evidence Lock is complete only when the exact status footer, assessment year, scientific name, native region, and three core public claims are settled.
+Evidence Lock is complete only when the exact status footer, assessment year or check year, status-source route, scientific name, native region, and three core public claims are settled.
 
-If no global IUCN assessment can be confirmed, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
+Distinguish "no global IUCN assessment found after a completed official-source check" from "IUCN could not be accessed". The first can support a conservative evidence-availability footer; the second is unresolved.
 
-If the live IUCN page is unavailable, retry when cheap, then check official PDFs, official status-change tables, or saved official screenshots/snapshots. If an official snapshot is used, disclose the snapshot date or access caveat. If only secondary sources are available, remove the IUCN category from public copy and use conservative evidence-availability wording. If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review`.
+If no global IUCN assessment can be confirmed after a completed official-source check, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
+
+Poster and main-post footers should be short and label-free. Use `IUCN Red List 2023: Near Threatened (NT)` for confirmed categories, `IUCN世界評価は確認できず（2026年確認）` in Japanese when no global assessment is confirmed, and `No global IUCN assessment confirmed (checked 2026)` in English. Do not prefix poster footers with `保全メモ：` or `Conservation note:`; source/context replies still use `出典メモ：` and `Source note:`.
+
+If the live IUCN page is unavailable, retry when cheap, then check official PDFs, official status-change tables, official APIs/datasets, or saved official screenshots/snapshots. If an official snapshot is used, disclose the snapshot date or access caveat. If only secondary sources are available, remove the IUCN category from public copy and treat the status route as unresolved; mark the package `needs review` unless another official status or completed evidence-availability check supports the exact footer. If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review`.
 
 ## Phase 2.5: Independent Verifier Trial
 
@@ -107,7 +111,7 @@ Write and cross-check:
 - exact Japanese and English titles
 - scientific name
 - three short observation labels
-- exact footer/status wording
+- exact short label-free footer/status wording
 - Japanese and English X posts with the main post, ALT text, and source/context reply each in its own copy-paste-ready fenced `text` code block
 - Japanese and English thread drafts when needed
 - image prompts based only on Evidence Lock claims
@@ -166,7 +170,7 @@ Default poster density and composition:
 - Show one large hero organism in its habitat.
 - Put the title and scientific name at the top.
 - Add exactly three short observation callouts around the hero.
-- Put one quiet conservation/status footer at the bottom.
+- Put one quiet label-free conservation/status footer at the bottom.
 - Keep each callout to one short idea, normally one or two display lines.
 - Do not add anatomical close-ups, duplicate specimens, lifecycle panels,
   cutaways, maps, timelines, comparison species, or behavior insets when a
@@ -280,7 +284,7 @@ only when it matters to a logged issue or completion blocker.
 
 - Natural-history discovery first.
 - No moralizing, savior framing, blame, or urgency slogans.
-- Keep conservation/status as a quiet footer.
+- Keep conservation/status as a quiet label-free footer.
 - Japanese posters foreground the Japanese common name or a clearly labeled safe rendering.
 
 Japanese X copy should follow:
@@ -294,7 +298,7 @@ Japanese X copy should follow:
 [short distinctive trait line]
 [species-specific line ending exactly with ちょっと不思議な暮らし。]
 
-[locked conservation/status footer]
+[locked short conservation/status footer]
 ```
 
 Provide ALT text, 0-2 relevant hashtags, and a required separate source/context reply. Use `templates/x-post-copy-template.md` as the canonical layout. In each language file, put the complete main post, the ALT text, and the source/context reply in three separate fenced `text` code blocks so each item can be copied with one action. Do not leave any of those three items as ordinary Markdown paragraphs. The Japanese reply must begin exactly with `出典メモ：`; the English reply must begin exactly with `Source note:`. Name the strongest sources, include useful direct links, and state any source-access or status caveat. For Japanese posts, default to `#世界の知らない生き物`. Prefer separate Japanese and English posts.
@@ -316,6 +320,7 @@ In the INDEX Notes field and automation memory, record:
 - topic and scientific name
 - package folder and artifacts
 - source and assessment years
+- status-source route and whether any source-access issue remains unresolved
 - Evidence Lock and Copy Lock completion
 - Japanese and English direct Image Gen poster status, source dimensions, `2:3` validation, and visual QA
 - Japanese and English normalized posting PNG status and exact `1024x1536` dimensions
@@ -329,4 +334,4 @@ In the INDEX Notes field and automation memory, record:
 - whether the topic should be avoided next time
 - the one concrete `tomorrow_change`, if any
 
-The run is `completed` only when the evidence and copy are locked, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, Japanese and English labeled source notes are present, text deliverables and sources are complete, and INDEX plus automation memory are updated with the Daily Quality Loop entry. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
+The run is `completed` only when the evidence and copy are locked, the status footer has a confirmed official basis or completed no-assessment check rather than failed source access alone, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, Japanese and English labeled source notes are present, text deliverables and sources are complete, and INDEX plus automation memory are updated with the Daily Quality Loop entry. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.

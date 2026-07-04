@@ -32,6 +32,7 @@ A package is `completed` only when all of these are true:
 - Japanese X main post includes a species-specific body line ending exactly with `ちょっと不思議な暮らし。`.
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
+- The locked conservation/status footer has either a confirmed official status basis or a documented completed evidence-availability check; failed source access alone is not enough for `completed`.
 - Separate direct Japanese and English Image Gen poster PNGs exist and use the locked copy.
 - Both direct Image Gen source posters are vertical `2:3`.
 - Separate Japanese and English posting PNGs exist at exactly `1024x1536` pixels.
@@ -157,11 +158,13 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - Do not include population numbers unless they are current, geographically specific, and clearly sourced.
 - Do not transfer facts from related species onto the selected species unless clearly labeled as related-species context.
 - If sources disagree or are outdated, state uncertainty and use publication-safe wording.
-- If no global IUCN assessment can be confirmed, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
-- If the live IUCN page is unavailable, do not stop at `unconfirmed` by default. Retry when cheap, then check official PDFs, official status-change tables, or previously saved official screenshots/snapshots.
-- If an official snapshot is used, disclose the snapshot date or access caveat in the source note. If only secondary sources are available, remove the IUCN category from public copy and use conservative evidence-availability wording.
+- Distinguish "no global IUCN assessment found after a completed check" from "IUCN could not be accessed". The first can support a conservative evidence-availability footer; the second is unresolved.
+- If no global IUCN assessment can be confirmed after a completed official-source check, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
+- Poster and main-post footers should be short and label-free. Use `IUCN Red List 2023: Near Threatened (NT)` for confirmed categories, `IUCN世界評価は確認できず（2026年確認）` in Japanese when no global assessment is confirmed, and `No global IUCN assessment confirmed (checked 2026)` in English. Do not prefix poster footers with `保全メモ：` or `Conservation note:`; source/context replies still use `出典メモ：` and `Source note:`.
+- If the live IUCN page is unavailable, do not stop at `unconfirmed` by default. Retry when cheap, then check official PDFs, official status-change tables, official APIs/datasets, or previously saved official screenshots/snapshots.
+- If an official snapshot is used, disclose the snapshot date or access caveat in the source note. If only secondary sources are available, remove the IUCN category from public copy and treat the status route as unresolved; mark the package `needs review` unless another official status or completed evidence-availability check supports the exact footer.
 - If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review` instead of publishing a confident category.
-- Evidence Lock requires the accepted name, native region, exact status footer and year, three core public claims, and visual identity guidance to be settled before image work.
+- Evidence Lock requires the accepted name, native region, exact status footer and year/check year, source-access route, three core public claims, and visual identity guidance to be settled before image work.
 
 ## Independent Verifier Trial
 
@@ -242,11 +245,11 @@ logged issue or completion blocker.
 - No blame framing.
 - No advocacy slogans.
 - No unsupported urgency.
-- Conservation/status appears quietly in a footer, not as the emotional center.
+- Conservation/status appears quietly in a short label-free footer, not as the emotional center.
 
 ## Copy Lock
 
-- Write final Japanese and English titles, scientific name, three observation labels, footer, infographic copy, X copy, ALT text, and image prompts before Image Gen.
+- Write final Japanese and English titles, scientific name, three observation labels, short label-free footer, infographic copy, X copy, ALT text, and image prompts before Image Gen.
 - Save the locked copy to the package folder.
 - Do not leave placeholders or unresolved dates/categories in image-facing text.
 - Recheck image-facing claims against `sources-qa.md` before generating art.
@@ -259,7 +262,7 @@ reference:
 - one large hero organism in its habitat;
 - title and scientific name at the top;
 - exactly three short observation callouts placed around the hero;
-- one quiet conservation/status footer;
+- one quiet label-free conservation/status footer;
 - no extra explanatory paragraphs inside the poster.
 
 Keep each observation callout to one short idea, normally one or two display
@@ -312,10 +315,13 @@ Japanese captions should follow this compact structure:
 [short line about visible trait or unusual ecology]
 [species-specific final line using ちょっと不思議な暮らし。]
 
-IUCN Red List [assessment year]: [category] ([abbreviation])
+[locked short status footer]
 ```
 
 The final "ちょっと不思議な暮らし" line must be species-specific, not generic.
+For poster and main-post footers, avoid label prefixes such as `保全メモ：`
+or `Conservation note:`. Put source labels only in the separate
+source/context reply.
 
 ## X Posting Rules
 
@@ -379,6 +385,7 @@ Before finishing every run:
 - Add the Daily Quality Loop entry from `daily-quality-loop.md`.
 - Record the broad native region in the INDEX Notes field and automation memory.
 - Record whether Evidence Lock and Copy Lock were completed before Image Gen.
+- Record the status-source route, including whether the footer is based on a confirmed official category, a completed no-assessment check, or an unresolved access problem.
 - Record whether separate direct Japanese and English Image Gen posters exist and pass QA.
 - Record both direct source dimensions, confirm both sources are `2:3`, and confirm both posting PNGs are exactly `1024x1536`.
 - Record whether optional deterministic text-safe backups exist.
