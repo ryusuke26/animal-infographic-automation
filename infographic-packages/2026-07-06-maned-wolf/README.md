@@ -2,7 +2,7 @@
 
 Date: 2026-07-06
 
-Status: completed and local-ready, not published.
+Status: completed and published.
 
 ## Topic
 
@@ -51,8 +51,8 @@ Status: completed and local-ready, not published.
 - `scripts/validate_x_post_format.py` passed with bundled Python.
 - English X main post was shortened after critical final review flagged a 292-character validator gap.
 - Both direct source posters and both posting PNGs are 1024x1536.
-- Package is completed and local-ready. Git publishing is still pending because the current shell cannot create `.git/index.lock`.
+- Package is completed and published to GitHub in commit `219fb2e`.
 
 ## Next Step
 
-Ready for posting from local files. GitHub publishing still needs a shell path with normal `.git` write/network access.
+Ready for posting from the package files. GitHub publishing completed after the scoped elevated Git path was approved.
