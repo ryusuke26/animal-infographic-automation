@@ -32,7 +32,9 @@ Prioritize this layout:
 - Large title at top, handwritten/crayon feel.
 - Scientific name directly below title, smaller and italic-like where possible.
 - Central species illustration in habitat, taking most of the poster.
-- Three small taped paper note cards or labels around the subject.
+- Three small taped paper observation cards around the subject.
+- Each observation card should include a visible number, a small spot
+  illustration or icon cue, and explanatory copy.
 - One circular or rounded inset for a larva, detail, body part, behavior, or microhabitat when useful.
 - Quiet bottom footer strip for conservation/status context.
 - No fake maps, no big warning banners, no advocacy slogan, no guilt/blame language.
@@ -78,7 +80,8 @@ Keep each infographic minimal:
 
 - One title.
 - Scientific name.
-- Three observation notes.
+- Three observation notes, each structured as number + small illustration/icon
+  cue + explanatory copy.
 - One quiet context/status note.
 
 Avoid advocacy slogans, blame, rescue framing, fake maps, unsupported urgency, and unsupported claims such as "only X remain" or "on the brink" unless directly sourced.
@@ -137,7 +140,7 @@ AI-generated field-notebook style illustration.
 
 Before finalizing, check:
 
-- Poster follows the Purple Frog composition: top title, scientific name, central subject, three taped notes, optional circular inset, quiet footer.
+- Poster follows the Purple Frog composition: top title, scientific name, central subject, three numbered taped observation cards with small spot illustrations/icons and explanatory copy, optional circular inset, quiet footer.
 - Text fits and remains legible on mobile.
 - Scientific name is spelled correctly.
 - Conservation status is attributed and not overstated.

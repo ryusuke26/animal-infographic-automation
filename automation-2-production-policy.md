@@ -16,6 +16,7 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical folder for separate direct Japanese and English Image Gen posters. |
 | X copy layout | `templates/x-post-copy-template.md` | Canonical section order and three copy-paste blocks for each language file. |
 | X copy validation | `scripts/validate_x_post_format.py` | Mechanical check for the canonical three-block format, labeled source notes, and Japanese series-ending copy rule. |
+| Package QA validation | `scripts/validate_package.py` | Mechanical package-level checks for required files, PNG dimensions, X copy format, and Copy Lock versus prompt text. |
 | Daily quality loop | `daily-quality-loop.md` | End-of-run priorities, tags, next actions, and rules for when repeated issues become skill or policy updates. |
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
@@ -29,6 +30,8 @@ A package is `completed` only when all of these are true:
 - Japanese and English image prompts exist.
 - Japanese and English X-post files exist, with the main post, ALT text, and source/context reply each in its own copy-paste-ready fenced `text` code block.
 - `scripts/validate_x_post_format.py` passes for both language files.
+- `scripts/validate_package.py <package-folder>` passes, or any warning is
+  recorded and intentionally accepted.
 - Japanese X main post includes a species-specific body line ending exactly with `ちょっと不思議な暮らし。`.
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
@@ -55,19 +58,67 @@ Every run follows this order:
 1. Preflight and pending-publication check.
 2. Topic and region lock.
 3. Evidence Lock.
-4. One-run independent verifier trial when its completion marker is absent.
+4. Run-mode classification and local independent evidence checklist; optional
+   read-only verifier only for Caution Run or Rescue Run triggers.
 5. Copy Lock.
-6. Dual copy review with affirmative and critical reviewers when tools are available, or a local two-pass fallback.
+6. Local two-pass copy review; use sub-agent reviewers only for risk-triggered
+   caution or rescue runs.
 7. Direct Japanese and English Image Gen poster production.
 8. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
 9. Resize accepted `2:3` posters to `1024x1536`.
 10. Visual and mechanical QA, with optional deterministic text-safe backups.
-11. Final visual/mechanical QA and any risk-triggered review.
+11. Final visual/mechanical QA with `scripts/validate_package.py` and any
+    risk-triggered review.
 12. INDEX, Daily Quality Loop, and automation-memory update.
 
 Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
 
 Do not change facts or wording during image generation. If a factual correction is needed, return to Evidence Lock and Copy Lock before generating again. Use one targeted retry at a time for anatomy, posture, habitat, major composition, or generated-text failure. Deterministic text-safe assets may be repaired independently, but they do not replace either required direct Image Gen poster.
+
+## Workload Modes
+
+Use the lightest mode that protects the package.
+
+### Normal Run
+
+Use this mode when official evidence is available, sources do not materially
+conflict, the organism has manageable visual identity risk, and no user
+correction or image-generation failure has changed the locked package.
+
+- Keep sub-agents off.
+- Use local two-pass checks before Image Gen and before completion.
+- Run `scripts/validate_package.py <package-folder>` after the final posting
+  PNGs exist.
+- Keep the INDEX note short: region, status/footer basis, three public claims,
+  asset/QA state, publication state, and avoid-repeat cue.
+
+### Caution Run
+
+Use this mode when one or more risk triggers appears: IUCN or another
+authoritative source is unavailable, authoritative sources conflict, a status,
+population, legal-protection, or threat claim is prominent, the species has high
+lookalike/anatomy risk, the same Daily Quality Loop tag appeared recently, or
+the user corrects evidence, copy, layout, or visual interpretation.
+
+- Keep Evidence Lock and Copy Lock explicit.
+- Use read-only sub-agent review only when it is likely to catch a high-impact
+  issue; otherwise use the local two-pass fallback.
+- Record the trigger and the accepted/rejected findings in README or
+  `sources-qa.md`, not in an overlong INDEX note.
+
+### Rescue Run
+
+Use this mode when a required poster has the wrong ratio after a retry, visible
+text drifts from Copy Lock, species identity is broken, evidence cannot support
+the footer, or a completed package would otherwise be misleading.
+
+- Stop broad iteration.
+- Make at most one targeted retry per concrete image or text failure.
+- If the retry does not fix the blocker, preserve artifacts and mark the
+  package `needs review` or `incomplete`.
+- Do not silently rewrite locked facts, stretch/crop/pad images into compliance,
+  or use a deterministic layout as a substitute for missing direct Image Gen
+  posters.
 
 ## Canonical Storage
 
@@ -166,33 +217,28 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review` instead of publishing a confident category.
 - Evidence Lock requires the accepted name, native region, exact status footer and year/check year, source-access route, three core public claims, and visual identity guidance to be settled before image work.
 
-## Independent Verifier Trial
+## Independent Evidence Check
 
-The next eligible run performs one controlled sub-agent trial. It spawns
-exactly one read-only verifier after Evidence Lock and before Copy Lock, then
-reuses that same verifier after Image Gen when the tooling supports reuse. It
-must not delegate final decisions or file edits.
+Every run performs a local independent checklist after Evidence Lock and before
+Copy Lock. Check the accepted name, latest formal conservation status and
+assessment year/check year, native range and habitat, the three public claims,
+source fit, and visual identity risks.
 
-The verifier independently checks the accepted name, latest formal
-conservation status and assessment year, native range and habitat, the three
-public claims, source fit, and visual identity risks. The main agent reconciles
-all findings and remains responsible for the final Evidence Lock.
+The old one-run sub-agent verifier trial is no longer a routine step. If the
+exact marker `Independent verifier trial: completed` is already present in
+automation memory, do not repeat it. If the marker is absent, still default to
+local checking in Normal Run mode.
 
-After the direct Japanese and English posters exist, the same verifier performs
-one final identity audit covering diagnostic anatomy and markings, posture,
-habitat, lookalike confusion, and visible-text consistency. Do not spawn a
-second verifier if the first verifier cannot be reused; perform the final
-checklist locally instead.
+Spawn or reuse a read-only verifier only in Caution Run or Rescue Run mode when
+the risk trigger is likely to benefit from a second reader. The verifier must
+not edit files, choose topics, change facts, generate images, publish, or make
+final decisions. The main agent reconciles all findings and remains responsible
+for Evidence Lock, Copy Lock, and final package status.
 
-The trial is non-blocking when tooling fails: if sub-agent tools are
-unavailable, error, or time out, the main agent performs the same checklist
-locally and records the fallback. A material unresolved factual conflict still
-blocks Copy Lock and Image Gen.
-
-After the trial, add the exact marker `Independent verifier trial: completed`
-to automation memory and record both pre-copy and post-image results in the
-package README. Later runs skip the verifier unless the automation policy is
-deliberately changed.
+After image generation, run the same identity/text-consistency checklist
+locally unless a read-only verifier was already spawned for a caution/rescue
+trigger and can be reused without delay. Do not spawn a second verifier just to
+complete a routine final check.
 
 ## Risk-Triggered Review Gates
 
@@ -200,7 +246,8 @@ Every run still performs local review before Image Gen and before completion,
 but sub-agents are not routine. Keep normal copy polish, visual QA, and
 mechanical checks local unless a risk trigger is present.
 
-Use sub-agents only when one or more of these triggers applies:
+Use sub-agents only when one or more of these triggers applies and the current
+run is in Caution Run or Rescue Run mode:
 
 - IUCN or another authoritative source is unavailable.
 - Authoritative sources conflict.
@@ -261,13 +308,18 @@ reference:
 
 - one large hero organism in its habitat;
 - title and scientific name at the top;
-- exactly three short observation callouts placed around the hero;
+- exactly three short observation note cards placed around the hero;
+- each note card should include a visible number, a small spot illustration or
+  icon cue, and explanatory copy;
 - one quiet label-free conservation/status footer;
 - no extra explanatory paragraphs inside the poster.
 
-Keep each observation callout to one short idea, normally one or two display
-lines. The three callouts should cover habitat, visible identity, and one
-behavior or life-history hook.
+Keep exactly three observation notes. Do not add a fourth note to solve a copy
+problem. Keep each note to one clear observation, normally two or three short
+display lines. Avoid bare label-like fragments; each note should connect a
+visible trait, habitat, or behavior to what it helps the organism do. The three
+notes should cover habitat, visible identity, and one behavior or life-history
+hook.
 
 Do not add anatomical close-ups, duplicate specimens, lifecycle panels,
 cutaways, maps, timelines, comparison species, or behavior insets when the
@@ -292,9 +344,10 @@ caption or ALT text rather than becoming an image-generation requirement.
 - Japanese-version posters should use the Japanese name or safe Japanese rendering as the main title.
 - English-version posters should use the English common name as the main title.
 - Use the exact locked text verbatim in each Image Gen prompt.
-- Default to one hero organism and three simple callouts. Do not ask Image Gen
-  to solve a detailed anatomical diagram and a finished social poster in the
-  same generation.
+- Default to one hero organism and three numbered observation note cards, each
+  with a small spot illustration/icon cue plus explanatory copy. Do not ask
+  Image Gen to solve a detailed anatomical diagram and a finished social poster
+  in the same generation.
 - If generated text or visual structure fails, make one targeted retry and re-check it. Do not alter facts, labels, or workflow during the retry.
 - Image QA must check the organism's body plan, distinctive structures, limb/appendage count, posture, and habitat. If the poster is merely cute or atmospheric but the anatomy/identity is wrong, mark it `needs review` instead of `completed`.
 - For species with difficult anatomy, avoid forcing dramatic poses or close-up
@@ -383,15 +436,10 @@ Before finishing every run:
 - Update `infographic-packages/INDEX.md`.
 - Update `C:\Users\ryusu\.codex\automations\automation-2\memory.md`.
 - Add the Daily Quality Loop entry from `daily-quality-loop.md`.
-- Record the broad native region in the INDEX Notes field and automation memory.
-- Record whether Evidence Lock and Copy Lock were completed before Image Gen.
-- Record the status-source route, including whether the footer is based on a confirmed official category, a completed no-assessment check, or an unresolved access problem.
-- Record whether separate direct Japanese and English Image Gen posters exist and pass QA.
-- Record both direct source dimensions, confirm both sources are `2:3`, and confirm both posting PNGs are exactly `1024x1536`.
-- Record whether optional deterministic text-safe backups exist.
-- Record the one-run independent verifier result when the trial occurs.
-- Record the risk-triggered final review result or local fallback, including any auto-fixes applied and remaining blockers.
-- Record whether generated_images mirror succeeded or failed.
-- Record whether the package is local-ready or published.
-- Record whether the topic should be avoided next time.
-- Record the one concrete `tomorrow_change`, if any.
+- In the INDEX Notes field, keep only the searchable summary: broad region,
+  status/footer basis, three public claims, direct/posting asset QA state,
+  publication state, and avoid-repeat cue.
+- Put detailed evidence, review findings, retries, user corrections, optional
+  mirror results, and Daily Quality Loop details in README, `sources-qa.md`, or
+  automation memory instead of the INDEX row.
+- Record the one concrete `tomorrow_change`, if any, in automation memory.
