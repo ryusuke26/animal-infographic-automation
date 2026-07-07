@@ -4,7 +4,7 @@ Date: 2026-07-07
 
 Topic: By-the-wind sailor / カツオノカンムリ / *Velella velella*
 
-Status: completed, local-ready, not published.
+Status: completed, published.
 
 ## Rationale
 
@@ -31,6 +31,7 @@ Ocean/Global had 0 appearances in the most recent eight completed packages, and 
 - Final package QA: passed locally before final review; validator passed and all X blocks are within 280 characters.
 - Phase 5.5 dual final review: complete; two read-only reviewers found no remaining blocker after the Japanese ALT label wording was cleaned up.
 - INDEX and automation memory completion update: complete as of 2026-07-07T11:00:36+09:00.
+- Published to GitHub in package commit `88689f1`; published-state metadata follows in the closeout commit.
 
 ## Final QA
 
