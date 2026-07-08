@@ -1,7 +1,7 @@
 # Socotra Dragon Tree Infographic Package
 
 Date: 2026-07-08
-Status: completed, local-ready
+Status: completed, published
 
 ## Topic Rationale
 
@@ -37,4 +37,4 @@ The Socotra Dragon Tree gives this run a non-ocean Asia topic after an Ocean/Glo
 
 ## Completion Notes
 
-Both direct Image Gen posters and normalized posting PNGs passed QA. Package is local-ready; GitHub publishing and optional mirror were not attempted in this continuation.
+Both direct Image Gen posters and normalized posting PNGs passed QA. Package commit `b7b1eae` was pushed to `origin/master`; remote `refs/heads/master` verified at `b7b1eaef3622428591e12f1644e4e6b241a11490`. Optional mirror was not attempted.
