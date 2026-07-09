@@ -21,6 +21,31 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
 
+## GitHub Publish Handoff
+
+The daily automation should complete the package and mark it `local-ready`.
+GitHub publishing is a separate approval-enabled closeout step.
+
+In no-approval or automation execution contexts, do not attempt `git add`,
+`git commit`, `git push`, temporary-index commits, direct GitHub API publish
+workarounds, or clone-based publish workarounds. If the user asks for GitHub
+closeout inside a no-approval context, stop before mutating Git state and ask
+the user to rerun the closeout in an approval-enabled normal conversation.
+
+When GitHub closeout is run in an approval-enabled context, use scoped staging
+only:
+
+```text
+git add -- infographic-packages/INDEX.md infographic-packages/YYYY-MM-DD-species-slug
+git commit -m "Add <species> infographic package"
+git push origin master
+git ls-remote origin refs/heads/master
+```
+
+After the package commit is verified on `origin/master`, update package README
+and `infographic-packages/INDEX.md` from `local-ready` to `published`, then make
+a small metadata commit and verify the remote ref again.
+
 ## Completion Standard
 
 A package is `completed` only when all of these are true:
@@ -443,3 +468,6 @@ Before finishing every run:
   mirror results, and Daily Quality Loop details in README, `sources-qa.md`, or
   automation memory instead of the INDEX row.
 - Record the one concrete `tomorrow_change`, if any, in automation memory.
+- Leave GitHub state as `local-ready` during no-approval automation runs. Do not
+  attempt GitHub publish from that context; record that publish requires an
+  approval-enabled closeout conversation.

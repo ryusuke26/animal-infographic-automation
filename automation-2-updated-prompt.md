@@ -10,6 +10,20 @@ daily-quality-loop.md
 scripts/validate_package.py
 ```
 
+GitHub publishing policy:
+
+- This automation should complete the package and mark it `local-ready`.
+- Do not attempt `git add`, `git commit`, `git push`, temporary-index commits,
+  direct GitHub API publish workarounds, or clone-based publish workarounds from
+  a no-approval automation context.
+- If GitHub closeout is requested but approval-enabled execution is not
+  available, stop before mutating Git state and tell the user to run the
+  closeout in an approval-enabled normal conversation.
+- In an approval-enabled closeout conversation, publish with scoped staging for
+  `infographic-packages/INDEX.md` and the package folder, push to
+  `origin/master`, verify `refs/heads/master`, then update README/INDEX from
+  `local-ready` to `published` in a small metadata commit.
+
 Follow the phases below in order. Do not start image generation early.
 
 ## Phase 0: Preflight
@@ -361,3 +375,8 @@ In the INDEX Notes field and automation memory, record:
 - automation memory: record the one concrete `tomorrow_change`, if any.
 
 The run is `completed` only when the evidence and copy are locked, the status footer has a confirmed official basis or completed no-assessment check rather than failed source access alone, separate direct Japanese and English Image Gen source PNGs both exist in vertical `2:3` and pass visual/text QA, exact `1024x1536` posting PNGs exist for both languages without padding/cropping/stretching, Japanese and English labeled source notes are present, text deliverables and sources are complete, and INDEX plus automation memory are updated with the Daily Quality Loop entry. A base illustration or deterministic bilingual layout alone is not completion. Optional text-safe backups, mirroring, and Git publishing may remain separate, but their state must be recorded.
+
+In no-approval automation contexts, Git publishing must remain separate: record
+the package as `local-ready`, record that GitHub closeout needs an
+approval-enabled normal conversation, and do not probe Git publishing with
+workarounds.
