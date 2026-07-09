@@ -1,6 +1,6 @@
 # Sword-billed Hummingbird Infographic Package
 
-Status: completed, local-ready after user IUCN correction
+Status: completed, published after user IUCN correction
 Run date: 2026-07-09
 
 ## Rationale
@@ -51,4 +51,4 @@ The Sword-billed Hummingbird adds South America to today's rotation after Asia i
 
 ## Completion Notes
 
-Evidence Lock and Copy Lock were completed before first Image Gen, then rerun after user supplied the official IUCN 2024 screenshot. Corrected 2024-footer direct Image Gen posters and exact-size posting PNGs are complete. The package is complete and local-ready. GitHub publishing was not attempted in this run.
+Evidence Lock and Copy Lock were completed before first Image Gen, then rerun after user supplied the official IUCN 2024 screenshot. Corrected 2024-footer direct Image Gen posters and exact-size posting PNGs are complete. Package commit `b607b4c` (`Add sword-billed hummingbird infographic package`) was pushed to `origin/master`; remote `refs/heads/master` verified at `b607b4c17ec2519cfa8700bc4624b27ca57219f8`. Optional mirror was not attempted.
