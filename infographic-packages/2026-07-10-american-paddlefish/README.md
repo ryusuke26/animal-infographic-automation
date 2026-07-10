@@ -1,6 +1,6 @@
 # American Paddlefish Infographic Package
 
-Status: completed, local-ready
+Status: completed, published
 Run date: 2026-07-10
 
 ## Rationale
@@ -52,4 +52,4 @@ The American Paddlefish adds North America after the previous completed package 
 
 ## Completion Notes
 
-Evidence Lock and Copy Lock were completed before Image Gen. Separate Japanese and English direct Image Gen posters exist, both are vertical 2:3, and both posting PNGs are exactly 1024x1536. Final visual/text QA, X-post validation, package QA, and `git diff --check` passed. INDEX and automation memory were updated. State: completed and local-ready; GitHub publishing was not attempted in this no-approval automation context.
+Evidence Lock and Copy Lock were completed before Image Gen. Separate Japanese and English direct Image Gen posters exist, both are vertical 2:3, and both posting PNGs are exactly 1024x1536. Final visual/text QA, X-post validation, package QA, and `git diff --check` passed. Package commit `44c6e17` (`Add american paddlefish infographic package`) was pushed to `origin/master`; remote `refs/heads/master` verified at `44c6e175db995da5007b78b1f85bf530a6cf3a41`. State: completed and published.
