@@ -1,6 +1,6 @@
 # Jamaican Iguana Infographic Package
 
-Status: completed, local-ready
+Status: completed, published
 Run date: 2026-07-11
 
 ## Rationale
@@ -63,4 +63,4 @@ The structured Markdown sources remain `x-post-ja.md` and `x-post-en.md`.
 
 ## Completion Notes
 
-Evidence Lock and Copy Lock were completed before Image Gen. The original IUCN 2010 route was corrected on 2026-07-11 after direct verification of the latest global CR assessment dated 25 August 2021; both direct posters and posting PNGs were regenerated with the 2021 footer. Separate Japanese and English direct Image Gen posters exist, both are vertical 2:3, and both posting PNGs are exactly 1024x1536. State: completed and local-ready; GitHub publishing not attempted per no-approval automation policy.
+Evidence Lock and Copy Lock were completed before Image Gen. The original IUCN 2010 route was corrected on 2026-07-11 after direct verification of the latest global CR assessment dated 25 August 2021; both direct posters and posting PNGs were regenerated with the 2021 footer. Separate Japanese and English direct Image Gen posters exist, both are vertical 2:3, and both posting PNGs are exactly 1024x1536. State: completed and published in package commit `43d4284`; published-state metadata follows in the closeout commit.
