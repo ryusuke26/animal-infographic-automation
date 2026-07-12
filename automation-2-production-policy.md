@@ -166,6 +166,12 @@ species_slug_japanese_imagegen_YYYY-MM-DD.png
 species_slug_english_imagegen_YYYY-MM-DD.png
 species_slug_japanese_posting_YYYY-MM-DD.png
 species_slug_english_posting_YYYY-MM-DD.png
+species_slug_japanese_posting_YYYY-MM-DD.caption.txt
+species_slug_japanese_posting_YYYY-MM-DD.alt.txt
+species_slug_japanese_posting_YYYY-MM-DD.source-note.txt
+species_slug_english_posting_YYYY-MM-DD.caption.txt
+species_slug_english_posting_YYYY-MM-DD.alt.txt
+species_slug_english_posting_YYYY-MM-DD.source-note.txt
 species_slug_japanese_textsafe_YYYY-MM-DD.svg
 species_slug_english_textsafe_YYYY-MM-DD.svg
 ```
@@ -180,6 +186,24 @@ be on `PATH`. The script rejects a source outside normal pixel-rounding
 tolerance of `2:3`. It only resizes an already compliant source. Never add
 padding or borders, crop the artwork, or stretch a wrong-ratio source to make
 it appear compliant.
+
+The primary copy surface is the combined Markdown file for each language:
+`x-post-ja.md` and `x-post-en.md`. Each must contain the final caption, ALT
+text, and source/context reply as three separate fenced `text` blocks. In the
+completion response, always provide prominent clickable links labeled
+`日本語の投稿セット` and `English posting set`. Opening either combined
+Markdown file should expose all three rendered `text` blocks so each can be
+copied with its own top-right copy button. Do this by default on every run
+without asking the user.
+
+Also create the three adjacent UTF-8 plain-text sidecars for each posting PNG:
+`.caption.txt`, `.alt.txt`, and `.source-note.txt`. These are secondary backup
+and direct-file copy targets, not the primary user-facing route. Each sidecar
+contains only the final copy-ready text for that one purpose, with no Markdown
+heading, code fence, placeholder, or explanatory wrapper. Keep the sidecars
+synchronized with the combined Markdown blocks. In the package README, put
+the two combined Markdown links first, followed by the optional six sidecar
+links under `Copy-Ready Posting Files`.
 
 Text-safe backups should use:
 
@@ -471,3 +495,6 @@ Before finishing every run:
 - Leave GitHub state as `local-ready` during no-approval automation runs. Do not
   attempt GitHub publish from that context; record that publish requires an
   approval-enabled closeout conversation.
+- In the final completion response, always surface clickable links to
+  `x-post-ja.md` as `日本語の投稿セット` and `x-post-en.md` as
+  `English posting set`; do not make users hunt through individual sidecars.

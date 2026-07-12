@@ -263,9 +263,24 @@ Save at least:
 - final direct English Image Gen poster PNG
 - final Japanese posting PNG at exactly `1024x1536`
 - final English posting PNG at exactly `1024x1536`
+- Japanese posting sidecars: `.caption.txt`, `.alt.txt`, and `.source-note.txt`
+- English posting sidecars: `.caption.txt`, `.alt.txt`, and `.source-note.txt`
 - text-safe SVG/PNG assets when useful
 
 Use stable ASCII filenames with species slug, language, asset type, and date.
+
+Whenever a posting PNG exists, create all three adjacent UTF-8 plain-text
+sidecars for its language. Each file must contain only the final copy-ready
+text for that single purpose, without Markdown headings, code fences,
+placeholders, or explanatory text, so the entire file can be copied as-is when
+opened. Keep sidecars synchronized with the corresponding three fenced blocks
+in the X-post Markdown file. Treat `x-post-ja.md` and `x-post-en.md` as the
+primary copy surfaces: each combines caption, ALT text, and source/context
+reply as three fenced `text` blocks with individual copy buttons when rendered.
+Put prominent clickable links to both combined Markdown files first in the
+package README, followed by links to all six sidecars under
+`Copy-Ready Posting Files`. Do this automatically on every run; do not ask the
+user first.
 
 Use UTF-8 for all Markdown, text, SVG, and index files. In PowerShell, explicitly use UTF-8. If Japanese text displays as mojibake or `?`, re-read the source as UTF-8 and regenerate the affected deterministic asset before making a QA decision.
 
@@ -278,6 +293,10 @@ Verify:
 - any SVG files that exist parse as XML
 - final Japanese and English Image Gen poster text matches Copy Lock
 - `scripts/validate_package.py <package-folder>` passes after final posting PNGs exist
+- both posting PNGs have adjacent `.caption.txt`, `.alt.txt`, and `.source-note.txt` files
+- all six sidecars are plain UTF-8, contain only copy-ready text, and exactly match the corresponding X-post fenced block
+- the package README links all six sidecars under `Copy-Ready Posting Files`
+- the package README prominently links `x-post-ja.md` and `x-post-en.md` as the primary combined posting sets
 - Japanese X copy has a separate source/context reply beginning exactly with `出典メモ：`
 - English X copy has a separate source/context reply beginning exactly with `Source note:`
 - each Japanese and English X-post file contains three separate copy-paste-ready fenced `text` code blocks: one for the main post, one for ALT text, and one for the source/context reply
@@ -361,6 +380,13 @@ Before finishing, update:
 infographic-packages/INDEX.md
 C:\Users\ryusu\.codex\automations\automation-2\memory.md
 ```
+
+In the final completion response, always include prominent clickable links
+labeled `日本語の投稿セット` for `x-post-ja.md` and `English posting set` for
+`x-post-en.md`. These combined Markdown files are the primary user-facing copy
+route because opening them exposes the caption, ALT text, and source/context
+reply as separate rendered `text` blocks with individual copy buttons. The
+plain-text sidecars remain secondary backups.
 
 Then add the Daily Quality Loop entry to automation memory.
 

@@ -35,6 +35,8 @@ ACTIVE_EXCLUDE_WORDS = (
     "textsafe",
 )
 TEXT_SUFFIXES = (".css", ".html", ".js", ".json", ".md", ".svg", ".txt")
+TEXT_BLOCK_RE = re.compile(r"```text\r?\n(.*?)\r?\n```", re.DOTALL)
+SIDECAR_KINDS = ("caption", "alt", "source-note")
 
 
 def rel(path: Path, root: Path) -> str:
@@ -271,6 +273,47 @@ def validate_x_posts(package: Path, repo_root: Path, errors: list[str]) -> None:
         errors.append(f"validate_x_post_format.py failed:\n{output}")
 
 
+def validate_copy_ready_sidecars(package: Path, errors: list[str]) -> None:
+    images = package / "images"
+    readme_path = package / "README.md"
+    readme = read_utf8(readme_path, errors) if readme_path.is_file() else ""
+
+    for lang in LANGUAGES:
+        x_name = f"x-post-{lang}.md"
+        if not re.search(rf"\[[^\]]+\]\({re.escape(x_name)}\)", readme):
+            errors.append(
+                f"{readme_path}: missing prominent combined posting-set link to {x_name}"
+            )
+
+    for lang, word in LANGUAGES.items():
+        x_path = package / f"x-post-{lang}.md"
+        if not x_path.is_file():
+            continue
+        blocks = TEXT_BLOCK_RE.findall(read_utf8(x_path, errors))
+        if len(blocks) != 3:
+            continue
+
+        posting_pngs = sorted(
+            path
+            for path in images.glob(f"*_{word}_posting*.png")
+            if is_active_png(path)
+        )
+        for posting in posting_pngs:
+            for kind, expected in zip(SIDECAR_KINDS, blocks):
+                sidecar = posting.with_suffix(f".{kind}.txt")
+                if not sidecar.is_file():
+                    errors.append(f"{sidecar}: required copy-ready sidecar is missing")
+                    continue
+                actual = read_utf8(sidecar, errors)
+                if actual.strip() != expected.strip():
+                    errors.append(
+                        f"{sidecar}: content does not match the corresponding "
+                        f"fenced text block in {x_path.name}"
+                    )
+                if sidecar.name not in readme:
+                    errors.append(f"{readme_path}: missing link to {sidecar.name}")
+
+
 def validate_git_diff(package: Path, repo_root: Path, errors: list[str], warnings: list[str]) -> None:
     try:
         package_arg = rel(package, repo_root)
@@ -301,6 +344,7 @@ def main() -> int:
     validate_prompt_lock(package, errors)
     validate_pngs(package, errors, warnings)
     validate_x_posts(package, repo_root, errors)
+    validate_copy_ready_sidecars(package, errors)
     validate_text_whitespace(package, errors)
     if not args.skip_git:
         validate_git_diff(package, repo_root, errors, warnings)
