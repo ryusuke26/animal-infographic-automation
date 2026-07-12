@@ -1,6 +1,6 @@
 # Turtle Frog Infographic Package
 
-Status: completed, local-ready
+Status: completed, published
 Run date: 2026-07-12
 
 ## Rationale
@@ -59,4 +59,4 @@ Use the combined Markdown posting sets above as the default copy route.
 
 Evidence Lock and Copy Lock were reopened after the user supplied the official IUCN page and screenshot. The current locked basis is the global Least Concern assessment dated 18 May 2021; the Red List citation is published in 2022. The direct page still returned a 520 error to automated retrieval, so the saved user screenshot is retained as the official-page verification trail.
 
-During the 2021-status correction, the workspace dependency loader returned bundled Python `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`. Both corrected direct sources passed `scripts/normalize_poster.py`; both posting PNGs are exactly 1024x1536. `scripts/validate_x_post_format.py`, `scripts/validate_package.py --skip-git`, and `git diff --check` passed. No padding, border, crop, or stretch was used. State: completed and local-ready; GitHub publishing not attempted.
+During the 2021-status correction, the workspace dependency loader returned bundled Python `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`. Both corrected direct sources passed `scripts/normalize_poster.py`; both posting PNGs are exactly 1024x1536. `scripts/validate_x_post_format.py`, `scripts/validate_package.py --skip-git`, and `git diff --check` passed. No padding, border, crop, or stretch was used. State: completed and published to GitHub in package commit `6f4e6b0`; combined posting-copy workflow improvements were published in commit `d26c15b`.
