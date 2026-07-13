@@ -1,6 +1,6 @@
 # Hine's Emerald Dragonfly Infographic Package
 
-Status: completed, local-ready after official IUCN correction
+Status: completed, published after official IUCN correction
 Run date: 2026-07-13
 
 ## Rationale
@@ -58,4 +58,4 @@ The files below are secondary UTF-8 plain-text backups containing one copy targe
 
 ## Completion Notes
 
-Evidence Lock and Copy Lock were reopened after the official IUCN page was read in the in-app Browser. Both corrected direct sources passed `scripts/normalize_poster.py`; both posting PNGs are exactly 1024x1536. `scripts/validate_x_post_format.py`, `scripts/validate_package.py --skip-git`, and `git diff --check` passed after correction. INDEX and automation memory were updated. State: completed, local-ready. GitHub publishing was not attempted under the no-approval automation policy.
+Evidence Lock and Copy Lock were reopened after the official IUCN page was read in the in-app Browser. Both corrected direct sources passed `scripts/normalize_poster.py`; both posting PNGs are exactly 1024x1536. `scripts/validate_x_post_format.py`, `scripts/validate_package.py --skip-git`, and `git diff --check` passed after correction. INDEX and automation memory were updated. Published to GitHub in package commit `e5d8b26`; reusable evidence and automatic-improvement workflow changes were published in commit `21d0bbf`; published-state metadata follows in the closeout commit. State: completed, published.
