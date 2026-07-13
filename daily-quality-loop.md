@@ -69,16 +69,59 @@ same kind of issue is likely to matter again.
 
 ## Escalation Rules
 
-- `fact-risk`: one occurrence can justify `fix-now` or `skill-candidate`.
-- `publish-blocker`: two occurrences with the same tag justify a policy,
-  prompt, or template update.
-- `quality-drift`: three occurrences with the same tag justify a skill,
-  prompt, or template update.
-- `ops-friction`: three occurrences, or one large time sink, justify a small
-  workflow change.
+- `fact-risk`: one occurrence triggers `fix-now` when public facts, status,
+  jurisdiction, or evidence selection may be wrong.
+- `publish-blocker`: two unresolved occurrences with the same tag trigger a
+  policy, prompt, template, validator, or execution-path improvement.
+- `quality-drift`: three unresolved occurrences with the same tag trigger a
+  skill, prompt, template, or validator improvement.
+- `ops-friction`: three unresolved occurrences with the same tag, or one large
+  time sink, trigger a small workflow or execution-path improvement.
 
 Do not update a skill or policy for every single logged issue. Single issues
 usually stay in memory. Repeated tags become candidates.
+
+## Automatic Counting And Improvement
+
+This loop is active work, not a passive diary.
+
+At Phase 0 of every run:
+
+1. Scan `C:\Users\ryusu\.codex\automations\automation-2\memory.md` for Daily
+   Quality Loop entries.
+2. Count each tag from its most recent `counter_reset` or
+   `improvement_applied` record. Older resolved occurrences do not count.
+3. Record any tag that is one occurrence below or already at its threshold.
+4. Carry the highest-priority unresolved threshold into the current run.
+
+At Phase 6, after recording the current issue:
+
+1. Recount the affected tag.
+2. If the threshold is reached, automatically apply the smallest safe,
+   deterministic improvement that addresses the repeated cause. Prefer, in
+   order: prompt/policy clarification, template change, validator check, then
+   a skill change.
+3. Do not auto-apply subjective taste changes, new factual claims, external
+   side effects, or broad redesigns. Record these as `needs decision` instead.
+4. Validate the changed files and synchronize the live Automation prompt when
+   execution instructions changed.
+5. Write this resolution block to automation memory:
+
+```text
+Improvement Resolution
+- tag:
+- count_since_last_fix:
+- threshold:
+- improvement_applied:
+- files_changed:
+- validation:
+- counter_reset: yes
+```
+
+After `counter_reset: yes`, later occurrences begin again at 1. Counts are by
+the same tag and materially similar cause; do not combine unrelated failures
+just because they share a broad operational label. When a tag is too broad,
+split it into a more precise reusable tag before counting.
 
 ## Source Access And IUCN
 

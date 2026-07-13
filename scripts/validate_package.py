@@ -37,6 +37,12 @@ ACTIVE_EXCLUDE_WORDS = (
 TEXT_SUFFIXES = (".css", ".html", ".js", ".json", ".md", ".svg", ".txt")
 TEXT_BLOCK_RE = re.compile(r"```text\r?\n(.*?)\r?\n```", re.DOTALL)
 SIDECAR_KINDS = ("caption", "alt", "source-note")
+PUBLIC_NAMING_LABELS = (
+    "英名の音写",
+    "仮称",
+    "暫定和名",
+    "unofficial translation",
+)
 
 
 def rel(path: Path, root: Path) -> str:
@@ -314,6 +320,34 @@ def validate_copy_ready_sidecars(package: Path, errors: list[str]) -> None:
                     errors.append(f"{readme_path}: missing link to {sidecar.name}")
 
 
+def validate_public_naming_and_evidence(
+    package: Path, errors: list[str], warnings: list[str]
+) -> None:
+    public_files = (
+        package / "infographic-copy-ja.md",
+        package / "image-prompt-ja.md",
+        package / "x-post-ja.md",
+    )
+    for path in public_files:
+        if not path.is_file():
+            continue
+        text = read_utf8(path, errors)
+        for label in PUBLIC_NAMING_LABELS:
+            if label.casefold() in text.casefold():
+                errors.append(
+                    f"{path}: editorial naming label {label!r} must stay in "
+                    "sources-qa.md, not public copy"
+                )
+
+    sources_path = package / "sources-qa.md"
+    if sources_path.is_file():
+        sources = read_utf8(sources_path, errors)
+        if "IUCN check:" not in sources:
+            warnings.append(
+                f"{sources_path}: missing structured 'IUCN check:' evidence record"
+            )
+
+
 def validate_git_diff(package: Path, repo_root: Path, errors: list[str], warnings: list[str]) -> None:
     try:
         package_arg = rel(package, repo_root)
@@ -345,6 +379,7 @@ def main() -> int:
     validate_pngs(package, errors, warnings)
     validate_x_posts(package, repo_root, errors)
     validate_copy_ready_sidecars(package, errors)
+    validate_public_naming_and_evidence(package, errors, warnings)
     validate_text_whitespace(package, errors)
     if not args.skip_git:
         validate_git_diff(package, repo_root, errors, warnings)

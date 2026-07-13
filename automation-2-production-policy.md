@@ -80,7 +80,7 @@ required direct Japanese and English Image Gen posters.
 
 Every run follows this order:
 
-1. Preflight and pending-publication check.
+1. Preflight, pending-publication check, and bundled workspace Python discovery.
 2. Topic and region lock.
 3. Evidence Lock.
 4. Run-mode classification and local independent evidence checklist; optional
@@ -97,6 +97,11 @@ Every run follows this order:
 12. INDEX, Daily Quality Loop, and automation-memory update.
 
 Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
+
+Preflight must call `load_workspace_dependencies` and record the bundled Python
+path before topic selection. If it cannot be obtained after a cheap retry, stop
+before Image Gen; do not defer mandatory normalization and package validation
+until after artwork exists.
 
 Do not change facts or wording during image generation. If a factual correction is needed, return to Evidence Lock and Copy Lock before generating again. Use one targeted retry at a time for anatomy, posture, habitat, major composition, or generated-text failure. Deterministic text-safe assets may be repaired independently, but they do not replace either required direct Image Gen poster.
 
@@ -252,6 +257,11 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 
 - Use authoritative sources first.
 - Use IUCN Red List for global conservation status when relevant.
+- The default public footer for an assessed species is the confirmed global
+  IUCN category and assessment year. Do not replace an available global IUCN
+  category with a newer national or regional legal category merely because the
+  latter is newer. Put national or regional status in the source/context reply
+  unless the user explicitly requests it as the main footer.
 - Use national or regional red lists only with the jurisdiction clearly labeled.
 - Use CITES or official legal listings when trade or legal protection is mentioned.
 - Use peer-reviewed papers or official monitoring/recovery reports for range, habitat, behavior, population, threats, and unusual traits.
@@ -262,9 +272,30 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - If no global IUCN assessment can be confirmed after a completed official-source check, record the assessment year as not applicable and include the check year in a conservative evidence-availability footer. Do not convert “no assessment confirmed” into the formal IUCN category `Not Evaluated (NE)` unless an authoritative source explicitly supports that category.
 - Poster and main-post footers should be short and label-free. Use `IUCN Red List 2023: Near Threatened (NT)` for confirmed categories, `IUCN世界評価は確認できず（2026年確認）` in Japanese when no global assessment is confirmed, and `No global IUCN assessment confirmed (checked 2026)` in English. Do not prefix poster footers with `保全メモ：` or `Conservation note:`; source/context replies still use `出典メモ：` and `Source note:`.
 - If the live IUCN page is unavailable, do not stop at `unconfirmed` by default. Retry when cheap, then check official PDFs, official status-change tables, official APIs/datasets, or previously saved official screenshots/snapshots.
+- IUCN verification order is mandatory: search by the accepted scientific
+  name, open the matching official species page, and record the page URL,
+  category, `Last assessed` date, `Global` scope, and citation. If normal page
+  retrieval is incomplete and the in-app Browser is available, inspect the
+  official page in that browser before asking for a screenshot or using older
+  fallbacks. Browser-visible official fields are acceptable direct evidence.
+- Evidence Lock must record either `IUCN check: confirmed` with those fields or
+  `IUCN check: no global assessment confirmed` with the completed official
+  search trail. `IUCN could not be accessed` is never a completed check.
 - If an official snapshot is used, disclose the snapshot date or access caveat in the source note. If only secondary sources are available, remove the IUCN category from public copy and treat the status route as unresolved; mark the package `needs review` unless another official status or completed evidence-availability check supports the exact footer.
 - If the IUCN category is central to the story and no official basis can be confirmed, mark the package `needs review` instead of publishing a confident category.
 - Evidence Lock requires the accepted name, native region, exact status footer and year/check year, source-access route, three core public claims, and visual identity guidance to be settled before image work.
+
+## Japanese Naming Fallback
+
+- Use an established Japanese common name when an authoritative or reliable
+  Japanese naming source supports it.
+- When no established Japanese name is confirmed, use a concise katakana
+  rendering of the accepted English common name as the poster title.
+- Record the naming caveat in `sources-qa.md`, but do not print editorial labels
+  such as `英名の音写`, `仮称`, `暫定和名`, or `unofficial translation` on the
+  poster or main X post unless the user explicitly asks for that disclosure.
+- Never invent a Japanese taxonomic name or present a katakana rendering as an
+  established standard name.
 
 ## Independent Evidence Check
 

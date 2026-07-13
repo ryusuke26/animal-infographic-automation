@@ -38,6 +38,18 @@ infographic-packages/
 
 Use the absolute memory path above when `$CODEX_HOME` is empty or unavailable. Check `git status --short` and note any completed but unpublished package without modifying or mixing unrelated work.
 
+Call `load_workspace_dependencies` during preflight and record the bundled
+Python executable before topic selection. If the dependency loader does not
+return a usable Python path, retry only when cheap, then stop before Image Gen
+and report the tooling blocker. Do not produce a package that cannot run the
+required normalization and validators.
+
+Read `daily-quality-loop.md`. Count unresolved Daily Quality Loop tags in
+automation memory from each tag's most recent `counter_reset` or
+`improvement_applied` record. Carry any threshold reached, or one occurrence
+below threshold, into this run. Counts apply only to the same tag and a
+materially similar cause.
+
 Classify the run mode during preflight and revise it only when evidence, copy,
 image, or user-review risk changes:
 
@@ -86,6 +98,26 @@ Verify and record in `sources-qa.md`:
 - exact visual identity guidance
 
 Use authoritative sources first: IUCN Red List when relevant, official regional lists with jurisdiction labels, CITES/legal listings when applicable, peer-reviewed papers, and official monitoring or recovery reports.
+
+For an assessed species, the default poster and main-post footer is the global
+IUCN category and assessment year. Do not replace an available global IUCN
+category with a newer national or regional legal category merely because it is
+newer. Put national or regional status in the source/context reply unless the
+user explicitly requests it as the main footer.
+
+IUCN verification order is mandatory:
+
+1. Search by the accepted scientific name.
+2. Open the matching official IUCN species page.
+3. Record the page URL, category, `Last assessed` date, `Global` scope, and
+   citation in `sources-qa.md` under `IUCN check: confirmed`.
+4. If ordinary page retrieval is incomplete and the in-app Browser is
+   available, inspect the official page there before asking the user for a
+   screenshot or moving to older official fallbacks. Browser-visible official
+   fields count as direct evidence.
+5. If no assessment is found, record `IUCN check: no global assessment
+   confirmed` plus the completed official search trail. Failed access alone is
+   not a completed check.
 
 Resolve source disagreements before proceeding. If a claim remains uncertain, use conservative public wording and record the uncertainty. Do not use population numbers unless they are current, geographically scoped, and clearly sourced.
 
@@ -156,6 +188,12 @@ Build both X-post files from `templates/x-post-copy-template.md`; do not invent 
 Japanese X main-post copy must include one species-specific body line before the footer/hashtags that ends exactly with `ちょっと不思議な暮らし。`. Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
 
 Copy Lock is complete only when no unresolved placeholder, year, category, name, label, or footer remains.
+
+For Japanese naming, use an established Japanese common name when supported.
+If none is confirmed, use a concise katakana rendering of the accepted English
+common name as the title and record the caveat only in `sources-qa.md`. Do not
+put editorial labels such as `英名の音写`, `仮称`, or `暫定和名` on the poster or
+main post unless the user explicitly requests them.
 
 ## Phase 3.5: Risk-Triggered Copy Review
 
@@ -354,7 +392,9 @@ only when it matters to a logged issue or completion blocker.
 - Natural-history discovery first.
 - No moralizing, savior framing, blame, or urgency slogans.
 - Keep conservation/status as a quiet label-free footer.
-- Japanese posters foreground the Japanese common name or a clearly labeled safe rendering.
+- Japanese posters foreground an established Japanese name when authoritative
+  support exists; otherwise use a concise katakana rendering and keep the naming
+  caveat in `sources-qa.md`, not in public copy.
 
 Japanese X copy should follow:
 
@@ -389,6 +429,18 @@ reply as separate rendered `text` blocks with individual copy buttons. The
 plain-text sidecars remain secondary backups.
 
 Then add the Daily Quality Loop entry to automation memory.
+
+After recording the current issue, recount the affected tag from its most
+recent reset. Thresholds are: fact-risk 1 when public facts, status,
+jurisdiction, or evidence selection may be wrong; publish-blocker 2;
+quality-drift 3; ops-friction 3 or one large time sink. When a threshold is
+reached, automatically apply the smallest safe deterministic prompt, policy,
+template, validator, or execution-path improvement; validate it; synchronize
+the live Automation prompt when execution instructions changed; then record an
+`Improvement Resolution` block with count, threshold, files, validation, and
+`counter_reset: yes`. Subjective taste, new factual claims, external side
+effects, or broad redesigns require `needs decision` instead of an automatic
+change.
 
 In the INDEX Notes field and automation memory, record:
 
