@@ -1,6 +1,6 @@
 # Aardvark Infographic Package
 
-Status: completed, local-ready
+Status: completed, published
 Run date: 2026-07-14
 
 ## Rationale
@@ -51,4 +51,4 @@ Adjacent plain-text sidecars have been created beside the normalized posting PNG
 
 ## Completion Notes
 
-Japanese and English direct Image Gen posters are exact 1024x1536 vertical 2:3 sources and passed text, body-plan, posture, habitat, card-count, and lookalike QA. Both posting PNGs were normalized from compliant sources without padding, cropping, borders, or stretching. `scripts/validate_x_post_format.py`, `scripts/validate_package.py --skip-git`, and `git diff --check` passed. INDEX and automation memory were updated. State: completed, local-ready. GitHub publishing was not attempted and remains a separate approval-enabled closeout.
+Japanese and English direct Image Gen posters are exact 1024x1536 vertical 2:3 sources and passed text, body-plan, posture, habitat, card-count, and lookalike QA. Both posting PNGs were normalized from compliant sources without padding, cropping, borders, or stretching. `scripts/validate_x_post_format.py`, `scripts/validate_package.py --skip-git`, and `git diff --check` passed. INDEX and automation memory were updated. State: completed, published. The package was published to `origin/master` in commit `9105e7b`; the dependency-loader retry improvement followed in commit `8e08c28`.
