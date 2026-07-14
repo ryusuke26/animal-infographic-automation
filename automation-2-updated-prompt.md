@@ -39,10 +39,10 @@ infographic-packages/
 Use the absolute memory path above when `$CODEX_HOME` is empty or unavailable. Check `git status --short` and note any completed but unpublished package without modifying or mixing unrelated work.
 
 Call `load_workspace_dependencies` during preflight and record the bundled
-Python executable before topic selection. If the dependency loader does not
-return a usable Python path, retry only when cheap, then stop before Image Gen
-and report the tooling blocker. Do not produce a package that cannot run the
-required normalization and validators.
+Python executable before topic selection. Treat an attempt as failed when it
+returns no result within 60 seconds, make at most one retry, then stop before
+Image Gen and report the tooling blocker if no usable path is available. Do not
+produce a package that cannot run the required normalization and validators.
 
 Read `daily-quality-loop.md`. Count unresolved Daily Quality Loop tags in
 automation memory from each tag's most recent `counter_reset` or

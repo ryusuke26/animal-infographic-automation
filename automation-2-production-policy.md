@@ -99,9 +99,10 @@ Every run follows this order:
 Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
 
 Preflight must call `load_workspace_dependencies` and record the bundled Python
-path before topic selection. If it cannot be obtained after a cheap retry, stop
-before Image Gen; do not defer mandatory normalization and package validation
-until after artwork exists.
+path before topic selection. Treat an attempt as failed when it returns no
+result within 60 seconds, make at most one retry, then stop before Image Gen if
+no usable path is available. Do not defer mandatory normalization and package
+validation until after artwork exists.
 
 Do not change facts or wording during image generation. If a factual correction is needed, return to Evidence Lock and Copy Lock before generating again. Use one targeted retry at a time for anatomy, posture, habitat, major composition, or generated-text failure. Deterministic text-safe assets may be repaired independently, but they do not replace either required direct Image Gen poster.
 
