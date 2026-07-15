@@ -1,6 +1,6 @@
 # Wallcreeper Infographic Package
 
-Status: completed, local-ready
+Status: completed, published
 
 ## Primary posting sets
 
@@ -43,4 +43,4 @@ The global footer is `IUCN Red List 2019: Least Concern (LC)` / `IUCN Red List 2
 - Copy Lock was completed before Image Gen; prompts quote the locked title, scientific name, three observations, and footer exactly.
 - Japanese and English direct Image Gen posters are required in `images/` as active vertical 2:3 PNGs.
 - Japanese and English posting PNGs are required at exact `1024x1536` dimensions, with no padding, borders, cropping, or stretching.
-- The package is recorded as `local-ready`; GitHub publishing was not attempted in this no-approval automation run and requires an approval-enabled normal closeout conversation.
+- The package was published to GitHub in package commit `cbab368`; `origin/master` was verified at the resulting commit.
