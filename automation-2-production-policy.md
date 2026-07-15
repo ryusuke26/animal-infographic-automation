@@ -279,6 +279,25 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
   retrieval is incomplete and the in-app Browser is available, inspect the
   official page in that browser before asking for a screenshot or using older
   fallbacks. Browser-visible official fields are acceptable direct evidence.
+- If the official species page is blocked by the environment's browser security
+  policy after the required official route and Browser attempt, do not probe
+  alternate browsers, raw URLs, APIs, or other workarounds.
+- When an official IUCN PDF itself displays the accepted taxon, exact category,
+  Global scope, publication year or assessment date, and citation, record
+  `IUCN check: confirmed via official IUCN PDF`. Record the PDF URL or local
+  evidence file, exact pages and fields, publication year, assessment date, and
+  citation in `sources-qa.md`. Treat the species-page block as process history;
+  it does not require an access caveat in public source replies once the
+  official PDF directly supports the footer. Use Caution Run only when another
+  listed trigger applies, including a user correction.
+- When neither the official IUCN species page nor an official IUCN PDF can be
+  inspected, but an official partner display plus the official IUCN DOI route
+  independently provide the exact category, assessment year, and Global scope,
+  record `IUCN check: confirmed via official partner/fallback route`, mark the
+  run Caution, and disclose the direct-page access caveat in `sources-qa.md` and
+  both labeled source replies. Do not convert this route into a no-assessment
+  footer. If only secondary sources remain, keep the status route unresolved
+  and mark the package `needs review`.
 - Evidence Lock must record either `IUCN check: confirmed` with those fields or
   `IUCN check: no global assessment confirmed` with the completed official
   search trail. `IUCN could not be accessed` is never a completed check.

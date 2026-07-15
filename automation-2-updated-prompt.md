@@ -119,6 +119,28 @@ IUCN verification order is mandatory:
    confirmed` plus the completed official search trail. Failed access alone is
    not a completed check.
 
+If the official species page is blocked by the environment's browser security
+policy after the required official route and Browser attempt, do not probe
+alternate browsers, raw URLs, APIs, or other workarounds.
+
+When an official IUCN PDF itself displays the accepted taxon, exact category,
+Global scope, publication year or assessment date, and citation, record
+`IUCN check: confirmed via official IUCN PDF`. Record the PDF URL or local
+evidence file, exact pages and fields, publication year, assessment date, and
+citation in `sources-qa.md`. Treat the species-page block as process history;
+it does not require an access caveat in public source replies once the official
+PDF directly supports the footer. Use Caution Run only when another listed
+trigger applies, including a user correction.
+
+When neither the official IUCN species page nor an official IUCN PDF can be
+inspected, but an official partner display plus the official IUCN DOI route
+independently provide the exact category, assessment year, and Global scope,
+record `IUCN check: confirmed via official partner/fallback route`, mark the
+run Caution, and disclose the direct-page access caveat in `sources-qa.md` and
+both labeled source replies. Do not convert this route into a no-assessment
+footer. If only secondary sources remain, keep the status route unresolved and
+mark the package `needs review`.
+
 Resolve source disagreements before proceeding. If a claim remains uncertain, use conservative public wording and record the uncertainty. Do not use population numbers unless they are current, geographically scoped, and clearly sourced.
 
 Evidence Lock is complete only when the exact status footer, assessment year or check year, status-source route, scientific name, native region, and three core public claims are settled.
