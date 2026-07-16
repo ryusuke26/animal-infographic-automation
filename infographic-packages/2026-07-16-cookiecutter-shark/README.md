@@ -1,6 +1,6 @@
 # Cookiecutter Shark Infographic Package
 
-Status: completed, local-ready (Caution Run)
+Status: completed, published (Caution Run)
 
 ## Primary posting sets
 
@@ -45,7 +45,7 @@ The global footer is `IUCN Red List 2017: Least Concern (LC)` / `IUCN Red List 2
 - Japanese and English posting PNGs are present at exact `1024x1536` dimensions, with no padding, borders, cropping, or stretching.
 - `scripts/validate_x_post_format.py`, `scripts/validate_package.py`, bundled-Python normalization, sidecar synchronization, image dimensions, pixel identity, and `git diff --check` passed.
 - Run mode is Caution because the user supplied stronger official evidence and Evidence Lock was reopened for this correction; the official PDF now directly supports the status footer.
-- GitHub publishing is intentionally separate in this no-approval automation run; the final local state is `completed, local-ready`.
+- GitHub publishing completed in package commit `31bf7d4`; `origin/master` was verified at `31bf7d4be732a1410d1d3df43b25407eb1840b87`. The final state is `completed, published`.
 
 ## Sources
 
