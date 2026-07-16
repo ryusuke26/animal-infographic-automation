@@ -45,7 +45,7 @@ The global footer is `IUCN Red List 2017: Least Concern (LC)` / `IUCN Red List 2
 - Japanese and English posting PNGs are present at exact `1024x1536` dimensions, with no padding, borders, cropping, or stretching.
 - `scripts/validate_x_post_format.py`, `scripts/validate_package.py`, bundled-Python normalization, sidecar synchronization, image dimensions, pixel identity, and `git diff --check` passed.
 - Run mode is Caution because the user supplied stronger official evidence and Evidence Lock was reopened for this correction; the official PDF now directly supports the status footer.
-- GitHub publishing completed in package commit `31bf7d4`; `origin/master` was verified at `31bf7d4be732a1410d1d3df43b25407eb1840b87`. The final state is `completed, published`.
+- GitHub publishing completed in package commit `31bf7d4`; the published-state metadata commit is `73de78a`; `origin/master` was verified at `73de78abffefa2faf4d65001f53efedc4516f3db`. The final state is `completed, published`.
 
 ## Sources
 
