@@ -13,7 +13,7 @@
 - Copy Lock: complete.
 - Visual production: complete.
 - Final QA: passed.
-- Publication state: completed, local-ready. GitHub closeout is intentionally separate in this no-approval automation context.
+- Publication state: completed, published. Package commit `75e52fa` was pushed to `origin/master`; this metadata is recorded in a dedicated follow-up commit.
 
 ## Why this subject
 
