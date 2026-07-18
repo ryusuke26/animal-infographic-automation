@@ -13,7 +13,7 @@
 - Copy Lock: complete.
 - Visual production: complete after Rescue-Run anatomy correction.
 - Final QA: passed locally.
-- Publication state: completed, local-ready. GitHub publishing is intentionally separate from this no-approval automation run.
+- Publication state: completed, published.
 
 ## Why this subject
 
@@ -54,4 +54,4 @@ South America had no appearance in the latest eight completed packages, while th
 - One Japanese first-pass Image Gen candidate omitted the dakuten in `ダーウィンガエル`; it is retained as `darwins_frog_japanese_imagegen_2026-07-18_text_rejected.png` for traceability and is not a posting asset.
 - User review correctly found that the next Japanese poster had an unsupported point above/behind the eye, not just the true nasal projection. The English poster had a smaller version of the same defect. Both superseded direct sources are retained with `_eye_spike_rejected.png`; neither is a posting asset.
 - Corrected Japanese and English sources were edited against the IUCN SSC Amphibian Specialist Group's side-view photograph. Final QA confirms one nasal point only, round lateral eyes, a smooth crown, one correctly identified terrestrial Darwin's Frog per poster, three numbered card/icon cues, unchanged Copy-Lock text, six synchronized sidecars, package validation, and whitespace checks.
-- No Git operation is authorized in this automation context. After local-ready QA, an approval-enabled normal conversation must perform GitHub closeout.
+- Published to GitHub on 2026-07-18. Package commit: `75ee0ac`; workflow QA commit: `4369082`; published-state metadata was recorded in a dedicated closeout commit.
