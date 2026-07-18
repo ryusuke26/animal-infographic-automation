@@ -346,6 +346,14 @@ def validate_public_naming_and_evidence(
             warnings.append(
                 f"{sources_path}: missing structured 'IUCN check:' evidence record"
             )
+        if (
+            "IUCN check: confirmed via official partner/fallback route" in sources
+            and "Public source-note caveat:" not in sources
+        ):
+            errors.append(
+                f"{sources_path}: partner/fallback IUCN route needs a "
+                "documented public source-note caveat"
+            )
 
 
 def validate_git_diff(package: Path, repo_root: Path, errors: list[str], warnings: list[str]) -> None:

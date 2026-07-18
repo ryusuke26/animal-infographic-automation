@@ -309,6 +309,8 @@ Style: childlike crayon/oil-pastel field-notebook poster, warm handmade educatio
 
 Image QA must check body plan, distinctive structures, limb/appendage count, posture, habitat, and absence of confusing lookalikes. Use a safer natural posture for difficult anatomy and do not require a generated anatomical inset. If the generated organism remains incorrect, mark the package `needs review` rather than forcing repeated generations.
 
+When a diagnostic point, horn, crest, beak, spine, or other projection matters, Evidence Lock and the Image Gen prompt must state its exact attachment/location and explicitly ban extra projections at adjacent landmarks. Compare the generated silhouette with an authoritative side/profile reference before acceptance; reject any invented extra point even when the named feature itself is present.
+
 ## Phase 5: Package And QA
 
 Save at least:

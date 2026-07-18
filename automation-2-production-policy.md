@@ -450,6 +450,7 @@ caption or ALT text rather than becoming an image-generation requirement.
   in the same generation.
 - If generated text or visual structure fails, make one targeted retry and re-check it. Do not alter facts, labels, or workflow during the retry.
 - Image QA must check the organism's body plan, distinctive structures, limb/appendage count, posture, and habitat. If the poster is merely cute or atmospheric but the anatomy/identity is wrong, mark it `needs review` instead of `completed`.
+- When a diagnostic point, horn, crest, beak, spine, or other projection matters, Evidence Lock and the Image Gen prompt must state its exact attachment/location and explicitly ban extra projections at adjacent landmarks. Compare the generated silhouette with an authoritative side/profile reference before acceptance; reject any invented extra point even when the named feature itself is present.
 - For species with difficult anatomy, avoid forcing dramatic poses or close-up
   diagrams that Image Gen is likely to break. Use a safer natural posture and
   explain the behavior in the three labels, caption, or ALT text.
