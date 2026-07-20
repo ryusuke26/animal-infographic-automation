@@ -207,7 +207,7 @@ Write and cross-check:
 
 Build both X-post files from `templates/x-post-copy-template.md`; do not invent a package-specific caption layout. Save these files in the package folder before generating images. Recheck every image-facing fact against `sources-qa.md`.
 
-Japanese X main-post copy must include one species-specific body line before the footer/hashtags that ends exactly with `ちょっと不思議な暮らし。`. Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
+For packages dated 2026-07-21 or later, Japanese X main-post copy must include the exact species-specific body line `それが<日本語の種名>の、ちょっと不思議な暮らし。` before the footer/hashtags. Use the public Japanese poster title in `<日本語の種名>`. Let `それが` gather the preceding habitat, appearance, and behavior into the closing line; do not repeat those facts inside it. Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`. Earlier packages are grandfathered and need not be rewritten.
 
 Copy Lock is complete only when no unresolved placeholder, year, category, name, label, or footer remains.
 
@@ -363,7 +363,7 @@ Verify:
 - English X copy has a separate source/context reply beginning exactly with `Source note:`
 - each Japanese and English X-post file contains three separate copy-paste-ready fenced `text` code blocks: one for the main post, one for ALT text, and one for the source/context reply
 - both source notes name the strongest sources, include useful direct links, and state any source-access or status caveat
-- the Japanese main post includes a species-specific body line ending exactly with `ちょっと不思議な暮らし。`
+- the Japanese main post includes the exact species-specific closing line `それが<日本語の種名>の、ちょっと不思議な暮らし。` for packages dated 2026-07-21 or later
 - all thread posts satisfy the intended character limit
 - the bundled workspace Python successfully runs `scripts/validate_x_post_format.py --ja <japanese-x-post.md> --en <english-x-post.md>`
 - `git diff --check` reports no whitespace errors
@@ -429,7 +429,7 @@ Japanese X copy should follow:
 
 [short habitat/behavior paragraph]
 [short distinctive trait line]
-[species-specific line ending exactly with ちょっと不思議な暮らし。]
+[それが<日本語の種名>の、ちょっと不思議な暮らし。]
 
 [locked short conservation/status footer]
 ```

@@ -57,7 +57,7 @@ A package is `completed` only when all of these are true:
 - `scripts/validate_x_post_format.py` passes for both language files.
 - `scripts/validate_package.py <package-folder>` passes, or any warning is
   recorded and intentionally accepted.
-- Japanese X main post includes a species-specific body line ending exactly with `ちょっと不思議な暮らし。`.
+- Japanese X main post includes the exact species-specific closing construction `それが<日本語の種名>の、ちょっと不思議な暮らし。`.
 - X free-version thread drafts exist when a 140-character standalone post would be too vague.
 - Compact source list exists.
 - The locked conservation/status footer has either a confirmed official status basis or a documented completed evidence-availability check; failed source access alone is not enough for `completed`.
@@ -467,12 +467,12 @@ Japanese captions should follow this compact structure:
 
 [short paragraph about habitat and behavior]
 [short line about visible trait or unusual ecology]
-[species-specific final line using ちょっと不思議な暮らし。]
+[それが<日本語の種名>の、ちょっと不思議な暮らし。]
 
 [locked short status footer]
 ```
 
-The final "ちょっと不思議な暮らし" line must be species-specific, not generic.
+The final line must use `それが<日本語の種名>の、ちょっと不思議な暮らし。` exactly. Let `それが` gather the preceding habitat, appearance, and behavior into the species-specific series ending; do not repeat those facts inside the closing line.
 For poster and main-post footers, avoid label prefixes such as `保全メモ：`
 or `Conservation note:`. Put source labels only in the separate
 source/context reply.
@@ -487,7 +487,7 @@ source/context reply.
 - In each language file, place the complete main post, ALT text, and source/context reply in three separate fenced `text` code blocks. Do not leave any of these three copy targets as ordinary Markdown paragraphs.
 - The Japanese source/context reply must begin with `出典メモ：`; the English reply must begin with `Source note:`. Name the strongest sources, include useful direct links, and state any access or status caveat. This source note is required, not optional.
 - Keep the main post understandable; do not over-compress until the species/topic becomes unclear.
-- Japanese main posts must contain one species-specific body line before the footer/hashtags that ends exactly with `ちょっと不思議な暮らし。`. Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
+- For packages dated 2026-07-21 or later, Japanese main posts must contain the exact species-specific body line `それが<日本語の種名>の、ちょっと不思議な暮らし。` before the footer/hashtags. Use the public Japanese poster title in `<日本語の種名>`. Do not append habitat, anatomy, or behavior clauses to this closing line, and do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`. Earlier packages are grandfathered and need not be rewritten.
 - If the target is X free-version posting or a 140-character limit, prefer a short thread over a vague standalone caption.
 - Recommended 140-character thread structure: main post names the species/topic and hook; reply 1 says what it is and where it lives; reply 2 gives the distinctive trait or behavior; reply 3 gives quiet status and sources.
 - Keep every thread post under 140 characters when the free-version constraint applies.

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 import re
 import sys
 from pathlib import Path
@@ -12,6 +13,11 @@ from pathlib import Path
 SECTION_NAMES = ("Main post", "ALT text", "Source/context reply")
 BLOCK_RE = re.compile(r"```text\r?\n(.*?)\r?\n```", re.DOTALL)
 JA_SERIES_ENDING = "ちょっと不思議な暮らし。"
+JA_SERIES_PREFIX = "それが"
+JA_SERIES_CONNECTOR = "の、"
+JA_FIXED_TEMPLATE_START = date(2026, 7, 21)
+DATE_RE = re.compile(r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)")
+JA_FIXED_SERIES_RE = re.compile(r"^それが.+の、ちょっと不思議な暮らし。$")
 JA_FORBIDDEN_SERIES_PHRASES = (
     "ちょっと不思議な暮らしがあります",
     "ちょっと不思議な暮らしをしています",
@@ -41,10 +47,22 @@ def validate_japanese_main_post(path: Path, main_post: str) -> list[str]:
         body_lines.append(line)
 
     matching_lines = [line for line in body_lines if line.endswith(JA_SERIES_ENDING)]
+    dated_matches = DATE_RE.findall(str(path))
+    package_date = date(*map(int, dated_matches[-1])) if dated_matches else None
+    requires_fixed_template = package_date is None or package_date >= JA_FIXED_TEMPLATE_START
+
     if not matching_lines:
         errors.append(
             f"{path}: Japanese main post needs a species-specific body line "
             f"ending exactly with '{JA_SERIES_ENDING}' before the footer/hashtags"
+        )
+    elif requires_fixed_template and not any(
+        JA_FIXED_SERIES_RE.fullmatch(line) for line in matching_lines
+    ):
+        errors.append(
+            f"{path}: Japanese series-ending line must use the exact template "
+            f"'{JA_SERIES_PREFIX}<Japanese species name>{JA_SERIES_CONNECTOR}"
+            f"{JA_SERIES_ENDING}'"
         )
     elif any(line == JA_SERIES_ENDING for line in matching_lines):
         errors.append(
