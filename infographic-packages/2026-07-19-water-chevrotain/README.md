@@ -13,7 +13,8 @@
 - Copy Lock: complete.
 - Visual production: complete.
 - Final QA: passed locally.
-- Publication state: completed, local-ready.
+- Publication state: completed, published.
+- GitHub closeout: package commit `87006e2`; workflow commit `3c251ce`; `origin/master` verified at `3c251ce035e72cf618777451bc89e7222ced7e92` before the published-state metadata commit.
 
 ## Why this subject
 

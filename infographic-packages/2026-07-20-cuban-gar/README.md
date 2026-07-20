@@ -5,8 +5,8 @@
 
 ## Status
 
-- State: completed, local-ready
-- Publication: local-ready; GitHub closeout not attempted
+- State: completed, published
+- Publication: published; package commit `87006e2`, workflow commit `3c251ce`, and `origin/master` verified at `3c251ce035e72cf618777451bc89e7222ced7e92` before the published-state metadata commit
 - Run mode: Caution Run
 - Topic: Cuban Gar / *Atractosteus tristoechus*
 - Broad native region: Central America/Caribbean
