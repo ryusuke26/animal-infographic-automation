@@ -5,8 +5,8 @@
 
 ## Status
 
-- State: completed, local-ready
-- Publication: local-ready; GitHub closeout not attempted and requires a separate explicit closeout conversation
+- State: completed, published
+- Publication: published to `origin/master` in package commit `f3af2a4` with workflow closeout commit `c97d141`; remote ref verified before this metadata update
 - Run mode: Caution Run
 - Topic: Numbat / *Myrmecobius fasciatus*
 - Broad native region: Australia/Oceania
