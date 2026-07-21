@@ -44,6 +44,14 @@ returns no result within 60 seconds, make at most one retry, then stop before
 Image Gen and report the tooling blocker if no usable path is available. Do not
 produce a package that cannot run the required normalization and validators.
 
+If a read-only preflight `shell_command` fails before command execution with
+`CreateProcessAsUserW failed: 5` for a WindowsApps `pwsh.exe`, classify it as an
+execution-path failure rather than a package failure. In an approval-enabled
+normal conversation, retry the exact read-only command once with approved
+execution. In a no-approval automation context, stop before topic selection and
+report the blocker. Do not broaden command scope, mutate Git, or bypass the
+separate publishing policy through this rule.
+
 Read `daily-quality-loop.md`. Count unresolved Daily Quality Loop tags in
 automation memory from each tag's most recent `counter_reset` or
 `improvement_applied` record. Carry any threshold reached, or one occurrence

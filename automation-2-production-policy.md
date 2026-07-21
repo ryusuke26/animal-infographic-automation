@@ -104,6 +104,14 @@ result within 60 seconds, make at most one retry, then stop before Image Gen if
 no usable path is available. Do not defer mandatory normalization and package
 validation until after artwork exists.
 
+If a read-only preflight `shell_command` fails before command execution with
+`CreateProcessAsUserW failed: 5` for a WindowsApps `pwsh.exe`, treat it as an
+execution-path failure rather than a package failure. In an approval-enabled
+normal conversation, retry the exact read-only command once with approved
+execution. In a no-approval automation context, stop before topic selection and
+report the blocker. Do not use this rule to broaden command scope, mutate Git,
+or bypass the separate publishing policy.
+
 Do not change facts or wording during image generation. If a factual correction is needed, return to Evidence Lock and Copy Lock before generating again. Use one targeted retry at a time for anatomy, posture, habitat, major composition, or generated-text failure. Deterministic text-safe assets may be repaired independently, but they do not replace either required direct Image Gen poster.
 
 ## Workload Modes
