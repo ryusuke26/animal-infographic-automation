@@ -354,6 +354,24 @@ def validate_public_naming_and_evidence(
                 f"{sources_path}: partner/fallback IUCN route needs a "
                 "documented public source-note caveat"
             )
+        if "IUCN check: confirmed via official partner/fallback route" in sources:
+            caveat_markers = {
+                "ja": ("確認できず", "表示でき", "ブロック", "利用でき"),
+                "en": ("blocked", "could not", "did not render", "unavailable"),
+            }
+            for lang, markers in caveat_markers.items():
+                x_path = package / f"x-post-{lang}.md"
+                if not x_path.is_file():
+                    continue
+                blocks = TEXT_BLOCK_RE.findall(read_utf8(x_path, errors))
+                if len(blocks) != 3:
+                    continue
+                source_note = blocks[2].casefold()
+                if not any(marker.casefold() in source_note for marker in markers):
+                    errors.append(
+                        f"{x_path}: partner/fallback IUCN route requires the "
+                        "source/context reply to disclose the direct-record access caveat"
+                    )
 
 
 def validate_git_diff(package: Path, repo_root: Path, errors: list[str], warnings: list[str]) -> None:

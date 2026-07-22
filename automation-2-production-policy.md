@@ -452,6 +452,7 @@ caption or ALT text rather than becoming an image-generation requirement.
 - Japanese-version posters should use the Japanese name or safe Japanese rendering as the main title.
 - English-version posters should use the English common name as the main title.
 - Use the exact locked text verbatim in each Image Gen prompt.
+- Before the first generation, identify locked spaces immediately after punctuation and add an explicit no-collapse guard that shows the exact pair (for example, `"2020: Vulnerable"`, never `"2020:Vulnerable"`). Treat a visually collapsed word boundary as generated-text failure even when every non-space character is present.
 - Default to one hero organism and three numbered observation note cards, each
   with a small spot illustration/icon cue plus explanatory copy. Do not ask
   Image Gen to solve a detailed anatomical diagram and a finished social poster

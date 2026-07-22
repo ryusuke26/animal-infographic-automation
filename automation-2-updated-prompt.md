@@ -295,6 +295,7 @@ Required visual workflow:
 1. Generate a complete Japanese poster with Image Gen using only the locked Japanese copy.
 2. Generate a complete English poster with Image Gen using only the locked English copy.
 3. Before Image Gen, ensure the `Text, verbatim:` quoted lines in each image prompt exactly match the locked title, scientific name, three observation notes, and footer in the matching infographic copy file.
+   Before the first generation, identify locked spaces immediately after punctuation and add an explicit no-collapse guard that shows the exact pair (for example, `"2020: Vulnerable"`, never `"2020:Vulnerable"`). Treat a visually collapsed word boundary as generated-text failure even when every non-space character is present.
 4. Require each direct Image Gen source to be vertical `2:3`. Pixel dimensions may vary, but the aspect ratio must be within normal pixel-rounding tolerance of `2:3`.
 5. If either source is not `2:3`, reject that language version and regenerate it with a targeted instruction to use a vertical `2:3` canvas. Do not add borders or padding, crop the poster, stretch it, or accept a different ratio.
 6. After a ratio failure, make a targeted regeneration attempt for that language. If the regenerated poster still fails the ratio or other QA, keep the artifacts but mark the package `needs review`; do not fabricate a compliant posting file.
