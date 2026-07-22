@@ -5,8 +5,8 @@
 
 ## Status
 
-- State: completed, local-ready
-- Publication: not published; GitHub closeout requires an approval-enabled normal conversation
+- State: completed, published
+- Publication: published to `origin/master`; package commit `488a04f`, workflow-QA commit `e67b338`, and remote `refs/heads/master` verification completed before the published-state metadata commit
 - Run mode: Caution Run
 - Topic: Pinyon Jay / *Gymnorhinus cyanocephalus*
 - Broad native region: North America
@@ -60,4 +60,4 @@ The user-supplied official IUCN assessment PDF directly confirms *Gymnorhinus cy
 - Final local affirmative/critical review: both language posters pass identity, habitat, ratio, and completion checks; the English footer kerning exception is explicitly user-approved; package is `completed, local-ready`
 - Official-PDF correction: README, sources QA, INDEX, both X source replies, and both source-note sidecars were synchronized; no image-facing copy changed
 - Package validator, X-post validator, UTF-8 checks, sidecar synchronization, both-language dimensions/aspect checks, pixel-identity checks, and whitespace checks passed
-- GitHub closeout: not attempted; no Git mutation occurred
+- GitHub closeout: package and INDEX published in `488a04f`; workflow text/IUCN fallback QA published in `e67b338`; `origin/master` verified at `e67b338bf651e0f6b7c4e13954e93151152f1576` before this published-state metadata commit
