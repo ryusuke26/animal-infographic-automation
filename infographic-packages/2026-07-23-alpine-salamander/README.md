@@ -5,8 +5,8 @@
 
 ## Status
 
-- State: completed, local-ready
-- Publication: not published; GitHub closeout requires an approval-enabled normal conversation
+- State: completed, published
+- Publication: package commit `97ca32f` pushed to `origin/master` and remote ref verified
 - Run mode: Caution Run (user-supplied official evidence reopened Evidence Lock)
 - Topic: Alpine Salamander / *Salamandra atra*
 - Broad native region: Europe
@@ -54,4 +54,4 @@ The official IUCN species page and PDF for record e.T19843A227233771 directly co
 - Final local affirmative/critical review: no remaining blocker
 - Post-lock evidence correction: both source/context replies and their sidecars now cite the official PDF without the obsolete record-access caveat; the footer, poster text, main posts, ALT text, and images did not need changes
 - `scripts/validate_x_post_format.py`, `scripts/validate_package.py`, sidecar synchronization, dimensions/aspect checks, pixel identity, thread-length checks, and `git diff --check`: passed
-- Package state: completed, local-ready; no Git state was mutated
+- Package state: completed, published; package commit `97ca32f` is on `origin/master`
