@@ -8,8 +8,10 @@
 ## Status
 
 - Package state: `completed`
-- Publication state: `local-ready`
-- GitHub closeout: not attempted in this no-approval automation run; use an approval-enabled normal conversation for scoped staging, push, remote verification, and the final published-state metadata commit.
+- Publication state: `published`
+- GitHub closeout: package commit `a336e1f` and workflow commit `2fc7007`
+  reached `origin/master`; the remote ref was verified before this
+  published-state metadata update.
 
 ## Rationale
 

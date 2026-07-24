@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-24T13:06:33+09:00
+Updated: 2026-07-24T13:19:49+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -20,8 +20,10 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest completed package: `2026-07-24-lysurus-fossatii`.
-- State: `completed, local-ready`.
-- GitHub closeout: pending an approval-enabled normal conversation.
+- State: `completed, published`.
+- GitHub closeout: completed. Package commit `a336e1f` and workflow commit
+  `2fc7007` reached `origin/master` before the published-state metadata update;
+  the final remote ref is recorded in automation memory after push.
 
 ## Recent-Eight Region Rotation
 
