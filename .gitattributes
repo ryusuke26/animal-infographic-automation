@@ -1,0 +1,2 @@
+# Evidence PDFs are binary artifacts, not whitespace-checkable text.
+*.pdf binary

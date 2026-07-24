@@ -11,12 +11,13 @@ Use this policy to keep the automation from drifting as the archive grows. The a
 | Area | Source of truth | Purpose |
 |---|---|---|
 | Execution instructions | `automation-2-updated-prompt.md` | Text to paste into the Automation body. |
+| Current automation state | `automation-2-current-state.md` | Pending user-evidence package, latest completion, regional rotation, active quality counters, and verified runtime path. |
 | Completed/incomplete topic index | `infographic-packages/INDEX.md` | Lightweight archive table and repeat-avoidance ledger. |
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each run. |
 | Posting images | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical folder for separate direct Japanese and English Image Gen posters. |
 | X copy layout | `templates/x-post-copy-template.md` | Canonical section order and three copy-paste blocks for each language file. |
 | X copy validation | `scripts/validate_x_post_format.py` | Mechanical check for the canonical three-block format, labeled source notes, and Japanese series-ending copy rule. |
-| Package QA validation | `scripts/validate_package.py` | Mechanical package-level checks for required files, PNG dimensions, X copy format, and Copy Lock versus prompt text. |
+| Package QA validation | `scripts/validate_package.py` | `--pre-image` checks Evidence/Copy Lock before Image Gen; full mode checks required files, PNG dimensions, sidecars, X copy format, and Copy Lock versus prompt text. |
 | Daily quality loop | `daily-quality-loop.md` | End-of-run priorities, tags, next actions, and rules for when repeated issues become skill or policy updates. |
 | Optional mirror | `C:\Users\ryusu\.codex\generated_images\animal_img\species-slug` | Convenience copy only; never the source of truth. |
 | Run history | `$CODEX_HOME/automations/automation-2/memory.md` | Chronological decisions, failures, fixes, and preferences. |
@@ -55,6 +56,8 @@ A package is `completed` only when all of these are true:
 - Japanese and English image prompts exist.
 - Japanese and English X-post files exist, with the main post, ALT text, and source/context reply each in its own copy-paste-ready fenced `text` code block.
 - `scripts/validate_x_post_format.py` passes for both language files.
+- `scripts/validate_package.py --pre-image <package-folder>` passed before the
+  first Image Gen call.
 - `scripts/validate_package.py <package-folder>` passes, or any warning is
   recorded and intentionally accepted.
 - Japanese X main post includes the exact species-specific closing construction `それが<日本語の種名>の、ちょっと不思議な暮らし。`.
@@ -67,6 +70,7 @@ A package is `completed` only when all of these are true:
 - Both Image Gen posters pass visual identity QA: the species-specific body plan, distinctive structures, posture, habitat cues, and language-specific text are coherent enough for public posting.
 - Text-safe SVG/PNG assets exist when useful for editing or backup.
 - `infographic-packages/INDEX.md` is updated.
+- `automation-2-current-state.md` is updated.
 - Automation memory is updated, including the Daily Quality Loop entry.
 
 If Image Gen fails, is unavailable, one language is missing, either direct
@@ -82,27 +86,46 @@ Every run follows this order:
 
 1. Preflight, pending-publication check, and bundled workspace Python discovery.
 2. Topic and region lock.
-3. Evidence Lock.
-4. Run-mode classification and local independent evidence checklist; optional
+3. User IUCN Evidence Gate: persist the candidate, request the official page
+   screenshot and assessment PDF, then stop as `awaiting-user-iucn-evidence`.
+4. Evidence Lock after the user-supplied official evidence is available.
+5. Run-mode classification and local independent evidence checklist; optional
    read-only verifier only for Caution Run or Rescue Run triggers.
-5. Copy Lock.
-6. Local two-pass copy review; use sub-agent reviewers only for risk-triggered
+6. Copy Lock.
+7. Local two-pass copy review plus
+   `scripts/validate_package.py --pre-image`; use sub-agent reviewers only for risk-triggered
    caution or rescue runs.
-7. Direct Japanese and English Image Gen poster production.
-8. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
-9. Resize accepted `2:3` posters to `1024x1536`.
-10. Visual and mechanical QA, with optional deterministic text-safe backups.
-11. Final visual/mechanical QA with `scripts/validate_package.py` and any
-    risk-triggered review.
-12. INDEX, Daily Quality Loop, and automation-memory update.
+8. Direct Japanese and English Image Gen poster production.
+9. Direct-source `2:3` validation and targeted regeneration of any wrong-ratio poster.
+10. Resize accepted `2:3` posters to `1024x1536`.
+11. Visual and mechanical QA, with optional deterministic text-safe backups.
+12. Final visual/mechanical QA with `scripts/validate_package.py` and any
+     risk-triggered review.
+13. Current-state, INDEX, Daily Quality Loop, and automation-memory update.
 
-Image Gen must not start before Evidence Lock and Copy Lock. The exact scientific name, status year/category, native region, three core claims, titles, labels, and footer must be settled and saved first.
+Every newly selected topic intentionally stops at step 3. It resumes at step 4
+only after the user supplies the requested official evidence. Image Gen must
+not start before Evidence Lock, Copy Lock, and the pre-image validator pass.
+The exact scientific name, status year/category, native region, three core
+claims, titles, labels, and footer must be settled and saved first.
 
 Preflight must call `load_workspace_dependencies` and record the bundled Python
 path before topic selection. Treat an attempt as failed when it returns no
-result within 60 seconds, make at most one retry, then stop before Image Gen if
-no usable path is available. Do not defer mandatory normalization and package
-validation until after artwork exists.
+result within 60 seconds and make at most one retry. If the tool is unavailable
+or still returns no usable path, a previously recorded absolute bundled-Python
+path from `automation-2-current-state.md` or automation memory may be used only
+after a read-only verification confirms the executable version, required image
+library import, and validator startup. Do not use arbitrary `python` from
+`PATH`, install dependencies, or search unrelated locations. If neither route
+produces a verified runtime, stop before topic selection. Do not defer mandatory
+normalization and package validation until after artwork exists.
+
+During preflight, read `automation-2-current-state.md` first. If it names a
+package in `awaiting-user-iucn-evidence`, do not select a new species and do not
+create another package. If the official evidence has not been supplied, return
+the same evidence request and stop. If it has been supplied, resume that package
+at Evidence Lock. Only abandon or replace the candidate when the user explicitly
+asks or the supplied evidence proves the candidate cannot satisfy the workflow.
 
 If a read-only preflight `shell_command` fails before command execution with
 `CreateProcessAsUserW failed: 5` for a WindowsApps `pwsh.exe`, treat it as an
@@ -123,6 +146,12 @@ Use the lightest mode that protects the package.
 Use this mode when official evidence is available, sources do not materially
 conflict, the organism has manageable visual identity risk, and no user
 correction or image-generation failure has changed the locked package.
+
+Official page screenshots and assessment PDFs supplied at the planned User IUCN
+Evidence Gate are expected workflow inputs, not corrections, and do not by
+themselves escalate the run to Caution. Escalate only when the supplied evidence
+is incomplete, conflicts with the candidate, changes an already locked claim,
+or another listed trigger appears.
 
 - Keep sub-agents off.
 - Use local two-pass checks before Image Gen and before completion.
@@ -166,6 +195,26 @@ Always create the package first:
 ```text
 C:\Users\ryusu\Documents\New project 2\infographic-packages\YYYY-MM-DD-species-slug
 ```
+
+At the User IUCN Evidence Gate, create only the durable provisional files needed
+to resume safely:
+
+```text
+README.md
+sources-qa.md
+evidence/
+```
+
+Set the README and INDEX state to `awaiting-user-iucn-evidence`. Record the
+accepted candidate name, scientific name, broad region, lineage, habitat, hook,
+official IUCN page or search URL, and the exact requested evidence in
+`sources-qa.md`. Do not create locked copy, prompts, X-post files, sidecars, or
+images before the gate is satisfied.
+
+Copy supplied official files into `evidence/` with stable ASCII filenames. Keep
+the originals untouched. Record the local evidence paths, source URLs when
+known, supplied/access date, and exact inspected pages/fields in
+`sources-qa.md`.
 
 Always create package-local images:
 
@@ -261,6 +310,43 @@ Use the absolute memory path when `$CODEX_HOME` is empty or unavailable. The sta
 - Avoid completed species unless the user explicitly requests a remake or comparison.
 - Reuse incomplete topics only when deliberately completing missing deliverables.
 - User-requested topics, dated awareness days, and deliberate remakes may override region rotation when the reason is recorded.
+- Before locking a candidate, perform only a quick evidence-viability check:
+  confirm the accepted scientific name and identify the matching official IUCN
+  species page, assessment identifier/DOI, or an official scientific-name search
+  route. Do not complete Evidence Lock yet.
+- Prefer a candidate with a matching official IUCN assessment and downloadable
+  assessment PDF when region and topic variety remain credible. Do not silently
+  discard an otherwise strong unassessed organism; use the no-assessment branch
+  of the evidence gate instead.
+
+## User IUCN Evidence Gate
+
+Every new topic must pause after Topic Lock and before Evidence Lock.
+
+1. Create the provisional package and `evidence/` folder.
+2. Record state `awaiting-user-iucn-evidence` in package README,
+   `infographic-packages/INDEX.md`, `automation-2-current-state.md`, and
+   automation memory.
+3. Tell the user the selected common/scientific name, region, habitat, and hook.
+4. Request an official IUCN species-page screenshot that visibly includes the
+   accepted taxon, Red List category, `Last assessed`, and
+   `Scope of assessment`.
+5. Request the matching official IUCN assessment PDF. When practical, include
+   the exact official species-page URL, assessment identifier, and DOI so the
+   user can retrieve the correct record.
+6. Stop the run. Do not start Evidence Lock, Copy Lock, reviewer work, Image
+   Gen, normalization, final package validation, or completion updates.
+
+When the user supplies the files, resume the same package rather than selecting
+a new topic. Inspect the screenshot visually and inspect the PDF pages that show
+the accepted taxon, category, `Scope(s): Global`, year published, date assessed,
+and citation. Reconcile the two official artifacts, preserve them under
+`evidence/`, and then begin Evidence Lock.
+
+If no matching global assessment exists, request a screenshot of the completed
+official scientific-name search instead of inventing a PDF. Pause for the user
+to choose whether to continue with the documented no-assessment route or replace
+the candidate. Failed access or a missing PDF is not evidence of no assessment.
 
 ## Fact-Check Rules
 
@@ -408,6 +494,16 @@ logged issue or completion blocker.
 - Save the locked copy to the package folder.
 - Do not leave placeholders or unresolved dates/categories in image-facing text.
 - Recheck image-facing claims against `sources-qa.md` before generating art.
+- Run the same parser used by final package QA before the first Image Gen call:
+
+```text
+<bundled-python> scripts/validate_package.py --pre-image <package-folder>
+```
+
+- Do not call Image Gen until this command passes. It must verify required text
+  files, the three-block X format, public naming/evidence rules, and exact
+  Copy Lock versus `Text, verbatim:` prompt strings while intentionally
+  skipping PNG and posting-sidecar requirements.
 
 ## Default Information Density
 
@@ -543,6 +639,7 @@ rules in `daily-quality-loop.md`.
 
 Before finishing every run:
 
+- Update `automation-2-current-state.md`.
 - Update `infographic-packages/INDEX.md`.
 - Update `C:\Users\ryusu\.codex\automations\automation-2\memory.md`.
 - Add the Daily Quality Loop entry from `daily-quality-loop.md`.
@@ -553,6 +650,10 @@ Before finishing every run:
   mirror results, and Daily Quality Loop details in README, `sources-qa.md`, or
   automation memory instead of the INDEX row.
 - Record the one concrete `tomorrow_change`, if any, in automation memory.
+- Keep `automation-2-current-state.md` small and replace its state in place:
+  pending evidence package, latest completed/local-ready package, recent-eight
+  region distribution, verified bundled-Python path, active Daily Quality Loop
+  counters, and the next concrete change. Do not append run history there.
 - Leave GitHub state as `local-ready` during no-approval automation runs. Do not
   attempt GitHub publish from that context; record that publish requires an
   approval-enabled closeout conversation.

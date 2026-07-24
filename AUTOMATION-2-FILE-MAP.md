@@ -8,9 +8,11 @@ Use this as the quick navigation map for the infographic automation.
 |---|---|
 | `automation-2-updated-prompt.md` | Current Automation body text to paste into the Automation settings. |
 | `automation-2-production-policy.md` | Human-readable operating policy and responsibility map. |
+| `automation-2-current-state.md` | Small current-state record for pending IUCN evidence, latest completion, regional rotation, and active quality counters. |
 | `daily-quality-loop.md` | Lightweight end-of-run improvement loop: priorities, tags, next actions, and skill-update triggers. |
 | `scripts/normalize_poster.py` | Rejects non-2:3 Image Gen posters and resizes accepted 2:3 sources to the canonical `1024x1536` posting size. |
-| `scripts/validate_package.py` | Package-level QA for required files, X copy format, PNG dimensions, and Copy Lock versus image-prompt text. |
+| `scripts/validate_package.py` | `--pre-image` checks Evidence/Copy Lock before Image Gen; full mode checks required files, X copy, PNG dimensions, sidecars, and Copy Lock versus image-prompt text. |
+| `scripts/sync_automation_prompt.py` | Safely replaces only the live Automation prompt and `updated_at`, preserving and verifying all schedule/runtime fields when the Automation API tool is unavailable. |
 | `infographic-packages/INDEX.md` | Archive ledger for completed, incomplete, and needs-review packages. |
 | `infographic-packages/YYYY-MM-DD-species-slug/` | Canonical package folder for each generated topic. |
 | `infographic-packages/YYYY-MM-DD-species-slug/images/` | Canonical image assets folder for Image Gen PNGs and text-safe backups. |

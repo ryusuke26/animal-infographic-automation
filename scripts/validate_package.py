@@ -388,6 +388,14 @@ def validate_git_diff(package: Path, repo_root: Path, errors: list[str], warning
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("package", type=Path, help="infographic package directory")
+    parser.add_argument(
+        "--pre-image",
+        action="store_true",
+        help=(
+            "validate Evidence/Copy Lock inputs before Image Gen; "
+            "skip poster PNG and posting-sidecar requirements"
+        ),
+    )
     parser.add_argument("--skip-git", action="store_true", help="skip git diff --check")
     args = parser.parse_args()
 
@@ -402,11 +410,12 @@ def main() -> int:
 
     validate_required_files(package, errors)
     validate_prompt_lock(package, errors)
-    validate_pngs(package, errors, warnings)
     validate_x_posts(package, repo_root, errors)
-    validate_copy_ready_sidecars(package, errors)
     validate_public_naming_and_evidence(package, errors, warnings)
     validate_text_whitespace(package, errors)
+    if not args.pre_image:
+        validate_pngs(package, errors, warnings)
+        validate_copy_ready_sidecars(package, errors)
     if not args.skip_git:
         validate_git_diff(package, repo_root, errors, warnings)
 
@@ -417,7 +426,10 @@ def main() -> int:
             print(f"ERROR: {error}", file=sys.stderr)
         return 1
 
-    print(f"OK: {rel(package, repo_root)} passed package QA")
+    if args.pre_image:
+        print(f"OK: {rel(package, repo_root)} passed pre-image Copy Lock QA")
+    else:
+        print(f"OK: {rel(package, repo_root)} passed package QA")
     return 0
 
 
