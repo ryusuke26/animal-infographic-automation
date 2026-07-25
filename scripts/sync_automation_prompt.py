@@ -16,6 +16,11 @@ from pathlib import Path
 MUTABLE_KEYS = {"prompt", "updated_at"}
 
 
+def normalize_prompt(value: str) -> str:
+    """Ignore transport-only line endings at the end of a prompt."""
+    return value.rstrip("\r\n")
+
+
 def parse_toml_text(text: str) -> dict:
     return tomllib.loads(text)
 
@@ -47,7 +52,7 @@ def build_candidate(original: str, prompt: str, updated_at: int) -> str:
 def verify_transition(before: dict, after: dict, expected_prompt: str, expected_id: str) -> None:
     if before.get("id") != expected_id or after.get("id") != expected_id:
         raise ValueError(f"unexpected automation id; expected {expected_id!r}")
-    if after.get("prompt") != expected_prompt:
+    if normalize_prompt(after.get("prompt", "")) != normalize_prompt(expected_prompt):
         raise ValueError("parsed TOML prompt does not exactly match canonical prompt file")
     if not isinstance(after.get("updated_at"), int):
         raise ValueError("updated_at is not an integer")
@@ -79,7 +84,7 @@ def main() -> int:
     if args.check:
         if before.get("id") != args.expected_id:
             raise ValueError(f"unexpected automation id: {before.get('id')!r}")
-        if before.get("prompt") != prompt:
+        if normalize_prompt(before.get("prompt", "")) != normalize_prompt(prompt):
             raise ValueError("live Automation prompt is not synchronized")
         print(
             json.dumps(

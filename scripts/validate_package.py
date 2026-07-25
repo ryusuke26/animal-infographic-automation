@@ -11,16 +11,16 @@ import sys
 from pathlib import Path
 
 
-REQUIRED_FILES = (
+COMMON_REQUIRED_FILES = (
     "README.md",
     "sources-qa.md",
     "infographic-copy-ja.md",
     "infographic-copy-en.md",
-    "image-prompt-ja.md",
-    "image-prompt-en.md",
     "x-post-ja.md",
     "x-post-en.md",
 )
+FAST_RUN_REQUIRED_FILES = ("image-prompt-base.md",)
+LEGACY_REQUIRED_FILES = ("image-prompt-ja.md", "image-prompt-en.md")
 LANGUAGES = {
     "ja": "japanese",
     "en": "english",
@@ -176,25 +176,82 @@ def is_vertical_two_to_three(width: int, height: int) -> bool:
     return abs(width * 3 - height * 2) <= tolerance
 
 
-def validate_pngs(package: Path, errors: list[str], warnings: list[str]) -> None:
+def is_fast_run(package: Path, errors: list[str]) -> bool:
+    readme = package / "README.md"
+    if not readme.is_file():
+        return False
+    text = read_utf8(readme, errors)
+    return bool(re.search(r"Workflow mode:\s*`?Fast Run`?", text, re.IGNORECASE))
+
+
+def validate_fast_prompt(package: Path, errors: list[str]) -> None:
+    prompt = package / "image-prompt-base.md"
+    if not prompt.is_file():
+        return
+    text = read_utf8(prompt, errors)
+    if "Text policy: no text" not in text:
+        errors.append(
+            f"{prompt}: Fast Run base prompt must contain "
+            "'Text policy: no text'"
+        )
+    if "Text, verbatim:" in text:
+        errors.append(
+            f"{prompt}: Fast Run base prompt must not contain a "
+            "'Text, verbatim:' block"
+        )
+
+
+def validate_pngs(
+    package: Path,
+    errors: list[str],
+    warnings: list[str],
+    fast_run: bool,
+) -> None:
     images = package / "images"
     if not images.is_dir():
         errors.append(f"{images}: missing images directory")
         return
 
-    for lang, word in LANGUAGES.items():
-        direct = sorted(
-            p
-            for p in images.glob(f"*_{word}_imagegen*.png")
-            if is_active_png(p)
+    if fast_run:
+        bases = sorted(
+            path
+            for path in images.glob("*_base_imagegen*.png")
+            if is_active_png(path)
         )
+        if not bases:
+            errors.append(f"{images}: no active text-free base Image Gen PNG found")
+        if len(bases) > 1:
+            warnings.append(
+                f"{images}: multiple active base Image Gen PNGs found: "
+                f"{[path.name for path in bases]}"
+            )
+        for path in bases:
+            try:
+                width, height = png_dimensions(path)
+            except (OSError, ValueError) as exc:
+                errors.append(f"{path}: cannot read PNG dimensions: {exc}")
+                continue
+            if not is_vertical_two_to_three(width, height):
+                errors.append(
+                    f"{path}: expected vertical 2:3 text-free base, "
+                    f"got {width}x{height}"
+                )
+
+    for lang, word in LANGUAGES.items():
+        direct: list[Path] = []
+        if not fast_run:
+            direct = sorted(
+                p
+                for p in images.glob(f"*_{word}_imagegen*.png")
+                if is_active_png(p)
+            )
         posting = sorted(
             p
             for p in images.glob(f"*_{word}_posting*.png")
             if is_active_png(p)
         )
 
-        if not direct:
+        if not fast_run and not direct:
             errors.append(f"{images}: no active {word} direct Image Gen PNG found")
         if not posting:
             errors.append(f"{images}: no active {word} posting PNG found")
@@ -222,8 +279,15 @@ def validate_pngs(package: Path, errors: list[str], warnings: list[str]) -> None
                 errors.append(f"{path}: expected posting PNG 1024x1536, got {width}x{height}")
 
 
-def validate_required_files(package: Path, errors: list[str]) -> None:
-    for name in REQUIRED_FILES:
+def validate_required_files(
+    package: Path,
+    errors: list[str],
+    fast_run: bool,
+) -> None:
+    required = COMMON_REQUIRED_FILES + (
+        FAST_RUN_REQUIRED_FILES if fast_run else LEGACY_REQUIRED_FILES
+    )
+    for name in required:
         path = package / name
         if not path.is_file():
             errors.append(f"{path}: required file is missing")
@@ -392,7 +456,7 @@ def main() -> int:
         "--pre-image",
         action="store_true",
         help=(
-            "validate Evidence/Copy Lock inputs before Image Gen; "
+            "validate Evidence/Copy Lock inputs before visual production; "
             "skip poster PNG and posting-sidecar requirements"
         ),
     )
@@ -408,13 +472,17 @@ def main() -> int:
         print(f"ERROR: {package}: package directory does not exist", file=sys.stderr)
         return 1
 
-    validate_required_files(package, errors)
-    validate_prompt_lock(package, errors)
+    fast_run = is_fast_run(package, errors)
+    validate_required_files(package, errors, fast_run)
+    if fast_run:
+        validate_fast_prompt(package, errors)
+    else:
+        validate_prompt_lock(package, errors)
     validate_x_posts(package, repo_root, errors)
     validate_public_naming_and_evidence(package, errors, warnings)
     validate_text_whitespace(package, errors)
     if not args.pre_image:
-        validate_pngs(package, errors, warnings)
+        validate_pngs(package, errors, warnings, fast_run)
         validate_copy_ready_sidecars(package, errors)
     if not args.skip_git:
         validate_git_diff(package, repo_root, errors, warnings)
@@ -427,7 +495,7 @@ def main() -> int:
         return 1
 
     if args.pre_image:
-        print(f"OK: {rel(package, repo_root)} passed pre-image Copy Lock QA")
+        print(f"OK: {rel(package, repo_root)} passed pre-visual Copy Lock QA")
     else:
         print(f"OK: {rel(package, repo_root)} passed package QA")
     return 0
