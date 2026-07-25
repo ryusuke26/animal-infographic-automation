@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-25T13:59:04+09:00
+Updated: 2026-07-25T14:10:29+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -29,9 +29,10 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest completed package: `2026-07-25-pelican-eel`.
-- State: `completed, local-ready`.
-- GitHub closeout: not started; publishing remains a separate
-  approval-enabled handoff.
+- State: `completed, published`.
+- GitHub closeout: package commit `2fa8e05` and Fast Run workflow commit
+  `76d34b7` reached `origin/master`; the remote ref was verified before the
+  published-state metadata update.
 
 ## Recent-Eight Region Rotation
 

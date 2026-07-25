@@ -2,8 +2,8 @@
 
 - Date: 2026-07-25
 - Package state: `completed`
-- Publication state: `local-ready`
-- Workflow position: Phase 6 local final QA completed
+- Publication state: `published`
+- Workflow position: Phase 7 GitHub closeout completed
 
 ## Topic Lock
 
@@ -118,5 +118,6 @@ sidecars are synchronized backups:
 - Posting pixel identity: passed for both languages.
 - Final package validator and `git diff --check`: passed after the README
   sidecar links were added.
-- GitHub publishing was not attempted; the package is ready for a separate
-  approval-enabled closeout.
+- GitHub closeout: package commit `2fa8e05` and Fast Run workflow commit
+  `76d34b7` reached `origin/master`; the remote ref was verified before this
+  published-state metadata update.
