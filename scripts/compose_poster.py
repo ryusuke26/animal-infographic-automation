@@ -222,6 +222,7 @@ def compose(
     copy_path: Path,
     output_path: Path,
     language: str,
+    card_layout: str = "standard",
 ) -> None:
     title, scientific, labels, footer = parse_copy(copy_path)
     regular_path, bold_path, italic_path = font_paths(language)
@@ -239,11 +240,18 @@ def compose(
     canvas = Image.alpha_composite(canvas, wash)
     panels = Image.new("RGBA", CANVAS, (0, 0, 0, 0))
     rounded_panel(panels, (42, 36, 982, 274), 34, (255, 251, 239, 232))
-    card_boxes = (
-        (54, 736, 704, 898),
-        (320, 930, 970, 1092),
-        (54, 1124, 704, 1286),
-    )
+    if card_layout == "lower":
+        card_boxes = (
+            (54, 930, 704, 1068),
+            (320, 1090, 970, 1228),
+            (54, 1250, 704, 1388),
+        )
+    else:
+        card_boxes = (
+            (54, 736, 704, 898),
+            (320, 930, 970, 1092),
+            (54, 1124, 704, 1286),
+        )
     for box in card_boxes:
         rounded_panel(
             panels,
@@ -338,6 +346,15 @@ def main() -> int:
     parser.add_argument("--copy", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--language", required=True, choices=("ja", "en"))
+    parser.add_argument(
+        "--card-layout",
+        choices=("standard", "lower"),
+        default="standard",
+        help=(
+            "place compact cards lower on the poster when the complete hero "
+            "silhouette occupies the middle band"
+        ),
+    )
     args = parser.parse_args()
 
     try:
@@ -346,6 +363,7 @@ def main() -> int:
             args.copy.resolve(),
             args.output.resolve(),
             args.language,
+            args.card_layout,
         )
     except (OSError, ValueError) as exc:
         raise SystemExit(str(exc)) from exc

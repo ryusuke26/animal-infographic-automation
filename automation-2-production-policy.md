@@ -4,20 +4,20 @@ This is the operating policy for:
 
 `世界の知らない生きものインフォグラフィック日次制作`
 
-The default is a short, repeatable Fast Run. Extra gates are added only when a
-specific factual or visual risk requires them.
+The default is Quality Run. A package is complete only when the Japanese and
+English posters work as finished, integrated pieces and the posting copy is
+worth reading on its own. Mechanical validation is necessary, but it is not a
+substitute for visual or editorial judgment.
 
 ## Operating Targets
 
-- Normal elapsed time: 10-30 minutes after tools respond.
-- User touchpoints before publishing: zero by default, one when evidence or
-  visual judgment genuinely needs the user.
+- Normal elapsed time: roughly 30-60 minutes after tools respond; do not trade
+  away poster coherence or writing quality to meet a timer.
+- User touchpoints before publishing: zero by default, one only when evidence
+  or a genuinely subjective visual choice cannot be resolved locally.
 - Approval budget: batch safe local work; reserve separate approval for
-  importing an external file when required and for GitHub publishing.
+  importing a protected file when required and for GitHub publishing.
 - Output: one complete bilingual package, not partial art.
-
-These are operating targets, not reasons to skip a factual correction or accept
-a misidentified organism.
 
 ## Responsibility Map
 
@@ -28,25 +28,30 @@ a misidentified organism.
 | Completed/incomplete topics | `infographic-packages/INDEX.md` |
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` |
 | X copy structure | `templates/x-post-copy-template.md` |
-| Poster composer | `scripts/compose_poster.py` |
+| Direct-poster normalization | `scripts/normalize_poster.py` |
+| Optional deterministic fallback | `scripts/compose_poster.py` |
 | Package validation | `scripts/validate_package.py` |
 | X copy validation | `scripts/validate_x_post_format.py` |
 | Run learning | `daily-quality-loop.md` and Automation memory |
 
 ## Workload Modes
 
-### Fast Run - default
+### Quality Run - default
 
 Use when an official status route is available, sources do not materially
-conflict, and one text-free illustration can depict the organism safely.
+conflict, and the organism has manageable visual-identity risk.
 
-- Keep all checking local.
 - Use two or three strong sources, not an open-ended literature review.
-- Do not request an IUCN screenshot or PDF from the user when the official page,
-  official PDF, or another accepted official route is directly inspectable.
-- Generate one text-free base illustration.
-- Compose both language posters deterministically from locked copy.
-- Run one pre-visual validator pass and one final validator pass.
+- Do not request an IUCN screenshot or PDF from the user when an accepted
+  official route is directly inspectable.
+- Lock the exact bilingual poster copy before image generation.
+- Generate a complete Japanese poster and a complete English companion poster
+  with Image Gen. Each is a full-canvas artwork, not text laid over a generic
+  background.
+- Give the three cards species-specific number treatments, spot illustrations,
+  and explanatory copy.
+- Judge poster coherence and X writing manually in addition to running the
+  validators.
 
 ### Caution Run - exception
 
@@ -60,18 +65,19 @@ Use only when at least one concrete trigger exists:
 - the user corrects a factual or visual interpretation.
 
 Add only the check needed for the trigger. A Caution Run does not automatically
-require a sub-agent, a user evidence gate, or additional files.
+require a user evidence gate, additional files, or a second reviewer.
 
 ### Rescue Run - stop condition
 
-Use when the base illustration is materially misidentified, the locked status
-cannot be supported, or the deterministic posters still fail final QA after one
-targeted repair.
+Use when the locked status cannot be supported or a required direct poster
+still has materially wrong identity, anatomy, composition, text, or aspect ratio
+after one targeted retry for that language.
 
-Preserve the work and mark it `needs review` or `incomplete`. Do not start an
-unbounded retry loop.
+Preserve the work and mark it `needs review` or `incomplete`. Do not enter an
+unbounded generation loop. A text-free base plus deterministic bilingual layout
+may be retained as a working fallback, but it does not satisfy completion.
 
-## Fast Workflow
+## Quality Workflow
 
 ### 0. One-batch preflight
 
@@ -105,24 +111,30 @@ turning rotation into a hard quota.
 Before locking:
 
 - confirm the accepted scientific name;
+- identify the supported English and Japanese public names;
 - identify an official IUCN page, assessment PDF/DOI, or completed official
   no-assessment search route;
 - identify one authoritative taxonomy/name source;
-- identify one authoritative biological source for the visual hook.
+- identify one authoritative biological source for the three public claims and
+  the organism's visual identity;
+- choose one curiosity doorway that can carry both poster and post.
 
-Do not create a provisional package merely to ask the user for files. A
-user-supplied evidence gate is used only when the official route is blocked,
-ambiguous, or conflicting after the direct check.
+Do not create a provisional package merely to ask the user for files. Request
+user-supplied evidence only when the official route remains blocked, ambiguous,
+or conflicting after the direct check.
 
-### 2. Evidence and Copy Lock
+### 2. Evidence Lock and Copy Lock
 
 Create the package and settle:
 
 - English, Japanese, and scientific names;
 - broad native region and habitat;
 - exact status footer and assessment year/check year;
-- three public claims: habitat, visible identity, and behavior/life-history;
-- visual identity guidance and important negative constraints.
+- exactly three public claims: habitat, visible identity, and behavior or
+  life-history;
+- visual identity guidance and important negative constraints;
+- one emotional doorway: unusual structure, hidden habitat, seasonal life,
+  surprising behavior, or another source-supported discovery hook.
 
 Use the official IUCN global category by default when one exists. Keep national
 or regional legal status in source/context unless the user asks otherwise.
@@ -135,22 +147,53 @@ assessment, use:
 
 Write:
 
+- `README.md`
+- `sources-qa.md`
 - `infographic-copy-ja.md`
 - `infographic-copy-en.md`
-- `image-prompt-base.md`
+- `image-prompt-ja.md`
+- `image-prompt-en.md`
 - `x-post-ja.md`
 - `x-post-en.md`
 
-The base prompt must contain the exact marker:
+README must contain:
 
-`Text policy: no text`
+`Workflow mode: Quality Run`
 
-It must request one vertical 2:3, text-free illustration with clear space for
-three cards and must not contain a `Text, verbatim:` block.
+Each infographic-copy file contains the exact title, scientific name, exactly
+three observation labels, and a short label-free status footer.
 
-Build both X files from `templates/x-post-copy-template.md`. Each must contain
-three fenced `text` blocks: main post, ALT text, and labeled source/context
-reply. Japanese posts dated 2026-07-21 or later retain:
+Each image prompt:
+
+- requests a complete vertical 2:3 poster, not a mockup;
+- includes a `Text, verbatim:` block matching Copy Lock exactly;
+- gives one identifiable hero organism an accurate body plan, posture, and
+  habitat;
+- requests exactly three numbered observation cards;
+- gives each card one small species-specific illustration or icon plus its
+  explanatory text;
+- reserves a quiet integrated footer;
+- bans extra text, logos, watermarks, fake maps, invented anatomy, duplicated
+  hero organisms, and generic lookalike substitutions.
+
+The layout must be composed around the actual silhouette and habitat. Do not
+default to three equal software-style rectangles. Card size, placement, border,
+icon, and color may vary to support the species, while remaining a coherent
+paired-language design.
+
+Build both X files from `templates/x-post-copy-template.md`. Each contains three
+fenced `text` blocks: main post, ALT text, and labeled source/context reply.
+
+The main post is not a transcription of the three cards. It must:
+
+- open with a species-specific scene, image, question, or action;
+- reveal the organism through a short discovery progression;
+- connect at least two locked facts in natural prose;
+- vary sentence length and rhythm;
+- avoid numbered lists, flat fact bullets, and the previous day's opening;
+- keep conservation status quiet at the end.
+
+Japanese posts dated 2026-07-21 or later retain:
 
 `それが<日本語の種名>の、ちょっと不思議な暮らし。`
 
@@ -162,69 +205,98 @@ Run once:
 
 Do not start visual production until it passes.
 
-### 3. One illustration, deterministic bilingual posters
+### 3. Complete bilingual poster production
 
-Generate one text-free base illustration with Image Gen:
+Generate the Japanese poster first as a complete Image Gen artwork:
 
 ```text
-images/species_slug_base_imagegen_YYYY-MM-DD.png
+images/species_slug_japanese_imagegen_YYYY-MM-DD.png
 ```
 
-Requirements:
+Inspect it before generating the companion. Accept it only when:
 
-- vertical 2:3;
-- one clearly identifiable hero organism;
-- accurate body plan and habitat;
-- no letters, labels, numbers, logos, maps, or watermark;
-- enough quiet space for three observation cards.
+- the organism is immediately identifiable and no diagnostic structure is
+  invented, hidden, detached, or duplicated;
+- title, name, three cards, and footer form one visual system;
+- all three cards contain a visible number, species-specific spot art, and
+  useful explanatory copy;
+- the hero remains dominant and unobstructed;
+- text is legible enough for mobile viewing;
+- the result feels authored for this species rather than filled into a generic
+  template.
 
-Make at most one targeted regeneration when the organism identity, anatomy,
-pose, habitat, or 2:3 ratio is materially wrong. Do not regenerate because of
-text: the base contains no text.
+If a material issue appears, make at most one targeted regeneration for the
+Japanese version. Name the concrete failure and preserve all accepted elements.
 
-Compose the language posters:
+Then generate the complete English companion:
 
 ```text
-<bundled-python> scripts/compose_poster.py \
-  --background <base.png> \
-  --copy <infographic-copy-ja.md> \
-  --language ja \
-  --output <images/species_slug_japanese_posting_YYYY-MM-DD.png>
-
-<bundled-python> scripts/compose_poster.py \
-  --background <base.png> \
-  --copy <infographic-copy-en.md> \
-  --language en \
-  --output <images/species_slug_english_posting_YYYY-MM-DD.png>
+images/species_slug_english_imagegen_YYYY-MM-DD.png
 ```
 
-The composer supplies exact typography, three numbered icon-bearing cards, and
-the status footer at `1024x1536`. Separate Japanese and English Image Gen
-posters are not required in Fast Run.
+Use the accepted Japanese poster as a visual reference when the tool supports
+it, or carry forward its art direction explicitly. Preserve the species,
+habitat, palette, handmade medium, hierarchy, and card concept without forcing
+pixel-identical placement. Inspect it against the same standard and make at most
+one targeted regeneration for a material English-version issue.
 
-Legacy packages with separate direct Image Gen posters remain valid.
+The direct posters must themselves be true vertical 2:3. Do not crop, stretch,
+or add padding to repair a wrong source ratio.
 
-### 4. One final QA pass
-
-Check locally:
-
-- the base depicts the correct species and habitat;
-- no invented diagnostic structure appears;
-- both posting PNGs are exactly `1024x1536`;
-- title, scientific name, three labels, and footer match Copy Lock;
-- both X-post files have three fenced blocks;
-- sidecars match those blocks;
-- README links prominently to `x-post-ja.md` and `x-post-en.md`.
-
-Run once:
+Normalize each accepted direct source to the canonical posting size:
 
 ```text
+<bundled-python> scripts/normalize_poster.py \
+  --input <direct-imagegen.png> \
+  --output <posting.png>
+```
+
+The result must be exactly `1024x1536`. Local text-safe repair is allowed only
+for a localized generated-text defect when it preserves the integrated artwork.
+It must not flatten the poster into the deterministic Fast Run layout. If text
+cannot be repaired without redesigning the poster, use the targeted Image Gen
+retry or mark the package `needs review`.
+
+`scripts/compose_poster.py` remains available for old Fast Run packages,
+diagnostic mockups, or preserved rescue artifacts. Its output alone cannot
+complete a new Quality Run.
+
+### 4. Editorial, visual, and mechanical QA
+
+Create six posting sidecars from the three fenced blocks in each X-post file.
+README links prominently to `x-post-ja.md`, `x-post-en.md`, both direct Image
+Gen posters, both posting PNGs, and the sidecars.
+
+Perform one deliberate QA pass:
+
+- compare silhouette, diagnostic structures, posture, and habitat with the
+  authoritative visual reference;
+- reject invented, missing, detached, duplicated, or hidden structures;
+- confirm one hero organism and exactly three numbered illustrated cards;
+- confirm the title, scientific name, three labels, and footer match Copy Lock;
+- judge the integrated composition at full size and phone size;
+- reject generic dashboard/card styling or cards that bury the hero;
+- read each X main post aloud and reject flat poster-summary prose;
+- compare the latest two completed X files and rewrite any repeated opening or
+  sentence pattern;
+- confirm ALT text describes the actual accepted poster;
+- confirm sidecars match the fenced blocks;
+- confirm both posting PNGs are exactly `1024x1536`.
+
+Run:
+
+```text
+<bundled-python> scripts/validate_x_post_format.py \
+  --ja <package>/x-post-ja.md \
+  --en <package>/x-post-en.md
+
 <bundled-python> scripts/validate_package.py <package>
 ```
 
-Apply deterministic fixes directly and rerun only the failed validator. Ask the
-user only when the remaining issue requires factual interpretation or visual
-taste.
+Apply deterministic fixes directly and rerun only the failed check. Machine
+success is not enough when the poster or prose is visibly weak. Ask the user
+only when the remaining issue requires factual interpretation or subjective
+visual taste.
 
 ### 5. Finish once
 
@@ -238,55 +310,57 @@ After final QA, update in one batch:
 Mark the package `completed, local-ready`. GitHub publishing is a separate
 approval-enabled closeout.
 
-## Required Fast Run Package
+## Required Quality Run Package
 
 ```text
 README.md
 sources-qa.md
 infographic-copy-ja.md
 infographic-copy-en.md
-image-prompt-base.md
+image-prompt-ja.md
+image-prompt-en.md
 x-post-ja.md
 x-post-en.md
 thread-drafts.md                 # only when needed for free-tier X limits
 images/
-  species_slug_base_imagegen_YYYY-MM-DD.png
+  species_slug_japanese_imagegen_YYYY-MM-DD.png
+  species_slug_english_imagegen_YYYY-MM-DD.png
   species_slug_japanese_posting_YYYY-MM-DD.png
   species_slug_english_posting_YYYY-MM-DD.png
   six posting sidecars
 ```
 
-README must contain:
-
-`Workflow mode: Fast Run`
-
-The base Image Gen PNG and both posting PNGs are canonical package assets.
+The two complete direct Image Gen posters and their exact-size posting versions
+are canonical assets.
 
 ## Public-Copy Rules
 
 - Discovery and education first; no blame, rescue, or unsupported urgency.
 - Exactly three observation notes.
-- Each note connects a visible trait, habitat, or behavior to meaning; avoid
-  bare noun labels.
+- Each note connects a visible trait, habitat, or behavior to meaning.
+- Every note card has a visible number, a small species-specific illustration
+  or icon, and explanatory copy rather than a bare label.
 - No population number unless current, scoped, and necessary.
 - Keep naming caveats in `sources-qa.md`, not on the poster.
 - Use a short label-free status footer.
 - Keep source labels only in source/context replies.
+- Treat X main copy as a miniature natural-history story, not as three poster
+  labels joined by line breaks.
 
 ## Approval and User-Input Rules
 
-Do not ask the user to approve routine local reads, copy drafting, layout,
-validation, or state updates when the environment permits them.
+Do not ask the user to approve routine local reads, copy drafting, image
+generation, validation, or state updates when the environment permits them.
 
 User input is appropriate only when:
 
 - an official evidence route remains unavailable or conflicting;
-- a visual choice cannot be resolved objectively;
+- a visual choice cannot be resolved objectively after the allowed targeted
+  retry;
 - the user must supply a protected/local file;
 - an external publish or other consequential action needs approval.
 
-Batch related safe shell work into one preflight call and one final-validation
-call whenever practical.
+Batch related safe shell work whenever practical.
 
 ## GitHub Closeout
 
@@ -303,6 +377,6 @@ In an approval-enabled closeout:
 ## Daily Quality Loop
 
 Record at most one concrete issue per run. Do not add a gate or checklist item
-for a one-off problem. Change policy, template, composer, or validator only
-when the same material cause repeats or one serious fact/publication risk
-requires an immediate deterministic fix.
+for every one-off problem. Change policy, template, prompt, or validator only
+when the same material cause repeats or one serious public-quality failure
+shows that the production architecture is wrong.
