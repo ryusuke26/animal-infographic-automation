@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-26T21:08:04+09:00
+Updated: 2026-07-26T21:28:57+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -36,18 +36,16 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest completed package: `2026-07-26-himalayan-monal`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production: separate complete Japanese and English ImageGen posters. The
   first Japanese poster was retained as rejected after duplicated observation
   copy; one targeted retry passed. The English companion passed on its first
   generation. Previous Fast Run posters remain under `old_fast_run` names.
 - Official evidence correction: screenshot/PDF preserved in the package;
   obsolete direct-record access caveats removed from source notes.
-- GitHub closeout: attempted after the user's end-of-day publish cue, but
-  blocked in the current no-approval execution path. Local `.git/index.lock`
-  creation was denied, HTTPS was unavailable, GitHub API writes returned 403,
-  and browser security policy blocked GitHub UI access. Package remains
-  `completed, local-ready`; no remote ref was changed.
+- GitHub closeout: package commit `bc0bdd5` and Quality Run workflow commit
+  `fffeaea` published to `origin/master`; the published-state metadata commit
+  and remote master ref were verified during closeout.
 
 ## Recent-Eight Region Rotation
 

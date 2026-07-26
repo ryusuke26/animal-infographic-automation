@@ -1,10 +1,10 @@
 # Himalayan Monal Infographic Package
 
 - Date: 2026-07-26
-- Package state: `completed, local-ready`
-- Publication state: `local only`
+- Package state: `completed, published`
+- Publication state: `published`
 - Workflow mode: Quality Run
-- Workflow position: Phase 5 local-ready completion
+- Workflow position: Phase 6 GitHub closeout completed
 
 ## Topic Lock
 
@@ -98,7 +98,6 @@ The previous Fast Run images are preserved as old versions:
 - X format and full package validation: passed
 - User-supplied official IUCN screenshot/PDF: preserved and propagated into
   source notes
-- GitHub publishing: attempted after user closeout approval, but blocked in the
-  current no-approval execution path by `.git` write denial, restricted HTTPS,
-  unavailable GitHub API write permission, and browser security policy.
-  Package remains `completed, local-ready`.
+- GitHub closeout: package commit `bc0bdd5` and Quality Run workflow commit
+  `fffeaea` published to `origin/master`; the published-state metadata commit
+  and remote master ref were verified during closeout.

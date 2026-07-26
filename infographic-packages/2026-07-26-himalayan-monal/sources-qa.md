@@ -2,7 +2,7 @@
 
 ## Gate State
 
-- Package state: `completed, local-ready`
+- Package state: `completed, published`
 - Topic Lock time: 2026-07-26T11:21:52+09:00
 - Evidence Lock completed: 2026-07-26
 - Copy Lock completed: 2026-07-26
