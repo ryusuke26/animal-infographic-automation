@@ -186,11 +186,24 @@ fenced `text` blocks: main post, ALT text, and labeled source/context reply.
 
 The main post is not a transcription of the three cards. It must:
 
+- work as a complete, separate reading experience because ALT text and the
+  source/context reply are posted separately;
 - open with a species-specific scene, image, question, or action;
-- reveal the organism through a short discovery progression;
+- place the public common and scientific names on adjacent standalone lines
+  after the hook;
+- reveal the organism through a connected discovery progression, letting
+  setting, visible identity, movement, and consequence unfold in the order
+  that best fits the species;
 - connect at least two locked facts in natural prose;
 - vary sentence length and rhythm;
 - avoid numbered lists, flat fact bullets, and the previous day's opening;
+- aim for roughly 220-275 Unicode characters including line breaks when the
+  evidence supports a fuller story, without padding weak copy;
+- never exceed 275 characters in a new main-post block;
+- trim repeated modifiers, duplicated facts, or expendable transitions before
+  cutting the sensory hook, action-to-meaning payoff, or series ending;
+- avoid unsupported absolutes, exclusivity, and purpose-driven evolution
+  wording;
 - keep conservation status quiet at the end.
 
 Japanese posts dated 2026-07-21 or later retain:
@@ -346,6 +359,9 @@ are canonical assets.
 - Keep source labels only in source/context replies.
 - Treat X main copy as a miniature natural-history story, not as three poster
   labels joined by line breaks.
+- Because the three posting blocks are separate, give the main post enough room
+  to show an observed action and why it matters. Do not shorten it into a teaser
+  merely to accommodate ALT text or sources.
 
 ## Approval and User-Input Rules
 

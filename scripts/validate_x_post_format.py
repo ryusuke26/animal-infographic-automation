@@ -16,12 +16,80 @@ JA_SERIES_ENDING = "ちょっと不思議な暮らし。"
 JA_SERIES_PREFIX = "それが"
 JA_SERIES_CONNECTOR = "の、"
 JA_FIXED_TEMPLATE_START = date(2026, 7, 21)
+IDENTITY_SEQUENCE_START = date(2026, 7, 24)
+MAIN_POST_LENGTH_START = date(2026, 7, 28)
+MAX_MAIN_POST_CHARACTERS = 275
 DATE_RE = re.compile(r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)")
 JA_FIXED_SERIES_RE = re.compile(r"^それが.+の、ちょっと不思議な暮らし。$")
 JA_FORBIDDEN_SERIES_PHRASES = (
     "ちょっと不思議な暮らしがあります",
     "ちょっと不思議な暮らしをしています",
 )
+
+
+def package_date_for(path: Path) -> date | None:
+    dated_matches = DATE_RE.findall(str(path))
+    return date(*map(int, dated_matches[-1])) if dated_matches else None
+
+
+def validate_identity_sequence(path: Path, main_post: str, language: str) -> list[str]:
+    errors: list[str] = []
+    package_date = package_date_for(path)
+    if package_date is not None and package_date < IDENTITY_SEQUENCE_START:
+        return errors
+
+    copy_path = path.parent / f"infographic-copy-{language}.md"
+    if not copy_path.is_file():
+        return errors
+
+    try:
+        locked_copy = copy_path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        return [f"{copy_path}: cannot read as UTF-8: {exc}"]
+
+    title_match = re.search(r"^Title:\s*(.+?)\s*$", locked_copy, re.MULTILINE)
+    scientific_match = re.search(
+        r"^Scientific name:\s*(.+?)\s*$", locked_copy, re.MULTILINE
+    )
+    if not title_match or not scientific_match:
+        return [f"{copy_path}: cannot read locked title/scientific name"]
+
+    title = title_match.group(1).strip().strip("*`")
+    scientific_name = scientific_match.group(1).strip().strip("*`")
+    lines = [line.strip() for line in main_post.splitlines() if line.strip()]
+    sequence_positions = [
+        index
+        for index in range(len(lines) - 1)
+        if lines[index] == title and lines[index + 1] == scientific_name
+    ]
+
+    if len(sequence_positions) != 1:
+        errors.append(
+            f"{path}: main post must contain exactly one adjacent standalone "
+            f"identity sequence '{title}' then '{scientific_name}'"
+        )
+    elif sequence_positions[0] == 0:
+        errors.append(
+            f"{path}: main post needs a species-specific hook before the "
+            "standalone common/scientific name lines"
+        )
+
+    return errors
+
+
+def validate_main_post_length(path: Path, main_post: str) -> list[str]:
+    package_date = package_date_for(path)
+    if package_date is not None and package_date < MAIN_POST_LENGTH_START:
+        return []
+
+    character_count = len(main_post)
+    if character_count > MAX_MAIN_POST_CHARACTERS:
+        return [
+            f"{path}: main post is {character_count} characters; new packages "
+            f"must stay at or below {MAX_MAIN_POST_CHARACTERS}"
+        ]
+
+    return []
 
 
 def validate_japanese_main_post(path: Path, main_post: str) -> list[str]:
@@ -47,8 +115,7 @@ def validate_japanese_main_post(path: Path, main_post: str) -> list[str]:
         body_lines.append(line)
 
     matching_lines = [line for line in body_lines if line.endswith(JA_SERIES_ENDING)]
-    dated_matches = DATE_RE.findall(str(path))
-    package_date = date(*map(int, dated_matches[-1])) if dated_matches else None
+    package_date = package_date_for(path)
     requires_fixed_template = package_date is None or package_date >= JA_FIXED_TEMPLATE_START
 
     if not matching_lines:
@@ -105,8 +172,11 @@ def validate_file(path: Path, source_prefix: str, *, language: str) -> list[str]
             errors.append(f"{path}: '{name}' block is empty")
 
     if len(blocks) == 3:
+        main_post = blocks[0].strip()
+        errors.extend(validate_main_post_length(path, main_post))
+        errors.extend(validate_identity_sequence(path, main_post, language))
         if language == "ja":
-            errors.extend(validate_japanese_main_post(path, blocks[0].strip()))
+            errors.extend(validate_japanese_main_post(path, main_post))
 
         source_note = blocks[2].strip()
         if not source_note.startswith(source_prefix):

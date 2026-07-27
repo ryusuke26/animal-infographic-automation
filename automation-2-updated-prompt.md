@@ -132,11 +132,22 @@ hero, cards, and footer must feel like one authored poster.
 Build X files from `templates/x-post-copy-template.md`. Keep main post, ALT
 text, and labeled source/context reply in three separate fenced `text` blocks.
 
-The main post is not a recap of card 1, card 2, and card 3. Open with a
-species-specific scene, question, image, or action; reveal the organism through
-a short discovery progression; connect at least two locked facts in natural
-prose; vary sentence rhythm; and keep the status quiet at the end. Do not reuse
-yesterday's opening or a numbered/bulleted fact pattern.
+The main post is a complete, separate reading experience, not a recap of card
+1, card 2, and card 3. ALT text and the source/context reply are separate posts,
+so do not compress the story merely to make room for them. Open with a
+species-specific scene, question, image, or action; place the public common and
+scientific names on adjacent standalone lines after the hook; then let the
+reader follow a connected discovery progression. Use concrete habitat,
+appearance, movement, and consequence details in the order that best fits the
+species. Connect at least two locked facts in natural prose and vary sentence
+rhythm. When the evidence supports it, aim for roughly 220-275 Unicode
+characters including line breaks; never pad weak copy and never exceed 275
+characters in a new main-post block. Draft naturally first, then trim repeated
+modifiers, duplicated facts, or an expendable transition before cutting the
+sensory hook, the action-to-meaning payoff, or the Japanese series ending. Avoid
+unsupported absolutes, exclusivity, purpose-driven evolution wording,
+yesterday's opening, and numbered/bulleted fact patterns. Keep the status quiet
+at the end.
 
 For packages dated 2026-07-21 or later, Japanese main copy includes:
 

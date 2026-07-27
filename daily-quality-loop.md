@@ -51,6 +51,7 @@ same kind of issue is likely to matter again.
 #literal-ja
 #tone-drift
 #noun-stack
+#post-story-compression
 #species-identity-drift
 #image-text-error
 #layout-overcrowded
