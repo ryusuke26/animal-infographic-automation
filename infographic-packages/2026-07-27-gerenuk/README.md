@@ -1,10 +1,10 @@
 # Gerenuk Infographic Package
 
 - Date: 2026-07-27
-- Package state: `completed, local-ready`
-- Publication state: `not published`
+- Package state: `completed, published`
+- Publication state: `published to GitHub`
 - Workflow mode: Quality Run
-- Workflow position: Phase 4 visual and mechanical QA complete
+- Workflow position: Phase 5 complete and published
 
 ## Topic Lock
 
@@ -110,4 +110,5 @@ Rejected English generations are preserved for audit:
 - User-supplied official screenshot/PDF: preserved and propagated into source
   notes
 - Full package validation: passed
-- GitHub publishing: not attempted
+- GitHub publishing: completed in package commit `901e65c`; narrative X
+  workflow improvements were published in commit `17c6f88`

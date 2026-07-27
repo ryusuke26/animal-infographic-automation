@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-27T12:25:43+09:00
+Updated: 2026-07-27T12:45:25+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -37,7 +37,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest completed package: `2026-07-27-gerenuk`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production: separate complete Japanese and English ImageGen posters.
   Japanese passed on its first generation. The English first generation and
   one targeted retry both substituted a curly apostrophe for the locked ASCII
@@ -58,13 +58,9 @@ This file is the small replace-in-place state record for Automation
   consequence details when supported; aim for roughly 220-275 characters
   without filler, and enforce a 275-character maximum for packages dated
   2026-07-28 onward.
-- GitHub closeout: blocked on 2026-07-27 before staging because the current
-  execution path cannot create `.git/index.lock`. System Git also cannot reach
-  github.com. The connected GitHub app confirmed admin/push permission and that
-  remote `master` is still identical to
-  `b03881729632422f7e4baf5aa96f84cf06374646`, but no remote mutation was made
-  because publishing without a matching local commit would desynchronize the
-  canonical checkout. No stale index lock remains.
+- GitHub closeout: package commit `901e65c` and narrative X workflow commit
+  `17c6f88` were published to `origin/master`; the published-state metadata
+  commit and remote ref were verified during closeout.
 
 ## Recent-Eight Region Rotation
 
