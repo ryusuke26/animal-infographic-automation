@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-28T13:33:40+09:00
+Updated: 2026-07-28T13:44:53+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -42,7 +42,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest completed package: `2026-07-28-kea`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production: separate complete Japanese and English ImageGen posters.
   Japanese passed on its first generation. The first English generation changed
   the footer to `2017 : Endangered(EN)`; one targeted correction restored the
@@ -66,11 +66,12 @@ This file is the small replace-in-place state record for Automation
 - Evidence correction: the user-supplied official screenshot and matching PDF
   were preserved with hashes and synchronized through README, sources QA,
   INDEX, X source replies, and sidecars. Poster footers remain correct.
-- GitHub closeout: resumed on 2026-07-28 through the established system-Git
+- GitHub closeout: completed on 2026-07-28 through the established system-Git
   direct-push route after confirming the earlier CLI approval installed or
-  authenticated nothing. Package commit `da148a4` is complete; workflow commit,
-  push, remote verification, and published-state metadata remain pending. The
-  package is still local-ready until those steps finish.
+  authenticated nothing. Package commit `da148a4` and workflow commit
+  `1cdebcd` were pushed to `origin/master`; the remote ref was verified at
+  `1cdebcd38b1b377dddc0e6bab3e61ba80c8f719d` before this published-state
+  metadata commit.
 
 ## Recent-Eight Region Rotation
 

@@ -1,8 +1,8 @@
 # Kea Infographic Package
 
 - Date: 2026-07-28
-- Package state: `completed, local-ready`
-- Publication state: `local only`
+- Package state: `completed, published`
+- Publication state: `published to GitHub`
 - Workflow mode: Quality Run
 - Workflow position: Phase 5 complete
 
@@ -127,4 +127,5 @@ Rejected English generation preserved for audit:
   notes
 - X format validation: passed
 - Full package validation: passed
-- GitHub publishing: not requested and not attempted
+- GitHub publishing: package commit `da148a4`; four-block posting workflow
+  commit `1cdebcd`; published-state metadata follows in the closeout commit
