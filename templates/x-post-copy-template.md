@@ -1,52 +1,64 @@
 # X post copy template
 
-Use one file per language. Keep exactly these three sections and put each copy target in its own fenced `text` code block.
+Use one file per language. For packages dated 2026-07-28 or later, keep exactly
+these four sections and put each copy target in its own fenced `text` block:
+main post, story reply, ALT text, and source/context reply. Earlier three-block
+packages are grandfathered and need not be rewritten.
 
 ## Main post
 
-For Japanese packages dated 2026-07-21 or later, include the exact closing line `それが<日本語の種名>の、ちょっと不思議な暮らし。` before the footer/hashtags. Replace `<日本語の種名>` with the public Japanese poster title. Let `それが` gather the preceding scene and behavior; do not repeat those facts inside the closing line. Earlier packages are grandfathered and need not be rewritten.
-Do not use `ちょっと不思議な暮らしがあります。` or `ちょっと不思議な暮らしをしています。`.
-
-Write the main post as a miniature natural-history story, not as the three
-poster cards copied into sentences.
-
-- Treat the main post as a complete, separate reading experience. ALT text and
-  the source/context reply are separate posts, so do not compress the story
-  merely to make room for them.
-- Keep the established main-post sequence: open with one species-specific
-  scene, image, question, or action; then put the public common name and
-  scientific name on two adjacent standalone lines; then continue the
-  discovery story. Do not omit or fold those identity lines into prose.
+- Attach both accepted posting PNGs, Japanese and English, to this post.
+- Open with one species-specific scene, image, question, or action.
+- Put the public common name and scientific name on two adjacent standalone
+  lines after the hook. Do not fold them into prose.
+- Follow with the quiet conservation-status footer.
+- End with 1-2 hashtags. Always include the English common name with spaces and
+  punctuation removed, for example `#Kea` or `#HimalayanMonal`.
+- Keep this post short. The fuller natural-history story belongs in the first
+  reply.
 - Avoid a generic definition such as `<name>は〜です` in the opening.
 - Reveal the name after the hook when that improves curiosity.
-- After the identity lines, let the reader follow one observable progression,
-  such as setting -> visible identity -> movement -> consequence. Connect at
-  least two locked facts through cause, contrast, movement, or observation
-  instead of listing them. Do not reuse this exact progression mechanically
-  when another order better fits the species.
-- Vary short and long lines. Do not use numbered facts or three parallel bullet
-  sentences.
-- When the evidence supports it, use the available space for concrete habitat,
-  body, and behavior detail. Aim for roughly 220-275 Unicode characters,
-  including line breaks, rather than defaulting to an undersized teaser. Never
-  add filler solely to reach that range. New main-post blocks must not exceed
-  275 characters.
-- Draft the natural version first, then count it. If it is long, remove repeated
-  modifiers, duplicated facts, or an expendable transition before cutting the
-  sensory hook, the action-to-meaning payoff, or the Japanese series ending.
-- Avoid unsupported absolutes (`only`, `exclusive`, `nothing else can reach`)
-  and purpose-driven evolution wording such as `evolved in order to`.
 - Compare the latest two completed posts and change the opening and sentence
   pattern when they feel repeated.
-- Keep conservation status quiet at the end. Use 0-2 hashtags.
 
 ```text
 <species-specific hook>
 <public common name on its own line>
 <scientific name on its own line>
 
+<quiet status footer>
+<#EnglishCommonName hashtag, plus at most one series hashtag>
+```
+
+## Story reply
+
+Write the first reply as the fuller natural-history story, not as the three
+poster cards copied into sentences.
+
+- Let the reader follow one observable progression, such as setting -> visible
+  identity -> movement -> consequence. Connect at least two locked facts
+  through cause, contrast, movement, or observation instead of listing them.
+- Vary short and long sentences. Do not use numbered facts or three parallel
+  bullet sentences.
+- Use concrete habitat, body, and behavior detail when the evidence supports
+  it. Never add filler solely to use the available limit.
+- Count this reply independently from the main post, ALT text, and source
+  reply. It must not exceed 275 Unicode characters.
+- If the composer highlights only an overflow segment, preserve the established
+  structure and fuller story. Shorten only enough low-value wording to clear
+  that overflow instead of broadly rewriting the reply.
+- Avoid unsupported absolutes (`only`, `exclusive`, `nothing else can reach`)
+  and purpose-driven evolution wording such as `evolved in order to`.
+- For Japanese packages dated 2026-07-21 or later, end with the exact standalone
+  line `それが<日本語の種名>の、ちょっと不思議な暮らし。`. Replace the placeholder
+  with the public Japanese poster title. Do not use
+  `ちょっと不思議な暮らしがあります。` or
+  `ちょっと不思議な暮らしをしています。`.
+
+```text
 <fuller connected discovery story>
-<quiet status footer and hashtags>
+
+<Japanese exact series ending when applicable>
 ```
 
 ## ALT text

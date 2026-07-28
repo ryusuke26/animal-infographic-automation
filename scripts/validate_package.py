@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 import re
 import struct
 import subprocess
@@ -36,7 +37,10 @@ ACTIVE_EXCLUDE_WORDS = (
 )
 TEXT_SUFFIXES = (".css", ".html", ".js", ".json", ".md", ".svg", ".txt")
 TEXT_BLOCK_RE = re.compile(r"```text\r?\n(.*?)\r?\n```", re.DOTALL)
-SIDECAR_KINDS = ("caption", "alt", "source-note")
+LEGACY_SIDECAR_KINDS = ("caption", "alt", "source-note")
+STORY_SIDECAR_KINDS = ("caption", "story-reply", "alt", "source-note")
+STORY_REPLY_START = date(2026, 7, 28)
+DATE_RE = re.compile(r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)")
 PUBLIC_NAMING_LABELS = (
     "英名の音写",
     "仮称",
@@ -50,6 +54,18 @@ def rel(path: Path, root: Path) -> str:
         return path.relative_to(root).as_posix()
     except ValueError:
         return str(path)
+
+
+def package_date_for(path: Path) -> date | None:
+    dated_matches = DATE_RE.findall(str(path))
+    return date(*map(int, dated_matches[-1])) if dated_matches else None
+
+
+def sidecar_kinds_for(package: Path) -> tuple[str, ...]:
+    package_date = package_date_for(package)
+    if package_date is None or package_date >= STORY_REPLY_START:
+        return STORY_SIDECAR_KINDS
+    return LEGACY_SIDECAR_KINDS
 
 
 def read_utf8(path: Path, errors: list[str]) -> str:
@@ -360,7 +376,8 @@ def validate_copy_ready_sidecars(package: Path, errors: list[str]) -> None:
         if not x_path.is_file():
             continue
         blocks = TEXT_BLOCK_RE.findall(read_utf8(x_path, errors))
-        if len(blocks) != 3:
+        sidecar_kinds = sidecar_kinds_for(package)
+        if len(blocks) != len(sidecar_kinds):
             continue
 
         posting_pngs = sorted(
@@ -369,7 +386,7 @@ def validate_copy_ready_sidecars(package: Path, errors: list[str]) -> None:
             if is_active_png(path)
         )
         for posting in posting_pngs:
-            for kind, expected in zip(SIDECAR_KINDS, blocks):
+            for kind, expected in zip(sidecar_kinds, blocks):
                 sidecar = posting.with_suffix(f".{kind}.txt")
                 if not sidecar.is_file():
                     errors.append(f"{sidecar}: required copy-ready sidecar is missing")
@@ -428,9 +445,9 @@ def validate_public_naming_and_evidence(
                 if not x_path.is_file():
                     continue
                 blocks = TEXT_BLOCK_RE.findall(read_utf8(x_path, errors))
-                if len(blocks) != 3:
+                if len(blocks) != len(sidecar_kinds_for(package)):
                     continue
-                source_note = blocks[2].casefold()
+                source_note = blocks[-1].casefold()
                 if not any(marker.casefold() in source_note for marker in markers):
                     errors.append(
                         f"{x_path}: partner/fallback IUCN route requires the "

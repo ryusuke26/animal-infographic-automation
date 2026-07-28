@@ -168,3 +168,60 @@ most one skill, prompt, template, or policy improvement from that review.
 
 Do not add date-window counting, dashboards, or extra tracking unless the
 simple tag loop stops working in practice.
+
+## 2026-07-28 — Kea English footer spacing
+
+Daily Quality Loop
+- issue: the first English poster changed the locked footer from
+  `2017: Endangered (EN)` to `2017 : Endangered(EN)`.
+  priority: quality-drift
+  tags: #image-text-error
+  cause: the prompt required verbatim text but did not spell out the exact
+  ASCII spacing around the colon and parentheses.
+  next_action: resolved by one targeted English correction
+  tomorrow_change: state ASCII punctuation spacing explicitly in the first
+  English Image Gen prompt
+
+Improvement Resolution
+- tag: #image-text-error
+- count_since_last_fix: 3
+- threshold: 3
+- improvement_applied: explicit first-prompt spacing invariants for English
+  ASCII punctuation
+- files_changed: automation-2-production-policy.md,
+  automation-2-updated-prompt.md, automation-2-current-state.md
+- validation: Kea visual/text QA, X validation, full package QA, prompt sync,
+  and whitespace checks passed
+- counter_reset: yes
+
+## 2026-07-28 — Four-part posting sequence and English-name hashtag
+
+Daily Quality Loop
+- issue: the posting set flattened the short image-attached main post and the
+  fuller first-reply story into one block, so an overflow correction compressed
+  the wrong surface.
+  priority: quality-drift
+  tags: #post-scope-drift
+  cause: the workflow modeled main post, ALT, and source reply but did not
+  represent the story reply as its own posting target.
+  next_action: resolved by restoring the fuller Kea body and recording
+  a four-block posting set: main post, story reply, ALT, and source reply
+  tomorrow_change: attach both language posters to the short main post, put the
+  fuller story in the first reply, trim only the block that actually overflows,
+  and add the English common-name hashtag to both main posts
+
+Improvement Resolution
+- tag: #post-scope-drift
+- count_since_last_fix: user-directed standardization
+- threshold: explicit user preference; no automatic threshold wait
+- improvement_applied: canonical four-block posting sequence, eight synchronized
+  sidecars, minimal story-reply overflow trimming, and mandatory English-name
+  hashtag such as `#Kea`
+- files_changed: templates/x-post-copy-template.md,
+  automation-2-production-policy.md, automation-2-updated-prompt.md,
+  scripts/validate_x_post_format.py, automation-2-current-state.md, and Kea
+  posting files
+- validation: current bilingual four-block X format, misplaced-story rejection,
+  hashtag rejection, eight-sidecar package QA, live-prompt equality, and
+  whitespace checks passed
+- counter_reset: yes

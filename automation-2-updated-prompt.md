@@ -129,27 +129,30 @@ Do not default to three equal software-style panels. Compose the cards, border,
 palette, and negative space around the organism's body plan. The title, habitat,
 hero, cards, and footer must feel like one authored poster.
 
-Build X files from `templates/x-post-copy-template.md`. Keep main post, ALT
-text, and labeled source/context reply in three separate fenced `text` blocks.
+Build X files from `templates/x-post-copy-template.md`. Keep main post, story
+reply, ALT text, and labeled source/context reply in four separate fenced
+`text` blocks.
 
-The main post is a complete, separate reading experience, not a recap of card
-1, card 2, and card 3. ALT text and the source/context reply are separate posts,
-so do not compress the story merely to make room for them. Open with a
-species-specific scene, question, image, or action; place the public common and
-scientific names on adjacent standalone lines after the hook; then let the
-reader follow a connected discovery progression. Use concrete habitat,
-appearance, movement, and consequence details in the order that best fits the
-species. Connect at least two locked facts in natural prose and vary sentence
-rhythm. When the evidence supports it, aim for roughly 220-275 Unicode
-characters including line breaks; never pad weak copy and never exceed 275
-characters in a new main-post block. Draft naturally first, then trim repeated
-modifiers, duplicated facts, or an expendable transition before cutting the
-sensory hook, the action-to-meaning payoff, or the Japanese series ending. Avoid
-unsupported absolutes, exclusivity, purpose-driven evolution wording,
-yesterday's opening, and numbered/bulleted fact patterns. Keep the status quiet
-at the end.
+The main post is the short image-attached doorway. Attach both accepted posting
+PNGs. Open with a species-specific scene, question, image, or action; place the
+public common and scientific names on adjacent standalone lines; follow with
+the quiet status footer and 1-2 hashtags. Both language versions include the
+English common-name hashtag with spaces and punctuation removed, for example
+`#Kea` or `#HimalayanMonal`.
 
-For packages dated 2026-07-21 or later, Japanese main copy includes:
+Put the complete natural-history story in the first reply, not in the main
+post. It is not a recap of card 1, card 2, and card 3. Let the reader follow a
+connected discovery progression using concrete habitat, appearance, movement,
+and consequence details in the order that best fits the species. Connect at
+least two locked facts in natural prose and vary sentence rhythm. Count the
+story reply independently from the main post, ALT text, and source reply.
+Neither main post nor story reply may exceed 275 Unicode characters. If only an
+overflow segment is flagged, preserve the established structure and fuller
+story and trim only enough low-value wording to clear it. Avoid unsupported
+absolutes, exclusivity, purpose-driven evolution wording, yesterday's opening,
+and numbered/bulleted fact patterns.
+
+For packages dated 2026-07-21 or later, the Japanese story reply ends with:
 
 ```text
 それが<日本語の種名>の、ちょっと不思議な暮らし。
@@ -198,6 +201,11 @@ handmade medium, hierarchy, and card concept without requiring pixel-identical
 placement. Apply the same acceptance criteria and allow at most one targeted
 English regeneration.
 
+When the English Copy Lock contains ASCII punctuation, state its exact spacing
+in the first English Image Gen prompt, for example `no space before the colon`,
+`one space after the colon`, and `one space before (EN)`. This is part of the
+initial prompt, not a reason for an extra regeneration.
+
 Both direct posters must themselves be true vertical 2:3. Reject a wrong-ratio
 source; do not crop, stretch, or pad it into compliance.
 
@@ -219,7 +227,7 @@ package `needs review` or `incomplete`.
 
 ## Phase 4 - Editorial, visual, and mechanical QA
 
-Create six posting sidecars from the three fenced blocks in each X-post file.
+Create eight posting sidecars from the four fenced blocks in each X-post file.
 README links prominently to `x-post-ja.md`, `x-post-en.md`, both direct Image
 Gen posters, both posting PNGs, and sidecars.
 
@@ -231,10 +239,12 @@ Check:
 - Copy Lock text is exact and legible;
 - the whole composition remains coherent at full size and phone size;
 - no generic dashboard/card treatment or card placement that buries the hero;
-- each X main post works as a small natural-history story rather than a poster
+- each main post is a short doorway for the two attached language posters;
+- each story reply works as a small natural-history story rather than a poster
   transcription;
 - its opening and sentence pattern do not repeat either of the latest two
   completed posts;
+- both language main posts include the English common-name hashtag;
 - ALT text describes the accepted poster;
 - both posting PNGs are exactly `1024x1536`;
 - sidecars match X blocks.

@@ -181,32 +181,42 @@ default to three equal software-style rectangles. Card size, placement, border,
 icon, and color may vary to support the species, while remaining a coherent
 paired-language design.
 
-Build both X files from `templates/x-post-copy-template.md`. Each contains three
-fenced `text` blocks: main post, ALT text, and labeled source/context reply.
+Build both X files from `templates/x-post-copy-template.md`. New packages
+contain four fenced `text` blocks: main post, story reply, ALT text, and labeled
+source/context reply.
 
-The main post is not a transcription of the three cards. It must:
+Attach both accepted posting PNGs to the main post. The main post must:
 
-- work as a complete, separate reading experience because ALT text and the
-  source/context reply are posted separately;
 - open with a species-specific scene, image, question, or action;
 - place the public common and scientific names on adjacent standalone lines
   after the hook;
+- place the quiet conservation-status footer after the identity lines;
+- include the English common-name hashtag in both language versions, with
+  spaces and punctuation removed, such as `#Kea` or `#HimalayanMonal`;
+- remain a short doorway into the attached bilingual posters rather than
+  carrying the full natural-history explanation.
+
+The first story reply is not a transcription of the three cards. It must:
+
 - reveal the organism through a connected discovery progression, letting
   setting, visible identity, movement, and consequence unfold in the order
   that best fits the species;
 - connect at least two locked facts in natural prose;
 - vary sentence length and rhythm;
 - avoid numbered lists, flat fact bullets, and the previous day's opening;
-- aim for roughly 220-275 Unicode characters including line breaks when the
-  evidence supports a fuller story, without padding weak copy;
-- never exceed 275 characters in a new main-post block;
+- use available space for a fuller story when evidence supports it, without
+  padding weak copy;
+- never exceed 275 characters in either a new main-post or story-reply block;
 - trim repeated modifiers, duplicated facts, or expendable transitions before
   cutting the sensory hook, action-to-meaning payoff, or series ending;
+- count the story reply independently from the main post, ALT, and
+  source/context blocks; when only an overflow segment is flagged, preserve the
+  structure and fuller story and trim only enough low-value wording to clear
+  that overflow;
 - avoid unsupported absolutes, exclusivity, and purpose-driven evolution
-  wording;
-- keep conservation status quiet at the end.
+  wording.
 
-Japanese posts dated 2026-07-21 or later retain:
+Japanese story replies dated 2026-07-21 or later retain:
 
 `それが<日本語の種名>の、ちょっと不思議な暮らし。`
 
@@ -253,6 +263,11 @@ habitat, palette, handmade medium, hierarchy, and card concept without forcing
 pixel-identical placement. Inspect it against the same standard and make at most
 one targeted regeneration for a material English-version issue.
 
+When the English Copy Lock contains ASCII punctuation, state its exact spacing
+in the first English Image Gen prompt, for example `no space before the colon`,
+`one space after the colon`, and `one space before (EN)`. This is part of the
+initial prompt, not a reason for an extra regeneration.
+
 The direct posters must themselves be true vertical 2:3. Do not crop, stretch,
 or add padding to repair a wrong source ratio.
 
@@ -276,7 +291,7 @@ complete a new Quality Run.
 
 ### 4. Editorial, visual, and mechanical QA
 
-Create six posting sidecars from the three fenced blocks in each X-post file.
+Create eight posting sidecars from the four fenced blocks in each X-post file.
 README links prominently to `x-post-ja.md`, `x-post-en.md`, both direct Image
 Gen posters, both posting PNGs, and the sidecars.
 
@@ -289,7 +304,9 @@ Perform one deliberate QA pass:
 - confirm the title, scientific name, three labels, and footer match Copy Lock;
 - judge the integrated composition at full size and phone size;
 - reject generic dashboard/card styling or cards that bury the hero;
-- read each X main post aloud and reject flat poster-summary prose;
+- confirm the main post is the short image-attached doorway and the first reply
+  carries the connected natural-history story;
+- read each story reply aloud and reject flat poster-summary prose;
 - compare the latest two completed X files and rewrite any repeated opening or
   sentence pattern;
 - confirm ALT text describes the actual accepted poster;
@@ -340,7 +357,7 @@ images/
   species_slug_english_imagegen_YYYY-MM-DD.png
   species_slug_japanese_posting_YYYY-MM-DD.png
   species_slug_english_posting_YYYY-MM-DD.png
-  six posting sidecars
+  eight posting sidecars
 ```
 
 The two complete direct Image Gen posters and their exact-size posting versions
@@ -357,11 +374,12 @@ are canonical assets.
 - Keep naming caveats in `sources-qa.md`, not on the poster.
 - Use a short label-free status footer.
 - Keep source labels only in source/context replies.
-- Treat X main copy as a miniature natural-history story, not as three poster
-  labels joined by line breaks.
-- Because the three posting blocks are separate, give the main post enough room
-  to show an observed action and why it matters. Do not shorten it into a teaser
-  merely to accommodate ALT text or sources.
+- Treat the main post as a short image-attached doorway: hook, identity,
+  conservation footer, and hashtags.
+- Treat the first story reply as a miniature natural-history story, not as
+  three poster labels joined by line breaks.
+- Count the four posting blocks independently and trim only the block that
+  actually exceeds its limit.
 
 ## Approval and User-Input Rules
 
