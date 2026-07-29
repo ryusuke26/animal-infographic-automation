@@ -1,8 +1,8 @@
 # Pygmy Three-toed Sloth Infographic Package
 
 - Date: 2026-07-29
-- Package state: `completed, local-ready`
-- Publication state: `local-ready; not published`
+- Package state: `completed, published`
+- Publication state: `published to origin/master`
 - Workflow mode: Quality Run recovered through a Rescue Run redesign
 - Risk handling: Caution check for current species-level taxonomy and
   three-toed-sloth lookalike anatomy
@@ -143,4 +143,7 @@ Plain-text sidecars are synchronized backups:
 - Eight posting sidecars: synchronized
 - X format validation: passed
 - Full package validation: passed
-- GitHub publishing: not attempted
+- GitHub publishing: package commit `bd42f94` and current-state commit
+  `cc6ff27` were pushed to `origin/master`; the remote ref was verified at
+  `cc6ff27b7cf0913cb9d7b4fd1b89d18de28b5611` before the published-state
+  metadata commit.

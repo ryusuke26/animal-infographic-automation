@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-29T13:33:45+09:00
+Updated: 2026-07-29T13:38:47+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -47,7 +47,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest package: `2026-07-29-pygmy-three-toed-sloth`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production: the initially accepted Japanese and English pair was rejected
   after the user found a fifth limb. The first targeted edit masked only the
   claw endpoint and did not remove the limb; later full-remake drafts had
@@ -78,10 +78,10 @@ This file is the small replace-in-place state record for Automation
   22 April 2022, and publication year 2022. Both source replies now cite this
   direct route; the earlier access caveat is removed. The possible synonym
   note stays in README and sources QA rather than public poster copy.
-- GitHub publishing: the user resumed the established direct-`master`
-  closeout. The remote preflight now passes and the scoped package/INDEX
-  commit is `bd42f94`; push and authoritative remote-ref verification are
-  pending. State remains `completed, local-ready` until both succeed.
+- GitHub publishing: package/INDEX commit `bd42f94` and current-state commit
+  `cc6ff27` were pushed to `origin/master`; the authoritative remote ref was
+  verified at `cc6ff27b7cf0913cb9d7b4fd1b89d18de28b5611` before this
+  published-state metadata commit.
 
 ## Recent-Eight Region Rotation
 
