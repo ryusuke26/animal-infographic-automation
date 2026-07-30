@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-29T13:38:47+09:00
+Updated: 2026-07-30T23:14:51+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -18,25 +18,25 @@ This file is the small replace-in-place state record for Automation
   remains unavailable, ambiguous, or conflicting.
 - Pending evidence package: none.
 - Active package: none.
-- Evidence route: user-supplied official IUCN species-page screenshot and
-  matching 12-page assessment PDF for `e.T61925A210445926`, supplemented by
-  the ASM Mammal Diversity Database, the IUCN SSC Anteater, Sloth and Armadillo
-  Specialist Group, METI's current CITES fauna appendix, Smithsonian biology
-  review, and the *Mammalian Species* account.
-- Confirmed: current accepted treatment *Bradypus pygmaeus*, Japanese name
-  ピグミーミツユビナマケモノ, Global Critically Endangered (CR), criteria
-  `B1ab(ii,iii)+2ab(ii,iii)`, assessed 22 April 2022 and published 2022, Isla
-  Escudo de Veraguas mangrove and tropical-forest habitat, algae-green fur,
-  and recorded arboreal, terrestrial, and swimming movement.
-  The ASM database's possible *B. variegatus* synonym note remains an internal
-  taxonomy caution.
-- Phase 0 preflight: passed on 2026-07-29 in the no-approval local automation
+- Evidence route: formal IUCN 2016 assessment DOI
+  `e.T41771A100469961`, Mammal Diversity Database taxonomy, Yokohama
+  Zoological Gardens, Tobe Zoo, and the IUCN SSC February 2026 African
+  wild-pig reassessment meeting note.
+- Confirmed: *Potamochoerus porcus*, Red River Hog / アカカワイノシシ,
+  Global Least Concern (LC) in the current formal 2016 assessment, West and
+  Central African forest and thicket habitat, red-brown coat with white face
+  and dorsal markings, long pale ear tassels, and mainly after-dusk group
+  foraging for roots and fallen fruit.
+- Caution: the 2026 IUCN SSC meeting suggested retaining LC with a decreasing
+  trend, but the reassessment had not yet been published. Public status copy
+  uses only the current formal 2016 assessment.
+- Phase 0 preflight: passed on 2026-07-30 in the no-approval local automation
   path.
-- Pygmy Three-toed Sloth Quality Run: completed through Phase 5 on 2026-07-29.
-  The direct IUCN and BirdLife page bodies were initially policy-blocked, so
-  the rejected Cuban Tody candidate was dropped before lock. The final
-  species' user-supplied official IUCN screenshot and matching PDF later
-  replaced the fallback route and removed the public access caveat.
+- Duplicate correction: the first topic lock incorrectly treated ホライモリ as
+  distinct from the completed Olm / *Proteus anguinus* package dated
+  2026-04-30. The invalid draft was moved outside `infographic-packages`,
+  INDEX and state were restored, and the replacement topic passed exact
+  scientific, English, and Japanese name searches before lock.
 - Live Automation prompt sync: completed on 2026-07-26 with the Quality Run
   prompt and refreshed on 2026-07-28 with explicit first-prompt ASCII spacing
   invariants, the four-part posting sequence, minimal story-reply overflow
@@ -46,71 +46,56 @@ This file is the small replace-in-place state record for Automation
 
 ## Latest Package
 
-- Latest package: `2026-07-29-pygmy-three-toed-sloth`.
+- Latest package: `2026-07-30-red-river-hog`.
 - State: `completed, published`.
-- Production: the initially accepted Japanese and English pair was rejected
-  after the user found a fifth limb. The first targeted edit masked only the
-  claw endpoint and did not remove the limb; later full-remake drafts had
-  unnatural hindlimbs or a detached-looking forelimb. The user then authorized
-  abandoning the failing composition.
-- Visual QA: the user supplied a Gemini poster as the natural pose reference.
-  The user then directed a full composition redesign because the repeated
-  diagonal-branch layout kept inducing anatomy failures. The user accepted the
-  completely new Japanese poster built around one horizontal branch and a
-  suspended side-profile hero: two hindlimbs at the left/back, two forelimbs
-  at the right/front, four separate grip points, and three unequal observation
-  elements in the surrounding negative space. The English companion preserved
-  that exact anatomy and composition. Both direct/posting pairs are exact
-  1024x1536 and pixel-identical.
-- Cleanup: at the user's request, ten rejected, superseded, or byte-duplicate
-  PNGs were moved to the Windows Recycle Bin. Only the four canonical poster
-  PNGs remain in `images/`; the Gemini pose reference and official IUCN
-  evidence were preserved. X-format validation, full package QA, exact
-  1024x1536 dimensions, direct/posting pixel identity, and whitespace checks
-  passed after metadata synchronization.
-- Posting QA: four-block posting sets follow the short-main, first-reply story,
-  media ALT, and source/context sequence. Main-post lengths are Japanese 116
-  and English 158; story-reply lengths are Japanese 141 and English 217. Both
-  main posts include `#PygmyThreetoedSloth`, and the opening differs from the
-  Kea and Gerenuk scenes.
-- Evidence correction: the official IUCN screenshot and matching PDF directly
-  confirm Global CR, criteria `B1ab(ii,iii)+2ab(ii,iii)`, assessment date
-  22 April 2022, and publication year 2022. Both source replies now cite this
-  direct route; the earlier access caveat is removed. The possible synonym
-  note stays in README and sources QA rather than public poster copy.
-- GitHub publishing: package/INDEX commit `bd42f94` and current-state commit
-  `cc6ff27` were pushed to `origin/master`; the authoritative remote ref was
-  verified at `cc6ff27b7cf0913cb9d7b4fd1b89d18de28b5611` before this
-  published-state metadata commit.
+- Production: Japanese direct poster passed on its first generation. The first
+  English companion preserved the accepted composition but rendered the footer
+  as `2016 : Least Concern (LC)`; one targeted correction restored the locked
+  spacing without changing accepted art.
+- Visual QA: both posters show one unobstructed adult Red River Hog in humid
+  forest after sunset, with a brick-red coat, dark legs and muzzle, narrow
+  white face lines, white dorsal mane, long pale ear tassels, cloven hooves,
+  and a short tufted tail. Warthog and domestic-pig traits are absent.
+- Composition QA: each poster uses exactly three unequal numbered illustrated
+  cards around the hero for forest/thicket habitat, red-and-white identity,
+  and after-dusk group foraging. Text is readable at phone size.
+- Posting QA: four-block X sets use a short ear-tassel doorway, a connected
+  forest-to-foraging story reply, actual-poster ALT text, and labeled source
+  context. Both main posts include `#RedRiverHog`; eight sidecars match.
+- Mechanical QA: both direct/posting pairs are exact 1024x1536; X format,
+  full package validation, and whitespace checks passed.
+- GitHub publishing: package/INDEX commit `fc6099c` was pushed to
+  `origin/master`; the authoritative remote ref was verified at
+  `fc6099c6a988f01e68b3f06d68e97870a57f02ad` before this published-state
+  metadata commit.
 
 ## Recent-Eight Region Rotation
 
-1. 2026-07-22 — North America — Pinyon Jay
-2. 2026-07-23 — Europe — Alpine Salamander
-3. 2026-07-24 — South America — *Lysurus fossatii*
-4. 2026-07-25 — Ocean/Global — Pelican Eel
-5. 2026-07-26 — Asia — Himalayan Monal
-6. 2026-07-27 — Africa — Gerenuk
-7. 2026-07-28 — Australia/Oceania — Kea
-8. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
+1. 2026-07-23 — Europe — Alpine Salamander
+2. 2026-07-24 — South America — *Lysurus fossatii*
+3. 2026-07-25 — Ocean/Global — Pelican Eel
+4. 2026-07-26 — Asia — Himalayan Monal
+5. 2026-07-27 — Africa — Gerenuk
+6. 2026-07-28 — Australia/Oceania — Kea
+7. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
+8. 2026-07-30 — Africa — Red River Hog
 
-Previous completed region: Central America/Caribbean.
+Previous completed region: Africa.
 
 ## Verified Workspace Runtime
 
 - Bundled Python:
   `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
-- Last verification: bundled runtime loaded on 2026-07-29. The completed Pygmy
-  Three-toed Sloth Quality Run passed pre-image Copy Lock, separate
-  direct-poster visual QA, phone-size QA, pixel equality, X/sidecar checks, and
-  full package QA.
+- Last verification: bundled runtime loaded on 2026-07-30. The completed Red
+  River Hog Quality Run passed pre-image Copy Lock, separate direct-poster
+  visual QA, phone-size QA, exact dimensions, X/sidecar checks, and full
+  package QA.
 
 ## Daily Quality Loop Counters
 
-- `#image-text-error`: 0/3 after threshold improvement and counter reset. The
-  first English Kea poster changed locked footer spacing; one targeted
-  correction resolved it. The initial English prompt must now state exact ASCII
-  punctuation spacing.
+- `#image-text-error`: 1/3 after threshold improvement and counter reset. The
+  first English Red River Hog poster inserted a space before the footer colon
+  despite explicit spacing invariants; one targeted correction resolved it.
 - `#IUCN-unavailable`: historical 2/3. The Gerenuk occurrence was corrected
   with user-supplied official screenshot/PDF evidence; no access caveat remains
   in the package.
@@ -136,13 +121,19 @@ Previous completed region: Central America/Caribbean.
   2026-07-26. Fast Run made the poster and X copy mechanically consistent but
   visibly generic; the default was restored to complete direct Image Gen
   posters and narrative posting copy.
+- `#topic-alias-duplication`: 1/2. The initial ホライモリ lock duplicated the
+  completed Olm / *Proteus anguinus* package. The user caught it; the draft was
+  removed from package scope and the replacement topic was checked by exact
+  scientific, English, and Japanese names before lock.
 
 ## Next Concrete Change
 
-- On the next new-topic run, begin with the one-batch Quality Run preflight.
-  The latest eight now contain each broad region once; choose for lineage,
-  habitat, and visual variety while avoiding another Central
-  America/Caribbean topic immediately after this run.
+- On the next new-topic run, begin duplicate screening with the accepted
+  scientific name, then search English and Japanese aliases across memory,
+  INDEX, folder names, and package contents before Evidence Lock.
+- North America is absent from the latest eight and Africa appears twice;
+  prefer a credible North American or otherwise underrepresented alternative
+  and avoid another consecutive Africa topic.
 - During evidence viability, treat an explicit Browser safety-policy block as
   a hard route boundary. Reject the candidate before lock or use a directly
   available official assessment DOI/PDF; use an explicit public caveat only

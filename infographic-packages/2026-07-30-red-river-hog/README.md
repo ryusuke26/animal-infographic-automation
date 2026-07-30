@@ -1,11 +1,11 @@
 # Red River Hog Infographic Package
 
 - Date: 2026-07-30
-- Package state: `completed, local-ready`
-- Publication state: `not published`
+- Package state: `completed, published`
+- Publication state: `published to origin/master`
 - Workflow mode: Quality Run
 - Risk handling: Caution check for the pending 2026 IUCN reassessment
-- Workflow position: Phase 5 local package complete
+- Workflow position: Phase 5 complete and GitHub-published
 
 ## Topic Lock
 
@@ -104,4 +104,7 @@ Rejected English generation preserved for audit:
 - Eight posting sidecars: synchronized
 - X format validation: passed
 - Full package validation: passed
-- GitHub publishing: intentionally out of scope for this automation
+- GitHub publishing: package commit `fc6099c` pushed to `origin/master`; the
+  authoritative remote ref was verified at
+  `fc6099c6a988f01e68b3f06d68e97870a57f02ad` before this published-state
+  metadata commit
