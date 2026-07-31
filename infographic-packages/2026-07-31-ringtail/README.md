@@ -1,12 +1,12 @@
 # Ringtail Infographic Package
 
 - Date: 2026-07-31
-- Package state: `completed, local-ready`
-- Publication state: `local only`
+- Package state: `completed, published`
+- Publication state: `published to origin/master`
 - Workflow mode: Quality Run
 - Risk handling: Quality Run; user-supplied official IUCN page capture and
   matching assessment PDF directly resolved the earlier access caveat
-- Workflow position: Phase 5 complete; GitHub publishing not attempted
+- Workflow position: Phase 5 complete and GitHub-published
 
 ## Topic Lock
 
@@ -118,4 +118,7 @@ poster PNGs remain in this package; official IUCN evidence is preserved.
 - Eight posting sidecars: synchronized
 - X format validation: passed
 - Full package validation: passed
-- GitHub publishing: out of scope for this automation
+- GitHub publishing: package commit `414b0ba` pushed to `origin/master`; the
+  authoritative remote ref was verified at
+  `414b0ba4a944defdd78f70e7f7b744e76bb8f01d` before this published-state
+  metadata commit

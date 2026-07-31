@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-07-30T23:14:51+09:00
+Updated: 2026-07-31T13:19:07+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -18,19 +18,17 @@ This file is the small replace-in-place state record for Automation
   remains unavailable, ambiguous, or conflicting.
 - Pending evidence package: none.
 - Active package: none.
-- Evidence route: formal IUCN 2016 assessment DOI
-  `e.T41771A100469961`, Mammal Diversity Database taxonomy, Yokohama
-  Zoological Gardens, Tobe Zoo, and the IUCN SSC February 2026 African
-  wild-pig reassessment meeting note.
-- Confirmed: *Potamochoerus porcus*, Red River Hog / アカカワイノシシ,
-  Global Least Concern (LC) in the current formal 2016 assessment, West and
-  Central African forest and thicket habitat, red-brown coat with white face
-  and dorsal markings, long pale ear tassels, and mainly after-dusk group
-  foraging for roots and fallen fruit.
-- Caution: the 2026 IUCN SSC meeting suggested retaining LC with a decreasing
-  trend, but the reassessment had not yet been published. Public status copy
-  uses only the current formal 2016 assessment.
-- Phase 0 preflight: passed on 2026-07-30 in the no-approval local automation
+- Evidence route: user-supplied official IUCN species-page capture and matching
+  assessment PDF `e.T41680A45215881`, Mammal Diversity Database taxonomy, the
+  Mammal Science standard Japanese-name list, Animal Diversity Web, and USDA
+  Forest Service.
+- Confirmed: *Bassariscus astutus*, Ringtail / カコミスル, Global Least
+  Concern (LC), assessed 1 March 2015 and published 2016, southwestern United
+  States to Mexico, rocky and riparian habitats, large eyes, a long ringed
+  tail, nocturnal activity, and 180-degree hind-foot rotation during headfirst
+  descents. The official PDF lists current population trend as Unknown; no
+  trend claim is used publicly.
+- Phase 0 preflight: passed on 2026-07-31 in the no-approval local automation
   path.
 - Duplicate correction: the first topic lock incorrectly treated ホライモリ as
   distinct from the completed Olm / *Proteus anguinus* package dated
@@ -46,50 +44,59 @@ This file is the small replace-in-place state record for Automation
 
 ## Latest Package
 
-- Latest package: `2026-07-30-red-river-hog`.
+- Latest package: `2026-07-31-ringtail`.
 - State: `completed, published`.
-- Production: Japanese direct poster passed on its first generation. The first
-  English companion preserved the accepted composition but rendered the footer
-  as `2016 : Least Concern (LC)`; one targeted correction restored the locked
-  spacing without changing accepted art.
-- Visual QA: both posters show one unobstructed adult Red River Hog in humid
-  forest after sunset, with a brick-red coat, dark legs and muzzle, narrow
-  white face lines, white dorsal mane, long pale ear tassels, cloven hooves,
-  and a short tufted tail. Warthog and domestic-pig traits are absent.
+- Production: after user review found the prior headfirst hero and isolated
+  card-3 anatomy unnatural, the bilingual pair was fully remade. The Japanese
+  redesign passed; the first English companion had a wrong 887x1774 ratio, and
+  its one targeted regeneration restored exact 1024x1536.
+- Visual QA: both remade posters show one unobstructed Ringtail walking
+  naturally on all fours across a broad horizontal sandstone ledge, with large
+  dark eyes, pale eye rings, rounded ears, a slender tan-grey body, exactly
+  four continuous limbs, and one attached black-and-pale ringed tail. Cat,
+  raccoon-mask, civet, lemur, detached-paw, and duplicated-tail traits are
+  absent.
 - Composition QA: each poster uses exactly three unequal numbered illustrated
-  cards around the hero for forest/thicket habitat, red-and-white identity,
-  and after-dusk group foraging. Text is readable at phone size.
-- Posting QA: four-block X sets use a short ear-tassel doorway, a connected
-  forest-to-foraging story reply, actual-poster ALT text, and labeled source
-  context. Both main posts include `#RedRiverHog`; eight sidecars match.
-- Mechanical QA: both direct/posting pairs are exact 1024x1536; X format,
-  full package validation, and whitespace checks passed.
-- GitHub publishing: package/INDEX commit `fc6099c` was pushed to
+  cards around the hero for rocky and riparian habitat, large eyes and ringed
+  tail, and the 180-degree hind-foot mechanism. Card 3 now uses one complete
+  descending mini Ringtail instead of detached or floating limb anatomy. Text
+  is readable at phone size.
+- Posting QA: four-block X sets use a moonlit-rock-ledge doorway, a
+  connected habitat-to-climbing story reply, actual-poster ALT text, and
+  labeled source context. Both main posts include `#Ringtail`; eight sidecars
+  match.
+- Mechanical QA: both direct/posting pairs are exact 1024x1536 and
+  pixel-identical; final X format, package validation, and whitespace checks
+  pass after the remake.
+- Cleanup: after user approval, six rejected or superseded Ringtail PNGs were
+  moved to the Windows Recycle Bin. The four canonical poster PNGs and all
+  official IUCN evidence remain.
+- GitHub publishing: package/INDEX commit `414b0ba` was pushed to
   `origin/master`; the authoritative remote ref was verified at
-  `fc6099c6a988f01e68b3f06d68e97870a57f02ad` before this published-state
+  `414b0ba4a944defdd78f70e7f7b744e76bb8f01d` before this published-state
   metadata commit.
 
 ## Recent-Eight Region Rotation
 
-1. 2026-07-23 — Europe — Alpine Salamander
-2. 2026-07-24 — South America — *Lysurus fossatii*
-3. 2026-07-25 — Ocean/Global — Pelican Eel
-4. 2026-07-26 — Asia — Himalayan Monal
-5. 2026-07-27 — Africa — Gerenuk
-6. 2026-07-28 — Australia/Oceania — Kea
-7. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
-8. 2026-07-30 — Africa — Red River Hog
+1. 2026-07-24 — South America — *Lysurus fossatii*
+2. 2026-07-25 — Ocean/Global — Pelican Eel
+3. 2026-07-26 — Asia — Himalayan Monal
+4. 2026-07-27 — Africa — Gerenuk
+5. 2026-07-28 — Australia/Oceania — Kea
+6. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
+7. 2026-07-30 — Africa — Red River Hog
+8. 2026-07-31 — North America — Ringtail
 
-Previous completed region: Africa.
+Previous completed region: North America.
 
 ## Verified Workspace Runtime
 
 - Bundled Python:
   `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
-- Last verification: bundled runtime loaded on 2026-07-30. The completed Red
-  River Hog Quality Run passed pre-image Copy Lock, separate direct-poster
-  visual QA, phone-size QA, exact dimensions, X/sidecar checks, and full
-  package QA.
+- Last verification: bundled runtime loaded on 2026-07-31. The completed
+  Ringtail Quality Run passed pre-image Copy Lock, separate direct-poster
+  anatomy and text QA, phone-size QA, exact dimensions, X/sidecar checks, and
+  full package QA.
 
 ## Daily Quality Loop Counters
 
@@ -108,12 +115,11 @@ Previous completed region: Africa.
   template guidance and a validator check now prevent recurrence.
 - `#workflow-friction` for the WindowsApps PowerShell launch failure: 0/3 after
   the approval-aware retry path succeeded on 2026-07-25; `counter_reset: yes`.
-- `#species-identity-drift`: 0/3 after the threshold correction and counter
-  reset. The Pelican Eel tail-tip miss was followed by a five-limb Pygmy
-  Three-toed Sloth and a failed masked correction. The resolved architecture
-  now requires abandoning a repeatedly failing composition, approving the
-  Japanese hero anatomy before companion production, and tracing each limb
-  from torso origin through joint path to endpoint.
+- `#species-identity-drift`: 2/3 after the threshold correction and counter
+  reset. The user found the corrected Ringtail's headfirst hero and isolated
+  card-3 anatomy still unnatural. A full composition reset replaced the hero
+  with a stable four-footed ledge walk and card 3 with a complete descending
+  mini animal.
 - `#layout-overcrowded`: 1/2 after the first Himalayan Monal composition hid
   the crest beneath the title panel; resolved by one targeted composition edit
   plus the opt-in lower-card layout.
@@ -131,9 +137,9 @@ Previous completed region: Africa.
 - On the next new-topic run, begin duplicate screening with the accepted
   scientific name, then search English and Japanese aliases across memory,
   INDEX, folder names, and package contents before Evidence Lock.
-- North America is absent from the latest eight and Africa appears twice;
-  prefer a credible North American or otherwise underrepresented alternative
-  and avoid another consecutive Africa topic.
+- Europe is absent from the latest eight and Africa appears twice; prefer a
+  credible European or otherwise underrepresented alternative and avoid
+  another consecutive North American topic.
 - During evidence viability, treat an explicit Browser safety-policy block as
   a hard route boundary. Reject the candidate before lock or use a directly
   available official assessment DOI/PDF; use an explicit public caveat only
@@ -143,6 +149,9 @@ Previous completed region: Africa.
 - Generate the complete Japanese poster first, visually accept it, then create
   the English companion from the same art direction. Do not use the deterministic
   composer as the default public asset.
+- When a climbing mechanism risks distorted anatomy, keep the hero in a stable
+  natural pose and move the mechanism into a complete-animal observation
+  drawing. Never explain the motion with isolated or floating limbs.
 - For locked ASCII punctuation, state exact spaces around colons, parentheses,
   apostrophes, and similar marks in the first English Image Gen prompt; then
   inspect the glyphs before accepting the companion.
