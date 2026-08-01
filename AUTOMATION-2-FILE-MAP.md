@@ -10,7 +10,8 @@ Use this as the quick navigation map for the infographic automation.
 | `automation-2-production-policy.md` | Human-readable quality-first policy, visual/editorial completion standard, approval budget, and exception modes. |
 | `automation-2-current-state.md` | Small current-state record for pending IUCN evidence, latest completion, regional rotation, and active quality counters. |
 | `daily-quality-loop.md` | Lightweight end-of-run improvement loop: priorities, tags, next actions, and skill-update triggers. |
-| `scripts/normalize_poster.py` | Rejects non-2:3 direct Image Gen posters and resizes accepted sources to canonical `1024x1536` posting assets. |
+| `scripts/validate_direct_poster.py` | Immediate read-only source gate: exact vertical 2:3 plus no material near-white/transparent edge band, before review or editing. |
+| `scripts/normalize_poster.py` | Rechecks the source gate and resizes accepted direct posters to canonical `1024x1536` posting assets. |
 | `scripts/compose_poster.py` | Optional deterministic fallback for old Fast Run packages, diagnostics, or preserved rescue artifacts; not a Quality Run completion substitute. |
 | `scripts/validate_package.py` | Validates current direct-poster Quality Run packages and retains compatibility with Fast Run base/composer packages. |
 | `scripts/sync_automation_prompt.py` | Safely replaces only the live Automation prompt and `updated_at`, preserving and verifying all schedule/runtime fields when the Automation API tool is unavailable. |

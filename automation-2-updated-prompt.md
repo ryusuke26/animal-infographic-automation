@@ -16,6 +16,7 @@ automation-2-production-policy.md
 daily-quality-loop.md
 templates/x-post-copy-template.md
 scripts/normalize_poster.py
+scripts/validate_direct_poster.py
 scripts/validate_package.py
 ```
 
@@ -175,10 +176,29 @@ Generate the Japanese poster itself with Image Gen:
 images/species_slug_japanese_imagegen_YYYY-MM-DD.png
 ```
 
-Inspect it before making the companion. Accept it only if:
+Immediately after every initial generation or retry, and before visual review,
+editing, companion generation, or normalization, run:
+
+```text
+<bundled-python> scripts/validate_direct_poster.py \
+  --input <direct-imagegen.png>
+```
+
+The source must be exact vertical 2:3 and must not contain a material
+near-white or transparent edge band. A failure is a rejected generation even
+when the outer PNG is `1024x1536`. Do not crop, stretch, pad, locally extend,
+or reflow it. Do not use failed pixels as an edit target or image reference;
+carry accepted art direction forward in words and generate a fresh poster on a
+new 2:3 canvas. This consumes the language's one allowed retry.
+
+After the source gate passes, inspect it before making the companion. Accept it
+only if:
 
 - the species silhouette, diagnostic structures, posture, and habitat are
   correct;
+- when limb anatomy is material, the first prompt assigns every limb a visible
+  shoulder or hip origin, separate path, separate endpoint, and negative space
+  from its near/far counterpart;
 - one hero organism remains dominant and unobstructed;
 - title, scientific name, three cards, and footer form one coherent design;
 - every card has a visible number, species-specific spot art, and useful copy;
@@ -186,8 +206,18 @@ Inspect it before making the companion. Accept it only if:
 - the result looks authored for this organism rather than filled into a generic
   template.
 
-If a material problem exists, make at most one targeted Japanese regeneration.
-Name the concrete failure and preserve accepted elements.
+Before the one allowed Japanese retry, classify the failure. Use a targeted edit
+only when the source gate passes and the defect is localized while hero
+topology, full canvas, and overall composition are already acceptable. Use a
+fresh generation for wrong ratio, blank bands, global reflow, pose-induced
+anatomy, or silhouette reconstruction. Label every supplied image as `edit
+target` or `reference image`; never let a rejected source become the base
+canvas.
+
+For difficult motion or climbing mechanics, keep the hero in a stable natural
+pose and show the mechanism with one complete small animal in a card, never an
+isolated or floating body part. If the same anatomy defect remains after the
+retry, preserve the artifacts and enter Rescue Run.
 
 Then generate the English companion:
 
@@ -198,16 +228,18 @@ images/species_slug_english_imagegen_YYYY-MM-DD.png
 Use the accepted Japanese poster as a visual reference when supported, or carry
 forward its art direction explicitly. Preserve the species, habitat, palette,
 handmade medium, hierarchy, and card concept without requiring pixel-identical
-placement. Apply the same acceptance criteria and allow at most one targeted
-English regeneration.
+placement. Apply the same acceptance criteria and allow at most one English
+retry. Run the direct-source gate immediately after both the
+initial English generation and its retry; the same edit-target eligibility
+rules apply.
 
 When the English Copy Lock contains ASCII punctuation, state its exact spacing
 in the first English Image Gen prompt, for example `no space before the colon`,
 `one space after the colon`, and `one space before (EN)`. This is part of the
 initial prompt, not a reason for an extra regeneration.
 
-Both direct posters must themselves be true vertical 2:3. Reject a wrong-ratio
-source; do not crop, stretch, or pad it into compliance.
+Only direct posters that passed both the source gate and visual acceptance may
+be normalized.
 
 Normalize accepted direct posters to exact posting size:
 
@@ -220,10 +252,11 @@ Normalize accepted direct posters to exact posting size:
 The Japanese and English posting PNGs must each be exactly `1024x1536`.
 
 A local text-safe repair is allowed only for a localized generated-text defect
-when it preserves the integrated artwork. It must not replace the poster with
-the deterministic Fast Run card layout. If a material visual or text blocker
-remains after the allowed targeted retry, preserve the artifacts and mark the
-package `needs review` or `incomplete`.
+on a source-gate-passing poster when it preserves the integrated artwork. It
+must not repair dimensions, blank canvas, anatomy, pose, or global layout, and
+must not replace the poster with the deterministic Fast Run card layout. If a
+material visual or text blocker remains after the allowed retry, preserve the
+artifacts and mark the package `needs review` or `incomplete`.
 
 ## Phase 4 - Editorial, visual, and mechanical QA
 
@@ -233,6 +266,9 @@ Gen posters, both posting PNGs, and sidecars.
 
 Check:
 
+- both canonical direct posters still pass
+  `scripts/validate_direct_poster.py`, before subjective QA;
+- both posting PNGs are exactly `1024x1536`;
 - correct species silhouette, diagnostic structures, posture, and habitat;
 - no invented, missing, detached, duplicated, or hidden structures;
 - one hero organism and exactly three numbered illustrated cards;
@@ -246,7 +282,6 @@ Check:
   completed posts;
 - both language main posts include the English common-name hashtag;
 - ALT text describes the accepted poster;
-- both posting PNGs are exactly `1024x1536`;
 - sidecars match X blocks.
 
 Run:

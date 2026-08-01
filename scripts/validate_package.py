@@ -11,6 +11,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from validate_direct_poster import validate_direct_poster
+
 
 COMMON_REQUIRED_FILES = (
     "README.md",
@@ -40,6 +42,7 @@ TEXT_BLOCK_RE = re.compile(r"```text\r?\n(.*?)\r?\n```", re.DOTALL)
 LEGACY_SIDECAR_KINDS = ("caption", "alt", "source-note")
 STORY_SIDECAR_KINDS = ("caption", "story-reply", "alt", "source-note")
 STORY_REPLY_START = date(2026, 7, 28)
+DIRECT_SOURCE_GATE_START = date(2026, 7, 26)
 DATE_RE = re.compile(r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)")
 PUBLIC_NAMING_LABELS = (
     "英名の音写",
@@ -253,6 +256,11 @@ def validate_pngs(
                     f"got {width}x{height}"
                 )
 
+    package_date = package_date_for(package)
+    strict_direct_gate = (
+        package_date is None or package_date >= DIRECT_SOURCE_GATE_START
+    )
+
     for lang, word in LANGUAGES.items():
         direct: list[Path] = []
         if not fast_run:
@@ -277,13 +285,18 @@ def validate_pngs(
             warnings.append(f"{images}: multiple active {word} posting PNGs found: {[p.name for p in posting]}")
 
         for path in direct:
-            try:
-                width, height = png_dimensions(path)
-            except (OSError, ValueError) as exc:
-                errors.append(f"{path}: cannot read PNG dimensions: {exc}")
-                continue
-            if not is_vertical_two_to_three(width, height):
-                errors.append(f"{path}: expected vertical 2:3 source, got {width}x{height}")
+            if strict_direct_gate:
+                errors.extend(validate_direct_poster(path))
+            else:
+                try:
+                    width, height = png_dimensions(path)
+                except (OSError, ValueError) as exc:
+                    errors.append(f"{path}: cannot read PNG dimensions: {exc}")
+                    continue
+                if not is_vertical_two_to_three(width, height):
+                    errors.append(
+                        f"{path}: expected vertical 2:3 source, got {width}x{height}"
+                    )
 
         for path in posting:
             try:

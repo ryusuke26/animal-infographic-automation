@@ -55,6 +55,7 @@ same kind of issue is likely to matter again.
 #species-identity-drift
 #image-text-error
 #layout-overcrowded
+#source-canvas-drift
 #workflow-friction
 ```
 
@@ -95,7 +96,7 @@ At Phase 0 of every run:
 3. Record any tag that is one occurrence below or already at its threshold.
 4. Carry the highest-priority unresolved threshold into the current run.
 
-At Phase 6, after recording the current issue:
+At Phase 5, after recording the current issue:
 
 1. Recount the affected tag.
 2. If the threshold is reached, automatically apply the smallest safe,
@@ -224,4 +225,40 @@ Improvement Resolution
 - validation: current bilingual four-block X format, misplaced-story rejection,
   hashtag rejection, eight-sidecar package QA, live-prompt equality, and
   whitespace checks passed
+- counter_reset: yes
+
+## 2026-08-01 — Direct-source canvas gate
+
+Daily Quality Loop
+- issue: the Russian Desman Japanese canonical direct/posting pair had exact
+  `1024x1536` outer dimensions but retained a 91px blank right-edge band; an
+  earlier wrong-ratio generation had been allowed into the correction path.
+  priority: publish-blocker
+  tags: #source-canvas-drift
+  cause: aspect and canvas integrity were checked after visual correction and
+  acceptance, while the mechanical validator checked dimensions but not blank
+  rendered canvas.
+  next_action: reopen the package as `incomplete, needs review`; regenerate the
+  Japanese poster on a fresh 2:3 canvas and do not use either rejected image as
+  an edit target
+  tomorrow_change: run the direct-source gate immediately after every
+  generation or retry and before viewing, editing, referencing, companion
+  generation, or normalization
+
+Improvement Resolution
+- tag: #source-canvas-drift
+- count_since_last_fix: 2 materially related source-canvas failures, including
+  the rejected Ringtail wrong-ratio companion and the Russian Desman blank-band
+  correction
+- threshold: 2 publish-blockers
+- improvement_applied: exact 2:3 and blank-edge source gate, edit-target
+  eligibility rules, fresh-canvas retry routing, and final package enforcement
+- files_changed: `scripts/validate_direct_poster.py`,
+  `scripts/normalize_poster.py`, `scripts/validate_package.py`,
+  `automation-2-production-policy.md`, `automation-2-updated-prompt.md`,
+  `AUTOMATION-2-FILE-MAP.md`, `automation-2-current-state.md`, package README,
+  INDEX, Daily Quality Loop, live Automation, and Automation memory
+- validation: gate regressions, normalization rejection, package failure on the
+  current blank-band artifact, prompt synchronization, protected Automation
+  fields, Python syntax, and whitespace checks passed
 - counter_reset: yes

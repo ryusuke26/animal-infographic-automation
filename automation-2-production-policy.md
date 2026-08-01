@@ -28,7 +28,8 @@ substitute for visual or editorial judgment.
 | Completed/incomplete topics | `infographic-packages/INDEX.md` |
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` |
 | X copy structure | `templates/x-post-copy-template.md` |
-| Direct-poster normalization | `scripts/normalize_poster.py` |
+| Direct-poster source gate | `scripts/validate_direct_poster.py` |
+| Direct-poster normalization after acceptance | `scripts/normalize_poster.py` |
 | Optional deterministic fallback | `scripts/compose_poster.py` |
 | Package validation | `scripts/validate_package.py` |
 | X copy validation | `scripts/validate_x_post_format.py` |
@@ -236,10 +237,32 @@ Generate the Japanese poster first as a complete Image Gen artwork:
 images/species_slug_japanese_imagegen_YYYY-MM-DD.png
 ```
 
-Inspect it before generating the companion. Accept it only when:
+Before visual review, editing, companion generation, or normalization, run the
+direct-source gate immediately:
+
+```text
+<bundled-python> scripts/validate_direct_poster.py \
+  --input <direct-imagegen.png>
+```
+
+Run this after every initial generation and retry. It must pass exact vertical
+2:3 dimensions and reject any material near-white or transparent edge band.
+A ratio or blank-canvas failure is a rejected generation, even when the outer
+PNG dimensions happen to be `1024x1536`. Do not crop, stretch, pad, locally
+extend, or reflow it into compliance. Do not use the failed pixels as an edit
+target or image reference; carry forward accepted art direction in words and
+make a fresh generation on a new 2:3 canvas. That fresh generation consumes the
+one allowed retry for the language.
+
+After the source gate passes, inspect the Japanese poster before generating the
+companion. Accept it only when:
 
 - the organism is immediately identifiable and no diagnostic structure is
   invented, hidden, detached, or duplicated;
+- when limb anatomy is material, the first prompt must assign every limb a
+  visible shoulder or hip origin, a separate path, and a separate endpoint,
+  with negative space between near-side and far-side limbs so they cannot
+  merge into one silhouette;
 - title, name, three cards, and footer form one visual system;
 - all three cards contain a visible number, species-specific spot art, and
   useful explanatory copy;
@@ -248,8 +271,21 @@ Inspect it before generating the companion. Accept it only when:
 - the result feels authored for this species rather than filled into a generic
   template.
 
-If a material issue appears, make at most one targeted regeneration for the
-Japanese version. Name the concrete failure and preserve all accepted elements.
+Choose the retry type before the one allowed Japanese retry:
+
+- use a targeted edit only when the source gate passes and the defect is truly
+  localized while the hero topology, full canvas, and overall composition are
+  already acceptable;
+- use a fresh generation for wrong ratio, blank bands, global reflow, a
+  pose-induced anatomy error, or any change that must rebuild the silhouette;
+- label every supplied image explicitly as `edit target` or `reference image`;
+  never let a rejected source silently become the base canvas.
+
+For difficult movement or climbing mechanics, keep the main hero in a stable
+natural pose and use one complete small animal in an observation card. Do not
+explain the motion with isolated, floating, or detached body parts. If the same
+anatomy defect remains after the retry, preserve the artifacts and enter Rescue
+Run instead of applying another local edit.
 
 Then generate the complete English companion:
 
@@ -260,16 +296,18 @@ images/species_slug_english_imagegen_YYYY-MM-DD.png
 Use the accepted Japanese poster as a visual reference when the tool supports
 it, or carry forward its art direction explicitly. Preserve the species,
 habitat, palette, handmade medium, hierarchy, and card concept without forcing
-pixel-identical placement. Inspect it against the same standard and make at most
-one targeted regeneration for a material English-version issue.
+pixel-identical placement. Inspect it against the same standard and make at
+most one retry for a material English-version issue. Run the direct-source gate
+immediately after the initial English generation and after its retry; the same
+edit-target eligibility rules apply.
 
 When the English Copy Lock contains ASCII punctuation, state its exact spacing
 in the first English Image Gen prompt, for example `no space before the colon`,
 `one space after the colon`, and `one space before (EN)`. This is part of the
 initial prompt, not a reason for an extra regeneration.
 
-The direct posters must themselves be true vertical 2:3. Do not crop, stretch,
-or add padding to repair a wrong source ratio.
+Only direct posters that passed the source gate and the visual acceptance check
+may be normalized.
 
 Normalize each accepted direct source to the canonical posting size:
 
@@ -280,10 +318,11 @@ Normalize each accepted direct source to the canonical posting size:
 ```
 
 The result must be exactly `1024x1536`. Local text-safe repair is allowed only
-for a localized generated-text defect when it preserves the integrated artwork.
-It must not flatten the poster into the deterministic Fast Run layout. If text
-cannot be repaired without redesigning the poster, use the targeted Image Gen
-retry or mark the package `needs review`.
+for a localized generated-text defect on a source-gate-passing poster when it
+preserves the integrated artwork. It must not repair dimensions, canvas bands,
+anatomy, pose, or global layout, and it must not flatten the poster into the
+deterministic Fast Run layout. If text cannot be repaired without redesigning
+the poster, use the one Image Gen retry or mark the package `needs review`.
 
 `scripts/compose_poster.py` remains available for old Fast Run packages,
 diagnostic mockups, or preserved rescue artifacts. Its output alone cannot
@@ -297,6 +336,8 @@ Gen posters, both posting PNGs, and the sidecars.
 
 Perform one deliberate QA pass:
 
+- rerun the direct-source gate for both canonical direct posters before any
+  subjective review, and confirm both posting PNGs are exactly `1024x1536`;
 - compare silhouette, diagnostic structures, posture, and habitat with the
   authoritative visual reference;
 - reject invented, missing, detached, duplicated, or hidden structures;
@@ -310,8 +351,7 @@ Perform one deliberate QA pass:
 - compare the latest two completed X files and rewrite any repeated opening or
   sentence pattern;
 - confirm ALT text describes the actual accepted poster;
-- confirm sidecars match the fenced blocks;
-- confirm both posting PNGs are exactly `1024x1536`.
+- confirm sidecars match the fenced blocks.
 
 Run:
 

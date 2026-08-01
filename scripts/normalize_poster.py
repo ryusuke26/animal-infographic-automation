@@ -1,4 +1,4 @@
-"""Validate a 2:3 poster and resize it to the series' 1024x1536 delivery size."""
+"""Validate a direct poster and resize it to the 1024x1536 delivery size."""
 
 from __future__ import annotations
 
@@ -6,6 +6,8 @@ import argparse
 from pathlib import Path
 
 from PIL import Image, ImageOps
+
+from validate_direct_poster import validate_direct_poster
 
 
 DEFAULT_SIZE = (1024, 1536)
@@ -33,11 +35,20 @@ def normalize(
     source: Path,
     output: Path,
     size: tuple[int, int],
+    *,
+    allow_legacy_ratio_tolerance: bool = False,
 ) -> None:
+    gate_errors = validate_direct_poster(
+        source,
+        require_exact_ratio=not allow_legacy_ratio_tolerance,
+    )
+    if gate_errors:
+        raise ValueError("\n".join(gate_errors))
+
     with Image.open(source) as original:
         image = ImageOps.exif_transpose(original).convert("RGB")
         error = aspect_error(image.size, size)
-        if error > MAX_ASPECT_ERROR:
+        if allow_legacy_ratio_tolerance and error > MAX_ASPECT_ERROR:
             raise ValueError(
                 f"{source} is {image.width}x{image.height}, not vertical 2:3 "
                 f"(aspect error {error:.2%}). Regenerate the poster; padding, "
@@ -58,18 +69,31 @@ def normalize(
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Reject posters that are not already vertical 2:3, then resize "
-            "accepted posters to the fixed delivery dimensions. No padding, "
-            "cropping, or material aspect-ratio correction is used."
+            "Reject posters that do not pass the exact 2:3/full-canvas source "
+            "gate, then resize accepted posters to the fixed delivery dimensions. "
+            "No padding, cropping, or aspect-ratio correction is used."
         )
     )
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--size", type=parse_size, default=DEFAULT_SIZE)
+    parser.add_argument(
+        "--allow-legacy-ratio-tolerance",
+        action="store_true",
+        help=(
+            "permit the former 0.5%% aspect tolerance for recovery of an old "
+            "artifact; blank edge bands are still rejected"
+        ),
+    )
     args = parser.parse_args()
 
     try:
-        normalize(args.input, args.output, args.size)
+        normalize(
+            args.input,
+            args.output,
+            args.size,
+            allow_legacy_ratio_tolerance=args.allow_legacy_ratio_tolerance,
+        )
     except ValueError as exc:
         raise SystemExit(str(exc)) from exc
 
