@@ -128,7 +128,7 @@ This index is for the recurring automation "世界の知らない生きものイ
 | Date | Topic | Package | Reason |
 |---|---|---|---|
 | 2026-05-13 | Sunda Colugo / マレーヒヨケザル | `2026-05-13-sunda-colugo` | Image Gen v1 and v2 rejected for anatomy; v3 side-on clinging candidate exists, pending final human visual approval. |
-| 2026-08-01 | Russian Desman / ロシアデスマン | `2026-08-01-russian-desman` | Quality Run completed, local-ready. The Japanese poster was regenerated from a fresh native 1024x1536 canvas without editing or image-referencing the rejected variants; both language pairs pass the exact-2:3/full-canvas gate, anatomy and phone-size visual QA, Copy Lock, X/sidecar synchronization, and full package validation. User-supplied official IUCN species-page capture and matching 13-page PDF confirm Global CR under A2ac, assessed 29 March 2023 and published 2023; both artifacts are preserved under evidence. |
+| 2026-08-01 | Russian Desman / ロシアデスマン | `2026-08-01-russian-desman` | Quality Run completed, published. The Japanese poster was regenerated from a fresh native 1024x1536 canvas without editing or image-referencing the rejected variants; both language pairs pass the exact-2:3/full-canvas gate, anatomy and phone-size visual QA, Copy Lock, X/sidecar synchronization, and full package validation. User-supplied official IUCN species-page capture and matching 13-page PDF confirm Global CR under A2ac, assessed 29 March 2023 and published 2023; both artifacts are preserved under evidence. Published in package commit `56f73bc`; direct-source workflow commit `e5cd13a`; `origin/master` was verified before the published-state metadata commit. |
 
 ## Maintenance Rules
 

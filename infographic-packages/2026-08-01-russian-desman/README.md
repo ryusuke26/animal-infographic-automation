@@ -1,12 +1,12 @@
 # Russian Desman Infographic Package
 
 - Date: 2026-08-01
-- Package state: `completed, local-ready`
-- Publication state: `not published`
+- Package state: `completed, published`
+- Publication state: `published`
 - Workflow mode: Quality Run
 - Risk handling: Quality Run; current IUCN category is directly confirmed by
   the official IUCN species page and assessment PDF
-- Workflow position: Phase 5 complete; local posting package ready
+- Workflow position: Phase 5 complete; published to `origin/master`
 
 ## Topic Lock
 
@@ -119,4 +119,6 @@ Plain-text sidecars are synchronized backups:
 - Eight posting sidecars: synchronized
 - X format validation: passed
 - Full package validation: passed after the fresh Japanese source replacement
-- GitHub publishing: not attempted; package is `completed, local-ready`
+- GitHub publishing: package commit `56f73bc` and direct-source workflow commit
+  `e5cd13a` were pushed to `origin/master`; published-state metadata follows in
+  the closeout commit

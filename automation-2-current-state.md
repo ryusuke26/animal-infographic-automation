@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-01T12:17:32+09:00
+Updated: 2026-08-01T12:41:20+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -43,7 +43,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest package: `2026-08-01-russian-desman`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production blocker: none. The Japanese poster was regenerated from a fresh
   native `1024x1536` canvas without editing or image-referencing the rejected
   variants. Both language direct/posting pairs pass the exact-2:3 and
@@ -61,7 +61,10 @@ This file is the small replace-in-place state record for Automation
 - Mechanical QA: direct-source checks, normalization, X format validation,
   full package validation, image dimensions, and within-language pixel
   identity passed.
-- GitHub publishing: not attempted; the package remains local-ready.
+- GitHub publishing: package commit `56f73bc` and direct-source workflow commit
+  `e5cd13a` were pushed to `origin/master`; the remote ref was verified at
+  `e5cd13a297e826a6ed7f3b1f419bb7644683dbb7` before this published-state
+  metadata commit.
 - Artifact cleanup: the two Japanese blank-right-band rejected PNGs were moved
   to the Windows Recycle Bin at the user's request; accepted assets remain.
 
