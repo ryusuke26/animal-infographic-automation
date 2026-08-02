@@ -262,3 +262,47 @@ Improvement Resolution
   current blank-band artifact, prompt synchronization, protected Automation
   fields, Python syntax, and whitespace checks passed
 - counter_reset: yes
+
+## 2026-08-02 — Pacarana clean Quality Run
+
+Daily Quality Loop
+- issue: none; both language posters passed direct-source, anatomy, text,
+  composition, phone-size, sidecar, X, and package QA on their first generation
+- priority: none
+- tags: #quality-run-clean
+- cause: scientific-name-first duplicate screening, a stable seated pose with
+  separate limb paths, and first-prompt ASCII spacing kept the run aligned
+- next_action: package closed as `completed, local-ready`
+- tomorrow_change: keep the current gates and prioritize an Ocean/Global or
+  otherwise underrepresented region without repeating South America
+
+## 2026-08-02 — Pacarana assessment-year correction
+
+Daily Quality Loop
+- issue: the official species page and assessment PDF showed a 1 March 2016
+  assessment date while the poster footer used the 2017 publication/release year
+- priority: fact-risk
+- tags: #assessment-year-drift
+- cause: the initial official status-change table exposed release timing but not
+  the field-level assessment date, and its year was used before stronger official
+  evidence arrived
+- next_action: corrected all bilingual Copy Lock, poster, posting, source, and
+  state artifacts to assessment year 2016; retained publication year 2017 in
+  source context and preserved the supplied official evidence with hashes
+- tomorrow_change: treat a status-change-table year as publication/release only;
+  reopen Copy Lock whenever field-level official assessment evidence arrives
+
+## 2026-08-02 — Pacarana superseded-image cleanup
+
+Daily Quality Loop
+- issue: four obsolete 2017-footer PNGs remained after the accepted 2016-footer
+  correction
+- priority: cleanup
+- tags: #rejected-image-cleanup
+- cause: superseded images were retained as a temporary evidence trail during
+  correction QA
+- next_action: moved exactly those four PNGs to the Windows Recycle Bin, kept
+  the four canonical images and official evidence, synchronized documentation,
+  and reran canonical package QA
+- tomorrow_change: after a user accepts the corrected pair, offer reversible
+  cleanup of superseded images once canonical and evidence assets are protected

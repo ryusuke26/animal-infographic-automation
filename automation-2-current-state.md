@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-01T12:41:20+09:00
+Updated: 2026-08-02T21:55:19+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -18,23 +18,23 @@ This file is the small replace-in-place state record for Automation
   remains unavailable, ambiguous, or conflicting.
 - Pending evidence package: none.
 - Active package: none.
-- Evidence route: preserved official IUCN species-page capture and 13-page 2023
-  assessment PDF for `e.T6506A231334630`, Mammal Diversity Database taxonomy,
-  Mammal Science standard Japanese-name list, and recent peer-reviewed
-  morphology and habitat literature. The prior official-record rendering
-  boundary is resolved.
-- Confirmed: *Desmana moschata*, Russian Desman / ロシアデスマン, Global
-  Critically Endangered (CR), criterion A2ac, assessed 29 March 2023 and
-  published 2023, waterways of eastern
-  Europe into Kazakhstan, plant-rich slow waters, long flexible snout, large
-  webbed hind feet, laterally flattened tail, and underwater bottom-probing.
-  No population estimate, national status, or threat ranking is used publicly.
-- Phase 0 preflight: passed on 2026-08-01 in the no-approval local automation
+- Evidence route: user-supplied official IUCN species-page screenshot and
+  matching nine-page assessment PDF for `e.T6608A22199194`, the Mammal Science
+  standard-name list, and the public Pacarana account from Parque de las
+  Leyendas in Lima. The official files are preserved with hashes in the package.
+- Confirmed: *Dinomys branickii*, Pacarana / パカラナ, Global Least Concern
+  (LC), assessed 1 March 2016 and published 2017, South American mountain
+  forest, thick dark grey-brown coat with white spots, and the natural feeding
+  posture of sitting on the hind legs while holding fruit or stems in the
+  forepaws. The official assessment lists population trend as Unknown. No
+  population estimate, trend assertion, national status, threat ranking, or
+  recovery claim is used publicly.
+- Phase 0 preflight: passed on 2026-08-02 in the no-approval local automation
   path.
-- Duplicate correction: the initial Pyrenean Desman candidate was rejected
-  before lock when the exact scientific-name search found the completed
-  `2026-06-08-pyrenean-desman` package. Russian Desman then passed exact
-  scientific, English, and Japanese name searches.
+- Duplicate screening: *Dinomys branickii*, Pacarana, and パカラナ were
+  searched across memory, INDEX, package folders, and package contents before
+  Evidence Lock. Earlier candidate mentions were held-topic notes, not a
+  completed package.
 - Live Automation prompt sync: refreshed on 2026-08-01 with the immediate
   direct-source gate, edit-target eligibility, fresh-canvas retry routing, and
   fixed QA order. `ACTIVE`, the daily 10:00 schedule, model, reasoning effort,
@@ -42,53 +42,50 @@ This file is the small replace-in-place state record for Automation
 
 ## Latest Package
 
-- Latest package: `2026-08-01-russian-desman`.
-- State: `completed, published`.
-- Production blocker: none. The Japanese poster was regenerated from a fresh
-  native `1024x1536` canvas without editing or image-referencing the rejected
-  variants. Both language direct/posting pairs pass the exact-2:3 and
-  full-canvas source gate.
-- Visual QA: passed at full and phone size. The Japanese poster has one
-  unobstructed horizontal swimming hero with separate readable limb paths and
-  one connected flattened tail; Copy Lock text and exactly three unequal
-  illustrated cards are readable and coherent with the accepted English
-  companion.
+- Latest package: `2026-08-02-pacarana`.
+- State: `completed, local-ready`.
+- Production blocker: none. Japanese and English initially passed on their
+  first complete Image Gen generation. Stronger official evidence then reopened
+  Copy Lock, and one targeted footer correction per language changed the public
+  year from the 2017 publication year to the 2016 assessment year.
+- Visual QA: passed at full and phone size. Each poster has one unobstructed
+  seated Pacarana with separate readable forelimb and hindlimb paths, one
+  connected furry tail, the dark white-spotted coat, and a fruit held between
+  both forepaws.
 - Composition QA: each poster uses exactly three unequal numbered illustrated
-  cards for the bank-and-burrow habitat, webbed hind feet and flattened tail,
-  and long-snout bottom-probing. Text is accurate and readable at phone size.
+  cards for South American mountain forest, the white-spotted coat, and the
+  seated food-holding posture. Text is accurate and readable at phone size.
 - Posting QA: the four-block X sets and eight sidecars are synchronized and
   ready with both accepted language posters.
 - Mechanical QA: direct-source checks, normalization, X format validation,
   full package validation, image dimensions, and within-language pixel
   identity passed.
-- GitHub publishing: package commit `56f73bc` and direct-source workflow commit
-  `e5cd13a` were pushed to `origin/master`; the remote ref was verified at
-  `e5cd13a297e826a6ed7f3b1f419bb7644683dbb7` before this published-state
-  metadata commit.
-- Artifact cleanup: the two Japanese blank-right-band rejected PNGs were moved
-  to the Windows Recycle Bin at the user's request; accepted assets remain.
+- GitHub publishing: not attempted; this no-approval automation run stops at
+  `completed, local-ready`.
+- Artifact cleanup: at the user's request, the four superseded 2017-footer PNGs
+  were moved to the Windows Recycle Bin. The package now contains only the four
+  corrected canonical poster PNGs; official IUCN evidence remains preserved.
 
 ## Recent-Eight Region Rotation
 
-1. 2026-07-25 — Ocean/Global — Pelican Eel
-2. 2026-07-26 — Asia — Himalayan Monal
-3. 2026-07-27 — Africa — Gerenuk
-4. 2026-07-28 — Australia/Oceania — Kea
-5. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
-6. 2026-07-30 — Africa — Red River Hog
-7. 2026-07-31 — North America — Ringtail
-8. 2026-08-01 — Europe — Russian Desman
+1. 2026-07-26 — Asia — Himalayan Monal
+2. 2026-07-27 — Africa — Gerenuk
+3. 2026-07-28 — Australia/Oceania — Kea
+4. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
+5. 2026-07-30 — Africa — Red River Hog
+6. 2026-07-31 — North America — Ringtail
+7. 2026-08-01 — Europe — Russian Desman
+8. 2026-08-02 — South America — Pacarana
 
-Previous completed region: Europe.
+Previous completed region: South America.
 
 ## Verified Workspace Runtime
 
 - Bundled Python:
   `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
-- Last verification: bundled runtime loaded on 2026-08-01. The new direct-source
-  gate accepts recent valid exact-2:3 posters, rejects the 864x1821 ratio
-  failure, rejects the 91px blank-edge Japanese artifact, and makes the current
-  Russian Desman package fail full QA as intended.
+- Last verification: bundled runtime loaded on 2026-08-02. Both Pacarana
+  canonical direct posters passed the exact-2:3/full-canvas source gate; both
+  posting PNGs are `1024x1536` and pixel-identical to their language source.
 
 ## Daily Quality Loop Counters
 
@@ -102,6 +99,11 @@ Previous completed region: Europe.
   bodies were policy-blocked on 2026-07-29 and the Cuban Tody candidate was
   rejected before lock. User-supplied official IUCN evidence then corrected
   the final package; no access caveat remains.
+- `#assessment-year-drift`: 1/2. The initial Pacarana footer used the 2017
+  publication/release year because only the official category-change table was
+  available. User-supplied field-level evidence showed an assessment date of
+  1 March 2016; all public and package artifacts were corrected to assessment
+  year 2016 while retaining publication year 2017 in source context.
 - `#post-structure-drift`: 0/2 after a user-directed deterministic correction.
   The Gerenuk main posts omitted standalone common/scientific name lines;
   template guidance and a validator check now prevent recurrence.
@@ -135,10 +137,9 @@ Previous completed region: Europe.
   with the accepted scientific name, then search English and Japanese aliases
   across memory, INDEX, folder names, and package contents before Evidence
   Lock.
-- When Russian Desman completes, South America will fall out of the latest-eight
-  window and Africa will still appear twice. Prefer a credible South American
-  or otherwise underrepresented alternative and avoid another consecutive
-  European topic.
+- Ocean/Global is now absent from the latest eight while Africa appears twice.
+  Prefer a credible Ocean/Global or otherwise underrepresented alternative and
+  avoid another consecutive South American topic.
 - During evidence viability, treat an explicit Browser safety-policy block as
   a hard route boundary. Reject the candidate before lock or use a directly
   available official assessment DOI/PDF; use an explicit public caveat only
