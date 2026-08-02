@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-02T21:55:19+09:00
+Updated: 2026-08-02T22:33:46+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -43,7 +43,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest package: `2026-08-02-pacarana`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production blocker: none. Japanese and English initially passed on their
   first complete Image Gen generation. Stronger official evidence then reopened
   Copy Lock, and one targeted footer correction per language changed the public
@@ -60,8 +60,10 @@ This file is the small replace-in-place state record for Automation
 - Mechanical QA: direct-source checks, normalization, X format validation,
   full package validation, image dimensions, and within-language pixel
   identity passed.
-- GitHub publishing: not attempted; this no-approval automation run stops at
-  `completed, local-ready`.
+- GitHub publishing: package commit `be7af29` was pushed to `origin/master`;
+  remote `refs/heads/master` was verified at
+  `be7af2949d636e2eaecb93c5dd5b06cdae889e99` before this published-state
+  metadata update.
 - Artifact cleanup: at the user's request, the four superseded 2017-footer PNGs
   were moved to the Windows Recycle Bin. The package now contains only the four
   corrected canonical poster PNGs; official IUCN evidence remains preserved.

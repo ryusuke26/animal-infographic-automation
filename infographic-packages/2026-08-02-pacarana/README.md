@@ -4,7 +4,7 @@ Date: 2026-08-02
 Topic: Pacarana / パカラナ
 Scientific name: *Dinomys branickii*
 Region: South America
-Status: completed, local-ready
+Status: completed, published
 Workflow mode: Quality Run
 
 ## Discovery doorway
@@ -58,4 +58,4 @@ The evidence confirms Global Least Concern (LC), assessed 1 March 2016 and publi
 - Each poster has one unobstructed Pacarana, four readable limb paths, one connected furry tail, and exactly three unequal numbered illustrated observation cards.
 - Copy Lock text, footer punctuation, X structure, eight sidecars, package validation, and whitespace checks passed.
 - A targeted evidence correction changed the public status year from the 2017 publication/release year to the 2016 assessment year. At the user's request, the four superseded 2017-footer PNGs were moved to the Windows Recycle Bin; only the four corrected canonical poster PNGs remain in the package.
-- The package is `completed, local-ready`; GitHub publishing was not attempted.
+- The package is `completed, published`; package commit `be7af29` was pushed to `origin/master` and remotely verified before this published-state update.
