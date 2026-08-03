@@ -306,3 +306,54 @@ Daily Quality Loop
   and reran canonical package QA
 - tomorrow_change: after a user accepts the corrected pair, offer reversible
   cleanup of superseded images once canonical and evidence assets are protected
+
+## 2026-08-03 — Antarctic Fur Seal extra-card-text correction
+
+Daily Quality Loop
+- issue: the first Japanese poster added unrequested explanatory paragraphs to
+  all three observation cards despite an exact six-line Copy Lock
+- priority: publish-blocker
+- tags: #image-text-error
+- cause: the generation followed the illustrated-card concept but elaborated
+  the card copy beyond the locked labels
+- next_action: used the one allowed targeted text-only retry; removed every
+  extra paragraph while preserving the accepted full canvas, anatomy, habitat,
+  card art, and six locked lines
+- tomorrow_change: keep every first prompt explicit that each card contains only
+  its number, one locked label, and one spot illustration, with no explanatory
+  paragraph or replacement text
+
+## 2026-08-03 — Antarctic Fur Seal hind-flipper and card-layout remake
+
+Daily Quality Loop
+- issue: the previously canonical bilingual pair showed the far hind flipper in
+  both the hero and card 3 as if it began independently from the middle abdomen;
+  narrow accidental gaps between card borders also fragmented the composition
+- priority: publish-blocker
+- tags: #species-identity-drift
+- cause: the original diagonal walking pose obscured the rear pelvis/tail-base
+  relationship, while card borders were placed close enough to create slits
+  instead of deliberate background channels
+- next_action: rejected and preserved all four prior canonical/posting PNGs,
+  generated both replacements from text-only fresh 2:3 canvases, exposed the
+  paired hind-flipper origins in a stable rear three-quarter stance, and spaced
+  three body-aligned cards across one continuous shoreline ground
+- tomorrow_change: for rear-limb-sensitive body plans, inspect every hero and
+  complete-animal card from pelvis/tail base to both hind-flipper endpoints, and
+  reject any card spacing that reads as a hairline gap or narrow wedge
+
+## 2026-08-03 — Antarctic Fur Seal rejected-image cleanup
+
+Daily Quality Loop
+- issue: five rejected PNGs remained after the replacement bilingual pair was
+  accepted and fully validated
+- priority: cleanup
+- tags: #rejected-image-cleanup
+- cause: failed generations were retained temporarily as an audit trail during
+  anatomy and composition review
+- next_action: moved exactly five explicitly named rejected PNGs to the Windows
+  Recycle Bin, preserved the four canonical poster PNGs, removed stale README
+  links, and reran canonical package QA
+- tomorrow_change: after user acceptance and canonical validation, offer a
+  recoverable cleanup of failed images while preserving evidence and posting
+  assets

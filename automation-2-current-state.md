@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-02T22:33:46+09:00
+Updated: 2026-08-03T23:22:09+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -18,23 +18,23 @@ This file is the small replace-in-place state record for Automation
   remains unavailable, ambiguous, or conflicting.
 - Pending evidence package: none.
 - Active package: none.
-- Evidence route: user-supplied official IUCN species-page screenshot and
-  matching nine-page assessment PDF for `e.T6608A22199194`, the Mammal Science
-  standard-name list, and the public Pacarana account from Parque de las
-  Leyendas in Lima. The official files are preserved with hashes in the package.
-- Confirmed: *Dinomys branickii*, Pacarana / パカラナ, Global Least Concern
-  (LC), assessed 1 March 2016 and published 2017, South American mountain
-  forest, thick dark grey-brown coat with white spots, and the natural feeding
-  posture of sitting on the hind legs while holding fruit or stems in the
-  forepaws. The official assessment lists population trend as Unknown. No
-  population estimate, trend assertion, national status, threat ranking, or
-  recovery claim is used publicly.
-- Phase 0 preflight: passed on 2026-08-02 in the no-approval local automation
+- Evidence route: the official IUCN 9 April 2026 Red List update and current
+  assessment record `e.T2058A293563664`, the National Museum of Nature and
+  Science marine-mammal database, and the Australian Antarctic Division's
+  updated Fur Seals account. The direct pre-publication PDF endpoint returned
+  HTTP 403, while the official IUCN release directly states the current global
+  category and the assessment author's BAS profile identifies the record.
+- Confirmed: *Arctocephalus gazella*, Antarctic Fur Seal /
+  ナンキョクオットセイ, Global Endangered (EN), 2026, breeding mainly on
+  sub-Antarctic islands, small external ears, dense fur, and four-footed walking
+  over land. No population estimate, national status, legal category, or threat
+  slogan is used in poster or main-post copy.
+- Phase 0 preflight: passed on 2026-08-03 in the no-approval local automation
   path.
-- Duplicate screening: *Dinomys branickii*, Pacarana, and パカラナ were
+- Duplicate screening: *Arctocephalus gazella*, Antarctic Fur Seal, and
+  ナンキョクオットセイ were
   searched across memory, INDEX, package folders, and package contents before
-  Evidence Lock. Earlier candidate mentions were held-topic notes, not a
-  completed package.
+  Evidence Lock; no completed package or held-topic collision was found.
 - Live Automation prompt sync: refreshed on 2026-08-01 with the immediate
   direct-source gate, edit-target eligibility, fresh-canvas retry routing, and
   fixed QA order. `ACTIVE`, the daily 10:00 schedule, model, reasoning effort,
@@ -42,58 +42,64 @@ This file is the small replace-in-place state record for Automation
 
 ## Latest Package
 
-- Latest package: `2026-08-02-pacarana`.
-- State: `completed, published`.
-- Production blocker: none. Japanese and English initially passed on their
-  first complete Image Gen generation. Stronger official evidence then reopened
-  Copy Lock, and one targeted footer correction per language changed the public
-  year from the 2017 publication year to the 2016 assessment year.
-- Visual QA: passed at full and phone size. Each poster has one unobstructed
-  seated Pacarana with separate readable forelimb and hindlimb paths, one
-  connected furry tail, the dark white-spotted coat, and a fruit held between
-  both forepaws.
-- Composition QA: each poster uses exactly three unequal numbered illustrated
-  cards for South American mountain forest, the white-spotted coat, and the
-  seated food-holding posture. Text is accurate and readable at phone size.
-- Posting QA: the four-block X sets and eight sidecars are synchronized and
-  ready with both accepted language posters.
-- Mechanical QA: direct-source checks, normalization, X format validation,
+- Latest package: `2026-08-03-antarctic-fur-seal`.
+- State: `completed, local-ready`.
+- Production blocker: resolved. The user rejected the previous bilingual pair
+  because the far hind flipper in both the hero and card 3 appeared to emerge
+  from the middle abdomen, and narrow accidental gaps fragmented the card
+  system. Both replacements were generated on fresh exact-2:3 canvases from
+  text only; no rejected image was used as an edit target or reference.
+- Visual QA: passed at full and phone size. The accepted posters use a stable
+  rear three-quarter stance with the rump and tail base facing the viewer; both
+  hind flippers begin there as a paired structure and remain continuous to
+  separate endpoints. Card 3 repeats this relationship with a complete small
+  seal. The English poster was explicitly accepted by the user.
+- Composition QA: passed. Three unequal cards follow the long hero silhouette,
+  with broad deliberate shoreline background between card borders and one
+  continuous pebble ground, border vocabulary, palette, and quiet footer. No
+  hairline gap or narrow wedge divides the card system.
+- Posting QA: the four-block X sets and eight sidecars are synchronized; ALT
+  text now describes the accepted rear three-quarter posters.
+- Mechanical QA: both direct-source gates, normalization, X format validation,
   full package validation, image dimensions, and within-language pixel
   identity passed.
-- GitHub publishing: package commit `be7af29` was pushed to `origin/master`;
-  remote `refs/heads/master` was verified at
-  `be7af2949d636e2eaecb93c5dd5b06cdae889e99` before this published-state
-  metadata update.
-- Artifact cleanup: at the user's request, the four superseded 2017-footer PNGs
-  were moved to the Windows Recycle Bin. The package now contains only the four
-  corrected canonical poster PNGs; official IUCN evidence remains preserved.
+- GitHub publishing: not attempted. This no-approval automation stops at
+  `completed, local-ready`.
+- Rejected artifact cleanup: at the user's request, the Japanese extra-text
+  first generation and all four previously canonical/posting PNGs were moved
+  to the Windows Recycle Bin. Only the four canonical poster PNGs remain. A
+  later English retry was stopped on user acceptance before completion and
+  produced no retained package artifact.
 
 ## Recent-Eight Region Rotation
 
-1. 2026-07-26 — Asia — Himalayan Monal
-2. 2026-07-27 — Africa — Gerenuk
-3. 2026-07-28 — Australia/Oceania — Kea
-4. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
-5. 2026-07-30 — Africa — Red River Hog
-6. 2026-07-31 — North America — Ringtail
-7. 2026-08-01 — Europe — Russian Desman
-8. 2026-08-02 — South America — Pacarana
+1. 2026-07-27 — Africa — Gerenuk
+2. 2026-07-28 — Australia/Oceania — Kea
+3. 2026-07-29 — Central America/Caribbean — Pygmy Three-toed Sloth
+4. 2026-07-30 — Africa — Red River Hog
+5. 2026-07-31 — North America — Ringtail
+6. 2026-08-01 — Europe — Russian Desman
+7. 2026-08-02 — South America — Pacarana
+8. 2026-08-03 — Antarctica / Southern Ocean — Antarctic Fur Seal
 
-Previous completed region: South America.
+Previous completed region: Antarctica / Southern Ocean.
 
 ## Verified Workspace Runtime
 
 - Bundled Python:
   `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
-- Last verification: bundled runtime loaded on 2026-08-02. Both Pacarana
-  canonical direct posters passed the exact-2:3/full-canvas source gate; both
-  posting PNGs are `1024x1536` and pixel-identical to their language source.
+- Last verification: bundled runtime loaded on 2026-08-03. Both remade
+  Antarctic Fur Seal canonical direct posters passed the exact-2:3/full-canvas
+  source gate; both posting PNGs are `1024x1536` and pixel-identical to their
+  language source.
 
 ## Daily Quality Loop Counters
 
-- `#image-text-error`: 1/3 after threshold improvement and counter reset. The
-  first English Red River Hog poster inserted a space before the footer colon
-  despite explicit spacing invariants; one targeted correction resolved it.
+- `#image-text-error`: 2/3 after threshold improvement and counter reset. The
+  first Japanese Antarctic Fur Seal poster added unrequested explanatory
+  paragraphs to all three cards despite a locked six-line text set; one
+  targeted text-only correction removed them without changing anatomy or
+  composition.
 - `#IUCN-unavailable`: historical 2/3. The Gerenuk occurrence was corrected
   with user-supplied official screenshot/PDF evidence; no access caveat remains
   in the package.
@@ -111,11 +117,14 @@ Previous completed region: South America.
   template guidance and a validator check now prevent recurrence.
 - `#workflow-friction` for the WindowsApps PowerShell launch failure: 0/3 after
   the approval-aware retry path succeeded on 2026-07-25; `counter_reset: yes`.
-- `#species-identity-drift`: 0/3 after threshold improvement and counter reset.
+- `#species-identity-drift`: 1/3 after threshold improvement and counter reset.
   The first Russian Desman poster hid one forelimb, reaching 3/3 for materially
   similar overlapping-limb failures. The production policy now requires every
   limb to have a visible origin, separate path, separate endpoint, and negative
-  space from its near/far counterpart in the first prompt.
+  space from its near/far counterpart in the first prompt. This new occurrence
+  was the Antarctic Fur Seal pair's visually disconnected far hind-flipper
+  origin; the package was remade from text-only fresh canvases with the paired
+  rear pelvis/tail-base relationship exposed.
 - `#layout-overcrowded`: 1/2 after the first Himalayan Monal composition hid
   the crest beneath the title panel; resolved by one targeted composition edit
   plus the opt-in lower-card layout.
@@ -139,9 +148,9 @@ Previous completed region: South America.
   with the accepted scientific name, then search English and Japanese aliases
   across memory, INDEX, folder names, and package contents before Evidence
   Lock.
-- Ocean/Global is now absent from the latest eight while Africa appears twice.
-  Prefer a credible Ocean/Global or otherwise underrepresented alternative and
-  avoid another consecutive South American topic.
+- Asia is now absent from the latest eight while Africa appears twice. Prefer a
+  credible Asian or otherwise underrepresented alternative and avoid another
+  consecutive Antarctica / Southern Ocean topic.
 - During evidence viability, treat an explicit Browser safety-policy block as
   a hard route boundary. Reject the candidate before lock or use a directly
   available official assessment DOI/PDF; use an explicit public caveat only
@@ -158,6 +167,10 @@ Previous completed region: South America.
 - When a climbing mechanism risks distorted anatomy, keep the hero in a stable
   natural pose and move the mechanism into a complete-animal observation
   drawing. Never explain the motion with isolated or floating limbs.
+- For pinnipeds and other rear-limb-sensitive body plans, expose the pelvic and
+  tail-base region in a stable rear three-quarter stance when both hind-limb
+  origins must be compared. Judge each root-to-tip path in the hero and any
+  complete-animal card before accepting the poster.
 - For locked ASCII punctuation, state exact spaces around colons, parentheses,
   apostrophes, and similar marks in the first English Image Gen prompt; then
   inspect the glyphs before accepting the companion.
