@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-03T23:22:09+09:00
+Updated: 2026-08-03T23:33:31+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -43,7 +43,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest package: `2026-08-03-antarctic-fur-seal`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Production blocker: resolved. The user rejected the previous bilingual pair
   because the far hind flipper in both the hero and card 3 appeared to emerge
   from the middle abdomen, and narrow accidental gaps fragmented the card
@@ -63,8 +63,8 @@ This file is the small replace-in-place state record for Automation
 - Mechanical QA: both direct-source gates, normalization, X format validation,
   full package validation, image dimensions, and within-language pixel
   identity passed.
-- GitHub publishing: not attempted. This no-approval automation stops at
-  `completed, local-ready`.
+- GitHub publishing: package commit `5e84747` was pushed to `origin/master` and
+  the remote branch was verified before this published-state metadata update.
 - Rejected artifact cleanup: at the user's request, the Japanese extra-text
   first generation and all four previously canonical/posting PNGs were moved
   to the Windows Recycle Bin. Only the four canonical poster PNGs remain. A

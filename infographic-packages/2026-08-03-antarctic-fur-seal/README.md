@@ -4,7 +4,7 @@ Date: 2026-08-03
 Topic: Antarctic Fur Seal / ナンキョクオットセイ
 Scientific name: *Arctocephalus gazella*
 Region: Antarctica / Southern Ocean
-Status: completed, local-ready
+Status: completed, published
 Workflow mode: Quality Run
 
 ## Discovery doorway
@@ -56,4 +56,4 @@ The official IUCN 9 April 2026 Red List update directly confirms that the Antarc
 - Three unequal numbered illustrated cards now follow the hero silhouette with broad intentional shoreline background between their borders. The shared pebble ground, border treatment, palette, and footer read as one composition without hairline gaps or narrow wedges.
 - Both canonical direct posters passed the exact-2:3/full-canvas source gate. Japanese and English direct/posting pairs are `1024x1536` and pixel-identical within each language.
 - Copy Lock text, English punctuation spacing, phone/full-size visual review, four-block X structure, refreshed ALT text, eight synchronized sidecars, X validation, package validation, and whitespace checks passed. The English poster was explicitly accepted by the user; an unnecessary fresh retry was stopped before completion and no retry artifact was retained.
-- The package is `completed, local-ready`. GitHub publishing was not attempted by this automation.
+- The package is `completed, published`. Package commit `5e84747` was pushed to `origin/master`; the published-state metadata follows in the closeout commit.
