@@ -4,7 +4,7 @@ Date: 2026-08-04
 Topic: Greater Hog Badger / ブタバナアナグマ
 Scientific name: *Arctonyx collaris*
 Region: Asia
-Status: completed, local-ready
+Status: completed, published
 Workflow mode: Quality Run
 Evidence mode: official IUCN global assessment confirmed
 
@@ -62,4 +62,4 @@ The official IUCN global assessment directly confirms Vulnerable (VU), criteria 
 - The Japanese title correction and English footer-spacing correction were each limited to the language's one allowed targeted retry. The two superseded first generations were moved to the Windows Recycle Bin on 2026-08-04; only the four canonical PNGs remain in the package.
 - Copy Lock wording, six-line poster text, X main/story structure, eight sidecars, ALT text, direct-source validation, X validation, package validation, and whitespace checks passed.
 - The source/context replies use the directly confirmed official record `e.T70205537A259343689` and distinguish the 2015 assessment date from the 2016 original publication and 2024 amended publication.
-- State is `completed, local-ready`. GitHub publishing was not attempted and Git was not mutated.
+- State is `completed, published`. The package content was pushed directly to `origin/master` in commit `2e664ca`.

@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-04T15:30:57+09:00
+Updated: 2026-08-04T15:39:28+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -24,7 +24,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest package: `2026-08-04-greater-hog-badger`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Asia.
 - Workflow mode: Quality Run with direct official IUCN evidence.
 - Evidence route: the official IUCN 2024 amended global assessment and species
@@ -47,7 +47,9 @@ This file is the small replace-in-place state record for Automation
 - Mechanical QA: both direct-source gates, normalization, X format validation,
   full package validation, exact `1024x1536` dimensions, within-language pixel
   identity, sidecar synchronization, and whitespace checks passed.
-- GitHub publishing: not attempted. Git was not mutated.
+- GitHub publishing: package content pushed directly to `origin/master` in
+  commit `2e664ca`; published-state metadata is recorded in the follow-up
+  closeout commit.
 
 ## Recent-Eight Region Rotation
 
