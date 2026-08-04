@@ -357,3 +357,32 @@ Daily Quality Loop
 - tomorrow_change: after user acceptance and canonical validation, offer a
   recoverable cleanup of failed images while preserving evidence and posting
   assets
+
+## 2026-08-04 — Greater Hog Badger localized text corrections
+
+Daily Quality Loop
+- issue: the first Japanese poster substituted one title glyph, and the first
+  English companion inserted a space before the footer colon
+  priority: publish-blocker
+  tags: #verbatim-glyph-drift
+  cause: dense generated typography drifted at two localized glyph boundaries
+  even though the locked six-line copy and English spacing were explicit
+  next_action: used each language's one allowed targeted text-only retry while
+  preserving the accepted full canvas, anatomy, habitat, card art, and layout
+  tomorrow_change: spell unfamiliar Japanese titles character by character in
+  the first prompt while retaining the existing English punctuation invariants
+
+## 2026-08-04 — Greater Hog Badger official-evidence synchronization
+
+Daily Quality Loop
+- issue: the package retained an unavailable-record caveat and superseded IUCN
+  record ID after the official amended assessment became directly available
+  priority: publish-blocker
+  tags: #official-evidence-sync #assessment-year-drift
+  cause: the initial Evidence Lock used the 2016-1 status-change table while
+  the field-level assessment record could not be rendered
+  next_action: preserved the official PDF and screenshot; synchronized the 2015
+  assessment date, 2016 original publication, 2024 amendment context, current
+  record ID, source replies, sidecars, README, INDEX, and current state
+  tomorrow_change: before closing Evidence Lock, retry the direct record route
+  once and distinguish assessment date from original and amended publication
