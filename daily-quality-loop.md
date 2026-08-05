@@ -386,3 +386,71 @@ Daily Quality Loop
   record ID, source replies, sidecars, README, INDEX, and current state
   tomorrow_change: before closing Evidence Lock, retry the direct record route
   once and distinguish assessment date from original and amended publication
+
+## 2026-08-05 — Maned Rat user-selected visual and Copy Lock synchronization
+
+Daily Quality Loop
+- issue: the first Japanese poster had the strongest species-specific authored
+  composition, while later attempts improved mechanical details but weakened
+  the preferred overall visual; its footer punctuation differed semantically
+  trivially from the original Copy Lock
+  priority: subjective visual choice
+  tags: #user-visual-choice #verbatim-glyph-drift
+  cause: the correction loop optimized isolated anatomy and punctuation signals
+  after the initial poster had already achieved the user's preferred narrative
+  composition
+  next_action: accepted the exact user-supplied first PNG, re-locked the
+  Japanese footer to its visible punctuation, synchronized main post and ALT,
+  then generated the English companion from that accepted visual reference
+  tomorrow_change: when the user explicitly selects a stronger source-gate-
+  passing variant, treat equivalent punctuation as a Copy Lock decision and
+  synchronize all public surfaces once before companion generation
+
+## 2026-08-05 — Maned Rat official-evidence spelling correction
+
+Daily Quality Loop
+- issue: the official IUCN assessment was initially missed because its species
+  record is registered under *Lophiomys imhausi*, while the current MDD accepted
+  name is *Lophiomys imhausii*
+- priority: publish-blocker
+- tags: #topic-alias-duplication #official-evidence-sync
+- cause: the direct evidence route did not complete the taxonomy-source
+  incorrect-subsequent-spelling search before the unavailable conclusion
+- next_action: visually checked and preserved the official species-page
+  screenshot and seven-page PDF; restored Global LC assessed 31 January 2016
+  across Copy Lock, prompts, X sets, sidecars, README, INDEX, and current state;
+  retained the already-correct canonical posters without regeneration
+- tomorrow_change: search IUCN under the accepted name plus every taxonomy-
+  source synonym and incorrect subsequent spelling before using the official
+  no-assessment route
+
+Improvement Resolution
+- tag: #topic-alias-duplication
+- count_since_last_fix: 2
+- threshold: 2
+- improvement_applied: added an accepted-name, historical-spelling, and English-
+  alias IUCN search gate before any official-unavailable conclusion
+- files_changed: automation-2-production-policy.md,
+  automation-2-current-state.md, daily-quality-loop.md
+- validation: the supplied official page and PDF resolve under *Lophiomys
+  imhausi* / `Crested Rat` and confirm record e.T12308A22368581
+- counter_reset: yes
+
+## 2026-08-05 — Maned Rat rejected-image cleanup and English-alias correction
+
+Daily Quality Loop
+- issue: three rejected Japanese PNGs remained after acceptance, and the IUCN
+  lookup was also delayed because its English name `Crested Rat` differs from
+  the public package name `Maned Rat`
+- priority: cleanup
+- tags: #rejected-image-cleanup #topic-alias-duplication
+- cause: failed generation artifacts were retained for audit, while the first
+  alias-search improvement covered scientific spellings but not English common-
+  name variants
+- next_action: moved exactly three explicitly rejected PNGs to the Windows
+  Recycle Bin, preserved the four canonical poster PNGs and official evidence,
+  removed stale artifact references, and expanded the IUCN search gate to
+  English common-name aliases
+- tomorrow_change: complete scientific-name, historical-spelling, and English-
+  alias searches before declaring an official IUCN route unavailable; after
+  user acceptance, offer recoverable cleanup of rejected visual artifacts

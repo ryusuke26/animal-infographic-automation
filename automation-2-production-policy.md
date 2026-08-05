@@ -111,7 +111,10 @@ turning rotation into a hard quota.
 
 Before locking:
 
-- confirm the accepted scientific name;
+- confirm the accepted scientific name, then collect historical synonyms,
+  incorrect subsequent spellings, and English common-name aliases from the
+  taxonomy and biological sources; search the IUCN route under each before
+  concluding that an official assessment is absent;
 - identify the supported English and Japanese public names;
 - identify an official IUCN page, assessment PDF/DOI, or completed official
   no-assessment search route;
