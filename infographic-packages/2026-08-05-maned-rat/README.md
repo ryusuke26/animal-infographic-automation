@@ -1,6 +1,6 @@
 # Maned Rat / タテガミネズミ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -61,4 +61,6 @@ The user selected the supplied first Japanese generation as the canonical visual
 - One dominant Maned Rat, readable identity features, wooded-stream habitat, and exactly three numbered illustrated observation cards are present in each poster.
 - Copy Lock, main posts, story replies, ALT text, source notes, and all eight sidecars are synchronized.
 - Bilingual X-format validation, full package validation, phone/full-size visual review, and `git diff --check` pass.
-- GitHub publishing and Git mutation were not attempted.
+- Published directly to `origin/master` in package commit `d409e25`; workflow
+  improvements were published in commit `b9802d4`. Published-state metadata is
+  recorded in the follow-up closeout commit.

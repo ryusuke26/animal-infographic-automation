@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-05T13:20:11+09:00
+Updated: 2026-08-05T14:47:33+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -22,7 +22,7 @@ This file is the small replace-in-place state record for Automation
 ## Latest Package
 
 - Latest package: `2026-08-05-maned-rat`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Africa / East Africa.
 - Workflow mode: Quality Run with a narrow Caution Run taxonomy and spelling
   cross-check.
@@ -46,7 +46,9 @@ This file is the small replace-in-place state record for Automation
 - Cleanup: at the user's request, exactly three explicitly rejected Japanese
   PNGs were moved to the Windows Recycle Bin. Only the four canonical direct
   and posting PNGs remain; official evidence files were preserved.
-- GitHub publishing: not attempted. Final state is local-ready only.
+- GitHub publishing: package commit `d409e25` and workflow commit `b9802d4`
+  were pushed directly to `origin/master` and verified remotely. Published-
+  state metadata is recorded in the follow-up closeout commit.
 
 ## Recent-Eight Region Rotation
 
