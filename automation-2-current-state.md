@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-07T00:34:04+09:00
+Updated: 2026-08-07T00:38:15+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation
 ## Completed Package
 
 - Topic: Southern Marsupial Mole / フクロモグラ / *Notoryctes typhlops*.
-- State: `completed, local-ready`; GitHub publishing remains separate.
+- State: `completed, published`.
 - Evidence: the user-supplied official IUCN screenshot and matching 11-page PDF
   confirm Global LC, assessed 15 March 2014 and published 2016, record
   `e.T14879A21965004`. Public footers use assessment year 2014.
@@ -43,12 +43,15 @@ This file is the small replace-in-place state record for Automation
   Windows Recycle Bin in an approval-enabled context. The cache now contains
   only the two accepted images, and the package still contains only its four
   required direct/posting PNGs.
-- GitHub publishing was not attempted; Git was not mutated.
+- GitHub closeout: package commit `f5156fa` and workflow-quality commit
+  `647826f` were pushed directly to `origin/master`; the remote ref matched
+  local HEAD at `647826fe824107c05ff84bb0b90d77e5393e094c` before the
+  published-state metadata update.
 
 ## Latest Completed Package
 
 - Latest completed package is `2026-08-06-southern-marsupial-mole`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Central Australia / Oceania.
 - Editorial classification group: Mammals.
 
@@ -102,8 +105,7 @@ an already selected retired topic.
 ## Next Concrete Change
 
 - Begin the next run with no active package and select a new topic.
-- Do not repeat *Notoryctes typhlops*; its completed local-ready package awaits
-  a separate GitHub closeout only if the user requests publishing.
+- Do not repeat *Notoryctes typhlops*; its completed package is published.
 - Strongly prefer an evidence-ready non-mammal with a reliably representable
   body plan because Mammals occupy all eight latest completed slots. Region is
   secondary now that Australia/Oceania is represented.

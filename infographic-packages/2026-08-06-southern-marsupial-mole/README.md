@@ -1,6 +1,6 @@
 # Southern Marsupial Mole / フクロモグラ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -87,4 +87,4 @@ On 2026-08-07, an approval-enabled cleanup revalidated all 11 cache PNGs by SHA-
 - The user-selected Japanese poster and its first-generation English companion each contain one dominant hero and exactly three numbered species-specific illustrated cards.
 - All locked title, scientific-name, observation, and footer text is readable and exact in both languages.
 - Eight sidecars match the four fenced blocks in the two posting sets.
-- State is `completed, local-ready`; GitHub publishing was not attempted.
+- State is `completed, published`. Package commit `f5156fa` and workflow-quality commit `647826f` were pushed directly to `origin/master` and verified before this published-state metadata update.
