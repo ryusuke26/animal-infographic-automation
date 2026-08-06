@@ -56,6 +56,7 @@ same kind of issue is likely to matter again.
 #image-text-error
 #layout-overcrowded
 #source-canvas-drift
+#topic-classification-drift
 #workflow-friction
 ```
 
@@ -454,3 +455,181 @@ Daily Quality Loop
 - tomorrow_change: complete scientific-name, historical-spelling, and English-
   alias searches before declaring an official IUCN route unavailable; after
   user acceptance, offer recoverable cleanup of rejected visual artifacts
+
+## 2026-08-06 — Southern Marsupial Mole Rescue Run
+
+Daily Quality Loop
+- issue: both source-gate-passing Japanese generations showed only two
+  traceable limbs on the dominant hero; the first also duplicated observation
+  label 1 outside its card
+- priority: publish-blocker
+- tags: #species-identity-drift #duplicate-copy-placement
+- cause: the underground side-on silhouette repeatedly hid the far-side limbs,
+  while the first composition treated the habitat claim as both a subtitle and
+  card copy despite the six-line lock
+- next_action: preserved exactly two rejected Japanese PNGs under explicit
+  filenames, stopped before English generation, and marked the active package
+  `needs review` under Rescue Run
+- tomorrow_change: resume the same package; do not use rejected pixels as an
+  edit target or reference, and require a user decision before any fresh-canvas
+  attempt beyond the retry limit
+
+## 2026-08-06 — Southern Marsupial Mole official-date and diagnostic-anatomy correction
+
+Daily Quality Loop
+- issue: the package used the 2016 publication/citation year as the public
+  assessment year, and visual QA focused on simultaneous limb visibility while
+  missing a plug-like face, incorrect forefoot digits, and undersized claws
+- priority: fact-risk
+- tags: #assessment-year-drift #diagnostic-anatomy-priority
+- cause: the first evidence route exposed the category and release year but not
+  the field-level assessment date; the visual checklist treated generic limb
+  inventory as more important than this species' nasal shield and two-claw
+  split-spade forefeet
+- next_action: preserved the user-supplied official PDF and screenshot; changed
+  every package footer to assessed year 2014; re-locked observation 2 to the two
+  huge foreclaws; rewrote visual guidance around nasal shield, digits III/IV,
+  and three subordinate digits; recycled exactly two failed PNGs
+- tomorrow_change: require direct `Date Assessed` evidence before any dated
+  footer and rank diagnostic facial/paw architecture above generic visible-limb
+  counting for difficult fossorial species
+
+Improvement Resolution
+- tag: #assessment-year-drift
+- count_since_last_fix: 2
+- threshold: 2
+- improvement_applied: publication/citation years can no longer substitute for
+  an unavailable field-level assessment year; Evidence Lock remains unresolved
+  and `needs review` until `Date Assessed` is confirmed
+- files_changed: automation-2-production-policy.md,
+  automation-2-current-state.md, daily-quality-loop.md
+- validation: corrected Southern Marsupial Mole Copy Lock passes pre-image QA;
+  bilingual X-format validation and `git diff --check` pass
+- counter_reset: yes
+
+## 2026-08-06 — Southern Marsupial Mole visual retirement
+
+Daily Quality Loop
+- issue: fresh Japanese generation, a localized face correction, and the
+  English companion still converted the species' diagnostic nasal shield and
+  digit III/IV digging claws into generic mole, pig-nose, or tusk-like forms
+- priority: publish-blocker
+- tags: #species-identity-drift #diagnostic-anatomy-priority
+- cause: the topic depends on a rare combination of facial and forefoot anatomy
+  that prose-only Image Gen prompting did not preserve reliably; earlier QA
+  also over-weighted how many limbs were visible instead of whether the face,
+  digit hierarchy, and claw origins identified the species
+- next_action: retired the package as `incomplete`, recycled exactly four failed
+  Japanese workspace PNGs, kept zero package PNGs, and did not import the failed
+  English output
+- tomorrow_change: screen visually high-risk candidates for a usable
+  authoritative reference before topic lock; reject prose-only topics whose
+  identity depends on rare face-plus-digit architecture
+
+Improvement Resolution
+- tag: #species-identity-drift
+- count_since_last_fix: 3
+- threshold: 3
+- improvement_applied: added a pre-lock visual-viability gate requiring a
+  usable reference or reliably represented body plan for rare diagnostic anatomy
+- files_changed: automation-2-production-policy.md,
+  automation-2-current-state.md, daily-quality-loop.md
+- validation: package image count is zero, rejected workspace links are removed,
+  the retired package is not active, and `git diff --check` passes
+- counter_reset: yes
+
+## 2026-08-06 — Southern Marsupial Mole user-reference revisit
+
+Daily Quality Loop
+- issue: one user-authorized fresh generation used the supplied anatomy-and-
+  pose sketch and improved the body axis, forefoot placement, and dominant-claw
+  scale, but still rendered a round pig-like nasal disc and left the three
+  subordinate digits on each hero forefoot unresolved
+- priority: publish-blocker
+- tags: #species-identity-drift #diagnostic-anatomy-priority
+- cause: the rough reference successfully constrained pose but did not provide
+  a literal close-up nasal-shield silhouette or fully labeled digit topology;
+  the generator's generic two-nostril mole/pig prior remained stronger
+- next_action: rejected the Japanese result, stopped before English generation,
+  kept package image count at zero, and stopped after the exact cache file could
+  not be sent to the Recycle Bin because of sandbox permissions
+- tomorrow_change: for rare face-plus-digit anatomy, distinguish a useful pose
+  map from a sufficient identity reference; require a literal nasal-shield
+  close-up and labeled five-digit forefoot view before another manual revisit
+
+## 2026-08-06 — Southern Marsupial Mole photo-informed sketch revisit
+
+Daily Quality Loop
+- issue: five anatomy photographs corrected the prior undersized-shield model,
+  but the sketch-style generation converted one broad nasal pad into three
+  stacked armour-like lobes and again omitted clear subordinate forefoot digits
+- priority: publish-blocker
+- tags: #species-identity-drift #diagnostic-anatomy-priority
+- cause: synthesizing several front and side views made the generator treat
+  shallow surface divisions as repeated anatomical segments
+- next_action: rejected the Japanese preview, stopped before English generation,
+  kept package image count at zero, and changed Visual Lock to exactly one
+  continuous pad with at most one shallow crease and no stacked lobes
+- tomorrow_change: do not blend multiple ambiguous reference views directly for
+  rare anatomy; require one user-approved simplified composite that fixes the
+  shield continuity and five-digit topology before any further manual retry
+
+Improvement Resolution
+- tag: #diagnostic-anatomy-priority
+- count_since_last_fix: 3
+- threshold: 3
+- improvement_applied: exact one-pad continuity and anti-segmentation constraints
+  were added to the package Visual Lock and Japanese prompt
+- files_changed: sources-qa.md, image-prompt-ja.md, README.md,
+  automation-2-current-state.md, daily-quality-loop.md
+- validation: corrected Copy Lock passes pre-image QA; package image count remains zero
+- counter_reset: yes
+
+## 2026-08-07 — Southern Marsupial Mole user-selected recovery
+
+Daily Quality Loop
+- issue: a source-gate-passing, coherent Japanese poster remained retired after
+  anatomy-focused review, but the user later compared the localized variants
+  and explicitly selected that earlier poster as the final visual
+- priority: completion-recovery
+- tags: #user-selected-poster #selected-poster-preservation
+- cause: the prior review treated stylized nasal-pad surface relief as a hard
+  blocker after the user had already shifted priority toward the overall face,
+  claw scale, and authored poster coherence
+- next_action: imported the exact user-selected Japanese source, generated the
+  English companion from it as a reference on the first attempt, normalized
+  both languages, synchronized eight sidecars, and completed full QA
+- tomorrow_change: when a user explicitly selects a source-gate-passing poster
+  after informed comparison, preserve it as canonical and do not regenerate it
+  merely to optimize one isolated visual detail
+
+## 2026-08-07 — Southern Marsupial Mole cache cleanup audit
+
+Daily Quality Loop
+- issue: the package was already clean, but nine rejected or superseded PNGs
+  remained in the thread-level Image Gen cache after the user reconfirmed the
+  final Japanese and English pair
+- priority: housekeeping
+- tags: #artifact-cleanup
+- cause: Image Gen cache storage is outside the writable workspace boundary;
+  the Windows Recycle Bin call was denied as an unauthorized operation
+- next_action: stopped after the first exact-target failure, preserved the two
+  accepted cache images and all four canonical package PNGs, and recorded the
+  nine pending cache targets
+- tomorrow_change: perform cache cleanup only in an approval-enabled context;
+  never replace a denied Recycle Bin operation with a stronger deletion method
+
+## 2026-08-07 — Southern Marsupial Mole cache cleanup completed
+
+Daily Quality Loop
+- issue: nine rejected or superseded PNGs remained in the thread Image Gen
+  cache after the accepted bilingual pair was finalized
+- priority: housekeeping
+- tags: #artifact-cleanup #selected-poster-preservation
+- cause: the first exact Recycle Bin attempt ran without permission to mutate
+  the cache directory and correctly stopped
+- next_action: revalidated all 11 cache PNGs by SHA-256, protected the two
+  hashes matching the accepted direct posters, and moved exactly nine other
+  regular PNGs to the Windows Recycle Bin with approval
+- tomorrow_change: preserve accepted cache hashes explicitly before any
+  approval-enabled cleanup and verify that only accepted cache images remain

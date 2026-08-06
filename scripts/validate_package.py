@@ -43,6 +43,18 @@ LEGACY_SIDECAR_KINDS = ("caption", "alt", "source-note")
 STORY_SIDECAR_KINDS = ("caption", "story-reply", "alt", "source-note")
 STORY_REPLY_START = date(2026, 7, 28)
 DIRECT_SOURCE_GATE_START = date(2026, 7, 26)
+EDITORIAL_CLASSIFICATION_START = date(2026, 8, 7)
+EDITORIAL_CLASSIFICATION_GROUPS = (
+    "Mammals",
+    "Birds",
+    "Reptiles",
+    "Amphibians",
+    "Fishes",
+    "Insects",
+    "Other invertebrates",
+    "Plants",
+    "Fungi and lichens",
+)
 DATE_RE = re.compile(r"(?<!\d)(20\d{2})-(\d{2})-(\d{2})(?!\d)")
 PUBLIC_NAMING_LABELS = (
     "英名の音写",
@@ -201,6 +213,30 @@ def is_fast_run(package: Path, errors: list[str]) -> bool:
         return False
     text = read_utf8(readme, errors)
     return bool(re.search(r"Workflow mode:\s*`?Fast Run`?", text, re.IGNORECASE))
+
+
+def validate_editorial_classification(package: Path, errors: list[str]) -> None:
+    package_date = package_date_for(package)
+    if package_date is not None and package_date < EDITORIAL_CLASSIFICATION_START:
+        return
+
+    readme = package / "README.md"
+    if not readme.is_file():
+        return
+    text = read_utf8(readme, errors)
+    value = find_field(text, "Editorial classification group")
+    if not value:
+        errors.append(
+            f"{readme}: missing 'Editorial classification group:' field"
+        )
+        return
+    value = value.strip().strip("`")
+    if value not in EDITORIAL_CLASSIFICATION_GROUPS:
+        allowed = ", ".join(EDITORIAL_CLASSIFICATION_GROUPS)
+        errors.append(
+            f"{readme}: unsupported editorial classification group {value!r}; "
+            f"expected one of: {allowed}"
+        )
 
 
 def validate_fast_prompt(package: Path, errors: list[str]) -> None:
@@ -504,6 +540,7 @@ def main() -> int:
 
     fast_run = is_fast_run(package, errors)
     validate_required_files(package, errors, fast_run)
+    validate_editorial_classification(package, errors)
     if fast_run:
         validate_fast_prompt(package, errors)
     else:

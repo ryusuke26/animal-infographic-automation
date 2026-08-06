@@ -30,7 +30,8 @@ GitHub publishing is separate. This automation finishes at
 ## Phase 0 - One-batch preflight
 
 In one batch, inspect current state, Automation memory, INDEX, recent package
-folders, and `git status --short`.
+folders, and `git status --short`. Build latest-eight rotation summaries for
+both broad regions and editorial classification groups.
 
 Call `load_workspace_dependencies` once and use the bundled Python. If it does
 not return a usable path, verify the previously recorded bundled Python once
@@ -49,14 +50,32 @@ obsolete evidence request and do not select a second topic.
 
 Reject completed topics found in memory, INDEX, or package folders.
 
-Review the latest eight completed regions. Prefer an underrepresented region
-and avoid repeating yesterday's region when a credible alternative exists, but
-do not turn rotation into a hard quota.
+Review the latest eight completed broad regions and editorial classification
+groups. Use these nine editorial groups: Mammals, Birds, Reptiles, Amphibians,
+Fishes, Insects, Other invertebrates, Plants, and Fungi and lichens. These are
+selection buckets, not formal taxonomic ranks; record the exact lineage
+separately in Evidence Lock.
+
+When no package must be resumed, screen a small slate of two or three credible
+candidates spanning at least two editorial groups when available. Prefer a
+candidate that improves both region and classification diversity. Avoid
+repeating yesterday's region or editorial group when a credible alternative
+exists, and prefer groups absent from the latest eight. If one group already
+occupies four or more of the latest eight completed packages, do not lock
+another from that group unless every credible alternative fails an evidence or
+visual-viability gate; record that reason. This is a soft anti-clustering rule,
+not a quota, and source quality, naming safety, and visual identity still
+override rotation.
+
+Incomplete, needs-review, and retired packages do not fill a completed
+rotation slot, but they remain duplicate and visual-risk exclusions unless the
+user explicitly requests a revisit.
 
 Before locking a topic, identify:
 
 - accepted scientific name;
 - English and supported Japanese name;
+- one editorial classification group from the nine-group list;
 - broad native region, lineage, habitat, and curiosity hook;
 - official IUCN page, assessment PDF/DOI, or completed official no-assessment
   route;
@@ -107,6 +126,7 @@ README must contain:
 
 ```text
 Workflow mode: Quality Run
+Editorial classification group: <one allowed group>
 ```
 
 Each copy file contains the exact title, scientific name, exactly three
@@ -307,6 +327,9 @@ After final QA, update in one batch:
 - `infographic-packages/INDEX.md`;
 - `automation-2-current-state.md`;
 - Automation memory with one short Daily Quality Loop entry.
+
+Record the package's broad region and editorial classification group in README
+and INDEX, and refresh both latest-eight rotation summaries in current state.
 
 State is `completed, local-ready`. Do not perform GitHub publishing here.
 

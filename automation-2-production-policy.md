@@ -90,6 +90,9 @@ Read, in one batch:
 - recent package folders
 - `git status --short`
 
+From the completed entries, build latest-eight summaries for both broad region
+and editorial classification group before topic selection.
+
 Call `load_workspace_dependencies` once. Use the returned bundled Python. If the
 loader is unavailable, verify the recorded bundled Python path once by checking
 its version, Pillow import, and validator startup.
@@ -105,9 +108,40 @@ evidence can now be inspected directly; do not repeat an obsolete user request.
 
 ### 1. Topic and evidence viability
 
-Reject completed topics using memory, INDEX, and package names. Review the most
-recent eight completed regions and prefer an underrepresented region without
-turning rotation into a hard quota.
+Reject completed topics using memory, INDEX, and package names. Review both the
+most recent eight completed broad regions and the most recent eight editorial
+classification groups.
+
+Use these editorial classification groups:
+
+- Mammals
+- Birds
+- Reptiles
+- Amphibians
+- Fishes
+- Insects
+- Other invertebrates
+- Plants
+- Fungi and lichens
+
+These are practical selection buckets rather than formal taxonomic ranks.
+Record the organism's exact lineage separately in Evidence Lock.
+
+When there is no active package to resume, screen a small slate of two or three
+credible candidates spanning at least two editorial groups when available.
+Prefer a candidate that improves both region and classification diversity.
+Avoid repeating the previous completed package's region or editorial group
+when a credible alternative exists, and prefer groups absent from the latest
+eight. Treat any group occupying four or more of the latest eight as
+overrepresented: do not lock another topic from it unless all credible
+out-group alternatives fail evidence, naming, or visual-viability gates, and
+record that reason in Automation memory.
+
+Do not turn either rotation into a quota. Official evidence, supported naming,
+and reliable visual identity remain hard gates. Incomplete, needs-review, and
+retired packages do not fill a completed rotation slot, but they remain
+duplicate and visual-risk exclusions unless the user explicitly requests a
+revisit.
 
 Before locking:
 
@@ -116,12 +150,21 @@ Before locking:
   taxonomy and biological sources; search the IUCN route under each before
   concluding that an official assessment is absent;
 - identify the supported English and Japanese public names;
+- assign exactly one editorial classification group from the nine-group list;
 - identify an official IUCN page, assessment PDF/DOI, or completed official
   no-assessment search route;
 - identify one authoritative taxonomy/name source;
 - identify one authoritative biological source for the three public claims and
   the organism's visual identity;
 - choose one curiosity doorway that can carry both poster and post.
+
+Before locking a visually high-risk topic, confirm that its diagnostic anatomy
+can be carried by either a usable authoritative visual reference or a
+well-represented body plan. If identity depends on rare combinations such as a
+skin-covered face plus nonstandard digit hierarchy and specialized claws, and
+no usable reference image can be supplied to Image Gen, reject the topic before
+Copy Lock rather than relying on prose alone or entering an open-ended retry
+loop.
 
 Do not create a provisional package merely to ask the user for files. Request
 user-supplied evidence only when the official route remains blocked, ambiguous,
@@ -132,6 +175,7 @@ or conflicting after the direct check.
 Create the package and settle:
 
 - English, Japanese, and scientific names;
+- editorial classification group and exact lineage;
 - broad native region and habitat;
 - exact status footer and assessment year/check year;
 - exactly three public claims: habitat, visible identity, and behavior or
@@ -142,6 +186,13 @@ Create the package and settle:
 
 Use the official IUCN global category by default when one exists. Keep national
 or regional legal status in source/context unless the user asks otherwise.
+
+Treat an IUCN citation, release, amendment, or `Year Published` year as
+publication context until the official field-level `Date Assessed` is directly
+confirmed. Never substitute the citation/release year for the assessment year
+in a public footer. If the category is confirmed but the field-level assessment
+year remains unavailable, keep Evidence Lock unresolved and the package
+`needs review` rather than generating a dated status footer.
 
 Do not invent IUCN `NE`. When a completed official search finds no global
 assessment, use:
@@ -163,6 +214,8 @@ Write:
 README must contain:
 
 `Workflow mode: Quality Run`
+
+`Editorial classification group: <one allowed group>`
 
 Each infographic-copy file contains the exact title, scientific name, exactly
 three observation labels, and a short label-free status footer.
@@ -379,6 +432,10 @@ After final QA, update in one batch:
 - `infographic-packages/INDEX.md`;
 - `automation-2-current-state.md`;
 - Automation memory and one short Daily Quality Loop entry.
+
+Record the broad region and editorial classification group in the package
+README and INDEX entry. Refresh both latest-eight rotation summaries in
+`automation-2-current-state.md`.
 
 Mark the package `completed, local-ready`. GitHub publishing is a separate
 approval-enabled closeout.
