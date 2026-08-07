@@ -633,3 +633,16 @@ Daily Quality Loop
   regular PNGs to the Windows Recycle Bin with approval
 - tomorrow_change: preserve accepted cache hashes explicitly before any
   approval-enabled cleanup and verify that only accepted cache images remain
+
+## 2026-08-07 — Jade Vine Quality Run completed
+
+Daily Quality Loop
+- issue: the latest-eight completed classification rotation had become
+  Mammals 8/8, leaving every other editorial group absent
+- priority: editorial-diversity
+- tags: #topic-classification-drift #rotation
+- cause: recent evidence-ready selections repeatedly favored mammals
+- next_action: screened a non-mammal slate, selected an evidence-ready Plant,
+  and completed the bilingual package with first-pass direct posters
+- tomorrow_change: continue preferring an absent non-mammal group other than
+  Plants when evidence, naming, and visual identity gates remain strong
