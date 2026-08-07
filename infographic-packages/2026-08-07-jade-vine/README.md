@@ -1,6 +1,6 @@
 # Jade Vine / ヒスイカズラ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -65,4 +65,6 @@ One connected woody vine climbs a mossy Philippine rainforest tree and drops one
 - Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#JadeVine` and use openings distinct from the latest two completed posts.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, and `git diff --check` pass.
-- GitHub publishing was not attempted; this package is complete locally only.
+- Published directly to `origin/master` in package commit `19b0c2a`; the
+  automation-state commit is `f72e9c0`. The remote ref matched `f72e9c0`
+  before the published-state metadata commit.

@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-07T10:44:40+09:00
+Updated: 2026-08-07T12:23:25+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation
 ## Completed Package
 
 - Topic: Jade Vine / ヒスイカズラ / *Strongylodon macrobotrys*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Philippines / Asia.
 - Editorial classification group: Plants.
 - Evidence: Kew POWO accepts the scientific name, lists two heterotypic
@@ -39,12 +39,15 @@ This file is the small replace-in-place state record for Automation
   direct-source gates, exact Copy Lock, full-size and phone-size visual review,
   eight synchronized sidecars, X format, full package validation, and
   whitespace checks passed.
-- GitHub publishing was not attempted.
+- GitHub closeout: package commit `19b0c2a` and automation-state commit
+  `f72e9c0` were pushed directly to `origin/master`; the remote ref matched
+  local HEAD at `f72e9c0c463c8d83b1dfe9a2478681c93ea3a213` before the
+  published-state metadata commit.
 
 ## Latest Completed Package
 
 - Latest completed package is `2026-08-07-jade-vine`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Philippines / Asia.
 - Editorial classification group: Plants.
 
