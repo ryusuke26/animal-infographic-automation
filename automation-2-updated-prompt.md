@@ -56,16 +56,47 @@ Fishes, Insects, Other invertebrates, Plants, and Fungi and lichens. These are
 selection buckets, not formal taxonomic ranks; record the exact lineage
 separately in Evidence Lock.
 
+The editorial mission is to introduce living things that are internationally
+overlooked in general-audience wildlife culture, not merely organisms with an
+unusual appearance or an obscure scientific name. Apply a global-familiarity
+gate before rotation:
+
+- check both Japanese- and English-language general-audience exposure;
+- reject household-name animals and recurring zoo, aquarium, wildlife-video,
+  and generic weird-animals staples unless the user explicitly requests one;
+- treat a familiar silhouette or widely known nickname as familiar even when
+  most viewers do not know the scientific name;
+- allow a species that is well known within its home region but little known
+  internationally; never erase local or Indigenous knowledge by claiming that
+  nobody knows it;
+- record a one-sentence Global familiarity check, Discovery doorway,
+  Conservation doorway, and Local-knowledge caution for every screened
+  candidate. Search-result counts alone do not prove unfamiliarity.
+
 When no package must be resumed, screen a small slate of two or three credible
-candidates spanning at least two editorial groups when available. Prefer a
-candidate that improves both region and classification diversity. Avoid
-repeating yesterday's region or editorial group when a credible alternative
-exists, and prefer groups absent from the latest eight. If one group already
-occupies four or more of the latest eight completed packages, do not lock
-another from that group unless every credible alternative fails an evidence or
-visual-viability gate; record that reason. This is a soft anti-clustering rule,
-not a quota, and source quality, naming safety, and visual identity still
-override rotation.
+candidates spanning at least two editorial groups when available. When
+credible options exist, include at least two species with directly inspectable
+official global IUCN assessments. Prefer CR, EN, VU, or NT over LC when
+unfamiliarity, discovery strength, naming safety, sources, and visual viability
+are otherwise comparable.
+
+Among candidates that pass the hard naming, evidence, and visual-viability
+gates, rank in this order: international unfamiliarity, natural-history
+discovery strength, directly supportable conservation context, then region and
+classification rotation. Rotation is a tie-breaker, not the editorial mission.
+Avoid repeating yesterday's region or editorial group when a comparably strong
+alternative exists, and prefer groups absent from the latest eight. If one
+group already occupies four or more of the latest eight completed packages, do
+not lock another from that group unless every credible alternative fails a
+hard gate; record that reason.
+
+An unavailable official page for one assessed candidate is not a reason to
+prefer an unassessed species. Screen another unfamiliar assessed candidate
+first. A no-global-assessment route is an intentional exception for an
+exceptionally strong discovery topic, not an easier evidence fallback. Do not
+complete two consecutive no-global-assessment packages unless every credible
+unfamiliar assessed alternative fails a hard naming, evidence, or visual gate;
+record the exception and reason.
 
 Incomplete, needs-review, and retired packages do not fill a completed
 rotation slot, but they remain duplicate and visual-risk exclusions unless the
@@ -75,6 +106,8 @@ Before locking a topic, identify:
 
 - accepted scientific name;
 - English and supported Japanese name;
+- the four candidate-screen records: global familiarity, discovery doorway,
+  conservation doorway, and local-knowledge caution;
 - one editorial classification group from the nine-group list;
 - broad native region, lineage, habitat, and curiosity hook;
 - official IUCN page, assessment PDF/DOI, or completed official no-assessment

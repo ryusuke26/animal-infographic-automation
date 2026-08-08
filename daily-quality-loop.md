@@ -646,3 +646,92 @@ Daily Quality Loop
   and completed the bilingual package with first-pass direct posters
 - tomorrow_change: continue preferring an absent non-mammal group other than
   Plants when evidence, naming, and visual identity gates remain strong
+
+## 2026-08-08 — Sea Angel Quality Run completed
+
+Daily Quality Loop
+- issue: the first Japanese feeding card rendered the sea angel's short mouth
+  cones as three long tube-like structures even though the calm hero, Copy
+  Lock, and overall under-ice composition were already strong
+- priority: localized-visual-accuracy
+- tags: #diagnostic-anatomy-priority #selected-poster-preservation
+- cause: a small side-view feeding inset compressed the far-side cone cluster
+  and exaggerated the visible near-side structures into tubes
+- next_action: used the one allowed localized edit to shorten the visible
+  structures into a near-side cluster of conical mouth parts, preserved the
+  accepted hero and full canvas, then completed the English companion on its
+  first generation
+- tomorrow_change: for small paired or clustered feeding anatomy, prompt the
+  intended viewing angle and visible-versus-occluded structures explicitly in
+  the first generation instead of relying on a total-count instruction alone
+
+## 2026-08-08 — Sea Angel card-3 Rescue Run completed
+
+Daily Quality Loop
+- issue: user review showed that the accepted feeding card kept the head closed
+  and projected three beak-like structures from the face instead of opening the
+  anterior oral folds and showing six internally originating buccal cones
+- priority: material-anatomy-correction
+- tags: #diagnostic-anatomy-priority #visual-acceptance-withdrawal
+- cause: the earlier review checked cone length and apparent clustering but did
+  not verify the opening action, anatomical origin, bilateral pair count, and
+  completeness of the mechanism animal as one combined acceptance gate
+- next_action: rebuilt Japanese from a fresh text-only 2:3 canvas, rebuilt the
+  English companion from the corrected accepted Japanese art direction, and
+  used only one eligible localized fit correction per language
+- tomorrow_change: for internal feeding structures, require the prompt and
+  visual checklist to verify opening tissue, inside-to-outside origin, exact
+  bilateral count, and a complete mechanism animal before accepting the card
+
+## 2026-08-08 — Sea Angel head-apex research and Rescue Run pause
+
+Daily Quality Loop
+- issue: the revised feeding card still opened a large circular cavity across
+  the face instead of placing the mouth at the top/front head apex; after web
+  research corrected the anatomy, the bounded fresh retry visibly cramped the
+  card explanations and broke their integration with the illustrations
+- priority: incomplete-publish-blocker
+- tags: #diagnostic-anatomy-priority #duplicate-copy-placement
+  #visual-acceptance-withdrawal
+- cause: the earlier anatomy gate checked opening, origin, and cone count but
+  not the exact external aperture position; the retry then optimized anatomy
+  without preserving comfortable card-copy margins as an equally hard gate
+- next_action: withdrew completion, kept both fresh candidates unpromoted,
+  paused before English production, moved the package out of the completed
+  rotation, and added separate hidden-anatomy and card-typography gates to the
+  production policy
+- tomorrow_change: settle aperture position, opening direction, internal
+  origin, bilateral count, intact surrounding body, and card-copy margins
+  together before accepting any full poster
+
+Improvement Resolution
+- tag: #diagnostic-anatomy-priority
+- count_since_last_fix: 3
+- threshold: 3
+- improvement_applied: added a five-property hidden-anatomy evidence gate and
+  independent card-typography acceptance check
+- files_changed: automation-2-production-policy.md, Sea Angel evidence and
+  prompts, README, INDEX, current state, Daily Quality Loop, and Automation
+  memory
+- validation: both rejected fresh sources passed exact-2:3 mechanical gates;
+  editorial rejection and incomplete state were recorded; pre-image Copy Lock
+  QA and whitespace checks passed
+- counter_reset: yes
+
+## 2026-08-08 — Sea Angel user-reference Rescue Run completed
+
+Daily Quality Loop
+- issue: text-only anatomy instructions repeatedly produced lateral cones, a
+  circular face cavity, cropped mechanism anatomy, or cramped card copy
+- priority: user-reference-resolution
+- tags: #diagnostic-anatomy-priority #selected-poster-preservation
+- cause: the hidden feeding mechanism needed both a simple topology reference
+  and real-animal references for cone thickness, curvature, compact origin, and
+  organic asymmetry
+- next_action: used the user's diagnostic sketch and two feeding photographs as
+  references only, generated a fresh Japanese poster with one complete card-3
+  animal and six thick countable cones, promoted it after explicit user
+  approval, then generated the English companion from the accepted composition
+- tomorrow_change: when a hidden mechanism remains wrong after the bounded
+  retry, preserve rejected sources and use a deliberate user-supplied topology
+  plus real-anatomy reference set before any fresh continuation

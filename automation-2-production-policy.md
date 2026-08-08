@@ -127,15 +127,66 @@ Use these editorial classification groups:
 These are practical selection buckets rather than formal taxonomic ranks.
 Record the organism's exact lineage separately in Evidence Lock.
 
+#### Global unfamiliarity and conservation mission
+
+This project is not a generic collection of famous unusual animals. Its
+editorial purpose is to give internationally overlooked living things a name,
+image, and natural-history doorway, then quietly show that their continued
+existence may also be precarious.
+
+Apply a global-familiarity gate before using rotation:
+
+- inspect both Japanese- and English-language general-audience exposure;
+- reject household names and recurring zoo, aquarium, mainstream wildlife,
+  viral-video, and generic weird-animals staples unless deliberately requested
+  by the user;
+- a widely recognized silhouette or nickname fails the gate even if the
+  scientific name is obscure;
+- do not reject a species merely because people in its home region know it;
+  local and Indigenous knowledge must not be erased by calling a species
+  unknown to everyone;
+- do not use raw search-result counts as the sole familiarity test.
+
+For each screened candidate, record four short fields in sources-qa.md:
+
+- Global familiarity check: why the organism is not a recurring
+  general-audience staple in either Japanese or English;
+- Discovery doorway: the natural-history observation that earns attention;
+- Conservation doorway: the directly supportable official status or
+  habitat/population concern that follows the discovery;
+- Local-knowledge caution: how public wording avoids claiming universal
+  ignorance.
+
 When there is no active package to resume, screen a small slate of two or three
 credible candidates spanning at least two editorial groups when available.
-Prefer a candidate that improves both region and classification diversity.
-Avoid repeating the previous completed package's region or editorial group
-when a credible alternative exists, and prefer groups absent from the latest
-eight. Treat any group occupying four or more of the latest eight as
-overrepresented: do not lock another topic from it unless all credible
-out-group alternatives fail evidence, naming, or visual-viability gates, and
-record that reason in Automation memory.
+When credible options exist, at least two candidates should have directly
+inspectable official global IUCN assessments. Prefer CR, EN, VU, or NT over LC
+when unfamiliarity, discovery strength, naming safety, source quality, and
+visual viability are otherwise comparable.
+
+After hard naming, evidence, and visual-viability gates pass, rank candidates
+in this order:
+
+1. international general-audience unfamiliarity;
+2. strength of the natural-history discovery doorway;
+3. directly supportable conservation context;
+4. region and editorial-classification rotation.
+
+Rotation is a tie-breaker, not the mission. Avoid repeating the previous
+completed package's region or editorial group only when a comparably strong
+alternative exists, and prefer groups absent from the latest eight. Treat any
+group occupying four or more of the latest eight as overrepresented, but do
+not use that pressure to select a familiar media staple or a weaker
+conservation route.
+
+If one assessed candidate's official page or field-level date cannot be
+directly confirmed, screen another unfamiliar assessed candidate before
+considering an unassessed species. A completed no-global-assessment route is an
+intentional exception for an exceptionally strong discovery topic; it must not
+become an easier substitute for official evidence. Do not complete two
+consecutive no-global-assessment packages unless every credible unfamiliar
+assessed alternative fails a hard naming, evidence, or visual gate. Record the
+exception and reason in sources-qa.md and Automation memory.
 
 Do not turn either rotation into a quota. Official evidence, supported naming,
 and reliable visual identity remain hard gates. Incomplete, needs-review, and
@@ -150,6 +201,8 @@ Before locking:
   taxonomy and biological sources; search the IUCN route under each before
   concluding that an official assessment is absent;
 - identify the supported English and Japanese public names;
+- record the global-familiarity check, discovery doorway, conservation doorway,
+  and local-knowledge caution;
 - assign exactly one editorial classification group from the nine-group list;
 - identify an official IUCN page, assessment PDF/DOI, or completed official
   no-assessment search route;
@@ -165,6 +218,14 @@ skin-covered face plus nonstandard digit hierarchy and specialized claws, and
 no usable reference image can be supplied to Image Gen, reject the topic before
 Copy Lock rather than relying on prose alone or entering an open-ended retry
 loop.
+
+When a behavior exposes normally hidden anatomy, the visual reference check
+must settle five separate properties before prompting: the exact external
+aperture position, its opening direction, the internal-to-external origin of
+the structures, the exact bilateral count, and a camera angle that can show all
+four without turning the whole head or body into the opening. Record these in
+Evidence Lock. If available photographs and diagrams cannot settle them, do
+not ask a full poster generation to infer the mechanism from prose alone.
 
 Do not create a provisional package merely to ask the user for files. Request
 user-supplied evidence only when the official route remains blocked, ambiguous,
@@ -322,6 +383,13 @@ companion. Accept it only when:
 - title, name, three cards, and footer form one visual system;
 - all three cards contain a visible number, species-specific spot art, and
   useful explanatory copy;
+- when hidden feeding anatomy is shown, verify the aperture position, opening
+  direction, inside-to-outside origin, bilateral count, and intact surrounding
+  body independently; a correct count does not excuse an opening placed across
+  the face, neck, or body;
+- inspect each card's explanatory line as typography, not only as extracted
+  characters: it must sit comfortably inside its own card with readable
+  margins and remain visually paired with that card's spot art;
 - the hero remains dominant and unobstructed;
 - text is legible enough for mobile viewing;
 - the result feels authored for this species rather than filled into a generic

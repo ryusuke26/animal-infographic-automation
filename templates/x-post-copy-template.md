@@ -20,6 +20,10 @@ packages are grandfathered and need not be rewritten.
 - Reveal the name after the hook when that improves curiosity.
 - Compare the latest two completed posts and change the opening and sentence
   pattern when they feel repeated.
+- Frame unfamiliarity as the viewer's discovery, not universal ignorance.
+  Never claim that nobody knows the species or that it is unknown in its home
+  region. Prefer viewer-relative wording or a concrete scene that lets the
+  organism feel newly discovered without making a universal familiarity claim.
 
 ```text
 <species-specific hook>
@@ -49,6 +53,10 @@ poster cards copied into sentences.
   that overflow instead of broadly rewriting the reply.
 - Avoid unsupported absolutes (`only`, `exclusive`, `nothing else can reach`)
   and purpose-driven evolution wording such as `evolved in order to`.
+- Keep curiosity first and conservation second: let the reader meet the
+  organism through habitat, appearance, or behavior before the story turns
+  toward a source-supported risk or dependency. Do not turn the reply into an
+  advocacy slogan or imply that unfamiliarity itself proves endangerment.
 - For Japanese packages dated 2026-07-21 or later, end with the exact standalone
   line `それが<日本語の種名>の、ちょっと不思議な暮らし。`. Replace the placeholder
   with the public Japanese poster title. Do not use
