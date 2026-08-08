@@ -1,6 +1,6 @@
 # Sea Angel / ハダカカメガイ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -69,4 +69,6 @@ One translucent sea angel swims diagonally upward beneath pale drift ice in cold
 - Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#SeaAngel` and use openings distinct from the latest two completed posts.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, and `git diff --check` pass.
-- GitHub publishing was not attempted; the package stops at `completed, local-ready`.
+- Published to `origin/master` in package commit `9fe805b`; the accompanying
+  workflow and selection-policy update is commit `ebaab22`. The remote branch
+  was verified before this published-state metadata update.

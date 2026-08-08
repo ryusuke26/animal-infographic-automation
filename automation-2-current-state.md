@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-08T23:01:27+09:00
+Updated: 2026-08-08T23:42:22+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -11,7 +11,7 @@ This file is the small replace-in-place state record for Automation
   Image Gen posters, species-specific illustrated observation cards, and an
   editorial review of X copy.
 - Pending evidence package: none.
-- Active package: none; the Sea Angel run is complete and local-ready.
+- Active package: none; the Sea Angel run is complete and published.
 - Retired package: none.
 - Phase 0 preflight passed and the dependency loader returned the bundled
   Python runtime. Unrelated untracked `scripts/__pycache__/` and `tmp/` were
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation
 ## Completed Package
 
 - Topic: Sea Angel / ハダカカメガイ / *Clione elegantissima*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Southern Sea of Okhotsk / North Pacific.
 - Editorial classification group: Other invertebrates.
 - Evidence: JAMSTEC BISMaL and Aquarium Fukushima support the accepted names,
@@ -44,12 +44,14 @@ This file is the small replace-in-place state record for Automation
   Four canonical PNGs are exact `1024x1536`, direct/posting pairs are
   pixel-identical, and eight sidecars, X-format, package, full-size, phone-size,
   and whitespace QA pass.
-- Git and GitHub were not mutated.
+- Published to `origin/master` in package commit `9fe805b`; workflow and
+  selection-policy updates were published in commit `ebaab22`. The remote
+  branch was verified before this published-state metadata update.
 
 ## Latest Completed Package
 
 - Latest completed package is `2026-08-08-sea-angel`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Southern Sea of Okhotsk / North Pacific.
 - Editorial classification group: Other invertebrates.
 
@@ -99,7 +101,7 @@ Mammals occupy 6/8; Plants and Other invertebrates occupy one slot each.
 
 ## Next Concrete Change
 
-- The Sea Angel run is finished at `completed, local-ready`; do not regenerate
+- The Sea Angel run is finished at `completed, published`; do not regenerate
   or alter the user-selected Japanese poster in a future run.
 - On the next daily run, perform Phase 0 preflight and screen a new topic. The
   latest completed group rotation is Mammals 6/8, Plants 1/8, and Other
@@ -108,4 +110,4 @@ Mammals occupy 6/8; Plants and Other invertebrates occupy one slot each.
 - Preserve the improved hidden-anatomy gate: aperture position, compact origin,
   bilateral count, intact surrounding body, complete mechanism animal, and
   comfortable card-copy margins must pass together.
-- GitHub publishing remains a separate approved action.
+- No GitHub publishing action remains for the Sea Angel package.
