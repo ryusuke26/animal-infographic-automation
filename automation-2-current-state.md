@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-09T11:23:45+09:00
+Updated: 2026-08-09T12:28:00+09:00
 
 This file is the small replace-in-place state record for Automation
 `automation-2`. Run history remains in automation memory.
@@ -22,7 +22,7 @@ This file is the small replace-in-place state record for Automation
 
 - Topic: Madagascan Big-headed Turtle / マダガスカルヨコクビガメ /
   *Erymnochelys madagascariensis*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Western Madagascar / Africa.
 - Editorial classification group: Reptiles.
 - Evidence: the IUCN/TFTSG assessment supports Global CR under A4d, assessed
@@ -45,12 +45,13 @@ This file is the small replace-in-place state record for Automation
   Four canonical PNGs are exact `1024x1536`, direct/posting pairs are
   pixel-identical, and eight sidecars, X-format, package, full-size, phone-size,
   and whitespace QA pass.
-- Git and GitHub were not mutated.
+- Published to `origin/master` in package commit `6f9affb`; the remote branch
+  matched that commit before the published-state metadata update.
 
 ## Latest Completed Package
 
 - Latest completed package is `2026-08-09-madagascan-big-headed-turtle`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Western Madagascar / Africa.
 - Editorial classification group: Reptiles.
 
@@ -101,7 +102,7 @@ each.
 ## Next Concrete Change
 
 - The Madagascan Big-headed Turtle package is finished at `completed,
-  local-ready`; do not regenerate or publish it automatically.
+  published`; do not regenerate or alter the accepted posters.
 - On the next daily run, perform Phase 0 preflight and screen a new topic.
   Prefer an absent group such as Birds, Amphibians, Fishes, Insects, or Fungi
   and lichens when unfamiliarity, evidence, naming, and visual viability remain
@@ -109,4 +110,5 @@ each.
   passes all hard gates.
 - Run exact accepted-name and package collision checks as soon as each
   candidate enters the slate, before deeper source review.
-- GitHub publishing remains a separate user-authorized action.
+- No GitHub publishing action remains for the Madagascan Big-headed Turtle
+  package.

@@ -1,6 +1,6 @@
 # Madagascan Big-headed Turtle / マダガスカルヨコクビガメ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -65,4 +65,5 @@ One adult river turtle rests half-submerged beside a low branch in a slow wester
 - The Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#MadagascanBigheadedTurtle` and open differently from the latest two completed posts.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, direct-source validation, and `git diff --check` pass.
-- Package is `completed, local-ready`; Git and GitHub were not mutated.
+- Published to `origin/master` in package commit `6f9affb`; the remote branch
+  matched that commit before this published-state metadata update.
