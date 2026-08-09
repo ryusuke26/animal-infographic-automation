@@ -735,3 +735,18 @@ Daily Quality Loop
 - tomorrow_change: when a hidden mechanism remains wrong after the bounded
   retry, preserve rejected sources and use a deliberate user-supplied topology
   plus real-anatomy reference set before any fresh continuation
+
+## 2026-08-09 — Madagascan Big-headed Turtle Quality Run completed
+
+Daily Quality Loop
+- issue: the first selection slate included Lord Howe Island Stick Insect even
+  though that species already had a completed package
+- priority: duplicate-topic-prevention
+- tags: #duplicate-topic-gate #selection
+- cause: the candidate entered the evidence slate before its accepted
+  scientific name was checked against both INDEX and package folders
+- next_action: rejected the duplicate before topic lock, screened an assessed
+  Reptiles replacement, and completed the turtle package with first-pass
+  Japanese and English direct posters
+- tomorrow_change: run exact accepted-name and package collision checks as soon
+  as each candidate enters the slate, before deeper source review
