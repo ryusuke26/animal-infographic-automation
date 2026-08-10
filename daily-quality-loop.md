@@ -750,3 +750,13 @@ Daily Quality Loop
   Japanese and English direct posters
 - tomorrow_change: run exact accepted-name and package collision checks as soon
   as each candidate enters the slate, before deeper source review
+
+## 2026-08-10 — Blue-billed Curassow Quality Run completed
+
+Daily Quality Loop
+- issue: none
+- priority: none
+- tags: none
+- cause: candidate collision checks, Evidence Lock, Copy Lock, and the initial visual-identity prompt all worked as intended
+- next_action: completed the bilingual package with first-pass Japanese and English direct posters and all final validators passing
+- tomorrow_change: keep the exact-name collision check and first-prompt localized-cere constraint; continue preferring absent groups when the editorial mission and hard gates remain strong
