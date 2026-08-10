@@ -1,6 +1,6 @@
 # Blue-billed Curassow / アオコブホウカンチョウ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -69,4 +69,4 @@ One adult male walks diagonally through humid lowland forest leaf litter in nort
 - The Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#BluebilledCurassow` and open differently from the latest two completed posts.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, direct-source validation, and `git diff --check` pass.
-- GitHub publishing: out of scope for this automation run.
+- Published to `origin/master` in package commit `52ead89`; the remote branch matched that commit before the published-state metadata update.

@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-10T11:23:30+09:00
+Updated: 2026-08-10T23:56:02+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in automation memory.
 
@@ -8,26 +8,26 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
-- Active package: none; the Blue-billed Curassow run is complete and local-ready.
+- Active package: none; the Blue-billed Curassow run is complete and published.
 - Retired package: none.
 - Phase 0 preflight passed and the dependency loader returned the bundled Python runtime. Unrelated untracked `scripts/__pycache__/` and `tmp/` were preserved.
 
 ## Completed Package
 
 - Topic: Blue-billed Curassow / アオコブホウカンチョウ / *Crax alberti*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Northern Colombia / South America.
 - Editorial classification group: Birds.
 - Evidence: the official IUCN 2025 assessment supports Global CR under A4cd, record `e.T22678525A265023587`. METI supports the Japanese name. Smithsonian supports northern Colombian lowland-forest habitat, the adult male's localized blue cere and curled black crest, and forest-floor feeding on fruit and invertebrates.
 - Candidate screen: Blue-billed Curassow ranked above White-bellied Heron on discovery strength and above Purple Frog, which failed the global-familiarity gate as a recurring English-language unusual-animal subject.
 - Visual resolution: the first Japanese direct poster and first fresh English companion both passed without retries. Each has one complete adult male, a coherent humid lowland-forest composition, exact readable Copy Lock, and exactly three numbered illustrated cards including one complete feeding mini-bird.
 - Both canonical direct posters pass the exact 2:3/full-canvas source gate. Four canonical PNGs are exact `1024x1536`, direct/posting pairs are pixel-identical, and eight sidecars, X-format, package, full-size, phone-size, and whitespace QA pass.
-- GitHub publishing was not attempted.
+- Published to `origin/master` in package commit `52ead89`; the remote branch matched that commit before the published-state metadata update.
 
 ## Latest Completed Package
 
 - Latest completed package is `2026-08-10-blue-billed-curassow`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Northern Colombia / South America.
 - Editorial classification group: Birds.
 
@@ -68,7 +68,7 @@ Mammals occupy 4/8; Plants, Other invertebrates, Reptiles, and Birds occupy one 
 
 ## Next Concrete Change
 
-- The Blue-billed Curassow package is finished at `completed, local-ready`; do not regenerate or alter the accepted posters.
+- The Blue-billed Curassow package is finished at `completed, published`; do not regenerate or alter the accepted posters.
 - On the next daily run, perform Phase 0 preflight and screen a new topic. Prefer an absent group such as Amphibians, Fishes, Insects, or Fungi and lichens when unfamiliarity, evidence, naming, and visual viability remain strong; avoid repeating South America or Birds when a comparable alternative passes all hard gates.
 - Run exact accepted-name and package collision checks as soon as each candidate enters the slate, before deeper source review.
-- GitHub publication remains a separate user-authorized closeout.
+- No GitHub publishing action remains for the Blue-billed Curassow package.
