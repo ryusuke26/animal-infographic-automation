@@ -1,6 +1,6 @@
 # Itasenpara Bitterling / イタセンパラ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -70,4 +70,4 @@ One complete autumn male swims side-on through a quiet Japanese river backwater.
 - The Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#ItasenparaBitterling` and use an opening pattern distinct from the latest two completed posts.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, direct-source validation, and `git diff --check` pass.
-- State is `completed, local-ready`; Git and GitHub were not mutated.
+- State is `completed, published`; package content commit `7fd33fd` was pushed directly to `origin/master` and the remote ref was verified before this published-state metadata update.
