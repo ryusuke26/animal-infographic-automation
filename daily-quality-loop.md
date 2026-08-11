@@ -760,3 +760,23 @@ Daily Quality Loop
 - cause: candidate collision checks, Evidence Lock, Copy Lock, and the initial visual-identity prompt all worked as intended
 - next_action: completed the bilingual package with first-pass Japanese and English direct posters and all final validators passing
 - tomorrow_change: keep the exact-name collision check and first-prompt localized-cere constraint; continue preferring absent groups when the editorial mission and hard gates remain strong
+
+## 2026-08-11 — Itasenpara Bitterling Quality Run completed
+
+Daily Quality Loop
+- issue: the official IUCN species-page body could not be directly rendered even though the current category and field-level assessment date were available through an IUCN-linked FishBase record and the official IUCN assessment-change table
+- priority: evidence-route-caution
+- tags: #IUCN-unavailable #assessment-year-drift
+- cause: the official species page was blocked at the browser permission boundary; no alternate browser or bypass route was used
+- next_action: recorded the access boundary, cross-checked Global EN and 7 December 2017, kept the Japanese national category separate, and completed first-pass bilingual posters with all final QA passing
+- tomorrow_change: prefer a directly inspectable official assessment page or PDF during candidate screening when an equally unfamiliar, well-named, visually viable topic is available; keep linked cross-check wording explicit when the species page body is unavailable
+
+## 2026-08-11 — Itasenpara official IUCN evidence synchronized
+
+Daily Quality Loop
+- issue: the completed package still carried an official-page-unavailable caveat after the user supplied the matching official species-page capture and 10-page assessment PDF
+- priority: evidence-route-caution resolved
+- tags: #official-evidence-sync #assessment-year-drift
+- cause: the direct official assessment record became inspectable only after the initial local-ready closeout
+- next_action: verified Global EN B2ab(ii,iii,v), assessment date 7 December 2017, publication year 2019, and record `e.T213A116034178`; preserved both official artifacts and synchronized README, Sources QA, INDEX, current state, bilingual source replies, and source sidecars without regenerating the already-correct posters
+- tomorrow_change: when stronger official evidence arrives after closeout, reopen Evidence Lock once, distinguish assessment date from publication year, and synchronize every public source surface before rerunning package QA
