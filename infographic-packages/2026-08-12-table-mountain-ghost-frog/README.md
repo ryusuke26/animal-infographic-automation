@@ -1,6 +1,6 @@
 # Table Mountain Ghost Frog / テーブルマウンテンゴーストフロッグ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -63,4 +63,4 @@ The initial Japanese poster and its first English companion both passed the dire
 
 After direct official evidence established the 2024 assessment year, each accepted source received one localized footer edit from 2025 to 2024. The corrected Japanese and English posters each contain one dominant complete adult, exactly three numbered species-specific illustrated cards, exact readable Copy Lock, a coherent Table Mountain torrent habitat, and a quiet integrated 2024 EN footer. Both canonical direct posters pass the exact 2:3/full-canvas gate; all four canonical PNGs are `1024x1536`, direct/posting pairs are pixel-identical, and eight sidecars, bilingual X format, package validation, full-size, phone-size, and whitespace QA pass. The four superseded 2025-footer source/posting PNGs were moved to the Windows Recycle Bin at the user's request.
 
-GitHub publishing is intentionally separate. This package is ready locally and Git was not mutated during this run.
+Published directly to `origin/master` in package commit `0523af0` (`Add Table Mountain ghost frog infographic`).

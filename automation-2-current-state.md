@@ -8,14 +8,14 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
-- Active package: none; the Table Mountain Ghost Frog run is complete and local-ready.
+- Active package: none; the Table Mountain Ghost Frog run is complete and published.
 - Retired package: none.
 - Phase 0 preflight passed after resumption. The dependency loader returned the bundled Python at `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`; the preflight worktree was clean. The earlier parent-directory write enforcement cleared, so the recorded topic was resumed without selecting a replacement.
 
 ## Completed Package
 
 - Topic: Table Mountain Ghost Frog / テーブルマウンテンゴーストフロッグ / *Heleophryne rosei*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Table Mountain, South Africa / Africa.
 - Editorial classification group: Amphibians.
 - Evidence: the user-supplied official IUCN assessment PDF and matching species-page capture directly confirm Global Endangered (EN) under B1ab(iii), assessed 9 April 2024 and published in 2025 as record `e.T9773A247846769`. The public footer uses assessment year 2024. Amphibian Species of the World supports the accepted taxonomy, English name, and Table Mountain range; SANBI supports the cool rushing-stream habitat, flattened pale-green and purple-brown adult, broad toe discs, webbed hind feet, and sucker-mouthed tadpole; CEPF supports the Japanese name spelling.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 ## Latest Completed Package
 
 - Latest completed package is `2026-08-12-table-mountain-ghost-frog`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Table Mountain, South Africa / Africa.
 - Editorial classification group: Amphibians.
 
@@ -67,7 +67,7 @@ Mammals occupy 2/8; Plants, Other invertebrates, Reptiles, Birds, Fishes, and Am
 
 ## Next Concrete Change
 
-- The Table Mountain Ghost Frog package is finished at `completed, local-ready`; do not regenerate or alter the accepted posters.
+- The Table Mountain Ghost Frog package is finished at `completed, published`; do not regenerate or alter the accepted posters.
 - On the next daily run, perform Phase 0 preflight and screen a new topic. Avoid repeating Africa or Amphibians when a comparably strong alternative passes the familiarity, naming, evidence, and visual gates; Insects and Fungi and lichens remain absent from the latest eight.
 - Apply the new broad-bodied dorsal-view rule during the first prompt: both complete hind feet must remain beyond the torso silhouette, in addition to separate origins, paths, endpoints, and limb-to-limb negative space.
-- GitHub publishing remains separate and was not performed in this automation run.
+- Package content commit `0523af0` was pushed directly to `origin/master`; the published-state metadata commit and final remote-ref verification complete the closeout.
