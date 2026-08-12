@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-11T20:23:14+09:00
+Updated: 2026-08-12T20:51:49+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in automation memory.
 
@@ -8,67 +8,66 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
-- Active package: none; the Itasenpara Bitterling run is complete and published.
+- Active package: none; the Table Mountain Ghost Frog run is complete and local-ready.
 - Retired package: none.
-- Phase 0 preflight passed. The dependency loader was not exposed in this environment, so the previously recorded bundled Python 3.12.13 runtime, Pillow 12.2.0 import, and validator startup were verified once. The preflight worktree was clean.
+- Phase 0 preflight passed after resumption. The dependency loader returned the bundled Python at `C:\Users\ryusu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`; the preflight worktree was clean. The earlier parent-directory write enforcement cleared, so the recorded topic was resumed without selecting a replacement.
 
 ## Completed Package
 
-- Topic: Itasenpara Bitterling / イタセンパラ / *Acheilognathus longipinnis*.
-- State: `completed, published`.
-- Region: Central and southern Japan / Asia.
-- Editorial classification group: Fishes.
-- Evidence: the directly inspected official IUCN assessment PDF and matching species-page capture confirm Global EN under B2ab(ii,iii,v), assessed 7 December 2017 and published in 2019 as `e.T213A116034178`; 2017 remains the public footer year. Japan's Ministry of the Environment and the National Museum of Nature and Science support the Japanese and scientific names, floodplain-water habitat, deep thin high-backed body, autumn male coloration, and mussel spawning with juvenile emergence around May. Japan's national CR category remains separate from the public global footer.
-- Candidate screen: Itasenpara ranked above Australian Lungfish, which failed the global-familiarity gate as a recurring air-breathing ancient-fish subject. Mountain Chicken Frog remained credible but its field-level IUCN assessment date could not be directly inspected in this environment.
-- Visual resolution: the first Japanese direct poster and first fresh English companion both passed without retries. Each has one complete breeding male, a coherent autumn-backwater field-note composition, exact readable Copy Lock, and exactly three numbered illustrated cards including one complete female beside a restrained freshwater-mussel cutaway.
-- Both canonical direct posters pass the exact 2:3/full-canvas source gate. Four canonical PNGs are exact `1024x1536`, direct/posting pairs are pixel-identical, and eight sidecars, X-format, package, full-size, phone-size, and whitespace QA pass.
-- Package content commit `7fd33fd` was pushed directly to `origin/master`; the remote ref was verified at `7fd33fd3b0f9de708ff786d2f490df00286063ae` before the published-state metadata update.
+- Topic: Table Mountain Ghost Frog / テーブルマウンテンゴーストフロッグ / *Heleophryne rosei*.
+- State: `completed, local-ready`.
+- Region: Table Mountain, South Africa / Africa.
+- Editorial classification group: Amphibians.
+- Evidence: the user-supplied official IUCN assessment PDF and matching species-page capture directly confirm Global Endangered (EN) under B1ab(iii), assessed 9 April 2024 and published in 2025 as record `e.T9773A247846769`. The public footer uses assessment year 2024. Amphibian Species of the World supports the accepted taxonomy, English name, and Table Mountain range; SANBI supports the cool rushing-stream habitat, flattened pale-green and purple-brown adult, broad toe discs, webbed hind feet, and sucker-mouthed tadpole; CEPF supports the Japanese name spelling.
+- Candidate screen: Table Mountain Ghost Frog ranked above Kaiser's Mountain Newt, whose current assessment date was not directly inspectable, and *Pleurotus nebrodensis*, whose Japanese cultivated-name use created a material taxonomy and image-identity ambiguity.
+- Visual resolution: the first Japanese source and its first English companion passed the canvas gate but were rejected because the left hind foot disappeared behind the broad dorsal silhouette. They were not used as edit targets and were moved to the Windows Recycle Bin at the user's request. One fresh-canvas retry per language produced accepted posters with four attached limbs, both hind feet outside the torso silhouette, one dominant adult, exact Copy Lock, and exactly three numbered species-specific illustrated cards. The four superseded 2025-footer source/posting PNGs were also moved to the Recycle Bin after the corrected 2024 canonical files and official evidence were protected.
+- After direct official evidence separated the 2024 assessment year from 2025 publication, both accepted sources received localized footer edits to 2024. Both canonical direct posters pass the exact 2:3/full-canvas gate. Four canonical PNGs are exact `1024x1536`, direct/posting pairs are pixel-identical, and eight sidecars, X-format, package, full-size, phone-size, and whitespace QA pass.
 
 ## Latest Completed Package
 
-- Latest completed package is `2026-08-11-itasenpara-bitterling`.
-- State: `completed, published`.
-- Region: Central and southern Japan / Asia.
-- Editorial classification group: Fishes.
+- Latest completed package is `2026-08-12-table-mountain-ghost-frog`.
+- State: `completed, local-ready`.
+- Region: Table Mountain, South Africa / Africa.
+- Editorial classification group: Amphibians.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-08-04 — Asia — Greater Hog Badger
-2. 2026-08-05 — Africa — Maned Rat
-3. 2026-08-06 — Central Australia / Oceania — Southern Marsupial Mole
-4. 2026-08-07 — Asia — Jade Vine
-5. 2026-08-08 — North Pacific — Sea Angel
-6. 2026-08-09 — Western Madagascar / Africa — Madagascan Big-headed Turtle
-7. 2026-08-10 — Northern Colombia / South America — Blue-billed Curassow
-8. 2026-08-11 — Central and southern Japan / Asia — Itasenpara Bitterling
+1. 2026-08-05 — Africa — Maned Rat
+2. 2026-08-06 — Central Australia / Oceania — Southern Marsupial Mole
+3. 2026-08-07 — Asia — Jade Vine
+4. 2026-08-08 — North Pacific — Sea Angel
+5. 2026-08-09 — Western Madagascar / Africa — Madagascan Big-headed Turtle
+6. 2026-08-10 — Northern Colombia / South America — Blue-billed Curassow
+7. 2026-08-11 — Central and southern Japan / Asia — Itasenpara Bitterling
+8. 2026-08-12 — Table Mountain, South Africa / Africa — Table Mountain Ghost Frog
 
-Asia occupies three of the latest eight and Africa occupies two; every other represented broad region occupies one slot.
+Africa occupies three of the latest eight and Asia occupies two; Central Australia / Oceania, North Pacific, and South America occupy one slot each.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-08-04 — Mammals — Greater Hog Badger
-2. 2026-08-05 — Mammals — Maned Rat
-3. 2026-08-06 — Mammals — Southern Marsupial Mole
-4. 2026-08-07 — Plants — Jade Vine
-5. 2026-08-08 — Other invertebrates — Sea Angel
-6. 2026-08-09 — Reptiles — Madagascan Big-headed Turtle
-7. 2026-08-10 — Birds — Blue-billed Curassow
-8. 2026-08-11 — Fishes — Itasenpara Bitterling
+1. 2026-08-05 — Mammals — Maned Rat
+2. 2026-08-06 — Mammals — Southern Marsupial Mole
+3. 2026-08-07 — Plants — Jade Vine
+4. 2026-08-08 — Other invertebrates — Sea Angel
+5. 2026-08-09 — Reptiles — Madagascan Big-headed Turtle
+6. 2026-08-10 — Birds — Blue-billed Curassow
+7. 2026-08-11 — Fishes — Itasenpara Bitterling
+8. 2026-08-12 — Amphibians — Table Mountain Ghost Frog
 
-Mammals occupy 3/8; Plants, Other invertebrates, Reptiles, Birds, and Fishes occupy one slot each.
+Mammals occupy 2/8; Plants, Other invertebrates, Reptiles, Birds, Fishes, and Amphibians occupy one slot each.
 
 ## Daily Quality Loop Counters
 
-- `#assessment-year-drift`: 0/2 after the 2026-08-06 policy clarification and counter reset; the Itasenpara footer uses the field-level 2017 assessment year, not the later IUCN change-table release.
-- `#species-identity-drift`: 2/3 after the 2026-08-06 visual-viability gate and counter reset; both Itasenpara posters pass deep-body, fin, color, and habitat identity QA.
+- `#assessment-year-drift`: 1/2 after direct official evidence showed the initial footer used publication year 2025 instead of assessment year 2024; all public and evidence surfaces were corrected and synchronized.
+- `#species-identity-drift`: 0/3 after reaching 3/3 and adding the broad-torso hind-foot endpoint rule; both accepted frog posters show four attached limbs and both complete hind feet outside the torso silhouette.
 - `#diagnostic-anatomy-priority`: 0/3 after reaching 3/3 and applying the hidden-anatomy gate; no hidden mechanism is involved in this package.
 - `#duplicate-copy-placement`: 2/3; both accepted sources place each locked line once and preserve comfortable card margins.
-- `#topic-classification-drift`: 0/3 after the 2026-08-06 nine-group rotation rule and counter reset; Fishes join the completed rotation.
+- `#topic-classification-drift`: 0/3 after the 2026-08-06 nine-group rotation rule and counter reset; Amphibians now join the completed rotation.
 - `#source-canvas-drift`: 0/2. Both accepted direct posters pass the exact 2:3/full-canvas gate.
 
 ## Next Concrete Change
 
-- The Itasenpara Bitterling package is finished at `completed, published`; do not regenerate or alter the accepted posters.
-- On the next daily run, perform Phase 0 preflight and screen a new topic. Prefer an absent group such as Amphibians, Insects, or Fungi and lichens when unfamiliarity, evidence, naming, and visual viability remain strong; avoid repeating Asia or Fishes when a comparable alternative passes all hard gates.
-- Run exact accepted-name and package collision checks as soon as each candidate enters the slate, before deeper source review.
-- GitHub closeout is complete for the Itasenpara Bitterling package; package commit `7fd33fd` is on `origin/master`, with this published-state metadata update following as the final closeout commit.
+- The Table Mountain Ghost Frog package is finished at `completed, local-ready`; do not regenerate or alter the accepted posters.
+- On the next daily run, perform Phase 0 preflight and screen a new topic. Avoid repeating Africa or Amphibians when a comparably strong alternative passes the familiarity, naming, evidence, and visual gates; Insects and Fungi and lichens remain absent from the latest eight.
+- Apply the new broad-bodied dorsal-view rule during the first prompt: both complete hind feet must remain beyond the torso silhouette, in addition to separate origins, paths, endpoints, and limb-to-limb negative space.
+- GitHub publishing remains separate and was not performed in this automation run.

@@ -380,6 +380,10 @@ companion. Accept it only when:
   visible shoulder or hip origin, a separate path, and a separate endpoint,
   with negative space between near-side and far-side limbs so they cannot
   merge into one silhouette;
+- for a broad-bodied quadruped viewed dorsally or in dorsal three-quarter,
+  require both complete hind feet to extend beyond the outer torso silhouette;
+  visible hip origins alone do not pass when either endpoint disappears behind
+  the body;
 - title, name, three cards, and footer form one visual system;
 - all three cards contain a visible number, species-specific spot art, and
   useful explanatory copy;

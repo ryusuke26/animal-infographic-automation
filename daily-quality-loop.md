@@ -780,3 +780,42 @@ Daily Quality Loop
 - cause: the direct official assessment record became inspectable only after the initial local-ready closeout
 - next_action: verified Global EN B2ab(ii,iii,v), assessment date 7 December 2017, publication year 2019, and record `e.T213A116034178`; preserved both official artifacts and synchronized README, Sources QA, INDEX, current state, bilingual source replies, and source sidecars without regenerating the already-correct posters
 - tomorrow_change: when stronger official evidence arrives after closeout, reopen Evidence Lock once, distinguish assessment date from publication year, and synchronize every public source surface before rerunning package QA
+
+## 2026-08-12 — Table Mountain Ghost Frog Quality Run completed
+
+Daily Quality Loop
+- issue: the first Japanese source and its English companion both hid the left hind foot behind the frog's broad dorsal silhouette even though all four limb origins and paths had been requested
+- priority: species-identity correction
+- tags: #species-identity-drift #limb-topology
+- cause: the general limb-separation rule did not explicitly require both hind-foot endpoints to remain outside a broad torso silhouette in a dorsal three-quarter pose
+- next_action: rejected both initial sources, preserved them as named audit artifacts, used one fresh-canvas retry per language, and accepted only posters with four attached limbs and both hind feet fully visible outside the torso
+- tomorrow_change: for broad-bodied quadrupeds viewed dorsally or in dorsal three-quarter, require both complete hind feet beyond the outer torso silhouette in the first prompt and visual gate
+
+Improvement Resolution
+- tag: #species-identity-drift
+- count: 3
+- threshold: 3
+- improvement: added the explicit broad-torso hind-foot endpoint rule to `automation-2-production-policy.md` and synchronized both accepted-language prompt records
+- files_changed: automation-2-production-policy.md, bilingual image prompts, package README, INDEX, current state, Daily Quality Loop, and Automation memory
+- validation: both accepted direct sources pass exact 2:3/full-canvas QA; canonical PNGs, bilingual X format, full package, sidecars, full-size, phone-size, and whitespace QA pass
+- counter_reset: yes
+
+## 2026-08-12 — Table Mountain Ghost Frog official IUCN evidence synchronized
+
+Daily Quality Loop
+- issue: the initial package used the 2025 publication year as the public IUCN footer year because the field-level assessment date had not yet been directly inspected
+- priority: evidence correction
+- tags: #official-evidence-sync #assessment-year-drift
+- cause: the specialist reassessment notice identified the 2025 Red List release but did not expose the formal `Date Assessed` field used by the public-footer policy
+- next_action: verified the user-supplied official 12-page PDF and matching species-page capture, locked Global EN B1ab(iii), 9 April 2024 assessment, 2025 publication, and record `e.T9773A247846769`; corrected both poster footers with localized edits and synchronized Copy Lock, prompts, X blocks, sidecars, README, Sources QA, INDEX, current state, and Automation memory
+- tomorrow_change: when an official release notice and field-level assessment page are not both directly inspectable, keep assessment year unresolved until the PDF or `Last assessed` field is confirmed; never infer the public footer year from the Red List release year
+
+## 2026-08-12 — Table Mountain Ghost Frog rejected-image cleanup
+
+Daily Quality Loop
+- issue: two anatomy-rejected direct sources and four superseded 2025-footer source/posting PNGs remained after the corrected package passed final QA
+- priority: exact-target cleanup
+- tags: #rejected-image-cleanup #selected-poster-preservation
+- cause: rejected and superseded images were retained temporarily during visual and official-evidence correction
+- next_action: protected the four corrected canonical PNGs and two official evidence files, enumerated six exact regular PNG targets, verified no links or directories, and moved only those six files to the Windows Recycle Bin at the user's request
+- tomorrow_change: after canonical and evidence QA passes, offer one exact-target recoverable cleanup instead of leaving rejected assets indefinitely
