@@ -1,6 +1,6 @@
 # Bekko Tombo / ベッコウトンボ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -93,5 +93,5 @@ a visual reference and accepted under the same informed leg-overlap allowance.
 It preserves four unambiguous marked wings, the diagonal reed, pond habitat,
 three unequal illustrated cards, and all six English Copy Lock lines. Both
 direct sources pass the exact 2:3/full-canvas gate; four canonical PNGs are
-exactly `1024x1536`. Package state is `completed, local-ready`; Git and GitHub
-remain unchanged.
+exactly `1024x1536`. Package state is `completed, published`; package content
+was pushed to `origin/master` in commit `4d1620d`.

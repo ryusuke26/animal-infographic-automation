@@ -10,7 +10,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Pending evidence package: none.
 - Active package: none.
 - Retired package: none.
-- The canonical package write gate remains repaired. Bekko Tombo is `completed, local-ready`; Git and GitHub were not mutated.
+- The canonical package write gate remains repaired. Bekko Tombo is `completed, published`.
 
 ## Completed Package
 
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 ## Latest Completed Package
 
 - Package: `2026-08-13-bekko-tombo`.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: East Asia / Asia.
 - Editorial classification group: Insects.
 - Evidence: the user-supplied official seven-page IUCN assessment PDF and matching species-page capture directly confirm Global CR under A3ce version 3.1, assessed 31 January 2006 and published in 2006 as record `e.T11928A3315484`. Evidence Lock and bilingual Copy Lock remain complete.
@@ -70,6 +70,6 @@ Mammals, Plants, Other invertebrates, Reptiles, Birds, Fishes, Amphibians, and I
 
 ## Next Concrete Change
 
-- Bekko Tombo is finished at `completed, local-ready`; preserve the exact user-selected Japanese source and accepted English companion.
+- Bekko Tombo is finished at `completed, published`; preserve the exact user-selected Japanese source and accepted English companion.
 - On the next automation run, perform Phase 0 preflight and select a new topic only if no unfinished package has appeared. Fungi and lichens remains absent from the latest eight, but rotation is still a tie-breaker.
-- GitHub publishing remains a separate approval-enabled closeout.
+- Package content commit `4d1620d` was pushed directly to `origin/master`; the published-state metadata commit and final remote-ref verification complete the closeout.
