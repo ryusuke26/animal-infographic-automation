@@ -1,0 +1,27 @@
+# English direct-poster Image Gen prompt
+
+Use case: infographic-diagram
+Asset type: complete English educational social-media infographic, exact vertical 2:3 poster
+Primary request: Create the English companion poster about the Bekko Tombo (*Libellula angelina*) on a fresh native exact 2:3 full-bleed canvas. Carry forward the same species, spring pond, tortoiseshell-amber palette, handmade wetland field-notebook medium, wing-led hierarchy, and three species-specific card concepts defined for the accepted Japanese art direction, without requiring pixel-identical placement.
+
+Subject and identity: Show exactly one dominant complete immature adult *Libellula angelina* resting naturally and horizontally on a slender reed above a shallow East Asian lowland pond in spring. Use a stable dorsal three-quarter view, not flight. The medium-sized libellulid has a warm amber to tortoiseshell body, large compound eyes, a sturdy thorax, and a relatively broad segmented abdomen tapering toward the tip. Show exactly four complete transparent, finely veined wings: one forewing and one hindwing on each side, each attached separately to the thorax, fully extended, distinct from its near/far counterpart, and completely visible beyond the body silhouette. Place conspicuous irregular brown markings on all four wings while leaving most wing membrane clear. Show exactly six attached jointed legs emerging from the thorax, each with a visible origin, separate path, and separate endpoint. Let the legs grip one perch naturally, with small negative gaps so none fuse, detach, duplicate, or disappear. Do not make a damselfly, butterfly, moth, generic unmarked dragonfly, or insect with extra wings or legs.
+
+Habitat and composition: Full-bleed exact vertical 2:3 East Asian pond field-notebook composition with no blank, near-white, or transparent edge bands. Integrate only the English title and scientific name at the top. Keep the complete hero dominant and unobstructed across the middle, using the outstretched four-wing silhouette as the organizing geometry. Surround it with shallow water, reeds, slender cattails, nearby grass, spring buds, and a few calm open-water windows. Arrange exactly three unequal numbered observation cards around, never over, the wings or abdomen. Shape the cards like clipped reed-paper notes and pond-ripple windows rather than equal software rectangles. Card 1 is a species-specific habitat vignette showing a shallow old pond mosaic of reeds, cattails, grass, and some open water. Card 2 is one complete small dorsal Bekko Tombo with all four marked wings visible and attached, never isolated wings. Card 3 is one complete newly emerged mini-adult beside its attached exuvia on a reed, with a restrained circular one-year seasonal mark and spring buds; no detached anatomy. Every card contains one visible number, one species-specific illustration, and exactly its locked explanatory line.
+
+Text-location safeguard: The title and scientific name are the only text in the top area. Each observation label appears exactly once and only inside its numbered card. Do not repeat a label as a subtitle. The status line appears once in a quiet integrated footer.
+
+Style/medium: authored spring-wetland naturalist field notebook in graphite, colored pencil, transparent watercolor, amber gouache, reed rubbings, cattail-fiber collage, pond-ripple ink, and warm fibrous cream paper. Childlike observation with adult editorial direction, never a software dashboard. Palette: tortoiseshell amber, tea brown, reed green, muted cattail rust, pale pond blue-green, charcoal, and warm cream. Let stems, wing veins, ripple arcs, and generous negative space connect title, hero, three cards, and footer into one designed poster. Keep all text high-contrast and readable on a phone.
+
+English spelling and punctuation safeguard: render Bekko Tombo with one space and title case. Spell the scientific name exactly Libellula angelina with one space. In `One generation a year, emerging in spring`, use no space before the comma and exactly one space after it. In `IUCN Red List 2006: Critically Endangered (CR)`, use no space before the colon, exactly one space after the colon, and exactly one space before `(CR)`; do not write `2006 :`, `Endangered(CR)`, or alter the parentheses.
+
+Text, verbatim:
+"Bekko Tombo"
+"Libellula angelina"
+"Shallow ponds rich in reeds and cattails"
+"Distinct brown markings on all four wings"
+"One generation a year, emerging in spring"
+"IUCN Red List 2006: Critically Endangered (CR)"
+
+Constraints: Render exactly and only the six locked lines above, once each, plus the visible card numbers 1, 2, and 3. Exactly one dominant complete hero and exactly three numbered illustrated observation cards. Discovery-first, calm, educational, and non-moralizing. Accurate four-wing, six-leg dragonfly topology, attached marked wings, shallow vegetated pond habitat, English text, scientific spelling, and exact ASCII punctuation spacing.
+
+Avoid: extra, duplicated, misspelled, or substituted text; Japanese text; subtitles; headings; logos; watermarks; fake maps; conservation slogans; population numbers; equal software panels; dashboard layout; tiny text; cards covering the hero; multiple hero dragonflies; flight pose; cropped abdomen; hidden, detached, fused, duplicated, or extra wings, legs, feet, or body segments; transparent wings without brown markings; solid butterfly wing bands; needle-thin damselfly body; tropical jungle; lotus garden; aquarium; concrete ornamental pond; blank borders; white edge bands.

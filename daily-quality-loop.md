@@ -819,3 +819,43 @@ Daily Quality Loop
 - cause: rejected and superseded images were retained temporarily during visual and official-evidence correction
 - next_action: protected the four corrected canonical PNGs and two official evidence files, enumerated six exact regular PNG targets, verified no links or directories, and moved only those six files to the Windows Recycle Bin at the user's request
 - tomorrow_change: after canonical and evidence QA passes, offer one exact-target recoverable cleanup instead of leaving rejected assets indefinitely
+
+## 2026-08-13 — Bekko Tombo user-selected recovery
+
+Daily Quality Loop
+- issue: a localized leg-topology correction added stiff free leg shapes and weakened the original poster's natural four-wing composition without producing a clearly better whole
+- priority: subjective visual recovery
+- tags: #selected-poster-preservation #species-identity-drift
+- cause: the correction optimized isolated leg traceability after the initial source had already achieved the strongest species-specific silhouette, exact copy, three illustrated cards, and authored wetland composition
+- next_action: verified the user's selected PNG was byte-identical to the initial source, promoted that exact poster without pixel alteration, preserved the rejected retry, and completed the English companion on its first generation
+- tomorrow_change: for perched insects, reserve six-leg readability through the first pose and perch geometry; when an informed user explicitly selects a source-gate-passing stronger whole, preserve that exact source before companion production
+
+## 2026-08-13 — Bekko Tombo fresh rebuild stopped
+
+Daily Quality Loop
+- issue: renewed review found the earlier accepted poster anatomy unsafe, while both a new anatomy-led canvas and one final composition-from-scratch canvas still produced materially wrong leg or wing topology
+- priority: incomplete-publish-blocker
+- tags: #diagnostic-anatomy-priority #rejected-image-cleanup
+- cause: repeated prompt constraints did not reliably produce a naturally perched six-legged dragonfly with four unambiguous attached wings
+- next_action: stopped the regeneration loop, withdrew the prior bilingual pair, moved exactly seven old, superseded, and rejected PNGs to the Windows Recycle Bin, preserved official evidence and all text assets, and marked the package `incomplete, Rescue Run`
+- tomorrow_change: do not resume with another denser prompt; require a deliberately different visual route anchored by a reliable real-anatomy reference or leave the topic incomplete
+
+## 2026-08-13 — Bekko Tombo reference-led Rescue attempt
+
+Daily Quality Loop
+- issue: a user sketch offered a useful natural leg gesture but contained a broken wing, while real photographs were needed to control species and four-wing anatomy
+- priority: incomplete-publish-blocker
+- tags: #diagnostic-anatomy-priority #reference-role-separation
+- cause: the first reference-led source improved the perch grip but exposed only three unambiguous hero wings; the one real-photo-only retry restored four wings but overlapped the six legs and drifted footer punctuation
+- next_action: rejected and preserved both exact-2:3 Japanese candidates, stopped before English production, and kept the package `incomplete, Rescue Run`
+- tomorrow_change: if resumed, establish a clean anatomy reference or topology sketch that simultaneously fixes four wing roots and six thorax-to-perch leg paths before attempting an integrated poster
+
+## 2026-08-13 — Bekko Tombo user-selected reference recovery completed
+
+Daily Quality Loop
+- issue: further regeneration cost was no longer proportionate after the reference-led retry restored four clear marked wings but retained a naturally overlapped leg cluster
+- priority: informed user visual selection
+- tags: #selected-poster-preservation #reference-role-separation
+- cause: the integrated field-note composition and four-wing species identity were strong, while strict six-path leg traceability remained difficult at the chosen three-quarter resting angle
+- next_action: verified the user-supplied selection was byte-identical to the saved retry, promoted that exact Japanese source, accepted one English companion under the same leg-overlap allowance, normalized four canonical PNGs, recycled the unused three-wing candidate, synchronized ALT and package records, and closed `completed, local-ready`
+- tomorrow_change: preserve explicit user-selected visual tradeoffs in QA records and stop spending generation budget once the user accepts a source-safe, coherent whole
