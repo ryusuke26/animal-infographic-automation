@@ -1,6 +1,6 @@
 # Kipunji / キプンジザル
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -79,4 +79,4 @@ One complete adult Kipunji pauses on a broad mossy branch in a misty southern Ta
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, direct-source validation, pixel-identity checks, and `git diff --check` pass.
 - The official evidence artifacts are preserved with SHA-256 `378CD661E98BFE02C28CDD06B8F2DE6C03E6D1E026C7075DA8C39E9E654297FC` (PDF) and `3F3FAFAF9BD665478B3836AB868CD2DEAE89F557BFA4707A0E155E0FBB3D70EE` (page capture).
-- Package state is `completed, local-ready`; Git and GitHub were not mutated.
+- Package state is `completed, published`; package content commit `180cdb2` was pushed directly to `origin/master` and remotely verified before this published-state metadata closeout.
