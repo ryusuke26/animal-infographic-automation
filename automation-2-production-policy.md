@@ -294,6 +294,14 @@ Each image prompt:
 - bans extra text, logos, watermarks, fake maps, invented anatomy, duplicated
   hero organisms, and generic lookalike substitutions.
 
+For fungi, lichens, sessile invertebrates, and other organisms whose identity is
+defined by growth form rather than a familiar animal body plan, the first prompt
+and visual gate must lock attachment substrate, relative scale, low-versus-raised
+profile, surface texture, branching or lobe geometry, and the nearest false
+silhouettes. Reject a mechanically valid poster when a diagnostic crust, stroma,
+colony, or attached body is redrawn as a hand, flower, coral, starfish, root,
+tentacle mass, or other materially different growth form.
+
 The layout must be composed around the actual silhouette and habitat. Do not
 default to three equal software-style rectangles. Card size, placement, border,
 icon, and color may vary to support the species, while remaining a coherent
