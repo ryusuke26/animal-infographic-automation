@@ -1,6 +1,6 @@
 # Tea-tree Fingers / ティーツリー・フィンガーズ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -65,3 +65,4 @@ One macro-scale cinnamon-brown fungus cluster grips one diagonal dead tea-tree t
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation and full package validation pass.
 - `infographic-packages/INDEX.md`, the production policy, and Automation memory are synchronized. `automation-2-current-state.md` and `daily-quality-loop.md` each denied their single scoped `apply_patch` write in this no-approval run, so those two metadata files still need synchronization before the next topic selection.
+- Package state is `completed, published`; package content commit `bca276c` was pushed directly to `origin/master` and remotely verified before this published-state metadata closeout.
