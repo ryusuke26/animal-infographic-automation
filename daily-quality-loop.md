@@ -859,3 +859,63 @@ Daily Quality Loop
 - cause: the integrated field-note composition and four-wing species identity were strong, while strict six-path leg traceability remained difficult at the chosen three-quarter resting angle
 - next_action: verified the user-supplied selection was byte-identical to the saved retry, promoted that exact Japanese source, accepted one English companion under the same leg-overlap allowance, normalized four canonical PNGs, recycled the unused three-wing candidate, synchronized ALT and package records, and closed `completed, local-ready`
 - tomorrow_change: preserve explicit user-selected visual tradeoffs in QA records and stop spending generation budget once the user accepts a source-safe, coherent whole
+
+## 2026-08-14 — Kipunji official IUCN evidence synchronized
+
+Daily Quality Loop
+- issue: the initial Kipunji public footer used the 2019 publication year before the official field-level assessment date became directly inspectable
+- priority: evidence correction
+- tags: #official-evidence-sync #assessment-year-drift
+- cause: the citation year was treated as the assessment year until the user-supplied official PDF and Red List page capture exposed `Date Assessed: 20 March 2018`
+- next_action: locked Global EN and assessment year 2018, preserved both official artifacts, synchronized public/source surfaces, and corrected only the final footer-year digit in the accepted bilingual artwork
+- tomorrow_change: require a directly inspected assessment-date field before locking any dated public IUCN footer
+
+## 2026-08-15 — Tea-tree Fingers Quality Run completed
+
+Daily Quality Loop
+- issue: the first Japanese poster rendered the fungus as raised glove-like cylinders rather than a low flattened branch-clasping stroma
+- priority: species-identity correction
+- tags: #species-identity-drift #growth-form
+- cause: the first prompt did not separately gate substrate attachment, profile height, lobe geometry, and false glove-like silhouettes for a sessile organism
+- next_action: rejected the first source, generated one fresh-canvas retry with the documented low flattened growth form, completed the English companion, and added a sessile-organism growth-form gate to production policy
+- tomorrow_change: for sessile organisms, lock substrate attachment, relative scale, profile, surface, lobe geometry, and false silhouettes before the first generation
+
+## 2026-08-16 — Jellyfish Tree Quality Run completed
+
+Daily Quality Loop
+- issue: the English footer correction redrew the full canvas despite a localized spacing instruction
+- priority: poster-preservation
+- tags: #localized-text-repair #selected-poster-preservation
+- cause: the generative edit reinterpreted accepted artwork outside the footer
+- next_action: rejected the broad edit and used a verified footer-only deterministic repair
+- tomorrow_change: check global pixel drift immediately after localized edits and route broad redraws to the bounded text-safe repair
+
+## 2026-08-16 — Jellyfish Tree official IUCN evidence synchronized
+
+Daily Quality Loop
+- issue: the local-ready package retained a fallback 2007 IUCN footer after the current 2025 official assessment became directly inspectable
+- priority: fact-risk
+- tags: #official-evidence-sync #old-status-risk
+- cause: the initial run could not render the direct IUCN record and locked a Kew/CBD fallback route that was later superseded by the user-supplied official PDF and page capture
+- next_action: verified Global CR C2a(ii), assessment date 12 August 2025, publication year 2025, and record `e.T37781A262047825`; preserved both official artifacts, synchronized public and evidence text surfaces, and changed only the footer year pixels in the accepted bilingual artwork
+- tomorrow_change: when stronger official evidence arrives after local-ready closeout, reopen Evidence Lock and scan every public, sidecar, image, INDEX, and state surface for the superseded record before final QA
+
+## 2026-08-17 — Automation state file-identity repair
+
+Daily Quality Loop
+- issue: `automation-2-current-state.md` and `daily-quality-loop.md` remained individually unwritable even though sibling files were writable and both targets had normal attributes and Modify-capable ACLs
+- priority: ops-friction resolved
+- tags: #workflow-friction #file-identity-repair
+- cause: stale file-specific sandbox authorization identity rather than a broad ACL, ownership, read-only, or sharing-lock problem
+- next_action: protected original content and SHA-256 hashes, rebuilt both files as new filesystem objects, replaced only the exact two targets with backups retained, and verified new write handles plus Jellyfish Tree state synchronization
+- tomorrow_change: if the same signature recurs, use one exact-target backup-and-recreate repair; do not broaden ACLs or change ownership
+
+## 2026-08-17 — Jellyfish Tree rejected-image cleanup
+
+Daily Quality Loop
+- issue: two explicitly rejected English audit PNGs remained in the completed package after the canonical bilingual pair passed final QA
+- priority: recoverable artifact cleanup
+- tags: #rejected-image-cleanup #selected-poster-preservation
+- cause: the missing-space source and broad generative edit were retained temporarily while the localized footer-only repair and official 2025 evidence correction were verified
+- next_action: protected the four canonical PNGs and evidence assets, verified the two exact rejected paths and hashes, moved only those files to the Windows Recycle Bin, and confirmed four canonical PNGs with zero rejected PNGs remaining
+- tomorrow_change: after a localized repair passes pixel and package QA, offer one exact-target recoverable cleanup instead of retaining rejected audit art in `images/`

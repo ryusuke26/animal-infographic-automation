@@ -7,3 +7,6 @@ __pycache__/
 
 # Local review and rendering scratch files
 /tmp/
+
+# Local operational repair snapshots
+/repair-backups/
