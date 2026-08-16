@@ -1,6 +1,6 @@
 # Jellyfish Tree / ジェリーフィッシュ・ツリー
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -78,4 +78,4 @@ An authored island-botany field notebook follows one complete *Medusagyne opposi
 - Bilingual X-format validation, full package validation, and whitespace QA pass.
 - Official evidence SHA-256: `F41071918BBA3A30461F6EF52B601E84D596EB653A754A0B4BE10BC48C88F1DA` (assessment PDF) and `29956D1F13D14482F37847BB132DFA44F98E715B958626E187DF280F0A10FD3C` (Red List page capture).
 - `infographic-packages/INDEX.md`, Automation memory, `automation-2-current-state.md`, and `daily-quality-loop.md` are synchronized to the official 2025 assessment. The two previously unwritable metadata files were rebuilt as new filesystem objects; their unchanged originals are retained under `repair-backups/2026-08-17-automation-2-file-identity/`, and write-handle checks now pass.
-- Package state is `completed, local-ready`; Git and GitHub were not mutated.
+- Package state is `completed, published`. Package content commit `2c9633d` was pushed directly to `origin/master` and remotely verified; this closeout synchronizes the published-state metadata.

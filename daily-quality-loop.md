@@ -919,3 +919,13 @@ Daily Quality Loop
 - cause: the missing-space source and broad generative edit were retained temporarily while the localized footer-only repair and official 2025 evidence correction were verified
 - next_action: protected the four canonical PNGs and evidence assets, verified the two exact rejected paths and hashes, moved only those files to the Windows Recycle Bin, and confirmed four canonical PNGs with zero rejected PNGs remaining
 - tomorrow_change: after a localized repair passes pixel and package QA, offer one exact-target recoverable cleanup instead of retaining rejected audit art in `images/`
+
+## 2026-08-17 — Jellyfish Tree GitHub closeout
+
+Daily Quality Loop
+- issue: the corrected and cleaned package was complete locally but had not yet been published to the repository remote
+- priority: publication closeout
+- tags: #github-closeout #remote-verification
+- cause: GitHub publication remained intentionally separate from the no-approval Quality Run and the later file-identity repair
+- next_action: committed the scoped package and synchronized workflow records as `2c9633d`, pushed that commit directly to `origin/master`, verified the remote ref, and synchronized the package, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs at `completed, local-ready` until an explicitly approved direct-push closeout verifies the remote branch

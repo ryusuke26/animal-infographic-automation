@@ -16,13 +16,13 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-16-jellyfish-tree`.
 - Topic: Jellyfish Tree / ジェリーフィッシュ・ツリー / *Medusagyne oppositifolia*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Mahé, Seychelles / Africa.
 - Editorial classification group: Plants.
 - Evidence: the preserved official IUCN assessment PDF and matching Red List page capture directly confirm Global Critically Endangered (CR) under C2a(ii), assessed 12 August 2025 and published in 2025 as record `e.T37781A262047825`. Public footers use assessment year 2025; the superseded fallback record `37781/10072208` and 2007 footer are retained only as audit history.
 - Locked discovery: one small tree on exposed Mahé granite, thick opposite leaves, and a many-parted opened fruit whose valves radiate from a central column like umbrella ribs. Public copy does not assert whether the English name refers to flower or fruit because Kew and SPGA differ.
 - Visual resolution: the accepted bilingual artwork was preserved. Deterministic localized text-safe repairs changed only the footer year digits from 2007 to 2025: Japanese `(512,1449)-(560,1492)` and English `(442,1462)-(482,1498)`. Four superseded 2007-footer canonical PNGs remain under package evidence. At the user's request, the two explicitly rejected English audit sources were moved to the Windows Recycle Bin; only the four canonical PNGs remain in `images/`.
-- Artifacts and QA: two official evidence files, four corrected canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Direct-source, X-format, package, phone/full-size, pixel-identity, stale-footer, and whitespace QA pass. Git and GitHub remain unchanged.
+- Artifacts and QA: two official evidence files, four corrected canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Direct-source, X-format, package, phone/full-size, pixel-identity, stale-footer, and whitespace QA pass. Package content commit `2c9633d` was pushed directly to `origin/master` and remotely verified.
 
 ## Recent-Eight Completed Region Rotation
 
@@ -59,6 +59,6 @@ Reptiles, Birds, Fishes, Amphibians, Insects, Mammals, Fungi and lichens, and Pl
 
 ## Next Concrete Change
 
-- Jellyfish Tree is finished at `completed, local-ready`; preserve the accepted artwork and corrected 2025 footer.
+- Jellyfish Tree is finished at `completed, published`; preserve the accepted artwork and corrected 2025 footer.
 - On the next automation run, perform Phase 0 preflight and select a new topic only if no unfinished package has appeared. Other invertebrates is absent from the latest eight, but rotation remains a tie-breaker after unfamiliarity, evidence, naming, and visual viability.
-- GitHub publishing remains separate and was not performed in this correction.
+- Package content commit `2c9633d` was published directly to `origin/master`; this closeout synchronizes published-state metadata and completes the final remote-ref verification.
