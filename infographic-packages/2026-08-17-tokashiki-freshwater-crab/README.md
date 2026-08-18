@@ -1,6 +1,6 @@
 # Tokashiki Freshwater Crab / トカシキオオサワガニ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -74,4 +74,4 @@ An authored Ryukyu forest-stream field notebook follows one complete male freshw
 - Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#TokashikiFreshwaterCrab` and use openings distinct from the latest two completed packages.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, and whitespace QA pass.
-- Package state is `completed, local-ready`. Git/GitHub publication was intentionally not performed in this no-approval automation run.
+- Package state is `completed, published`. Package content commit `a2d9066` was pushed directly to `origin/master` and remotely verified; this closeout synchronizes the published-state metadata.

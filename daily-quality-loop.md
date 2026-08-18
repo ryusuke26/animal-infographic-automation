@@ -949,3 +949,13 @@ Daily Quality Loop
 - cause: the live IUCN UI was unreadable during the initial run, and the assessment's own Date Assessed, Year Published, criteria, and full assessment identifier were not directly inspected before Copy Lock
 - next_action: used the supplied official PDF and matching current-page capture to lock Global EN under B1ab(iii)+2ab(iii), assessed and published 2008 as `T134902A4033497`; preserved both evidence artifacts and four superseded 2015 PNGs, then synchronized all public/package/state records with a bounded footer-only text-safe repair
 - tomorrow_change: never promote a list context, PDF copyright year, or taxon-page numeric route into a public assessment year; require the assessment's own date fields and full assessment ID before Copy Lock
+
+## 2026-08-18 — Tokashiki Freshwater Crab GitHub closeout
+
+Daily Quality Loop
+- issue: the corrected package was complete locally but had not yet been published to the repository remote
+- priority: publication closeout
+- tags: #github-closeout #remote-verification
+- cause: GitHub publication remained intentionally separate from the Quality Run and later official-evidence correction
+- next_action: committed the scoped package and synchronized workflow records as `a2d9066`, published that commit to `origin/master`, verified the remote ref, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs at `completed, local-ready` until an explicitly requested closeout verifies the remote branch before changing published-state metadata

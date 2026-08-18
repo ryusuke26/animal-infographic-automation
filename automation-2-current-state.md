@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-17T12:02:30+09:00
+Updated: 2026-08-18T10:46:10+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -16,13 +16,13 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-17-tokashiki-freshwater-crab`.
 - Topic: Tokashiki Freshwater Crab / トカシキオオサワガニ / *Geothelphusa levicervix*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Tokashiki Island, Ryukyu Islands, Japan / Asia.
 - Editorial classification group: Other invertebrates.
 - Evidence: supplied official IUCN assessment PDF and matching current-page capture directly confirm Global Endangered (EN) under B1ab(iii)+2ab(iii), assessed and published 2008 as `T134902A4033497`. The taxon-page route is `134902/4033497`; `134902` alone is not the complete assessment identifier. WoRMS accepts *Geothelphusa levicervix*; Okinawa Prefecture supports the Japanese name, Tokashiki-only range, shaded narrow stream/wet-ground habitat, large male claw, and large-egg direct development. Local categories remain source context and are excluded from the public footer.
 - Locked discovery: a large landlocked crab moves through a narrow forest stream on Tokashiki Island; a large male can carry one outsized claw, while large eggs develop directly into small crabs.
 - Visual resolution: first Japanese and English direct Image Gen posters both passed the exact-2:3/full-canvas source gate and visual review without retries. Supplied official evidence then triggered a bounded deterministic text-safe repair: only the footer year glyphs changed from 2015 to 2008. Each preserves one complete adult male in wet shaded forest habitat, two claws, four visibly separate pairs of walking legs, an unobstructed hero, exact Copy Lock, and exactly three numbered illustrated cards.
-- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four superseded 2015 PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, localized-diff, and whitespace QA pass. Git and GitHub were deliberately not mutated.
+- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four superseded 2015 PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, localized-diff, and whitespace QA pass. Package content commit `a2d9066` was pushed directly to `origin/master` and remotely verified.
 
 ## Recent-Eight Completed Region Rotation
 
@@ -59,6 +59,6 @@ Birds, Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, and Othe
 
 ## Next Concrete Change
 
-- Tokashiki Freshwater Crab is finished at `completed, local-ready`; preserve the accepted artwork, official 2008 assessment evidence, and superseded 2015 audit assets. GitHub publication remains separate and was not attempted.
+- Tokashiki Freshwater Crab is finished at `completed, published`; preserve the accepted artwork, official 2008 assessment evidence, and superseded 2015 audit assets.
 - On the next automation run, perform Phase 0 preflight and select a new topic only if no unfinished package has appeared. Reptiles is absent from the latest eight, but rotation remains a tie-breaker after international unfamiliarity, evidence, naming, and visual viability.
-- For any later status update, require the official assessment's own Date Assessed, Year Published, criteria, and full assessment ID before changing public copy.
+- Package content commit `a2d9066` was published directly to `origin/master`; this closeout synchronizes published-state metadata and completes final remote-ref verification.
