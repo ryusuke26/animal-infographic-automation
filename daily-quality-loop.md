@@ -929,3 +929,23 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate from the no-approval Quality Run and the later file-identity repair
 - next_action: committed the scoped package and synchronized workflow records as `2c9633d`, pushed that commit directly to `origin/master`, verified the remote ref, and synchronized the package, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs at `completed, local-ready` until an explicitly approved direct-push closeout verifies the remote branch
+
+## 2026-08-17 — Tokashiki Freshwater Crab Quality Run completed
+
+Daily Quality Loop
+- issue: the direct IUCN record UI returned an unreadable body despite the specific global record being available by URL
+- priority: source-access caveat contained
+- tags: #source-access-caveat #assessment-year-verification
+- cause: the IUCN web interface did not render a readable record body in this environment, so the primary record could not itself expose field-level text during this run
+- next_action: retained the direct record URL and identifier `134902`, corroborated Global EN and 2015 with Japanese Ministry of the Environment and Okinawa Prefecture materials, kept local categories out of public copy, then completed first-pass bilingual posters and full QA
+- tomorrow_change: when a direct IUCN record is temporarily unreadable, document the limitation, corroborate only with strong official sources, and retry the record before any later status change
+
+## 2026-08-17 — Tokashiki Freshwater Crab official IUCN correction
+
+Daily Quality Loop
+- issue: the local-ready package used 2015 as the global IUCN assessment year after a Japanese source's 2015-list context was treated as field-level assessment evidence
+- priority: fact-risk resolved
+- tags: #official-evidence-sync #assessment-year-drift
+- cause: the live IUCN UI was unreadable during the initial run, and the assessment's own Date Assessed, Year Published, criteria, and full assessment identifier were not directly inspected before Copy Lock
+- next_action: used the supplied official PDF and matching current-page capture to lock Global EN under B1ab(iii)+2ab(iii), assessed and published 2008 as `T134902A4033497`; preserved both evidence artifacts and four superseded 2015 PNGs, then synchronized all public/package/state records with a bounded footer-only text-safe repair
+- tomorrow_change: never promote a list context, PDF copyright year, or taxon-page numeric route into a public assessment year; require the assessment's own date fields and full assessment ID before Copy Lock
