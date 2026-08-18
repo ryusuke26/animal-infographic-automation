@@ -1,6 +1,6 @@
 # Günther's Gecko / ギュンターヒルヤモリ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -75,4 +75,4 @@ An authored Mascarene field notebook follows one muted gray-brown gecko across a
 - Pre-image structure passed after the canonical English-common-name hashtag was corrected to `#GnthersGecko`; bilingual X-format validation passes.
 - Both canonical direct posters pass the exact-2:3/full-canvas gate; all four canonical PNGs are `1024x1536`, and each posting PNG is pixel-identical to its accepted direct source.
 - Bilingual X-format, sidecar equality, full package validation, full-size review, phone-size review, and edge-band/whitespace checks pass.
-- Package is `completed, local-ready`. Git and GitHub were not mutated.
+- Package is `completed, published`. Package content was pushed directly to `origin/master` in commit `063b34e`; published-state metadata follows in the closeout commit.

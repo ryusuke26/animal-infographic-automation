@@ -1009,3 +1009,13 @@ Daily Quality Loop
 - cause: the locality metric correctly detected a broad generative redraw, but the user preferred and explicitly accepted that exact result as the final Japanese poster despite its softer rendering
 - next_action: promoted the user-accepted 1024x1536 source without further limb or layout edits, generated a first-pass English companion, normalized both languages, synchronized eight sidecars and package records, and completed direct-source, X-format, package, full-size, phone-size, pixel-identity, and whitespace QA
 - tomorrow_change: preserve locality metrics as process evidence, but when the user explicitly chooses the resulting whole poster, record the informed exception and stop trying to reconstruct the earlier canvas
+
+## 2026-08-18 — Günther's Gecko GitHub closeout
+
+Daily Quality Loop
+- issue: the completed package was local-ready but had not yet been published to the repository remote
+- priority: publication closeout
+- tags: #github-closeout #remote-verification
+- cause: GitHub publication remained intentionally separate from the no-approval Quality Run
+- next_action: committed the scoped package and synchronized workflow records as `063b34e`, pushed that commit directly to `origin/master`, verified the remote ref, and synchronized README, INDEX, current state, and Automation memory to `completed, published`
+- tomorrow_change: keep future Quality Runs at `completed, local-ready` until an explicitly requested closeout verifies the remote branch before changing published-state metadata

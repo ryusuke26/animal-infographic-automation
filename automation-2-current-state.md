@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-18T13:02:36+09:00
+Updated: 2026-08-18T22:42:26+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-18-gunthers-gecko` completed `local-ready`.
+- Active state: idle after `2026-08-18-gunthers-gecko` completed and published.
 - Active evidence: preserved official IUCN errata PDF and matching current-page capture confirm Global VU D2, assessed 23 April 2018 as `T16926A152274946`. Red List year 2018 remains public; 2019 is only the errata-publication year, and the separately displayed 2024 Critically Depleted result is Green Status rather than a Red List category.
 - Retired package: none.
 - The canonical package write gate is available.
@@ -18,14 +18,14 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-18-gunthers-gecko`.
 - Topic: Günther's Gecko / ギュンターヒルヤモリ / *Phelsuma guentheri*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Round Island, Mauritius / Africa.
 - Editorial classification group: Reptiles.
 - Evidence: preserved official IUCN errata PDF and matching current-page capture directly confirm Global Vulnerable (VU) under D2, assessed 23 April 2018 as `T16926A152274946`. The Red List year remains 2018; the errata version was published in 2019, and the separate 2024 Critically Depleted result is Green Status rather than a Red List category. The Reptile Database, Mauritius government material, and Roesch et al. (2021) support taxonomy, palm-rich habitat, muted large body, adhesive toe pads, day-and-night activity, and communal nesting.
 - Locked discovery: a gray-brown day gecko disappears against Round Island palm trunks, moves by day and night, and several females can share one attached-egg nest site.
 - Visual resolution: the user accepted the communal-nesting Card 2 revision as the final Japanese poster, explicitly allowing its wider redraw and softer rendering; natural far-side limb occlusion remains valid and was not forced into view. The first fresh-canvas English companion passed without retry. Both have one dominant muted gecko, exactly three numbered illustrated cards, exact Copy Lock, and coherent palm-and-screwpine habitat.
-- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four preserved Japanese visual-history artifacts, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass. Git and GitHub were not mutated.
-- Automation memory sync: the required completion entry was prepared but could not be appended because this no-approval run has read-only access to `C:\Users\ryusu\.codex\automations\automation-2\memory.md`. Package-local and workspace state records are complete.
+- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four preserved Japanese visual-history artifacts, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass. Package content commit `063b34e` was pushed directly to `origin/master` and remotely verified.
+- Automation memory sync: the completion and GitHub closeout entry was appended during the approved publication closeout.
 
 ## Recent-Eight Completed Region Rotation
 
@@ -66,4 +66,4 @@ Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, Other invertebr
 - Begin the next scheduled run with no unfinished package.
 - Exclude Africa from an otherwise tied candidate slate because it now occupies four of the latest eight; use rotation only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
 - Birds is absent from the latest eight classification groups and may break a tie among equally strong candidates.
-- Keep GitHub publication separate; this package stops at `completed, local-ready`.
+- Keep the next Quality Run local-ready until GitHub publication is explicitly requested and remotely verified.
