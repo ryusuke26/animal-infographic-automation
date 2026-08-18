@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-18T10:46:10+09:00
+Updated: 2026-08-18T13:02:36+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,56 +9,61 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
+- Active state: idle after `2026-08-18-gunthers-gecko` completed `local-ready`.
+- Active evidence: preserved official IUCN errata PDF and matching current-page capture confirm Global VU D2, assessed 23 April 2018 as `T16926A152274946`. Red List year 2018 remains public; 2019 is only the errata-publication year, and the separately displayed 2024 Critically Depleted result is Green Status rather than a Red List category.
 - Retired package: none.
 - The canonical package write gate is available.
 
 ## Latest Completed Package
 
-- Package: `2026-08-17-tokashiki-freshwater-crab`.
-- Topic: Tokashiki Freshwater Crab / トカシキオオサワガニ / *Geothelphusa levicervix*.
-- State: `completed, published`.
-- Region: Tokashiki Island, Ryukyu Islands, Japan / Asia.
-- Editorial classification group: Other invertebrates.
-- Evidence: supplied official IUCN assessment PDF and matching current-page capture directly confirm Global Endangered (EN) under B1ab(iii)+2ab(iii), assessed and published 2008 as `T134902A4033497`. The taxon-page route is `134902/4033497`; `134902` alone is not the complete assessment identifier. WoRMS accepts *Geothelphusa levicervix*; Okinawa Prefecture supports the Japanese name, Tokashiki-only range, shaded narrow stream/wet-ground habitat, large male claw, and large-egg direct development. Local categories remain source context and are excluded from the public footer.
-- Locked discovery: a large landlocked crab moves through a narrow forest stream on Tokashiki Island; a large male can carry one outsized claw, while large eggs develop directly into small crabs.
-- Visual resolution: first Japanese and English direct Image Gen posters both passed the exact-2:3/full-canvas source gate and visual review without retries. Supplied official evidence then triggered a bounded deterministic text-safe repair: only the footer year glyphs changed from 2015 to 2008. Each preserves one complete adult male in wet shaded forest habitat, two claws, four visibly separate pairs of walking legs, an unobstructed hero, exact Copy Lock, and exactly three numbered illustrated cards.
-- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four superseded 2015 PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, localized-diff, and whitespace QA pass. Package content commit `a2d9066` was pushed directly to `origin/master` and remotely verified.
+- Package: `2026-08-18-gunthers-gecko`.
+- Topic: Günther's Gecko / ギュンターヒルヤモリ / *Phelsuma guentheri*.
+- State: `completed, local-ready`.
+- Region: Round Island, Mauritius / Africa.
+- Editorial classification group: Reptiles.
+- Evidence: preserved official IUCN errata PDF and matching current-page capture directly confirm Global Vulnerable (VU) under D2, assessed 23 April 2018 as `T16926A152274946`. The Red List year remains 2018; the errata version was published in 2019, and the separate 2024 Critically Depleted result is Green Status rather than a Red List category. The Reptile Database, Mauritius government material, and Roesch et al. (2021) support taxonomy, palm-rich habitat, muted large body, adhesive toe pads, day-and-night activity, and communal nesting.
+- Locked discovery: a gray-brown day gecko disappears against Round Island palm trunks, moves by day and night, and several females can share one attached-egg nest site.
+- Visual resolution: the user accepted the communal-nesting Card 2 revision as the final Japanese poster, explicitly allowing its wider redraw and softer rendering; natural far-side limb occlusion remains valid and was not forced into view. The first fresh-canvas English companion passed without retry. Both have one dominant muted gecko, exactly three numbered illustrated cards, exact Copy Lock, and coherent palm-and-screwpine habitat.
+- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four preserved Japanese visual-history artifacts, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass. Git and GitHub were not mutated.
+- Automation memory sync: the required completion entry was prepared but could not be appended because this no-approval run has read-only access to `C:\Users\ryusu\.codex\automations\automation-2\memory.md`. Package-local and workspace state records are complete.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-08-10 — Northern Colombia / South America — Blue-billed Curassow
-2. 2026-08-11 — Central and southern Japan / Asia — Itasenpara Bitterling
-3. 2026-08-12 — Table Mountain, South Africa / Africa — Table Mountain Ghost Frog
-4. 2026-08-13 — East Asia / Asia — Bekko Tombo
-5. 2026-08-14 — Southern Tanzania / Africa — Kipunji
-6. 2026-08-15 — Southeastern Australia and New Zealand South Island / Oceania — Tea-tree Fingers
-7. 2026-08-16 — Mahé, Seychelles / Africa — Jellyfish Tree
-8. 2026-08-17 — Tokashiki Island, Ryukyu Islands, Japan / Asia — Tokashiki Freshwater Crab
+1. 2026-08-11 — Central and southern Japan / Asia — Itasenpara Bitterling
+2. 2026-08-12 — Table Mountain, South Africa / Africa — Table Mountain Ghost Frog
+3. 2026-08-13 — East Asia / Asia — Bekko Tombo
+4. 2026-08-14 — Southern Tanzania / Africa — Kipunji
+5. 2026-08-15 — Southeastern Australia and New Zealand South Island / Oceania — Tea-tree Fingers
+6. 2026-08-16 — Mahé, Seychelles / Africa — Jellyfish Tree
+7. 2026-08-17 — Tokashiki Island, Ryukyu Islands, Japan / Asia — Tokashiki Freshwater Crab
+8. 2026-08-18 — Round Island, Mauritius / Africa — Günther's Gecko
 
-Asia and Africa occupy three of the latest eight; South America and Oceania occupy one each.
+Africa occupies four of the latest eight, Asia three, and Oceania one.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-08-10 — Birds — Blue-billed Curassow
-2. 2026-08-11 — Fishes — Itasenpara Bitterling
-3. 2026-08-12 — Amphibians — Table Mountain Ghost Frog
-4. 2026-08-13 — Insects — Bekko Tombo
-5. 2026-08-14 — Mammals — Kipunji
-6. 2026-08-15 — Fungi and lichens — Tea-tree Fingers
-7. 2026-08-16 — Plants — Jellyfish Tree
-8. 2026-08-17 — Other invertebrates — Tokashiki Freshwater Crab
+1. 2026-08-11 — Fishes — Itasenpara Bitterling
+2. 2026-08-12 — Amphibians — Table Mountain Ghost Frog
+3. 2026-08-13 — Insects — Bekko Tombo
+4. 2026-08-14 — Mammals — Kipunji
+5. 2026-08-15 — Fungi and lichens — Tea-tree Fingers
+6. 2026-08-16 — Plants — Jellyfish Tree
+7. 2026-08-17 — Other invertebrates — Tokashiki Freshwater Crab
+8. 2026-08-18 — Reptiles — Günther's Gecko
 
-Birds, Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, and Other invertebrates each occupy one slot; Reptiles is absent.
+Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, Other invertebrates, and Reptiles each occupy one slot; Birds is absent.
 
 ## Daily Quality Loop Counters
 
-- `#source-access-caveat`: resolved. The user-supplied official IUCN PDF and matching current-page capture made the assessment fields directly inspectable.
-- `#assessment-year-drift`: 1 occurrence, fixed now. Japanese government material's 2015-list context was incorrectly used as a formal assessment year; every public and package surface now uses the official 2008 assessment/publication year and full ID `T134902A4033497`.
-- `#species-identity-drift`: 0 in this run. Both first-generation posters preserved the large domed crab, two claws, four separate walking-leg pairs, wet stream habitat, and a single unobstructed hero.
-- `#source-canvas-drift`: 0/2. Both direct posters are exact 2:3 full-canvas sources and are pixel-identical to their normalized posting counterparts.
+- `#source-access-caveat`: resolved. The user-supplied official errata PDF and matching current-page capture directly expose Global VU D2, assessment date 23 April 2018, Red List publication year 2018, current record `T16926A152274946`, DOI, and the separate Green Status panel.
+- `#assessment-year-drift`: 0 in this run. The public footer uses the directly inspected 2018 assessment year.
+- `#species-identity-drift`: resolved by user-reviewed viewpoint logic. Natural far-side limb occlusion is not treated as missing anatomy; no corrective limb was forced into the accepted posters.
+- `#source-canvas-drift`: 0/2 canonical sources. Both accepted direct posters are exact 1024x1536, exact 2:3, and full-canvas.
+- `#selected-poster-preservation`: explicit exception recorded. The accepted Japanese Card 2 revision changed 67.396% outside the intended local region, but the user reviewed and selected that exact wider redraw as the final poster.
 
 ## Next Concrete Change
 
-- Tokashiki Freshwater Crab is finished at `completed, published`; preserve the accepted artwork, official 2008 assessment evidence, and superseded 2015 audit assets.
-- On the next automation run, perform Phase 0 preflight and select a new topic only if no unfinished package has appeared. Reptiles is absent from the latest eight, but rotation remains a tie-breaker after international unfamiliarity, evidence, naming, and visual viability.
-- Package content commit `a2d9066` was published directly to `origin/master`; this closeout synchronizes published-state metadata and completes final remote-ref verification.
+- Begin the next scheduled run with no unfinished package.
+- Exclude Africa from an otherwise tied candidate slate because it now occupies four of the latest eight; use rotation only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
+- Birds is absent from the latest eight classification groups and may break a tie among equally strong candidates.
+- Keep GitHub publication separate; this package stops at `completed, local-ready`.

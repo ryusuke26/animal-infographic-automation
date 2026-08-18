@@ -959,3 +959,53 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate from the Quality Run and later official-evidence correction
 - next_action: committed the scoped package and synchronized workflow records as `a2d9066`, published that commit to `origin/master`, verified the remote ref, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs at `completed, local-ready` until an explicitly requested closeout verifies the remote branch before changing published-state metadata
+
+## 2026-08-18 — Günther's Gecko Rescue Run
+
+Daily Quality Loop
+- issue: the initial Japanese hero lacked the far forelimb, and the one fresh-canvas retry repeated the same missing-far-forelimb defect on the complete small gecko in card 3
+- priority: incomplete-publish-blocker
+- tags: #species-identity-drift #card-anatomy #rescue-run
+- cause: the full-animal behavior illustration was compressed into a small observation card, leaving insufficient negative space to keep all four limb origins, paths, and endpoints unambiguous
+- next_action: preserved both exact-2:3/full-canvas rejected sources, stopped before English production and normalization, and marked the package `needs review`
+- tomorrow_change: resume the same package and redesign card 3 around one larger complete small gecko with four traceable limbs before any fresh Japanese generation
+
+## 2026-08-18 — Günther's Gecko official IUCN errata synchronized
+
+Daily Quality Loop
+- issue: the package cited the pre-errata assessment ID and DOI even though its Global VU D2 category and 2018 assessment year were correct
+- priority: evidence correction
+- tags: #official-evidence-sync #record-id-drift #green-status-separation
+- cause: the initial evidence route exposed the original assessment record, while the current IUCN page now presents an errata version under `T16926A152274946` and separately displays a Green Status assessment
+- next_action: preserved the official errata PDF and matching page capture with verified SHA-256 hashes; synchronized README, Sources QA, INDEX, current state, and bilingual source replies to the current ID and DOI without changing the public VU/2018 footer
+- tomorrow_change: when an IUCN page labels a record as an errata version, verify and preserve its current assessment ID and DOI; keep Green Status category/date separate from the Red List threat category and assessment year
+
+## 2026-08-18 — Günther's Gecko user-selected visual recovery
+
+Daily Quality Loop
+- issue: anatomy QA incorrectly treated a naturally occluded far-side forelimb as missing, rejected the stronger initial composition, and drove a fresh retry that broke the poster more broadly
+- priority: visual-judgment correction
+- tags: #selected-poster-preservation #natural-occlusion #card-content
+- cause: the rule equated anatomical completeness with simultaneous visibility of every limb instead of testing whether the chosen viewpoint plausibly explains occlusion
+- next_action: preserved the user's selected initial source byte-for-byte, revised the production policy to allow natural perspective occlusion, reopened Copy Lock, and replaced the ambiguous scale-mound Card 2 concept with a peer-reviewed communal-nesting observation
+- tomorrow_change: trace visible anatomy for plausible attachment and reject only impossible disappearance, duplication, merging, or detachment; never distort a coherent natural pose merely to expose a far-side limb
+
+## 2026-08-18 — Günther's Gecko localized Card 2 edit rejected
+
+Daily Quality Loop
+- issue: the targeted Image Gen edit rendered the new communal-nesting Card 2 but redrew the selected hero, habitat, and surrounding composition
+- priority: selected-poster-preservation
+- tags: #localized-card-repair #global-redraw #selected-poster-preservation
+- cause: whole-canvas generative editing did not respect the requested Card 2 boundary even with explicit invariants
+- next_action: rejected and preserved the exact-2:3 edit; measured 67.396% changed pixels outside a generous Card 2 exclusion region; kept the user's selected source byte-identical and stopped the generative edit loop
+- tomorrow_change: use only a genuinely bounded Card 2-only compositing method that can prove outside-pixel preservation; do not submit the selected whole poster to another generative edit
+
+## 2026-08-18 — Günther's Gecko user-selected completion
+
+Daily Quality Loop
+- issue: the communal-nesting Card 2 revision was mechanically valid and factually clearer but had been rejected because the edit redrew much of the wider poster
+- priority: explicit-user-selection resolution
+- tags: #selected-poster-preservation #user-accepted-exception #local-ready
+- cause: the locality metric correctly detected a broad generative redraw, but the user preferred and explicitly accepted that exact result as the final Japanese poster despite its softer rendering
+- next_action: promoted the user-accepted 1024x1536 source without further limb or layout edits, generated a first-pass English companion, normalized both languages, synchronized eight sidecars and package records, and completed direct-source, X-format, package, full-size, phone-size, pixel-identity, and whitespace QA
+- tomorrow_change: preserve locality metrics as process evidence, but when the user explicitly chooses the resulting whole poster, record the informed exception and stop trying to reconstruct the earlier canvas

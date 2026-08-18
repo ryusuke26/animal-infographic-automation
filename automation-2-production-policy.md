@@ -383,15 +383,17 @@ After the source gate passes, inspect the Japanese poster before generating the
 companion. Accept it only when:
 
 - the organism is immediately identifiable and no diagnostic structure is
-  invented, hidden, detached, or duplicated;
-- when limb anatomy is material, the first prompt must assign every limb a
-  visible shoulder or hip origin, a separate path, and a separate endpoint,
-  with negative space between near-side and far-side limbs so they cannot
-  merge into one silhouette;
+  invented, detached, or duplicated; natural perspective occlusion is allowed
+  when the chosen viewpoint clearly explains it and species identity does not
+  depend on forcing the hidden structure into view;
+- when limb anatomy is material, trace every visible limb from its shoulder or
+  hip origin through a coherent path to its endpoint. Do not require a far-side
+  limb, origin, or endpoint to be visible when the body naturally occludes it;
+  reject only implausible disappearance, merging, duplication, or detachment;
 - for a broad-bodied quadruped viewed dorsally or in dorsal three-quarter,
-  require both complete hind feet to extend beyond the outer torso silhouette;
-  visible hip origins alone do not pass when either endpoint disappears behind
-  the body;
+  require both hind-foot endpoints outside the torso only when the pose and
+  camera angle should expose both. Do not reject a coherent lateral or
+  three-quarter pose solely because a far-side limb is naturally hidden;
 - title, name, three cards, and footer form one visual system;
 - all three cards contain a visible number, species-specific spot art, and
   useful explanatory copy;
@@ -476,7 +478,8 @@ Perform one deliberate QA pass:
   subjective review, and confirm both posting PNGs are exactly `1024x1536`;
 - compare silhouette, diagnostic structures, posture, and habitat with the
   authoritative visual reference;
-- reject invented, missing, detached, duplicated, or hidden structures;
+- reject invented, detached, duplicated, merged, or implausibly missing
+  structures; allow anatomically natural perspective occlusion;
 - confirm one hero organism and exactly three numbered illustrated cards;
 - confirm the title, scientific name, three labels, and footer match Copy Lock;
 - judge the integrated composition at full size and phone size;

@@ -1,0 +1,27 @@
+# English direct-poster Image Gen prompt
+
+Use case: infographic-diagram
+Asset type: complete English educational social-media infographic, exact vertical 2:3 poster
+Primary request: Create the complete English companion to the accepted Japanese Günther's Gecko poster on a fresh native exact 2:3 full-bleed canvas. Preserve the accepted species identity, palm-and-screwpine setting, handmade medium, palette, hierarchy, and three-card concept without translating in place or retaining Japanese text.
+
+Input image: Image 1 is the ACCEPTED JAPANESE POSTER and a VISUAL REFERENCE ONLY, never an edit target. Rebuild the English poster from scratch while matching its large muted-color gecko, Round Island woodland, palette, paper texture, diagonal body-led composition, card rhythm, and authored field-notebook feeling. Do not require pixel-identical placement.
+
+Subject and identity: Show exactly one dominant, anatomically coherent adult *Phelsuma guentheri* in a stable natural lateral three-quarter pose, clinging diagonally to a rough native palm trunk in the palm-and-screwpine woodland of Round Island, Mauritius. This is one of the largest day geckos, robust and long-bodied, with a broad blunt head, large eyes with vertically elliptical pupils, muted olive-gray to gray-brown cryptic coloration, subtle irregular darker mottling, and a long complete tapering tail. Trace every visible limb from a natural shoulder or hip origin through a coherent path to its foot. Natural perspective occlusion of a far-side limb is allowed when the torso clearly explains it; do not force a hidden limb into view or distort the pose to display all four. Each visible foot has five splayed digits with broad adhesive toe pads. It is not bright emerald green and has no red spots, blue bands, horns, crest, spines, eyelash fringes, or chameleon feet.
+
+Composition: Exact full-bleed vertical 2:3 canvas with no blank, near-white, or transparent edge bands. Compose an authored Mascarene island field notebook around the gecko's long diagonal body: weathered palm bark, a fan palm, screw-pine leaves, dry-to-humid woodland shadows, pale volcanic rock, and a small glimpse of Indian Ocean haze. Keep the hero large, dominant, unobstructed, and naturally gripping the trunk. Put only the English title and scientific name at the top. Arrange exactly three unequal numbered observation cards in surrounding negative space, never as three equal software panels and never over the hero. Card 1 is a habitat vignette of palm-rich Round Island woodland. Card 2 shows the underside of a native Latania palm frond or sheltered rock surface used as one communal nest site, with several separate pairs or small clusters of white eggs firmly attached to the substrate and a few older overlapping egg scars; no detached body part and no second full animal. Card 3 shows one small *P. guentheri* moving naturally along a branch between a tiny sun disk and a tiny moon disk; its visible anatomy is coherent and natural perspective occlusion is allowed. Each card has one visible number, one species-specific spot illustration, and exactly its locked explanatory line.
+
+Style/medium: Match the accepted Japanese poster's handmade Mascarene island field notebook: graphite and colored-pencil contours, layered watercolor washes, dry-brush palm-bark texture, subtle wax-pastel grain, irregular leaf-shaped card borders, and small observational marks. Palette: muted olive, weathered gray-brown, palm-shadow green, volcanic charcoal, warm paper cream, and a quiet rust-red status accent. The title, habitat, hero, cards, and footer feel drawn by the same hand, never like a software dashboard.
+
+English punctuation safeguard: In `Günther's Gecko`, use the u with diaeresis `ü` and one ASCII apostrophe in `Günther's`. In `IUCN Red List 2018: Vulnerable (VU)`, use no space before the colon, exactly one space after the colon, and exactly one space before `(VU)`. In `Phelsuma guentheri`, use exactly one space between genus and species and no punctuation.
+
+Text, verbatim:
+"Günther's Gecko"
+"Phelsuma guentheri"
+"Palm-rich forest on Round Island"
+"Several females share the same nest site"
+"Active by day and by night"
+"IUCN Red List 2018: Vulnerable (VU)"
+
+Constraints: Render exactly and only the six lines above, once each. Exactly one dominant hero and exactly three numbered illustrated observation cards. Discovery-first, calm, educational, and non-moralizing. Preserve the large muted-color gecko identity, anatomically coherent visible limbs, five separate toes and adhesive pads on each visible foot, natural perspective occlusion, palm-and-screwpine habitat, English text, and scientific spelling.
+
+Avoid: Japanese text; bright emerald or neon green day gecko; red dorsal spots; turquoise bands; Madagascar giant day gecko; gold-dust day gecko; ornate day gecko; generic pet gecko; chameleon; anole; iguana; salamander; extra, merged, floating, detached, or duplicated limbs, feet, toes, eyes, or tail; forcing naturally occluded far-side limbs into view; detached toe-pad diagrams; repeated hero animals; a colony of adult geckos; extra, duplicated, misspelled, or substituted text; subtitles; headings; logos; watermarks; fake maps; flags; conservation slogans; population numbers; generic equal software panels; dashboard layout; tiny text; cards covering the hero; aquarium or terrarium; people; blank borders; white edge bands.
