@@ -1019,3 +1019,33 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate from the no-approval Quality Run
 - next_action: committed the scoped package and synchronized workflow records as `063b34e`, pushed that commit directly to `origin/master`, verified the remote ref, and synchronized README, INDEX, current state, and Automation memory to `completed, published`
 - tomorrow_change: keep future Quality Runs at `completed, local-ready` until an explicitly requested closeout verifies the remote branch before changing published-state metadata
+
+## 2026-08-19 — White-eared Night Heron local-ready completion
+
+Daily Quality Loop
+- issue: the accepted Japanese poster rendered the status footer with an ASCII colon and one following space instead of the initially locked fullwidth colon
+- priority: quality-drift
+- tags: #image-text-error #selected-poster-preservation #local-ready
+- cause: mixed-script Image Gen typography normalized the punctuation, and the one bounded footer-edit retry retained that punctuation while redrawing the wider poster
+- next_action: rejected and preserved the broader redraw, kept the stronger initial source, reopened Japanese Copy Lock to the factually equivalent visible punctuation, and synchronized copy, prompt, X set, sidecars, Sources QA, README, INDEX, and state before full validation
+- tomorrow_change: when meaning and legibility are unchanged, prefer an ASCII colon plus one space in mixed-script Japanese IUCN footer Copy Lock at the first prompt and reserve the retry for material text or visual defects
+
+## 2026-08-19 — White-eared Night Heron English silhouette correction
+
+Daily Quality Loop
+- issue: the first English hero passed mechanical checks but its thick neck merged into a deep barrel-shaped chest, making the bird read as a generic squat night heron rather than the relatively lean White-eared Night Heron visible in adult field photographs
+- priority: species-identity correction
+- tags: #species-identity-drift #user-visual-correction #fresh-canvas-rebuild
+- cause: the first visual lock used broad `stocky medium night-heron` and `compact torso` wording, which over-weighted a familiar Black-crowned Night Heron silhouette and hid the target species' narrower neck-to-shoulder transition
+- next_action: compared Cornell/Macaulay adult photographs in alert and foraging postures, reopened the English visual-identity gate, preserved the old source as rejected evidence, and generated a fresh 2:3 poster with a slim shallow-S neck, clear sub-head narrowing, lean oval torso, and long coherent legs; then synchronized prompt, ALT, sidecar, README, Sources QA, INDEX, state, and package QA
+- tomorrow_change: before prompting anatomy-sensitive birds, lock head-to-neck-to-shoulder proportions from several adult photographs and name the nearest false silhouette explicitly; avoid generic group-shape adjectives that erase species-specific proportions
+
+## 2026-08-19 — White-eared Night Heron official-evidence and bilingual-layout closeout
+
+Daily Quality Loop
+- issue: the package still carried an obsolete direct-IUCN-access caveat, and the corrected English poster did not yet share the user-approved Japanese three-card architecture
+- priority: official-evidence-sync and bilingual poster coherence
+- tags: #official-evidence-sync #bilingual-layout #species-identity
+- cause: the original run used a DOI/BirdLife fallback before the user supplied the directly inspectable official assessment PDF and current-page capture; the earlier English correction solved anatomy but preceded approval of the final Japanese left-card/right-hero layout
+- next_action: preserved the official PDF and page capture with hashes, replaced the obsolete access caveat with directly confirmed Global NT/C2a(ii)/12 May 2025 evidence, generated a fresh English full-canvas companion with three illustrated cards stacked on the left and a lean hero on the right, preserved the previous acceptable English correction as superseded, and reran direct, X-format, package, sidecar, phone-size, pixel-identity, and whitespace QA
+- tomorrow_change: when stronger official evidence or a user-approved bilingual layout arrives during closeout, update only the affected evidence and companion-art surfaces, preserve prior accepted artifacts as superseded, and rerun the smallest complete QA set

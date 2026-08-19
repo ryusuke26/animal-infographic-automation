@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-18T22:42:26+09:00
+Updated: 2026-08-19T13:48:58+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,61 +9,64 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-18-gunthers-gecko` completed and published.
-- Active evidence: preserved official IUCN errata PDF and matching current-page capture confirm Global VU D2, assessed 23 April 2018 as `T16926A152274946`. Red List year 2018 remains public; 2019 is only the errata-publication year, and the separately displayed 2024 Critically Depleted result is Green Status rather than a Red List category.
+- Active state: idle after `2026-08-19-white-eared-night-heron` completed local-ready.
+- Active evidence: the supplied official IUCN 2025 assessment PDF and current-page capture directly confirm *Oroanassa magnifica* as Global NT under C2a(ii), assessed 12 May 2025 as `T22697232A175978137`. The PDF records *Gorsachius magnificus* and *Nycticorax magnificus* as synonyms; ITIS and AviList independently support the accepted current combination.
 - Retired package: none.
 - The canonical package write gate is available.
 
 ## Latest Completed Package
 
-- Package: `2026-08-18-gunthers-gecko`.
-- Topic: Günther's Gecko / ギュンターヒルヤモリ / *Phelsuma guentheri*.
-- State: `completed, published`.
-- Region: Round Island, Mauritius / Africa.
-- Editorial classification group: Reptiles.
-- Evidence: preserved official IUCN errata PDF and matching current-page capture directly confirm Global Vulnerable (VU) under D2, assessed 23 April 2018 as `T16926A152274946`. The Red List year remains 2018; the errata version was published in 2019, and the separate 2024 Critically Depleted result is Green Status rather than a Red List category. The Reptile Database, Mauritius government material, and Roesch et al. (2021) support taxonomy, palm-rich habitat, muted large body, adhesive toe pads, day-and-night activity, and communal nesting.
-- Locked discovery: a gray-brown day gecko disappears against Round Island palm trunks, moves by day and night, and several females can share one attached-egg nest site.
-- Visual resolution: the user accepted the communal-nesting Card 2 revision as the final Japanese poster, explicitly allowing its wider redraw and softer rendering; natural far-side limb occlusion remains valid and was not forced into view. The first fresh-canvas English companion passed without retry. Both have one dominant muted gecko, exactly three numbered illustrated cards, exact Copy Lock, and coherent palm-and-screwpine habitat.
-- Artifacts and QA: four canonical `1024x1536` PNGs, two official evidence artifacts, four preserved Japanese visual-history artifacts, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass. Package content commit `063b34e` was pushed directly to `origin/master` and remotely verified.
-- Automation memory sync: the completion and GitHub closeout entry was appended during the approved publication closeout.
+- Package: `2026-08-19-white-eared-night-heron`.
+- Topic: White-eared Night Heron / ハイナンミゾゴイ / *Oroanassa magnifica*.
+- State: `completed, local-ready`.
+- Region: southern China and Hainan through northern mainland Southeast Asia / Asia.
+- Editorial classification group: Birds.
+- Evidence: the supplied official 14-page IUCN assessment PDF directly identifies Global Near Threatened (NT), criterion C2a(ii), assessed 12 May 2025 as `T22697232A175978137`, and reconciles the current *Oroanassa magnifica* combination with former synonyms. Avibase supports ハイナンミゾゴイ; Cornell eBird and Gao et al. (2013) support shaded forest streams, white post-ocular stripes, chestnut neck sides, and adults leaving the nest after sunset and returning before dawn.
+- Locked discovery: in a forest where the stream is already dark before sunset, the white-striped heron waits at its tree nest by day, leaves after sunset, and returns before dawn.
+- Visual resolution: user review reopened both language identity gates because the compact, barrel-chested silhouettes read too much like generic night herons. The accepted Japanese source now has a slender outlined neck, tapered white throat, lean oval torso, and three cards stacked on the left. After that card arrangement was approved, a fresh English companion aligned the same left-card/right-hero structure while preserving the shallow-S neck, long coherent legs, and species markings. The earlier anatomically accepted English correction is preserved as superseded.
+- Artifacts and QA: four canonical `1024x1536` PNGs, rejected/superseded generation evidence, accepted audit copies, the official IUCN PDF and page capture, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass.
+- Automation memory sync: the completion and Daily Quality Loop entry were appended during local-ready closeout.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-08-11 — Central and southern Japan / Asia — Itasenpara Bitterling
-2. 2026-08-12 — Table Mountain, South Africa / Africa — Table Mountain Ghost Frog
-3. 2026-08-13 — East Asia / Asia — Bekko Tombo
-4. 2026-08-14 — Southern Tanzania / Africa — Kipunji
-5. 2026-08-15 — Southeastern Australia and New Zealand South Island / Oceania — Tea-tree Fingers
-6. 2026-08-16 — Mahé, Seychelles / Africa — Jellyfish Tree
-7. 2026-08-17 — Tokashiki Island, Ryukyu Islands, Japan / Asia — Tokashiki Freshwater Crab
-8. 2026-08-18 — Round Island, Mauritius / Africa — Günther's Gecko
+1. 2026-08-12 — Table Mountain, South Africa / Africa — Table Mountain Ghost Frog
+2. 2026-08-13 — East Asia / Asia — Bekko Tombo
+3. 2026-08-14 — Southern Tanzania / Africa — Kipunji
+4. 2026-08-15 — Southeastern Australia and New Zealand South Island / Oceania — Tea-tree Fingers
+5. 2026-08-16 — Mahé, Seychelles / Africa — Jellyfish Tree
+6. 2026-08-17 — Tokashiki Island, Ryukyu Islands, Japan / Asia — Tokashiki Freshwater Crab
+7. 2026-08-18 — Round Island, Mauritius / Africa — Günther's Gecko
+8. 2026-08-19 — Southern China and Hainan through northern mainland Southeast Asia / Asia — White-eared Night Heron
 
 Africa occupies four of the latest eight, Asia three, and Oceania one.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-08-11 — Fishes — Itasenpara Bitterling
-2. 2026-08-12 — Amphibians — Table Mountain Ghost Frog
-3. 2026-08-13 — Insects — Bekko Tombo
-4. 2026-08-14 — Mammals — Kipunji
-5. 2026-08-15 — Fungi and lichens — Tea-tree Fingers
-6. 2026-08-16 — Plants — Jellyfish Tree
-7. 2026-08-17 — Other invertebrates — Tokashiki Freshwater Crab
-8. 2026-08-18 — Reptiles — Günther's Gecko
+1. 2026-08-12 — Amphibians — Table Mountain Ghost Frog
+2. 2026-08-13 — Insects — Bekko Tombo
+3. 2026-08-14 — Mammals — Kipunji
+4. 2026-08-15 — Fungi and lichens — Tea-tree Fingers
+5. 2026-08-16 — Plants — Jellyfish Tree
+6. 2026-08-17 — Other invertebrates — Tokashiki Freshwater Crab
+7. 2026-08-18 — Reptiles — Günther's Gecko
+8. 2026-08-19 — Birds — White-eared Night Heron
 
-Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, Other invertebrates, and Reptiles each occupy one slot; Birds is absent.
+Amphibians, Insects, Mammals, Fungi and lichens, Plants, Other invertebrates, Reptiles, and Birds each occupy one slot; Fishes is absent.
 
 ## Daily Quality Loop Counters
 
-- `#source-access-caveat`: resolved. The user-supplied official errata PDF and matching current-page capture directly expose Global VU D2, assessment date 23 April 2018, Red List publication year 2018, current record `T16926A152274946`, DOI, and the separate Green Status panel.
-- `#assessment-year-drift`: 0 in this run. The public footer uses the directly inspected 2018 assessment year.
-- `#species-identity-drift`: resolved by user-reviewed viewpoint logic. Natural far-side limb occlusion is not treated as missing anatomy; no corrective limb was forced into the accepted posters.
+- `#source-access-caveat`: resolved. The supplied official PDF and current-page capture directly expose the category, scope, criterion, assessment date, record ID, taxonomy, identification, range, habitat, and behavior fields used in QA.
+- `#assessment-year-drift`: 0 in this run. The public footer uses the official 2025 assessment year.
+- `#species-identity-drift`: 2 user-detected language corrections in this run. Both initial language silhouettes overused a squat generic night-heron body plan; the final bilingual pair now preserves the white post-ocular stripe, chestnut neck, slim readable neck, lean torso, coherent legs and feet, shaded forest-stream habitat, and aligned card architecture.
 - `#source-canvas-drift`: 0/2 canonical sources. Both accepted direct posters are exact 1024x1536, exact 2:3, and full-canvas.
-- `#selected-poster-preservation`: explicit exception recorded. The accepted Japanese Card 2 revision changed 67.396% outside the intended local region, but the user reviewed and selected that exact wider redraw as the final poster.
+- `#image-text-error`: 1 isolated punctuation drift. The Japanese source rendered a semantically equivalent ASCII colon plus one space; the failed bounded edit was rejected, and Copy Lock was synchronized to the stronger initial poster without pixel repair.
 
 ## Next Concrete Change
 
 - Begin the next scheduled run with no unfinished package.
-- Exclude Africa from an otherwise tied candidate slate because it now occupies four of the latest eight; use rotation only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
-- Birds is absent from the latest eight classification groups and may break a tie among equally strong candidates.
+- Exclude Africa from an otherwise tied candidate slate because it still occupies four of the latest eight; use rotation only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
+- Fishes is absent from the latest eight classification groups and may break a tie among equally strong candidates.
+- For mixed-script Japanese IUCN footers, prefer a factually equivalent ASCII colon plus one following space in the initial Copy Lock when typography allows; do not spend a retry on semantically neutral punctuation unless legibility or meaning changes.
+- Before prompting anatomy-sensitive birds, compare multiple adult photographs in both resting and alert/foraging postures and lock the species-specific head-to-neck-to-shoulder silhouette; avoid generic group labels such as `stocky night-heron` when they erase the target's relative proportions.
+- When the user supplies a directly inspectable official assessment after fallback evidence was used, reopen only the affected evidence surfaces, preserve the official artifacts with hashes, and remove obsolete access caveats before final validation.
 - Keep the next Quality Run local-ready until GitHub publication is explicitly requested and remotely verified.
