@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-19T13:48:58+09:00
+Updated: 2026-08-19T20:38:44+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-19-white-eared-night-heron` completed local-ready.
+- Active state: idle after `2026-08-19-white-eared-night-heron` completed and published.
 - Active evidence: the supplied official IUCN 2025 assessment PDF and current-page capture directly confirm *Oroanassa magnifica* as Global NT under C2a(ii), assessed 12 May 2025 as `T22697232A175978137`. The PDF records *Gorsachius magnificus* and *Nycticorax magnificus* as synonyms; ITIS and AviList independently support the accepted current combination.
 - Retired package: none.
 - The canonical package write gate is available.
@@ -18,14 +18,14 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-19-white-eared-night-heron`.
 - Topic: White-eared Night Heron / ハイナンミゾゴイ / *Oroanassa magnifica*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: southern China and Hainan through northern mainland Southeast Asia / Asia.
 - Editorial classification group: Birds.
 - Evidence: the supplied official 14-page IUCN assessment PDF directly identifies Global Near Threatened (NT), criterion C2a(ii), assessed 12 May 2025 as `T22697232A175978137`, and reconciles the current *Oroanassa magnifica* combination with former synonyms. Avibase supports ハイナンミゾゴイ; Cornell eBird and Gao et al. (2013) support shaded forest streams, white post-ocular stripes, chestnut neck sides, and adults leaving the nest after sunset and returning before dawn.
 - Locked discovery: in a forest where the stream is already dark before sunset, the white-striped heron waits at its tree nest by day, leaves after sunset, and returns before dawn.
 - Visual resolution: user review reopened both language identity gates because the compact, barrel-chested silhouettes read too much like generic night herons. The accepted Japanese source now has a slender outlined neck, tapered white throat, lean oval torso, and three cards stacked on the left. After that card arrangement was approved, a fresh English companion aligned the same left-card/right-hero structure while preserving the shallow-S neck, long coherent legs, and species markings. The earlier anatomically accepted English correction is preserved as superseded.
-- Artifacts and QA: four canonical `1024x1536` PNGs, rejected/superseded generation evidence, accepted audit copies, the official IUCN PDF and page capture, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass.
-- Automation memory sync: the completion and Daily Quality Loop entry were appended during local-ready closeout.
+- Artifacts and QA: four canonical `1024x1536` PNGs, rejected/superseded generation evidence, accepted audit copies, the official IUCN PDF and page capture, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass. Package commit `2d6e9c9` was pushed directly to `origin/master` and remotely verified.
+- Automation memory sync: the completion and GitHub closeout entries were appended during publication closeout.
 
 ## Recent-Eight Completed Region Rotation
 

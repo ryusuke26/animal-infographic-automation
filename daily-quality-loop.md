@@ -1049,3 +1049,13 @@ Daily Quality Loop
 - cause: the original run used a DOI/BirdLife fallback before the user supplied the directly inspectable official assessment PDF and current-page capture; the earlier English correction solved anatomy but preceded approval of the final Japanese left-card/right-hero layout
 - next_action: preserved the official PDF and page capture with hashes, replaced the obsolete access caveat with directly confirmed Global NT/C2a(ii)/12 May 2025 evidence, generated a fresh English full-canvas companion with three illustrated cards stacked on the left and a lean hero on the right, preserved the previous acceptable English correction as superseded, and reran direct, X-format, package, sidecar, phone-size, pixel-identity, and whitespace QA
 - tomorrow_change: when stronger official evidence or a user-approved bilingual layout arrives during closeout, update only the affected evidence and companion-art surfaces, preserve prior accepted artifacts as superseded, and rerun the smallest complete QA set
+
+## 2026-08-19 — White-eared Night Heron GitHub closeout
+
+Daily Quality Loop
+- issue: the completed package remained local-ready after visual and evidence QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification
+- cause: GitHub publication was intentionally separated from the no-approval Quality Run
+- next_action: committed the scoped package and synchronized workflow records as `2d6e9c9`, pushed that commit directly to `origin/master`, verified the remote ref and GitHub commit, then synchronized README, INDEX, current state, and Automation memory to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit GitHub closeout verifies the package commit remotely before changing published-state metadata

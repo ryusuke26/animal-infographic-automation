@@ -1,6 +1,6 @@
 # White-eared Night Heron / ハイナンミゾゴイ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -68,4 +68,4 @@ An authored dusk forest notebook follows one lean dark night heron beside a shad
 - Both accepted posters now show one identifiable lean adult, a visible shallow-S neck and sub-head narrowing, coherent legs and complete feet, exactly three numbered species-specific illustrated cards, a shaded forest-stream habitat, and readable integrated typography.
 - Both canonical direct posters pass the exact-2:3/full-canvas gate. All four canonical PNGs are `1024x1536`; each posting PNG is pixel-identical to its accepted direct source.
 - Bilingual X-format, story-length, canonical hashtag, ALT, sidecar-equality, full-size, phone-size, edge-band, whitespace, and final package checks pass.
-- Package is `completed, local-ready`. Git and GitHub were not mutated.
+- Package is `completed, published`. Package commit `2d6e9c9` was pushed directly to `origin/master` and remotely verified before this published-state closeout.
