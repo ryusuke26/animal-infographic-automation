@@ -1,6 +1,6 @@
 # Redfin Blue-eye / レッドフィン・ブルーアイ
 
-Status: `completed, local-ready`
+Status: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -71,4 +71,4 @@ One mature male swims through a ribbon of clear, extremely shallow desert-spring
 - Japanese and English main posts and story replies are independently within 275 Unicode characters; both main posts contain `#RedfinBlueeye` and differ in opening and sentence pattern from the latest two completed posts.
 - Eight sidecars exactly match the four fenced blocks in each posting set.
 - Bilingual X-format, full-package, direct-source, pixel-identity, and whitespace QA pass.
-- Git and GitHub were not mutated; package stops at `completed, local-ready`.
+- Published directly to `origin/master` in package commit `2cc16f3`; the remote branch was verified at `2cc16f3769f27c4481d256427600350ff3bc76b0` before this published-state metadata update.

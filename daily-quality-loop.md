@@ -1069,3 +1069,13 @@ Daily Quality Loop
 - cause: the IUCN delivery layer did not expose the assessment body in this execution environment even though the exact species route, assessment ID, and DOI were known
 - next_action: cross-checked the official DOI and `T19951A123379010` against the current IUCN 2025-2 mirror and an independent exact-DOI citation, disclosed the access caveat in both source replies, and kept national status separate from the global footer
 - tomorrow_change: retry the direct assessment once before Copy Lock, then use one explicit bounded partner/fallback record when the official body remains blocked rather than expanding the source set
+
+## 2026-08-20 — Redfin Blue-eye GitHub closeout
+
+Daily Quality Loop
+- issue: the completed package remained local-ready after visual and evidence QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification
+- cause: GitHub publication was intentionally separated from the no-approval Quality Run
+- next_action: committed the scoped package and synchronized workflow records as `2cc16f3`, pushed that commit directly to `origin/master`, verified the remote ref at `2cc16f3769f27c4481d256427600350ff3bc76b0`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicitly requested closeout verifies the package commit remotely before changing published-state metadata

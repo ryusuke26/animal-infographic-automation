@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-20T20:42:30+09:00
+Updated: 2026-08-20T22:08:53+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-20-redfin-blue-eye` completed, local-ready.
+- Active state: idle after `2026-08-20-redfin-blue-eye` completed, published.
 - Active evidence: official IUCN route `T19951A123379010` is Global CR under B1ab(iii,v)+2ab(iii,v), assessed 11 February 2019. The direct assessment body/PDF was blocked by Cloudflare in this run; the exact official DOI and ID were cross-checked against the current IUCN 2025-2 mirror and an independent exact-DOI citation. DCCEEW and AFD/ALA support the accepted identity and three locked claims.
 - Retired package: none.
 - The canonical package write gate is available.
@@ -18,14 +18,14 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-20-redfin-blue-eye`.
 - Topic: Redfin Blue-eye / レッドフィン・ブルーアイ / *Scaturiginichthys vermeilipinnis*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: central-western Queensland, Australia / Oceania.
 - Editorial classification group: Fishes.
 - Evidence: official IUCN route `T19951A123379010` records Global Critically Endangered under B1ab(iii,v)+2ab(iii,v), assessed 11 February 2019. Its direct body/PDF was blocked by Cloudflare; the exact DOI and ID were cross-checked against the current IUCN 2025-2 mirror and an independent exact-DOI citation. DCCEEW and AFD/ALA support the accepted name, Edgbaston Springs range, wetlands less than 8 cm deep, maximum size about 3 cm, blue eye, and red fins displayed by breeding males.
 - Locked discovery: in dry inland Queensland, a fish only about 3 cm long lives in clear spring water shallower than a hand is wide; breeding males add a brief flash of red to the shallows.
 - Visual resolution: the first Japanese source and first English companion both passed without retry. Each uses one long olive-silver mature male with a blue-ringed eye and localized red fins across a coherent shallow desert-spring field note, with three unequal cards following the fish's horizontal body line.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass.
-- Automation memory sync: the local-ready completion and Daily Quality Loop entries were appended in this run.
+- GitHub closeout: package commit `2cc16f3` was pushed directly to `origin/master` and the remote ref was verified at `2cc16f3769f27c4481d256427600350ff3bc76b0`; published-state metadata follows in the closeout commit.
 
 ## Recent-Eight Completed Region Rotation
 
