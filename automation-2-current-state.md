@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-19T20:38:44+09:00
+Updated: 2026-08-20T20:42:30+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,64 +9,63 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-19-white-eared-night-heron` completed and published.
-- Active evidence: the supplied official IUCN 2025 assessment PDF and current-page capture directly confirm *Oroanassa magnifica* as Global NT under C2a(ii), assessed 12 May 2025 as `T22697232A175978137`. The PDF records *Gorsachius magnificus* and *Nycticorax magnificus* as synonyms; ITIS and AviList independently support the accepted current combination.
+- Active state: idle after `2026-08-20-redfin-blue-eye` completed, local-ready.
+- Active evidence: official IUCN route `T19951A123379010` is Global CR under B1ab(iii,v)+2ab(iii,v), assessed 11 February 2019. The direct assessment body/PDF was blocked by Cloudflare in this run; the exact official DOI and ID were cross-checked against the current IUCN 2025-2 mirror and an independent exact-DOI citation. DCCEEW and AFD/ALA support the accepted identity and three locked claims.
 - Retired package: none.
 - The canonical package write gate is available.
 
 ## Latest Completed Package
 
-- Package: `2026-08-19-white-eared-night-heron`.
-- Topic: White-eared Night Heron / ハイナンミゾゴイ / *Oroanassa magnifica*.
-- State: `completed, published`.
-- Region: southern China and Hainan through northern mainland Southeast Asia / Asia.
-- Editorial classification group: Birds.
-- Evidence: the supplied official 14-page IUCN assessment PDF directly identifies Global Near Threatened (NT), criterion C2a(ii), assessed 12 May 2025 as `T22697232A175978137`, and reconciles the current *Oroanassa magnifica* combination with former synonyms. Avibase supports ハイナンミゾゴイ; Cornell eBird and Gao et al. (2013) support shaded forest streams, white post-ocular stripes, chestnut neck sides, and adults leaving the nest after sunset and returning before dawn.
-- Locked discovery: in a forest where the stream is already dark before sunset, the white-striped heron waits at its tree nest by day, leaves after sunset, and returns before dawn.
-- Visual resolution: user review reopened both language identity gates because the compact, barrel-chested silhouettes read too much like generic night herons. The accepted Japanese source now has a slender outlined neck, tapered white throat, lean oval torso, and three cards stacked on the left. After that card arrangement was approved, a fresh English companion aligned the same left-card/right-hero structure while preserving the shallow-S neck, long coherent legs, and species markings. The earlier anatomically accepted English correction is preserved as superseded.
-- Artifacts and QA: four canonical `1024x1536` PNGs, rejected/superseded generation evidence, accepted audit copies, the official IUCN PDF and page capture, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass. Package commit `2d6e9c9` was pushed directly to `origin/master` and remotely verified.
-- Automation memory sync: the completion and GitHub closeout entries were appended during publication closeout.
+- Package: `2026-08-20-redfin-blue-eye`.
+- Topic: Redfin Blue-eye / レッドフィン・ブルーアイ / *Scaturiginichthys vermeilipinnis*.
+- State: `completed, local-ready`.
+- Region: central-western Queensland, Australia / Oceania.
+- Editorial classification group: Fishes.
+- Evidence: official IUCN route `T19951A123379010` records Global Critically Endangered under B1ab(iii,v)+2ab(iii,v), assessed 11 February 2019. Its direct body/PDF was blocked by Cloudflare; the exact DOI and ID were cross-checked against the current IUCN 2025-2 mirror and an independent exact-DOI citation. DCCEEW and AFD/ALA support the accepted name, Edgbaston Springs range, wetlands less than 8 cm deep, maximum size about 3 cm, blue eye, and red fins displayed by breeding males.
+- Locked discovery: in dry inland Queensland, a fish only about 3 cm long lives in clear spring water shallower than a hand is wide; breeding males add a brief flash of red to the shallows.
+- Visual resolution: the first Japanese source and first English companion both passed without retry. Each uses one long olive-silver mature male with a blue-ringed eye and localized red fins across a coherent shallow desert-spring field note, with three unequal cards following the fish's horizontal body line.
+- Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass.
+- Automation memory sync: the local-ready completion and Daily Quality Loop entries were appended in this run.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-08-12 — Table Mountain, South Africa / Africa — Table Mountain Ghost Frog
-2. 2026-08-13 — East Asia / Asia — Bekko Tombo
-3. 2026-08-14 — Southern Tanzania / Africa — Kipunji
-4. 2026-08-15 — Southeastern Australia and New Zealand South Island / Oceania — Tea-tree Fingers
-5. 2026-08-16 — Mahé, Seychelles / Africa — Jellyfish Tree
-6. 2026-08-17 — Tokashiki Island, Ryukyu Islands, Japan / Asia — Tokashiki Freshwater Crab
-7. 2026-08-18 — Round Island, Mauritius / Africa — Günther's Gecko
-8. 2026-08-19 — Southern China and Hainan through northern mainland Southeast Asia / Asia — White-eared Night Heron
+1. 2026-08-13 — East Asia / Asia — Bekko Tombo
+2. 2026-08-14 — Southern Tanzania / Africa — Kipunji
+3. 2026-08-15 — Southeastern Australia and New Zealand South Island / Oceania — Tea-tree Fingers
+4. 2026-08-16 — Mahé, Seychelles / Africa — Jellyfish Tree
+5. 2026-08-17 — Tokashiki Island, Ryukyu Islands, Japan / Asia — Tokashiki Freshwater Crab
+6. 2026-08-18 — Round Island, Mauritius / Africa — Günther's Gecko
+7. 2026-08-19 — Southern China and Hainan through northern mainland Southeast Asia / Asia — White-eared Night Heron
+8. 2026-08-20 — Central-western Queensland, Australia / Oceania — Redfin Blue-eye
 
-Africa occupies four of the latest eight, Asia three, and Oceania one.
+Africa occupies three of the latest eight, Asia three, and Oceania two.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-08-12 — Amphibians — Table Mountain Ghost Frog
-2. 2026-08-13 — Insects — Bekko Tombo
-3. 2026-08-14 — Mammals — Kipunji
-4. 2026-08-15 — Fungi and lichens — Tea-tree Fingers
-5. 2026-08-16 — Plants — Jellyfish Tree
-6. 2026-08-17 — Other invertebrates — Tokashiki Freshwater Crab
-7. 2026-08-18 — Reptiles — Günther's Gecko
-8. 2026-08-19 — Birds — White-eared Night Heron
+1. 2026-08-13 — Insects — Bekko Tombo
+2. 2026-08-14 — Mammals — Kipunji
+3. 2026-08-15 — Fungi and lichens — Tea-tree Fingers
+4. 2026-08-16 — Plants — Jellyfish Tree
+5. 2026-08-17 — Other invertebrates — Tokashiki Freshwater Crab
+6. 2026-08-18 — Reptiles — Günther's Gecko
+7. 2026-08-19 — Birds — White-eared Night Heron
+8. 2026-08-20 — Fishes — Redfin Blue-eye
 
-Amphibians, Insects, Mammals, Fungi and lichens, Plants, Other invertebrates, Reptiles, and Birds each occupy one slot; Fishes is absent.
+Insects, Mammals, Fungi and lichens, Plants, Other invertebrates, Reptiles, Birds, and Fishes each occupy one slot; Amphibians is absent.
 
 ## Daily Quality Loop Counters
 
-- `#source-access-caveat`: resolved. The supplied official PDF and current-page capture directly expose the category, scope, criterion, assessment date, record ID, taxonomy, identification, range, habitat, and behavior fields used in QA.
-- `#assessment-year-drift`: 0 in this run. The public footer uses the official 2025 assessment year.
-- `#species-identity-drift`: 2 user-detected language corrections in this run. Both initial language silhouettes overused a squat generic night-heron body plan; the final bilingual pair now preserves the white post-ocular stripe, chestnut neck, slim readable neck, lean torso, coherent legs and feet, shaded forest-stream habitat, and aligned card architecture.
+- `#source-access-caveat`: 1 bounded occurrence in this run. The direct IUCN body/PDF was blocked, but the exact official DOI and ID were cross-checked against the current IUCN 2025-2 mirror and an independent exact-DOI citation; both source replies disclose the caveat.
+- `#assessment-year-drift`: 0 in this run. The public footer uses the assessment's field-level 2019 year exposed by the current mirror for the exact official record.
+- `#species-identity-drift`: 0 in this run. Both first-pass posters preserve the government-photo-matched slender body, blue eye, localized red fins, and shallow desert-spring habitat.
 - `#source-canvas-drift`: 0/2 canonical sources. Both accepted direct posters are exact 1024x1536, exact 2:3, and full-canvas.
-- `#image-text-error`: 1 isolated punctuation drift. The Japanese source rendered a semantically equivalent ASCII colon plus one space; the failed bounded edit was rejected, and Copy Lock was synchronized to the stronger initial poster without pixel repair.
+- `#image-text-error`: 0 in this run. Both first-pass posters render all six locked lines and the specified ASCII spacing.
 
 ## Next Concrete Change
 
 - Begin the next scheduled run with no unfinished package.
-- Exclude Africa from an otherwise tied candidate slate because it still occupies four of the latest eight; use rotation only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
-- Fishes is absent from the latest eight classification groups and may break a tie among equally strong candidates.
-- For mixed-script Japanese IUCN footers, prefer a factually equivalent ASCII colon plus one following space in the initial Copy Lock when typography allows; do not spend a retry on semantically neutral punctuation unless legibility or meaning changes.
-- Before prompting anatomy-sensitive birds, compare multiple adult photographs in both resting and alert/foraging postures and lock the species-specific head-to-neck-to-shoulder silhouette; avoid generic group labels such as `stocky night-heron` when they erase the target's relative proportions.
-- When the user supplies a directly inspectable official assessment after fallback evidence was used, reopen only the affected evidence surfaces, preserve the official artifacts with hashes, and remove obsolete access caveats before final validation.
+- Region rotation is balanced at Africa three, Asia three, and Oceania two; use it only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
+- Amphibians is absent from the latest eight editorial groups and may break a tie among equally strong candidates.
+- Retry a direct IUCN assessment body once before Copy Lock. If the same exact route remains blocked, use one explicit bounded partner/fallback cross-check and disclose it in both source replies rather than expanding into a loose source pile.
+- Keep the successful long-body composition lesson: let irregular cards follow the organism's silhouette and habitat flow instead of forcing three equal panels.
 - Keep the next Quality Run local-ready until GitHub publication is explicitly requested and remotely verified.
