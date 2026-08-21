@@ -1,6 +1,6 @@
 # Amboli Lateritic Toad bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -42,7 +42,7 @@ Broad native region: Amboli, Maharashtra, northern Western Ghats, India / Asia
 - Public claims: monsoon-filled laterite rock pools, a small yellow-and-dark body, and short breeding bouts after early monsoon rain.
 - Discovery doorway: a dry-looking red-rock plateau briefly fills with shallow pools and a chorus of tiny toads.
 
-GitHub publication is out of scope for this daily Quality Run. Completion stops at `completed, local-ready`.
+Published directly to `origin/master` in package content commit `16699d7`; the remote branch was verified at `16699d7b6142b5a27ec01bf35363b2f42782b935` before this published-state metadata update.
 
 ## Final QA
 
@@ -52,4 +52,4 @@ GitHub publication is out of scope for this daily Quality Run. Completion stops 
 - Both direct and posting PNGs are `1024x1536`; direct/posting pairs are pixel-identical within language.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, whitespace checks, and manual species-identity/anatomy/composition review pass.
-- Git and GitHub were not mutated.
+- Published directly to `origin/master` in package content commit `16699d7`; published-state metadata follows in the closeout commit.

@@ -1119,3 +1119,13 @@ Daily Quality Loop
 - cause: the retired run had relied on rotation screening without a complete alias collision pass; secondary Amboli pages had not followed the latest official reassessment link
 - next_action: searched accepted name, historical combinations, English aliases, Japanese rendering, and slug across memory, all INDEX sections, package contents, and folders before lock; then followed the current official assessment to Global EN assessed 16 September 2020 and completed first-pass bilingual posters with full QA
 - tomorrow_change: retain the full collision search before evidence screening, and when an official page warns that an assessment is not latest, follow the displayed latest-scope link before Copy Lock
+
+## 2026-08-22 — Amboli Lateritic Toad GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Amboli package remained local-ready after visual and evidence QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #retired-package-boundary
+- cause: GitHub publication was intentionally separated from the Quality Run and required explicit approval for the package plus retired audit payload
+- next_action: committed the Amboli package, retired Montseny audit package, and synchronized workflow records as `16699d7`, pushed that commit directly to `origin/master`, verified the remote ref at `16699d7b6142b5a27ec01bf35363b2f42782b935`, and synchronized Amboli README, INDEX, and current state to `completed, published`; Montseny remains `retired, duplicate`
+- tomorrow_change: keep future Quality Runs local-ready until an explicitly requested closeout verifies the scoped content commit remotely before changing published-state metadata
