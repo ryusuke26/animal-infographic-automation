@@ -1079,3 +1079,43 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally separated from the no-approval Quality Run
 - next_action: committed the scoped package and synchronized workflow records as `2cc16f3`, pushed that commit directly to `origin/master`, verified the remote ref at `2cc16f3769f27c4481d256427600350ff3bc76b0`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicitly requested closeout verifies the package commit remotely before changing published-state metadata
+
+## 2026-08-21 — Montseny Brook Newt local-ready completion
+
+Daily Quality Loop
+- issue: the direct IUCN assessment body did not render after the single allowed retry, while the exact DOI and assessment ID remained available
+- priority: evidence-access caveat contained
+- tags: #source-access-caveat #first-pass-visual #local-ready
+- cause: the Red List delivery layer did not expose the assessment body in this execution environment
+- next_action: cross-checked `T136131A89696462` and its official DOI against the current IUCN-derived record, kept the 2021 assessment year separate from 2022 publication, disclosed the caveat in both source replies, and completed first-pass bilingual posters with direct-source, X-format, package, pixel-identity, full-size, phone-size, sidecar, and whitespace QA
+- tomorrow_change: retain the one-retry official-route limit, then use one named current partner record; for low stream animals, keep a diagonal hero and let irregular cards follow the current without covering the silhouette
+
+## 2026-08-21 — Montseny Brook Newt official-evidence synchronization
+
+Daily Quality Loop
+- issue: the local-ready package retained an obsolete direct-IUCN-access caveat after the user supplied the matching official assessment PDF and species-page capture
+- priority: official-evidence synchronization
+- tags: #official-evidence-sync #assessment-date-verification #local-ready
+- cause: the initial run could identify the official DOI and record ID but could not render the assessment body directly
+- next_action: preserved both official files with SHA-256 hashes, directly confirmed Global and Europe scope, CR under A3ce; E, assessment date 20 August 2021, and publication year 2022, then synchronized README, Sources QA, bilingual source replies, sidecars, INDEX, and current state without changing the already-correct 2021 poster footer
+- tomorrow_change: when stronger official evidence arrives after closeout, reopen Evidence Lock once, separate assessment date from publication year, and update only affected evidence and source-copy surfaces before rerunning QA
+
+## 2026-08-21 — Montseny Brook Newt duplicate retirement correction
+
+Daily Quality Loop
+- issue: the 2026-08-21 package reached local-ready even though the same accepted species, *Calotriton arnoldi*, had already been completed and published on 2026-06-26
+- priority: duplicate-topic gate failure and state correction
+- tags: #duplicate-topic-gate #retired-package #rotation-repair
+- cause: candidate screening summarized the latest eight rotations but did not complete an exact accepted-scientific-name and package-slug collision search across the full INDEX and package folders before topic lock
+- next_action: marked the 2026-08-21 package as a retired duplicate and do-not-post audit artifact, moved its INDEX entry out of Completed, restored the latest completed package and both latest-eight rotations to the 2026-08-20 state, and preserved supplied official evidence without deleting any files
+- tomorrow_change: before evidence screening, normalize and search every candidate's accepted scientific name, English and Japanese names, aliases, and proposed slug across Automation memory, every INDEX section, and package folders; reject any completed collision before rotation ranking
+
+## 2026-08-21 — Amboli Lateritic Toad local-ready completion
+
+Daily Quality Loop
+- issue: the previous run exposed a full-history duplicate-gate failure, while the selected Amboli species also had a stale 2011 CR record still visible beside its current assessment
+- priority: duplicate prevention and status-version control
+- tags: #duplicate-topic-gate #status-version-drift #official-evidence-direct #first-pass-visual #local-ready
+- cause: the retired run had relied on rotation screening without a complete alias collision pass; secondary Amboli pages had not followed the latest official reassessment link
+- next_action: searched accepted name, historical combinations, English aliases, Japanese rendering, and slug across memory, all INDEX sections, package contents, and folders before lock; then followed the current official assessment to Global EN assessed 16 September 2020 and completed first-pass bilingual posters with full QA
+- tomorrow_change: retain the full collision search before evidence screening, and when an official page warns that an assessment is not latest, follow the displayed latest-scope link before Copy Lock
