@@ -1139,3 +1139,13 @@ Daily Quality Loop
 - cause: older conservation labels persist online after the present assessment and can be mistaken for current status; the current assessment's 2014 publication year can also be confused with its 2013 assessment year
 - next_action: directly inspected the official current record, locked Global VU under D2 assessed 16 November 2013, excluded the superseded CR label, and completed first-pass bilingual six-legged beetle posters with direct-source, X-format, package, pixel-identity, sidecar, full-size, phone-size, and whitespace QA
 - tomorrow_change: when an official page is marked `Needs updating`, verify that it is still the current formal assessment, separate assessment from publication year, and inspect previous assessments before Copy Lock
+
+## 2026-08-22 — Frigate Island Giant Tenebrionid Beetle GitHub closeout
+
+Daily Quality Loop
+- issue: the completed beetle package remained local-ready after evidence confirmation and final QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
+- next_action: committed the scoped package and synchronized workflow records as `93e64b9`, pushed directly to `origin/master`, verified the remote ref at `93e64b95eeaca812613b6e75c9815fd437226e22`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata

@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-22T10:20:54+09:00
+Updated: 2026-08-22T22:22:52+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-22-frigate-island-giant-tenebrionid-beetle` completed, local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active state: idle after `2026-08-22-frigate-island-giant-tenebrionid-beetle` completed, published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
 - Active evidence: none. The selected beetle's official IUCN route was directly inspectable; the official Montseny Brook Newt PDF and page capture remain preserved inside the retired audit package.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-22-frigate-island-giant-tenebrionid-beetle`.
 - Topic: Frigate Island Giant Tenebrionid Beetle / フレガット島オオゴミムシダマシ / *Polposipus herculeanus*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Frégate Island, Seychelles / Africa.
 - Editorial classification group: Insects.
 - Evidence: the current official IUCN assessment `T17902A21425713` records Global Vulnerable under D2, assessed 16 November 2013 and published in 2014. The page is annotated `Needs updating`, but it remains the current formal global assessment; the superseded 1996 CR assessment is excluded from the public footer. The official ecology account, Ferguson and Pearce-Kelly, and museum specimens support the accepted name, coastal woodland, daytime trunk use, nocturnal ground foraging, strongly tubercled rounded back, and rotten-log larval development.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: a large flightless beetle stays on Frégate's coastal woodland trunks by day, descends after dark to forage, and starts its next generation inside fallen rotten wood.
 - Visual resolution: the first Japanese source and first English companion both passed without retry. Each uses one complete six-legged, two-antennaed dark beetle on a diagonal lichen-covered trunk, with three unequal illustrated cards integrated into the day-to-night forest scene.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, and whitespace QA pass.
-- GitHub closeout: not performed. This run stops at `completed, local-ready`.
+- GitHub closeout: package content commit `93e64b9` was pushed directly to `origin/master` and the remote ref was verified at `93e64b95eeaca812613b6e75c9815fd437226e22`; published-state metadata follows in the closeout commit.
 
 ## Recent-Eight Completed Region Rotation
 

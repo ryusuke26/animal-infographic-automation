@@ -1,6 +1,6 @@
 # Frigate Island Giant Tenebrionid Beetle bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -50,4 +50,4 @@ Broad native region: Frégate Island, Seychelles / Africa
 - Both direct and posting PNGs are `1024x1536`; direct/posting pairs are pixel-identical within language.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Bilingual X-format validation, full package validation, whitespace checks, and manual species-identity/anatomy/composition review pass.
-- Git and GitHub were not mutated.
+- Published directly to `origin/master` in package content commit `93e64b9`; the remote branch was verified at `93e64b95eeaca812613b6e75c9815fd437226e22` before this published-state metadata update.
