@@ -1129,3 +1129,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally separated from the Quality Run and required explicit approval for the package plus retired audit payload
 - next_action: committed the Amboli package, retired Montseny audit package, and synchronized workflow records as `16699d7`, pushed that commit directly to `origin/master`, verified the remote ref at `16699d7b6142b5a27ec01bf35363b2f42782b935`, and synchronized Amboli README, INDEX, and current state to `completed, published`; Montseny remains `retired, duplicate`
 - tomorrow_change: keep future Quality Runs local-ready until an explicitly requested closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-08-22 — Frigate Island Giant Tenebrionid Beetle local-ready completion
+
+Daily Quality Loop
+- issue: the current formal IUCN page is annotated `Needs updating`, while an obsolete 1996 CR label remains discoverable beside the current 2013 VU assessment
+- priority: status-version and assessment-year control
+- tags: #status-version-drift #assessment-year-drift #species-identity #first-pass-visual #local-ready
+- cause: older conservation labels persist online after the present assessment and can be mistaken for current status; the current assessment's 2014 publication year can also be confused with its 2013 assessment year
+- next_action: directly inspected the official current record, locked Global VU under D2 assessed 16 November 2013, excluded the superseded CR label, and completed first-pass bilingual six-legged beetle posters with direct-source, X-format, package, pixel-identity, sidecar, full-size, phone-size, and whitespace QA
+- tomorrow_change: when an official page is marked `Needs updating`, verify that it is still the current formal assessment, separate assessment from publication year, and inspect previous assessments before Copy Lock
