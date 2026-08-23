@@ -1,6 +1,6 @@
 # Tenkile bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -53,4 +53,4 @@ Broad native region: Torricelli Mountains, Sandaun Province, Papua New Guinea / 
 - Locked Japanese and English titles, scientific name, three labels, and status footer are exact and legible at full size and phone size.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, pixel-identity, full-size, phone-size, whitespace, and manual species-identity/anatomy/composition QA pass.
-- Git and GitHub were not mutated; publication remains a separate closeout.
+- Published directly to `origin/master` in package content commit `84cc674`; the remote ref was verified before this published-state closeout.

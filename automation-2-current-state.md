@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-23T10:41:20+09:00
+Updated: 2026-08-23T22:09:50+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-23-tenkile` completed, local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active state: idle after `2026-08-23-tenkile` completed and published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
 - Active evidence: none. The selected Tenkile's official IUCN route was directly inspectable; the formal assessment is annotated `Needs updating` but remains current.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-23-tenkile`.
 - Topic: Tenkile / スコットキノボリカンガルー / *Dendrolagus scottae*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Torricelli Mountains, Sandaun Province, Papua New Guinea / Oceania.
 - Editorial classification group: Mammals.
 - Evidence: the current official IUCN assessment `T6435A21956375` records Global Critically Endangered under A2d, assessed 30 September 2015 and published in 2019. The page is annotated `Needs updating`, but it remains the current formal global assessment; no population count is used publicly. Mammal Diversity Database, the Mammal Society of Japan, Tenkile Conservation Alliance, and the original description support the accepted taxonomy, English and Japanese names, Torricelli mid-montane rainforest, uniform blackish coat, shoulder hair whorl, and high proportion of time on the ground.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: a nearly black tree-kangaroo moves between mossy trunks and the Torricelli forest floor, where a shoulder hair whorl and quadrupedal ground path make the familiar group silhouette newly specific.
 - Visual resolution: the Japanese first source passed the direct and identity gates but duplicated Card 1 text under the scientific name. Its allowed generative correction redrew 99.895% of pixels outside the requested area and was rejected; a deterministic repair changed only 47,029 pixels inside the text band and 0 outside. The first English companion passed without retry.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and phone-size review, pixel identity, whitespace, and manual species-identity/anatomy/composition QA pass.
-- GitHub closeout: not performed; the package stops at local-ready.
+- GitHub closeout: package content commit `84cc674` was pushed directly to `origin/master` and the remote ref was verified at `84cc67440e8930876a7a49a98c9a010cea31862a` before published-state metadata was prepared.
 
 ## Recent-Eight Completed Region Rotation
 
