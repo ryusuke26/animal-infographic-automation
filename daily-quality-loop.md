@@ -1149,3 +1149,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
 - next_action: committed the scoped package and synchronized workflow records as `93e64b9`, pushed directly to `origin/master`, verified the remote ref at `93e64b95eeaca812613b6e75c9815fd437226e22`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-08-23 — Tenkile local-ready completion
+
+Daily Quality Loop
+- issue: the first Japanese source duplicated Card 1's label beneath the scientific name, while the one allowed generative correction removed the text but redrew essentially the full canvas
+- priority: exact integrated typography with selected-canvas preservation
+- tags: #image-text-error #global-redraw #localized-text-repair #species-identity #local-ready
+- cause: Image Gen repeated a locked observation in the header despite the blank-header constraint, and whole-canvas generative editing did not preserve the accepted pixels outside the requested text band
+- next_action: rejected and preserved the 99.895%-outside-region redraw, composited only the clean replacement band onto the accepted first source, verified 47,029 changed pixels (2.99%) and 0 changes outside the repair box, then completed the first-pass English companion and full bilingual QA
+- tomorrow_change: keep each observation confined to its numbered card in the initial prompt; when a source-gate-passing poster has one localized text defect and a generative edit redraws globally, preserve the accepted source and use a measured pixel-scoped repair only for the defective text area
