@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-24T23:34:05+09:00
+Updated: 2026-08-25T00:20:22+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-24-noble-polypore` completed local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active state: idle after `2026-08-24-noble-polypore` completed and published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
 - Active evidence: none. The selected Noble Polypore's direct IUCN assessment shell loaded without its body; the exact field-level Global CR assessment is preserved through the disclosed Global Fungal Red List reproduction of IUCN content.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-24-noble-polypore`.
 - Topic: Noble Polypore / ノーブル・ポリポア / *Bridgeoporus nobilissimus*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Pacific Northwest of the United States / North America.
 - Editorial classification group: Fungi and lichens.
 - Evidence: the directly inspectable Global Fungal Red List reproduction of IUCN content records assessment `T76195622A97167627` as Global Critically Endangered under A2c; C2a(i), assessed 22 April 2015; the direct official IUCN page body did not render and the caveat is disclosed. USDA Forest Service and the genus paper support the accepted name, Noble Polypore common name, old-fir attachment, coarse white fibres, cinnamon aging, algae-green surface, perennial growth, and more than 100 tube layers. No established standard Japanese common name was confirmed; ノーブル・ポリポア is a transparent English-name rendering.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: what first resembles a mossy doormat at the foot of a giant fir is a long-lived shaggy conk that records years of growth in stacked pore layers.
 - Visual resolution: the first Japanese direct poster and first English companion both passed exact-2:3/full-canvas and visual review without retries. Each shows one massive low shelf/conk visibly attached to a fir base, documented white/cinnamon/algae-green surface variation, a thick pale margin, a pore-bearing underside, and three species-specific illustrated cards.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, and manual growth-form/false-silhouette/composition QA pass.
-- GitHub closeout: not requested. Git and GitHub were not mutated; the package remains local-ready.
+- GitHub closeout: package content commit `3294a91` was pushed directly to `origin/master` and the remote ref was verified at `3294a9148d80e1eea27ddec1440a7aebd0cd74be` before published-state metadata was prepared.
 
 ## Recent-Eight Completed Region Rotation
 

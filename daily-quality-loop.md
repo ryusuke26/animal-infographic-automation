@@ -1179,3 +1179,13 @@ Daily Quality Loop
 - cause: the current IUCN delivery layer exposed the route but not the field-level assessment content in either normal retrieval or the in-app browser
 - next_action: confirmed the exact Global CR criteria and 22 April 2015 assessment date through the Global Fungal Red List reproduction of IUCN content, disclosed the bounded fallback in both source replies, and completed first-pass bilingual posters plus full QA
 - tomorrow_change: attempt the direct IUCN body once, then use one field-level specialist-group reproduction with an explicit access caveat when the official shell remains empty
+
+## 2026-08-25 — Noble Polypore GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Noble Polypore package remained local-ready after official evidence confirmation and final QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
+- next_action: committed the scoped package and synchronized workflow records as `3294a91`, pushed directly to `origin/master`, verified the remote ref at `3294a9148d80e1eea27ddec1440a7aebd0cd74be`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata

@@ -1,6 +1,6 @@
 # Noble Polypore bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -52,4 +52,4 @@ Broad native region: Pacific Northwest of the United States / North America
 - Locked Japanese and English titles, scientific name, three labels, and status footer are exact and legible at full size and at `360x540` phone-review size.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, pixel-identity, full-size, phone-size, whitespace, and manual growth-form/composition QA pass.
-- Git and GitHub were not mutated; this package is `completed, local-ready`.
+- Package content commit `3294a91` was pushed directly to `origin/master` and the remote ref was verified at `3294a9148d80e1eea27ddec1440a7aebd0cd74be`; this package is `completed, published`.
