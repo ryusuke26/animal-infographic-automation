@@ -1169,3 +1169,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
 - next_action: committed the scoped package and synchronized workflow records as `84cc674`, pushed directly to `origin/master`, verified the remote ref at `84cc67440e8930876a7a49a98c9a010cea31862a`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-08-24 — Noble Polypore local-ready completion
+
+Daily Quality Loop
+- issue: the direct IUCN assessment page shell loaded but its assessment body did not render during Evidence Lock
+- priority: evidence-access caveat contained
+- tags: #IUCN-unavailable #official-evidence-fallback #first-pass-visual #local-ready
+- cause: the current IUCN delivery layer exposed the route but not the field-level assessment content in either normal retrieval or the in-app browser
+- next_action: confirmed the exact Global CR criteria and 22 April 2015 assessment date through the Global Fungal Red List reproduction of IUCN content, disclosed the bounded fallback in both source replies, and completed first-pass bilingual posters plus full QA
+- tomorrow_change: attempt the direct IUCN body once, then use one field-level specialist-group reproduction with an explicit access caveat when the official shell remains empty
