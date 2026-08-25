@@ -1189,3 +1189,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
 - next_action: committed the scoped package and synchronized workflow records as `3294a91`, pushed directly to `origin/master`, verified the remote ref at `3294a9148d80e1eea27ddec1440a7aebd0cd74be`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-08-25 — Tahina Palm local-ready completion
+
+Daily Quality Loop
+- issue: bundling all nine official IUCN reference photographs in one browser asset request took far longer than the evidence and visual checks themselves
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #local-ready
+- cause: the visual-reference inventory was narrowed only after downloading every observed species image instead of selecting a morphology-covering subset first
+- next_action: reused three authoritative references from the completed bundle, produced first-pass bilingual posters, and finished all direct-source, X-format, package, pixel-identity, phone/full-size, sidecar, and visual QA without repeating the download
+- tomorrow_change: inspect the asset inventory first and bundle only three images that cover adult habit, diagnostic structure, and habitat
