@@ -1,6 +1,6 @@
 # Tahina Palm bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -62,4 +62,4 @@ Broad native region: Analalava District, northwestern Madagascar / Africa
 - Both posters contain one complete flowering palm, one continuous crown-origin inflorescence, one solitary scarred and swollen trunk, documented fan leaves and retained dead leaves, limestone-foot habitat, and exactly three numbered species-specific illustrated cards.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, pixel-identity, full-size, phone-size, whitespace, terminal-inflorescence-origin, false-silhouette, and composition QA pass.
-- Git and GitHub were not mutated; publication remains a separate closeout.
+- Package content commit `2834034` was pushed directly to `origin/master` and the remote ref was verified at `283403465c77a5d59fa647c0e642394e85e186e3`; this package is `completed, published`.

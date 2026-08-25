@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-25T21:53:28+09:00
+Updated: 2026-08-26T00:36:42+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-25-tahina-palm` completed, local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active state: idle after `2026-08-25-tahina-palm` completed and published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
 - Active evidence: none. The Tahina Palm's current official IUCN page was directly inspected and confirms Global CR under B1ab(iii); D, assessed 17 December 2010; its `Needs updating` annotation is disclosed.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-25-tahina-palm`.
 - Topic: Tahina Palm / タヒナ・スペクタビリス / *Tahina spectabilis*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Analalava District, northwestern Madagascar / Africa.
 - Editorial classification group: Plants.
 - Evidence: the directly inspected current official IUCN page records assessment `T195893A2430024` as Global Critically Endangered under B1ab(iii); D, assessed 17 December 2010 and published in 2012. Its `Needs updating` annotation is disclosed. Kew POWO, Kew's species profile, the original description, and official IUCN photographs support the accepted name, limestone-foot seasonally flooded habitat, solitary swollen ring-scarred trunk, retained dead leaves, fan leaves up to 5 m across, terminal 4–5 m candelabra-like inflorescence, and death after the single flowering and fruiting event. No established standard Japanese common name was confirmed; タヒナ・スペクタビリス is a supported katakana rendering.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: after years as a crown of enormous fans, one pale candelabra-like flowering tower rises above the whole palm and marks the closing chapter of its life.
 - Visual resolution: the first Japanese direct poster and first English companion both passed exact-2:3/full-canvas and visual review without retries. Each shows one complete flowering adult with a continuous crown-origin inflorescence, solitary swollen ring-scarred trunk, retained dead leaves, dense pleated fan crown, limestone-foot habitat, and three species-specific illustrated cards.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, three official visual references, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, terminal-origin, false-silhouette, and composition QA pass.
-- GitHub boundary: Git and GitHub were not mutated; this package remains local-ready until a separately requested publication closeout.
+- GitHub closeout: package content commit `2834034` was pushed directly to `origin/master` and the remote ref was verified at `283403465c77a5d59fa647c0e642394e85e186e3` before published-state metadata was prepared.
 
 ## Recent-Eight Completed Region Rotation
 

@@ -1199,3 +1199,13 @@ Daily Quality Loop
 - cause: the visual-reference inventory was narrowed only after downloading every observed species image instead of selecting a morphology-covering subset first
 - next_action: reused three authoritative references from the completed bundle, produced first-pass bilingual posters, and finished all direct-source, X-format, package, pixel-identity, phone/full-size, sidecar, and visual QA without repeating the download
 - tomorrow_change: inspect the asset inventory first and bundle only three images that cover adult habit, diagnostic structure, and habitat
+
+## 2026-08-26 — Tahina Palm GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Tahina Palm package remained local-ready after direct official evidence confirmation and final QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
+- next_action: committed the scoped package and synchronized workflow records as `2834034`, pushed directly to `origin/master`, verified the remote ref at `283403465c77a5d59fa647c0e642394e85e186e3`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
