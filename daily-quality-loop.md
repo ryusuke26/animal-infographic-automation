@@ -1209,3 +1209,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally separated from the Quality Run until the user gave the end-of-day closeout instruction
 - next_action: committed the scoped package and synchronized workflow records as `2834034`, pushed directly to `origin/master`, verified the remote ref at `283403465c77a5d59fa647c0e642394e85e186e3`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-08-26 — Desertas Wolf Spider local-ready completion
+
+Daily Quality Loop
+- issue: the first Japanese source placed all three locked observation labels beneath the scientific name while leaving the three illustrated cards without copy
+- priority: integrated typography and card coherence
+- tags: #image-text-error #fresh-canvas-retry #eight-leg-topology #local-ready
+- cause: the first composition treated the labels as a header summary despite the per-card text requirement
+- next_action: rejected and preserved the first source without using it as an edit target or reference, then used the one allowed fresh-canvas retry to place each exact label in its own card; the first English companion and all direct-source, X-format, package, pixel-identity, phone/full-size, sidecar, anatomy, and whitespace QA passed
+- tomorrow_change: in the initial prompt, state each card number, exact label, and forbidden header-summary placement together in one compact placement block before the broader style instructions
