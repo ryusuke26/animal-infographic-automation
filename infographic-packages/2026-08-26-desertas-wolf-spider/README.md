@@ -1,6 +1,6 @@
 # Desertas Wolf Spider bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -63,4 +63,4 @@ Broad native region: Deserta Grande, Madeira archipelago, Portugal / Europe
 - Locked Japanese and English titles, scientific name, three observation labels, and status footer are exact and legible at full size and at `360x540` phone-review size.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, pixel-identity, full-size, phone-size, whitespace, eight-leg-topology, false-silhouette, and composition QA pass.
-- Package state is `completed, local-ready`; Git and GitHub were not mutated.
+- Package content commit `71511b4` was pushed directly to `origin/master` and the remote ref was verified at `71511b45bd7a465f4c289ee7d6c96d94509e528d`; this package is `completed, published`.

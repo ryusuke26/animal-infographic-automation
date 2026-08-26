@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-26T23:02:19+09:00
+Updated: 2026-08-27T00:16:09+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-26-desertas-wolf-spider` completed local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active state: idle after `2026-08-26-desertas-wolf-spider` completed and published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
 - Active evidence: none. The Desertas Wolf Spider's formal IUCN assessment PDF and DOI confirm Global CR under B1ab(ii,iii,v)+2ab(ii,iii,v), assessed 7 April 2014; the current official page body did not render, and the bounded access caveat is disclosed.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-26-desertas-wolf-spider`.
 - Topic: Desertas Wolf Spider / デゼルタ・ウルフスパイダー / *Hogna ingens*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Deserta Grande, Madeira archipelago, Portugal / Europe.
 - Editorial classification group: Other invertebrates.
 - Evidence: formal IUCN assessment `e.T58048571A58061007` records Global Critically Endangered under B1ab(ii,iii,v)+2ab(ii,iii,v), assessed and published in 2014. The current official page body did not render, so the preserved full assessment PDF reproduction and DOI are disclosed. EAZA, the 2022 integrative revision, and World Spider Catalog support the accepted name, Castanheira Valley under-rock burrows, stocky grey adult, black-and-white-banded legs, and predation on invertebrates and juvenile Madeira wall lizards. No established standard Japanese common name was confirmed; デゼルタ・ウルフスパイダー is a transparent English-name rendering.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: beneath one volcanic rock in a small island valley, a large wolf spider occupies the top-predator role and can catch juvenile Madeira wall lizards.
 - Visual resolution: the first Japanese direct poster passed the source gate but was visually rejected because all labels sat outside its cards. One fresh-canvas retry passed with one complete adult female, eight separate walking legs, two distinct pedipalps, exact Copy Lock, volcanic under-rock habitat, and three species-specific illustrated cards. The first English companion passed without retry.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, three authoritative visual references, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, eight-leg topology, false-silhouette, and composition QA pass.
-- GitHub closeout: not attempted. This automation stops at `completed, local-ready`.
+- GitHub closeout: package content commit `71511b4` was pushed directly to `origin/master` and the remote ref was verified at `71511b45bd7a465f4c289ee7d6c96d94509e528d` before published-state metadata was prepared.
 
 ## Recent-Eight Completed Region Rotation
 

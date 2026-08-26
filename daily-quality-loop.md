@@ -1219,3 +1219,13 @@ Daily Quality Loop
 - cause: the first composition treated the labels as a header summary despite the per-card text requirement
 - next_action: rejected and preserved the first source without using it as an edit target or reference, then used the one allowed fresh-canvas retry to place each exact label in its own card; the first English companion and all direct-source, X-format, package, pixel-identity, phone/full-size, sidecar, anatomy, and whitespace QA passed
 - tomorrow_change: in the initial prompt, state each card number, exact label, and forbidden header-summary placement together in one compact placement block before the broader style instructions
+
+## 2026-08-27 — Desertas Wolf Spider GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Desertas Wolf Spider package remained local-ready and retained a rejected first Japanese source after final QA
+- priority: recoverable cleanup and publication closeout
+- tags: #recycle-bin-cleanup #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication and rejected-artifact cleanup were intentionally deferred until the user's end-of-day instruction
+- next_action: moved only the rejected first Japanese source to the Recycle Bin, removed its README link, committed the scoped package and synchronized workflow records as `71511b4`, pushed directly to `origin/master`, verified the remote ref at `71511b45bd7a465f4c289ee7d6c96d94509e528d`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package commit remotely before changing published-state metadata, and remove rejected generated images only when the user requests cleanup
