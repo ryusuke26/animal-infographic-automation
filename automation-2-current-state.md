@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-27T00:16:09+09:00
+Updated: 2026-08-27T23:52:34+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,66 +9,67 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-26-desertas-wolf-spider` completed and published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
-- Active evidence: none. The Desertas Wolf Spider's formal IUCN assessment PDF and DOI confirm Global CR under B1ab(ii,iii,v)+2ab(ii,iii,v), assessed 7 April 2014; the current official page body did not render, and the bounded access caveat is disclosed.
+- Active state: idle after `2026-08-27-roatan-spiny-tailed-iguana` completed local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active evidence: none. The Roatán Spiny-tailed Iguana's formal IUCN assessment reproduction and DOI confirm Global EN under B1ab(v)+2ab(v), assessed 5 June 2018; the current official page body returned 403, and the bounded access caveat is disclosed.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
 
 ## Latest Completed Package
 
-- Package: `2026-08-26-desertas-wolf-spider`.
-- Topic: Desertas Wolf Spider / デゼルタ・ウルフスパイダー / *Hogna ingens*.
-- State: `completed, published`.
-- Region: Deserta Grande, Madeira archipelago, Portugal / Europe.
-- Editorial classification group: Other invertebrates.
-- Evidence: formal IUCN assessment `e.T58048571A58061007` records Global Critically Endangered under B1ab(ii,iii,v)+2ab(ii,iii,v), assessed and published in 2014. The current official page body did not render, so the preserved full assessment PDF reproduction and DOI are disclosed. EAZA, the 2022 integrative revision, and World Spider Catalog support the accepted name, Castanheira Valley under-rock burrows, stocky grey adult, black-and-white-banded legs, and predation on invertebrates and juvenile Madeira wall lizards. No established standard Japanese common name was confirmed; デゼルタ・ウルフスパイダー is a transparent English-name rendering.
-- Duplicate gate: normalized accepted name, *Lycosa ingens*, Desertas Wolf Spider, Deserta Grande Wolf Spider, Japanese rendering variants, and proposed slug were searched across Automation memory, the memory registry, all INDEX sections, package contents, and folder names before Evidence Lock; no completed collision was found. Bornean Flat-headed Frog was rejected as a completed duplicate during candidate screening; White-bellied Heron remained candidate-screen-only.
-- Locked discovery: beneath one volcanic rock in a small island valley, a large wolf spider occupies the top-predator role and can catch juvenile Madeira wall lizards.
-- Visual resolution: the first Japanese direct poster passed the source gate but was visually rejected because all labels sat outside its cards. One fresh-canvas retry passed with one complete adult female, eight separate walking legs, two distinct pedipalps, exact Copy Lock, volcanic under-rock habitat, and three species-specific illustrated cards. The first English companion passed without retry.
-- Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, three authoritative visual references, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, eight-leg topology, false-silhouette, and composition QA pass.
-- GitHub closeout: package content commit `71511b4` was pushed directly to `origin/master` and the remote ref was verified at `71511b45bd7a465f4c289ee7d6c96d94509e528d` before published-state metadata was prepared.
+- Package: `2026-08-27-roatan-spiny-tailed-iguana`.
+- Topic: Roatán Spiny-tailed Iguana / ロータントゲオイグアナ / *Ctenosaura oedirhina*.
+- State: `completed, local-ready`.
+- Region: Roatán, Barbareta, and nearby cays, Bay Islands, Honduras / Central America and the Caribbean.
+- Editorial classification group: Reptiles.
+- Evidence: formal IUCN assessment `T44191A122558520` records Global Endangered under B1ab(v)+2ab(v), assessed 5 June 2018 and published in 2019. The current official page body returned 403, so the complete formal assessment reproduction and exact DOI were checked against the IUCN SSC Iguana Specialist Group and official IUCN action plan. ITIS, the Reptile Database, the original description, WWF Japan, and peer-reviewed habitat and diet studies support the accepted names, rounded snout, low crest, absent large dewlap, continuous ring-spined tail, island habitat breadth, and primarily herbivorous diet with varied animal items.
+- Duplicate gate: normalized accepted name, historical *Ctenosaura bakeri* and *Enyaliosaurus bakeri* combinations, incorrect `Ctenosaura oederhina` spelling, English names, Japanese name, and proposed slug were searched across Automation memory, the memory registry, all INDEX sections, package contents, and folder names before Evidence Lock; no completed collision was found. Keel-scaled Boa was rejected for repeated small-boa silhouette risk against Rubber Boa; White-winged Flufftail remained candidate-screen-only.
+- Locked discovery: on sunlit Caribbean limestone, a dark island iguana is recognized by a rounded nose, low crest, and a long tail armored in rings of enlarged spines.
+- Visual resolution: the first Japanese direct poster and first English companion both passed without retry. Each has one complete dominant adult, four coherent limbs with natural far-side occlusion, a continuous pelvis-origin ring-spined tail, exact Copy Lock, connected island habitat, and three species-specific illustrated cards.
+- Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, three authoritative visual references, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, limb topology, false-silhouette, and composition QA pass.
+- GitHub closeout: not attempted. The package remains `completed, local-ready` for a separate explicitly requested publication step.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-08-19 — Southern China and Hainan through northern mainland Southeast Asia / Asia — White-eared Night Heron
-2. 2026-08-20 — Central-western Queensland, Australia / Oceania — Redfin Blue-eye
-3. 2026-08-21 — Amboli, Maharashtra, northern Western Ghats, India / Asia — Amboli Lateritic Toad
-4. 2026-08-22 — Frégate Island, Seychelles / Africa — Frigate Island Giant Tenebrionid Beetle
-5. 2026-08-23 — Torricelli Mountains, Sandaun Province, Papua New Guinea / Oceania — Tenkile
-6. 2026-08-24 — Pacific Northwest of the United States / North America — Noble Polypore
-7. 2026-08-25 — Analalava District, northwestern Madagascar / Africa — Tahina Palm
-8. 2026-08-26 — Deserta Grande, Madeira archipelago, Portugal / Europe — Desertas Wolf Spider
+1. 2026-08-20 — Central-western Queensland, Australia / Oceania — Redfin Blue-eye
+2. 2026-08-21 — Amboli, Maharashtra, northern Western Ghats, India / Asia — Amboli Lateritic Toad
+3. 2026-08-22 — Frégate Island, Seychelles / Africa — Frigate Island Giant Tenebrionid Beetle
+4. 2026-08-23 — Torricelli Mountains, Sandaun Province, Papua New Guinea / Oceania — Tenkile
+5. 2026-08-24 — Pacific Northwest of the United States / North America — Noble Polypore
+6. 2026-08-25 — Analalava District, northwestern Madagascar / Africa — Tahina Palm
+7. 2026-08-26 — Deserta Grande, Madeira archipelago, Portugal / Europe — Desertas Wolf Spider
+8. 2026-08-27 — Roatán, Barbareta, and nearby cays, Bay Islands, Honduras / Central America and the Caribbean — Roatán Spiny-tailed Iguana
 
-Africa, Asia, and Oceania each occupy two of the latest eight; North America and Europe each occupy one. The retired 2026-08-21 duplicate does not fill a slot.
+Africa and Oceania each occupy two of the latest eight; Asia, North America, Europe, and Central America and the Caribbean each occupy one. The retired 2026-08-21 duplicate does not fill a slot.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-08-19 — Birds — White-eared Night Heron
-2. 2026-08-20 — Fishes — Redfin Blue-eye
-3. 2026-08-21 — Amphibians — Amboli Lateritic Toad
-4. 2026-08-22 — Insects — Frigate Island Giant Tenebrionid Beetle
-5. 2026-08-23 — Mammals — Tenkile
-6. 2026-08-24 — Fungi and lichens — Noble Polypore
-7. 2026-08-25 — Plants — Tahina Palm
-8. 2026-08-26 — Other invertebrates — Desertas Wolf Spider
+1. 2026-08-20 — Fishes — Redfin Blue-eye
+2. 2026-08-21 — Amphibians — Amboli Lateritic Toad
+3. 2026-08-22 — Insects — Frigate Island Giant Tenebrionid Beetle
+4. 2026-08-23 — Mammals — Tenkile
+5. 2026-08-24 — Fungi and lichens — Noble Polypore
+6. 2026-08-25 — Plants — Tahina Palm
+7. 2026-08-26 — Other invertebrates — Desertas Wolf Spider
+8. 2026-08-27 — Reptiles — Roatán Spiny-tailed Iguana
 
-Birds, Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, and Other invertebrates each occupy one slot; Reptiles is absent. The retired 2026-08-21 duplicate does not fill a slot.
+Fishes, Amphibians, Insects, Mammals, Fungi and lichens, Plants, Other invertebrates, and Reptiles each occupy one slot; Birds is absent. The retired 2026-08-21 duplicate does not fill a slot.
 
 ## Daily Quality Loop Counters
 
-- `#duplicate-topic-gate`: 1 historical material failure remains recorded. This run applied the full accepted-name, synonym, English-name, Japanese-rendering, slug, INDEX, memory, content, and folder collision gate before Evidence Lock, rejected the completed Bornean Flat-headed Frog candidate, and found zero completed *Hogna ingens* collision.
-- `#IUCN-unavailable`: 0 unresolved. The current page body did not render, but the formal full assessment PDF reproduction and exact DOI directly confirmed category, criteria, and assessment date; the bounded access caveat is public.
-- `#assessment-year-drift`: 0. The public footer uses the 2014 assessment year, which is also the publication year.
-- `#image-text-error`: 1 one-off occurrence, resolved. The first Japanese source put exact labels outside the cards; one fresh-canvas retry grouped each label with its numbered card, and the English first pass remained exact.
-- `#species-identity-drift`: 0. Both accepted posters passed stocky-body, grey-colour, black-and-white-band, eight-walking-leg, two-pedipalp, rock-burrow, volcanic-habitat, false-silhouette, text, and card QA against three authoritative references.
-- `#workflow-friction`: 0 unresolved. Only three references covering adult topology, adult field appearance, and habitat context were bundled.
+- `#duplicate-topic-gate`: 1 historical material failure remains recorded. This run applied the full accepted-name, historical-combination, incorrect-spelling, English-name, Japanese-name, slug, INDEX, memory, content, and folder collision gate before Evidence Lock and found zero completed *Ctenosaura oedirhina* collision.
+- `#IUCN-unavailable`: 0 unresolved. The current page body returned 403, but the complete formal assessment reproduction and exact DOI directly confirmed category, criteria, and assessment date; the IUCN SSC Iguana Specialist Group and official action plan matched the route, and the bounded access caveat is public.
+- `#assessment-year-drift`: 0. The public footer uses the 2018 assessment year, not the 2019 publication year.
+- `#image-text-error`: 0. Both first-pass posters rendered the title, scientific name, all three card labels, and footer exactly once and inside the intended regions.
+- `#species-identity-drift`: 0. Both accepted posters passed rounded-snout, low-crest, absent-large-dewlap, four-limb, continuous-ring-spined-tail, charcoal-and-cream-mottling, limestone-habitat, false-silhouette, text, and card QA against three authoritative references.
+- `#workflow-friction`: 1 one-off occurrence, resolved. The canonical X validator removes the accented `á` when deriving the required hashtag; both main posts use its compatible `#RoatnSpinytailedIguana` form.
 
 ## Next Concrete Change
 
 - Begin the next scheduled run with no unfinished package.
-- Region rotation is Africa two, Asia two, Oceania two, North America one, and Europe one; use it only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
-- Reptiles is absent from the latest eight editorial groups and may break a tie among equally strong candidates.
+- Region rotation is Africa two, Oceania two, Asia one, North America one, Europe one, and Central America and the Caribbean one; use it only after unfamiliarity, evidence, discovery strength, naming, and visual viability.
+- Birds is absent from the latest eight editorial groups and may break a tie among equally strong candidates.
 - Before screening evidence, normalize and search each candidate's accepted scientific name, English name, Japanese name, aliases, and proposed slug across Automation memory, all INDEX sections, and package folder names. Any completed collision is a hard rejection.
 - Keep the retired Montseny package as a duplicate and visual-risk exclusion; do not revive it without an explicit user request.
 - When authoritative pages expose many visual assets, inspect the inventory first and bundle only the adult-habit, diagnostic-structure, and habitat references needed for Image Gen.
+- When the English common name contains a diacritic, precompute the validator-derived English-name hashtag before drafting both X main posts.
 - Keep future Quality Runs local-ready until GitHub publication is explicitly requested and remotely verified.

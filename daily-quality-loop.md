@@ -1229,3 +1229,13 @@ Daily Quality Loop
 - cause: GitHub publication and rejected-artifact cleanup were intentionally deferred until the user's end-of-day instruction
 - next_action: moved only the rejected first Japanese source to the Recycle Bin, removed its README link, committed the scoped package and synchronized workflow records as `71511b4`, pushed directly to `origin/master`, verified the remote ref at `71511b45bd7a465f4c289ee7d6c96d94509e528d`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package commit remotely before changing published-state metadata, and remove rejected generated images only when the user requests cleanup
+
+## 2026-08-27 — Roatán Spiny-tailed Iguana local-ready completion
+
+Daily Quality Loop
+- issue: the canonical English-name hashtag derivation drops the accented `á` in Roatán instead of transliterating it to `a`
+- priority: deterministic X-format compatibility
+- tags: #x-hashtag-diacritic #first-pass-visual #species-identity #local-ready
+- cause: the validator removes non-ASCII punctuation and letters when deriving the required English-name hashtag
+- next_action: used the validator-compatible `#RoatnSpinytailedIguana` in both main posts, then completed first-pass bilingual posters and full QA
+- tomorrow_change: precompute the validator-derived hashtag before drafting X copy whenever the English common name contains a diacritic
