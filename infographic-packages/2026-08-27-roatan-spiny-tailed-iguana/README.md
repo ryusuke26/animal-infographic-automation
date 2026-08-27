@@ -1,6 +1,6 @@
 # Roatán Spiny-tailed Iguana bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -62,4 +62,4 @@ Broad native region: Roatán, Barbareta, and nearby cays, Bay Islands, Honduras 
 - Full-size and `360x540` phone-size reviews confirm readable integrated typography, an unobstructed hero, coherent card margins, and no generic dashboard treatment.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, pixel-identity, full-size, phone-size, whitespace, limb-topology, false-silhouette, and composition QA pass.
-- State is `completed, local-ready`; Git and GitHub were not mutated.
+- Package content commit `a4ec362` was pushed directly to `origin/master` and the remote ref was verified at `a4ec362d0e46b7e2f860442408c5695d28c6e127`; this package is `completed, published`.

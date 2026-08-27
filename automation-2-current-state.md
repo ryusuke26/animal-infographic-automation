@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-27T23:52:34+09:00
+Updated: 2026-08-28T00:19:34+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-27-roatan-spiny-tailed-iguana` completed local-ready. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
+- Active state: idle after `2026-08-27-roatan-spiny-tailed-iguana` completed and published. The earlier 2026-08-21 Montseny Brook Newt attempt remains retired and does not count as completed.
 - Active evidence: none. The Roatán Spiny-tailed Iguana's formal IUCN assessment reproduction and DOI confirm Global EN under B1ab(v)+2ab(v), assessed 5 June 2018; the current official page body returned 403, and the bounded access caveat is disclosed.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-27-roatan-spiny-tailed-iguana`.
 - Topic: Roatán Spiny-tailed Iguana / ロータントゲオイグアナ / *Ctenosaura oedirhina*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Roatán, Barbareta, and nearby cays, Bay Islands, Honduras / Central America and the Caribbean.
 - Editorial classification group: Reptiles.
 - Evidence: formal IUCN assessment `T44191A122558520` records Global Endangered under B1ab(v)+2ab(v), assessed 5 June 2018 and published in 2019. The current official page body returned 403, so the complete formal assessment reproduction and exact DOI were checked against the IUCN SSC Iguana Specialist Group and official IUCN action plan. ITIS, the Reptile Database, the original description, WWF Japan, and peer-reviewed habitat and diet studies support the accepted names, rounded snout, low crest, absent large dewlap, continuous ring-spined tail, island habitat breadth, and primarily herbivorous diet with varied animal items.
@@ -26,7 +26,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: on sunlit Caribbean limestone, a dark island iguana is recognized by a rounded nose, low crest, and a long tail armored in rings of enlarged spines.
 - Visual resolution: the first Japanese direct poster and first English companion both passed without retry. Each has one complete dominant adult, four coherent limbs with natural far-side occlusion, a continuous pelvis-origin ring-spined tail, exact Copy Lock, connected island habitat, and three species-specific illustrated cards.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, three authoritative visual references, Copy Lock, prompts, README, Sources QA, and INDEX are synchronized. Both direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, limb topology, false-silhouette, and composition QA pass.
-- GitHub closeout: not attempted. The package remains `completed, local-ready` for a separate explicitly requested publication step.
+- GitHub closeout: package content commit `a4ec362` was pushed directly to `origin/master` and the remote ref was verified at `a4ec362d0e46b7e2f860442408c5695d28c6e127` before published-state metadata was prepared.
 
 ## Recent-Eight Completed Region Rotation
 

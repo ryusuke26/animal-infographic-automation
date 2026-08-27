@@ -1239,3 +1239,13 @@ Daily Quality Loop
 - cause: the validator removes non-ASCII punctuation and letters when deriving the required English-name hashtag
 - next_action: used the validator-compatible `#RoatnSpinytailedIguana` in both main posts, then completed first-pass bilingual posters and full QA
 - tomorrow_change: precompute the validator-derived hashtag before drafting X copy whenever the English common name contains a diacritic
+
+## 2026-08-28 — Roatán Spiny-tailed Iguana GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Roatán Spiny-tailed Iguana package remained local-ready after final QA
+- priority: scoped publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication was intentionally deferred until the user's end-of-day instruction
+- next_action: committed the scoped package and synchronized workflow records as `a4ec362`, pushed directly to `origin/master`, verified the remote ref at `a4ec362d0e46b7e2f860442408c5695d28c6e127`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package commit remotely before changing published-state metadata
