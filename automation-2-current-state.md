@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-28T21:56:41+09:00
+Updated: 2026-08-28T23:52:44+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-28-cebu-flowerpecker` completed at `local-ready`. GitHub publication remains separate and was not performed.
+- Active state: idle after `2026-08-28-cebu-flowerpecker` completed and published. GitHub content publication and remote verification are complete.
 - Active evidence: none. The current official IUCN record directly confirms the Cebu Flowerpecker as Global CR under C2a(i), assessed 5 August 2020 and published in 2021.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-28-cebu-flowerpecker`.
 - Topic: Cebu Flowerpecker / ヨイロハナドリ / *Dicaeum quadricolor*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Cebu Island, Philippines / Asia.
 - Editorial classification group: Birds.
 - Evidence: the directly inspected current official IUCN record `T22717507A181042707` confirms Global Critically Endangered under C2a(i), assessed 5 August 2020 and published in 2021. Avibase and Japanese bird-name sources support ヨイロハナドリ; authoritative species accounts and the original plate support the compact flowerpecker form, blue-black upperparts, pale underparts, scarlet back triangle, Cebu limestone-forest habitat, and fruit feeding.
@@ -26,8 +26,8 @@ This file is the small replace-in-place state record for Automation `automation-
 - Duplicate gate: accepted name, original combination *Prionochilus quadricolor*, English aliases, Japanese name, and proposed slug were searched across Automation memory, the memory registry, all INDEX sections, package contents, and folder names. The only prior occurrence was a candidate-only screen whose evidence-access concern is now obsolete; no completed collision was found.
 - Locked discovery: a tiny Cebu forest bird once feared gone shows a scarlet triangle across its back when it turns among fruiting branches.
 - Visual resolution: the first Japanese source passed the direct and species-identity gates but inserted one localized extra space before the footer colon. One allowed targeted text-only edit repaired that spacing without reflowing the accepted art. The first English companion passed without retry.
-- Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, one preserved rejected Japanese source, a public-domain original plate, Copy Lock, prompts, README, and Sources QA are synchronized. Both canonical direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, limb topology, false-silhouette, card, and composition QA pass.
-- GitHub closeout: not performed. Git and GitHub remain unmutated by this Quality Run.
+- Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, a public-domain original plate, Copy Lock, prompts, README, and Sources QA are synchronized. The rejected Japanese footer-spacing source was moved to the Windows Recycle Bin and its README link removed at the user's request. Both canonical direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, limb topology, false-silhouette, card, and composition QA pass.
+- GitHub closeout: package content commit `bc1903e` was pushed directly to `origin/master` and the remote ref was verified at `bc1903ebcd9d724ef2118545bcf052118eaf8159` before published-state metadata was prepared.
 
 ## Recent-Eight Completed Region Rotation
 

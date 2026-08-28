@@ -1259,3 +1259,13 @@ Daily Quality Loop
 - cause: generated footer typography relaxed the exact ASCII-spacing instruction while the rest of the locked text and composition remained correct
 - next_action: kept the source because its full canvas, species identity, and composition passed; used the one allowed targeted text-only repair, reran the direct gate, then completed the first-pass English companion and all QA
 - tomorrow_change: place the footer's exact ASCII-spacing rule immediately beside its verbatim text and mark it as a no-reflow hard constraint in the initial prompt
+
+## 2026-08-28 — Cebu Flowerpecker GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Cebu Flowerpecker package remained local-ready and retained one rejected Japanese footer-spacing source after final QA
+- priority: recoverable cleanup and publication closeout
+- tags: #recycle-bin-cleanup #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication and rejected-artifact cleanup were intentionally deferred until the user's end-of-day instruction
+- next_action: moved only the rejected Japanese source to the Windows Recycle Bin, removed its README link, committed the scoped package and synchronized workflow records as `bc1903e`, pushed directly to `origin/master`, verified the remote ref at `bc1903ebcd9d724ef2118545bcf052118eaf8159`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely before changing published-state metadata, and remove rejected generated images only when the user requests cleanup
