@@ -1,6 +1,6 @@
 # Asprete bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -61,4 +61,4 @@ Broad native region: Vâlsan River, Argeș basin, Romania / Europe
 - Full-size and `360x540` phone-size reviews confirm readable integrated typography, an unobstructed hero, coherent card margins, and distinct under-stone, mottling, and night-hunt spot art.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, pixel-identity, full-size, phone-size, whitespace, fin-topology, false-silhouette, card, and composition QA pass.
-- Package state is `completed, local-ready`. Git and GitHub were not mutated.
+- Package content was published directly to `origin/master` in commit `45cc343` after final QA; the remote ref was verified at `45cc343ce90487ff1725c5a127dbeecb590727ab` before published-state metadata was prepared.

@@ -1279,3 +1279,13 @@ Daily Quality Loop
 - cause: the prompt's spelling-assist instruction conflicted with the no-extra-text rule, then whole-canvas generative editing did not preserve accepted pixels outside the tiny title defect
 - next_action: rejected the global redraw, composited only the clean title band onto the accepted first source, verified 3,904 changed pixels (0.248%) and zero outside the repair box, then completed the first-pass English companion and full QA
 - tomorrow_change: never put spelling-assist text in the visible prompt; if a localized generative edit redraws globally, preserve the accepted canvas and use a measured pixel-scoped repair only for the defective text region
+
+## 2026-08-29 — Asprete GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Asprete package remained local-ready after final QA, and two rejected Japanese artifacts remained until the user's cleanup request
+- priority: recoverable cleanup and publication closeout
+- tags: #recycle-bin-cleanup #github-closeout #remote-verification #published-state-sync
+- cause: rejected-artifact cleanup and GitHub publication were intentionally deferred until the user's explicit end-of-day instructions
+- next_action: moved only the two rejected Japanese artifacts to the Windows Recycle Bin, reran direct-source, X-format, package, dimension, and pixel-identity checks, committed the scoped package and local-ready workflow records as `45cc343`, pushed directly to `origin/master`, verified the remote ref at `45cc343ce90487ff1725c5a127dbeecb590727ab`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely before changing published-state metadata, and remove rejected generated images only when the user requests cleanup

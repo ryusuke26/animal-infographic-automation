@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-29T10:26:06+09:00
+Updated: 2026-08-29T23:26:56+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -9,7 +9,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Default workflow: Quality Run with separate complete Japanese and English Image Gen posters, species-specific illustrated observation cards, and an editorial review of X copy.
 - Pending evidence package: none.
 - Active package: none.
-- Active state: idle after `2026-08-29-asprete` completed local-ready. Git and GitHub were not mutated.
+- Active state: idle after `2026-08-29-asprete` completed and published. GitHub content publication and remote verification are complete.
 - Active evidence: none. Assessment `T19740A137285480` is Global CR under B1ab(iii), assessed 1 September 2023. The current official page-body rendering caveat is bounded and disclosed; exact DOI and current partner records agree.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
 - The canonical package write gate is available.
@@ -18,7 +18,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-29-asprete`.
 - Topic: Asprete / アスプレテ / *Romanichthys valsanicola*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Vâlsan River, Argeș basin, Romania / Europe.
 - Editorial classification group: Fishes.
 - Evidence: current IUCN assessment `T19740A137285480` is Global Critically Endangered under B1ab(iii), assessed 1 September 2023 and published in the 2024-2 release. The official URL loaded but its species and assessment fields remained undefined; the exact DOI, Natural History Museum of Denmark citation, and FishBase IUCN 2025-2 mirror agree. FishBase, the museum record, and a peer-reviewed Vâlsan field study support the accepted name, cold fast rocky habitat, mottled body, separated dorsal fins, under-stone shelter, nocturnal activity, and insect-larva diet.
@@ -27,7 +27,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Locked discovery: a small mottled fish vanishes beneath Vâlsan River stones by day, then comes out after dark to hunt current-loving insect larvae.
 - Visual resolution: the first Japanese source passed its direct and species/composition gates but added one unlisted phonetic title line. A nominally targeted generative edit removed it but redrew 99.935% of the canvas and was rejected. A measured local text-safe repair changed 3,904 pixels (0.248%) inside one title band and zero outside. The first English companion passed without retry.
 - Artifacts and QA: four canonical `1024x1536` PNGs, eight synchronized sidecars, Copy Lock, prompts, README, and Sources QA are synchronized. Both canonical direct sources, X format, package validation, full-size and `360x540` phone-size review, pixel identity, whitespace, fin topology, false-silhouette, card, and composition QA pass.
-- GitHub closeout: not requested. Git and GitHub were not mutated.
+- GitHub closeout: package content commit `45cc343` was pushed directly to `origin/master` and the remote ref was verified at `45cc343ce90487ff1725c5a127dbeecb590727ab` before published-state metadata was prepared. The two rejected Japanese artifacts were previously moved to the Windows Recycle Bin at the user's request.
 
 ## Recent-Eight Completed Region Rotation
 
