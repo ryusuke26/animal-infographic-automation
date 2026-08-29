@@ -1269,3 +1269,13 @@ Daily Quality Loop
 - cause: GitHub publication and rejected-artifact cleanup were intentionally deferred until the user's end-of-day instruction
 - next_action: moved only the rejected Japanese source to the Windows Recycle Bin, removed its README link, committed the scoped package and synchronized workflow records as `bc1903e`, pushed directly to `origin/master`, verified the remote ref at `bc1903ebcd9d724ef2118545bcf052118eaf8159`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely before changing published-state metadata, and remove rejected generated images only when the user requests cleanup
+
+## 2026-08-29 — Asprete local-ready completion
+
+Daily Quality Loop
+- issue: the first Japanese source added an unlisted phonetic title line, and the nominally targeted removal redrew 99.935% of the canvas
+- priority: selected-canvas preservation with exact integrated typography
+- tags: #image-text-error #global-redraw #localized-text-repair #species-identity #local-ready
+- cause: the prompt's spelling-assist instruction conflicted with the no-extra-text rule, then whole-canvas generative editing did not preserve accepted pixels outside the tiny title defect
+- next_action: rejected the global redraw, composited only the clean title band onto the accepted first source, verified 3,904 changed pixels (0.248%) and zero outside the repair box, then completed the first-pass English companion and full QA
+- tomorrow_change: never put spelling-assist text in the visible prompt; if a localized generative edit redraws globally, preserve the accepted canvas and use a measured pixel-scoped repair only for the defective text region
