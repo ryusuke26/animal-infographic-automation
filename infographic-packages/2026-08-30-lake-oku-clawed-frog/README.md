@@ -1,6 +1,6 @@
 # Lake Oku Clawed Frog bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -61,4 +61,4 @@ Broad native region: Lake Oku, Cameroon Highlands, Cameroon / Africa
 - Full-size and `360x540` phone-size reviews confirm readable typography, an unobstructed hero, smooth skin treatment, coherent card margins, and no generic dashboard layout.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, phone/full-size, card, composition, and natural-occlusion QA pass.
-- Git and GitHub remain untouched. This package stops at `completed, local-ready`.
+- Published to GitHub in package commit `5cd4621`; `origin/master` was verified at `5cd46219376fe0d3d8c19fdf89ade14bbb7a3c22`.

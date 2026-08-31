@@ -1,6 +1,6 @@
 # Oceanic Hawaiian Damselfly bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -55,4 +55,4 @@ Broad native region: windward Ko'olau Mountains, O'ahu, Hawai'i / Oceania
 - Full-size and `360x540` phone-size reviews confirm readable text, coherent stream-to-waterfall composition, intact four-wing/six-leg adult topology, three-gill naiad identity, and no generic dashboard treatment.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, phone/full-size, card, composition, and species-identity QA pass.
-- Git and GitHub remain untouched. This package stops at `completed, local-ready`.
+- Published to GitHub in package commit `5cd4621`; `origin/master` was verified at `5cd46219376fe0d3d8c19fdf89ade14bbb7a3c22`.

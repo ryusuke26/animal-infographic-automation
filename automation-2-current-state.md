@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-08-31T21:08:19+09:00
+Updated: 2026-08-31T22:59:50+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -10,7 +10,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Pending evidence package: none.
 - Active package: none.
 - Latest package: `2026-08-31-oceanic-hawaiian-damselfly`.
-- Latest state: `completed, local-ready`. Git and GitHub were not mutated.
+- Latest state: `completed, published`. The Lake Oku Clawed Frog and Oceanic Hawaiian Damselfly packages were published in `5cd4621`; `origin/master` was verified at `5cd46219376fe0d3d8c19fdf89ade14bbb7a3c22`.
 - Latest evidence: directly inspected current official IUCN assessment `T12958A510839` is Global CR under B1ab(iii,v), assessed 17 January 2019 and published in 2020. USFWS and Hawai'i DLNR support the accepted name, windward O'ahu stream-rapid and waterfall-face habitat, large robust red-orange male with black stripes, fast stream flight, and naiad movement among gravel and wet moss.
 - Latest visual result: first-pass Japanese and English direct posters passed. Each has one dominant four-wing/six-leg adult male on a wet diagonal twig, exact Copy Lock, exactly three unequal illustrated cards, and a complete three-gill naiad in card 3.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-08-31-oceanic-hawaiian-damselfly`.
 - Topic: Oceanic Hawaiian Damselfly / オセアニック・ハワイアン・ダムセルフライ / *Megalagrion oceanicum*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: windward Ko'olau Mountains, O'ahu, Hawai'i / Oceania.
 - Editorial classification group: Insects.
 - Evidence: current official IUCN assessment `T12958A510839` is Global Critically Endangered under B1ab(iii,v), assessed 17 January 2019. USFWS and Hawai'i DLNR lock the adult identity, stream habitat, and naiad behavior.
@@ -67,6 +67,6 @@ Fungi and lichens, Plants, Other invertebrates, Reptiles, Birds, Fishes, Amphibi
 ## Next Concrete Change
 
 - No unfinished package remains. The next daily run may screen a new topic after the full-history duplicate gate.
-- Keep `2026-08-31-oceanic-hawaiian-damselfly` at `completed, local-ready`; GitHub publication is a separate user-approved closeout.
+- Keep both `2026-08-30-lake-oku-clawed-frog` and `2026-08-31-oceanic-hawaiian-damselfly` at `completed, published`; their scoped package commit is remotely verified.
 - If an exact official visual asset is already identified, retain the first successful local copy and do not repeat a slow browser asset export during the same run.
 - Latest-eight rotation: Africa two, Europe two, North America one, Central America and the Caribbean one, Asia one, and Oceania one; the eight groups present are Fungi and lichens, Plants, Other invertebrates, Reptiles, Birds, Fishes, Amphibians, and Insects. Mammals is absent.

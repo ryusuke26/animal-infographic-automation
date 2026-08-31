@@ -1319,3 +1319,13 @@ Daily Quality Loop
 - cause: the page-asset export path stalled after inventory narrowing, while the evidence and both direct poster generations completed normally
 - next_action: reused the completed official bundle once, produced first-pass Japanese and English posters, and passed direct-source, X-format, package, pixel-identity, phone/full-size, four-wing/six-leg adult, three-gill naiad, card, and composition QA
 - tomorrow_change: when one exact official image URL and species identity are already verified, prefer the first successful local reference copy and do not repeat browser asset bundling during the run
+
+## 2026-08-31 — Lake Oku Clawed Frog and Oceanic Hawaiian Damselfly GitHub closeout
+
+Daily Quality Loop
+- issue: both completed packages remained local-ready after final evidence, copy, image, and package QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication remained intentionally separate until the user's explicit end-of-day instruction
+- next_action: reran direct-source, X-format, package, dimension, pixel-identity, rejected-file-name, and whitespace checks; committed both scoped packages and local-ready workflow records as `5cd4621`, pushed directly to `origin/master`, verified the remote ref at `5cd46219376fe0d3d8c19fdf89ade14bbb7a3c22`, and synchronized both READMEs, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
