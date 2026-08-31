@@ -1289,3 +1289,33 @@ Daily Quality Loop
 - cause: rejected-artifact cleanup and GitHub publication were intentionally deferred until the user's explicit end-of-day instructions
 - next_action: moved only the two rejected Japanese artifacts to the Windows Recycle Bin, reran direct-source, X-format, package, dimension, and pixel-identity checks, committed the scoped package and local-ready workflow records as `45cc343`, pushed directly to `origin/master`, verified the remote ref at `45cc343ce90487ff1725c5a127dbeecb590727ab`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely before changing published-state metadata, and remove rejected generated images only when the user requests cleanup
+
+## 2026-08-30 — Lake Oku Clawed Frog Rescue Run
+
+Daily Quality Loop
+- issue: the initial exact-2:3 Japanese poster made the far forelimb read as long facial appendages, and the one fresh-canvas retry again omitted an unambiguous far shoulder-to-four-finger path
+- priority: incomplete-publish-blocker
+- tags: #species-identity-drift #limb-topology #fresh-canvas-retry #rescue-run
+- cause: a broad pear-shaped aquatic frog viewed in three-quarter profile repeatedly hid the far short forelimb against the head or torso even when both EAZA adult and tadpole references and explicit shoulder-path constraints were supplied
+- next_action: preserved both exact-2:3/full-canvas rejected Japanese sources, stopped before English production and normalization, and marked the package `incomplete, Rescue Run`
+- tomorrow_change: resume the same package only after securing a deliberately different authoritative adult reference or topology route that separates both shoulder origins, both forelimb paths, and both four-finger endpoints; do not use either rejected source as an edit target or reference
+
+## 2026-08-30 — Lake Oku Clawed Frog user-directed recovery and local-ready completion
+
+Daily Quality Loop
+- issue: checklist-driven full-limb visibility produced unnatural specimen poses, while repeated surface-defect wording and fine-grained reference texture kept yielding raised-looking skin
+- priority: natural pose, smooth aquatic skin, and user-visible quality
+- tags: #natural-occlusion #visual-anchor #smooth-skin #recycle-bin-cleanup #local-ready
+- cause: the earlier prompt treated visibility of every shoulder, hip, foot, digit, and claw as more important than a believable water-supported pose, then repeated the unwanted surface concept often enough to keep it visually salient
+- next_action: moved the five old package/generated images to the Windows Recycle Bin, created a text-free anchor with the far limbs naturally overlapped and broad calm skin colour fields, used only that accepted anchor for a fresh Japanese poster, then used the anchor and accepted Japanese poster for a fresh English companion; completed direct-source, X-format, package, pixel-identity, phone/full-size, natural-occlusion, card, and composition QA
+- tomorrow_change: for anatomy-sensitive swimming species, let natural occlusion outrank complete limb display; establish a text-free identity anchor first, describe the desired surface only in positive broad-field terms, and do not advance to the companion language until the first poster passes visual acceptance
+
+## 2026-08-31 — Oceanic Hawaiian Damselfly local-ready completion
+
+Daily Quality Loop
+- issue: bundling one official adult reference through the browser asset exporter took more than eight minutes even after the exact asset was selected
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the page-asset export path stalled after inventory narrowing, while the evidence and both direct poster generations completed normally
+- next_action: reused the completed official bundle once, produced first-pass Japanese and English posters, and passed direct-source, X-format, package, pixel-identity, phone/full-size, four-wing/six-leg adult, three-gill naiad, card, and composition QA
+- tomorrow_change: when one exact official image URL and species identity are already verified, prefer the first successful local reference copy and do not repeat browser asset bundling during the run
