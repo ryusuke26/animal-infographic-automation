@@ -1339,3 +1339,13 @@ Daily Quality Loop
 - cause: the discovery hook was strong, but prose alone did not make the unwebbed feet and thin non-paddle tail visually safer than the better-known aquatic-mammal alternatives
 - next_action: paired one verified adult field photograph with explicit compact-body, broad-whiskered-muzzle, unwebbed-foot, thin-tail, and false-silhouette constraints in the initial prompts; both language posters passed first generation, direct-source, X-format, package, pixel-identity, phone/full-size, card, composition, and species-identity QA
 - tomorrow_change: when revisiting a previously rejected high-lookalike candidate, require one verified adult identity reference and name both the false familiar silhouette and the adaptations the species specifically lacks before the first generation
+
+## 2026-09-01 — Nimba Otter-shrew GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Nimba Otter-shrew package remained local-ready after direct official IUCN evidence confirmation and final QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
+- next_action: reran direct-source, bilingual X-format, package, and whitespace checks; committed the scoped package and local-ready workflow records as `327561a`, pushed directly to `origin/master`, verified the remote ref at `327561a4e321a09b6128165ea22ebe505c9d42fa`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata

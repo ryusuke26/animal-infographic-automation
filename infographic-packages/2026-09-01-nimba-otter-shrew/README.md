@@ -1,6 +1,6 @@
 # Nimba Otter-shrew bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -55,4 +55,4 @@ Broad native region: Mount Nimba and the Putu Range, Guinea, Liberia, and Cote d
 - Full-size and `360x540` phone-size reviews confirm readable text, coherent stream composition, natural far-limb occlusion, unwebbed feet, a thin non-paddle tail, no generic dashboard treatment, and no false true-otter or water-shrew silhouette.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, phone/full-size, card, composition, and species-identity QA pass.
-- State is `completed, local-ready`; Git and GitHub were not mutated.
+- State is `completed, published`; the package was published directly to `origin/master` in content commit `327561a`.

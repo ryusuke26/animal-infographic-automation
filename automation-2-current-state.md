@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-01T22:31:52+09:00
+Updated: 2026-09-01T23:09:54+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -10,7 +10,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Pending evidence package: none.
 - Active package: none.
 - Latest package: `2026-09-01-nimba-otter-shrew`.
-- Latest state: `completed, local-ready`. Git and GitHub were not mutated.
+- Latest state: `completed, published`. Package content commit `327561a4e321a09b6128165ea22ebe505c9d42fa` was pushed to `origin/master` and the remote ref was verified at the same commit.
 - Latest evidence: formal IUCN assessment `T13393A111940150` is Global VU under B1ab(i,ii,iii,v), assessed 20 December 2017 and published in 2018. The official 2018-2 category-change table and IUCN SSC Afrotheria records match; current taxonomy and standard Japanese naming are locked through Mammal Diversity Database and the Mammal Society of Japan.
 - Latest visual result: first-pass Japanese and English direct posters passed. Each has one dominant compact dark adult in a natural low stream-edge pose, exact Copy Lock, a long thin non-paddle tail, unwebbed feet, and exactly three unequal illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-09-01-nimba-otter-shrew`.
 - Topic: Nimba Otter-shrew / ヒメポタモガーレ / *Micropotamogale lamottei*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Mount Nimba and the Putu Range, Guinea, Liberia, and Cote d'Ivoire / West Africa / Africa.
 - Editorial classification group: Mammals.
 - Evidence: formal IUCN assessment `T13393A111940150` is Global Vulnerable under B1ab(i,ii,iii,v), assessed 20 December 2017. The official IUCN 2018-2 change table and IUCN SSC Afrotheria records match; Mammal Diversity Database, the Mammal Society of Japan, and Monadjem et al. lock taxonomy, bilingual names, forest-stream habitat, movement, and visual identity.
@@ -67,6 +67,6 @@ Plants, Other invertebrates, Reptiles, Birds, Fishes, Amphibians, Insects, and M
 ## Next Concrete Change
 
 - No unfinished package remains. The next daily run may screen a new topic after the full-history duplicate gate.
-- Keep `2026-09-01-nimba-otter-shrew` at `completed, local-ready`; GitHub publication remains separate.
+- Keep `2026-09-01-nimba-otter-shrew` at `completed, published`; package content commit `327561a` was remotely verified.
 - For small dark mammals, pair one verified adult identity reference with the exact false silhouettes and absent aquatic adaptations before the first prompt; natural far-limb occlusion remains acceptable.
 - Latest-eight rotation: Africa three, Europe two, Central America and the Caribbean one, Asia one, and Oceania one; the eight groups present are Plants, Other invertebrates, Reptiles, Birds, Fishes, Amphibians, Insects, and Mammals. Fungi and lichens is absent.
