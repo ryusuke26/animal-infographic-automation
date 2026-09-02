@@ -1349,3 +1349,23 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
 - next_action: reran direct-source, bilingual X-format, package, and whitespace checks; committed the scoped package and local-ready workflow records as `327561a`, pushed directly to `origin/master`, verified the remote ref at `327561a4e321a09b6128165ea22ebe505c9d42fa`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-09-02 — Fischer's Egg local-ready completion
+
+Daily Quality Loop
+- issue: the selected fungus strongly resembles a familiar food egg, puffball, truffle, or stinkhorn unless its brown outer layer and dry internal spore mass are shown together
+- priority: species-specific identity for an object-like fungus
+- tags: #species-identity #false-silhouette #official-visual-reference #first-pass-visual #local-ready
+- cause: the broad white ovoid silhouette is visually generic by itself even though the species' emergence sequence and cross-section are diagnostic
+- next_action: paired two official IUCN specimen views with explicit false silhouettes, kept one intact natural forest-floor hero, and placed the emergence sequence and dry-spore cutaway in separate illustrated cards; both language posters passed first generation and all direct-source, X-format, package, pixel-identity, phone/full-size, card, composition, and species-identity QA
+- tomorrow_change: for object-like fungi, lock both the intact exterior and one diagnostic interior view before the first prompt, then keep the hero natural and move the cutaway into a card
+
+## 2026-09-02 — Fischer's Egg Japanese Card 1 typo correction
+
+Daily Quality Loop
+- issue: user review caught `タスマシア` in Japanese Card 1 even though Copy Lock correctly specified `タスマニア`
+- priority: exact integrated Japanese text without sacrificing accepted species art
+- tags: #image-text-error #targeted-edit-global-redraw #measured-local-repair #local-ready
+- cause: visual QA treated the similar `シ` and `ニ` silhouettes as correct at poster scale, while the mechanical validators do not OCR integrated image text
+- next_action: rejected the nominally targeted edit after it changed 99.83362% of the canvas, then replaced only the erroneous character cell; 659 pixels (0.04190%) changed inside `(194,337)-(221,364)` and zero outside, after which direct-source, X-format, package, pixel-identity, full-size, and phone-size QA were rerun
+- tomorrow_change: inspect every unfamiliar place name character by character at a magnified crop before closing Japanese Copy Lock QA
