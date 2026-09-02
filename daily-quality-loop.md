@@ -1369,3 +1369,13 @@ Daily Quality Loop
 - cause: visual QA treated the similar `シ` and `ニ` silhouettes as correct at poster scale, while the mechanical validators do not OCR integrated image text
 - next_action: rejected the nominally targeted edit after it changed 99.83362% of the canvas, then replaced only the erroneous character cell; 659 pixels (0.04190%) changed inside `(194,337)-(221,364)` and zero outside, after which direct-source, X-format, package, pixel-identity, full-size, and phone-size QA were rerun
 - tomorrow_change: inspect every unfamiliar place name character by character at a magnified crop before closing Japanese Copy Lock QA
+
+## 2026-09-02 — Fischer's Egg GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Fischer's Egg package remained local-ready after the Card 1 correction and full QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
+- next_action: reran direct-source, bilingual X-format, package, dimension, pixel-identity, rejected-file-name, and whitespace checks; committed the scoped package and local-ready workflow records as `510f058`, pushed directly to `origin/master`, verified the remote ref at `510f058953ef6c4865dd80bb30e77738cc652ca5`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata

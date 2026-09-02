@@ -1,6 +1,6 @@
 # Fischer's Egg bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -57,4 +57,4 @@ Broad native region: Tasmania, Australia, and New Zealand / Oceania
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Full-size and `360x540` phone-size re-review confirm the corrected Card 1 reads `タスマニア`, with its line break, neighboring glyphs, card illustration, and all non-target poster content preserved.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, phone/full-size, card, composition, and species-identity QA pass.
-- State is `completed, local-ready`; Git and GitHub have not been mutated.
+- State is `completed, published`; the package was published directly to `origin/master` in content commit `510f058`.

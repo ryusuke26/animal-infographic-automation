@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-02T22:07:00+09:00
+Updated: 2026-09-02T22:20:02+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -10,7 +10,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Pending evidence package: none.
 - Active package: none.
 - Latest package: `2026-09-02-fischers-egg`.
-- Latest state: `completed, local-ready`. Git and GitHub were not mutated.
+- Latest state: `completed, published`. Package content commit `510f058953ef6c4865dd80bb30e77738cc652ca5` was pushed to `origin/master` and the remote ref was verified at the same commit.
 - Latest evidence: the directly inspected current official IUCN record `T75720773A75720776` is Global EN under B2ab(ii,iii,iv,v); C2a(i), assessed 25 June 2015 and published in 2015; its `Needs updating` annotation is disclosed. Atlas of Living Australia and Buchanan & May lock the accepted name, English common name, habitat, and visible structure.
 - Latest visual result: the Japanese Card 1 typo `タスマシア` was corrected to `タスマニア` with a measured one-character-cell repair after a broader generative edit was rejected; the English poster is unchanged. Both posters now match Copy Lock and retain one dominant matte white ovoid fruitbody, a dry brown cutaway interior, and exactly three unequal illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-09-02-fischers-egg`.
 - Topic: Fischer's Egg / フィッシャーズ・エッグ / *Claustula fischeri*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Tasmania, Australia, and New Zealand / Oceania.
 - Editorial classification group: Fungi and lichens.
 - Evidence: the directly inspected current official IUCN assessment `T75720773A75720776` is Global Endangered under B2ab(ii,iii,iv,v); C2a(i), assessed 25 June 2015. Atlas of Living Australia and Buchanan & May lock the accepted name, official English name, damp forest-floor habitat, hollow white ovoid body, brown outer layer, and dry brown spore mass.
@@ -66,6 +66,7 @@ Other invertebrates, Reptiles, Birds, Fishes, Amphibians, Insects, Mammals, and 
 
 ## Next Concrete Change
 
-- No unfinished package remains. Keep `2026-09-02-fischers-egg` at `completed, local-ready` until GitHub publication is explicitly requested.
+- No unfinished package remains. The next daily run may screen a new topic after the full-history duplicate gate.
+- Keep `2026-09-02-fischers-egg` at `completed, published`; package content commit `510f058` was remotely verified.
 - For object-like fungi, pair several authoritative views with explicit false-silhouette constraints and show the diagnostic interior in one illustrated card rather than forcing a cut hero.
 - Latest-eight rotation: Africa, Europe, and Oceania each two; Central America and the Caribbean and Asia each one. Other invertebrates, Reptiles, Birds, Fishes, Amphibians, Insects, Mammals, and Fungi and lichens each occupy one slot; Plants is absent.
