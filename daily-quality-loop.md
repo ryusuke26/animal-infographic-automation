@@ -1379,3 +1379,22 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
 - next_action: reran direct-source, bilingual X-format, package, dimension, pixel-identity, rejected-file-name, and whitespace checks; committed the scoped package and local-ready workflow records as `510f058`, pushed directly to `origin/master`, verified the remote ref at `510f058953ef6c4865dd80bb30e77738cc652ca5`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-09-03 — Café marron local-ready completion
+
+Daily Quality Loop
+- issue: exporting four already-visible official IUCN identity images through the browser asset bundler took about 65 minutes, far longer than evidence locking, both poster generations, and final QA combined
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the selected export set included four related views even though two adult views plus one juvenile view would have established the same identity and stage contrast
+- next_action: retained the first successful local bundle, reused it for both first-pass posters, and completed direct-source, X-format, package, pixel-identity, phone/full-size, false-silhouette, card, and composition QA without repeating the export
+- tomorrow_change: export the smallest non-redundant official identity set, normally two or three images, and reuse the first successful local copies for the whole run
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: one large 65-minute asset-export time sink, following a materially similar eight-minute official-reference export on 2026-08-31
+- threshold: one large ops-friction time sink
+- improvement_applied: current-state guidance now limits browser reference export to the smallest non-redundant two- or three-image identity set and requires reuse of the first successful local copies
+- files_changed: `automation-2-current-state.md`, Daily Quality Loop, and Automation memory
+- validation: both first-pass Café marron posters, direct-source gates, bilingual X format, full package QA, pixel identity, phone/full-size review, and whitespace checks passed
+- counter_reset: yes
