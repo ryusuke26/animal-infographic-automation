@@ -1398,3 +1398,13 @@ Improvement Resolution
 - files_changed: `automation-2-current-state.md`, Daily Quality Loop, and Automation memory
 - validation: both first-pass Café marron posters, direct-source gates, bilingual X format, full package QA, pixel identity, phone/full-size review, and whitespace checks passed
 - counter_reset: yes
+
+## 2026-09-03 — Café marron GitHub closeout
+
+Daily Quality Loop
+- issue: the completed Café marron package remained local-ready after full QA
+- priority: publication closeout
+- tags: #github-closeout #remote-verification #published-state-sync
+- cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
+- next_action: reran direct-source, bilingual X-format, package, dimension, pixel-identity, and whitespace checks; committed the scoped package and local-ready workflow records as `cc6775e`, pushed directly to `origin/master`, verified the remote ref at `cc6775ec5daacfb5464a43308cea79a981455e97`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata

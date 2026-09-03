@@ -1,6 +1,6 @@
 # Café marron bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -59,4 +59,4 @@ Broad native region: Rodrigues, Mascarene Islands, Mauritius / Africa and the we
 - Neither poster drifts into true coffee, gardenia, pinwheel jasmine, plumeria, oleander, star jasmine, a palm, or a generic tropical-flower dashboard.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, phone/full-size, card, composition, and species-identity QA pass.
-- State is `completed, local-ready`; Git and GitHub were not mutated.
+- State is `completed, published`; the package was published directly to `origin/master` in content commit `cc6775e`.

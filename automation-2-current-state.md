@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-03T21:59:17+09:00
+Updated: 2026-09-03T22:37:51+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -10,7 +10,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Pending evidence package: none.
 - Active package: none.
 - Latest package: `2026-09-03-cafe-marron`.
-- Latest state: `completed, local-ready`. Git and GitHub were not mutated.
+- Latest state: `completed, published`. Package content commit `cc6775ec5daacfb5464a43308cea79a981455e97` was pushed to `origin/master` and the remote ref was verified at the same commit.
 - Latest evidence: the directly inspected current official IUCN record `T33659A164117186` is Global CR under criterion D, assessed 29 June 2025 and published in 2026. Kew POWO, the Kew species profile, Mauritian Wildlife Foundation, and Catalogue of Life through GBIF lock the accepted name, public names, habitat, heterophyllous leaf stages, and corolla colour change.
 - Latest visual result: the first Japanese poster and first English companion both passed without retries. Each has one dominant flowering adult shrub, broad glossy adult leaves, long-tubed five-lobed white flowers, and exactly three unequal illustrated cards; the juvenile narrow foliage appears only in the comparison card.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-09-03-cafe-marron`.
 - Topic: Café marron / カフェマロン / *Ramosmania rodriguesii*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Rodrigues, Mascarene Islands, Mauritius / Africa and the western Indian Ocean.
 - Editorial classification group: Plants.
 - Evidence: the directly inspected current official IUCN assessment `T33659A164117186` is Global Critically Endangered under criterion D, assessed 29 June 2025 and published in 2026. Kew and Mauritian Wildlife Foundation sources support the Rodriguan forest habitat, narrow juvenile versus broad adult leaves, and greenish-yellow corollas maturing to white.
@@ -67,6 +67,6 @@ Reptiles, Birds, Fishes, Amphibians, Insects, Mammals, Fungi and lichens, and Pl
 ## Next Concrete Change
 
 - No unfinished package remains. The next daily run may screen a new topic after the full-history duplicate gate.
-- Keep `2026-09-03-cafe-marron` at `completed, local-ready`; GitHub publication remains separate.
+- Keep `2026-09-03-cafe-marron` at `completed, published`; package content commit `cc6775e` was remotely verified.
 - For official visual references, export the smallest non-redundant set that establishes identity and stage variation, normally two or three images; retain and reuse the first successful local bundle rather than repeating a slow asset export.
 - Latest-eight rotation: Africa three, Oceania two, Central America and the Caribbean one, Asia one, and Europe one. Reptiles, Birds, Fishes, Amphibians, Insects, Mammals, Fungi and lichens, and Plants each occupy one slot; Other invertebrates is absent.
