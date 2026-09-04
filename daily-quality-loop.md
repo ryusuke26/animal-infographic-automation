@@ -1408,3 +1408,13 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
 - next_action: reran direct-source, bilingual X-format, package, dimension, pixel-identity, and whitespace checks; committed the scoped package and local-ready workflow records as `cc6775e`, pushed directly to `origin/master`, verified the remote ref at `cc6775ec5daacfb5464a43308cea79a981455e97`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-09-04 — Oʻahu Tree Snail local-ready completion
+
+Daily Quality Loop
+- issue: bundling three already-visible exact target-species photographs still took about 11.5 minutes, even after applying yesterday's smaller-reference-set rule
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the long multi-species gallery exposed many lazy-loaded assets and the page-asset bundler remained slow despite a narrow three-file request
+- next_action: verified target-species alt text before export, retained the first successful three-photo bundle, reused it for both first-pass posters, and completed direct-source, X-format, package, pixel-identity, phone/full-size, false-silhouette, card, typography, and composition QA without another export
+- tomorrow_change: on long gallery pages, verify and bundle only exact target-species asset IDs once; do not reopen or rebundle after the first successful local copy
