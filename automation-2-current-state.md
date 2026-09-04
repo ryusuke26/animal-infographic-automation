@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-04T10:29:50+09:00
+Updated: 2026-09-04T22:51:06+09:00
 
 This file is the small replace-in-place state record for Automation `automation-2`. Run history remains in Automation memory.
 
@@ -10,7 +10,7 @@ This file is the small replace-in-place state record for Automation `automation-
 - Pending evidence package: none.
 - Active package: none.
 - Latest package: `2026-09-04-oahu-tree-snail`.
-- Latest state: `completed, local-ready`. Git and GitHub were not mutated.
+- Latest state: `completed, published`. Package content commit `958305db5a7ac30d4ddbe5601dad841a61f90e88` was pushed to `origin/master` and the remote ref was verified.
 - Latest evidence: the directly inspected current official IUCN record `T191A13048229` is Global CR under old criteria A1ce, B1+2abcde, assessed 1 August 1996 and published in 1996; the Needs updating annotation is disclosed. Hawaiʻi DLNR, USFWS, and Holland and Hadfield lock the accepted name, Waiʻanae forest habitat, glossy high-spired banded shell, nocturnal leaf-fungus grazing, and live birth.
 - Latest visual result: the first Japanese poster and first English companion both passed without retries. Each has one dominant leaf-crawling adult, a glossy high-spired dark-and-cream shell, continuous body anatomy, and exactly three unequal illustrated cards for habitat, shell variation, and nocturnal grazing with one live young.
 - Retired package: `2026-08-21-montseny-brook-newt`, an exact duplicate of the completed and published `2026-06-26-montseny-brook-newt` package. Do not post or publish it.
@@ -20,7 +20,7 @@ This file is the small replace-in-place state record for Automation `automation-
 
 - Package: `2026-09-04-oahu-tree-snail`.
 - Topic: Oʻahu Tree Snail / オアフ・ツリースネイル / *Achatinella mustelina*.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Region: Waiʻanae Range, Oʻahu, Hawaiian Islands, United States / central Pacific / Oceania.
 - Editorial classification group: Other invertebrates.
 - Evidence: the directly inspected current official IUCN assessment `T191A13048229` is Global Critically Endangered under criteria A1ce, B1+2abcde, assessed 1 August 1996, with a Needs updating annotation. Hawaiʻi DLNR and USFWS support the fragmented upper-elevation mesic and wet forest habitat, small glossy high-spired shell, nocturnal arboreal fungus grazing, and live birth.
@@ -67,6 +67,6 @@ Birds, Fishes, Amphibians, Insects, Mammals, Other invertebrates, Plants, and Fu
 ## Next Concrete Change
 
 - No unfinished package remains. The next daily run may screen a new topic after the full-history duplicate gate.
-- Keep `2026-09-04-oahu-tree-snail` at `completed, local-ready`; do not mutate Git or GitHub until publication is explicitly requested.
+- Keep `2026-09-04-oahu-tree-snail` at `completed, published`; package content commit `958305d` was verified on `origin/master`.
 - For a page with multiple species galleries, scroll to and verify the target-species alt text before bundling; request only the two or three exact target assets and reuse the first successful local copies.
 - Latest-eight rotation: Africa three, Oceania three, Asia one, and Europe one. Birds, Fishes, Amphibians, Insects, Mammals, Other invertebrates, Plants, and Fungi and lichens each occupy one slot; Reptiles is absent.

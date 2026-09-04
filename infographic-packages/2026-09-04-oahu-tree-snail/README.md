@@ -1,6 +1,6 @@
 # Oʻahu Tree Snail bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -58,4 +58,4 @@ Broad native region: Waiʻanae Range, Oʻahu, Hawaiian Islands, United States / 
 - Neither poster drifts into a giant African land snail, rosy wolf snail, low-spired garden snail, slug, marine shell, empty-shell hero, detached body, floating animal, or generic dashboard.
 - Eight copy-ready sidecars match the four fenced blocks in each posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, phone/full-size, card, composition, typography, and species-identity QA pass.
-- State is `completed, local-ready`; Git and GitHub were not mutated.
+- State is `completed, published`; package content was published to `origin/master` in commit `958305d`, with published-state metadata recorded in the closeout commit that follows.
