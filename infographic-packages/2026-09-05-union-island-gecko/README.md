@@ -1,6 +1,6 @@
 # Union Island Gecko bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -66,7 +66,7 @@ Broad native region: Union Island, Saint Vincent and the Grenadines / Lesser Ant
 - English art: companion derived from that Japanese image, with Card 2 caption reflowed after the first version overlapped the snout. Both languages retain the crown marking, six body ocelli in three pairs, four coherent limbs, and three numbered observation cards.
 - The Card 2 generative correction also changed surrounding texture. This was disclosed before the user approved the image; it is not represented as a pixel-preserving local edit.
 - Pupil-shape fidelity was not independently cleared by the final visual review; prior prompting and mechanical validators must not be cited as proof of exact eye morphology.
-- No Git commit, push, or GitHub publication was performed. State is local-ready only.
+- Package content and cleanup were committed as `0ab5d161553b41615f9afcf5cd8a807dfacce584`, pushed to `origin/master`, and verified on the remote branch. Published-state metadata is finalized in the closeout commit that follows.
 
 ## Final generation records
 

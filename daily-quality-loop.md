@@ -1477,3 +1477,13 @@ Daily Quality Loop
 - cause: speculative instructions changed reference-photo geometry; generative local edits also changed surrounding textures
 - next_action: the user explicitly accepted the Japanese Card 2 revision after the external texture change was disclosed; copied it unchanged to canonical direct/posting. Produced the English companion and corrected its caption overlap. Both language PNG pairs are 1024x1536 and byte-identical internally; posting sets, eight sidecars and package checks pass.
 - tomorrow_change: keep user acceptance distinct from anatomical certification, preserve selected source bytes, and provide enough caption space before companion generation. Exact pupil fidelity was not independently cleared; do not retroactively claim it was.
+
+## 2026-09-05 — Union Island Gecko GitHub closeout
+
+Daily Quality Loop
+- issue: the accepted and cleaned package remained `completed, local-ready` after final QA
+- priority: keep local completion, rejected-image cleanup, and GitHub publication as explicit separate gates
+- tags: #recycle-bin-cleanup #github-closeout #published
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: moved five failed generated images to the Windows Recycle Bin, preserved the accepted source and four canonical posting assets, reran direct-source, bilingual X-format, package, dimension, pixel-identity, and whitespace checks, committed the scoped package and workflow records as `0ab5d16`, pushed directly to `origin/master`, verified the remote ref, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely, and remove rejected generated images only when the user requests cleanup

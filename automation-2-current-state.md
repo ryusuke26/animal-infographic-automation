@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-05T18:37:21+09:00
+Updated: 2026-09-05T20:45:50+09:00
 
 This state supersedes the Research Reset and earlier premature acceptance.
 
@@ -11,7 +11,7 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Active package: none.
 - Unfinished visual gate: none after explicit user adoption.
 - Latest package: `2026-09-05-union-island-gecko`.
-- Latest state: `completed, local-ready`. No commit, push or GitHub publication performed.
+- Latest state: `completed, published`. Package content and cleanup commit `0ab5d161553b41615f9afcf5cd8a807dfacce584` was pushed to `origin/master` and verified remotely; published-state metadata is finalized in the following closeout commit.
 - Latest evidence: IUCN T194258A71748321, Global CR under B1ab(iii)+2ab(iii), assessed 16 February 2019; permanent DOI / official CITES fallback disclosed because the direct IUCN page did not render.
 - Latest visual result: user approved the Japanese Card 2 revision with “これで行こう。” after being told it also changed surrounding texture. The English companion includes a caption-overlap correction.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -22,7 +22,7 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Topic: Union Island Gecko / ダウディンイロワケヤモリ / *Gonatodes daudini*.
 - Region: Union Island, Saint Vincent and the Grenadines / Caribbean.
 - Editorial classification group: Reptiles.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `union_island_gecko_japanese_card2_revision_2026-09-05.png`, explicitly user-approved, copied unchanged to canonical direct/posting.
 - English source: exec-0aa33105-477b-44fa-b551-2a847013f8cd.png; the first English output's Card 2 caption overlapped the snout, and the selected retry resolves it.
 - Visual scope: one crown marking plus three body pairs beginning at shoulders, coherent limbs, continuous tail, three numbered cards. Exact pupil shape was not independently cleared; do not claim mechanical QA or user approval proves full anatomical fidelity.
@@ -65,6 +65,6 @@ Each listed group occupies one slot; Birds is absent. Rotation is only a tie-bre
 ## Next Concrete Change
 
 - Preserve the explicitly adopted Japanese artwork. Do not reopen generation without user direction.
-- Keep the package local-ready until explicit publication authorization; GitHub closeout is separate.
+- Preserve the package as published. No unfinished package remains; the next run may screen a new topic after the full-history duplicate gate.
 - Use x-post-ja.md / x-post-en.md as primary posting sets; sidecars are synchronized backups.
 - An upcoming run may screen a new topic after the full-history duplicate gate.
