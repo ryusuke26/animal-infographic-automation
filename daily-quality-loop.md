@@ -1428,3 +1428,52 @@ Daily Quality Loop
 - cause: GitHub publication remained intentionally separate until the user's explicit end-of-day approval
 - next_action: reran direct-source, bilingual X-format, package, and whitespace checks; committed the scoped package and local-ready workflow records as `958305d`, pushed directly to `origin/master`, verified the remote ref at `958305db5a7ac30d4ddbe5601dad841a61f90e88`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped content commit remotely before changing published-state metadata
+
+## 2026-09-05 — Union Island Gecko Rescue Run
+
+Daily Quality Loop
+- issue: the first Japanese poster collapsed three dorsolateral ocellus pairs into a central-looking row and gave the Card 3 gecko extra limbs; the fresh retry fixed both but erased the adult male's mottled head pattern; a user-authorized third generation restored the head and limbs but again collapsed the paired ocelli on the hero and Cards 2/3
+- priority: species-specific visual identity across hero and card miniatures
+- tags: #species-identity-drift #paired-pattern #limb-anatomy #user-correction #rescue-run
+- cause: the first prompt named three pairs without forcing a visible left/right row and centerline gap; the stronger retry over-prioritized body symmetry and simplified the equally important head-scale mosaic
+- next_action: deleted both copies of the first rejected generation at the user's request, preserved the second and third under explicit rejected filenames, stopped before English generation, and kept the package needs review because the normal retry plus the user-authorized third-generation exception are exhausted
+- tomorrow_change: when a species has several diagnostic pattern zones, lock head pattern, bilateral body pattern, and limb topology as co-equal invariants in the first prompt; do not let one correction flatten another zone
+
+## 2026-09-05 — Union Island Gecko local-ready completion
+
+Daily Quality Loop
+- issue: three fresh Japanese generations alternated between losing the bilateral six-ocellus layout, adding limbs, and flattening the mottled head; a nominal head-only generative edit then redrew 99.96599% of the poster
+- priority: preserve a user-preferred composition while solving several linked identity zones without compositing
+- tags: #species-identity-drift #composition-model #fresh-regeneration #global-redraw-rejection #local-ready
+- cause: text-only prompting made the model trade one diagnostic zone against another, while generative editing could not keep the accepted canvas locally bounded
+- next_action: used the user's preferred second poster only as a composition/model reference and two real-individual photographs as identity references for an explicitly authorized fresh generation 4; it co-locked the mottled head, paired six-ocellus arrangement, four-limb anatomy, exact Japanese text, and three cards, and the first English companion carried those locks successfully
+- tomorrow_change: when several visual identity zones interact, give Image Gen one successful composition model plus separate real identity references on a fresh canvas; reserve bounded repair for deterministic workflows only
+
+Improvement Resolution
+- tag: #species-identity-drift
+- count_since_last_fix: three material visual catches plus one rejected global-redraw edit in the same package
+- threshold: repeated material identity drift across two or more generations
+- improvement_applied: split image roles into composition/model reference versus real-individual identity references and regenerated on a fresh canvas with head mosaic, paired ocelli, and limb topology as co-equal locks
+- files_changed: Japanese prompt, Sources QA, package README, INDEX, current state, Daily Quality Loop, and Automation memory
+- validation: both direct-source gates, bilingual X format, full package QA, direct/posting pixel identity, full-size and `360x540` phone-size review, exact text, species identity, limb/tail anatomy, card, composition, and whitespace checks passed
+- counter_reset: yes
+
+## 2026-09-05 — Union Island Gecko visual research reset
+
+Daily Quality Loop
+- issue: user review correctly rejected the latest posters because the animal still lacked the species' real structured head pattern; the preceding `completed, local-ready` entry is superseded
+- priority: exact-taxon visual identity before generation
+- tags: #species-identity-drift #visual-research #head-pattern #user-correction #research-reset
+- cause: the prompt and review treated generic brown-olive-charcoal mottling as the head diagnostic, instead of separating the original description's nostril-to-eye olive-green lines, converging postocular nape bands, and single occipital ocellus from the three paired body ocelli
+- next_action: moved all nine generated poster PNGs to the Recycle Bin, kept the two real-individual evidence photographs, compared several exact-name/provenance-confirmed web images, rejected unrelated search results, and reopened the package at `needs review, Research Reset`
+- tomorrow_change: for a species with a distinctive pattern system, read the live-color description and compare several exact-taxon photographs before Image Gen; count head markings, occipital markings, and body markings as separate anatomical zones
+
+## 2026-09-05 — Union Island Gecko explicit adoption and local-ready packaging
+
+Daily Quality Loop
+- issue: repeated head-placement and Card 2 failures made prior mechanical passes unreliable as visual acceptance
+- priority: preserve explicit user selection
+- tags: #user-acceptance #species-identity-drift #caption-overlap #local-ready
+- cause: speculative instructions changed reference-photo geometry; generative local edits also changed surrounding textures
+- next_action: the user explicitly accepted the Japanese Card 2 revision after the external texture change was disclosed; copied it unchanged to canonical direct/posting. Produced the English companion and corrected its caption overlap. Both language PNG pairs are 1024x1536 and byte-identical internally; posting sets, eight sidecars and package checks pass.
+- tomorrow_change: keep user acceptance distinct from anatomical certification, preserve selected source bytes, and provide enough caption space before companion generation. Exact pupil fidelity was not independently cleared; do not retroactively claim it was.
