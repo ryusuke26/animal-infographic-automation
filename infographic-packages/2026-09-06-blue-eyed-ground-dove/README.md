@@ -1,6 +1,6 @@
 # Blue-eyed Ground Dove bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -58,4 +58,4 @@ Broad native region: Botumirim, Minas Gerais, Brazil / Cerrado / South America
 - The posters do not drift into a city pigeon, Ruddy Ground Dove, Plain-breasted Ground Dove, Blue Ground Dove, quail, parrot, all-blue fantasy bird, duplicated hero, detached wing or invented limb.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, card, composition, typography and species-identity QA pass.
-- State is `completed, local-ready`. Git and GitHub publication were not mutated by this run.
+- State is `completed, published`. Package content was published to GitHub in commit `6a58b05`; published-state metadata follows in the closeout commit.
