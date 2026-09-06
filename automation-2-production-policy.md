@@ -9,6 +9,13 @@ English posters work as finished, integrated pieces and the posting copy is
 worth reading on its own. Mechanical validation is necessary, but it is not a
 substitute for visual or editorial judgment.
 
+This file is the single source of production quality rules. The live Automation
+prompt is a short execution entry point, not a second copy of this policy.
+Historical logs and package prompts are evidence of earlier runs, not current
+instructions. Use templates/visual-and-copy-brief.md for the brief and Copy Lock
+syntax; use templates/x-post-copy-template.md for X presentation and copy limits.
+Apply the revised card format to new packages; preserve accepted historical art.
+
 ## Operating Targets
 
 - Normal elapsed time: roughly 30-60 minutes after tools respond; do not trade
@@ -23,7 +30,9 @@ substitute for visual or editorial judgment.
 
 | Area | Source of truth |
 |---|---|
-| Execution instructions | `automation-2-updated-prompt.md` |
+| Execution entry point | `automation-2-updated-prompt.md` |
+| Production quality rules | `automation-2-production-policy.md` |
+| Visual brief / card copy syntax | `templates/visual-and-copy-brief.md` |
 | Current run state | `automation-2-current-state.md` |
 | Completed/incomplete topics | `infographic-packages/INDEX.md` |
 | Package artifacts | `infographic-packages/YYYY-MM-DD-species-slug/` |
@@ -85,7 +94,8 @@ may be retained as a working fallback, but it does not satisfy completion.
 Read, in one batch:
 
 - `automation-2-current-state.md`
-- Automation memory
+- recent Automation memory; targeted full-history searches for duplicates or
+  relevant unresolved failures, not an unconditional full-history read
 - `infographic-packages/INDEX.md`
 - recent package folders
 - `git status --short`
@@ -108,7 +118,10 @@ evidence can now be inspected directly; do not repeat an obsolete user request.
 
 ### 1. Topic and evidence viability
 
-Reject completed topics using memory, INDEX, and package names. Review both the
+Reject completed topics using accepted scientific names, synonyms, English and
+Japanese aliases, and slugs across full-history memory, INDEX and package files.
+Distinguish a mere candidate mention from an actual completed/retired package.
+Review both the
 most recent eight completed broad regions and the most recent eight editorial
 classification groups.
 
@@ -219,6 +232,20 @@ no usable reference image can be supplied to Image Gen, reject the topic before
 Copy Lock rather than relying on prose alone or entering an open-ended retry
 loop.
 
+Use the compact visual identity section from templates/visual-and-copy-brief.md
+inside sources-qa.md. Lock 3-5 defining features against identified real
+reference regions/descriptions before specifying a pose. Where sex, age or
+natural variation matters, compare a small set of exact-taxon views. Do not
+replace visible reference geometry with speculative prose. State what the pose
+may naturally hide. Reuse the first usable local reference set; do not repeatedly
+export it or perform a large gallery export when one focused set suffices.
+
+Only a visually high-risk species may use one optional text-free identity
+anchor before the Japanese poster. Validate the anchor against real references;
+it is not itself evidence. This adds at most one generation, not a separate
+retry loop. An unacceptable anchor pauses visual production until the evidence
+or pose is resolved. Normal low-risk topics go directly to the poster.
+
 When a behavior exposes normally hidden anatomy, the visual reference check
 must settle five separate properties before prompting: the exact external
 aperture position, its opening direction, the internal-to-external origin of
@@ -239,8 +266,8 @@ Create the package and settle:
 - editorial classification group and exact lineage;
 - broad native region and habitat;
 - exact status footer and assessment year/check year;
-- exactly three public claims: habitat, visible identity, and behavior or
-  life-history;
+- exactly three complementary source-supported discoveries, strongest first;
+  habitat, visible identity and behavior are options, not mandatory card slots;
 - visual identity guidance and important negative constraints;
 - one emotional doorway: unusual structure, hidden habitat, seasonal life,
   surprising behavior, or another source-supported discovery hook.
@@ -278,8 +305,12 @@ README must contain:
 
 `Editorial classification group: <one allowed group>`
 
-Each infographic-copy file contains the exact title, scientific name, exactly
-three observation labels, and a short label-free status footer.
+New infographic-copy files use `Copy format: cards-v2` as specified in
+templates/visual-and-copy-brief.md: exact title, scientific name, three heading
+and explanation pairs, and a short label-free status footer. Lock all nine
+text strings before generation. Each explanation adds an observation, mechanism,
+contrast or change; do not merely repeat what the illustration already shows.
+Existing three-label packages remain supported and are not rewritten.
 
 Each image prompt:
 
@@ -288,8 +319,8 @@ Each image prompt:
 - gives one identifiable hero organism an accurate body plan, posture, and
   habitat;
 - requests exactly three numbered observation cards;
-- gives each card one small species-specific illustration or icon plus its
-  explanatory text;
+- gives each card a species-specific illustration, its locked heading and
+  explanatory sentence with sufficient space in both languages;
 - reserves a quiet integrated footer;
 - bans extra text, logos, watermarks, fake maps, invented anatomy, duplicated
   hero organisms, and generic lookalike substitutions.
@@ -311,40 +342,11 @@ Build both X files from `templates/x-post-copy-template.md`. New packages
 contain four fenced `text` blocks: main post, story reply, ALT text, and labeled
 source/context reply.
 
-Attach both accepted posting PNGs to the main post. The main post must:
-
-- open with a species-specific scene, image, question, or action;
-- place the public common and scientific names on adjacent standalone lines
-  after the hook;
-- place the quiet conservation-status footer after the identity lines;
-- include the English common-name hashtag in both language versions, with
-  spaces and punctuation removed, such as `#Kea` or `#HimalayanMonal`;
-- remain a short doorway into the attached bilingual posters rather than
-  carrying the full natural-history explanation.
-
-The first story reply is not a transcription of the three cards. It must:
-
-- reveal the organism through a connected discovery progression, letting
-  setting, visible identity, movement, and consequence unfold in the order
-  that best fits the species;
-- connect at least two locked facts in natural prose;
-- vary sentence length and rhythm;
-- avoid numbered lists, flat fact bullets, and the previous day's opening;
-- use available space for a fuller story when evidence supports it, without
-  padding weak copy;
-- never exceed 275 characters in either a new main-post or story-reply block;
-- trim repeated modifiers, duplicated facts, or expendable transitions before
-  cutting the sensory hook, action-to-meaning payoff, or series ending;
-- count the story reply independently from the main post, ALT, and
-  source/context blocks; when only an overflow segment is flagged, preserve the
-  structure and fuller story and trim only enough low-value wording to clear
-  that overflow;
-- avoid unsupported absolutes, exclusivity, and purpose-driven evolution
-  wording.
-
-Japanese story replies dated 2026-07-21 or later retain:
-
-`それが<日本語の種名>の、ちょっと不思議な暮らし。`
+Follow templates/x-post-copy-template.md for attachments, hooks, story progression,
+identity lines, hashtags and the Japanese series ending. Do not duplicate those
+rules here. Both language packages remain complete; the X main post attaches
+its own language's single poster by default. No account interaction or automatic
+posting is part of producing a local-ready package.
 
 Run once:
 
@@ -419,11 +421,15 @@ Choose the retry type before the one allowed Japanese retry:
 - label every supplied image explicitly as `edit target` or `reference image`;
   never let a rejected source silently become the base canvas.
 
-For difficult movement or climbing mechanics, keep the main hero in a stable
-natural pose and use one complete small animal in an observation card. Do not
-explain the motion with isolated, floating, or detached body parts. If the same
-anatomy defect remains after the retry, preserve the artifacts and enter Rescue
-Run instead of applying another local edit.
+For difficult movement or mechanisms, keep the main hero in a stable natural
+pose. Choose an attached/contextual detail inset, diagram, comparison, or complete
+miniature only if it best explains that card. A miniature full animal is not
+mandatory; never draw an apparently detached or floating body part. Correct
+limb count does not compensate for a wrong species silhouette or pattern.
+After every retry compare ALL defining features with real references, including
+features outside the requested change. Do not discard good art merely because
+a far limb is naturally occluded. If the same material anatomy defect remains
+after the retry, preserve the artifacts and enter Rescue Run.
 
 Then generate the complete English companion:
 
@@ -468,7 +474,15 @@ complete a new Quality Run.
 
 ### 4. Editorial, visual, and mechanical QA
 
-Create eight posting sidecars from the four fenced blocks in each X-post file.
+Generate eight posting sidecars from the two primary X files with:
+
+```text
+<bundled-python> scripts/sync_posting_sidecars.py <package> --write
+```
+
+Without --write the command only checks for drift. It refuses ambiguous selected
+posting images and validates both input sets before writing. Edit the X files,
+then regenerate sidecars; never maintain their text independently.
 README links prominently to `x-post-ja.md`, `x-post-en.md`, both direct Image
 Gen posters, both posting PNGs, and the sidecars.
 
@@ -481,7 +495,8 @@ Perform one deliberate QA pass:
 - reject invented, detached, duplicated, merged, or implausibly missing
   structures; allow anatomically natural perspective occlusion;
 - confirm one hero organism and exactly three numbered illustrated cards;
-- confirm the title, scientific name, three labels, and footer match Copy Lock;
+- confirm title, scientific name, all card headings/explanations and footer
+  match Copy Lock; label-format historical packages keep their three labels;
 - judge the integrated composition at full size and phone size;
 - reject generic dashboard/card styling or cards that bury the hero;
 - confirm the main post is the short image-attached doorway and the first reply
@@ -495,10 +510,6 @@ Perform one deliberate QA pass:
 Run:
 
 ```text
-<bundled-python> scripts/validate_x_post_format.py \
-  --ja <package>/x-post-ja.md \
-  --en <package>/x-post-en.md
-
 <bundled-python> scripts/validate_package.py <package>
 ```
 
@@ -506,6 +517,14 @@ Apply deterministic fixes directly and rerun only the failed check. Machine
 success is not enough when the poster or prose is visibly weak. Ask the user
 only when the remaining issue requires factual interpretation or subjective
 visual taste.
+
+The package command includes X-format validation and direct-source checks.
+Use their standalone commands only for immediate generation gates or diagnosis.
+X counting uses the pinned official twitter-text dependency offline with Node.js;
+see scripts/README.md for one-time setup. Never fall back to Python len().
+Record selected image paths, actual selected-attempt prompt paths, references
+and acceptance caveats as described in the brief. User adoption and mechanical
+pass must not be reported as certification of an unchecked biological feature.
 
 ### 5. Finish once
 
@@ -550,7 +569,8 @@ are canonical assets.
 
 - Discovery and education first; no blame, rescue, or unsupported urgency.
 - Exactly three observation notes.
-- Each note connects a visible trait, habitat, or behavior to meaning.
+- Each note connects a visible trait, habitat, or behavior to meaning, with the
+  most surprising supported observation first.
 - Every note card has a visible number, a small species-specific illustration
   or icon, and explanatory copy rather than a bare label.
 - No population number unless current, scoped, and necessary.

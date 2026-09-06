@@ -183,12 +183,16 @@ This index is for the recurring automation "世界の知らない生きものイ
 
 ## Maintenance Rules
 
-- Read automation memory first, then this index, then package folder names.
+- Use this index and package records for full-history duplicate checks; search
+  automation memory for scientific names, aliases and unresolved records rather
+  than rereading the full history. Production policy is the current rule source.
 - Add every completed run here with topic, scientific name, package path, status, and one operational note.
 - Begin each new completed entry's Notes with both a broad native region and one editorial classification group, for example `Region: Africa. Group: Birds.`
 - Use exactly one of these editorial groups: `Mammals`, `Birds`, `Reptiles`, `Amphibians`, `Fishes`, `Insects`, `Other invertebrates`, `Plants`, or `Fungi and lichens`. These are rotation buckets; keep exact lineage in the package evidence record.
-- Before selecting a topic, count both broad regions and editorial groups across the most recent 8 completed entries. Prefer unused regions and groups, and prefer a credible candidate that improves both distributions.
-- Avoid the same broad region or editorial group in consecutive completed runs when a credible alternative exists. If one group occupies 4 or more of the latest 8, select another group unless all credible alternatives fail evidence, naming, or visual-viability gates; record the reason for an exception.
+- Before selecting a topic, summarize broad regions and editorial groups across
+  the most recent 8 completed entries. Use rotation only as a tie-breaker after
+  unfamiliarity, discovery, evidence, naming and visual viability as defined in
+  the production policy. Do not use the archive's rotation notes as a quota.
 - Do not keep a permanent cooldown or hard quota. Recalculate both latest-eight distributions each run.
 - If a run is partial, put it under "Incomplete" instead of "Completed".
 - Put post-production duplicate discoveries under "Retired"; preserve their artifacts, exclude them from completed rotation, and keep them as duplicate exclusions.

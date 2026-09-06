@@ -1,5 +1,26 @@
 # Daily Quality Loop
 
+## Active guidance — revised 2026-09-05
+
+Read this active guidance and current state's unresolved carryover during
+preflight. The production policy and two production templates are authoritative.
+Earlier dated entries below are history, including superseded diagnoses; do
+not reinstate full-limb visibility or bare-label rules from those entries.
+
+- Prioritize reference-grounded species identity and natural posture. Review
+  every defining feature after a correction, including features not edited.
+- Use cards-v2 for new packages; lock a heading and explanatory sentence per card.
+- Keep reference downloads bounded and reuse the first usable local bundle.
+- Edit X posting sets once and generate sidecars; use X-weighted text counts.
+- Use one language-matched image per X main post by default. Distribution
+  experiments are optional and must not add daily production gates.
+- No unresolved carryover is created solely by this workflow update. Preserve
+  the latest published package and its recorded acceptance caveats.
+
+The remaining procedural sections describe the learning method; read them when
+updating a counter or resolving a recurrence. Search dated history only for a
+specific relevant failure or alias. Do not reread the entire log every run.
+
 Use this memo to improve the recurring infographic workflow without turning
 each run into a growing checklist. The goal is small, repeated learning:
 record the most important drift, carry one useful change into the next run,
@@ -90,10 +111,10 @@ This loop is active work, not a passive diary.
 
 At Phase 0 of every run:
 
-1. Scan `C:\Users\ryusu\.codex\automations\automation-2\memory.md` for Daily
-   Quality Loop entries.
-2. Count each tag from its most recent `counter_reset` or
-   `improvement_applied` record. Older resolved occurrences do not count.
+1. Read unresolved carryover and recent Daily Quality Loop entries; search
+   Automation memory for the affected tag only when a recurrence needs counting.
+2. Count that tag from its most recent `counter_reset` or `improvement_applied`
+   record. Older resolved occurrences do not count; do not rescan every tag.
 3. Record any tag that is one occurrence below or already at its threshold.
 4. Carry the highest-priority unresolved threshold into the current run.
 
@@ -1487,3 +1508,23 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: moved five failed generated images to the Windows Recycle Bin, preserved the accepted source and four canonical posting assets, reran direct-source, bilingual X-format, package, dimension, pixel-identity, and whitespace checks, committed the scoped package and workflow records as `0ab5d16`, pushed directly to `origin/master`, verified the remote ref, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely, and remove rejected generated images only when the user requests cleanup
+
+## 2026-09-06 — Blue-eyed Ground Dove local-ready completion
+
+Daily Quality Loop
+- issue: bundling one exact Cornell adult-male identity image took about 25 minutes
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the browser asset bundler remained slow even for a single exact 640-pixel image
+- next_action: retained the first successful local copy, reused it for both first-pass posters, and completed all visual and mechanical QA without another export
+- tomorrow_change: prefer an already exposed direct identity asset or the first successful focused bundle, and never repeat the export once the local reference is usable
+
+## 2026-09-06 — Blue-eyed Ground Dove GitHub closeout
+
+Daily Quality Loop
+- issue: the completed package remained `completed, local-ready` after final QA
+- priority: preserve the explicit boundary between local completion and GitHub publication
+- tags: #github-closeout #published #scoped-commit
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran package and whitespace checks; committed the scoped package as `6a58b05`, pushed it to `origin/master`, verified the remote ref, committed README and INDEX published-state metadata as `62d9aa7`, pushed again, and verified remote `master` at `62d9aa7c328d927f114b85ed401b062830282495`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely before changing published-state metadata

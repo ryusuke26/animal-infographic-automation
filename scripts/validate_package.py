@@ -115,13 +115,33 @@ def parse_locked_copy(path: Path, errors: list[str]) -> list[str]:
         errors.append(f"{path}: missing 'Scientific name:' field")
 
     labels: list[str] = []
+    copy_format = find_field(text, "Copy format")
+    if copy_format not in (None, "cards-v2"):
+        errors.append(f"{path}: unsupported Copy format: {copy_format}")
+        return []
+    cards_v2 = copy_format == "cards-v2"
     labels_match = re.search(
-        r"Observation labels:\s*(.*?)\n\s*Footer/status:",
+        r"Observation (?:labels|cards):\s*(.*?)\n\s*Footer/status:",
         text,
         re.DOTALL | re.IGNORECASE,
     )
     if not labels_match:
-        errors.append(f"{path}: missing Observation labels / Footer status section")
+        errors.append(f"{path}: missing Observation labels/cards or Footer/status section")
+    elif cards_v2:
+        lines = [line.strip() for line in labels_match.group(1).splitlines() if line.strip()]
+        if len(lines) != 6:
+            errors.append(f"{path}: cards-v2 needs exactly 3 heading/explanation pairs")
+            return []
+        for number in range(1, 4):
+            heading = re.fullmatch(rf"{number}\. Heading: (.+)", lines[(number - 1) * 2])
+            explanation = re.fullmatch(r"Explanation: (.+)", lines[(number - 1) * 2 + 1])
+            if not heading or not explanation:
+                errors.append(f"{path}: card {number} needs a heading and explanation in order")
+                return []
+            if not heading.group(1).strip() or not explanation.group(1).strip():
+                errors.append(f"{path}: card {number} heading/explanation must not be blank")
+                return []
+            labels.extend([heading.group(1).strip(), explanation.group(1).strip()])
     else:
         for line in labels_match.group(1).splitlines():
             match = re.match(r"\s*\d+\.\s*(.+?)\s*$", line)
@@ -141,7 +161,7 @@ def parse_locked_copy(path: Path, errors: list[str]) -> list[str]:
         else:
             errors.append(f"{path}: footer/status is empty")
 
-    if not (title and scientific and footer and len(labels) == 3):
+    if not (title and scientific and footer and len(labels) == (6 if cards_v2 else 3)):
         return []
     return [title, clean_scientific_name(scientific), *labels, footer]
 

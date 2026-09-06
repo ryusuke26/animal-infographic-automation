@@ -9,6 +9,8 @@ import re
 import sys
 from pathlib import Path
 
+from x_text import count_post
+
 
 LEGACY_SECTION_NAMES = ("Main post", "ALT text", "Source/context reply")
 STORY_SECTION_NAMES = (
@@ -97,13 +99,18 @@ def validate_post_length(path: Path, post: str, label: str) -> list[str]:
     if package_date is not None and package_date < MAIN_POST_LENGTH_START:
         return []
 
-    character_count = len(post)
+    try:
+        character_count, valid = count_post(post)
+    except ValueError as exc:
+        return [f"{path}: {exc}"]
     if character_count > MAX_MAIN_POST_CHARACTERS:
         return [
-            f"{path}: {label} is {character_count} characters; new packages "
+            f"{path}: {label} is {character_count} X-weighted characters; new packages "
             f"must stay at or below {MAX_MAIN_POST_CHARACTERS}"
         ]
 
+    if not valid:
+        return [f"{path}: {label} contains text rejected by the official X parser"]
     return []
 
 
@@ -311,6 +318,11 @@ def validate_file(path: Path, source_prefix: str, *, language: str) -> list[str]
             errors.extend(validate_japanese_story_reply(path, story_reply))
 
         source_note = blocks[-1].strip()
+        copy_path = path.parent / f"infographic-copy-{language}.md"
+        if copy_path.is_file() and re.search(
+            r"^Copy format: cards-v2\s*$", copy_path.read_text(encoding="utf-8"), re.MULTILINE
+        ):
+            errors.extend(validate_post_length(path, source_note, "source/context reply"))
         if not source_note.startswith(source_prefix):
             errors.append(
                 f"{path}: source block must begin exactly with '{source_prefix}'"

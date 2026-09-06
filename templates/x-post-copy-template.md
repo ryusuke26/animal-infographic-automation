@@ -7,8 +7,14 @@ packages are grandfathered and need not be rewritten.
 
 ## Main post
 
-- Attach both accepted posting PNGs, Japanese and English, to this post.
-- Open with one species-specific scene, image, question, or action.
+- Attach the single accepted poster in the post's language: Japanese for the
+  Japanese main post, English for the English main post. Provide the companion
+  language in a separate reply/post if wanted; when both are explicitly requested
+  together, put the audience's language first. Both files are still produced.
+- Open with the strongest supported discovery, contrast, scene or action.
+  Write two short hook candidates during drafting and select one; keep only the
+  selected text in the posting set. Do not save the most interesting fact only
+  for a reply. One follow-through sentence before the identity lines is allowed.
 - Put the public common name and scientific name on two adjacent standalone
   lines after the hook. Do not fold them into prose.
 - Follow with the quiet conservation-status footer.
@@ -16,6 +22,9 @@ packages are grandfathered and need not be rewritten.
   punctuation removed, for example `#Kea` or `#HimalayanMonal`.
 - Keep this post short. The fuller natural-history story belongs in the first
   reply.
+- Main post and story reply each have a budget of 275 X-weighted characters,
+  counted with the official parser (CJK generally 2, URLs 23, emoji sequences 2).
+  Do not count raw Unicode characters or cut based on their number.
 - Avoid a generic definition such as `<name>は〜です` in the opening.
 - Reveal the name after the hook when that improves curiosity.
 - Compare the latest two completed posts and change the opening and sentence
@@ -47,7 +56,7 @@ poster cards copied into sentences.
 - Use concrete habitat, body, and behavior detail when the evidence supports
   it. Never add filler solely to use the available limit.
 - Count this reply independently from the main post, ALT text, and source
-  reply. It must not exceed 275 Unicode characters.
+  reply, using the weighted budget above.
 - If the composer highlights only an overflow segment, preserve the established
   structure and fuller story. Shorten only enough low-value wording to clear
   that overflow instead of broadly rewriting the reply.
@@ -71,12 +80,27 @@ poster cards copied into sentences.
 
 ## ALT text
 
+Describe the actual attached poster in the same language. When posting the
+English companion separately, use its English ALT instead of reusing Japanese ALT.
+
 ```text
 <complete ALT text>
 ```
 
 ## Source/context reply
 
+For new cards-v2 packages keep this publishable as one ordinary reply within
+275 X-weighted characters: authority, relevant year/context and one or two direct
+links. Put the detailed evidence table and complete bibliography in sources-qa.md.
+Do not remove a material uncertainty to fit the limit. If it cannot be stated
+accurately within the budget, revise the source selection/wording before art.
+Historical long source blocks are retained as archival copy, not certified as
+fitting one ordinary X reply.
+
 ```text
 <Japanese must begin with 出典メモ： / English must begin with Source note:>
 ```
+
+Generate sidecars with scripts/sync_posting_sidecars.py; the two X Markdown files
+are the editing source of truth. Templates/x-launch-notes.md contains optional
+profile drafts and one lightweight distribution experiment, not daily run gates.

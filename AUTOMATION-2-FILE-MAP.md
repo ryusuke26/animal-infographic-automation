@@ -6,10 +6,15 @@ Use this as the quick navigation map for the infographic automation.
 
 | File | Role |
 |---|---|
-| `automation-2-updated-prompt.md` | Current Quality Run Automation body text to synchronize into the Automation settings. |
-| `automation-2-production-policy.md` | Human-readable quality-first policy, visual/editorial completion standard, approval budget, and exception modes. |
+| `automation-2-updated-prompt.md` | Short execution entry point synchronized to the live Automation; references the quality policy. |
+| `automation-2-production-policy.md` | Single source of production quality rules, approval budget, and exception modes. |
+| `templates/visual-and-copy-brief.md` | Compact identity brief and cards-v2 copy syntax; reuse within existing package files. |
+| `templates/x-post-copy-template.md` | Language-matched single-image posts, discovery hooks and exact copy structure. |
+| `templates/x-launch-notes.md` | Optional profile/pinned-post drafts and a lightweight distribution experiment. |
+| `scripts/README.md` | Helper commands and one-time offline X counting setup. |
+| `scripts/sync_posting_sidecars.py` | Derives sidecars from primary X posting sets; checks only unless --write. |
 | `automation-2-current-state.md` | Small current-state record for pending IUCN evidence, latest completion, regional rotation, and active quality counters. |
-| `daily-quality-loop.md` | Lightweight end-of-run improvement loop: priorities, tags, next actions, and skill-update triggers. |
+| `daily-quality-loop.md` | Active guidance first; old entries searched only for a relevant issue, not reread each run. |
 | `scripts/validate_direct_poster.py` | Immediate read-only source gate: exact vertical 2:3 plus no material near-white/transparent edge band, before review or editing. |
 | `scripts/normalize_poster.py` | Rechecks the source gate and resizes accepted direct posters to canonical `1024x1536` posting assets. |
 | `scripts/compose_poster.py` | Optional deterministic fallback for old Fast Run packages, diagnostics, or preserved rescue artifacts; not a Quality Run completion substitute. |

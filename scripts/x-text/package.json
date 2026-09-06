@@ -1,0 +1,9 @@
+{
+  "name": "infographic-x-text-check",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Offline X weighted character counting for the Python validators",
+  "dependencies": {
+    "twitter-text": "3.1.0"
+  }
+}
