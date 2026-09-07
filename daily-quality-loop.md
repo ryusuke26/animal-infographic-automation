@@ -1528,3 +1528,13 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran package and whitespace checks; committed the scoped package as `6a58b05`, pushed it to `origin/master`, verified the remote ref, committed README and INDEX published-state metadata as `62d9aa7`, pushed again, and verified remote `master` at `62d9aa7c328d927f114b85ed401b062830282495`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the package content commit remotely before changing published-state metadata
+
+## 2026-09-07 — Acigöl Killifish local-ready completion
+
+Daily Quality Loop
+- issue: bundling one exact IUCN SSC identity photograph took about 18 minutes
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the page-asset bundler remained slow even after the exact target asset had been isolated
+- next_action: retained the first successful local copy, reused it for both first-pass posters, and completed direct-source, X-format, package, pixel-identity, phone/full-size, false-silhouette, card, typography, composition, and whitespace QA without another export or any image retry
+- tomorrow_change: use an already exposed direct identity asset or the first successful focused bundle, and do not repeat a slow export once the local reference is usable

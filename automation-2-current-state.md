@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-06T21:31:20+09:00
+Updated: 2026-09-07T20:34:12+09:00
 
 This state supersedes the Research Reset and earlier premature acceptance.
 
@@ -10,61 +10,61 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none after explicit user adoption.
-- Latest package: `2026-09-06-blue-eyed-ground-dove`.
-- Latest state: `completed, published`. Package content commit `6a58b05` and published-state commit `62d9aa7` are verified on `origin/master`.
-- Latest evidence: directly inspected current IUCN record T22690804A145971767, Global CR under C2a(i,ii), assessed 26 February 2019 and published in 2019; BirdLife International Tokyo supports アオメヒメバト and the 2015/75-year rediscovery.
-- Latest visual result: first-pass Japanese and first-pass English posters accepted with no retries; both use exact cards-v2 Copy Lock, one compact adult male, three distinct illustrated cards and a white-sand Cerrado composition.
+- Latest package: `2026-09-07-acigol-killifish`.
+- Latest state: `completed, local-ready`. Git and GitHub were intentionally left untouched.
+- Latest evidence: directly inspected current IUCN record T1850A135082408, Global CR under B2ab(i,ii,iii,iv,v), assessed 4 July 2023 and published in 2026; the IUCN SSC Freshwater Fish Specialist Group supports the exact-taxon barred-body reference and Lake Acıgöl salinity setting.
+- Latest visual result: first-pass Japanese and first-pass English companion posters accepted with no retries; both use exact cards-v2 Copy Lock, one dominant reference-matched fish, three unequal illustrated cards and a spring-to-salt-basin composition.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
 
 ## Latest Completed Package
 
-- Package: `2026-09-06-blue-eyed-ground-dove`.
-- Topic: Blue-eyed Ground Dove / アオメヒメバト / *Columbina cyanopis*.
-- Region: Botumirim, Minas Gerais, Brazil / Cerrado / South America.
-- Editorial classification group: Birds.
-- State: `completed, published`.
-- Selected Japanese source: `blue_eyed_ground_dove_japanese_imagegen_2026-09-06.png`; first generation, no retry.
-- Selected English source: `blue_eyed_ground_dove_english_imagegen_2026-09-06.png`; first companion generation, no retry.
-- Visual scope: compact russet/olive adult male, small realistic cobalt iris, separate blue-violet folded-wing spots, two coherent pink legs, one continuous tail, white-sand low-scrub Cerrado and exactly three cards with heading plus explanatory sentence.
+- Package: `2026-09-07-acigol-killifish`.
+- Topic: Acigöl Killifish / アジュギョル・キリフィッシュ / *Anatolichthys transgrediens*.
+- Region: Lake Acıgöl basin, southwestern Türkiye / Western Asia.
+- Editorial classification group: Fishes.
+- State: `completed, local-ready`.
+- Selected Japanese source: `acigol_killifish_japanese_imagegen_2026-09-07.png`; first generation, no retry.
+- Selected English source: `acigol_killifish_english_imagegen_2026-09-07.png`; first companion generation, no retry.
+- Visual scope: one pale grey-silver barred fish with upturned jaw, large dark eye, attached translucent fins and dark caudal-base band, moving through a coherent spring-to-salt-basin scene with exactly three cards.
 - Artifacts: four canonical 1024x1536 PNGs, two primary X posting sets and eight synchronized sidecars. Full-size and `360x540` phone-size review, direct-source, X-format and package validators pass.
-- Taxonomy caveat: current IUCN and BirdLife use *Columbina cyanopis*; proposed resurrection of *Oxypelia* is recorded only as a duplicate/taxonomy note.
+- Naming caveat: no established standard Japanese common name was confirmed; アジュギョル・キリフィッシュ is a transparent rendering. Exact scale counts, fin-ray counts and sex are not claimed.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-08-30 — Africa — Lake Oku Clawed Frog
-2. 2026-08-31 — Oceania — Oceanic Hawaiian Damselfly
-3. 2026-09-01 — Africa — Nimba Otter-shrew
-4. 2026-09-02 — Oceania — Fischer's Egg
-5. 2026-09-03 — Africa and the western Indian Ocean — Café marron
-6. 2026-09-04 — Oceania — Oʻahu Tree Snail
-7. 2026-09-05 — Caribbean — Union Island Gecko
-8. 2026-09-06 — South America — Blue-eyed Ground Dove
+1. 2026-08-31 — Oceania — Oceanic Hawaiian Damselfly
+2. 2026-09-01 — Africa — Nimba Otter-shrew
+3. 2026-09-02 — Oceania — Fischer's Egg
+4. 2026-09-03 — Africa and the western Indian Ocean — Café marron
+5. 2026-09-04 — Oceania — Oʻahu Tree Snail
+6. 2026-09-05 — Caribbean — Union Island Gecko
+7. 2026-09-06 — South America — Blue-eyed Ground Dove
+8. 2026-09-07 — Western Asia — Acigöl Killifish
 
-Africa three, Oceania three, Caribbean one, South America one.
+Oceania three, Africa two, Caribbean one, South America one, Western Asia one.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-08-30 — Amphibians — Lake Oku Clawed Frog
-2. 2026-08-31 — Insects — Oceanic Hawaiian Damselfly
-3. 2026-09-01 — Mammals — Nimba Otter-shrew
-4. 2026-09-02 — Fungi and lichens — Fischer's Egg
-5. 2026-09-03 — Plants — Café marron
-6. 2026-09-04 — Other invertebrates — Oʻahu Tree Snail
-7. 2026-09-05 — Reptiles — Union Island Gecko
-8. 2026-09-06 — Birds — Blue-eyed Ground Dove
+1. 2026-08-31 — Insects — Oceanic Hawaiian Damselfly
+2. 2026-09-01 — Mammals — Nimba Otter-shrew
+3. 2026-09-02 — Fungi and lichens — Fischer's Egg
+4. 2026-09-03 — Plants — Café marron
+5. 2026-09-04 — Other invertebrates — Oʻahu Tree Snail
+6. 2026-09-05 — Reptiles — Union Island Gecko
+7. 2026-09-06 — Birds — Blue-eyed Ground Dove
+8. 2026-09-07 — Fishes — Acigöl Killifish
 
-Each listed group occupies one slot; Fishes is absent. Rotation is only a tie-breaker after full-history duplicate and evidence screening.
+Each listed group occupies one slot; Amphibians is absent. Rotation is only a tie-breaker after full-history duplicate and evidence screening.
 
 ## Daily Quality Loop
 
-- The first focused Cornell identity-image bundle took about 25 minutes despite requesting one exact asset.
+- The focused IUCN SSC identity-image bundle took about 18 minutes despite requesting one exact asset.
 - The first successful local reference was retained and reused for both languages; no repeat export occurred.
 - Both first-pass posters preserved the reference geometry and exact cards-v2 text, so no image retry or correction was needed.
 
 ## Next Concrete Change
 
-- Preserve the accepted Blue-eyed Ground Dove artwork and local reference; do not reopen generation without user direction.
-- Preserve the package as completed, published. No unfinished package remains; GitHub closeout was explicitly authorized and verified on `origin/master`.
+- Preserve the accepted Acigöl Killifish artwork and local reference; do not reopen generation without user direction.
+- Preserve the package as completed, local-ready. No unfinished package remains; GitHub publication was not requested.
 - Prefer an already exposed direct identity asset or the first successful focused bundle; do not repeat slow asset export during the same run.
 - Use x-post-ja.md / x-post-en.md as primary posting sets; sidecars are synchronized backups.
 - Production rules are centralized in automation-2-production-policy.md;
