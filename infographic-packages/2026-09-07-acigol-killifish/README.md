@@ -1,6 +1,6 @@
 # Acigöl Killifish bilingual infographic package
 
-State: `completed, local-ready — GitHub publication not requested`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -50,4 +50,4 @@ Broad native region: Lake Acıgöl basin, southwestern Türkiye / Western Asia
 - Full-size and phone-size QA confirmed exact locked text, exactly three illustrated observation cards, one unobstructed dominant hero, species-specific bar/jaw/tail-band identity and coherent spring-to-salt-basin habitat.
 - Posting PNGs are normalized RGB, exact 2:3 derivatives of the accepted direct Image Gen sources. Eight UTF-8 copy-ready sidecars are synchronized from the primary posting sets.
 - Remaining caveat: the public Japanese display name is a transparent transliteration, and exact scale counts, fin-ray counts and sex are not claimed.
-- Local package is ready for review or posting. Git and GitHub were intentionally left untouched.
+- Published to `origin/master` in package content commit `9ea3576`; the remote branch was verified at the same commit before this published-state metadata update.

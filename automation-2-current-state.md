@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-07T20:34:12+09:00
+Updated: 2026-09-07T21:53:45+09:00
 
 This state supersedes the Research Reset and earlier premature acceptance.
 
@@ -11,7 +11,7 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Active package: none.
 - Unfinished visual gate: none after explicit user adoption.
 - Latest package: `2026-09-07-acigol-killifish`.
-- Latest state: `completed, local-ready`. Git and GitHub were intentionally left untouched.
+- Latest state: `completed, published`. Package content commit `9ea3576` is verified on `origin/master`; this closeout synchronizes published-state metadata.
 - Latest evidence: directly inspected current IUCN record T1850A135082408, Global CR under B2ab(i,ii,iii,iv,v), assessed 4 July 2023 and published in 2026; the IUCN SSC Freshwater Fish Specialist Group supports the exact-taxon barred-body reference and Lake Acıgöl salinity setting.
 - Latest visual result: first-pass Japanese and first-pass English companion posters accepted with no retries; both use exact cards-v2 Copy Lock, one dominant reference-matched fish, three unequal illustrated cards and a spring-to-salt-basin composition.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -22,7 +22,7 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Topic: Acigöl Killifish / アジュギョル・キリフィッシュ / *Anatolichthys transgrediens*.
 - Region: Lake Acıgöl basin, southwestern Türkiye / Western Asia.
 - Editorial classification group: Fishes.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `acigol_killifish_japanese_imagegen_2026-09-07.png`; first generation, no retry.
 - Selected English source: `acigol_killifish_english_imagegen_2026-09-07.png`; first companion generation, no retry.
 - Visual scope: one pale grey-silver barred fish with upturned jaw, large dark eye, attached translucent fins and dark caudal-base band, moving through a coherent spring-to-salt-basin scene with exactly three cards.
@@ -64,7 +64,7 @@ Each listed group occupies one slot; Amphibians is absent. Rotation is only a ti
 ## Next Concrete Change
 
 - Preserve the accepted Acigöl Killifish artwork and local reference; do not reopen generation without user direction.
-- Preserve the package as completed, local-ready. No unfinished package remains; GitHub publication was not requested.
+- Preserve the package as completed, published. No unfinished package remains; package content commit `9ea3576` was verified on `origin/master` before published-state metadata changed.
 - Prefer an already exposed direct identity asset or the first successful focused bundle; do not repeat slow asset export during the same run.
 - Use x-post-ja.md / x-post-en.md as primary posting sets; sidecars are synchronized backups.
 - Production rules are centralized in automation-2-production-policy.md;

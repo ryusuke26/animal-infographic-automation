@@ -1538,3 +1538,13 @@ Daily Quality Loop
 - cause: the page-asset bundler remained slow even after the exact target asset had been isolated
 - next_action: retained the first successful local copy, reused it for both first-pass posters, and completed direct-source, X-format, package, pixel-identity, phone/full-size, false-silhouette, card, typography, composition, and whitespace QA without another export or any image retry
 - tomorrow_change: use an already exposed direct identity asset or the first successful focused bundle, and do not repeat a slow export once the local reference is usable
+
+## 2026-09-07 — Acigöl Killifish GitHub closeout
+
+Daily Quality Loop
+- issue: the completed package remained `completed, local-ready` after final QA
+- priority: preserve the explicit boundary between local completion and GitHub publication
+- tags: #github-closeout #published #scoped-commit
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, package, staged-whitespace, and remote-ref checks; corrected four terminal blank-line findings; committed the scoped package and workflow records as `9ea3576`, pushed through the established Git Credential Manager flow, verified remote `master` at `9ea3576358e155284e777b4eeb5fad6a4bed7e21`, and synchronized README, INDEX, and current state to `completed, published`
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped package commit remotely before changing published-state metadata
