@@ -1583,3 +1583,10 @@ Improvement Resolution
 - Simplified Card 1 to documented initial jaw grip, synchronized bilingual copy, and redrew the whole composition with separate bodies. Card 2 uses small eggs and a developed gilled larva.
 - V3 still suggested a short male and was not adopted. V4 generated for review; earlier completion claims are withdrawn.
 - Learning: inspect whole-body continuity and life-stage scale in every miniature before accepting a companion; numeric file checks are not visual acceptance.
+
+## 2026-09-09 — Sardinian Brook Salamander explicit adoption and GitHub closeout
+
+- The user confirmed that the species infographic had been posted to X and instructed that it be treated as completed, closing the remaining v4 visual-review gate.
+- Preserved the v4 Japanese and English assets as canonical, retained the rejection/redraw history, and synchronized README, Sources QA, INDEX and current state to `completed, published`.
+- Package content commit `0965f09` was pushed to `origin/master` and the remote ref was verified before this published-state metadata update.
+- Future rule: when the user explicitly confirms real-world posting and directs completion, record that as final adoption while preserving any known qualitative-illustration caveats.

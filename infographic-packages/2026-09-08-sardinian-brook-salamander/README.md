@@ -1,6 +1,6 @@
 # Sardinian Brook Salamander bilingual infographic package
 
-State: `needs review, regenerated`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -49,9 +49,13 @@ Broad native region: Sardinia, Italy / Mediterranean Europe
 - Three IUCN adult-reference views and one juvenile/young-adult variation view are retained locally; the orange vertebral stripe is excluded from the mature-looking hero.
 - The original first-pass posters and v2 redraws were rejected after user review caught Card 1 anatomy and Card 2 scale problems. The current v4 candidates are full-canvas redraws made with the v4 prompts.
 - Both direct and posting PNGs are exact 1024 x 1536 cards-v2 posters, and the language-paired posting sidecars are synchronized with the posting sets.
-- Direct-source, package, X-format and whitespace checks pass. Visual anatomy and scale acceptance remains open after repeated user catches.
-- Nothing has been posted or published.
+- Direct-source, package, X-format and whitespace checks pass. On 2026-09-09 the user confirmed that the v4 species infographic had been posted to X and explicitly adopted it as the completed version.
+- The package content was published to GitHub in commit `0965f09`; this closeout synchronizes completed/published metadata.
 
 ## Superseding redraw after user rejection
 
-The user rejected v2 for broken anatomy and Card 2 scale. Eight package PNGs (v1 and v2) were moved to the Windows Recycle Bin and remain recoverable there; superseded-v1 is now empty. Japanese v3 was also rejected during review for apparent male size. Current v4 posters show only the initial jaw grip with separate bodies and tails, plus small eggs and a developed gilled larva. Card 1 copy was changed to match this initial phase. Built-in Image Gen performed the full redraws using the linked v4 prompts. Mechanical QA does not certify visual anatomy; state remains needs review after repeated user catches.
+The user rejected v2 for broken anatomy and Card 2 scale. Eight package PNGs (v1 and v2) were moved to the Windows Recycle Bin and remain recoverable there; superseded-v1 is now empty. Japanese v3 was also rejected during review for apparent male size. Current v4 posters show only the initial jaw grip with separate bodies and tails, plus small eggs and a developed gilled larva. Card 1 copy was changed to match this initial phase. Built-in Image Gen performed the full redraws using the linked v4 prompts. Mechanical QA does not certify visual anatomy; at that checkpoint the package remained under review.
+
+## Explicit adoption and publication
+
+On 2026-09-09 the user confirmed that this species infographic had been posted to X and instructed that it be treated as completed. That explicit adoption closes the remaining visual-review gate. The v4 Japanese and English assets are the canonical completed set; the earlier rejection and redraw history remains above for auditability.
