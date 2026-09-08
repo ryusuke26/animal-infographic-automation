@@ -239,6 +239,8 @@ natural variation matters, compare a small set of exact-taxon views. Do not
 replace visible reference geometry with speculative prose. State what the pose
 may naturally hide. Reuse the first usable local reference set; do not repeatedly
 export it or perform a large gallery export when one focused set suffices.
+Limit the initial exact-taxon bundle to three role-distinct images; add a fourth
+only when documented sex, age, or stage variation materially changes the visual lock.
 
 Only a visually high-risk species may use one optional text-free identity
 anchor before the Japanese poster. Validate the anchor against real references;

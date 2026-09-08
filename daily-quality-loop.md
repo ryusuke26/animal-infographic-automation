@@ -1548,3 +1548,38 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran direct-source, package, staged-whitespace, and remote-ref checks; corrected four terminal blank-line findings; committed the scoped package and workflow records as `9ea3576`, pushed through the established Git Credential Manager flow, verified remote `master` at `9ea3576358e155284e777b4eeb5fad6a4bed7e21`, and synchronized README, INDEX, and current state to `completed, published`
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the scoped package commit remotely before changing published-state metadata
+
+## 2026-09-08 — Sardinian Brook Salamander initial completion claim — superseded
+
+Daily Quality Loop
+- superseded: later user review rejected Card 1 anatomy and Card 2 scale; this entry must not be read as current completion state
+- issue: bundling four exact-taxon IUCN photographs took about 25 minutes after the target assets had already been isolated
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the page-asset bundler remained slow, and the initial request included one juvenile variation view in addition to three adult identity roles
+- next_action: retained the first successful local bundle, used the three adult views for both languages, kept the juvenile view as variation evidence only, and completed direct-source, X-format, package, pixel, phone/full-size, anatomy, false-silhouette, card, typography, composition, and whitespace QA without a repeat export or image retry
+- tomorrow_change: start with at most three role-distinct exact-taxon images; add a fourth only when sex, age, or stage variation materially changes the visual lock
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: four consecutive local-ready runs reported slow exact-identity asset bundling
+- threshold: the same operational friction recurred in at least three daily runs
+- improvement_applied: the production policy now caps the initial exact-taxon bundle at three role-distinct images, with a fourth allowed only for material sex, age, or stage variation
+- files_changed: automation-2-production-policy.md, Daily Quality Loop, current state, INDEX, package README, Sources QA, and Automation memory
+- validation: both direct-source gates, bilingual X format, full package QA, 1024x1536 dimension checks, phone/full-size visual review, exact text, species identity, anatomy, card, composition, and whitespace checks passed
+- counter_reset: yes
+
+## 2026-09-08 — Sardinian Brook Salamander Card 1 correction
+
+- superseded: the subsequent user review rejected this v2 redraw for body topology and egg/larva scale
+- User caught a smaller-looking male in Card 1. EAZA 2015 p.5 supports the opposite typical size relationship and a proportionally wider male head.
+- Fully regenerated Japanese and English posters with a larger-headed, robust male curving toward the smaller female's trunk. This is a whole-canvas redraw; the original four PNGs are recoverable under superseded-v1.
+- Learning: mating-pair QA must verify sexual dimorphism and interaction roles together; a foreshortened reference photograph must not set apparent relative size.
+- Canonical images, revision prompts and package records are synchronized; local-ready, unpublished.
+
+## 2026-09-08 — Sardinian Brook Salamander second user rejection
+
+- User rejected v2 body topology and egg/larva scale; recycled eight package PNGs at their request.
+- Simplified Card 1 to documented initial jaw grip, synchronized bilingual copy, and redrew the whole composition with separate bodies. Card 2 uses small eggs and a developed gilled larva.
+- V3 still suggested a short male and was not adopted. V4 generated for review; earlier completion claims are withdrawn.
+- Learning: inspect whole-body continuity and life-stage scale in every miniature before accepting a companion; numeric file checks are not visual acceptance.
