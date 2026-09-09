@@ -1590,3 +1590,33 @@ Improvement Resolution
 - Preserved the v4 Japanese and English assets as canonical, retained the rejection/redraw history, and synchronized README, Sources QA, INDEX and current state to `completed, published`.
 - Package content commit `0965f09` was pushed to `origin/master` and the remote ref was verified before this published-state metadata update.
 - Future rule: when the user explicitly confirms real-world posting and directs completion, record that as final adoption while preserving any known qualitative-illustration caveats.
+
+## 2026-09-09 — Seychelles Sheath-tailed Bat local-ready completion
+
+Daily Quality Loop
+- issue: the focused two-image IUCN identity bundle took about 17 minutes despite the post-reset cap and exact asset selection
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #localized-image-edit #local-ready
+- cause: the browser asset bundler remained slow even for two already isolated current-assessment photographs; the Japanese first pass also produced an ambiguous central wing overlap
+- next_action: retained the first successful local copies for both languages, made one localized anatomy edit without reopening Copy Lock, and completed direct-source, X-format, package, pixel-identity, full-size, phone-size, false-silhouette, card, typography, composition and whitespace QA
+- tomorrow_change: keep exact-taxon bundles minimal and role-distinct, reuse the first successful local copies, and preserve locked copy and card structure when a localized anatomy edit is sufficient
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: one recurrence after the 2026-09-08 counter reset
+- threshold: not met; no production-policy change this run
+
+## 2026-09-09 — Seychelles Sheath-tailed Bat user rejection and full redraw
+
+- User rejected the earlier Japanese and English posters because the bat anatomy was visibly broken. Review confirmed branching wing, leg and membrane shapes in the hero and the Card 1 miniature; the prior assistant visual acceptance is superseded.
+- Moved the four former canonical PNGs to the Windows Recycle Bin, preserving recovery. Evidence images, Copy Lock, posting sets and sidecars were not deleted.
+- Fully regenerated Japanese from the two exact-taxon references with one folded-wing hero, exactly two ceiling-gripping feet and no bats inside the cards. One follow-up moved Card 1's heading into its card without changing the accepted anatomy.
+- Fully regenerated English from the accepted Japanese replacement and the same references. Both languages now use habitat/prey-only card art and one continuous, naturally occluded hero silhouette.
+- Updated ALT text and synchronized the two changed sidecars. Direct-source, X-format, package, pixel-identity, full-size, phone-size, false-silhouette, card, typography, composition and whitespace QA pass; package remains local-ready and unpublished.
+- Learning: for bats, a spread-wing or partially open ceiling pose can create false extra membranes even when the prompt counts limbs. If the card claims do not require flight anatomy, default to a folded-wing roost pose and keep secondary card art organism-free.
+
+## 2026-09-09 — Seychelles Sheath-tailed Bat posture review and acceptance
+
+- User questioned whether the species rests with all four limbs and its abdomen against the ceiling. Primary behavioral studies distinguish ordinary rest by the hind limbs only from four-limb ceiling contact during alert behaviour and movement; no inspected source states that the abdomen contacts the ceiling during rest.
+- After this evidence distinction was explained, the user accepted the current folded-wing, hind-foot hanging Japanese and English posters.
+- Package remains `completed, local-ready`; nothing was posted or published.

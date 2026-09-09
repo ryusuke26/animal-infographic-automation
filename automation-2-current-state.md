@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-09T07:53:47+09:00
+Updated: 2026-09-09T10:46:04+09:00
 
 This state supersedes the Research Reset and earlier premature acceptance.
 
@@ -10,62 +10,63 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none after the user's explicit adoption and X-post confirmation.
-- Latest package: `2026-09-08-sardinian-brook-salamander`.
-- Latest state: `completed, published`; the user confirmed it was posted to X, and package content commit `0965f09` is verified on GitHub.
-- Latest evidence: directly inspected current IUCN record T8371A223758127, Global EN under B2ab(iii,iv), assessed 20 February 2023 and published in 2024; EAZA Amphibian TAG and four exact-taxon IUCN photographs support the anatomy, bottom-walking, mating alignment and egg-placement claims.
-- Latest visual result: the user explicitly adopted the v4 redraws after confirming the species infographic was posted to X. V4 shows the initial jaw-grip phase with separate adult bodies and a developed larva beside small eggs; previous rejected assets remain out of the package.
+- Latest package: `2026-09-09-seychelles-sheath-tailed-bat`.
+- Latest state: `completed, local-ready`; nothing was posted to X or published to GitHub.
+- Latest evidence: directly inspected current IUCN record T5112A271898609, Global CR under C2a(i), assessed 13 December 2024 and published in 2025; Mammal Diversity Database, Gerlach 2006 and two exact-taxon IUCN photographs support naming, boulder-cave roosts, clear cave flyways, insect diet and the visible identity lock.
+- Latest visual result: user review rejected the earlier canonical pair for branching wing/leg/membrane anatomy. Those four PNGs were moved to the Windows Recycle Bin. The replacements use one bat with both wings fully folded, exactly two ceiling-gripping feet and no additional bats in the cards; both languages pass full-size and phone-size review. After a primary-source posture check distinguished hind-limb rest from four-limb alert/movement, the user explicitly accepted the current posters.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
 
 ## Latest Completed Package
 
-- Package: `2026-09-08-sardinian-brook-salamander`.
-- Topic: Sardinian Brook Salamander / サルデーニャ・イモリ / *Euproctus platycephalus*.
-- Region: Sardinia, Italy / Mediterranean Europe.
-- Editorial classification group: Amphibians.
-- State: `completed, published`.
-- Selected Japanese source: `sardinian_brook_salamander_japanese_imagegen_2026-09-08.png`; user-adopted v4 full redraw.
-- Selected English source: `sardinian_brook_salamander_english_imagegen_2026-09-08.png`; user-adopted v4 companion.
-- Visual scope: one broad-headed olive-brown adult in a Sardinian stream, an initial jaw-grip pair, small eggs with a developed larva, and exactly three illustrated cards.
-- Artifacts: four canonical 1024x1536 PNGs, two primary X posting sets and eight synchronized sidecars. Full-size and phone-size review, direct-source, X-format and package validators pass.
-- Naming caveat: no established standard Japanese common name was confirmed; サルデーニャ・イモリ is a transparent rendering. Pair and egg/larva scenes are qualitative illustrations, not measured anatomical plates.
+- Package: `2026-09-09-seychelles-sheath-tailed-bat`.
+- Topic: Seychelles Sheath-tailed Bat / セーシェルサシオコウモリ / *Coleura seychellensis*.
+- Region: Mahé and Silhouette, Seychelles / western Indian Ocean / Africa.
+- Editorial classification group: Mammals.
+- State: `completed, local-ready`.
+- Selected Japanese source: `seychelles_sheath_tailed_bat_japanese_imagegen_2026-09-09.png`; user-requested full redraw followed by one Card 1 heading-placement edit.
+- Selected English source: `seychelles_sheath_tailed_bat_english_imagegen_2026-09-09.png`; full redraw from the accepted Japanese replacement.
+- Visual scope: one compact dark-brown bat hangs beneath a horizontal granite ceiling with wings fully folded and two feet attached; exactly three illustrated cards cover roost ceiling, flight corridor and nocturnal insects without additional bat figures.
+- Artifacts: four canonical 1024x1536 PNGs, two primary X posting sets and eight synchronized sidecars. Full-size and phone-size review, direct-source, X-format, package, pixel-identity and whitespace checks pass.
+- Naming caveat: セーシェルサシオコウモリ is database-backed but not claimed as a formally standardized Japanese mammal-list name. Tail-sheath detail is not used as a public card claim because the retained photographs do not resolve it clearly.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-09-01 — Africa — Nimba Otter-shrew
-2. 2026-09-02 — Oceania — Fischer's Egg
-3. 2026-09-03 — Africa and the western Indian Ocean — Café marron
-4. 2026-09-04 — Oceania — Oʻahu Tree Snail
-5. 2026-09-05 — Caribbean — Union Island Gecko
-6. 2026-09-06 — South America — Blue-eyed Ground Dove
-7. 2026-09-07 — Western Asia — Acigöl Killifish
-8. 2026-09-08 — Europe — Sardinian Brook Salamander
+1. 2026-09-02 — Oceania — Fischer's Egg
+2. 2026-09-03 — Africa and the western Indian Ocean — Café marron
+3. 2026-09-04 — Oceania — Oʻahu Tree Snail
+4. 2026-09-05 — Caribbean — Union Island Gecko
+5. 2026-09-06 — South America — Blue-eyed Ground Dove
+6. 2026-09-07 — Western Asia — Acigöl Killifish
+7. 2026-09-08 — Europe — Sardinian Brook Salamander
+8. 2026-09-09 — Africa and the western Indian Ocean — Seychelles Sheath-tailed Bat
 
 Africa two, Oceania two, Caribbean one, South America one, Western Asia one, Europe one.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-09-01 — Mammals — Nimba Otter-shrew
-2. 2026-09-02 — Fungi and lichens — Fischer's Egg
-3. 2026-09-03 — Plants — Café marron
-4. 2026-09-04 — Other invertebrates — Oʻahu Tree Snail
-5. 2026-09-05 — Reptiles — Union Island Gecko
-6. 2026-09-06 — Birds — Blue-eyed Ground Dove
-7. 2026-09-07 — Fishes — Acigöl Killifish
-8. 2026-09-08 — Amphibians — Sardinian Brook Salamander
+1. 2026-09-02 — Fungi and lichens — Fischer's Egg
+2. 2026-09-03 — Plants — Café marron
+3. 2026-09-04 — Other invertebrates — Oʻahu Tree Snail
+4. 2026-09-05 — Reptiles — Union Island Gecko
+5. 2026-09-06 — Birds — Blue-eyed Ground Dove
+6. 2026-09-07 — Fishes — Acigöl Killifish
+7. 2026-09-08 — Amphibians — Sardinian Brook Salamander
+8. 2026-09-09 — Mammals — Seychelles Sheath-tailed Bat
 
 Each listed group occupies one slot; Insects is absent. Rotation is only a tie-breaker after full-history duplicate and evidence screening.
 
 ## Daily Quality Loop
 
-- The focused four-image IUCN identity bundle took about 25 minutes despite exact asset selection.
-- The first successful local bundle was retained; the three adult views were reused for both languages and the juvenile view stayed variation evidence only.
-- Original first-pass and v2 visual approvals were withdrawn after user review. The user explicitly adopted v4 after confirming the infographic was posted to X.
-- Repeated asset-bundling friction triggered one policy refinement: begin with at most three role-distinct exact-taxon images, adding a fourth only for material sex, age, or stage variation.
+- The focused two-image IUCN identity bundle took about 17 minutes despite exact asset selection; this is the first recurrence after the latest workflow-friction counter reset.
+- The first successful local copies were retained and reused for both languages; no repeated export was attempted.
+- The Japanese first pass exposed an ambiguous central wing overlap. One localized edit corrected only the hero anatomy while preserving the locked text and cards; the English companion used that corrected composition.
+- Tomorrow: keep the initial exact-taxon bundle role-distinct and minimal, then prefer the first successful local copies for both languages.
+- User review later rejected that apparent correction because the hero and Card 1 still contained branching wing/leg/membrane shapes. Four PNGs were recycled and both languages were fully redrawn with folded wings and no card bats; the earlier visual acceptance is superseded.
 
 ## Next Concrete Change
 
-- Preserve the user-adopted Sardinian Brook Salamander v4 artwork and local references; do not reopen generation without user direction.
-- Preserve the package as `completed, published`. No unfinished package remains.
+- Preserve the user-requested Seychelles Sheath-tailed Bat full redraws and local references; do not reopen generation without user direction.
+- Preserve the package as `completed, local-ready`. No unfinished package remains, and GitHub/X publication still requires explicit user direction.
 - Begin with at most three role-distinct exact-taxon images; add a fourth only when sex, age, or stage variation materially changes the visual lock, and never repeat a slow export once the first local set is usable.
 - Use x-post-ja.md / x-post-en.md as primary posting sets; sidecars are synchronized backups.
 - Production rules are centralized in automation-2-production-policy.md;
