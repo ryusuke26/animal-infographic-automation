@@ -1620,3 +1620,13 @@ Improvement Resolution
 - User questioned whether the species rests with all four limbs and its abdomen against the ceiling. Primary behavioral studies distinguish ordinary rest by the hind limbs only from four-limb ceiling contact during alert behaviour and movement; no inspected source states that the abdomen contacts the ceiling during rest.
 - After this evidence distinction was explained, the user accepted the current folded-wing, hind-foot hanging Japanese and English posters.
 - Package remains `completed, local-ready`; nothing was posted or published.
+
+## 2026-09-09 — Seychelles Sheath-tailed Bat GitHub closeout
+
+Daily Quality Loop
+- issue: the accepted package remained `completed, local-ready` after visual and posture review
+- priority: preserve the explicit boundary between local completion and GitHub publication
+- tags: #github-closeout #published #scoped-commit
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, sidecar, package, pixel-identity and whitespace checks; committed the scoped package and workflow records as `d673a93`, pushed to `origin/master`, and verified remote `refs/heads/master` at `d673a930b8787ea2e9eb9d125bfab0cd87699156` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata

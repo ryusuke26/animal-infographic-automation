@@ -11,7 +11,7 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Active package: none.
 - Unfinished visual gate: none after the user's explicit adoption and X-post confirmation.
 - Latest package: `2026-09-09-seychelles-sheath-tailed-bat`.
-- Latest state: `completed, local-ready`; nothing was posted to X or published to GitHub.
+- Latest state: `completed, published`; package content commit `d673a930b8787ea2e9eb9d125bfab0cd87699156` is verified on GitHub. Nothing was posted to X.
 - Latest evidence: directly inspected current IUCN record T5112A271898609, Global CR under C2a(i), assessed 13 December 2024 and published in 2025; Mammal Diversity Database, Gerlach 2006 and two exact-taxon IUCN photographs support naming, boulder-cave roosts, clear cave flyways, insect diet and the visible identity lock.
 - Latest visual result: user review rejected the earlier canonical pair for branching wing/leg/membrane anatomy. Those four PNGs were moved to the Windows Recycle Bin. The replacements use one bat with both wings fully folded, exactly two ceiling-gripping feet and no additional bats in the cards; both languages pass full-size and phone-size review. After a primary-source posture check distinguished hind-limb rest from four-limb alert/movement, the user explicitly accepted the current posters.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -22,7 +22,7 @@ This state supersedes the Research Reset and earlier premature acceptance.
 - Topic: Seychelles Sheath-tailed Bat / セーシェルサシオコウモリ / *Coleura seychellensis*.
 - Region: Mahé and Silhouette, Seychelles / western Indian Ocean / Africa.
 - Editorial classification group: Mammals.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `seychelles_sheath_tailed_bat_japanese_imagegen_2026-09-09.png`; user-requested full redraw followed by one Card 1 heading-placement edit.
 - Selected English source: `seychelles_sheath_tailed_bat_english_imagegen_2026-09-09.png`; full redraw from the accepted Japanese replacement.
 - Visual scope: one compact dark-brown bat hangs beneath a horizontal granite ceiling with wings fully folded and two feet attached; exactly three illustrated cards cover roost ceiling, flight corridor and nocturnal insects without additional bat figures.
@@ -66,7 +66,7 @@ Each listed group occupies one slot; Insects is absent. Rotation is only a tie-b
 ## Next Concrete Change
 
 - Preserve the user-requested Seychelles Sheath-tailed Bat full redraws and local references; do not reopen generation without user direction.
-- Preserve the package as `completed, local-ready`. No unfinished package remains, and GitHub/X publication still requires explicit user direction.
+- Preserve the package as `completed, published`. No unfinished package remains; X publication still requires explicit user direction.
 - Begin with at most three role-distinct exact-taxon images; add a fourth only when sex, age, or stage variation materially changes the visual lock, and never repeat a slow export once the first local set is usable.
 - Use x-post-ja.md / x-post-en.md as primary posting sets; sidecars are synchronized backups.
 - Production rules are centralized in automation-2-production-policy.md;

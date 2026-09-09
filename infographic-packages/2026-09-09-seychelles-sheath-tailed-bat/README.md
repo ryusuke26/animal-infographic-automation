@@ -1,6 +1,6 @@
 # Seychelles Sheath-tailed Bat bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -51,5 +51,5 @@ Broad native region: Mahé and Silhouette, Seychelles / western Indian Ocean
 - User review rejected the previous Japanese and English posters for broken anatomy. All four former canonical PNGs were moved to the Windows Recycle Bin and remain recoverable; copy, evidence and posting text were preserved.
 - The replacement concept uses one side-three-quarter hero with both wings fully folded and exactly two feet gripping the ceiling. The cards use habitat/prey spot art without additional bat figures.
 - The Japanese full redraw needed one text-placement edit to move Card 1's heading into its card; the accepted hero anatomy and other content were preserved. The English companion was then redrawn from that accepted composition.
-- Both direct and posting PNGs are exact 1024 x 1536 cards-v2 posters. Direct-source, X-format, package, pixel-identity, full-size, phone-size and whitespace checks pass. Nothing was posted or published.
+- Both direct and posting PNGs are exact 1024 x 1536 cards-v2 posters. Direct-source, X-format, package, pixel-identity, full-size, phone-size and whitespace checks pass. Published to GitHub in package content commit `d673a930b8787ea2e9eb9d125bfab0cd87699156`; no X posting was performed.
 - On 2026-09-09 the user accepted the current posters after a primary-source posture check confirmed that ordinary rest is vertical hanging by the hind limbs; four-limb ceiling contact is documented separately as alert behaviour and ceiling movement.
