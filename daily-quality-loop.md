@@ -1645,3 +1645,13 @@ Improvement Resolution
 - tag: #workflow-friction
 - count_since_last_fix: two recurrences after the 2026-09-08 counter reset
 - threshold: not met; no production-policy change this run
+
+## 2026-09-10 — Canterbury Knobbled Weevil GitHub closeout
+
+Daily Quality Loop
+- issue: the accepted package remained `completed, local-ready` after the Quality Run
+- priority: preserve the explicit boundary between local completion and GitHub publication
+- tags: #github-closeout #published #scoped-commit
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, sidecar, package, pixel-identity and diff checks; committed the scoped package and workflow records as `e194fa9`, pushed to `origin/master`, and verified remote `refs/heads/master` at `e194fa928f22fe191524a62e45ba7a865511fad1` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata

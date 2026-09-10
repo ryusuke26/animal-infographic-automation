@@ -1,6 +1,6 @@
 # Canterbury Knobbled Weevil bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -50,4 +50,4 @@ Broad native region: Canterbury, South Island, Aotearoa New Zealand / Oceania
 - The 2013 IUCN population number and one-location account are not repeated publicly because the official assessment predates the second population reported by New Zealand's Department of Conservation in December 2024.
 - The Japanese first generation and English first-generation companion were accepted without retries. Both keep one dominant adult, exact cards-v2 copy and three unequal numbered illustrated cards.
 - Four canonical PNGs are exact 1024 x 1536. Direct-source, X-format, package, pixel-identity, full-size, phone-size, anatomy, false-silhouette, typography, card, composition and whitespace QA pass.
-- Completed locally without Git, GitHub or X mutation. GitHub closeout and publication remain separate actions requiring explicit direction.
+- Published to GitHub in package content commit `e194fa928f22fe191524a62e45ba7a865511fad1`; nothing was posted to X.

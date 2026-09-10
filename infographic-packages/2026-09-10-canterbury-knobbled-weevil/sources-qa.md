@@ -96,4 +96,4 @@ The Canterbury Knobbled Weevil ranks first for the record-gap rediscovery, a com
 - Card and text review: exactly three unequal numbered cards each contain a heading, explanation and species-specific diagram. All nine locked strings are exact and readable at full size and 360 x 540 phone review.
 - Composition: the diagonal speargrass blade connects the hero to the Canterbury high-country habitat; cards progress from rediscovery to life cycle to flightless form without adding another complete adult.
 - Caveat: the posters illustrate qualitative identity and life history, not individual size, sex, population size or a measured anatomical plate. The old IUCN population/location fields are not visualized.
-- Current state: `completed, local-ready`. Nothing was posted to X or published to GitHub.
+- Current state: `completed, published`. Package content was published to GitHub in commit `e194fa928f22fe191524a62e45ba7a865511fad1`; nothing was posted to X.

@@ -9,7 +9,7 @@ Updated: 2026-09-10T21:36:21+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-10-canterbury-knobbled-weevil`.
-- Latest state: `completed, local-ready`; Git and GitHub were not mutated, and nothing was posted to X.
+- Latest state: `completed, published`; package content commit `e194fa928f22fe191524a62e45ba7a865511fad1` was pushed to `origin/master` and its remote ref was verified before this state change. Nothing was posted to X.
 - Latest evidence: directly inspected current IUCN record `T39307A21424332`, Global CR under B1ab(v)+2ab(v), assessed 19 December 2013 and marked `Needs updating`; New Zealand DOC's 2024 record confirms a second population and supersedes the old one-location context for public interpretation.
 - Latest visual result: both first-pass posters were accepted. One stout grey-brown weevil walks naturally on speargrass with a short down-curved rostrum, paired elbowed antennae, closed knobbled wing cases and coherent six-leg topology; exactly three illustrated cards carry the locked explanations.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -20,7 +20,7 @@ Updated: 2026-09-10T21:36:21+09:00
 - Topic: Canterbury Knobbled Weevil / カンタベリー・コブゾウムシ / *Hadramphus tuberculatus*.
 - Region: Canterbury, South Island, Aotearoa New Zealand / Oceania.
 - Editorial classification group: Insects.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `canterbury_knobbled_weevil_japanese_imagegen_2026-09-10.png`; first generation, no retry.
 - Selected English source: `canterbury_knobbled_weevil_english_imagegen_2026-09-10.png`; first companion generation from the accepted Japanese composition, no retry.
 - Visual scope: one dominant adult on a diagonal speargrass blade; three cards cover the 1922-to-2004 rediscovery, adult-versus-larval speargrass feeding and the flightless knobbled form without another complete adult.
@@ -63,7 +63,7 @@ Each listed group occupies one slot; Fungi and lichens is absent. Rotation remai
 
 ## Next Concrete Change
 
-- Preserve the Canterbury Knobbled Weevil package as `completed, local-ready`; GitHub closeout and X publication remain separate and require explicit direction.
+- Preserve the Canterbury Knobbled Weevil package as `completed, published`; GitHub closeout is complete, while X publication remains separate and requires explicit direction.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the 2013 IUCN `Needs updating` caveat and do not reintroduce its obsolete one-location or 138-mature-individual fields into public copy.
 - The next new package should screen Fungi and lichens only as a tie-breaker after mission, evidence, naming and visual viability.
