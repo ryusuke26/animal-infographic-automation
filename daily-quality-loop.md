@@ -1630,3 +1630,18 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran direct-source, sidecar, package, pixel-identity and whitespace checks; committed the scoped package and workflow records as `d673a93`, pushed to `origin/master`, and verified remote `refs/heads/master` at `d673a930b8787ea2e9eb9d125bfab0cd87699156` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-10 — Canterbury Knobbled Weevil local-ready completion
+
+Daily Quality Loop
+- issue: two focused official exact-taxon bundles took about six and a half minutes despite containing only three selected images
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the browser asset bundler remained slow for both the single DOC image and the two-image IUCN set
+- next_action: retained the first successful three role-distinct references, stopped acquisition, and completed both first-pass posters plus all visual and mechanical QA without an image retry
+- tomorrow_change: when current official pages already expose exact asset URLs, prefer one focused IUCN bundle and omit a lower-resolution duplicate source
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: two recurrences after the 2026-09-08 counter reset
+- threshold: not met; no production-policy change this run
