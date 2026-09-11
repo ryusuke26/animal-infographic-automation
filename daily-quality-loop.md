@@ -1655,3 +1655,22 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran direct-source, sidecar, package, pixel-identity and diff checks; committed the scoped package and workflow records as `e194fa9`, pushed to `origin/master`, and verified remote `refs/heads/master` at `e194fa928f22fe191524a62e45ba7a865511fad1` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-11 — Barbie Pagoda local-ready completion
+
+Daily Quality Loop
+- issue: one of three selected GFRLI assets was a range-analysis screenshot rather than an identity photograph, while the focused bundle still took about three minutes and twenty-five seconds
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #asset-screening #local-ready
+- cause: the asset name was species-specific but the visible thumbnail had not been checked before bundling
+- next_action: retained the first two role-distinct exact-taxon photographs, stopped acquisition, reused them for both languages and completed all visual and mechanical QA without another export
+- tomorrow_change: inspect exposed asset names and visible thumbnails before bundling so maps, threat images and logos do not consume the identity-image cap
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: three recurrences after the 2026-09-08 counter reset
+- threshold: met
+- improvement_applied: production policy now requires excluding range maps, threat photographs, logos and other non-identity assets from the capped bundle by checking both asset name and visible thumbnail
+- files_changed: automation-2-production-policy.md, Daily Quality Loop, current state, package README, Sources QA, INDEX and Automation memory
+- validation: both direct-source gates, bilingual X format, full package QA, 1024x1536 dimension checks, pixel identity, full-size and phone-size visual review, growth-form, false-silhouette, card, typography, composition and whitespace checks passed
+- counter_reset: yes

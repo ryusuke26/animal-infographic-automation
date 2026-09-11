@@ -241,6 +241,8 @@ may naturally hide. Reuse the first usable local reference set; do not repeatedl
 export it or perform a large gallery export when one focused set suffices.
 Limit the initial exact-taxon bundle to three role-distinct images; add a fourth
 only when documented sex, age, or stage variation materially changes the visual lock.
+Before bundling, use the exposed asset name and visible thumbnail to exclude range
+maps, threat photographs, logos and other non-identity assets from that cap.
 
 Only a visually high-risk species may use one optional text-free identity
 anchor before the Japanese poster. Validate the anchor against real references;
