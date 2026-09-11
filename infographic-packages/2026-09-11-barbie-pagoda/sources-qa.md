@@ -96,4 +96,4 @@ Full-history fixed-string searches covered *Podoserpula miranda*, Barbie Pagoda,
 - Card and text review: exactly three unequal numbered cards contain their locked heading, explanation and species-specific spot diagram. Japanese Card 1's extra initial annotations are absent. All nine locked strings are present and readable at full size and 360 x 540 phone review.
 - Composition: the wet trunk and leaf litter establish the habitat and scale; cards progress from stacked structure to rainfall-triggered fruiting to trunk-base occurrence without displacing the hero.
 - Mechanical QA: direct-source, X-format, package, pixel-identity, dimensions and whitespace checks pass.
-- Current state: `completed, local-ready`. Git, GitHub and X were not mutated.
+- Current state: `completed, published`. Package content commit `9829ea5666422220e35d5e482842389dc982df2d` was pushed to `origin/master` and the remote ref was verified before this state change. Nothing was posted to X.

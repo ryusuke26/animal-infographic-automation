@@ -1,6 +1,6 @@
 # Barbie Pagoda bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -52,4 +52,4 @@ Broad native region: southern Grande Terre, New Caledonia / Oceania
 - The Japanese first generation passed the source gate but added two duplicate labels inside Card 1's diagram. One localized Image Gen edit removed only those labels; the accepted source preserves the hero, all nine locked strings and the three card illustrations.
 - The English first companion passed the source gate. One localized typography review edit was made after the handwritten font drew the two Card 3 apostrophes with a curved shape; the accepted image keeps the correct spellings and punctuation positions while preserving the whole composition.
 - Four canonical PNGs are exact 1024 x 1536 and pixel-identical within language. Direct-source, X-format, package, full-size, phone-size, attachment, growth-form, false-silhouette, typography, card, composition and whitespace QA pass.
-- The exact selected prompts are [image-prompt-ja.md](image-prompt-ja.md) and [image-prompt-en.md](image-prompt-en.md). Git, GitHub and X were not mutated.
+- The exact selected prompts are [image-prompt-ja.md](image-prompt-ja.md) and [image-prompt-en.md](image-prompt-en.md). Published to GitHub in package content commit `9829ea5`; nothing was posted to X.

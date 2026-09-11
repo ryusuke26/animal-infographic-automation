@@ -140,6 +140,7 @@ Improvement Resolution
 - files_changed:
 - validation:
 - counter_reset: yes
+
 ```
 
 After `counter_reset: yes`, later occurrences begin again at 1. Counts are by
@@ -1674,3 +1675,13 @@ Improvement Resolution
 - files_changed: automation-2-production-policy.md, Daily Quality Loop, current state, package README, Sources QA, INDEX and Automation memory
 - validation: both direct-source gates, bilingual X format, full package QA, 1024x1536 dimension checks, pixel identity, full-size and phone-size visual review, growth-form, false-silhouette, card, typography, composition and whitespace checks passed
 - counter_reset: yes
+
+## 2026-09-11 — Barbie Pagoda GitHub closeout
+
+Daily Quality Loop
+- issue: the accepted package remained `completed, local-ready` after the Quality Run
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, sidecar, package and diff checks; committed the scoped package and workflow records as `9829ea5`, pushed to `origin/master`, and verified remote `refs/heads/master` at `9829ea5666422220e35d5e482842389dc982df2d` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
