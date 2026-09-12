@@ -1632,6 +1632,21 @@ Daily Quality Loop
 - next_action: reran direct-source, sidecar, package, pixel-identity and whitespace checks; committed the scoped package and workflow records as `d673a93`, pushed to `origin/master`, and verified remote `refs/heads/master` at `d673a930b8787ea2e9eb9d125bfab0cd87699156` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
 
+## 2026-09-12 — Wood's Cycad local-ready completion
+
+Daily Quality Loop
+- issue: one correctly screened three-image Kew identity bundle took about eight and a half minutes
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #localized-image-edit #local-ready
+- cause: the browser asset bundler remained slow even after visible thumbnails and filenames had isolated the whole-plant, leaf-crown and pollen-cone roles
+- next_action: retained the first successful local copies, reused them for both languages, and applied one localized edit per language to remove a redundant standalone `1916` without reopening Copy Lock or composition
+- tomorrow_change: when visible thumbnails already establish the three identity roles, keep one focused bundle, stop after the first usable local copies and avoid a repeat export
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: one recurrence after the 2026-09-11 counter reset
+- threshold: not met; no production-policy change this run
+
 ## 2026-09-10 — Canterbury Knobbled Weevil local-ready completion
 
 Daily Quality Loop
