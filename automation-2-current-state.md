@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-12T10:30:48+09:00
+Updated: 2026-09-12T13:04:11+09:00
 
 ## Workflow
 
@@ -9,7 +9,7 @@ Updated: 2026-09-12T10:30:48+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-12-woods-cycad`.
-- Latest state: `completed, local-ready`. Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `2eb9f9f9d7164bdbb112c08c4e56cc2674d74f8b` was pushed to `origin/master` and its remote ref was verified before this state change. Nothing was posted to X.
 - Latest evidence: the directly inspected current IUCN record `T41881A243434007` confirms Global Extinct in the Wild (EW), assessed 20 May 2020. Kew POWO and SANBI support the single original male lineage, clonal cultivated descendants and last wild transfer by 1916.
 - Latest visual result: both posters show one mature male cycad in a botanic-garden glasshouse, with a broad old-leaf-base-armored trunk, radial pinnate crown, six upright orange pollen cones and exactly three numbered illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -20,7 +20,7 @@ Updated: 2026-09-12T10:30:48+09:00
 - Topic: Wood's Cycad / ウッドオニソテツ / *Encephalartos woodii*.
 - Region: oNgoye Forest, KwaZulu-Natal, South Africa / Africa.
 - Editorial classification group: Plants.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `woods_cycad_japanese_imagegen_2026-09-12.png`; one localized edit removed a redundant standalone `1916` from Card 3.
 - Selected English source: `woods_cycad_english_imagegen_2026-09-12.png`; one matching localized edit removed the redundant label while preserving the year in the explanation.
 - Visual scope: one cultivated mature male; three cards cover clonal continuation from one original male, upright orange pollen cones and the transition from the vanished wild occurrence to botanic-garden cultivation.
@@ -63,7 +63,7 @@ Each listed group occupies one slot. Rotation remains only a tie-breaker after d
 
 ## Next Concrete Change
 
-- Preserve the Wood's Cycad package as `completed, local-ready`; GitHub publication and X posting remain separate and require explicit direction.
+- Preserve the Wood's Cycad package as `completed, published`; GitHub closeout is complete, while X posting remains separate and requires explicit direction.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the Global EW 2020 wording and do not revive the older CR record or use publication/errata year in the public footer.
 - The next new package should recalculate both latest-eight rotations; no editorial group is currently absent.

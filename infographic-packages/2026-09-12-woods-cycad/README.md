@@ -1,6 +1,6 @@
 # Wood's Cycad bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -50,4 +50,4 @@ Broad native region: oNgoye Forest, KwaZulu-Natal, South Africa / Africa
 - The focused Kew bundle took about eight and a half minutes. No map, logo, herbarium sheet or duplicate crop was included, and the first usable bundle will be reused for both languages.
 - The first Japanese and English generations preserved identity, composition and all locked copy, but each added a redundant standalone `1916` inside Card 3's illustration. One localized Image Gen edit per language removed only that label; the required year remains in each Card 3 explanation.
 - Four canonical PNGs are exact 1024 x 1536 and pixel-identical within language. Direct-source, X-format, package, full-size, phone-size, growth-form, false-silhouette, typography, card, composition and whitespace QA pass.
-- The exact selected prompts are [image-prompt-ja.md](image-prompt-ja.md) and [image-prompt-en.md](image-prompt-en.md). The package is complete and local-ready; Git, GitHub and X were not mutated.
+- The exact selected prompts are [image-prompt-ja.md](image-prompt-ja.md) and [image-prompt-en.md](image-prompt-en.md). Published to GitHub in package content commit `2eb9f9f`; nothing was posted to X.

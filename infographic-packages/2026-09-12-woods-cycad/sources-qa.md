@@ -86,4 +86,4 @@ Full-history fixed-string searches covered *Encephalartos woodii*, *Encephalarto
 - Identity review: the hero keeps a broad old-leaf-base-armored trunk, radiating stiff pinnate fronds, narrow paired leaflets and centrally attached pollen cones. No palm fruit, hanging cones, female plant, seed, detached card specimen or surviving wild plant appears.
 - Copy review: titles, scientific name, six card strings and the IUCN footer match each language's Copy Lock. The only additional text-like layout elements are the three card numbers.
 - Delivery QA: four canonical PNGs are exact 1024 x 1536 and pixel-identical within language. Both direct-source gates, sidecar synchronization, bilingual X-format, full package, full-size, 360 x 540 phone-size, growth-form, false-silhouette, typography, card, composition and whitespace checks pass.
-- Final state: `completed, local-ready`. Git, GitHub and X were not mutated.
+- Final state: `completed, published`. Package content commit `2eb9f9f` was pushed to `origin/master` and the remote ref was verified before this metadata update. Nothing was posted to X.
