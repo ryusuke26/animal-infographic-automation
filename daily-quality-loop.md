@@ -1710,3 +1710,18 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran both direct-source gates, sidecar synchronization, full package QA and diff checks; committed the scoped package and workflow records as `2eb9f9f`, pushed to `origin/master`, and verified remote `refs/heads/master` at `2eb9f9f9d7164bdbb112c08c4e56cc2674d74f8b` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-13 — Negros Bleeding-heart local-ready completion
+
+Daily Quality Loop
+- issue: one correctly screened single-image BirdLife identity bundle took about 14 minutes
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #first-pass-visual #local-ready
+- cause: the browser asset bundler remained slow even after the exact 750x750 species image was isolated by visible thumbnail and filename
+- next_action: retained the first successful local copy, used Curio's primary morphology paper to close the remaining identity details, stopped acquisition, and accepted both first-pass posters after full visual and mechanical QA
+- tomorrow_change: stop after the first usable exact-taxon photo when a primary paper settles the remaining visual lock
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: two recurrences after the 2026-09-11 counter reset
+- threshold: not met; no production-policy change this run
