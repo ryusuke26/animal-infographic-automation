@@ -1,6 +1,6 @@
 # Negros Bleeding-heart bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -60,4 +60,4 @@ Broad native region: Panay and Negros, Western Visayas, Philippines / Southeast 
 - The posters do not drift into a Luzon, Mindanao or Mindoro bleeding-heart, generic city pigeon, broad round heart patch, wound, detached wing or bill, duplicated hero or invented limb.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, card, composition, typography and species-identity QA pass.
-- State is `completed, local-ready`. Git, GitHub and X were not mutated.
+- State is `completed, published`. Published to GitHub in package content commit `e8debdd`; the remote ref was verified before this metadata update. Nothing was posted to X.

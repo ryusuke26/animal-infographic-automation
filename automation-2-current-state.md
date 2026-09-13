@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-13T19:55:17+09:00
+Updated: 2026-09-14T04:51:10+09:00
 
 ## Workflow
 
@@ -9,7 +9,7 @@ Updated: 2026-09-13T19:55:17+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-13-negros-bleeding-heart`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `e8debdd0939b90f094f1e366ce2e1a0cd2a685ff` was pushed to `origin/master` and its remote ref was verified before this state change. Nothing was posted to X.
 - Latest evidence: the directly inspected current IUCN record `T22690988A181469833` confirms Global Critically Endangered (CR) under C2a(i), assessed 11 August 2020. BirdLife, Curio 2001 and Mynott et al. 2021 support the exact identity, narrow red breast patch, leaf-litter foraging and dense understorey/canopy association.
 - Latest visual result: both posters show one stocky green, white and chestnut ground dove walking through dense Philippine forest, with one narrow vertical red breast patch, two white folded-wing arcs, two coherent pink-red legs and exactly three numbered illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -20,7 +20,7 @@ Updated: 2026-09-13T19:55:17+09:00
 - Topic: Negros Bleeding-heart / ネグロスヒムネバト / *Gallicolumba keayi*.
 - Region: Panay and Negros, Western Visayas, Philippines / Southeast Asia.
 - Editorial classification group: Birds.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `negros_bleeding_heart_japanese_imagegen_2026-09-13.png`; first generation, no retry.
 - Selected English source: `negros_bleeding_heart_english_imagegen_2026-09-13.png`; first companion generation, no retry.
 - Visual scope: one adult ground dove in a natural walking pose; three cards cover the narrow breast line, leaf-litter foraging and dense understorey/canopy association.
@@ -63,7 +63,7 @@ Birds occupy two slots; Fishes, Amphibians, Mammals, Insects, Fungi and lichens,
 
 ## Next Concrete Change
 
-- Preserve the Negros Bleeding-heart package as `completed, local-ready`; GitHub closeout and X posting remain separate and require explicit direction.
+- Preserve the Negros Bleeding-heart package as `completed, published`; GitHub closeout is complete, while X posting remains separate and requires explicit direction.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the Global CR 2020 wording and do not substitute the 2021 publication year or add the old mature-individual estimate to public copy.
 - The next new package should recalculate both latest-eight rotations; Reptiles and Other invertebrates are currently absent, but rotation remains only a tie-breaker.
