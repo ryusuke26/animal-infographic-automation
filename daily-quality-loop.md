@@ -1735,3 +1735,40 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran both direct-source gates, bilingual X-format, full package, dimension and diff checks; committed the scoped package and workflow records as `e8debdd`, pushed to `origin/master`, and verified remote `refs/heads/master` at `e8debdd0939b90f094f1e366ce2e1a0cd2a685ff` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-14T20:04:28+09:00 — Nguru Spiny Pygmy Chameleon Quality Run completed
+
+- Completed `2026-09-14-nguru-spiny-pygmy-chameleon` for Nguru Spiny Pygmy Chameleon / ヌグルコノハカメレオン / *Rhampholeon acuminatus*. Full-history accepted-name, subgeneric-combination, documented-misspelling, English-alias, Japanese-rendering and slug searches found no completed or retired collision; earlier occurrences were candidate-only.
+- Screened Nguru Spiny Pygmy Chameleon, Central Rock-rat and Kauaʻi Cave Wolf Spider. The selected chameleon ranked first for its visible nose-and-dorsal-points doorway, directly inspectable current IUCN record, complementary morphology/behaviour paper and two exact-taxon references; Reptiles being absent from the previous latest eight was only the final tie-breaker.
+- The directly inspected current IUCN record `T172524A1344202` confirms Global CR under B1ab(iii,v), assessed 21 August 2013 and marked Needs updating. ITIS, Redbond et al. 2021, the original description and Tiergarten Schonbrunn support the accepted name, roughly seven-centimetre adult-male scale, larger downward male rostral extension, pointed head/back scales, crepuscular activity and use of leaf litter and low vegetation.
+- ヌグルコノハカメレオン is a published specialist rendering, not a claimed standardized national-list name. No population number is used.
+- Two visibly screened Tiergarten Schonbrunn photographs lock robust and slender adult proportions, the male rostral process, low dorsal crest, granular green-brown pattern, grasping feet and tapered tail. One targeted Japanese text-only retry removed an invalid extra title line; the first English companion passed without retry.
+- Four canonical PNGs are exact `1024x1536` and pixel-identical within language. Eight UTF-8 sidecars and direct-source, X-format, package, full-size/phone-size, anatomy, false-silhouette, typography, card, composition and whitespace QA pass.
+- Package, INDEX, current state, Daily Quality Loop and Automation memory are synchronized at `completed, local-ready`. Git, GitHub and X were not mutated. Current run time: 2026-09-14T20:04:28+09:00.
+
+Daily Quality Loop
+- issue: one correctly screened two-image Tiergarten Schonbrunn identity bundle took about 25 minutes
+- priority: ops-friction
+- tags: #workflow-friction #official-visual-reference #localized-image-edit #local-ready
+- cause: browser asset bundling remained slow after both visible carousel targets and filenames had isolated the two necessary identity roles
+- next_action: retained the first successful local copies for both languages, stopped acquisition, used one bounded Japanese text-only retry and completed all visual and mechanical QA
+- tomorrow_change: preserve the existing one-bundle and first-usable-copy cap; record external latency without weakening the identity evidence gate
+
+Improvement Resolution
+- tag: #workflow-friction
+- count_since_last_fix: three recurrences after the 2026-09-11 counter reset
+- threshold: met
+- improvement_applied: documented a policy no-op because the current production policy already requires one focused role-distinct bundle, first-usable-copy reuse and immediate stop; another rule would duplicate the existing deterministic bound
+- files_changed: Daily Quality Loop, current state, package README, Sources QA, INDEX and Automation memory; production policy unchanged
+- validation: both direct-source gates, bilingual X format, full package QA, exact 1024x1536 dimensions, within-language pixel identity, full-size and phone-size visual review, anatomy, false-silhouette, card, typography, composition and whitespace checks passed
+- counter_reset: yes
+
+## 2026-09-14T20:14:31+09:00 — Nguru chameleon rejected-image cleanup
+
+Daily Quality Loop
+- issue: the completed package retained one rejected Japanese first-attempt audit PNG, while its hash-identical source remained in the Image Gen cache
+- priority: cleanup
+- tags: #rejected-image-cleanup #selected-poster-preservation #local-ready
+- cause: the invalid-title first attempt was intentionally preserved until the user explicitly requested cleanup
+- next_action: hash-protected the accepted Japanese and English direct sources, verified both rejected copies as the same SHA-256 `554DECDA2E6C06A312FD6181F1E1E52D14A18C62A81FFA3EB866BAFA48B5FDB5`, and moved exactly those two files to the Windows Recycle Bin
+- tomorrow_change: continue retaining failed art only until explicit cleanup, then recycle exact hash-matched targets without touching canonical posters or biological evidence
