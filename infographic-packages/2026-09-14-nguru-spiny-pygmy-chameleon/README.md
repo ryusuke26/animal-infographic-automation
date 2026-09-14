@@ -1,6 +1,6 @@
 # Nguru Spiny Pygmy Chameleon bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -61,4 +61,4 @@ Broad native region: Nguru Mountains, Tanzania / East Africa
 - The posters do not drift into a tall-casqued or bright-banded large chameleon, a horned chameleon, generic iguana, tightly coiled tail, detached limb, duplicated hero or invented text.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set.
 - Direct-source, bilingual X-format, full-package, dimension, pixel-identity, card, composition, typography and species-identity QA pass.
-- State is `completed, local-ready`. Git, GitHub and X were not mutated.
+- State is `completed, published`. Package content commit `c6f3c8f` was pushed to `origin/master`, and the remote ref was verified at `c6f3c8fb91f9778592cca8510f8adcfeda1c2297` before this metadata update. Nothing was posted to X.

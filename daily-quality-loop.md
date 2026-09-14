@@ -1772,3 +1772,13 @@ Daily Quality Loop
 - cause: the invalid-title first attempt was intentionally preserved until the user explicitly requested cleanup
 - next_action: hash-protected the accepted Japanese and English direct sources, verified both rejected copies as the same SHA-256 `554DECDA2E6C06A312FD6181F1E1E52D14A18C62A81FFA3EB866BAFA48B5FDB5`, and moved exactly those two files to the Windows Recycle Bin
 - tomorrow_change: continue retaining failed art only until explicit cleanup, then recycle exact hash-matched targets without touching canonical posters or biological evidence
+
+## 2026-09-14T21:45:46+09:00 — Nguru chameleon GitHub closeout
+
+Daily Quality Loop
+- issue: the accepted package remained `completed, local-ready` after production and rejected-image cleanup
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran both direct-source gates, sidecar synchronization, full package, dimension, pixel-identity and diff checks; committed the scoped package and workflow records as `c6f3c8f`, pushed to `origin/master`, and verified remote `refs/heads/master` at `c6f3c8fb91f9778592cca8510f8adcfeda1c2297` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata

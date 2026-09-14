@@ -96,4 +96,4 @@ The Nguru Spiny Pygmy Chameleon ranks first for international unfamiliarity, a s
 - Both selected posters are exact `1024x1536` full-bleed 2:3 images with no blank edge. The direct-source gates passed before normalization, and posting PNGs are pixel-identical to their accepted direct sources.
 - Full-size and `360x540` phone-size review confirmed all nine strings per language, exactly three numbered illustrated cards, coherent organism-free habitat art in Card 3, readable hierarchy and no unsafe crop.
 - Species-specific review confirmed the low laterally compressed leaf-like body, broad downward rostral process, small pointed head and dorsal scales, granular green-brown pattern, four attached grasping limbs and one continuous tapered tail. Natural far-side overlap was accepted; no merge, duplication, detachment or false large-chameleon silhouette is present.
-- State: `completed, local-ready`. Git, GitHub and X were not mutated.
+- State: `completed, published`. Package content commit `c6f3c8f` was pushed to `origin/master`, and the remote ref was verified at `c6f3c8fb91f9778592cca8510f8adcfeda1c2297` before this metadata update. Nothing was posted to X.

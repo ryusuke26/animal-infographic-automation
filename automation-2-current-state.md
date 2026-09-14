@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-14T20:14:31+09:00
+Updated: 2026-09-14T21:45:46+09:00
 
 ## Workflow
 
@@ -9,7 +9,7 @@ Updated: 2026-09-14T20:14:31+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-14-nguru-spiny-pygmy-chameleon`.
-- Latest state: `completed, local-ready`. Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `c6f3c8fb91f9778592cca8510f8adcfeda1c2297` was pushed to `origin/master` and its remote ref was verified before this state change. Nothing was posted to X.
 - Latest evidence: the directly inspected current IUCN record `T172524A1344202` confirms Global Critically Endangered (CR) under B1ab(iii,v), assessed 21 August 2013 and marked Needs updating. ITIS, Redbond et al. 2021, the original description and Tiergarten Schonbrunn support identity, mature-male rostral shape, pointed scales and low-forest crepuscular activity.
 - Latest visual result: both posters show one tiny green-brown adult male walking along a mossy twig with a broad downward rostral process, pointed head-to-back outline, four coherent grasping limbs, one tapered tail and exactly three numbered illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -20,7 +20,7 @@ Updated: 2026-09-14T20:14:31+09:00
 - Topic: Nguru Spiny Pygmy Chameleon / ヌグルコノハカメレオン / *Rhampholeon acuminatus*.
 - Region: Nguru Mountains, Tanzania / East Africa.
 - Editorial classification group: Reptiles.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `rhampholeon_acuminatus_japanese_imagegen_2026-09-14.png`; one targeted text-only retry removed an invalid extra title line.
 - Selected English source: `rhampholeon_acuminatus_english_imagegen_2026-09-14.png`; first companion generation, no retry.
 - Visual scope: one adult male in a stable twig-walking pose; three cards cover the pointed body outline, mature male/female rostral comparison and low-forest dawn/dusk activity.
@@ -64,7 +64,7 @@ Fishes, Amphibians, Mammals, Insects, Fungi and lichens, Plants, Birds and Repti
 
 ## Next Concrete Change
 
-- Preserve the Nguru Spiny Pygmy Chameleon package as `completed, local-ready`; GitHub publication and X posting remain separate and require explicit direction.
+- Preserve the Nguru Spiny Pygmy Chameleon package as `completed, published`; GitHub closeout is complete, while X posting remains separate and requires explicit direction.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the Global CR 2013 wording, retain the Needs updating caveat in package records and do not add a population number to public copy.
 - The next new package should recalculate both latest-eight rotations; Other invertebrates is currently absent, but rotation remains only a tie-breaker.
