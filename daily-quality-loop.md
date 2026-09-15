@@ -1782,3 +1782,31 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran both direct-source gates, sidecar synchronization, full package, dimension, pixel-identity and diff checks; committed the scoped package and workflow records as `c6f3c8f`, pushed to `origin/master`, and verified remote `refs/heads/master` at `c6f3c8fb91f9778592cca8510f8adcfeda1c2297` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs local-ready until an explicit closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-15T19:42:12+09:00 — Kauaʻi Cave Wolf Spider local-ready completion
+
+- Completed `2026-09-15-kauai-cave-wolf-spider` for Kauaʻi Cave Wolf Spider / カウアイ洞窟オオカミグモ / *Adelocosa anops*. Full-history accepted-name, English/Hawaiian aliases, Japanese rendering and slug searches found candidate-only mentions and no completed or retired collision; Lord Howe Island Stick Insect was rejected as a completed duplicate.
+- Screened Kauaʻi Cave Wolf Spider, Tasmanian Giant Freshwater Crayfish and Lord Howe Island Stick Insect. The selected spider ranked first for its complete eye loss, current official status review and exact-taxon public-domain reference; Other invertebrates being absent from the previous latest eight was only the final tie-breaker.
+- The final USFWS 2022 five-year review retains Endangered status under the U.S. Endangered Species Act. The current USFWS profile, World Spider Catalog, ITIS and exact-taxon photograph support accepted identity, complete eye loss, colours, long sensory hairs and parent-back spiderlings. No global IUCN category or population total is used.
+- One focused USFWS photo bundle took about eight and a half minutes. The first usable local copy was retained for both languages and acquisition stopped.
+- One targeted Japanese Image Gen edit removed false eye dots from Card 3 spiderlings; a deterministic local text-safe repair restored the exact locked footer punctuation. The first English companion passed without retry.
+- Four canonical PNGs are exact `1024x1536` and pixel-identical within language. Eight UTF-8 sidecars and direct-source, X-format, package, full-size/phone-size, anatomy, false-silhouette, typography, card, composition and whitespace QA pass.
+- Package, INDEX, current state, Daily Quality Loop and Automation memory are synchronized at `completed, local-ready`. Git, GitHub and X were not mutated. Current run time: 2026-09-15T19:42:12+09:00.
+
+Daily Quality Loop
+- issue: mixed Japanese-English footer punctuation remained ASCII after the one allowed targeted Image Gen retry
+- priority: quality-drift
+- tags: #image-text-error #localized-image-edit #local-ready
+- cause: Image Gen preserved the first pass's ASCII colon and parentheses while correctly removing the false eye dots requested in the same localized edit
+- next_action: applied one deterministic text-safe footer repair, then reran direct-source, phone/full-size, X-format, sidecar, package, pixel-identity and whitespace checks
+- tomorrow_change: for mixed Japanese-English legal footers, prefer locking simple ASCII punctuation before art unless fullwidth punctuation is materially required
+
+## 2026-09-15T22:52:38+09:00 — Kauaʻi Cave Wolf Spider official IUCN correction
+
+Daily Quality Loop
+- issue: the local-ready package incorrectly said that no global IUCN assessment was confirmed and used U.S. ESA status as the public footer even though an official IUCN assessment exists
+- priority: evidence-integrity
+- tags: #official-evidence-miss #IUCN #evidence-lock-reopened #localized-image-edit #local-ready
+- cause: an unsuccessful name-based web search was treated as evidence absence, and the newer 2022 USFWS national review displaced the older formal global IUCN assessment instead of remaining separate context
+- next_action: directly inspected the user-supplied official IUCN PDF and matching page capture; confirmed Global EN under B1+2c ver 2.3, assessed 1 August 1996 as `T513A13058776` and marked `Needs Updating`; reopened Evidence Lock and Copy Lock; synchronized both posters, X sets, sidecars, README, Sources QA, INDEX and state records; retained the 2022 U.S. ESA review only as national context
+- tomorrow_change: before any no-IUCN conclusion, require an exact accepted-name search plus direct numeric record, DOI/PDF and supplied-official-artifact checks; a national legal review may corroborate context but never replace an existing global IUCN footer
