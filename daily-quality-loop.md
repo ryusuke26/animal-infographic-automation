@@ -1810,3 +1810,13 @@ Daily Quality Loop
 - cause: an unsuccessful name-based web search was treated as evidence absence, and the newer 2022 USFWS national review displaced the older formal global IUCN assessment instead of remaining separate context
 - next_action: directly inspected the user-supplied official IUCN PDF and matching page capture; confirmed Global EN under B1+2c ver 2.3, assessed 1 August 1996 as `T513A13058776` and marked `Needs Updating`; reopened Evidence Lock and Copy Lock; synchronized both posters, X sets, sidecars, README, Sources QA, INDEX and state records; retained the 2022 U.S. ESA review only as national context
 - tomorrow_change: before any no-IUCN conclusion, require an exact accepted-name search plus direct numeric record, DOI/PDF and supplied-official-artifact checks; a national legal review may corroborate context but never replace an existing global IUCN footer
+
+## 2026-09-15T23:11:56+09:00 — Kauaʻi Cave Wolf Spider GitHub closeout
+
+Daily Quality Loop
+- issue: the corrected package remained `completed, local-ready` after final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state #IUCN-correction
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: removed two hash-identical temporary repair-candidate copies, reran package/X/sidecar/diff checks, committed the package and synchronized workflow records as `938e23b`, pushed to `origin/master`, and verified remote `refs/heads/master` at `938e23bccbe000fd8c66c2625904146b049de25e` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata

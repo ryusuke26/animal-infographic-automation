@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-15T22:52:38+09:00
+Updated: 2026-09-15T23:11:56+09:00
 
 ## Workflow
 
@@ -9,7 +9,7 @@ Updated: 2026-09-15T22:52:38+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-15-kauai-cave-wolf-spider`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `938e23b` was pushed to `origin/master` and the remote ref was verified. Nothing was posted to X.
 - Latest evidence: official IUCN record `T513A13058776` lists *Adelocosa anops* as Global Endangered (EN) under B1+2c ver 2.3, assessed 1 August 1996 and annotated `Needs Updating`. The final USFWS 2022 five-year review separately retains Endangered status under the U.S. Endangered Species Act.
 - Latest visual result: both posters show one lone eye-free adult on damp porous lava with a reddish-brown carapace, pale abdomen, four coherent leg pairs and exactly three numbered illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -20,7 +20,7 @@ Updated: 2026-09-15T22:52:38+09:00
 - Topic: Kauaʻi Cave Wolf Spider / カウアイ洞窟オオカミグモ / *Adelocosa anops*.
 - Region: Kōloa Basin, Kauaʻi, Hawaiʻi / Oceania.
 - Editorial classification group: Other invertebrates.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `adelocosa_anops_japanese_imagegen_2026-09-15.png`; one targeted Image Gen edit removed false eye dots from Card 3 spiderlings, followed by bounded footer repairs. The final status band reads `IUCN Red List 1996: 絶滅危惧 (EN)`.
 - Selected English source: `adelocosa_anops_english_imagegen_2026-09-15.png`; the original companion art is preserved and its bounded final status band reads `IUCN Red List 1996: Endangered (EN)`.
 - Visual scope: one lone adult in a low cave-walking pose; three cards cover the eye-free face, long sensory hairs and photographed parent-back spiderlings.
@@ -62,7 +62,7 @@ Amphibians, Mammals, Insects, Fungi and lichens, Plants, Birds, Reptiles and Oth
 
 ## Next Concrete Change
 
-- Preserve the Kauaʻi Cave Wolf Spider package as `completed, local-ready`; GitHub closeout and X posting remain separate and require explicit direction.
+- Preserve the Kauaʻi Cave Wolf Spider package as `completed, published`; content commit `938e23b` is verified on `origin/master`. X posting remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the official Global IUCN EN / 1996 footer and its `Needs Updating` caveat in source context. Keep the U.S. ESA Endangered 2022 review separate and do not add a population total to public copy.
 - The next new package should recalculate both latest-eight rotations; Fishes is currently absent, but rotation remains only a tie-breaker.

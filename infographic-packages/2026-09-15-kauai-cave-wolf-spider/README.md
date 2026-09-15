@@ -1,6 +1,6 @@
 # Kauaʻi Cave Wolf Spider bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -63,4 +63,4 @@ Broad native region: Kōloa Basin, Kauaʻi, Hawaiʻi / Oceania
 - Full-size and `360x540` phone-size review confirm readable hierarchy, an unobstructed hero, species-specific cave composition and no unsafe crop. Both corrected IUCN footers remain visually integrated inside the original footer positions.
 - The posters do not drift into an eyed wolf spider, tarantula, harvestman, insect, whip spider, web-building scene, duplicated hero or horror composition.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set. Direct-source, bilingual X-format, full-package, dimension, pixel-identity, card, composition, typography and species-identity QA pass.
-- State is `completed, local-ready` after official-IUCN synchronization. Git, GitHub and X remain unchanged.
+- State is `completed, published`. Package content was pushed to `origin/master` in commit `938e23b`; the remote ref was verified before this published-state closeout. Nothing was posted to X.
