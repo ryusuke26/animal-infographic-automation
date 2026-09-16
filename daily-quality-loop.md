@@ -1847,3 +1847,13 @@ Daily Quality Loop
 - cause: the original run could identify the formal DOI and record but could not render the species fields directly
 - next_action: inspected all ten PDF pages plus the matching page capture; directly confirmed Global EN under B1ab(v)+2ab(v) ver 3.1, assessed 30 April 2018 and published in 2020; preserved both originals with matching SHA-256 hashes; removed the obsolete access caveat from package and state records; retained all poster and posting copy unchanged because it was already correct
 - tomorrow_change: when a matching official PDF and page capture arrive, replace a temporary access caveat with direct evidence and avoid unnecessary regeneration when Copy Lock already matches
+
+## 2026-09-16T22:08:48+09:00 — Pink Handfish GitHub closeout
+
+Daily Quality Loop
+- issue: the verified package remained `completed, local-ready` after official-evidence confirmation and final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, X-format, package, pixel-identity and whitespace checks; committed the package and synchronized workflow records as `2a2c047`; pushed to `origin/master`; and verified remote `refs/heads/master` at `2a2c0471619bbc39f197d941da8c0d7a23b33ab4` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata

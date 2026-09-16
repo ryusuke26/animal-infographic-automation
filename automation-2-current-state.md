@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-16T21:56:40+09:00
+Updated: 2026-09-16T22:08:48+09:00
 
 ## Workflow
 
@@ -9,7 +9,7 @@ Updated: 2026-09-16T21:56:40+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-16-pink-handfish`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `2a2c047` was pushed to `origin/master` and the remote ref was verified. Nothing was posted to X.
 - Latest evidence: the user-supplied official IUCN PDF and matching page capture directly confirm record `T123376622A123424329`: *Brachiopsilus dianthus*, Global Endangered (EN) under B1ab(v)+2ab(v) ver 3.1, assessed 30 April 2018 and published in 2020.
 - Latest visual result: both first-pass posters show one smooth pink-red adult walking over a cool deep rocky reef with two attached broad pectoral fins and exactly three numbered illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -20,7 +20,7 @@ Updated: 2026-09-16T21:56:40+09:00
 - Topic: Pink Handfish / ピンクハンドフィッシュ / *Brachiopsilus dianthus*.
 - Region: southern Tasmania / Oceania.
 - Editorial classification group: Fishes.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `brachiopsilus_dianthus_japanese_imagegen_2026-09-16.png`; first generation accepted without retry.
 - Selected English source: `brachiopsilus_dianthus_english_imagegen_2026-09-16.png`; first companion generation accepted without retry.
 - Visual scope: one dominant adult in a frontal three-quarter bottom-walk; three cards cover the 22-year record gap and deep rediscovery, one attached walking pectoral fin and non-drifting hatchlings settled near substrate eggs.
@@ -62,7 +62,7 @@ Mammals, Insects, Fungi and lichens, Plants, Birds, Reptiles, Other invertebrate
 
 ## Next Concrete Change
 
-- Preserve the Pink Handfish package as `completed, local-ready`; GitHub closeout and X publication remain separate and were not performed.
+- Preserve the Pink Handfish package as `completed, published`; content commit `2a2c047` is verified on `origin/master`. X posting remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the 2018 assessment year rather than the 2020 publication year and keep Tasmania's state listing separate from the global IUCN footer.
 - The next new package should recalculate both latest-eight rotations; Amphibians are currently absent, but rotation remains only a tie-breaker.

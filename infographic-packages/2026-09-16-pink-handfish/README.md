@@ -1,6 +1,6 @@
 # Pink Handfish bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -61,4 +61,4 @@ Broad native region: southern Tasmania / Oceania
 - Full-size and `360x540` phone-size review confirm readable hierarchy, an unobstructed hero, useful card art and no unsafe crop or blank canvas band.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set. Direct-source, bilingual X-format, full-package, dimension, pixel-identity, card, composition, typography and species-identity QA pass.
 - The official evidence confirmation changed no poster, Copy Lock or X wording because the existing `IUCN Red List 2018: Endangered (EN)` footer and source replies were already correct.
-- State is `completed, local-ready`. Git, GitHub and X were not mutated.
+- State is `completed, published`. Package content was pushed to `origin/master` in commit `2a2c047`; the remote ref was verified before this published-state closeout. Nothing was posted to X.
