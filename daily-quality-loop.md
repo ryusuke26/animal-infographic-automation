@@ -1820,3 +1820,30 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: removed two hash-identical temporary repair-candidate copies, reran package/X/sidecar/diff checks, committed the package and synchronized workflow records as `938e23b`, pushed to `origin/master`, and verified remote `refs/heads/master` at `938e23bccbe000fd8c66c2625904146b049de25e` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-16T21:44:33+09:00 — Pink Handfish local-ready completion
+
+- Completed `2026-09-16-pink-handfish` for Pink Handfish / ピンクハンドフィッシュ / *Brachiopsilus dianthus*. Full-history accepted-name, English-name, Japanese-rendering and slug searches found no collision; the completed Red Handfish package is a separate taxon and remains excluded from repeat.
+- Screened Pink Handfish, Oxleyan Pygmy Perch and Monterrey Platyfish. Pink Handfish ranked first for its 22-year record gap, confirmed deep-camera rediscovery, walking-fin silhouette, authoritative evidence and exact-taxon photograph; Fishes being absent from the latest eight was only the final tie-breaker.
+- The formal IUCN DOI and current mirrors initially identified Global EN under B1ab(v)+2ab(v), assessed 30 April 2018 and published in 2020. The later user-supplied official PDF and matching page capture directly confirmed those fields and retired the dynamic-page access caveat.
+- One exact-taxon photograph locks smooth pink-red mottling, small eyes, the centered lure, two tall dorsal spines and attached broad pectoral fins. Both first-pass posters were accepted without retry.
+- Four canonical PNGs are exact `1024x1536` and pixel-identical within language. Eight UTF-8 sidecars and direct-source, X-format, full-package, full-size/phone-size, anatomy, false-silhouette, typography, card, composition and whitespace QA pass.
+- Package, INDEX, current state, Daily Quality Loop and Automation memory are synchronized at `completed, local-ready`. Git, GitHub and X were not mutated. Current run time: 2026-09-16T21:44:33+09:00.
+
+Daily Quality Loop
+- issue: the current IUCN 2026-1 species-page shell loaded without dynamic assessment values
+- priority: fact-risk contained before Copy Lock
+- tags: #IUCN-unavailable #official-evidence-fallback #first-pass-visual #local-ready
+- cause: the official client rendered the route and version but not the species fields
+- next_action: used the exact formal DOI plus the 2023 Tasmanian government statement and authoritative current mirrors, disclosed the access boundary and retained the 2018 assessment year
+- tomorrow_change: keep the existing bounded route of one direct official attempt followed by one disclosed field-level government or specialist fallback
+
+## 2026-09-16T21:56:40+09:00 — Pink Handfish official IUCN evidence confirmed
+
+Daily Quality Loop
+- issue: the local-ready package retained a bounded dynamic-page access caveat after the matching official IUCN assessment PDF and species-page capture became available
+- priority: evidence-quality
+- tags: #IUCN-unavailable #official-evidence-confirmed #local-ready
+- cause: the original run could identify the formal DOI and record but could not render the species fields directly
+- next_action: inspected all ten PDF pages plus the matching page capture; directly confirmed Global EN under B1ab(v)+2ab(v) ver 3.1, assessed 30 April 2018 and published in 2020; preserved both originals with matching SHA-256 hashes; removed the obsolete access caveat from package and state records; retained all poster and posting copy unchanged because it was already correct
+- tomorrow_change: when a matching official PDF and page capture arrive, replace a temporary access caveat with direct evidence and avoid unnecessary regeneration when Copy Lock already matches

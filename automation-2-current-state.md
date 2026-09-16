@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-15T23:11:56+09:00
+Updated: 2026-09-16T21:56:40+09:00
 
 ## Workflow
 
@@ -8,62 +8,62 @@ Updated: 2026-09-15T23:11:56+09:00
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none.
-- Latest package: `2026-09-15-kauai-cave-wolf-spider`.
-- Latest state: `completed, published`; package content commit `938e23b` was pushed to `origin/master` and the remote ref was verified. Nothing was posted to X.
-- Latest evidence: official IUCN record `T513A13058776` lists *Adelocosa anops* as Global Endangered (EN) under B1+2c ver 2.3, assessed 1 August 1996 and annotated `Needs Updating`. The final USFWS 2022 five-year review separately retains Endangered status under the U.S. Endangered Species Act.
-- Latest visual result: both posters show one lone eye-free adult on damp porous lava with a reddish-brown carapace, pale abdomen, four coherent leg pairs and exactly three numbered illustrated cards.
+- Latest package: `2026-09-16-pink-handfish`.
+- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest evidence: the user-supplied official IUCN PDF and matching page capture directly confirm record `T123376622A123424329`: *Brachiopsilus dianthus*, Global Endangered (EN) under B1ab(v)+2ab(v) ver 3.1, assessed 30 April 2018 and published in 2020.
+- Latest visual result: both first-pass posters show one smooth pink-red adult walking over a cool deep rocky reef with two attached broad pectoral fins and exactly three numbered illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
 
 ## Latest Completed Package
 
-- Package: `2026-09-15-kauai-cave-wolf-spider`.
-- Topic: Kauaʻi Cave Wolf Spider / カウアイ洞窟オオカミグモ / *Adelocosa anops*.
-- Region: Kōloa Basin, Kauaʻi, Hawaiʻi / Oceania.
-- Editorial classification group: Other invertebrates.
-- State: `completed, published`.
-- Selected Japanese source: `adelocosa_anops_japanese_imagegen_2026-09-15.png`; one targeted Image Gen edit removed false eye dots from Card 3 spiderlings, followed by bounded footer repairs. The final status band reads `IUCN Red List 1996: 絶滅危惧 (EN)`.
-- Selected English source: `adelocosa_anops_english_imagegen_2026-09-15.png`; the original companion art is preserved and its bounded final status band reads `IUCN Red List 1996: Endangered (EN)`.
-- Visual scope: one lone adult in a low cave-walking pose; three cards cover the eye-free face, long sensory hairs and photographed parent-back spiderlings.
+- Package: `2026-09-16-pink-handfish`.
+- Topic: Pink Handfish / ピンクハンドフィッシュ / *Brachiopsilus dianthus*.
+- Region: southern Tasmania / Oceania.
+- Editorial classification group: Fishes.
+- State: `completed, local-ready`.
+- Selected Japanese source: `brachiopsilus_dianthus_japanese_imagegen_2026-09-16.png`; first generation accepted without retry.
+- Selected English source: `brachiopsilus_dianthus_english_imagegen_2026-09-16.png`; first companion generation accepted without retry.
+- Visual scope: one dominant adult in a frontal three-quarter bottom-walk; three cards cover the 22-year record gap and deep rediscovery, one attached walking pectoral fin and non-drifting hatchlings settled near substrate eggs.
 - Artifacts: four canonical 1024x1536 PNGs, two primary X posting sets and eight synchronized sidecars. Full-size and phone-size review, direct-source, X-format, package, pixel-identity and whitespace checks pass.
-- Naming caveat: カウアイ洞窟オオカミグモ is a transparent Japanese rendering, not a claimed standardized Japanese arachnid-list name.
-- Evidence caveat: the latest formal global IUCN assessment is from 1996 and marked `Needs Updating`; no old IUCN population or range detail is promoted into public copy. Current U.S. ESA status is retained only as separate source context, and no population total is used.
+- Naming caveat: ピンクハンドフィッシュ is a transparent Japanese rendering, not a claimed standardized Japanese national-list name.
+- Evidence confirmation: the official ten-page IUCN assessment PDF and matching species-page capture are preserved with verified hashes. They retire the earlier dynamic-page access caveat without changing public copy or art. No population total is used.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-09-08 — Europe — Sardinian Brook Salamander
-2. 2026-09-09 — Africa and the western Indian Ocean — Seychelles Sheath-tailed Bat
-3. 2026-09-10 — Oceania — Canterbury Knobbled Weevil
-4. 2026-09-11 — Oceania — Barbie Pagoda
-5. 2026-09-12 — Africa — Wood's Cycad
-6. 2026-09-13 — Southeast Asia — Negros Bleeding-heart
-7. 2026-09-14 — East Africa — Nguru Spiny Pygmy Chameleon
-8. 2026-09-15 — Oceania — Kauaʻi Cave Wolf Spider
+1. 2026-09-09 — Africa and the western Indian Ocean — Seychelles Sheath-tailed Bat
+2. 2026-09-10 — Oceania — Canterbury Knobbled Weevil
+3. 2026-09-11 — Oceania — Barbie Pagoda
+4. 2026-09-12 — Africa — Wood's Cycad
+5. 2026-09-13 — Southeast Asia — Negros Bleeding-heart
+6. 2026-09-14 — East Africa — Nguru Spiny Pygmy Chameleon
+7. 2026-09-15 — Oceania — Kauaʻi Cave Wolf Spider
+8. 2026-09-16 — Oceania — Pink Handfish
 
-Africa and Oceania three each; Europe and Southeast Asia one each.
+Oceania four; Africa and East Africa three combined; Southeast Asia one.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-09-08 — Amphibians — Sardinian Brook Salamander
-2. 2026-09-09 — Mammals — Seychelles Sheath-tailed Bat
-3. 2026-09-10 — Insects — Canterbury Knobbled Weevil
-4. 2026-09-11 — Fungi and lichens — Barbie Pagoda
-5. 2026-09-12 — Plants — Wood's Cycad
-6. 2026-09-13 — Birds — Negros Bleeding-heart
-7. 2026-09-14 — Reptiles — Nguru Spiny Pygmy Chameleon
-8. 2026-09-15 — Other invertebrates — Kauaʻi Cave Wolf Spider
+1. 2026-09-09 — Mammals — Seychelles Sheath-tailed Bat
+2. 2026-09-10 — Insects — Canterbury Knobbled Weevil
+3. 2026-09-11 — Fungi and lichens — Barbie Pagoda
+4. 2026-09-12 — Plants — Wood's Cycad
+5. 2026-09-13 — Birds — Negros Bleeding-heart
+6. 2026-09-14 — Reptiles — Nguru Spiny Pygmy Chameleon
+7. 2026-09-15 — Other invertebrates — Kauaʻi Cave Wolf Spider
+8. 2026-09-16 — Fishes — Pink Handfish
 
-Amphibians, Mammals, Insects, Fungi and lichens, Plants, Birds, Reptiles and Other invertebrates occupy one slot each. Fishes are absent. Rotation remains only a tie-breaker after duplicate, unfamiliarity, discovery, evidence, naming and visual-viability screening.
+Mammals, Insects, Fungi and lichens, Plants, Birds, Reptiles, Other invertebrates and Fishes occupy one slot each. Amphibians are absent. Rotation remains only a tie-breaker after duplicate, unfamiliarity, discovery, evidence, naming and visual-viability screening.
 
 ## Daily Quality Loop
 
-- User-supplied official IUCN evidence showed that the earlier no-IUCN conclusion was incorrect. Evidence Lock and Copy Lock were reopened; the Global EN / 1996 footer now replaces the U.S.-ESA footer on both posters and posting surfaces.
-- A generative Japanese correction candidate was rejected after changing 98.58% of pixels. Bounded status-band repairs preserve the accepted art and all non-footer text; superseded posters are retained under package evidence.
-- This resolved `#official-evidence-miss` reinforces the existing policy: exact official IUCN routes must be exhausted before a no-assessment conclusion, and national legal status stays separate from the global footer.
+- User-supplied official IUCN evidence directly confirmed the already-locked status, criteria, assessment date, publication year and scope; the earlier dynamic-page access caveat was removed from current package records.
+- Both first-pass posters passed without a retry, so no visual or typography drift required correction.
+- This run creates no new unresolved carryover and no policy change.
 
 ## Next Concrete Change
 
-- Preserve the Kauaʻi Cave Wolf Spider package as `completed, published`; content commit `938e23b` is verified on `origin/master`. X posting remains separate and was not performed.
+- Preserve the Pink Handfish package as `completed, local-ready`; GitHub closeout and X publication remain separate and were not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
-- Preserve the official Global IUCN EN / 1996 footer and its `Needs Updating` caveat in source context. Keep the U.S. ESA Endangered 2022 review separate and do not add a population total to public copy.
-- The next new package should recalculate both latest-eight rotations; Fishes is currently absent, but rotation remains only a tie-breaker.
+- Preserve the 2018 assessment year rather than the 2020 publication year and keep Tasmania's state listing separate from the global IUCN footer.
+- The next new package should recalculate both latest-eight rotations; Amphibians are currently absent, but rotation remains only a tie-breaker.
 - Production rules remain centralized in `automation-2-production-policy.md`; historical logs do not supply active visual instructions.
