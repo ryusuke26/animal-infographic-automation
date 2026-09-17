@@ -16,6 +16,53 @@ instructions. Use templates/visual-and-copy-brief.md for the brief and Copy Lock
 syntax; use templates/x-post-copy-template.md for X presentation and copy limits.
 Apply the revised card format to new packages; preserve accepted historical art.
 
+## Required art direction — restored 2026-09-17
+
+Use a crayon / oil-pastel observation sketch with adult editorial direction.
+This is the project's required medium for both languages, including retries,
+not an optional interpretation of "handmade" or "natural-history poster".
+Keep the current explanatory cards, biological evidence and natural-occlusion
+rules. Accurate anatomy does not require photographic rendering.
+
+Use this medium block in every new full-poster prompt, including the English
+companion and fresh retries; localized edits must preserve the same medium:
+
+```text
+Style/medium: crayon and oil-pastel field-notebook observation sketch on warm
+textured paper; colored pencil only for small diagnostic details. Visible broken
+strokes, layered pigment, paper showing through the drawing and imperfect
+hand-drawn contours across the hero, habitat and card illustrations. Childlike
+warmth with accurate species geometry and adult editorial direction. Use matte,
+sketched shading; avoid photorealism, glossy 3D rendering, airbrushed gradients,
+cinematic lighting and watercolor/gouache/ink as the dominant medium. Keep type
+legible; do not sacrifice exact text or diagnostic anatomy to roughness.
+```
+
+Inspect `generated_infographics/purple_frog_ja_2026-04-28.png` as the existing
+style benchmark before the first poster and during visual review. It controls
+stroke texture and warmth only, not anatomy, text, status, layout or aspect ratio.
+Keep the current exact 2:3 canvas and three explanatory cards. If supplied to
+Image Gen, label it `style reference only`; label real taxon photographs as
+`biological identity references only`. Do not copy the frog or its labels into
+another species. Do not substitute recent watercolor-style packages as the
+style benchmark. No extra generation or per-run reference file is needed.
+
+During the existing visual review, check the following before the English
+companion, and again for the English output and any retry:
+
+- Broken crayon/pastel strokes and exposed paper remain visible in the hero
+  and illustrations, not only in a decorative paper border.
+- Matte drawn shading and handmade contours dominate over glossy, photographic
+  detail; a paper texture overlay alone is insufficient.
+- Species-defining shape, marks and natural posture survive simplification;
+  the subject, habitat and cards feel like one sketched observation page.
+
+Record one concrete style observation in sources-qa.md. A mechanically valid
+but materially off-style image fails visual acceptance. Use the existing retry
+budget, then needs review if unresolved; do not open a separate style retry loop.
+Apply this restoration to future production and explicitly requested redraws;
+do not automatically replace previously accepted images or their audit prompts.
+
 ## Operating Targets
 
 - Normal elapsed time: roughly 30-60 minutes after tools respond; do not trade
@@ -319,6 +366,7 @@ Existing three-label packages remain supported and are not rewritten.
 Each image prompt:
 
 - requests a complete vertical 2:3 poster, not a mockup;
+- includes the required art-direction medium block above;
 - includes a `Text, verbatim:` block matching Copy Lock exactly;
 - gives one identifiable hero organism an accurate body plan, posture, and
   habitat;
@@ -388,6 +436,8 @@ one allowed retry for the language.
 After the source gate passes, inspect the Japanese poster before generating the
 companion. Accept it only when:
 
+- the required crayon / oil-pastel style review above passes against the
+  existing style benchmark;
 - the organism is immediately identifiable and no diagnostic structure is
   invented, detached, or duplicated; natural perspective occlusion is allowed
   when the chosen viewpoint clearly explains it and species identity does not

@@ -10,6 +10,8 @@ The production policy is the single source of quality rules; this prompt is
 the execution entry point. Project requirements override generic skill examples
 such as 4:5 layout or shortening copy into bare labels. Use exact vertical 2:3.
 Do not import obsolete rules from historical package prompts or learning logs.
+Use the policy's required crayon / oil-pastel art direction and existing style
+benchmark. Include its medium block in new poster prompts for both languages.
 
 1. Preflight in one batch: current state, INDEX, recent package folders, recent
    Automation memory and git status. Read the active guidance at the beginning
@@ -28,7 +30,9 @@ Do not import obsolete rules from historical package prompts or learning logs.
    natural occlusion. Run validate_package.py --pre-image <package>.
 4. Generate the Japanese full poster, then run validate_direct_poster.py
    immediately. Review species identity, natural anatomy, all three illustrated
-   explanations, exact text and mobile readability before the English companion.
+   explanations, exact text, crayon/pastel style and mobile readability before
+   the English companion. Compare with the policy's style benchmark; a
+   mechanical pass does not establish style acceptance.
    Apply the production policy's bounded retry and optional high-risk anchor
    rules. Never distort a natural pose to display every limb. After any retry,
    recheck every defining feature, not just the repaired region.

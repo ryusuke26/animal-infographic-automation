@@ -1,6 +1,6 @@
 # Daily Quality Loop
 
-## Active guidance — revised 2026-09-05
+## Active guidance — revised 2026-09-17
 
 Read this active guidance and current state's unresolved carryover during
 preflight. The production policy and two production templates are authoritative.
@@ -10,6 +10,8 @@ not reinstate full-limb visibility or bare-label rules from those entries.
 - Prioritize reference-grounded species identity and natural posture. Review
   every defining feature after a correction, including features not edited.
 - Use cards-v2 for new packages; lock a heading and explanatory sentence per card.
+- Apply the production policy's restored crayon / oil-pastel art direction and
+  benchmark-based visual check; recent watercolor-style prompts are historical.
 - Keep reference downloads bounded and reuse the first usable local bundle.
 - Edit X posting sets once and generate sidecars; use X-weighted text counts.
 - Use one language-matched image per X main post by default. Distribution
@@ -1857,3 +1859,13 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran direct-source, X-format, package, pixel-identity and whitespace checks; committed the package and synchronized workflow records as `2a2c047`; pushed to `origin/master`; and verified remote `refs/heads/master` at `2a2c0471619bbc39f197d941da8c0d7a23b33ab4` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-17T10:32:22+09:00 — Bullock's Mountains False Toad local-ready completion
+
+Daily Quality Loop
+- issue: a nominally targeted removal of one unrequested Japanese callout redrew `99.85778%` of the canvas
+- priority: quality-drift contained
+- tags: #image-text-error #localized-image-edit #selected-poster-preservation #local-ready
+- cause: the generated edit preserved composition semantically but did not preserve accepted pixels outside the requested defect
+- next_action: rejected the global redraw, accepted a bounded local repair changing `52,586` pixels (`3.34333%`) only in `(708,159)-(1024,364)`, then reran direct-source, full-size/phone-size, X-format, sidecar, package, pixel-identity and whitespace checks
+- tomorrow_change: keep measuring nominally targeted edits and preserve the accepted source whenever a bounded local text-safe repair can close the defect

@@ -4,6 +4,15 @@ Use this inside the existing sources-qa.md; do not create another per-run file.
 The production policy is authoritative. This template adds no reviewer or
 generation step to a normal run. Project format is vertical 2:3.
 
+## Art direction
+
+Apply the production policy's required crayon / oil-pastel medium block and
+inspect its existing style benchmark. Distinguish style-only references from
+biological identity references. In the existing sources-qa.md, record one
+observable style check covering the hero and card art, not just the paper frame.
+Keep medium consistent across languages and retries. No separate style file,
+extra generation or extra review round is required.
+
 ## Visual identity
 
 - Individual/stage: exact taxon, sex and life stage when material.
