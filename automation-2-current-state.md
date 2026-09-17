@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-17T12:00:00+09:00
+Updated: 2026-09-17T21:22:18+09:00
 
 ## Workflow
 
@@ -11,7 +11,7 @@ Updated: 2026-09-17T12:00:00+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-17-bullocks-mountains-false-toad`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `7806b5d` was pushed to `origin/master` and the remote ref was verified. Nothing was posted to X.
 - Latest evidence: the directly inspected current IUCN record `T21623A79810144` confirms *Telmatobufo bullocki*, Global Endangered (EN) under B1ab(iii), assessed 10 July 2015, published in 2017 and marked `Needs updating`.
 - Latest visual result: both accepted posters show one robust olive-brown adult beside a cold forest torrent and exactly three illustrated cards for the torrent tadpole, forest movement and yellow interocular band.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -22,7 +22,7 @@ Updated: 2026-09-17T12:00:00+09:00
 - Topic: Bullock's Mountains False Toad / ブロックヤマモドキヒキガエル / *Telmatobufo bullocki*.
 - Region: Nahuelbuta Range, south-central Chile / South America.
 - Editorial classification group: Amphibians.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `telmatobufo_bullocki_japanese_imagegen_2026-09-17.png`; accepted after a localized upper-right repair changed `3.34333%` of pixels within the documented defect bounds.
 - Selected English source: `telmatobufo_bullocki_english_imagegen_2026-09-17.png`; first companion retained after a global diagnostic redraw was rejected.
 - Visual scope: one dominant adult beside a cold temperate-forest torrent; three cards cover the rock-clinging torrent tadpole, post-breeding forest movement and the adult's yellow facial band.
@@ -63,7 +63,7 @@ Insects, Fungi and lichens, Plants, Birds, Reptiles, Other invertebrates, Fishes
 
 ## Next Concrete Change
 
-- Preserve the Bullock's Mountains False Toad package as `completed, local-ready`; GitHub publication and X posting remain separate and were not performed.
+- Preserve the Bullock's Mountains False Toad package as `completed, published`; content commit `7806b5d` is verified on `origin/master`. X posting remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the 2015 assessment year rather than the 2017 publication year and retain the `Needs updating` caveat in evidence records.
 - The next new package should recalculate both latest-eight rotations; Mammals are currently absent, but rotation remains only a tie-breaker.

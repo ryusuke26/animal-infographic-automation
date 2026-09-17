@@ -1,6 +1,6 @@
 # Bullock's Mountains False Toad bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -65,4 +65,4 @@ Broad native region: Nahuelbuta Range, south-central Chile / South America
 - Exactly three numbered illustrated cards cover one intact torrent tadpole, post-breeding movement from stream into forest and the adult's yellow facial band. Every heading and explanation matches Copy Lock; no extra public text remains.
 - Full-size and `360x540` phone-size review confirm readable hierarchy, an unobstructed hero, useful card art, comfortable card margins and no unsafe crop, blank band or visible repair seam.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set. Direct-source, bilingual X-format, full-package, dimension, pixel-identity, anatomy, false-silhouette, typography, card, composition and whitespace QA pass.
-- State is `completed, local-ready`. Git, GitHub and X were not mutated.
+- State is `completed, published`. Package content commit `7806b5d` was pushed to `origin/master` and the remote ref was verified at `7806b5d9544bc0d76ef11302dd4aa2ffd10da49e`. Nothing was posted to X.

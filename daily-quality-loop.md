@@ -1869,3 +1869,13 @@ Daily Quality Loop
 - cause: the generated edit preserved composition semantically but did not preserve accepted pixels outside the requested defect
 - next_action: rejected the global redraw, accepted a bounded local repair changing `52,586` pixels (`3.34333%`) only in `(708,159)-(1024,364)`, then reran direct-source, full-size/phone-size, X-format, sidecar, package, pixel-identity and whitespace checks
 - tomorrow_change: keep measuring nominally targeted edits and preserve the accepted source whenever a bounded local text-safe repair can close the defect
+
+## 2026-09-17T21:22:18+09:00 — Bullock's Mountains False Toad GitHub closeout
+
+Daily Quality Loop
+- issue: the verified package remained `completed, local-ready` after final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, X-format, package, pixel-identity and whitespace checks; committed the package and restored art-direction policy as `7806b5d`; pushed to `origin/master`; and verified remote `refs/heads/master` at `7806b5d9544bc0d76ef11302dd4aa2ffd10da49e` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
