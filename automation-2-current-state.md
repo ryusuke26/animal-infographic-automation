@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-18T11:22:34+09:00
+Updated: 2026-09-18T13:41:16+09:00
 
 ## Workflow
 
@@ -10,7 +10,7 @@ Updated: 2026-09-18T11:22:34+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-18-dinagat-bushy-tailed-cloud-rat`.
-- Latest state: `completed, local-ready`; nothing was published to GitHub or posted to X.
+- Latest state: `completed, published`; package content commit `c44fc8b` was pushed to `origin/master` and the remote ref was verified. Nothing was posted to X.
 - Latest evidence: the directly inspected current IUCN record `T5499A260476217` confirms *Crateromys australis*, Global Endangered (EN) under B1ab(iii), assessed 24 June 2024 and published in 2024.
 - Latest visual result: both accepted posters show one compact grey-brown-reddish adult-sized cloud rat climbing a diagonal branch at dusk with one attached black-white hairy tail and exactly three illustrated cards.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-18T11:22:34+09:00
 - Topic: Dinagat Bushy-tailed Cloud Rat / ディナガットフサオクモネズミ / *Crateromys australis*.
 - Region: Dinagat Island, Philippines / Southeast Asia.
 - Editorial classification group: Mammals.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `crateromys_australis_japanese_imagegen_2026-09-18.png`; first source retained with a bounded two-region local text repair after a global generative redraw was rejected.
 - Selected English source: `crateromys_australis_english_imagegen_2026-09-18.png`; first companion accepted without retry.
 - Visual scope: one dominant living cloud rat on a diagonal mossy branch at dusk; three cards cover the 37-year record gap, black-white tail and slow after-sunset climb.
@@ -61,7 +61,7 @@ Fungi and lichens, Plants, Birds, Reptiles, Other invertebrates, Fishes, Amphibi
 
 ## Next Concrete Change
 
-- Preserve the Dinagat Bushy-tailed Cloud Rat package as `completed, local-ready`; GitHub publishing and X posting remain separate and were not performed.
+- Preserve the Dinagat Bushy-tailed Cloud Rat package as `completed, published`; content commit `c44fc8b` is verified on `origin/master`. X posting remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the current 2024 Global EN assessment and do not revive older CR or DD labels.
 - The next new package should recalculate both latest-eight rotations; Insects are currently absent, but rotation remains only a tie-breaker.

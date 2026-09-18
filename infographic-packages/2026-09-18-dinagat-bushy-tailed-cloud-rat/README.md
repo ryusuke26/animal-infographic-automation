@@ -1,6 +1,6 @@
 # Dinagat Bushy-tailed Cloud Rat bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -62,4 +62,4 @@ Broad native region: Dinagat Island, Philippines / Southeast Asia
 - Broken crayon/pastel strokes, exposed warm paper and matte sketched shading remain visible across the hero, forest and card art, matching the project's style benchmark without copying its frog or layout.
 - Full-size and `360x540` phone-size review confirm readable hierarchy, an unobstructed hero, useful card art, comfortable margins and no unsafe crop, blank band or visible repair seam.
 - Eight UTF-8 sidecars match the four fenced blocks in each primary posting set. Direct-source, bilingual X-format, full-package, pixel-identity, sidecar and whitespace QA pass.
-- State is `completed, local-ready`. Nothing was published to GitHub or posted to X.
+- State is `completed, published`. Package content commit `c44fc8b` was pushed to `origin/master` and the remote ref was verified at `c44fc8bdc86a93e36186222d02bfde44107ebf64`. Nothing was posted to X.
