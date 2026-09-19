@@ -1,6 +1,6 @@
 # Cuban Greater Funnel-eared Bat bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -52,4 +52,4 @@ Broad native region: western Cuba / Caribbean
 - The first English companion was accepted without retry. It follows the accepted composition while retaining exact-taxon rounded ears, tiny eyes, flattened muzzle, long legs, attached ceiling feet and coherent folded-wing/tail-membrane anatomy.
 - Both selected posters contain exactly three illustrated explanatory cards, exact Copy Lock text and visibly broken crayon/oil-pastel marks on warm exposed paper. Full-size and 360x540 phone-size reviews pass.
 - All four canonical PNGs are exact 1024x1536 vertical 2:3. The direct-source and posting files are pixel-identical within each language; the posting PNGs were normalized only after acceptance.
-- Direct-source, sidecar synchronization, X-format and full package validation pass. Git, GitHub and X were not mutated; publication remains a separate explicitly authorized step.
+- Direct-source, sidecar synchronization, X-format and full package validation pass. Published to GitHub in package content commit `b4042d0`; remote `refs/heads/master` was verified at `b4042d0be0044c2c86e014038766c90a63e120c7` before this published-state update. Nothing was posted to X.

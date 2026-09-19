@@ -1,6 +1,6 @@
 # Daily Quality Loop
 
-## Active guidance — revised 2026-09-17
+## Active guidance — revised 2026-09-19
 
 Read this active guidance and current state's unresolved carryover during
 preflight. The production policy and two production templates are authoritative.
@@ -9,6 +9,10 @@ not reinstate full-limb visibility or bare-label rules from those entries.
 
 - Prioritize reference-grounded species identity and natural posture. Review
   every defining feature after a correction, including features not edited.
+- Follow the production policy's Topic diversity design: consider within-group,
+  visual, habitat and story variety; familiar species may offer unfamiliar
+  discoveries. Old unfamiliarity gates and rotation-only tie-breaker notes are
+  superseded. No fixed quotas or cooldowns apply.
 - Use cards-v2 for new packages; lock a heading and explanatory sentence per card.
 - Apply the production policy's restored crayon / oil-pastel art direction and
   benchmark-based visual check; recent watercolor-style prompts are historical.
@@ -1821,6 +1825,26 @@ Daily Quality Loop
 - tags: #github-closeout #remote-verification #published-state #IUCN-correction
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: removed two hash-identical temporary repair-candidate copies, reran package/X/sidecar/diff checks, committed the package and synchronized workflow records as `938e23b`, pushed to `origin/master`, and verified remote `refs/heads/master` at `938e23bccbe000fd8c66c2625904146b049de25e` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-19T10:28:46+09:00 — Cuban Greater Funnel-eared Bat local-ready completion
+
+Daily Quality Loop
+- issue: a nominally targeted removal of one unrequested Japanese prose block redrew `99.92199%` of the canvas
+- priority: quality-drift contained
+- tags: #image-text-error #localized-image-edit #selected-poster-preservation #local-ready
+- cause: the generated edit followed the semantic request but did not preserve accepted pixels outside the requested cave-wall region
+- next_action: rejected the global redraw, accepted a bounded local repair changing `141,923` pixels (`9.02322%`) only in `(28,228)-(403,610)`, then reran direct-source, full-size/phone-size, X-format, sidecar, package, pixel-identity and whitespace checks
+- tomorrow_change: retain the existing measured local-repair rule; no policy change is needed because the current guard correctly rejected the near-global redraw
+
+## 2026-09-19T11:36:12+09:00 — Cuban Greater Funnel-eared Bat GitHub closeout
+
+Daily Quality Loop
+- issue: the verified package remained `completed, local-ready` after final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
+- next_action: reran direct-source, sidecar, X-format, package and whitespace checks; committed the package and INDEX as `b4042d0`; pushed to `origin/master`; and verified remote `refs/heads/master` at `b4042d0be0044c2c86e014038766c90a63e120c7` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
 
 ## 2026-09-16T21:44:33+09:00 — Pink Handfish local-ready completion

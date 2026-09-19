@@ -187,72 +187,69 @@ Use these editorial classification groups:
 These are practical selection buckets rather than formal taxonomic ranks.
 Record the organism's exact lineage separately in Evidence Lock.
 
-#### Global unfamiliarity and conservation mission
+#### Topic diversity — revised 2026-09-19
 
-This project is not a generic collection of famous unusual animals. Its
-editorial purpose is to give internationally overlooked living things a name,
-image, and natural-history doorway, then quietly show that their continued
-existence may also be precarious.
+The editorial goal is a varied journey through living things, across and within
+classification groups. Unfamiliar species remain welcome, and familiar species
+may appear occasionally through a supported, less familiar trait or behavior.
+Fame is not a rejection gate. Never describe a familiar species as obscure or
+erase local and Indigenous knowledge by claiming it was unknown to everyone.
 
-Apply a global-familiarity gate before using rotation:
+Before selecting, summarize the latest eight completed regions and groups and
+scan the latest twenty entries for repeated subgroups, body forms, habitats and
+discovery hooks. Use existing INDEX and package notes without historical
+backfill or a new tracking file. The eight-entry window alone can miss recurring
+bats or frogs just beyond its edge.
 
-- inspect both Japanese- and English-language general-audience exposure;
-- reject household names and recurring zoo, aquarium, mainstream wildlife,
-  viral-video, and generic weird-animals staples unless deliberately requested
-  by the user;
-- a widely recognized silhouette or nickname fails the gate even if the
-  scientific name is obscure;
-- do not reject a species merely because people in its home region know it;
-  local and Indigenous knowledge must not be erased by calling a species
-  unknown to everyone;
-- do not use raw search-result counts as the sole familiarity test.
+Screen a small slate of three or four credible candidates from meaningfully
+different lineages and ways of life. Consider variation within groups: Mammals
+must not default to bats, nor Amphibians to frogs. Include familiar-species
+possibilities in the search without reserving a fixed slot. Compare silhouettes,
+habitats, behaviors and stories as well as regions and classification labels.
 
-For each screened candidate, record four short fields in sources-qa.md:
+Keep full-history duplicate exclusion, supported naming, reliable evidence and
+usable visual identity as hard gates. Among viable candidates, weigh discovery
+strength and contribution to variety together. Diversity actively informs
+selection; it is not merely a tie-breaker. When recent entries cluster, favor a
+contrasting subgroup, body form, setting or story. Consecutive broad-group
+entries are acceptable when their forms and ways of life differ substantially.
+Do not impose equal quotas, fixed cooldowns or a rigid rotation.
 
-- Global familiarity check: why the organism is not a recurring
-  general-audience staple in either Japanese or English;
-- Discovery doorway: the natural-history observation that earns attention;
-- Conservation doorway: the directly supportable official status or
-  habitat/population concern that follows the discovery;
-- Local-knowledge caution: how public wording avoids claiming universal
-  ignorance.
+If evidence or reference failures leave only another similar subject, make one
+bounded replacement search in a contrasting lineage before selecting. Do not
+let source convenience repeatedly narrow the series. If the similar candidate
+still offers the best supported discovery, record the tradeoff briefly.
+Once selected, preserve the topic through normal tool friction.
 
-When there is no active package to resume, screen a small slate of two or three
-credible candidates spanning at least two editorial groups when available.
-When credible options exist, at least two candidates should have directly
-inspectable official global IUCN assessments. Prefer CR, EN, VU, or NT over LC
-when unfamiliarity, discovery strength, naming safety, source quality, and
-visual viability are otherwise comparable.
+In sources-qa.md, record the candidate slate with these short fields:
+- Familiarity and discovery: the supported natural-history observation that
+  earns attention; for a familiar species, identify its less familiar aspect.
+- Contribution to variety: subgroup, body form, habitat or story differences
+  from recent entries, including any material repetition.
+- Conservation context: the directly supportable official status or scoped
+  habitat/population information, without manufacturing urgency.
+- Local-knowledge caution: wording avoids claims of universal ignorance.
 
-After hard naming, evidence, and visual-viability gates pass, rank candidates
-in this order:
+Record one concise selection rationale. No numerical scoring or extra review
+round is required. This design supersedes historical unfamiliarity gates and
+rotation-only tie-breaker instructions.
 
-1. international general-audience unfamiliarity;
-2. strength of the natural-history discovery doorway;
-3. directly supportable conservation context;
-4. region and editorial-classification rotation.
+Keep official conservation evidence as context rather than selecting for
+severity. LC and familiar species are eligible when their discovery and
+contribution to variety are strong. Report the actual verified category;
+never imply that every subject is threatened.
 
-Rotation is a tie-breaker, not the mission. Avoid repeating the previous
-completed package's region or editorial group only when a comparably strong
-alternative exists, and prefer groups absent from the latest eight. Treat any
-group occupying four or more of the latest eight as overrepresented, but do
-not use that pressure to select a familiar media staple or a weaker
-conservation route.
+If an assessed candidate's official record or assessment date cannot be
+directly confirmed, screen another assessed candidate before considering an
+unassessed species. A completed no-global-assessment route remains an
+intentional exception for a strong discovery topic, not a shortcut around
+evidence. Do not complete two consecutive no-global-assessment packages unless
+credible assessed alternatives fail naming, evidence or visual gates. Record
+the exception and reason in sources-qa.md and Automation memory.
 
-If one assessed candidate's official page or field-level date cannot be
-directly confirmed, screen another unfamiliar assessed candidate before
-considering an unassessed species. A completed no-global-assessment route is an
-intentional exception for an exceptionally strong discovery topic; it must not
-become an easier substitute for official evidence. Do not complete two
-consecutive no-global-assessment packages unless every credible unfamiliar
-assessed alternative fails a hard naming, evidence, or visual gate. Record the
-exception and reason in sources-qa.md and Automation memory.
-
-Do not turn either rotation into a quota. Official evidence, supported naming,
-and reliable visual identity remain hard gates. Incomplete, needs-review, and
-retired packages do not fill a completed rotation slot, but they remain
-duplicate and visual-risk exclusions unless the user explicitly requests a
-revisit.
+Incomplete, needs-review and retired packages do not fill a completed rotation
+slot, but retain their duplicate and visual-risk exclusions unless the user
+explicitly requests a revisit.
 
 Before locking:
 
@@ -261,8 +258,8 @@ Before locking:
   taxonomy and biological sources; search the IUCN route under each before
   concluding that an official assessment is absent;
 - identify the supported English and Japanese public names;
-- record the global-familiarity check, discovery doorway, conservation doorway,
-  and local-knowledge caution;
+- record familiarity/discovery, contribution to variety, conservation context,
+  and local-knowledge caution under Topic diversity above;
 - assign exactly one editorial classification group from the nine-group list;
 - identify an official IUCN page, assessment PDF/DOI, or completed official
   no-assessment search route;

@@ -4,6 +4,14 @@ Use this inside the existing sources-qa.md; do not create another per-run file.
 The production policy is authoritative. This template adds no reviewer or
 generation step to a normal run. Project format is vertical 2:3.
 
+## Topic selection rationale
+
+In sources-qa.md, record the small candidate slate and concise rationale under
+the production policy's Topic diversity section. Note how the selected subgroup,
+body form, habitat or discovery adds variety to recent entries. For a familiar
+species, identify the less familiar supported aspect. Use existing history;
+no numerical scores, fixed quotas or separate selection file are required.
+
 ## Art direction
 
 Apply the production policy's required crayon / oil-pastel medium block and

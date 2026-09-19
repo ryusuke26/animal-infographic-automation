@@ -20,9 +20,12 @@ benchmark. Include its medium block in new poster prompts for both languages.
    Use bundled Python; verify its recorded fallback once if the runtime loader
    is unavailable. Use the installed X text helper offline; do not install
    dependencies during a normal production run.
-2. Screen a small candidate slate under the policy's naming, full-history
-   duplicate, unfamiliarity, evidence and visual-viability gates. Rotation is
-   only a tie-breaker. Preserve the selected topic when tools encounter friction.
+2. Screen a small, varied candidate slate under the policy's naming, full-history
+   duplicate, evidence and visual-viability gates. Apply its Topic diversity
+   design across and within groups, body forms, habitats and discovery hooks;
+   occasionally include familiar species with an unfamiliar supported aspect.
+   Diversity actively informs selection without fixed quotas or cooldowns.
+   Preserve the selected topic when tools encounter friction.
 3. Complete Evidence Lock, the compact visual identity brief and bilingual
    Copy Lock before art. Use cards-v2 for new packages: three headings with one
    explanatory sentence each, strongest discovery first. Settle defining
