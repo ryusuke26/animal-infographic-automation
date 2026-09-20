@@ -1,6 +1,6 @@
 # Black-faced Spoonbill bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -50,4 +50,4 @@ Broad native region: East Asian coasts and Yellow Sea archipelagos / East Asia
 - The Japanese and English direct/posting pairs are exact `1024x1536` and pixel-identical within language.
 - Both posters retain the accepted non-breeding identity, natural feeding posture, exactly three illustrated cards, exact locked text and visible crayon/oil-pastel marks on warm paper.
 - Direct-source, X-format, synchronized-sidecar and full-package validation pass.
-- Git, GitHub and X were not mutated; publication remains a separate explicitly authorized step.
+- Published to GitHub in content commit `089761a`; remote `refs/heads/master` was verified at `089761adecc0be017b0f4443b0a9b405f7151351` before this state change. Nothing was posted to X.

@@ -1913,3 +1913,13 @@ Daily Quality Loop
 - cause: Evidence Lock, stage-specific visual identity constraints and exact cards-v2 Copy Lock were settled before generation
 - next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
 - tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
+
+## 2026-09-20T21:27:32+09:00 — Black-faced Spoonbill GitHub closeout
+
+Daily Quality Loop
+- issue: the verified package remained `completed, local-ready` after final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
+- next_action: reran direct-source, package and whitespace checks; committed the package and workflow records as `089761a`; pushed to `origin/master`; and verified remote `refs/heads/master` at `089761adecc0be017b0f4443b0a9b405f7151351` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
