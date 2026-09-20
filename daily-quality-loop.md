@@ -1903,3 +1903,13 @@ Daily Quality Loop
 - cause: publication was intentionally deferred until the user's explicit end-of-day GitHub instruction
 - next_action: reran direct-source, X-format, package, pixel-identity and whitespace checks; committed the package and restored art-direction policy as `7806b5d`; pushed to `origin/master`; and verified remote `refs/heads/master` at `7806b5d9544bc0d76ef11302dd4aa2ffd10da49e` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-20T20:10:55+09:00 — Black-faced Spoonbill local-ready completion
+
+Daily Quality Loop
+- issue: none; both first-pass posters passed biological identity, anatomy, copy, cards, crayon/oil-pastel style and mobile-readability review
+- priority: clean completion
+- tags: #first-pass-visual #crayon-oil-pastel #local-ready
+- cause: Evidence Lock, stage-specific visual identity constraints and exact cards-v2 Copy Lock were settled before generation
+- next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
+- tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
