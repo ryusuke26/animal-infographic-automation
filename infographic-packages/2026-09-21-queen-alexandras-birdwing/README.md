@@ -1,6 +1,6 @@
 # Queen Alexandra's Birdwing bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -50,4 +50,4 @@ Broad native region: Oro Province, northern Papua New Guinea / Melanesia / Ocean
 - Both posters retain the adult female's broad tailless brown-and-cream wings, thick pale abdomen and coherent four-wing body; the male appears only in the small dimorphism card.
 - Exactly three illustrated observation cards, locked text and visible crayon/oil-pastel marks on warm paper are present in both languages.
 - Direct-source, X-format, synchronized-sidecar and full-package validation pass.
-- Local production is complete. Nothing was committed, pushed to GitHub or posted to X by this automation run.
+- Published to GitHub in content commit `6583b17`; remote `refs/heads/master` was verified at `6583b17a913fc4c7f7fbd179355e1fc068d43ba3` before this state change. Nothing was posted to X.

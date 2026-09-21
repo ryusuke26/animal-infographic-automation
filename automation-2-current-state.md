@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-21T22:12:13+09:00
+Updated: 2026-09-21T22:29:53+09:00
 
 ## Workflow
 
@@ -10,7 +10,7 @@ Updated: 2026-09-21T22:12:13+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-21-queen-alexandras-birdwing`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `6583b17` was pushed to `origin/master` and remote `refs/heads/master` was verified at `6583b17a913fc4c7f7fbd179355e1fc068d43ba3`. Nothing was posted to X.
 - Latest evidence: current official IUCN record `T15513A88565197` confirms *Ornithoptera alexandrae*, Global Endangered (EN) under B2ab(iii), assessed 24 January 2018 and published in 2018. CITES Appendix I remains separate trade-regulation context.
 - Latest visual result: both selected first-pass posters show one adult female with broad tailless brown-and-cream wings, a thick pale abdomen and coherent four-wing anatomy, plus exactly three illustrated cards in the required crayon/oil-pastel medium. The smaller blue-green male appears only in Card 2.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-21T22:12:13+09:00
 - Topic: Queen Alexandra's Birdwing / アレキサンドラトリバネアゲハ / *Ornithoptera alexandrae*.
 - Region: Oro Province, northern Papua New Guinea / Melanesia / Oceania.
 - Editorial classification group: Insects.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `ornithoptera_alexandrae_japanese_imagegen_2026-09-21.png`; first attempt accepted.
 - Selected English source: `ornithoptera_alexandrae_english_imagegen_2026-09-21.png`; first attempt selected after magnified review confirmed its handwritten apostrophe. A title-only edit experiment was rejected because it needlessly redrew the canvas.
 - Visual scope: one dominant record-size female in rainforest; three cards cover the roughly 27 cm female, adult colour dimorphism and caterpillar feeding on *Aristolochia* vines.
@@ -61,7 +61,7 @@ Mammals occupy two slots. Reptiles, Other invertebrates, Fishes, Amphibians, Bir
 
 ## Next Concrete Change
 
-- Preserve the Queen Alexandra's Birdwing package as `completed, local-ready`; GitHub and X publication remain separate and were not performed.
+- Preserve the Queen Alexandra's Birdwing package as `completed, published`; content commit `6583b17` was verified on `origin/master`. X publication remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the current 2018 Global EN footer, keep CITES Appendix I out of the status slot and keep the host claim at *Aristolochia* genus level.
 - The next new package should recalculate latest-eight summaries and scan the latest twenty for subgroup, visual and story repetition. Broaden the initial slate and consider familiar species too under Topic diversity; absence from a group is context, not a quota.

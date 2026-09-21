@@ -1933,3 +1933,13 @@ Daily Quality Loop
 - cause: the curved handwritten glyph was present but visually subtle at the first review scale
 - next_action: inspected a magnified title crop, confirmed the original locked title, rejected the needless globally redrawn edit and retained the first-pass English source; all mechanical and visual gates were rerun
 - tomorrow_change: magnify any questionable single glyph before requesting a generative text correction; no production-policy change is needed
+
+## 2026-09-21T22:29:53+09:00 — Queen Alexandra's Birdwing GitHub closeout
+
+Daily Quality Loop
+- issue: the verified package remained `completed, local-ready` after final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
+- next_action: removed rejected review-only images from the tracked package without deleting them, reran package and whitespace QA, committed the package and workflow records as `6583b17`, pushed to `origin/master`, and verified remote `refs/heads/master` at `6583b17a913fc4c7f7fbd179355e1fc068d43ba3` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
