@@ -1923,3 +1923,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
 - next_action: reran direct-source, package and whitespace checks; committed the package and workflow records as `089761a`; pushed to `origin/master`; and verified remote `refs/heads/master` at `089761adecc0be017b0f4443b0a9b405f7151351` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-21T22:12:13+09:00 — Queen Alexandra's Birdwing local-ready completion
+
+Daily Quality Loop
+- issue: the English title's handwritten apostrophe was initially ambiguous at fit-to-window size and prompted one unnecessary title-only Image Gen edit experiment
+- priority: quality-drift contained
+- tags: #copy-lock #magnified-review #selected-poster-preservation #crayon-oil-pastel #local-ready
+- cause: the curved handwritten glyph was present but visually subtle at the first review scale
+- next_action: inspected a magnified title crop, confirmed the original locked title, rejected the needless globally redrawn edit and retained the first-pass English source; all mechanical and visual gates were rerun
+- tomorrow_change: magnify any questionable single glyph before requesting a generative text correction; no production-policy change is needed
