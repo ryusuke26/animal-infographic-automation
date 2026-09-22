@@ -1,6 +1,6 @@
 # Sunflower Sea Star bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -52,5 +52,5 @@ Broad native region: Northeast Pacific coast from the Aleutian Islands to Baja C
 - Japanese selected source: `images/pycnopodia_helianthoides_japanese_imagegen_2026-09-22.png`; prompt: `image-prompt-ja.md`; reference file: `generated_infographics/purple_frog_ja_2026-04-28.png` for style only.
 - English selected source: `images/pycnopodia_helianthoides_english_imagegen_2026-09-22.png`; prompt: `image-prompt-en.md`; references: the accepted Japanese poster for composition/anatomy and the purple-frog benchmark for style only.
 - Acceptance caveat: adult arm count and colour vary naturally; the posters show about 20 arms and do not imply that every adult has exactly 24. The Japanese display name is a transparent rendering, not a claimed standardized national-list name.
-- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Git, GitHub and X were not mutated.
-
+- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass.
+- Published to GitHub in content commit `28aa81e`; remote `refs/heads/master` was verified at `28aa81ee09b5af94e4fa3cf4b6b0a50dc3923aa2` before this state change. Nothing was posted to X.

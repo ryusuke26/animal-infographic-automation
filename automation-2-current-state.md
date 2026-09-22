@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-22T16:38:27+09:00
+Updated: 2026-09-22T20:12:13+09:00
 
 ## Workflow
 
@@ -10,7 +10,7 @@ Updated: 2026-09-22T16:38:27+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-22-sunflower-sea-star`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `28aa81e` was pushed to `origin/master` and remote `refs/heads/master` was verified at `28aa81ee09b5af94e4fa3cf4b6b0a50dc3923aa2`. Nothing was posted to X.
 - Latest evidence: formal IUCN record `T178290276A197818455` confirms *Pycnopodia helianthoides*, Global Critically Endangered (CR) under A2ace, assessed 3 September 2020 and published in 2021. NOAA's proposed U.S. ESA status remains separate jurisdictional context.
 - Latest visual result: both selected first-pass posters show one broad soft central disc with about 20 connected flexible arms in a natural kelp-forest crawling pose, plus exactly three illustrated cards in the required crayon/oil-pastel medium. Five-arm development, connected underside tube feet and moving-away urchins are shown without anatomy drift.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-22T16:38:27+09:00
 - Topic: Sunflower Sea Star / ヒマワリヒトデ / *Pycnopodia helianthoides*.
 - Region: Northeast Pacific coast from the Aleutian Islands to Baja California / North America.
 - Editorial classification group: Other invertebrates.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `pycnopodia_helianthoides_japanese_imagegen_2026-09-22.png`; first attempt accepted.
 - Selected English source: `pycnopodia_helianthoides_english_imagegen_2026-09-22.png`; first attempt accepted from the Japanese composition and style benchmark.
 - Visual scope: one dominant many-armed adult on a kelp-forest floor; three cards cover five-arm juvenile development, tube-foot locomotion and sea-urchin escape response.
@@ -61,7 +61,7 @@ Mammals and Other invertebrates occupy two slots each. Fishes, Amphibians, Birds
 
 ## Next Concrete Change
 
-- Preserve the Sunflower Sea Star package as `completed, local-ready`; GitHub and X publication remain separate and were not performed.
+- Preserve the Sunflower Sea Star package as `completed, published`; content commit `28aa81e` was verified on `origin/master`. X publication remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the current 2020 Global CR footer, keep NOAA's proposed U.S. ESA status out of the global status slot, and keep the Japanese-name context explicit.
 - The next new package should recalculate latest-eight summaries and scan the latest twenty for subgroup, visual and story repetition. Broaden the initial slate and consider familiar species too under Topic diversity; absence from a group is context, not a quota.
