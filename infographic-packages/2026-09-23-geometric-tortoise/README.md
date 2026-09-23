@@ -1,6 +1,6 @@
 # Geometric Tortoise bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -54,5 +54,4 @@ Broad native region: lowland Western Cape, South Africa / southern Africa
 - Japanese selected source: `images/psammobates_geometricus_japanese_imagegen_2026-09-23.png`; prompt: `image-prompt-ja.md`; references: both retained SANBI crops for exact-taxon identity and `generated_infographics/purple_frog_ja_2026-04-28.png` for style only.
 - English selected source: `images/psammobates_geometricus_english_imagegen_2026-09-23.png`; prompt: `image-prompt-en.md`; references: the accepted Japanese poster for composition, both SANBI crops for exact-taxon identity and the purple-frog benchmark for style only.
 - Acceptance caveat: ray thickness, wear and yellow tone vary naturally; the posters lock the cross-scutal network rather than an identical ray count. The Japanese name is database-backed but not claimed as a standardized Japanese national-list name.
-- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Git, GitHub and X were not mutated.
-
+- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Published to GitHub in content commit `e990668`; remote `refs/heads/master` was verified at `e990668b5c11205741ad8275575a6af1d149cece` before this published-state update. Nothing was posted to X.

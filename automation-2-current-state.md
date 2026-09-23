@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-23T20:04:59+09:00
+Updated: 2026-09-23T20:42:26+09:00
 
 ## Workflow
 
@@ -10,7 +10,7 @@ Updated: 2026-09-23T20:04:59+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-23-geometric-tortoise`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `e990668` was pushed to `origin/master` and remote `refs/heads/master` was verified at `e990668b5c11205741ad8275575a6af1d149cece`. Nothing was posted to X.
 - Latest evidence: current IUCN errata record `T18398A173894530` confirms *Psammobates geometricus*, Global Critically Endangered (CR) under A4ace, assessed 13 June 2017. The 2020 erratum only reattaches a historical range map.
 - Latest visual result: both selected first-pass posters show one naturally posed, strongly domed adult with golden-yellow rays meeting across dark scute seams in a Western Cape renosterveld setting, plus exactly three explanatory illustrated cards in the required crayon/oil-pastel medium. Natural limb occlusion is accepted and no anatomy is forced into view.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-23T20:04:59+09:00
 - Topic: Geometric Tortoise / ホシヤブガメ / *Psammobates geometricus*.
 - Region: lowland Western Cape, South Africa / southern Africa.
 - Editorial classification group: Reptiles.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `psammobates_geometricus_japanese_imagegen_2026-09-23.png`; first attempt accepted.
 - Selected English source: `psammobates_geometricus_english_imagegen_2026-09-23.png`; first attempt accepted from the Japanese composition, exact-taxon SANBI references and style benchmark.
 - Visual scope: one dominant adult in low renosterveld; three cards cover connected shell rays, shadow-breaking camouflage and slightly damp shelter under dense plants during hot dry summer.
@@ -61,7 +61,7 @@ Mammals occupy two slots. Fishes, Amphibians, Birds, Insects, Other invertebrate
 
 ## Next Concrete Change
 
-- Preserve the Geometric Tortoise package as `completed, local-ready`. GitHub closeout and X publication remain separate and were not performed.
+- Preserve the Geometric Tortoise package as `completed, published`; content commit `e990668` was verified on `origin/master`. X publication remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the 2017 Global CR footer, keep the 2020 erratum distinct from the assessment year, and keep the Japanese-name context explicit.
 - The next new package should recalculate latest-eight summaries and scan the latest twenty for subgroup, visual and story repetition. Broaden the initial slate and consider familiar species too under Topic diversity; absence from a group is context, not a quota.
