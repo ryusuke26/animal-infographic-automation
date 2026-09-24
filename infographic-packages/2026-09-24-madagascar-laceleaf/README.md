@@ -1,6 +1,6 @@
 # Madagascar Laceleaf bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -53,4 +53,4 @@ Broad native region: Madagascar / western Indian Ocean
 - Japanese selected source: `images/aponogeton_madagascariensis_japanese_imagegen_2026-09-24.png`; prompt: `image-prompt-ja.md`; references: both retained Rowarth et al. exact-taxon figures for biological identity and `generated_infographics/purple_frog_ja_2026-04-28.png` for style only.
 - English selected source: `images/aponogeton_madagascariensis_english_imagegen_2026-09-24.png`; prompt: `image-prompt-en.md`; references: the accepted Japanese direct poster for composition, both retained Rowarth et al. figures for biological identity and the purple-frog benchmark for style only.
 - Acceptance caveat: leaf width and lattice density vary with developmental stage and cultivated form; the posters lock the continuous margin, one-corm rosette and longitudinal/crosswise vein grid rather than an exact perforation count. The Japanese title is a documented horticultural name, not a claimed standardized national-list name.
-- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Nothing was posted to X, and Git/GitHub were not mutated.
+- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Published to GitHub in content commit `531b837`; remote `refs/heads/master` was verified at `531b837dbe91329e1b378cf7e8721b7cb3304b14` before this published-state update. Nothing was posted to X.

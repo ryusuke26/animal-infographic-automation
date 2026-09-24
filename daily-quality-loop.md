@@ -1914,6 +1914,16 @@ Daily Quality Loop
 - next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
 - tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
 
+## 2026-09-24T22:08:36+09:00 — Madagascar Laceleaf GitHub closeout
+
+Daily Quality Loop
+- issue: none; the completed local-ready package was ready for the explicitly requested GitHub closeout
+- priority: clean publication closeout
+- tags: #github #published #remote-verified
+- cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
+- next_action: reran package and whitespace checks; committed the package and workflow records as `531b837`; pushed to `origin/master`; and verified remote `refs/heads/master` at `531b837dbe91329e1b378cf7e8721b7cb3304b14` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
 ## 2026-09-20T21:27:32+09:00 — Black-faced Spoonbill GitHub closeout
 
 Daily Quality Loop

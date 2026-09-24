@@ -10,7 +10,7 @@ Updated: 2026-09-24T21:23:22+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-24-madagascar-laceleaf`.
-- Latest state: `completed, local-ready`; Git/GitHub and X were not mutated.
+- Latest state: `completed, published`; package content commit `531b837` was pushed to `origin/master` and remote `refs/heads/master` was verified at `531b837dbe91329e1b378cf7e8721b7cb3304b14`. Nothing was posted to X.
 - Latest evidence: current IUCN record `T88495173A177456553` confirms *Aponogeton madagascariensis*, Global Least Concern (LC), assessed 28 June 2016. The amended assessment publication year is 2020 and is not used as the footer year.
 - Latest visual result: both selected first-pass posters show one submerged plant rooted from one corm, living elongated lattice leaves with continuous margins, one younger furled leaf and exactly three explanatory illustrated cards in the required crayon/oil-pastel medium.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-24T21:23:22+09:00
 - Topic: Madagascar Laceleaf / レースソウ / *Aponogeton madagascariensis*.
 - Region: Madagascar / western Indian Ocean.
 - Editorial classification group: Plants.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `aponogeton_madagascariensis_japanese_imagegen_2026-09-24.png`; first attempt accepted.
 - Selected English source: `aponogeton_madagascariensis_english_imagegen_2026-09-24.png`; first attempt accepted from the Japanese composition, retained exact-taxon developmental figures and style benchmark.
 - Visual scope: one submerged rosette from one corm; three cards cover programmed holes opening outward between veins, solid first juvenile leaves and the mature longitudinal/crosswise vein lattice.
@@ -61,7 +61,7 @@ Mammals occupy two slots. Amphibians, Birds, Insects, Other invertebrates, Repti
 
 ## Next Concrete Change
 
-- Preserve the Madagascar Laceleaf package as `completed, local-ready`; GitHub and X publication remain separate and were not performed.
+- Preserve the Madagascar Laceleaf package as `completed, published`; content commit `531b837` was verified on `origin/master`. X publication remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the 2016 Global LC footer, keep the 2020 amended publication year distinct and keep the Japanese-name context explicit.
 - The next new package should recalculate latest-eight summaries and scan the latest twenty for subgroup, visual and story repetition. Broaden the initial slate and consider familiar species too under Topic diversity; absence from a group is context, not a quota.
