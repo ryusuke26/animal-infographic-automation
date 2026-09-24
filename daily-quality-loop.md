@@ -1983,3 +1983,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
 - next_action: reran direct-source, sidecar, package and whitespace checks; committed the package and workflow records as `e990668`; pushed to `origin/master`; and verified remote `refs/heads/master` at `e990668b5c11205741ad8275575a6af1d149cece` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-24T21:23:22+09:00 — Madagascar Laceleaf local-ready completion
+
+Daily Quality Loop
+- issue: none; both first-pass posters passed exact growth-form identity, vein-grid anatomy, exact copy, cards, crayon/oil-pastel style and mobile-readability review
+- priority: clean completion
+- tags: #first-pass-visual #crayon-oil-pastel #plants #local-ready
+- cause: Evidence Lock fixed the one-corm rosette, continuous living leaf margin, developmental perforation sequence and three evidence-backed discovery cards before generation
+- next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
+- tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
