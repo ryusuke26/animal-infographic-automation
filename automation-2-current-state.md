@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-25T20:07:33+09:00
+Updated: 2026-09-25T21:25:09+09:00
 
 ## Workflow
 
@@ -10,7 +10,7 @@ Updated: 2026-09-25T20:07:33+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-25-leafy-seadragon`.
-- Latest state: `completed, local-ready`; Git, GitHub and X were not mutated.
+- Latest state: `completed, published`; content commit `067765b` was pushed to `origin/master` and verified remotely. Nothing was posted to X.
 - Latest evidence: current IUCN record `T17096A67622420` confirms *Phycodurus eques*, Global Least Concern (LC), assessed 12 May 2016 and published in 2017. The public footer uses the assessment year.
 - Latest visual result: both selected first-pass posters show one side-on leafy seadragon with a coherent bony ringed body, tubular snout, branching skin flaps, separate transparent pectoral and dorsal fins and exactly three explanatory illustrated cards in the required crayon/oil-pastel medium.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-25T20:07:33+09:00
 - Topic: Leafy Seadragon / リーフィーシードラゴン / *Phycodurus eques*.
 - Region: temperate southern Australia / Oceania.
 - Editorial classification group: Fishes.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `phycodurus_eques_japanese_imagegen_2026-09-25.png`; first attempt accepted.
 - Selected English source: `phycodurus_eques_english_imagegen_2026-09-25.png`; first attempt accepted from the Japanese composition, retained the three exact-taxon references and style benchmark.
 - Visual scope: one side-on adult with traceable head, trunk and non-prehensile tail; three cards distinguish leaf-like skin flaps from the small transparent swimming fins and show eggs attached to the exposed underside of a complete male's tail.
@@ -61,7 +61,7 @@ Mammals occupy two slots. Birds, Fishes, Insects, Other invertebrates, Reptiles 
 
 ## Next Concrete Change
 
-- Preserve the Leafy Seadragon package as `completed, local-ready`; GitHub and X publication remain separate and were not performed.
+- Preserve the Leafy Seadragon package as `completed, published`; GitHub publication is complete and X publication remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the 2016 Global LC footer, keep the 2017 publication year distinct and retain the exposed male tail-brooding anatomy caveat.
 - The next new package should recalculate latest-eight summaries and scan the latest twenty for subgroup, visual and story repetition. Broaden the initial slate and consider familiar species too under Topic diversity; absence from a group is context, not a quota.

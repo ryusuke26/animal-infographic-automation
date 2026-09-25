@@ -1,6 +1,6 @@
 # Leafy Seadragon bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 
 Workflow mode: Quality Run
 
@@ -54,4 +54,4 @@ Broad native region: temperate southern Australia / Oceania
 - Japanese selected source: `images/phycodurus_eques_japanese_imagegen_2026-09-25.png`; prompt: `image-prompt-ja.md`; references: the three retained exact-taxon photographs for biological identity and `generated_infographics/purple_frog_ja_2026-04-28.png` for style only.
 - English selected source: `images/phycodurus_eques_english_imagegen_2026-09-25.png`; prompt: `image-prompt-en.md`; references: the accepted Japanese direct poster for composition, the same three exact-taxon photographs for biological identity and the purple-frog benchmark for style only.
 - Acceptance caveat: adult colour and skin-flap overlap vary naturally. The posters lock the body-ring geometry, tubular snout, non-prehensile tail, fin positions and egg attachment on the underside of the male's intact tail rather than an exact flap or egg count.
-- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Git, GitHub and X were not mutated.
+- Direct-source, X-format, synchronized-sidecar, pixel-identity and full-package validation pass. Published to GitHub in content commit `067765b`; nothing was posted to X.

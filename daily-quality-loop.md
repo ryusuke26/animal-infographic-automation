@@ -2013,3 +2013,13 @@ Daily Quality Loop
 - cause: Evidence Lock fixed the bony ringed body, tubular snout, separate transparent swimming fins, branching skin-flap attachment and exposed male tail-brooding surface before generation
 - next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
 - tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
+
+## 2026-09-25T21:25:09+09:00 — Leafy Seadragon GitHub closeout
+
+Daily Quality Loop
+- issue: the verified package remained `completed, local-ready` after final QA
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
+- next_action: reran direct-source, sidecar, package and whitespace checks; committed the package and workflow records as `067765b`; pushed to `origin/master`; and verified remote `refs/heads/master` at `067765b3091d5d826abe1cd2d5683e61923b3d95` before changing published-state metadata
+- tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
