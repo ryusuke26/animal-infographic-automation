@@ -2003,3 +2003,13 @@ Daily Quality Loop
 - cause: Evidence Lock fixed the one-corm rosette, continuous living leaf margin, developmental perforation sequence and three evidence-backed discovery cards before generation
 - next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
 - tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
+
+## 2026-09-25T20:07:33+09:00 — Leafy Seadragon local-ready completion
+
+Daily Quality Loop
+- issue: none; both first-pass posters passed exact-taxon identity, fin/flap anatomy, exposed male tail-brooding, exact copy, cards, crayon/oil-pastel style and mobile-readability review
+- priority: clean completion
+- tags: #first-pass-visual #crayon-oil-pastel #fishes #local-ready
+- cause: Evidence Lock fixed the bony ringed body, tubular snout, separate transparent swimming fins, branching skin-flap attachment and exposed male tail-brooding surface before generation
+- next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and active state, then ran final mechanical and visual checks
+- tomorrow_change: no policy change; retain the current Evidence Lock, Copy Lock and style-gate sequence
