@@ -2023,3 +2023,13 @@ Daily Quality Loop
 - cause: GitHub publication was intentionally deferred until the user's explicit end-of-day instruction
 - next_action: reran direct-source, sidecar, package and whitespace checks; committed the package and workflow records as `067765b`; pushed to `origin/master`; and verified remote `refs/heads/master` at `067765b3091d5d826abe1cd2d5683e61923b3d95` before changing published-state metadata
 - tomorrow_change: keep future Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the content commit remotely before synchronizing published-state metadata
+
+## 2026-09-26T10:48:28+09:00 — Sunbittern local-ready completion
+
+Daily Quality Loop
+- issue: the first pre-image check rejected the prompt text-block syntax and warned that the structured IUCN check line was missing; both were fixed before art
+- priority: ops-friction, contained
+- tags: #workflow-friction #copy-lock #local-ready
+- cause: the first prompt draft used numbered inline-quoted strings instead of the brief's exact quote-per-line parser format, while IUCN evidence appeared only in prose bullets
+- next_action: matched the required prompt grammar and added the explicit IUCN record; pre-image QA then passed before generation, and both first-pass posters passed direct-source and full-package QA
+- tomorrow_change: build the nine quote-per-line prompt strings and structured IUCN line before the first pre-image validator run
