@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-26T10:50:38+09:00
+Updated: 2026-09-26T19:08:17+09:00
 
 ## Workflow
 
@@ -10,7 +10,7 @@ Updated: 2026-09-26T10:50:38+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: `2026-09-26-sunbittern`.
-- Latest state: `completed, local-ready`. No Git mutation or external publication was performed.
+- Latest state: `completed, published`; content commit `3ef59e8` was pushed to `origin/master` and verified remotely. Nothing was posted to X.
 - Latest evidence: current IUCN record `T22691893A163625651` confirms *Eurypyga helias*, Global Least Concern (LC), last assessed 4 December 2019; the public footer uses assessment year 2019.
 - Latest visual result: both first-pass posters show one adult Sunbittern with attached display wings and tail, red eye and striped head, and three explanatory illustrated cards in the required crayon/oil-pastel medium. Full-size and phone-size reviews passed; card 3 shows the parent with chicks but no predator scene.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
@@ -21,7 +21,7 @@ Updated: 2026-09-26T10:50:38+09:00
 - Topic: Sunbittern / ジャノメドリ / *Eurypyga helias*.
 - Region: tropical Central and South America / Americas.
 - Editorial classification group: Birds.
-- State: `completed, local-ready`.
+- State: `completed, published`.
 - Selected Japanese source: `sunbittern_japanese_imagegen_2026-09-26.png`; first attempt accepted.
 - Selected English source: `sunbittern_english_imagegen_2026-09-26.png`; first attempt accepted with the Wuppertal exact-taxon photograph and Japanese composition reference.
 - Visual scope: one adult streamside display bird with a compact barred body, striped head and red eye, long pointed bill and legs, and connected wings and tail showing chestnut-orange, black and pale eye-like patches. Three cards explain the display, shallow-water hunting and nest-defense context.
@@ -61,7 +61,7 @@ Birds occupy two slots. Mammals, Fishes, Insects, Other invertebrates, Reptiles 
 
 ## Next Concrete Change
 
-- Preserve the Sunbittern package as `completed, local-ready`; GitHub closeout and X publication are separate and were not performed.
+- Preserve the Sunbittern package as `completed, published`; GitHub publication is complete and X publication remains separate and was not performed.
 - Use `x-post-ja.md` / `x-post-en.md` as the primary posting sets; sidecars are synchronized backups.
 - Preserve the Global LC 2019 assessment-year footer and retain the card-3 no-predator visual note in the package QA record.
 - The next new package should recalculate latest-eight summaries and scan the latest twenty for subgroup, visual and story repetition. Broaden the initial slate and consider familiar species too under Topic diversity; absence from a group is context, not a quota.

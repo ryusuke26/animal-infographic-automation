@@ -2033,3 +2033,13 @@ Daily Quality Loop
 - cause: the first prompt draft used numbered inline-quoted strings instead of the brief's exact quote-per-line parser format, while IUCN evidence appeared only in prose bullets
 - next_action: matched the required prompt grammar and added the explicit IUCN record; pre-image QA then passed before generation, and both first-pass posters passed direct-source and full-package QA
 - tomorrow_change: build the nine quote-per-line prompt strings and structured IUCN line before the first pre-image validator run
+
+## 2026-09-26T19:08:17+09:00 — Sunbittern GitHub closeout
+
+Daily Quality Loop
+- issue: the completed package remained `completed, local-ready` pending the user's end-of-day GitHub request
+- priority: closeout
+- tags: #github-closeout #remote-verification #published-state
+- cause: GitHub publication is separate from local production and X publication
+- next_action: committed the package as `3ef59e8`, pushed to `origin/master` and verified the remote branch at `3ef59e817ea795170b6d9bb3aaf315f50ed856df` before updating package, INDEX and current-state metadata to `completed, published`
+- tomorrow_change: keep new Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the remote commit before synchronizing published-state metadata
