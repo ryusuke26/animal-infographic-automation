@@ -9,7 +9,7 @@ Eurypyga helias
 
 IUCN Red List 2019: 低懸念 (LC)
 
-#Sunbittern
+#世界の知らない生き物 #Sunbittern
 ```
 
 ## Story reply

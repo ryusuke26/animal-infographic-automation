@@ -19,7 +19,9 @@ packages are grandfathered and need not be rewritten.
   lines after the hook. Do not fold them into prose.
 - Follow with the quiet conservation-status footer.
 - End with 1-2 hashtags. Always include the English common name with spaces and
-  punctuation removed, for example `#Kea` or `#HimalayanMonal`.
+  punctuation removed, for example `#Kea` or `#HimalayanMonal`. In every
+  Japanese main post, also include the series tag `#世界の知らない生き物`.
+  English main posts use the English common-name tag alone by default.
 - Keep this post short. The fuller natural-history story belongs in the first
   reply.
 - Main post and story reply each have a budget of 275 X-weighted characters,
@@ -40,7 +42,7 @@ packages are grandfathered and need not be rewritten.
 <scientific name on its own line>
 
 <quiet status footer>
-<#EnglishCommonName hashtag, plus at most one series hashtag>
+<#世界の知らない生き物 #EnglishCommonName for Japanese; #EnglishCommonName for English>
 ```
 
 ## Story reply

@@ -2043,3 +2043,19 @@ Daily Quality Loop
 - cause: GitHub publication is separate from local production and X publication
 - next_action: committed the package as `3ef59e8`, pushed to `origin/master` and verified the remote branch at `3ef59e817ea795170b6d9bb3aaf315f50ed856df` before updating package, INDEX and current-state metadata to `completed, published`
 - tomorrow_change: keep new Quality Runs `completed, local-ready` until an explicitly requested closeout verifies the remote commit before synchronizing published-state metadata
+
+## 2026-09-27T18:51:20+09:00 — Axolotl Quality Run completed
+
+Daily Quality Loop
+- issue: the first Japanese regeneration card showed detached limb pieces; the single targeted retry corrected the illustration but redrew fine pixels across the whole canvas
+- priority: quality-drift, contained
+- tags: #species-identity-drift #localized-image-edit #local-ready
+- cause: the generative editor followed the semantic request while not preserving accepted pixels outside the card
+- next_action: reviewed the entire selected image, every defining feature and all locked text after the retry; both language packages passed visual and mechanical QA
+- tomorrow_change: when a requested local image edit returns, compare the whole canvas before acceptance and record whether it remained local
+
+## 2026-09-27T21:41:30+09:00 — Axolotl GitHub closeout
+
+- Revalidated the Axolotl and Sunbittern packages, synchronized posting sidecars, and checked whitespace before publication.
+- Published the Axolotl package and INDEX in content commit `951b55b`; remote `refs/heads/master` was verified at `951b55b05b107a2f6764f5853c7b46cf4a90af16` before the published-state update.
+- The metadata update includes the restored Japanese series hashtag for Sunbittern and Axolotl, its synchronized caption sidecar, and the required Japanese hashtag template wording. Nothing was posted to X.
