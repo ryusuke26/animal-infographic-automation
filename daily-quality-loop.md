@@ -2059,3 +2059,19 @@ Daily Quality Loop
 - Revalidated the Axolotl and Sunbittern packages, synchronized posting sidecars, and checked whitespace before publication.
 - Published the Axolotl package and INDEX in content commit `951b55b`; remote `refs/heads/master` was verified at `951b55b05b107a2f6764f5853c7b46cf4a90af16` before the published-state update.
 - The metadata update includes the restored Japanese series hashtag for Sunbittern and Axolotl, its synchronized caption sidecar, and the required Japanese hashtag template wording. Nothing was posted to X.
+
+## 2026-09-28T20:19:34+09:00 — Okapi local-ready completion
+
+Daily Quality Loop
+- issue: none; both first-pass posters passed species identity, exact copy, illustrated-card, crayon/oil-pastel and phone-size gates
+- priority: clean completion
+- tags: #first-pass-visual #crayon-oil-pastel #local-ready
+- cause: Evidence Lock fixed female anatomy, rump-limited stripes, connected browsing tongue and natural leg occlusion before generation
+- next_action: synchronized four canonical PNGs, eight sidecars, package records, INDEX and current state; full package QA passed
+- tomorrow_change: no policy change; retain the current evidence, copy and visual-gate sequence
+
+## 2026-09-28T21:54:02+09:00 — Okapi GitHub closeout
+
+- Revalidated both direct posters, synchronized sidecars, full package QA and whitespace before publication.
+- Published the Okapi package and INDEX in content commit `a21c84d`; remote `refs/heads/master` was verified at `a21c84dee948b82009fd95c4a2bcb7baa3463074` before changing the published-state metadata.
+- Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.

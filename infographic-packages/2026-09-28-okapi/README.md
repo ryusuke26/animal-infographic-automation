@@ -1,6 +1,6 @@
 # Okapi bilingual infographic package
 
-State: completed, local-ready
+State: completed, published
 
 Workflow mode: Quality Run
 
@@ -47,4 +47,6 @@ Broad native region: eastern Democratic Republic of Congo, Central Africa
 
 Evidence Lock and bilingual cards-v2 Copy Lock passed before art. Both first-pass direct Image Gen posters were accepted without retry. The selected Japanese source is `images/okapi_japanese_imagegen_2026-09-28.png` from `image-prompt-ja.md`; its posting file is `images/okapi_japanese_posting_2026-09-28.png`. The selected English source is `images/okapi_english_imagegen_2026-09-28.png` from `image-prompt-en.md`, generated with the accepted Japanese poster as composition and medium reference; its posting file is `images/okapi_english_posting_2026-09-28.png`. San Diego Zoo and Okapi Conservation Project exact-taxon accounts supplied biological identity descriptions; the purple-frog image was style-only. Remote reference JPG saving was blocked by sandbox networking, but their source pages and visible geometry were inspected.
 
-Both direct sources pass the exact 2:3 source gate. All four canonical PNGs are 1024x1536, and each direct/posting pair is pixel-identical. Full-size and 342x513 phone-size review passed one female with coherent neck, legs, hooves, patterned hindquarters, dark browsing tongue and large attached ears. Exactly three numbered illustrated cards contain their locked headings and explanatory sentences in each language. Broken crayon/oil-pastel marks remain visible in the hero, habitat and card drawings. Eight copy-ready sidecars were synchronized from the primary X posting sets and full package validation passes. The IUCN status is a 2015 Global EN assessment marked Needs updating; no newer assessment year is implied. Git, GitHub and X were not mutated.
+Both direct sources pass the exact 2:3 source gate. All four canonical PNGs are 1024x1536, and each direct/posting pair is pixel-identical. Full-size and 342x513 phone-size review passed one female with coherent neck, legs, hooves, patterned hindquarters, dark browsing tongue and large attached ears. Exactly three numbered illustrated cards contain their locked headings and explanatory sentences in each language. Broken crayon/oil-pastel marks remain visible in the hero, habitat and card drawings. Eight copy-ready sidecars were synchronized from the primary X posting sets and full package validation passes. The IUCN status is a 2015 Global EN assessment marked Needs updating; no newer assessment year is implied.
+
+The package and INDEX were published to GitHub in content commit `a21c84dee948b82009fd95c4a2bcb7baa3463074`, verified at remote `refs/heads/master` before this state update. Nothing was posted to X.
