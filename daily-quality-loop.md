@@ -2075,3 +2075,25 @@ Daily Quality Loop
 - Revalidated both direct posters, synchronized sidecars, full package QA and whitespace before publication.
 - Published the Okapi package and INDEX in content commit `a21c84d`; remote `refs/heads/master` was verified at `a21c84dee948b82009fd95c4a2bcb7baa3463074` before changing the published-state metadata.
 - Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
+
+## 2026-09-29T21:21:42+09:00 — Secretarybird local-ready completion
+
+Daily Quality Loop
+- issue: the IUCN dynamic page returned 403, but exact-record citation and institutional assessment-date mirrors agreed on Global EN assessed 30 April 2020
+- priority: ops-friction, contained
+- tags: #IUCN-unavailable #local-ready
+- cause: direct dynamic page access was restricted in this environment
+- next_action: documented the exact DOI, SANBI, BirdLife South Africa and AfDB fallback; completed both first-pass posters and full package QA
+- tomorrow_change: no policy change; continue exact-record corroboration when a dynamic assessment page is unavailable
+
+## 2026-09-29T22:26:36+09:00 — Secretarybird official evidence confirmed
+
+- User-supplied official IUCN PDF and current-page capture directly confirm Global EN, record `T22696221A173647556`, assessed 30 April 2020; the PDF separately labels publication year 2020.
+- SHA-256 matching copies are retained in the package references; the initial indirect-evidence caveat is retired in package provenance, INDEX and current state.
+- Public posters, Copy Locks, X posting sets and sidecars were already correct and remain unchanged. GitHub and X publication remain separate.
+
+## 2026-09-29T22:57:09+09:00 — Secretarybird GitHub closeout
+
+- Revalidated synchronized sidecars, full package QA and whitespace before publication.
+- Published the Secretarybird package and INDEX in content commit `95eaf9f`; remote `refs/heads/master` was verified at `95eaf9f9912fe5c2ec81ea45214329a1905c8695` before changing published-state metadata.
+- Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
