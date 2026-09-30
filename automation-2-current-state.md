@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-09-29T22:57:09+09:00
+Updated: 2026-10-01T08:42:04+09:00
 
 ## Workflow
 
@@ -9,56 +9,56 @@ Updated: 2026-09-29T22:57:09+09:00
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none.
-- Latest package: `2026-09-29-secretarybird`.
-- Latest state: `completed, published`; content commit `95eaf9f9912fe5c2ec81ea45214329a1905c8695` was pushed to `origin/master` and verified remotely. Nothing was posted to X.
-- Latest evidence: the user-supplied official IUCN assessment PDF and current-page capture directly confirm *Sagittarius serpentarius*, record `T22696221A173647556`, Global Endangered (EN), assessed 30 April 2020. The initial dynamic-page access caveat is retired.
-- Latest visual result: one walking adult Secretarybird in open savanna, with long coherent legs, hooked bill, bare red-orange face, attached crest, folded black wing feathers and exactly three explanatory cards in crayon/oil-pastel medium. Both first-pass posters passed source and visual gates, full-size/phone-size review and full package QA.
+- Latest package: `2026-09-30-giant-anteater`.
+- Latest state: `completed, published`; content commit `86fba1a5ffb50c8152f49ce851ba52e843742baa` was pushed to `origin/master` and verified remotely. Nothing was posted to X.
+- Latest evidence: formal IUCN assessment `T14224A210444314` confirms *Myrmecophaga tridactyla*, Global Vulnerable (VU), assessed 10 May 2024 and published in 2025. The live page did not render, so the complete formal assessment text and MDD status were inspected.
+- Latest visual result: one walking adult Giant Anteater with long narrow snout, pale-edged black shoulder wedge, curled foreclaws, attached bushy tail and exactly three explanatory cards in crayon/oil-pastel medium. The Japanese first pass and English corrected source passed direct-source, full-size/phone-size and full package QA.
 - Retired package: `2026-08-21-montseny-brook-newt` is an exact duplicate of `2026-06-26-montseny-brook-newt`; do not post it.
 
 ## Latest Completed Package
 
-- Package: `2026-09-29-secretarybird`.
-- Topic: Secretarybird / ヘビクイワシ / *Sagittarius serpentarius*.
-- Region: sub-Saharan African open savanna and grassland.
-- Editorial classification group: Birds; exact lineage Sagittariidae.
+- Package: `2026-09-30-giant-anteater`.
+- Topic: Giant Anteater / オオアリクイ / *Myrmecophaga tridactyla*.
+- Region: Central and South American grassland and open woodland.
+- Editorial classification group: Mammals; exact lineage Myrmecophagidae.
 - State: `completed, published`.
-- Selected Japanese source: `secretarybird_japanese_imagegen_2026-09-29.png`; first attempt, prompt `image-prompt-ja.md`.
-- Selected English source: `secretarybird_english_imagegen_2026-09-29.png`; first attempt, prompt `image-prompt-en.md`, with accepted Japanese composition reference.
+- Selected Japanese source: `giant_anteater_japanese_imagegen_2026-09-30.png`; first attempt, prompt `image-prompt-ja.md`.
+- Selected English source: `giant_anteater_english_imagegen_2026-09-30.png`; one targeted correction, prompt `image-prompt-en-retry.md`; first pass retained in `audit/`.
 - Artifacts: four canonical 1024x1536 PNGs, two primary X posting sets and eight synchronized sidecars. Direct-source, full package, copy, full-size/phone-size, identity, anatomy, card and medium QA pass.
-- Acceptance caveat: none for IUCN category or date after direct official-artifact confirmation. Remote identity JPEG saving was blocked during production, but exact-taxon source images/descriptions were inspected.
+- Acceptance caveat: live IUCN page retrieval did not render; the matching complete formal assessment text and MDD status were inspected. No unresolved copy or visual blocker.
 
 ## Recent-Eight Completed Region Rotation
 
-1. 2026-09-22 — North America — Sunflower Sea Star
-2. 2026-09-23 — Southern Africa — Geometric Tortoise
-3. 2026-09-24 — Western Indian Ocean — Madagascar Laceleaf
-4. 2026-09-25 — Oceania — Leafy Seadragon
-5. 2026-09-26 — Tropical Central and South America — Sunbittern
-6. 2026-09-27 — North America — Axolotl
-7. 2026-09-28 — Central Africa — Okapi
-8. 2026-09-29 — Sub-Saharan Africa — Secretarybird
+1. 2026-09-23 — Southern Africa — Geometric Tortoise
+2. 2026-09-24 — Western Indian Ocean — Madagascar Laceleaf
+3. 2026-09-25 — Oceania — Leafy Seadragon
+4. 2026-09-26 — Tropical Central and South America — Sunbittern
+5. 2026-09-27 — North America — Axolotl
+6. 2026-09-28 — Central Africa — Okapi
+7. 2026-09-29 — Sub-Saharan Africa — Secretarybird
+8. 2026-09-30 — Central and South America — Giant Anteater
 
-North America occupies two slots; broad African regions differ by habitat and lineage. Apply Topic diversity without quotas or cooldowns.
+Africa and the Americas each recur across different habitats and lineages. Apply Topic diversity without quotas or cooldowns.
 
 ## Recent-Eight Completed Classification Rotation
 
-1. 2026-09-22 — Other invertebrates — Sunflower Sea Star
-2. 2026-09-23 — Reptiles — Geometric Tortoise
-3. 2026-09-24 — Plants — Madagascar Laceleaf
-4. 2026-09-25 — Fishes — Leafy Seadragon
-5. 2026-09-26 — Birds — Sunbittern
-6. 2026-09-27 — Amphibians — Axolotl
-7. 2026-09-28 — Mammals — Okapi
-8. 2026-09-29 — Birds — Secretarybird
+1. 2026-09-23 — Reptiles — Geometric Tortoise
+2. 2026-09-24 — Plants — Madagascar Laceleaf
+3. 2026-09-25 — Fishes — Leafy Seadragon
+4. 2026-09-26 — Birds — Sunbittern
+5. 2026-09-27 — Amphibians — Axolotl
+6. 2026-09-28 — Mammals — Okapi
+7. 2026-09-29 — Birds — Secretarybird
+8. 2026-09-30 — Mammals — Giant Anteater
 
-Birds occupy two slots with strongly different body forms and habitats. Fungi and lichens and insects are absent; this is context, not a quota.
+Birds and Mammals occupy two slots each with different body forms and habitats. Fungi and lichens and insects are absent; this is context, not a quota.
 
 ## Daily Quality Loop
 
-- Issue: initial IUCN dynamic-page access returned 403; official PDF and current-page capture supplied later directly confirm the same 2020 Global EN assessment. Both languages passed visual and mechanical gates on the first attempt.
+- Issue: the first English card heading used “on” and could misstate how the forefoot bears weight. One targeted correction used “with”; full-canvas review passed. The IUCN dynamic page did not render, but the full formal assessment text provides the status and date.
 - Unresolved carryover: none.
 
 ## Next Concrete Change
 
-- Preserve the Secretarybird package as `completed, published`; X publication remains separate.
+- Preserve the Giant Anteater package as `completed, published`; X publication remains separate.
 - Recalculate latest-eight and latest-twenty topic diversity on the next run; retain exact-taxon identity and Copy Lock before art.

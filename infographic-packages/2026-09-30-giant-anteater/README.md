@@ -1,6 +1,6 @@
 # Giant Anteater bilingual infographic package
 
-State: completed, local-ready
+State: completed, published
 
 Workflow mode: Quality Run
 
@@ -49,4 +49,6 @@ Broad native region: Central and South America, open woodland and grassland
 
 Evidence Lock and both cards-v2 Copy Locks passed pre-image QA before art. The first Japanese direct poster from `image-prompt-ja.md` passed the exact 2:3 source gate and visual review. The first English poster from the historical prompt preserved in `audit/image-prompt-en-first-pass.md` also passed the source gate, but its card 1 heading used “Walking on curled claws”, which could imply weight on the claws. One targeted Image Gen edit using `image-prompt-en-retry.md` changed it to the biologically clear “Walking with curled claws”; the first-pass English poster and posting version remain in `audit/` for traceability. `image-prompt-en.md` holds the final locked English full-poster wording.
 
-The selected English direct source was rechecked over the whole canvas after the edit: long narrow snout, pale-edged black shoulder wedge, attached bushy tail, naturally curled foreclaws and coherent walking limbs remain. Three numbered spot-art cards carry their full locked sentences in both languages. Broken matte crayon/oil-pastel marks and exposed paper show in the hero, grass and all card studies. Both selected direct sources passed the source gate; both posting PNGs are exactly 1024x1536. Full-size and [342x513 phone-size comparison](audit/phone-review-2026-09-30.png) passed manual review. The eight sidecars were synchronized from the primary X posting sets. Global VU is from the IUCN assessment dated 10 May 2024, published 2025; live species-page retrieval was unavailable, with the formal assessment text and MDD status cross-check documented in Sources QA. Nothing was posted to X or pushed to GitHub.
+The selected English direct source was rechecked over the whole canvas after the edit: long narrow snout, pale-edged black shoulder wedge, attached bushy tail, naturally curled foreclaws and coherent walking limbs remain. Three numbered spot-art cards carry their full locked sentences in both languages. Broken matte crayon/oil-pastel marks and exposed paper show in the hero, grass and all card studies. Both selected direct sources passed the source gate; both posting PNGs are exactly 1024x1536. Full-size and [342x513 phone-size comparison](audit/phone-review-2026-09-30.png) passed manual review. The eight sidecars were synchronized from the primary X posting sets. Global VU is from the IUCN assessment dated 10 May 2024, published 2025; live species-page retrieval was unavailable, with the formal assessment text and MDD status cross-check documented in Sources QA. Nothing was posted to X.
+
+The package and INDEX were published to GitHub in content commit `86fba1a5ffb50c8152f49ce851ba52e843742baa`; remote `refs/heads/master` was verified at that commit before this published-state metadata update.

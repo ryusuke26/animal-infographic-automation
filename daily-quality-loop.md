@@ -2097,3 +2097,19 @@ Daily Quality Loop
 - Revalidated synchronized sidecars, full package QA and whitespace before publication.
 - Published the Secretarybird package and INDEX in content commit `95eaf9f`; remote `refs/heads/master` was verified at `95eaf9f9912fe5c2ec81ea45214329a1905c8695` before changing published-state metadata.
 - Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
+
+## 2026-09-30T22:18:32+09:00 — Giant Anteater local-ready completion
+
+Daily Quality Loop
+- issue: English card 1 heading said “Walking on curled claws”, implying weight on the claws rather than the outer forefoot
+- priority: copy-precision, contained
+- tags: #copy-lock #anatomy-wording #local-ready
+- cause: the heading was shorter than its accurate explanation but changed the implied contact surface
+- next_action: one targeted English edit changed “on” to “with”; the entire poster was rechecked, both direct sources and full package QA passed
+- tomorrow_change: check locomotion and mechanism prepositions in card headings against the explanatory sentence before art
+
+## 2026-10-01T08:42:04+09:00 — Giant Anteater GitHub closeout
+
+- Revalidated synchronized sidecars, the full package and whitespace before publication.
+- Published the package and INDEX in content commit `86fba1a5ffb50c8152f49ce851ba52e843742baa`; remote `refs/heads/master` was verified at that commit before the published-state update.
+- Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
