@@ -2113,3 +2113,19 @@ Daily Quality Loop
 - Revalidated synchronized sidecars, the full package and whitespace before publication.
 - Published the package and INDEX in content commit `86fba1a5ffb50c8152f49ce851ba52e843742baa`; remote `refs/heads/master` was verified at that commit before the published-state update.
 - Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
+
+## 2026-10-01 — Tri-spine Horseshoe Crab local-ready completion after user reference
+
+Daily Quality Loop
+- issue: card 2 initially conflated three short fixed tail-base spines with ordinary lateral marginal spines; a user-supplied close-up resolved the geometry
+- priority: biological visual blocker, resolved
+- tags: #diagnostic-anatomy #user-reference #local-ready
+- cause: the first source comparison was too small to guide a countable card study
+- next_action: selected one corrected source per language, reviewed whole canvases and phone size, synchronized sidecars and passed full package QA; the user then adopted the final art and requested cleanup, so nine failed PNGs were recycled with protected hashes unchanged; no Git or X publication
+- tomorrow_change: give small diagnostic anatomy its own clear reference and visual area before full-poster generation
+
+## 2026-10-01T21:16:04+09:00 — Tri-spine Horseshoe Crab GitHub closeout
+
+- Revalidated synchronized sidecars, the full package and whitespace before publication.
+- Published the package and INDEX in content commit `2a00b1bae4498eec21641f11894ec5a4a69efd86` by a direct push to `origin/master`; remote `refs/heads/master` was verified at that commit before updating published-state metadata.
+- Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
