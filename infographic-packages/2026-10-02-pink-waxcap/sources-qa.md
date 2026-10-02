@@ -60,7 +60,7 @@ Bilingual cards-v2 Copy Lock has nine strings per language and all three explana
 - Eight UTF-8 sidecars synchronized; full package validator including official offline twitter-text checks passed.
 - Biological acceptance is this manual reference comparison, distinct from mechanical checks. No explicit user adoption claimed.
 - Official-evidence update: main-page retrieval caveat retired after direct official PDF/capture inspection. Remaining scope note: Japanese-name records do not molecularly reconcile all continents; illustration and habitat claims are European/British, with no Europe-only assertion.
-- State completed, local-ready. No Git, GitHub or X mutation.
+- State completed, published. Content commit `6e1b9ccbe3ee9d7c6d03d7424852865a0c1c0c63` pushed to origin/master and remote verified before this update. No X publication.
 
 
 ## Reference integrity
@@ -82,3 +82,8 @@ Saved specialist HTML has line-ending, indentation-tab and trailing whitespace n
 - Poster PNGs, Copy Lock and main/story/ALT copy preserved; only evidence/provenance and source-reply wording updated. Local-ready status preserved; no Git or X interaction.
 - iucn-pink-waxcap-2019-errata-assessment.pdf: SHA-256 5f34b4e39739e22cee87a93ab31b3178b73c84135340340abecf7085563a5134; copied bytes match supplied original.
 - iucn-pink-waxcap-page-capture-2026-10-02.png: SHA-256 d21d40b5ed81146c94e478e9da02978a6f471f539e064fe8cb8580d43b99c72d; copied bytes match supplied original.
+
+## GitHub closeout — 2026-10-02T22:53:30+09:00
+
+- Package/sidecar QA passed before publication. Staged package and INDEX only for content commit `6e1b9ccbe3ee9d7c6d03d7424852865a0c1c0c63`; pushed to origin/master and verified remote refs/heads/master.
+- Publication state synchronized in README, INDEX and current state; metadata closeout follows this record. No X interaction.

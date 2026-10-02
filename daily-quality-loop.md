@@ -2129,3 +2129,24 @@ Daily Quality Loop
 - Revalidated synchronized sidecars, the full package and whitespace before publication.
 - Published the package and INDEX in content commit `2a00b1bae4498eec21641f11894ec5a4a69efd86` by a direct push to `origin/master`; remote `refs/heads/master` was verified at that commit before updating published-state metadata.
 - Updated README, INDEX and current state to `completed, published`. Nothing was posted to X.
+
+## 2026-10-02T10:19:24+09:00 — Pink Waxcap local-ready completion
+
+Daily Quality Loop
+- issue: none; both languages passed first attempt
+- priority: clean completion
+- tags: #first-pass-visual #crayon-oil-pastel #local-ready
+- cause: real cap-stage photographs and British habitat scope fixed before art
+- next_action: reviewed both posters at full/phone size, synchronized sidecars and passed package QA
+- tomorrow_change: no policy change; retain the sequence
+
+## 2026-10-02T10:35:49+09:00 — Pink Waxcap official evidence confirmed
+
+- User-supplied official 12-page IUCN PDF and species-page capture directly confirm Global VU under A2c+3c+4c, assessed 1 November 2018. Publication year 2019 and erratum map correction remain separate.
+- Preserved SHA-256-matched evidence copies; retired only the access caveat in README, sources QA, INDEX, current state and both source replies. Posters and locked/main/story/ALT copy preserved. Package stays completed, local-ready; no Git/GitHub/X mutation. No new learning or unresolved carryover.
+
+## 2026-10-02T22:53:30+09:00 — Pink Waxcap GitHub closeout
+
+- Revalidated synchronized sidecars, full package and staged whitespace before publication. Fixed only whitespace in prompt/Copy Lock files and indentation in historical reference HTML; non-whitespace reference content unchanged and recorded hash refreshed.
+- Published package and INDEX in content commit `6e1b9ccbe3ee9d7c6d03d7424852865a0c1c0c63`; remote refs/heads/master verified at that full SHA before state update.
+- README, sources QA, INDEX and current state now completed, published. Metadata closeout follows; nothing posted to X.

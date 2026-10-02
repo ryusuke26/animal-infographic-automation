@@ -1,6 +1,6 @@
 # Pink Waxcap / アケボノタケ bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Fungi and lichens
 Broad native region: Europe; British old grassland scene. Japanese names records do not establish the assessed European taxon's full global range.
@@ -48,4 +48,4 @@ The user-supplied official IUCN PDF and species-page capture directly confirm Gl
 - One dominant turf-rooted fruiting body, exactly three numbered illustrated explanatory cards and all nine strings per language.
 - Visible broken crayon/pastel pigment on hero cap, white stem, moss and all card illustrations matches benchmark warmth.
 - Pre-image, immediate direct-source gates, eight UTF-8 sidecars and full package QA including offline X counting pass.
-- Local-ready; no Git mutation, GitHub publication or X interaction. No unresolved visual/copy blocker. Official IUCN evidence confirmed; cross-continental taxon-scope note above retained.
+- Published to GitHub in content commit `6e1b9ccbe3ee9d7c6d03d7424852865a0c1c0c63` on 2026-10-02T22:53:30+09:00; remote `refs/heads/master` verified at that commit before this state update. No X post or reply sent. No unresolved visual/copy blocker; cross-continental taxon-scope note above retained.
