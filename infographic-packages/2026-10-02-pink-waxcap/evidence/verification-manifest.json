@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-10-02T10:35:49+09:00",
+  "evidence_sha256": {
+    "iucn-pink-waxcap-2019-errata-assessment.pdf": "5f34b4e39739e22cee87a93ab31b3178b73c84135340340abecf7085563a5134",
+    "iucn-pink-waxcap-page-capture-2026-10-02.png": "d21d40b5ed81146c94e478e9da02978a6f471f539e064fe8cb8580d43b99c72d"
+  },
+  "protected_unchanged": {
+    "infographic-packages\\2026-10-02-pink-waxcap\\images\\pink_waxcap_english_imagegen_2026-10-02.png": "34e47d198ec036869081493670e2cd1745082d001222463d0523e3c4e126a6e3",
+    "infographic-packages\\2026-10-02-pink-waxcap\\images\\pink_waxcap_english_posting_2026-10-02.png": "549a8f722bde36a8c2fd151e877179fbb780aaabd2fcc62ed44f8a7122ee681e",
+    "infographic-packages\\2026-10-02-pink-waxcap\\images\\pink_waxcap_japanese_imagegen_2026-10-02.png": "cacdf2df8b84998723e2a8d67520feeea0b5f383ffbd9fd3ce3cfba8ad8e54fc",
+    "infographic-packages\\2026-10-02-pink-waxcap\\images\\pink_waxcap_japanese_posting_2026-10-02.png": "fcad97af7830494d6f0d84e6713193c1417e8445eed76f048467d21cc13166fc",
+    "infographic-packages\\2026-10-02-pink-waxcap\\infographic-copy-en.md": "4b3f19e90ae58ef4793c648be0a3c8c9ca17fa795bc3d841be19c496cd44e245",
+    "infographic-packages\\2026-10-02-pink-waxcap\\infographic-copy-ja.md": "c74d4516571d884bc051e79f06e7e83e2ad475a27d1886febe65193048686af8"
+  },
+  "assessment_record": "T125434807A151188119",
+  "global_category": "VU",
+  "criteria": "A2c+3c+4c",
+  "assessed": "2018-11-01",
+  "publication_year": 2019
+}

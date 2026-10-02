@@ -1,0 +1,2537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- WEBSITE DEVELOPED BY MICHAEL KRIKOREV 2013–2018 -->
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta charset="utf-8">
+  <title>Porpolomopsis calyptriformis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Species Presentation: Porpolomopsis calyptriformis">
+    <meta name="author" content="The Global Fungal Red List Initiative">
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/ico/apple-touch-icon-57-precomposed.png">
+
+    <link href="/assets/js/DataTablesPlugins/bootstrap_table.css" rel="stylesheet">
+    <link href="/assets/js/select2-3.4.5/select2.css" rel="stylesheet">
+
+    <link href="/assets/js/toastr/toastr.min.css" rel="stylesheet">
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<!-- https://fontawesome.com/v3.2.1/cheatsheet/ -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<link type="text/css" rel="stylesheet" href="/assets/image_crud/css/fineuploader.css" />
+<link type="text/css" rel="stylesheet" href="/assets/image_crud/css/photogallery.css" />
+<link type="text/css" rel="stylesheet" href="/assets/image_crud/css/colorbox.css" />
+
+
+<link href="/assets/css/progress-wizard.min.css" rel="stylesheet">
+
+     <style>
+        html,
+         body {
+           height: 100%;
+           /* The html and body elements cannot have any padding or margin. */
+         }
+
+
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-bottom: 40px;
+/*		background:url(/assets/img/bg6.png) repeat left top #eee; */
+        background:url(/assets/img/bg68.png) repeat left top #eee;
+      }
+
+
+    /* DATATABLES FIXES */
+    td, th{
+        padding-right: 5px!important;
+        word-wrap: break-word;
+    }
+    .right{
+      text-align: right!important;
+    }
+
+    .left{
+      text-align: left!important;
+    }
+
+    .center{
+      text-align: center!important;
+    }
+
+    /* OVERRIDE BOOTSTRAPS HOVER ON TABLE ROWS (USE JQUERY INSTEAD FOR BETTER CONTROL) */
+    /*
+    .table tbody tr:hover td, .table tbody tr:hover th {
+        background-color: transparent;
+    }
+    */
+
+    .summary .success {
+      background-color: #dff0d8 !important;
+     /* background-color: #d0e9c6 !important; */
+      font-weight: bold;
+    }
+    .summary .info {
+      /* background-color: #d9edf7 !important; */
+       background-color: #d0e9c6 !important;
+      font-weight: bold;
+    }
+
+    .summary .highlight {
+       background-color: #f2dede !important;
+      font-weight: bold;
+    }
+
+/* DT HOVER ON ROWS IN TABLE */
+.rowhover{
+    background-color: #fff!important;
+    color:#000;
+    cursor: pointer;
+}
+
+
+/* DT FILTER MATCHES STYLE */
+.filterMatches { background-color: #FFFF88; }
+.rowdim .filterMatches { background-color: #FFF; }
+.rowselected .filterMatches { background-color: #eee; }
+.rowhover .filterMatches { background-color: #eee; }
+
+    /* FIX FORM MAKING NAVBAR ITEMS OPEN ON HOVER INSTEAD OF CLICK (http://stackoverflow.com/questions/8878033/how-to-make-twitter-bootstrap-menu-dropdown-on-hover-rather-than-click/8878666#8878666) */
+    ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
+    a.menu:after, .dropdown-toggle:after { content: none; }
+
+    /* Bootstrap tweaks */
+    .hero-unit {
+        background-position: 0px 0px;
+        background-size: 100% 100%; /* cover/contain/auto */
+        background-color: white;
+        background-repeat: no-repeat;
+        border: solid 2px #eee;
+
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+        /*
+        -moz-hyphens:auto;
+        -ms-hyphens:auto;
+        -webkit-hyphens:auto;
+        hyphens:auto;
+        word-wrap:break-word;
+        */
+    }
+
+
+.navbar-logo{
+/*  background: url(http://svampguiden.ekoo.se/assets/img/bg_rl.jpg) repeat top right; */
+/* background:url(/assets/img/bg6.png) repeat left top #eee; */
+
+/*  background: url(/assets/img/logo_300.png) no-repeat right 120px top transparent; */
+  background: url(/assets/img/logo_300_bw.png) no-repeat 1050px 3px transparent;
+  background-size: 130px Auto;
+
+}
+
+.brand{
+    /* background:url(/assets/img/fungi.png) no-repeat 154px 2px transparent; */
+    /* background-size: 74px Auto;	*/
+    /* background:url(/assets/img/logo-icons.png) no-repeat transparent;*/
+        background-image:url(/assets/img/logo-icons-grey-4.png?);
+        background-position: 130px 5px !important;
+        background-size: 75px Auto; /* cover/contain/auto */
+        background-color: transparent;
+        background-repeat: no-repeat;
+
+}
+
+/* tips: changing navbar colors: http://stackoverflow.com/questions/9869610/navbar-color-in-twitter-bootstrap */
+
+/* REMOVE GRADIENT IN NAVBAR: http://stackoverflow.com/questions/11333150/twitter-bootstrap-how-to-remove-gradient-mixin-in-subclass */
+.navbar-inner {
+  background-color: #F8F8F8;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  background:url(/assets/img/bg68.png) repeat left top #eee;
+}
+
+        @media (max-width: 480px) {
+            .hero-unit h1 {
+              font-size: 30px;
+            }
+            .hero-unit {
+              padding: 20px;
+              margin-bottom: 20px;
+            }
+            .hero-unit p {
+              font-size: 16px;
+              font-weight: 200;
+              line-height: 22px;
+            }
+
+            body {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            .navbar {
+                margin: 0 !important;
+            }
+
+        }
+
+
+        @media (min-width: 481px) and (max-width: 767px) {
+        .hero-unit h1 {
+              font-size: 40px;
+            }
+
+        }
+
+        @media (min-width: 980px) {
+          body {
+            padding-top: 80px; /* 60px to make the container go all the way to the bottom of the topbar */
+            padding-bottom: 40px;
+            padding-left: 20px !important;
+          }
+
+
+        @media (max-width: 979px) {
+          body {
+            padding-top: 0px; /* FÖRHINDRA GAP ÖVER NAVBAR */
+          }
+
+          .row { margin-left: 0px;}
+
+         }
+
+
+        }
+
+
+/* HIDE INITIAL ALERTBOXES */
+/* #alert { display: none; } */
+
+
+/* IPHONE ZOOM-IN PROBLEM: http://stackoverflow.com/questions/2989263/disable-auto-zoom-in-input-text-tag-safari-on-iphone */
+/* input[type='text'],input[type='number'],textarea {font-size:16px;} */
+input[type='text'], input[type='password'], textarea { font-size:16px; }
+
+/* ROW BREAKS IN MENU TEXT (USED BY JQUERY WITH REGARDS TO WINDOW SIZE) */
+.br { display: block; }
+.red { color: #b94a48; /* #ea633a, #b94a48 eller #d81e05*/ }
+
+.bg-box{
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        background-color: white;
+        border: solid 1px #eee;
+}
+
+/* BOOTSTRAP RESPONSIVE */
+img { max-width: 100%; }
+
+/* COUNTRY FLAGS IN SELECT BOX */
+img.flag { height: 24px; width: 24px; padding-right: 10px; }
+
+/* IUCN GROUP ICONS IN SEARCH RESULTS */
+img.iucn_group { height: 36px; width: 36px; padding: 0px; margin: 0px; }
+
+/* IUCN GROUP ICONS IN SEARCH RESULTS */
+img.startpage {
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+        margin-right: 10px;
+    }
+
+.img-box{
+    float:left;
+    padding-right:1em;
+    padding-bottom:1em;
+}
+
+/* COUNTER BUTTONS IN MAP */
+h3 .btn {
+    font-size:24px;
+    padding:5px;
+}
+
+.btn-orange {
+    display: inline-block;
+    font-weight: bold;
+/*	font-size:24px; */
+    padding:5px;
+    padding-top:0;
+    padding-bottom:0;
+
+  background-color: hsl(24, 100%, 40%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6c0a", endColorstr="#cc5100");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ff6c0a), to(#cc5100));
+  background-image: -moz-linear-gradient(top, #ff6c0a, #cc5100);
+  background-image: -ms-linear-gradient(top, #ff6c0a, #cc5100);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff6c0a), color-stop(100%, #cc5100));
+  background-image: -webkit-linear-gradient(top, #ff6c0a, #cc5100);
+  background-image: -o-linear-gradient(top, #ff6c0a, #cc5100);
+  background-image: linear-gradient(#ff6c0a, #cc5100);
+  border-color: #cc5100 #cc5100 hsl(24, 100%, 37%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.19);
+  -webkit-font-smoothing: antialiased;
+
+}
+
+    /* FORMS FOR SIGN UP AND SIGN IN ETC... */
+      .form-signin {
+        max-width: 450px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+    .form-page{
+        max-width:100%!important;
+    }
+
+/* REMOVE ALL ROUNDED CORNERS IN BOOTSTRAP */
+/*
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+} */
+
+.select2-results .select2-highlighted {
+    background: #3a87ad;
+/*    color: #fff; */
+}
+
+
+/* SÖKTRÄFFAR I SELECT2 ADD SPECIES */
+.species-name {
+        font-size:16px;
+        font-style:italic;
+/*		color:#333;		*/
+    }
+
+.species-name-heading { font-style:italic; }
+
+.species-auct {
+        font-size:14px;
+        color:#999;
+    }
+
+.species-auct-heading {
+        color:#999;
+    }
+
+.species-match {
+        text-decoration:underline;
+    }
+
+.species-result {
+  padding:10px;
+/*  padding-bottom:10px;  */
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:#ccc;
+}
+
+.species-cname {
+        color:#333;
+    }
+
+.species-taxonomy {
+    color:#333;
+    word-wrap: break-word;
+}
+
+
+.context-heading{
+    margin-bottom:4px;
+}
+
+/* COMMENTS ITEMS */
+.context-comments{
+    color:#333;
+}
+
+.com-item {
+    padding-top: 10px;
+    border-bottom: solid thin #ccc;
+}
+
+.com-item-reply {
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: solid thin #ccc;
+    background-color:#eee;
+    margin-left:10px;
+}
+
+        /* TABS AND CONTENT */
+        .tc{
+            margin-top:-20px;
+            padding:0px; /* 20px */
+            border-top: solid 5px #3a87ad; /* PILL BLUE */
+        }
+        .tc .tab-pane{
+            padding-top:20px;
+        }
+        /* CHANGE COLOR OF NAVBAR PILLS IN TABS */
+        .mypill .active a,
+        .mypill .active a:hover {
+            background-color: #3a87ad;
+        }
+        .nav-pills > .active > a, .nav-pills > .active > a:hover {
+            background-color: #3a87ad;
+        }
+
+        .tab-pane {
+            overflow:hidden;
+        }
+
+.tab-content{
+    overflow:hidden;
+    }
+
+/* COLLAPSE/ACCORDOIN - REMOVE BORDER AND PADDING ON CONTAINER */
+.accordion-inner {
+    border-top: 0 none;
+    padding: 0;
+}
+
+/* REMOVE BORDERS ON COLLAPSE */
+.accordion-group {
+    border-top: 0 none;
+    border-right: 0 none;
+    border-left: 0 none;
+}
+
+/* FIXA LÄNKTEXT I HEADING */
+.accordion-heading a {
+    text-decoration:none;
+    color:#333;
+}
+
+/* CHECK IKONER I HEADING */
+.accordion-heading a i.icon-check {
+/*	color:#dff0d8;	*/	/* SUCCESS BG */
+    color:#468847;
+    font-size:24px;
+}
+.accordion-heading a i.icon-check-empty {
+/*	color:#f2dede; */ /* ERROR BG */
+/*	color:#b94a48; */
+    color:#ccc;
+    font-size:24px;
+}
+.accordion-heading a h4 {
+    display:inline !important;
+}
+.steps {
+    font-size:30px;
+    color:#eee;
+    float:left;
+    margin-left:0px;
+    margin-right:15px;
+    }
+
+.popover {
+    max-width: 600px;
+    width: auto;
+/*
+    left: 0px !important;
+    top: 0px !important;
+    right: 0px !important; */
+}
+
+.scroll {
+    max-height:250px;
+/* 	width: 100%;	*/
+    overflow-y: auto;
+}
+
+/*
+.row div.swell {
+    -webkit-transition: width 0.3s ease, margin 0.3s ease;
+    -moz-transition: width 0.3s ease, margin 0.3s ease;
+    -o-transition: width 0.3s ease, margin 0.3s ease;
+    transition: width 0.3s ease, margin 0.3s ease;
+}
+*/
+
+.label {
+    padding: 3px 6px;
+    margin: 3px;
+    white-space: nowrap;
+    font-weight:normal;
+}
+
+.label, .btn {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* ASSESSMENT LABELS */
+.label-not-proposed { background-color: #999999; }
+.label-proposed { background-color: #aac46c; }
+.label-under-assessment { background-color: #468847; }
+.label-preliminary-assessed { background-color: #f89406; }
+.label-assessed { background-color: #fa522b; }
+.label-published { background-color: #b94a48; }
+.label-pending { background-color: #000000; }
+
+
+.labels-heading {
+    padding: 3px 6px;
+    margin: 3px;
+/*    background-color: #666; */
+
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+}
+
+/* PADDING FONT AWSEMOE ICON IN BOOTSTRAP LABEL */
+.label-pill i{
+    padding: 3px 6px;
+}
+
+.label-pill {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+
+    padding: 0px 6px;
+    color:#000;
+   background-color: #fff;
+   border: solid 1px #aaa;
+   margin-left: 3px;
+}
+.label-pill:hover {
+   background-color: #ea633a;
+}
+
+.input-append input { float:left; width:80% }
+
+.btn-fixed{
+    padding:5px 10px;
+    text-align:left;
+}
+
+  blockquote {
+    /* border-color: #3a87ad;
+    border: solid 10px #eee;
+    border-bottom: solid 5px #eee; */
+    border-width:0;
+    letter-spacing:  0.03em; /* LETTER SPACING TO NARROW IN BOOTSTRAP 2 ??? */
+  }
+
+   blockquote p {
+    margin-bottom:15px;
+  }
+
+
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+.carousel {	border: solid 1px #ccc; }
+.carousel .carousel-caption { visibility: hidden; }
+.carousel:hover .carousel-caption { visibility: visible; }
+
+
+/* FIX FOR THUMBNAIL MARGINS IN FLUID LAYOUT @Sanjo: https://github.com/twitter/bootstrap/issues/3494 */
+.first-in-row { margin-left: 0 !important; }
+
+/* BACKGROUND IMAGE IN THUMBNAILS: http://stackoverflow.com/questions/12694919/cropping-the-image-to-aspect-ratio-in-bootstrap-responsive-grid */
+.ratio{
+    position:relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100% ; /* % of width, defines aspect ratio*/
+
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+    overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+    border-radius: 5px;
+
+}
+
+.thumbnails{
+    position:relative;
+}
+
+.thumbnail{
+    padding:0;
+    min-height:490px;
+    border-radius: 5px;
+}
+
+.thumbnail:hover {
+    background: #FC3;
+}
+
+.thumbnail:hover p.img-title {
+    display:block!important;
+}
+
+/* CIRCLE FORMED LABEL ON IMAGE THUMBS */
+/*
+.etikett {
+position: relative;
+float:right;
+    bottom:20px;
+    right:-30px;
+padding-top: 14px;
+padding-right: 30px;
+text-align:center;
+ border-radius: 40%;
+height: 34px;
+width: 40px;
+line-height: 9px;
+} */
+
+.etikett {
+position: relative;
+float:left;
+    bottom:20px;
+    left:0px;
+padding-top: 14px;
+padding-left: 0px;
+text-align:center;
+/*border-radius: 40%;*/
+height: 34px;
+width: 40px;
+line-height: 9px;
+}
+
+/* VIDEO WRAPPER ON STARTPAGE */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.textdocument h4 {
+    margin-top:20px;
+}
+
+.textdocument i {
+    margin-right:7px;
+}
+/* FOOTER
+.navbar-bottom {
+    margin: 0 !important;
+    margin-left:-20px!important;
+}
+*/
+
+
+/* STEP WIZARD */
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background-color: #ccc;
+    z-order: 0;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+/* NOT TESTED YET.. FOR VERSION AND REVISION CONTROL ! */
+.modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */
+}
+
+
+
+
+.diff td{
+    padding:0 0.667em;
+    vertical-align:top;
+    white-space:pre;
+    white-space:pre-wrap;
+    font-family:Consolas,'Courier New',Courier,monospace;
+    font-size:1.1em;
+    line-height:1.4;
+    width:50%!important;
+}
+
+.diff span{
+    display:block;
+    min-height:1.333em;
+    margin-top:-1px;
+    padding:0 3px;
+  }
+
+* html .diff span{
+    height:1.333em;
+}
+
+.diff span:first-child{
+    margin-top:0;
+}
+
+.diffDeleted span{
+    border:1px solid rgb(255,192,192);
+    background:rgb(255,224,224);
+}
+
+.diffInserted span{
+    border:1px solid rgb(192,255,192);
+    background:rgb(224,255,224);
+}
+
+del{
+    border-bottom:1px solid rgb(255,192,192);
+    background:rgb(255,224,224);
+    text-decoration:none; /* line-through */
+}
+
+ins{
+    border-bottom:1px solid rgb(192,255,192);
+    background:rgb(224,255,224);
+    text-decoration: none;
+}
+
+        /* REVISIONS MODAL SIZE AND POSITION */
+        @media (min-width: 768px) {
+            #revisions_modal {
+                width: 96%!important;
+                margin-left:-48%!important;
+                margin-top:-50px!important;
+            }
+        }
+        /*Sets the maximum height of the modal body to 90% of the screen height*/
+        #revisions_modal .modal-body {
+          max-height: 75vh; /* http://stackoverflow.com/a/35776342/1363190 */
+        }
+        /* POPOVER SHOWN ON TOP OF MODALS! */
+        .popover {
+            z-index: 10010; /* A value higher than 1010 that solves the problem */
+        }
+
+
+/* Enkel och stilren footer för Bootstrap 2.3 */
+.footer {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------------------
+   FLAT BUTTON RESET — TAR BORT BOOTSTRAP 2.3 EFFEKTER
+-----------------------------------------------------*/
+/*
+.btn {
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    color: #0088cc !important;
+    background-color: #fff !important;
+} */
+
+.btn {
+    background-image: none !important;
+}
+
+
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/assets/image_crud/js/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="/assets/image_crud/js/fineuploader-3.2.min.js"></script>
+<script src="/assets/image_crud/js/jquery.colorbox-min.js"></script>
+
+
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59456265-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid navbar-logo">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" data-bs-toggle="collapse" data-bs-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/iucn/"><small><small>The Global</small></small> <br /><span class="red">Fungal Red List</span>&nbsp;<small><small>Initiative</small></small>&nbsp;&nbsp;</a>
+
+          <div class="btn-group pull-right">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" href="#">
+              <i class="icon-key"></i> <span class="caret"></span>
+            </a>
+
+    <ul class="dropdown-menu">
+        <li><a href="https://redlist.info/en/auth/login"><i class="icon-signin"></i> Sign In</a></li>
+        <li><a href="https://redlist.info/en/auth/register"><i class="icon-edit"></i> Sign Up</a></li>
+        <li><a href="https://redlist.info/en/auth/forgot_password"><i class="icon-question"></i> Forgot password</a></li>
+    </ul>
+          </div>
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="/iucn/species_list/event/36/">Events and <span class="br"></span>Workshops</a></li>
+              <li><a href="/iucn/species_list/">Species <span class="br"></span>Search</a></li>
+              <li><a href="/iucn/selectspecies/">Add New <span class="br"></span>Proposal</a></li>
+              <li><a href="/iucn/summary/">Summary <span class="br"></span>and Statistics</a></li>
+              <li><a href="/iucn/about/">About <span class="br"></span>The Initiative</a></li>
+              <li style="font-weight:bold;"><a href="/iucn/plans/" style="color:#b94a48;">Activities <span class="br"></span>2025–2026</a></li>
+            </ul>
+
+
+</div><!--/.nav-collapse -->
+
+        </div>
+      </div>
+    </div>
+<!--
+<div class="alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>The Global Fungal Red List Website</strong> is going to be down for maintenance from thursday 31 May and at least 24-48 hours forward.
+</div>-->
+
+<!-- <img class="startpage" style="float:left;" src="/assets/img/groups_4.png"/> -->
+<!-- START ROW -->
+<div class="row">
+
+    <!-- START COL -->
+    <div class="span12">
+        <!-- START BOX -->
+        <div class="bg-box">
+
+
+            <!-- ROW -->
+            <div class="row-fluid">
+                <div class="span12">
+                    <ul class="progress-indicator">
+<li class="danger completed"><span class="bubble"><span class="bubble-text"><i class="icon-ok"></i></span></span>Proposed</li><li class="danger completed"><span class="bubble"><span class="bubble-text"><i class="icon-ok"></i></span></span>Under Assessment</li><li class="danger completed"><span class="bubble"><span class="bubble-text"><i class="icon-ok"></i></span></span>Preliminary Assessed</li><li class="danger completed"><span class="bubble"><span class="bubble-text"><i class="icon-ok"></i></span></span>Assessed</li><li class="danger completed"><span class="bubble"><span class="bubble-text">VU</span></span><span class="text-danger">Published</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ROW -->
+            <div class="row-fluid">
+
+                    <div class="span8">
+                        <h3><span class="species-name-heading"> Porpolomopsis calyptriformis </span><span class="species-auct-heading" style="white-space: nowrap;"><small>(Berk.) Bresinsky</small></span></h3>
+
+                    </div>
+                    <div class="span4">
+                            <span class="species-auct">Search for another species...</span>
+                            <p><input type="hidden" class="bigdrop" id="select_species" style="width:100%" value="463649" /></p>
+                    </div><!-- COL -->
+            </div>
+
+
+            <!-- ROW -->
+            <div class="row-fluid">
+                 <div class="span12">
+
+                <div class="row-fluid">
+                    <div class="span6">
+
+                        <div class="well" style="background:#fff;border-right:0;border-left:0;">
+                        <dl class="dl-horizontal">
+                          <dt>Scientific name</dt>
+                          <dd><span class="species-name">Porpolomopsis calyptriformis</span></dd>
+
+                          <dt>Author</dt>
+                          <dd><span class="species-auct">(Berk.) Bresinsky</span></dd>
+
+                            <dt>Common names</dt><dd data-pid="1627"><img class="flag" title="FR" src="/assets/img/flags_iso/24/fr.png"/><span class="species-cname">Hygrophore en capuchon</span></dd><dd data-pid="1629"><img class="flag" title="DE" src="/assets/img/flags_iso/24/de.png"/><span class="species-cname">Rosenroter Saffling</span></dd><dd data-pid="1648"><img class="flag" title="LV" src="/assets/img/flags_iso/24/lv.png"/><span class="species-cname">Rožainā stiklene</span></dd><dd data-pid="1661"><img class="flag" title="GB" src="/assets/img/flags_iso/24/gb.png"/><span class="species-cname">Pink Waxcap</span></dd><dd data-pid="1662"><img class="flag" title="DK" src="/assets/img/flags_iso/24/dk.png"/><span class="species-cname">Rosenrød vokshat</span></dd><dd data-pid="1697"><img class="flag" title="PL" src="/assets/img/flags_iso/24/pl.png"/><span class="species-cname">wilgotnica czapeczkowata</span></dd><dd data-pid="1721"><img class="flag" title="NL" src="/assets/img/flags_iso/24/nl.png"/><span class="species-cname">Rozerode wasplaat</span></dd><dd data-pid="1801"><img class="flag" title="SK" src="/assets/img/flags_iso/24/sk.png"/><span class="species-cname">lúčnica ružovočervená</span></dd><dd data-pid="1962"><img class="flag" title="CZ" src="/assets/img/flags_iso/24/cz.png"/><span class="species-cname">voskovka příjemná</span></dd><dd data-pid="2122"><img class="flag" title="NO" src="/assets/img/flags_iso/24/no.png"/><span class="species-cname">rosa vokssopp</span></dd><dd data-pid="2246"><img class="flag" title="AT" src="/assets/img/flags_iso/24/at.png"/><span class="species-cname">Rosasaftling</span></dd>                        <dt>IUCN Specialist Group</dt>
+                        <dd class="iucn_group"><img class="flag" src="/assets/img/groups_4.png"/><span class="species-cname">Mushroom, Bracket and Puffball</span></dd>
+                                <dt><small>Kingdom</small></dt><dd><small>Fungi</small></dd>
+                                <dt><small>Phylum</small></dt><dd><small>Basidiomycota</small></dd>
+                                <dt><small>Class</small></dt><dd><small>Agaricomycetes</small></dd>
+                                <dt><small>Order</small></dt><dd><small>Agaricales</small></dd>
+                                <dt><small>Family</small></dt><dd><small>Hygrophoraceae</small></dd>
+                        </dl>
+                        <dl class="dl-horizontal">
+
+
+                            <dt>Assessment status</dt>
+                            <dd>
+<span class="label label-published">Published</span>                            </dd>
+
+                            <dt>Assessment date</dt>
+                            <dd>2018-11-01</dd>
+
+<!-- CURRENT IUCN RED LIST STATUS -->
+    <dt>IUCN Red List Category</dt>
+    <dd>
+        <span class="label label-important" style="font-size: 20px;padding:20px;">VU</span>
+<!--		<a href="https://www.iucnredlist.org/species/125434807/151188119" target="_blank"><i class="icon-external-link"></i></a> -->
+    </dd>
+
+
+    <dt>IUCN Red List Criteria</dt>
+    <dd>
+        <span class="label label-important">A2c+3c+4c</span>
+    </dd>
+                                                            <dt>Assessors</dt>
+                                <dd>Susana Gonçalves (Centre for Functional Ecology, Department of Life Sciences, University of Coimbra, 3000-456 Coimbra, Portugal)</dd>
+
+
+                                                            <dt>Reviewers</dt>
+                                <dd>Anders Dahlberg (Swedish Species Information Centre, Uppsala / IUCN SSC Cup-fungus, Truffle and Ally Specialist Group)</dd>
+
+
+                        </dl>
+
+                    </div>
+
+
+<h4>Assessment Notes</h4><div class="alert alert-danger" style="color:#000;background-color:#fdf0f0;">The content on this page is fetched from The IUCN Red List of Threatened Species: <a href="https://www.iucnredlist.org/species/125434807/151188119" target="_blank">https://www.iucnredlist.org/species/125434807/151188119</a></div>
+                    <h4>Justification</h4>
+                    <em>Porpolomopsis calyptriformis</em> is only known from Europe and has shown a considerable decline in many countries. It is so far the only representative of the <em>Porpolomopsis</em> genus in the diverse fungal communities mainly associated with semi-natural European grasslands, the so-called wax cap grasslands. These habitats, formerly characterized by extensive management systems, have undergone a major decline in area in recent decades. Major threats relate to changes in management regime (either intensification or abandonment), airborne nitrogen deposition, and climate change. It is assessed as Vulnerable (VU) under criteria A2c+3c+4c, because of past, ongoing, and estimated future habitat decline between 30-50% in a 50-year (3 generation length) period.    				<hr>
+
+                                        <h4>Taxonomic notes</h4>
+                    Sequencing data from records assigned to&#160;<em style="margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);">Porpolomopsis calyptriformis</em>&#160;in the USA (from the Great Smoky Mountain National Park) show that they are not the same species (Lodge&#160;<em style="margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);">et al</em>. 2014, Lodge&#160;<em style="margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);">et al</em>. unpublished results). Unsequenced collections in Mushroom Observer from the USA (Ohio, California and North Carolina), and from Canada (Quebec), don’t fit the typical morphology of the European&#160;<em style="margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);">P. calyptriformis</em>&#160;and also probably aren’t the same species (Lodge, personal communication). However, because a variety of&#160;<em style="margin: 0px; padding: 0px; font-family: Arial, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);">P. calyptriformis</em>&#160;has been described from the Dominican Republic at high elevation on the island of Hispaniola, one can’t rule out the possibility that it occurs in the western hemisphere (Lodge, personal communication).
+                    <hr>
+
+                        <h4>Geographic range</h4>
+                        The species is so far only known from Europe. It is reported from several countries (but often from single locations) with a stronghold in the UK. In Scandinavia, the species is restricted to Denmark and three locations on the southern coast of Norway. The eastern limits of distribution are unclear due to lack of data (e.g. an isolated record in Ukraine).						<hr>
+
+                        <h4>Population and Trends</h4>
+                          <p>The population size probably exceeds 20,000 mature individuals but exact figures are unknown. The population is decreasing in all known countries of occurrence, caused by a cessation of small-scale farming and traditional methods of grassland management.<br/>The mid-term review of the EU biodiversity strategy towards to 2020 (European Commission, 2015) identifies “an increase in habitat change” in grassland ecosystems as the future trend, with high impact on biodiversity. The report concludes that although some progress was made, this has not yet halted the trend of degradation of ecosystems and services, including grasslands: “Natural grasslands are still being turned into arable land and built-up areas; extensive agricultural land is being converted into forms of more intensive agriculture and, mainly as a result of abandonment, into forest.” According to another reference document, the “State of Nature in the EU” (European Environmental Agency, 2015), natural and semi-natural grasslands have undergone a major decline in recent decades. About 49% of EU assessments for the 45 grassland habitat types of community interest are “unfavourable-bad”. Moreover, almost 50% of grassland- related birds are declining and the conservation status of other species is mostly “unfavourable”. Grassland butterflies, for example, are declining severely and there is no sign of levelling off. Accordingly, the Red List of European Habitats (Janssen <em>et al</em>. 2017) reports that just about half (53%) of the grassland habitats in Europe are threatened to some degree.<br/><br/>NBN Atlas - 1300 records. All evaluations of grassland habitat types in the UK have an “unfavourable-bad” conservation status (European Environmental Agency, 2015). Atlas of Danish Fungi - 15 records. Mushroom Observer - Less than 20 records mainly in the USA (likely another species). GBIF - 23 records under <em>P. calyptriformis</em> (Denmark, 15; UK, 4; USA, 4- likely another species), 1257 records under <em>H. calyptriformis</em> var. <em>calyptriformis</em> (UK, 122; Slovenia, 23; Ireland, 9; USA, 4- likely another species), 395 under <em>H. calyptriformis</em>, (UK, 351; USA, 12- likely another species; Norway, 11; Austria, 4; Canada, 4 - likely another species; France, 4; Denmark, 4; Australia 1- almost certainly a misidentification, confusion with sister species <em>P. lewelliniae</em>; Germany, 1; Spain 1).</p>
+                          <p><strong>Population Trend:</strong> Decreasing</p>
+                        <hr>
+
+                        <h4>Habitat and Ecology</h4>
+                        <em>Porpolomopsis calyptriformis</em> is mainly associated with natural or semi-natural grasslands, which are among the most threatened habitats in Europe. It is terrestrial with unknown nutrition mode, but likely biotrophic, possibly associated with non-woody plants (Seitzman <em>et al</em>. 2011, Halbwachs <em>et al</em>. 2013, Lodge <em>et al</em>. 2014). Typical habitats include meadows, grazed pastures, parks, lawns, churchyards and cemeteries. Lowland and montane. The species occurs mainly in the following Natura 2000 grassland habitats: 6150 - Siliceous alpine and boreal grasslands, 6170 - Alpine and subalpine calcareous grasslands, 6210 - Semi-natural dry grasslands and scrubland facies on calcareous substrates (Festuco-Brometalia); the most frequent habitat, 6230 - Species-rich Nardus grasslands on siliceous substrates in mountain areas (and sub-mountain areas in Continental Europe), 62A0 - Eastern sub-Mediterranean dry grasslands, 6410 - Calcareous fens with Carex lasiocarpa, 6510 - Lowland hay meadows (Alopecurus pratensis, Sanguisorba officinalis), 6520 - Mountain hay meadows.						<hr>
+
+                        <h4>Threats</h4>
+                        The species is threatened by the loss of its habitat. Natural and semi-natural grasslands, formerly characterized by extensive management systems, have undergone a major decline in recent decades. A major threat relates to the conversion of grasslands into more productive forms of intensive stock management, reported to involve liberal use of chemical fertilizers rather than the traditional dung. Such nutrient input can be also increased by air pollution in the form of nitrogen deposition. A second major threat is the abandonment of traditional management. Generally, this is due to the abandonment of stock management or, where cutting for hay has been traditional, lack of the necessary mowing regime. This results in a reversion to scrub and woodland. In the opposite direction, there is also sometimes shifts towards systems of intensive crop cultivation, with use of pesticides and/or herbicides. Either way, changes in vegetation cover are detrimental to the fungal community. Such changes are often part of wider demographic, socio-economic and cultural shifts across large parts of the European rural landscape. In Alpine and sub-alpine grasslands there is also a concern that they may be strongly impacted by climate change, for example through milder winters with reduced snow-lie and longer growing seasons.						<hr>
+
+                                                <h4>Conservation Actions</h4>
+                        Both site protection and management of habitats are important conservation actions. Appropriate management plans of semi-natural grasslands (including grazing/mowing) are needed to halt the frequent decrease of habitat quality even if sites are within the Natura 2000 network. According to the “State of Nature in the EU” report (European Environmental Agency, 2015), only 50 % of sites within the network were reported as having comprehensive management plans by end 2012 and much stronger conservation efforts are needed. Restoration plans may depend on effective incentives for re-establishing low-input arable agriculture and traditional stock management. Outside of Natura 2000 sites, preservation of appropriate habitats for grassland fungi, such as <em>P. calyptriformis</em>, will require consideration of the most suitable approach to ensure no net loss of biodiversity and ecosystem services, e.g. policies targeting a decrease in nitrogen and phosphorus inputs in agriculture.
+                        <hr>
+
+
+
+                        <h4>Source and Citation</h4>
+                        Gonçalves, S.C. 2019. Porpolomopsis calyptriformis (errata version published in 2019). The IUCN Red List of Threatened Species 2019: e.T125434807A151188119. Accessed on 20 November 2025.						<hr>
+
+                    </div>
+
+
+                   <div class="span6">
+
+                        <div>
+                        <div id="spImages" class="carousel slide"><ol class="carousel-indicators"><li data-target="#spImages" data-slide-to="0" class="active"></li>
+<li data-target="#spImages" data-slide-to="1" ></li>
+</ol>
+
+<div class="carousel-inner"><div class="item active"><img src="/assets/uploads/ab6bf-P1070177.JPG" alt="">
+                        <div class="carousel-caption">
+                        <p>Porpolomopsis calyptriformis  - copyright Sean Cooch</p>
+                        </div>
+                      </div>
+<div class="item "><img src="/assets/uploads/d803a-P1070390.JPG" alt="">
+                        <div class="carousel-caption">
+                        <p>Porpolomopsis calyptriformis - Sean Cooch</p>
+                        </div>
+                      </div>
+</div>
+
+<a class="carousel-control left" href="#spImages" data-slide="prev">&lsaquo;</a><a class="carousel-control right" href="#spImages" data-slide="next">&rsaquo;</a></div>                        </div>
+
+
+                        <!-- START TABS SPECIES -->
+                        <ul class="nav nav-tabs" id="tab-georange">
+                          <li class="active"><a href="#tab-georange-native" data-toggle="tab"><small>Country occurrence</small> <i class="icon-globe"></i></a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab-georange-native">
+                                <div id="georange_chart" style="height:400px; max-width:100%;"></div>
+                                <h4>Country occurrence </h4>
+                                <select name="s2-georange-native" id="s2-georange-native" class="s2-init" style="width:100%" multiple>
+<option value="AF">Afghanistan</option>
+<option value="AL">Albania</option>
+<option value="DZ">Algeria</option>
+<option value="AS">American Samoa</option>
+<option value="AD">Andorra</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguilla</option>
+<option value="AG">Antigua and Barbuda</option>
+<option value="AR">Argentina</option>
+<option value="AM">Armenia</option>
+<option value="AW">Aruba</option>
+<option value="AU">Australia</option>
+<option value="AT" selected="selected">Austria</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BS">Bahamas</option>
+<option value="BH">Bahrain</option>
+<option value="BD">Bangladesh</option>
+<option value="BB">Barbados</option>
+<option value="BY">Belarus</option>
+<option value="BE" selected="selected">Belgium</option>
+<option value="BZ">Belize</option>
+<option value="BJ">Benin</option>
+<option value="BM">Bermuda</option>
+<option value="BT">Bhutan</option>
+<option value="BO">Bolivia</option>
+<option value="BA">Bosnia and Herzegovina</option>
+<option value="BW">Botswana</option>
+<option value="BR">Brazil</option>
+<option value="VG">British Virgin Islands</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BG">Bulgaria</option>
+<option value="BF">Burkina Faso</option>
+<option value="BI">Burundi</option>
+<option value="KH">Cambodia</option>
+<option value="CM">Cameroon</option>
+<option value="CA">Canada</option>
+<option value="CV">Cape Verde</option>
+<option value="KY">Cayman Islands</option>
+<option value="CF">Central African Republic</option>
+<option value="TD">Chad</option>
+<option value="CL">Chile</option>
+<option value="CN">China</option>
+<option value="CO">Colombia</option>
+<option value="KM">Comoros</option>
+<option value="CK">Cook Islands</option>
+<option value="CR">Costa Rica</option>
+<option value="CI">Cote d'Ivoire</option>
+<option value="HR" selected="selected">Croatia</option>
+<option value="CU">Cuba</option>
+<option value="CW">Curaçao</option>
+<option value="CY">Cyprus</option>
+<option value="CZ" selected="selected">Czech Republic</option>
+<option value="CD">Democratic Republic of the Congo</option>
+<option value="DK" selected="selected">Denmark</option>
+<option value="DJ">Djibouti</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="EC">Ecuador</option>
+<option value="EG">Egypt</option>
+<option value="SV">El Salvador</option>
+<option value="GQ">Equatorial Guinea</option>
+<option value="ER">Eritrea</option>
+<option value="EE" selected="selected">Estonia</option>
+<option value="ET">Ethiopia</option>
+<option value="FK">Falkland Islands (Malvinas)</option>
+<option value="FO" selected="selected">Faroe Islands</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finland</option>
+<option value="FR" selected="selected">France</option>
+<option value="GF">French Guiana</option>
+<option value="PF">French Polynesia</option>
+<option value="GA">Gabon</option>
+<option value="GM">Gambia</option>
+<option value="GE">Georgia</option>
+<option value="DE" selected="selected">Germany</option>
+<option value="GH">Ghana</option>
+<option value="GR">Greece</option>
+<option value="GL">Greenland</option>
+<option value="GD">Grenada</option>
+<option value="GP">Guadeloupe</option>
+<option value="GU">Guam</option>
+<option value="GT">Guatemala</option>
+<option value="GG">Guernsey</option>
+<option value="GN">Guinea</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HT">Haiti</option>
+<option value="VA">Holy See (Vatican City State)</option>
+<option value="HN">Honduras</option>
+<option value="HK">Hong Kong</option>
+<option value="HU" selected="selected">Hungary</option>
+<option value="IS">Iceland</option>
+<option value="IN">India</option>
+<option value="ID">Indonesia</option>
+<option value="IR">Iran</option>
+<option value="IQ">Iraq</option>
+<option value="IE" selected="selected">Ireland</option>
+<option value="IM">Isle of Man</option>
+<option value="IL">Israel</option>
+<option value="IT" selected="selected">Italy</option>
+<option value="JM">Jamaica</option>
+<option value="JP">Japan</option>
+<option value="JE">Jersey</option>
+<option value="JO">Jordan</option>
+<option value="KZ">Kazakhstan</option>
+<option value="KE">Kenya</option>
+<option value="KI">Kiribati</option>
+<option value="KP">Korea</option>
+<option value="KR">Korea</option>
+<option value="XK">Kosovo</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyz Republic</option>
+<option value="LA">Lao People's Democratic Republic</option>
+<option value="LV" selected="selected">Latvia</option>
+<option value="LB">Lebanon</option>
+<option value="LS">Lesotho</option>
+<option value="LR">Liberia</option>
+<option value="LY">Libya</option>
+<option value="LI" selected="selected">Liechtenstein</option>
+<option value="LT" selected="selected">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="MO">Macao</option>
+<option value="MK">Macedonia</option>
+<option value="MG">Madagascar</option>
+<option value="MW">Malawi</option>
+<option value="MY">Malaysia</option>
+<option value="MV">Maldives</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MH">Marshall Islands</option>
+<option value="MR">Mauritania</option>
+<option value="MU">Mauritius</option>
+<option value="MX">Mexico</option>
+<option value="FM">Micronesia</option>
+<option value="MD">Moldova</option>
+<option value="MC">Monaco</option>
+<option value="MN">Mongolia</option>
+<option value="ME">Montenegro</option>
+<option value="MS">Montserrat</option>
+<option value="MA">Morocco</option>
+<option value="MZ">Mozambique</option>
+<option value="MM">Myanmar</option>
+<option value="NA">Namibia</option>
+<option value="NR">Nauru</option>
+<option value="NP">Nepal</option>
+<option value="NL" selected="selected">Netherlands</option>
+<option value="NC">New Caledonia</option>
+<option value="NZ">New Zealand</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">Niger</option>
+<option value="NG">Nigeria</option>
+<option value="NU">Niue</option>
+<option value="NF">Norfolk Island</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="NO" selected="selected">Norway</option>
+<option value="OM">Oman</option>
+<option value="PK">Pakistan</option>
+<option value="PW">Palau</option>
+<option value="PS">Palestine</option>
+<option value="PA">Panama</option>
+<option value="PG">Papua New Guinea</option>
+<option value="PY">Paraguay</option>
+<option value="PE">Peru</option>
+<option value="PH">Philippines</option>
+<option value="PN">Pitcairn Islands</option>
+<option value="PL">Poland</option>
+<option value="PT" selected="selected">Portugal</option>
+<option value="PR">Puerto Rico</option>
+<option value="QA">Qatar</option>
+<option value="CG">Republic of the Congo</option>
+<option value="RO" selected="selected">Romania</option>
+<option value="RU" selected="selected">Russian Federation</option>
+<option value="RW">Rwanda</option>
+<option value="BL">Saint Barthélemy</option>
+<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="KN">Saint Kitts and Nevis</option>
+<option value="LC">Saint Lucia</option>
+<option value="MF">Saint Martin</option>
+<option value="PM">Saint Pierre and Miquelon</option>
+<option value="VC">Saint Vincent and the Grenadines</option>
+<option value="WS">Samoa</option>
+<option value="SM">San Marino</option>
+<option value="ST">Sao Tome and Principe</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SN">Senegal</option>
+<option value="RS" selected="selected">Serbia</option>
+<option value="SC">Seychelles</option>
+<option value="SL">Sierra Leone</option>
+<option value="SG">Singapore</option>
+<option value="SK" selected="selected">Slovakia (Slovak Republic)</option>
+<option value="SI" selected="selected">Slovenia</option>
+<option value="SB">Solomon Islands</option>
+<option value="SO">Somalia</option>
+<option value="ZA">South Africa</option>
+<option value="SS">South Sudan</option>
+<option value="ES" selected="selected">Spain</option>
+<option value="LK">Sri Lanka</option>
+<option value="SD">Sudan</option>
+<option value="SR">Suriname</option>
+<option value="SJ">Svalbard and Jan Mayen Islands</option>
+<option value="SZ">Swaziland</option>
+<option value="SE">Sweden</option>
+<option value="CH" selected="selected">Switzerland</option>
+<option value="SY">Syrian Arab Republic</option>
+<option value="TW">Taiwan</option>
+<option value="TJ">Tajikistan</option>
+<option value="TZ">Tanzania</option>
+<option value="TH">Thailand</option>
+<option value="TL">Timor-Leste</option>
+<option value="TG">Togo</option>
+<option value="TO">Tonga</option>
+<option value="TT">Trinidad and Tobago</option>
+<option value="TN">Tunisia</option>
+<option value="TR">Turkey</option>
+<option value="TM">Turkmenistan</option>
+<option value="TC">Turks and Caicos Islands</option>
+<option value="UG">Uganda</option>
+<option value="UA" selected="selected">Ukraine</option>
+<option value="AE">United Arab Emirates</option>
+<option value="GB" selected="selected">United Kingdom of Great Britain & Northern Ireland</option>
+<option value="US">United States of America</option>
+<option value="VI">United States Virgin Islands</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VU">Vanuatu</option>
+<option value="VE">Venezuela</option>
+<option value="VN">Vietnam</option>
+<option value="WF">Wallis and Futuna</option>
+<option value="YE">Yemen</option>
+<option value="ZM">Zambia</option>
+<option value="ZW">Zimbabwe</option>
+</select>
+                            </div>
+
+
+                       </div>
+
+
+                   </div>
+
+                </div>
+       </div>
+
+</div>
+
+
+
+    </div><!-- END BG BOX -->
+
+
+    </div>
+    <!-- END COL -->
+</div><!-- END ROW -->
+
+<input type="hidden" id="species_id" value="463649" data-locked="1">
+
+<footer class="footer">
+        <div class="row">
+            <div class="span12">
+                <p class="muted pull-right">
+                    &copy; 2026 The Global Fungal Red List Initiative &nbsp;|&nbsp; <a href="/iucn/policy/" class="muted">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+</footer>
+    <script type="text/javascript">
+    //<![CDATA[
+    // FÖR ATT UNDVIKA IE ERRORS VID FÖREKOMST AV console.log i PLUGINS M.M.
+        var debugging = true; // or true
+        if (typeof console == "undefined" || typeof console.log == "undefined") var console = { log: function() {} };
+        else if (!debugging && typeof console != "undefined") console.log = function() {};
+
+
+// DETECT LOCAL STORAGE CAPABILITIES
+// Feature detect + local reference
+var storage = (function() {
+      var uid = new Date,
+          storage,
+          result;
+      try {
+        (storage = window.localStorage).setItem(uid, uid);
+        result = storage.getItem(uid) == uid;
+        storage.removeItem(uid);
+        return result && storage;
+      } catch(e) {}
+    }());
+
+    // LOCAL STORAGE FUNCTIONS
+    function setObject(key,obj) {
+        localStorage[key] = JSON.stringify(obj);
+        //localStorage.setItem(key, JSON.stringify(obj));
+    }
+
+    function getObject(key) {
+        return JSON.parse(localStorage[key]);
+    }
+
+
+
+    var topoffset = 0; //AV NÅGON ANLEDNING ÄNDRAS offsetTop vid brytpunkten 979 pixlar i bootstrap responsive. Lösning för scrollTo är denna globala variabel som sätts till 60 i funktionen checkWidth nedan
+
+    // HOLD INFO ON ALL PROFILES USED IN LABELS
+    var user_profiles = new Array();
+
+    //]]>
+    </script>
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/json2.js"></script>
+    <script src="/assets/js/select2-3.4.5/select2.min.js"></script>
+
+<script src="/assets/js/toastr/toastr.min.js"></script>
+
+<script src="/assets/js/jquery.timeago.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+jQuery.timeago.settings.allowFuture = true;
+
+    // SCRIPT FÖR ATT ANPASSA MENYTEXT EFTER STORLEK PÅ FÖNSTER
+    var $window = $(window);
+
+
+    function checkWidth() {
+
+        var windowsize = $window.width();
+
+        if (windowsize < 980) {
+            $(".nav-collapse span").removeClass("br");
+            $('.brand').css('background-position', '144px 2px');
+            topoffset = 0; // GLOBAL VARIABEL FÖR ATT offsetTop ska funka OK med detta responsive tema! (se överst på denna sida)
+        } else {
+            topoffset = 60; // GLOBAL VARIABEL FÖR ATT offsetTop ska funka OK med detta responsive tema!
+            $(".nav-collapse span").addClass("br");
+            $('.brand').css('background-position', '154px 2px');
+        }
+
+// RELOADS IF THEY EXISTS
+//if ($.isFunction(window.getMapData)){ getMapData(); } // RELOAD GEO CHART ON STARTPAGE IF EXISTST
+if ($.isFunction(window.drawGeorange)){
+        drawGeorangeFromS2();
+//		drawGeorangeGBIF();
+} // RELOAD GEO CHART ON ADD SPECIES PAGE IF EXISTST
+
+    }
+
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    //$(window).resize(checkWidth);
+
+                /////////////////////////////////////////////////////////////////////
+                // FIXAR STORLEKEN PÅ KARTA VID ÄNDRING AV BROWSER FÖNSTRETS STORLEK
+                // http://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed
+                var waitForFinalEvent = (function () {
+                  var timers = {};
+                  return function (callback, ms, uniqueId) {
+                    if (!uniqueId) {
+                      uniqueId = "Don't call this twice without a uniqueId";
+                    }
+                    if (timers[uniqueId]) {
+                      clearTimeout (timers[uniqueId]);
+                    }
+                    timers[uniqueId] = setTimeout(callback, ms);
+                  };
+                })();
+
+                $window.resize(function () {
+                    waitForFinalEvent(function(){
+                        checkWidth(); // ANPASSA MENYTEXT EFTER FÖRNSTRETS STORLEK
+                    }, 500, "draw resize events");
+                });
+                //////////////////////////////////////////////////////////////////
+
+        toastr.options = {
+          "debug": false,
+          "positionClass": "toast-top-right",
+          "onclick": null,
+          "fadeIn": 300,
+          "fadeOut": 1000,
+          "timeOut": 5000,
+          "extendedTimeOut": 1000
+        }
+
+
+
+
+// GLOBAL MAINTENANCE MESSAGE !
+/*
+        toastr.options = {
+          "debug": false,
+          "positionClass": "toast-top-full-width",
+          "onclick": null,
+          "fadeIn": 300,
+          "fadeOut": 1000,
+          "timeOut": 15000,
+          "extendedTimeOut": 5000
+        }
+
+toastr.error('Today this site will be under maintenance and will soon be disconnected for a couple of hours... Please avoid working on the site for a couple of hours now as the risk of loosing data cant be avoided. The site will be up and running again tomorrow if all goes according to plans. Thanks for your patience. /Michael ', 'Do not work today!');
+*/
+});
+
+                // CHECK WHETHER USER IS LOGGED IN OR NOT.. DONT USE IF YOU DONT MUST BECAUSE ITS A SYNCHRONOUS CALL THAT MAY CAUSE TROUBLE!
+                // USE SERVER SIDE CHECK INSTEAD!!
+                function is_logged_in(){
+                    var logged_in;
+                        $.ajax({
+                              url: '/iucn/is_logged_in/',
+                              async: false, // MAKE SURE ITS NOT ASYNCHRONOUS!
+                              dataType: 'json',
+                              success: function (json) {
+                                logged_in = json.data;
+                                    if(logged_in){
+                                        console.log('user is logged in (try to use async call instead!)');
+                                    }else{
+                                        console.log('user is not logged in (try to use async call instead!)');
+                                    }
+                                }
+                            });
+                //console.log(logged_in);
+                return logged_in;
+                }
+
+                // RETURNS A USERS PROFILE WITH USER  ID AND SETTINGS, COUNTRY ETC..
+                function get_user_profile(user_id){
+                    // FIRST CHECK LOKAL STORAGE
+                    var profile_key = 'profile-'+ user_id;
+                    var profile = null;
+
+                    if(storage){
+//						if (localStorage.getItem(profile_key) === null) {
+                            profile = getProfile(user_id); // SLOW SYNCHRONOUS FUNCTION! FIX!
+                            setObject(profile_key, profile); // SET IN LOCAL STORAGE
+//						} else {
+//							profile = getObject(profile_key); // GET FROM LOCAL STORAGE
+//						}
+                    } else { // NO SUPPORT FOR LOCAL STORAGE...
+                        profile = getProfile(user_id); // SLOW SYNCHRONOUS FUNCTION! FIX!
+                    }
+
+//					console.log(profile);
+                    return profile;
+
+                    // FIRST CHECK GLOBAL PROFILES ARRAY IF PROFILE EXISTS
+//					  if (user_profiles.length > 0) {
+//						for (i in user_profiles) {
+//							//console.log(profiles[i]);
+//							if(user_profiles[i]['user_id'] === user_id){
+//								return user_profiles[i];
+//							}
+//						}
+//					  }
+
+                }
+
+                // SYNCHRONOUS FUNCTION, NOT GOOD I KNOW.. FIX LATER??
+                function getProfile(user_id){
+                    var profile;
+                        $.ajax({
+                              url: '/iucn/get_profile/'+user_id,
+                              async: false, // MAKE SURE ITS NOT ASYNCHRONOUS!
+                              dataType: 'json',
+                              success: function (obj) {
+                                console.log(obj);
+                                //setProfile(obj);
+                                profile = obj;
+                                //user_profiles.push(obj);
+                                }
+                            });
+                    return profile;
+                }
+
+                function get_timestamp(){
+                    return new Date().getTime();
+                }
+
+                // USE SERVER SIDE CHACK INSTEAD OF USING THIS FUNCTION??
+                function handleNotLoggedIn(){
+                    var o = new alertObject(1,'error','Your session has expired! Please log in again, and check the option "Remember me" to avoid session timeouts in the future', 'Session Timeout Error!', 'reloadPage', 10000);
+                    handleAlert(o);
+                    //alert('Your session has timed out! Please log in again... ');
+                    //reloadPage();
+                }
+
+                /* HANDLE TOASTR ALERT MESSAGES */
+                // array('alert'=>0, 'type'=>'success', 'message'=>'', 'title'=>'', 'callback'=>'', 'timeout'=>5000);
+                function handleAlert(o){
+                    if(o.alert){
+                        toastr.options.timeOut = o.timeout;
+                        if(o.callback.length){
+                            toastr.options.onFadeOut = function() { window[o.callback](); } // MAKE SURE CALLBACK FUNCTION EXISTS IN GLOBAL NAMESPACE, OTHERWISE THIS WONT WORK
+                        }
+                        toastr[o.type](o.message, o.title);
+                    }
+                }
+
+                function alertObject(ialert, type, message, title, callback, timeout){
+                     this.alert = ialert;
+                     this.type = type;
+                     this.message = message;
+                     this.title = title;
+                     this.callback = callback;
+                     this.timeout = timeout;
+                 }
+
+
+                function reloadPage(){
+                    location.reload(true);
+                }
+
+$("#contact_user_id").select2({
+                placeholder: "Choose Contact Person"
+            });
+
+/* NOTIFICATIONS ON CONTINOUS UPDATE... DO NOT WORK PROPERLY ? */
+/*
+setInterval(function() {
+    $.get('/iucn/just_now/'+get_timestamp())
+    .success(function(obj){
+        console.log(obj);
+        if(obj.alert != null && typeof obj.alert === 'object'){ handleAlert(obj.alert); }
+    });
+}, 1000 * 30 * 1); // Check for LATEST activity EVERY 30 seconds
+*/
+
+</script><script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<script src="/assets/js/autoresize.jquery.js"></script>
+
+<script type="text/javascript">
+/* SET GLOBAL VARIABLES FOR MANIPULATION OF MAP LATER ON */
+var polygonTemplate, polygonSeries, polyColorSelected;
+
+/* INIT MAP */
+am4core.ready(function() {
+
+am4core.useTheme(am4themes_animated);
+
+/* Create map instance */
+var chart = am4core.create("georange_chart", am4maps.MapChart);
+
+/* Set map definition */
+chart.geodata = am4geodata_worldLow;
+
+/* Set projection https://www.amcharts.com/docs/v4/chart-types/map/ */
+chart.projection = new am4maps.projections.Miller();
+// chart.projection = new am4maps.projections.Eckert6();
+
+/* Create map polygon series */
+polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+
+/* Make map load polygon (like country names) data from GeoJSON */
+polygonSeries.useGeodata = true;
+
+/* Configure series */
+polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.applyOnClones = true;
+polygonTemplate.togglable = true;
+polygonTemplate.tooltipText = "{name}";
+polygonTemplate.nonScalingStroke = true;
+polygonTemplate.strokeOpacity = 0.5;
+//polygonTemplate.fill = chart.colors.getIndex(0);
+polygonTemplate.fill = am4core.color("#d7e7ce");
+
+/* BACKGROUND COLOR FILL    */
+//chart.backgroundSeries.mapPolygons.template.polygon.fill = am4core.color("#aadaff");
+//chart.backgroundSeries.mapPolygons.template.polygon.fillOpacity = 1;
+
+var lastSelected;
+polygonTemplate.events.on("hit", function(ev) {
+//  if (lastSelected) {
+    // This line serves multiple purposes:
+    // 1. Clicking a country twice actually de-activates, the line below
+    //    de-activates it in advance, so the toggle then re-activates, making it
+    //    appear as if it was never de-activated to begin with.
+    // 2. Previously activated countries should be de-activated.
+//    lastSelected.isActive = false;
+//  }
+
+  ev.target.series.chart.zoomToMapObject(ev.target);
+//  if (lastSelected !== ev.target) {
+//    lastSelected = ev.target;
+//  }
+})
+
+/* Create selected and hover states and set alternative fill color */
+/* ACTIVE COLOR */
+//var ss = polygonTemplate.states.create("active");
+//ss.properties.fill = chart.colors.getIndex(2);
+
+/* HOVER COLOR */
+var hs = polygonTemplate.states.create("hover");
+hs.properties.fill = chart.colors.getIndex(0);
+
+/* ASSIGN VALUE TO GLObAL VARIABLE FOR USE LATER ON */
+polyColorSelected = am4core.color("#F05C5C");
+
+// Hide Antarctica
+polygonSeries.exclude = ["AQ"];
+
+
+
+/* SET FIXED POSITION FOR TOOLTIP */
+polygonSeries.calculateVisualCenter = true;
+polygonTemplate.tooltipPosition = "fixed";
+
+
+// Small map
+//chart.smallMap = new am4maps.SmallMap();
+
+// Re-position to top right (it defaults to bottom left)
+//chart.smallMap.align = "right";
+//chart.smallMap.valign = "top";
+//chart.smallMap.series.push(polygonSeries);
+
+// Zoom control
+chart.zoomControl = new am4maps.ZoomControl();
+
+// GRID?
+// var grid = chart.series.push(new am4maps.GraticuleSeries());
+// grid.toBack();
+
+var homeButton = new am4core.Button();
+homeButton.events.on("hit", function(){
+  chart.goHome();
+});
+
+homeButton.icon = new am4core.Sprite();
+homeButton.padding(7, 5, 7, 5);
+homeButton.width = 30;
+homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+homeButton.marginBottom = 10;
+homeButton.parent = chart.zoomControl;
+homeButton.insertBefore(chart.zoomControl.plusButton);
+
+}); // end am4core.ready()
+
+
+
+function triggerTooltip(ctip) {
+  var cc = polygonSeries.getPolygonById(ctip);
+ //if(cc.isHover){
+//    cc.isHover = false;
+// } else {
+    cc.isHover = true;
+// }
+}
+
+function closeTooltip(ctip) {
+  var cc = polygonSeries.getPolygonById(ctip);
+  cc.isHover = false;
+}
+
+
+
+// PLUGIN FOR SIMPLE USE OF TEMPLATES
+String.prototype.tpl = function() {
+  var args = arguments;
+  return this.replace(/{(\d+)}/g, function(match, number) {
+    return typeof args[number] != 'undefined'
+      ? args[number]
+      : match
+    ;
+  });
+};
+
+// TODO: CHANGE THIS TO A COUNTRY LIST FROM DB! SEE ALSO iucn_species_footer_3.php
+var countries_data = [{id:'AD',text:'Andorra'}, {id:'AE',text:'United Arab Emirates'}, {id:'AF',text:'Afghanistan'}, {id:'AG',text:'Antigua and Barbuda'}, {id:'AI',text:'Anguilla'}, {id:'AL',text:'Albania'}, {id:'AM',text:'Armenia'}, {id:'AO',text:'Angola'}, {id:'AR',text:'Argentina'}, {id:'AS',text:'American Samoa'}, {id:'AT',text:'Austria'}, {id:'AU',text:'Australia'}, {id:'AW',text:'Aruba'}, {id:'AZ',text:'Azerbaijan'}, {id:'BA',text:'Bosnia and Herzegovina'}, {id:'BB',text:'Barbados'}, {id:'BD',text:'Bangladesh'}, {id:'BE',text:'Belgium'}, {id:'BF',text:'Burkina Faso'}, {id:'BG',text:'Bulgaria'}, {id:'BH',text:'Bahrain'}, {id:'BI',text:'Burundi'}, {id:'BJ',text:'Benin'}, {id:'BL',text:'Saint Barthélemy'}, {id:'BM',text:'Bermuda'}, {id:'BN',text:'Brunei Darussalam'}, {id:'BO',text:'Bolivia'}, {id:'BR',text:'Brazil'}, {id:'BS',text:'Bahamas'}, {id:'BT',text:'Bhutan'}, {id:'BW',text:'Botswana'}, {id:'BY',text:'Belarus'}, {id:'BZ',text:'Belize'}, {id:'CA',text:'Canada'}, {id:'CD',text:'Democratic Republic of the Congo'}, {id:'CF',text:'Central African Republic'}, {id:'CG',text:'Republic of the Congo'}, {id:'CH',text:'Switzerland'}, {id:'CI',text:'Cote d`Ivoire'}, {id:'CK',text:'Cook Islands'}, {id:'CL',text:'Chile'}, {id:'CM',text:'Cameroon'}, {id:'CN',text:'China'}, {id:'CO',text:'Colombia'}, {id:'CR',text:'Costa Rica'}, {id:'CU',text:'Cuba'}, {id:'CV',text:'Cape Verde'}, {id:'CW',text:'Curaçao'}, {id:'CY',text:'Cyprus'}, {id:'CZ',text:'Czech Republic'}, {id:'DE',text:'Germany'}, {id:'DJ',text:'Djibouti'}, {id:'DK',text:'Denmark'}, {id:'DM',text:'Dominica'}, {id:'DO',text:'Dominican Republic'}, {id:'DZ',text:'Algeria'}, {id:'EC',text:'Ecuador'}, {id:'EE',text:'Estonia'}, {id:'EG',text:'Egypt'}, {id:'ER',text:'Eritrea'}, {id:'ES',text:'Spain'}, {id:'ET',text:'Ethiopia'}, {id:'FI',text:'Finland'}, {id:'FJ',text:'Fiji'}, {id:'FK',text:'Falkland Islands (Malvinas)'}, {id:'FM',text:'Micronesia'}, {id:'FO',text:'Faroe Islands'}, {id:'FR',text:'France'}, {id:'GA',text:'Gabon'}, {id:'GB',text:'United Kingdom of Great Britain & Northern Ireland'}, {id:'GD',text:'Grenada'}, {id:'GE',text:'Georgia'}, {id:'GG',text:'Guernsey'}, {id:'GH',text:'Ghana'}, {id:'GL',text:'Greenland'}, {id:'GM',text:'Gambia'}, {id:'GF',text:'French Guiana'}, {id:'GN',text:'Guinea'}, {id:'GQ',text:'Equatorial Guinea'}, {id:'GR',text:'Greece'}, {id:'GT',text:'Guatemala'}, {id:'GU',text:'Guam'}, {id:'GW',text:'Guinea-Bissau'}, {id:'GY',text:'Guyana'}, {id:'HK',text:'Hong Kong'}, {id:'HN',text:'Honduras'}, {id:'HR',text:'Croatia'}, {id:'HT',text:'Haiti'}, {id:'HU',text:'Hungary'}, {id:'ID',text:'Indonesia'}, {id:'IE',text:'Ireland'}, {id:'IL',text:'Israel'}, {id:'IM',text:'Isle of Man'}, {id:'IN',text:'India'}, {id:'IQ',text:'Iraq'}, {id:'IR',text:'Iran'}, {id:'IS',text:'Iceland'}, {id:'IT',text:'Italy'}, {id:'JE',text:'Jersey'}, {id:'JM',text:'Jamaica'}, {id:'JO',text:'Jordan'}, {id:'JP',text:'Japan'}, {id:'KE',text:'Kenya'}, {id:'KG',text:'Kyrgyz Republic'}, {id:'KH',text:'Cambodia'}, {id:'KI',text:'Kiribati'}, {id:'KM',text:'Comoros'}, {id:'KN',text:'Saint Kitts and Nevis'}, {id:'KP',text:'Korea'}, {id:'KR',text:'Korea'}, {id:'KW',text:'Kuwait'}, {id:'KY',text:'Cayman Islands'}, {id:'KZ',text:'Kazakhstan'}, {id:'LA',text:'Lao Peoples Democratic Republic'}, {id:'LB',text:'Lebanon'}, {id:'LC',text:'Saint Lucia'}, {id:'LI',text:'Liechtenstein'}, {id:'LK',text:'Sri Lanka'}, {id:'LR',text:'Liberia'}, {id:'LS',text:'Lesotho'}, {id:'LT',text:'Lithuania'}, {id:'LU',text:'Luxembourg'}, {id:'LV',text:'Latvia'}, {id:'LY',text:'Libya'}, {id:'MA',text:'Morocco'}, {id:'MC',text:'Monaco'}, {id:'MD',text:'Moldova'}, {id:'ME',text:'Montenegro'}, {id:'MF',text:'Saint Martin'}, {id:'MG',text:'Madagascar'}, {id:'MH',text:'Marshall Islands'}, {id:'MK',text:'Macedonia'}, {id:'ML',text:'Mali'}, {id:'MM',text:'Myanmar'}, {id:'MN',text:'Mongolia'}, {id:'MO',text:'Macao'}, {id:'MP',text:'Northern Mariana Islands'}, {id:'MR',text:'Mauritania'}, {id:'MS',text:'Montserrat'}, {id:'MT',text:'Malta'}, {id:'MU',text:'Mauritius'}, {id:'MV',text:'Maldives'}, {id:'MW',text:'Malawi'}, {id:'MX',text:'Mexico'}, {id:'MY',text:'Malaysia'}, {id:'MZ',text:'Mozambique'}, {id:'NA',text:'Namibia'}, {id:'NC',text:'New Caledonia'}, {id:'NE',text:'Niger'}, {id:'NF',text:'Norfolk Island'}, {id:'NG',text:'Nigeria'}, {id:'NI',text:'Nicaragua'}, {id:'NL',text:'Netherlands'}, {id:'NO',text:'Norway'}, {id:'NP',text:'Nepal'}, {id:'NR',text:'Nauru'}, {id:'NU',text:'Niue'}, {id:'NZ',text:'New Zealand'}, {id:'OM',text:'Oman'}, {id:'PA',text:'Panama'}, {id:'PE',text:'Peru'}, {id:'PF',text:'French Polynesia'}, {id:'PG',text:'Papua New Guinea'}, {id:'PH',text:'Philippines'}, {id:'PK',text:'Pakistan'}, {id:'PL',text:'Poland'}, {id:'PM',text:'Saint Pierre and Miquelon'}, {id:'PN',text:'Pitcairn Islands'}, {id:'PR',text:'Puerto Rico'}, {id:'PS',text:'Palestine'}, {id:'PT',text:'Portugal'}, {id:'PW',text:'Palau'}, {id:'PY',text:'Paraguay'}, {id:'QA',text:'Qatar'}, {id:'RO',text:'Romania'}, {id:'RS',text:'Serbia'}, {id:'RU',text:'Russian Federation'}, {id:'RW',text:'Rwanda'}, {id:'SA',text:'Saudi Arabia'}, {id:'SB',text:'Solomon Islands'}, {id:'SC',text:'Seychelles'}, {id:'SD',text:'Sudan'}, {id:'SE',text:'Sweden'}, {id:'SG',text:'Singapore'}, {id:'SH',text:'Saint Helena, Ascension and Tristan da Cunha'}, {id:'SI',text:'Slovenia'}, {id:'SJ',text:'Svalbard and Jan Mayen Islands'}, {id:'SK',text:'Slovakia (Slovak Republic)'}, {id:'SL',text:'Sierra Leone'}, {id:'SM',text:'San Marino'}, {id:'SN',text:'Senegal'}, {id:'SO',text:'Somalia'}, {id:'SR',text:'Suriname'}, {id:'ST',text:'Sao Tome and Principe'}, {id:'SV',text:'El Salvador'}, {id:'SY',text:'Syrian Arab Republic'}, {id:'SZ',text:'Swaziland'}, {id:'TC',text:'Turks and Caicos Islands'}, {id:'TD',text:'Chad'}, {id:'TG',text:'Togo'}, {id:'TH',text:'Thailand'}, {id:'TJ',text:'Tajikistan'}, {id:'TL',text:'Timor-Leste'}, {id:'TM',text:'Turkmenistan'}, {id:'TN',text:'Tunisia'}, {id:'TO',text:'Tonga'}, {id:'TR',text:'Turkey'}, {id:'TT',text:'Trinidad and Tobago'}, {id:'TZ',text:'Tanzania'}, {id:'UA',text:'Ukraine'}, {id:'UG',text:'Uganda'}, {id:'US',text:'United States of America'}, {id:'UY',text:'Uruguay'}, {id:'UZ',text:'Uzbekistan'}, {id:'VA',text:'Holy See (Vatican City State)'}, {id:'VC',text:'Saint Vincent and the Grenadines'}, {id:'VE',text:'Venezuela'}, {id:'VG',text:'British Virgin Islands'}, {id:'VI',text:'United States Virgin Islands'}, {id:'VN',text:'Vietnam'}, {id:'VU',text:'Vanuatu'}, {id:'WF',text:'Wallis and Futuna'}, {id:'WS',text:'Samoa'}, {id:'XK',text:'Kosovo'}, {id:'YE',text:'Yemen'}, {id:'ZA',text:'South Africa'}, {id:'ZM',text:'Zambia'}, {id:'ZW',text:'Zimbabwe'}];
+
+var countries_map = countries_data.slice(0); // GETS A COPY OF THE ARRAY OF COUNTRY OBJECTS WITHOUT THE REFERENCE!! http://stackoverflow.com/a/4136943/1363190
+
+//var pop_selecteds = [{id:'SE',text:'Sweden'}];// HOLDS POPULATION REGIONAL COUNTRIES SELECTED
+var pop_selecteds = new Array();// HOLDS POPULATION REGIONAL COUNTRIES SELECTED
+
+var pop_tpl = '<div class="alert alert-info" id="population-regional-{0}"><img class="flag" src="/assets/img/flags_iso/24/{1}.png"/>{2} '
+                        + '<i class="icon-{3}"></i>{4} '
+                        + '<div class="btn-group pull-right">'
+                        + '<button type="button" class="btn btn-small regional-edit" value="{5}"><i class="icon-pencil"></i></button>'
+                        + '<button type="button" class="btn btn-small regional-delete" value="{6}"><i class="icon-remove" style="cursor: pointer;"></i></button>'
+                        + '</div>'
+                        + '<p>{7}</p></div><hr>';
+
+
+var pop_tpl_locked = '<div style="border-bottom: solid thin #eee;padding-top:10px;" id="population-regional-{0}"><img class="flag" src="/assets/img/flags_iso/24/{1}.png"/>{2} '
+                        + '<span class="label label-important"><i class="icon-{3}"></i></span> {4}<span class="pull-right">{5}</span>'
+                        + '<p>{6}</p></div>';
+
+var pop_tpl_table = '<tr><td><span id="population-regional-{0}"><img class="flag" src="/assets/img/flags_iso/24/{1}.png"/>{2}</span></td>'
+                        + '<td><span class="label label-important"><i class="icon-{3}"></i></span></td>'
+                        + '<td>{4}</td><td><span class="pull-right">{5}</span></td>'
+                        + '</tr>';
+
+var meta_tpl = '<div class="context-meta pull-right" data-metafor="{0}"><span><small>'
+                                +'	Updated by <a href="#" data-title="User Profile" data-poload="/iucn/get_profile_html/{1}/">'
+                                +'	<i class="icon-user"></i> <span class="username">{2}</span></a>'
+                                +'	<time class="timeago" datetime="{3}+0200">{4}</time>'
+                                +'</small></span></div>';
+
+
+                        var trends_icon = new Object();
+                            trends_icon[1] = 'arrow-up';
+                            trends_icon[2] = 'arrow-down';
+                            trends_icon[3] = 'arrow-right';
+                            trends_icon[4] = 'question';
+
+var revision = new Array();
+
+var popovers = new Array();
+
+//console.log(getCountryName('SE'));
+
+                function getCountryName(country_id){
+                    var toReturn;
+                    $.each(countries_map, function() {
+                            if(this.id == country_id){
+                                //console.log(this.id + " : " + this.text);
+                                toReturn = this.text;
+                                return false;
+                            }
+                        });
+                    return toReturn;
+                }
+
+                 function popObject(id, text, redlisted, trends, category, value, updated_by ){
+                     this.id = id;
+                     this.text = text;
+                     this.redlisted = redlisted;
+                     this.trends = trends;
+                     this.category = category;
+                     this.value = value;
+                     this.updated_by = updated_by;
+                 }
+
+
+            //OPTIONS FOR SELECT2 COUNTRY FORMATTING WITH FLAGS ETC...
+            var regions_options = {
+                placeholder: "Type here...",
+                allowClear: true,
+                formatResult: countryFormatResult,
+                formatSelection: countryFormatSelection,
+                escapeMarkup: function(m) { return m; }
+            }
+
+            var pop_regions_options = {
+                data: countries_data,
+                placeholder: "Type here...",
+                allowClear: true,
+                formatResult: countryFormatResult,
+                formatSelection: countryFormatSelection,
+                escapeMarkup: function(m) { return m; }
+            }
+
+/* UPDATE MAP WITH SELECTED COUNTRIES COLOR */
+function drawMapFromS2(){
+    //var countries = $("#s2-georange-native").select2("val");
+    var c = $("#s2-georange-native").select2('data');
+    var a = [];
+        for (var i = 0; i < c.length; i++) {
+            a.push({"id": c[i].id, "fill": polyColorSelected}); // MUST HAVE A START VALUE FOR PUSH TO WORK?!!
+        }
+polygonSeries.data = a;
+polygonTemplate.propertyFields.fill = "fill";
+}
+
+        function sortObject(a, b){
+          var aText = a.text.toLowerCase();
+          var bText = b.text.toLowerCase();
+          return ((aText < bText) ? -1 : ((aText > bText) ? 1 : 0));
+        }
+
+
+    // CREATE A GLOBAL OBJECT
+    //var context = new Object();
+
+
+
+        // HIGHLIGHT MATCHES IN SELECT2 RESULT
+        function highlight( data, search )
+        {
+            return data.replace( new RegExp( "(" + preg_quote( search ) + ")" , 'gi' ), "<span class='species-match'>$1</span>" );
+        }
+
+        function preg_quote( str ) {
+            // http://kevin.vanzonneveld.net
+            // +   original by: booeyOH
+            // +   improved by: Ates Goral (http://magnetiq.com)
+            // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+            // +   bugfixed by: Onno Marsman
+            // *     example 1: preg_quote("$40");
+            // *     returns 1: '\$40'
+            // *     example 2: preg_quote("*RRRING* Hello?");
+            // *     returns 2: '\*RRRING\* Hello\?'
+            // *     example 3: preg_quote("\\.+*?[^]$(){}=!<>|:");
+            // *     returns 3: '\\\.\+\*\?\[\^\]\$\(\)\{\}\=\!\<\>\|\:'
+
+            return (str+'').replace(/([\\\.\+\*\?\[\^\]\$\(\)\{\}\=\!\<\>\|\:])/g, "\\$1");
+        }
+
+            // FORMAT RESULT IN SELECT2
+            function speciesFormatResult(species, container, query, escapeMarkup) {
+                var species_name;
+                var markup = "<div class='species-result'>";
+                if (species.name !== undefined && species.auct !== undefined) {
+                    species_name = highlight(species.name, query.term);
+                    //console.log(query.term);
+                    markup += "<div class='species-result-row'><span class='species-name'>"+ species_name + "</span> <span class='species-auct'>"+ species.auct +"</span></div>";
+                }
+                markup += "</div>"
+                return markup;
+            }
+
+            function speciesFormatSelection(species) {
+                //console.log(species);
+                return species.name +' '+species.auct;
+            }
+
+
+            /* ADD IMAGE OF FLAG IN SELECT BOX */
+            function countryFormatSelection(country) {
+                if (!country.id || country.id==0) return country.text; // optgroup
+                return "<span onmouseover=\"triggerTooltip('"+ country.id +"');\" onmouseout=\"closeTooltip('"+ country.id +"');\"><img class=\"flag\" src=\"/assets/img/flags_iso/24/" + country.id.toLowerCase() + ".png\" />"+ country.text +"</span>";
+            }
+
+            function countryFormatResult(country, container, query, escapeMarkup) {
+                var txt = highlight(country.text, query.term);
+                if (!country.id || country.id==0) return txt; // optgroup
+                return "<img class=\"flag\" src=\"/assets/img/flags_iso/24/" + country.id.toLowerCase() + ".png\" />"+ txt;
+            }
+
+            /* ADD IMAGE OF SPECIES GROUP IN SELECT BOX */
+            function format_group(group) {
+                if (!group.id) return group.text; // optgroup
+                return "<img class='flag' src='/assets/img/groups_"+ group.id + ".png'/>" + group.text;
+            }
+
+
+$(document).ready(function() {
+
+                    // FOX FOR POPOVER OVERFLOW IN ACCORDIONS! */
+                    // DONT NEED IT IF CONTAINER IS SET TO BODY!!*
+                    //*
+                    $('.accordion-body.collapse').hover(function() {
+                            $(this).css('overflow','visible');
+                        }, function() {
+                            $(this).css('overflow','hidden');
+                        }
+                    ); //*/
+
+                // ASYNC CALL TO GET USER PROFILE DATA
+                // profile = get_user_profile();
+                function reloadtime(){
+                    jQuery("time.timeago").timeago(); // CALL TO GET THE JOB DONE IN TIME!
+                }
+
+                // LISTENS TO *[data-poload] SELECTORS WITHIN CLASSES .popai TO BE ABLE TO SHOW POPOVERS DYNAMICALLY
+                // data-poload TAG CONTAINS A URL THAT SHOULD RETURN HTML CONTENT!
+                //*
+
+                function destroyPopovers(){
+                    // DESTROY PREVIOUS POPOVERS
+                    if(popovers.length){
+                        for (i in popovers) {
+                            popovers[i].popover("hide");
+                            popovers[i].popover("destroy");
+                        }
+                    }
+                } //*/
+
+                $('body').on('click', '*[data-poload]', function(event) {
+                        event.preventDefault();
+                        destroyPopovers();
+
+                        //$(this).data('poload', $(this).data('poload') + get_timestamp() );
+                        var e=$(this);
+                        var title = e.data('title');
+                        var id = e.attr('id');
+                        console.log(title);
+                        console.log(id);
+
+                        //if (e.next('div.popover:visible').length){ // popover is visible
+                        //	e.popover("hide");
+                        //	e.popover("destroy"); // HAVE TO DESTROY TO FORCE RELOAD OF CONTENT!
+                        //} else { // NOT VISIBLE
+                            //destroyPopovers();
+                            popovers.push(e);
+                            //e.popover("destroy"); // HAVE TO DESTROY TO FORCE RELOAD OF CONTENT!
+                            //e.unbind('click');
+                            if(e.data('poload') == 'noload'){
+
+                                    e.popover({content: e.data('noload'),
+                                                placement : 'bottom',
+                                                html : true,
+                                                title : title +'<i class="icon-remove pull-right close-popover" style="cursor: pointer;"></i>',
+                                                trigger: 'manual',
+                                                animate: false,
+                                                container: 'body',
+                                                delay: { show: 500, hide: 100 }
+                                                }).popover('toggle');
+
+                            } else {
+
+                                var url = e.data('poload') + get_timestamp(); // URL TO PREVENT CACHE
+
+                                $.ajax( {
+                                    url: url,
+                                    type: "GET",
+                                    cache: false,
+                                    success: function(obj) {
+                                        console.log(url);
+                                        e.popover({content: obj,
+                                                    placement : 'bottom',
+                                                    html : true,
+                                                    title : title +'<i class="icon-remove pull-right close-popover" style="cursor: pointer;"></i>',
+                                                    trigger: 'manual',
+                                                    animate: false,
+                                                    container: 'body',
+                                                    delay: { show: 500, hide: 100 }
+                                                    }).popover('toggle');
+                                    }
+                                }).done(reloadtime);
+                            }
+                });
+
+
+                function addComment(context_key){
+                    //console.log('Deleting...');
+                    var comment = $('#add_comment-'+context_key).val(); // GET CONTENT FROM TEXTAREA.. CHECK DOM READY???
+                    var private = $('button[name="comment-private"].active').val();
+                    var url = '/iucn/add_comment/'+ $('#species_id').val() +'/'+ get_timestamp();
+                    var data = {'taxon_id' : $('#species_id').val(),
+                                'context_key' : context_key,
+                                'comment' : comment,
+                                'private' : private
+                                };
+                    $.post(url, data,
+                     function(obj){
+                        console.log(obj);
+                        // HANDLE ALERTS
+                        if(obj.alert != null && typeof obj.alert === 'object'){ handleAlert(obj.alert); }
+                            $('.submit-comment').button('reset'); // SHOW LOADING TEXT
+
+                            // COMMENTS COUNTER ADD.....
+                            $('.comments-count-'+context_key).html(parseInt($('.comments-count-'+context_key).html(), 10)+1);
+
+                            //RELOAD CONTENT OF COMMENTS LIST HOW?
+
+                            $('#comments-href-'+context_key).trigger('click'); // TRIGGER CLICK TO RELOAD?
+
+                            /*
+                            setTimeout(function(){
+                                $('#comments-href-'+context_key).trigger('click'); // TRIGGER CLICK TO RELOAD?
+                            },1000);
+                            */
+
+                     }, "json");
+
+                }
+
+
+
+                function removeComment(comment_id, context_key, updated_by){
+                    //console.log('Deleting...');
+                    var url = '/iucn/remove_comment/'+ comment_id +'/'+ get_timestamp();
+                    var data = {'taxon_id' : $('#species_id').val(),
+                                'context_key' : context_key,
+                                'comment_id' : comment_id,
+                                'updated_by' : updated_by
+                                 };
+                    $.post(url, data,
+                     function(obj){
+                        console.log(obj);
+                        // HANDLE ALERTS
+                        if(obj.alert != null && typeof obj.alert === 'object'){ handleAlert(obj.alert); }
+
+                            $("#comment-alert-"+ comment_id).alert('close');
+                            $('#remove-comment-'+ comment_id).button('reset'); // SHOW LOADING TEXT
+
+                            // COMMENTS COUNTER REMOVE.....
+                            $('.comments-count-'+context_key).html(parseInt($('.comments-count-'+context_key).html(), 10)-1);
+
+                            //RELOAD CONTENT OF COMMENTS LIST HOW?
+                            $('#comments-href-'+context_key).trigger('click'); // TRIGGER CLICK TO RELOAD?
+
+                     }, "json");
+
+                }
+
+
+                function confirmRevisions(){
+                    //if(is_logged_in()){
+                    $('#confirm-revisions').button('loading');
+                    var url = '/iucn/confirm_revisions/'+ $('#species_id').val() +'/'+ get_timestamp();
+                    var data = {'taxon_id' : $('#species_id').val() };
+                    $.post(url, data,
+                     function(obj){
+                        //console.log(obj);
+                         if(obj.alert != null && typeof obj.alert === 'object'){ handleAlert(obj.alert); }
+
+                            $('#confirm-revisions').button('reset');
+                     }, "json");
+
+                    //} else {
+                    //	handleNotLoggedIn();
+                    //}
+                 }
+
+                function getCurrentRevision(context_key, confirmed, ignore_user_id){
+                    var url = '/iucn/get_current_revision/'+ context_key +'/'+ $('#species_id').val() +'/'+ confirmed +'/'+ ignore_user_id +'/'+ get_timestamp();
+                    $.get(url, function(obj) {
+                          //console.log(obj);
+                         revision.push({ context : obj });
+
+                    }).done(function() {
+                        loadRevision(context_key);
+                    })
+                 }
+
+
+
+                // EDIT FUNCTIONS UNCOMMENTED
+                function printPopRegional(id, text, redlisted, trends, category, updated_by, value){
+                        //var user_id = $('#user_id').val(); // CURRENT USER LOGGED IN
+                        var label = '';
+                            if(redlisted=='yes'){
+                                label = ' <span class="label label-important">'+ category +'</span>';
+                            }
+                        // REGIONAL COUNTRIES ALERT BOX TEMPLATE.. ALSO CHECK THAT IT  IS SAME AS
+                        var template;
+                        var selecteds;
+                        //console.log(text +' '+ updated_by +'/'+ user_id);
+                        //if(user_id === updated_by){ // IF USER IS SAME AS LAST UPDATED BY
+                        //	template = pop_tpl; // EDIT OPTIONS ENABLED
+                        //	selecteds = template.tpl(id, id.toLowerCase(), text, trends_icon[trends], label, id, id, value);
+                        //} else { // IF UPDATED BY ANOTHER USER
+
+                            //template = pop_tpl_locked; // LOCK EDIT OPTIONS
+
+                            template = pop_tpl_table; // LOCK EDIT OPTIONS
+
+                            var str;
+                            var updated_by_name = get_user_profile(updated_by); // ASYNC CALL, MAY SLOW DOWN.. ANOTHER OPTION!?
+
+                            if(value.length){
+                                str = '<a href="#" data-title="Comment added by '+ updated_by_name['username'] +'" data-poload="noload" data-noload="'+ value +'"><i class="icon-comment-alt" data-toggle="tooltip" title="Last updated by '+ updated_by_name['username'] +'. Click to view comment"></i></a>';
+
+                            } else {
+                                str = '<i class="icon-info-sign muted" data-toggle="tooltip" title="Last updated by '+ updated_by_name['username'] +'"></i>';
+                            }
+                            //var str = '<small>Added by <a href="#" id="user-pop-regional-'+id+'" data-title="User Profile for '+ updated_by_name['username'] +'" data-poload="/iucn/get_profile_html/'+updated_by+'/"> <i class="icon-user"></i> '+ updated_by_name['username'] +'</a></small>';
+                            selecteds = template.tpl(id, id.toLowerCase(), text, trends_icon[trends], label, str, value);
+                        //}
+                        $('#population-regional-selecteds tbody').append(selecteds);
+                        splicePopSelected(); // SPLICE AND RELOAD!
+                    }
+
+
+                function loadRevision(context_key){
+                    // LOADS POPULATION DATA FROM SERVER? OR HARD CODED OBJECT ON LOAD?
+                    if(context_key=='population_regional'){
+                        loadPopRegional();
+                    }
+                }
+
+                // CRAZY LONG LOOPS TO GET TO THE BOTTOM OF OBJECT WE WANT FOR REGIONAL POPULATION DATA
+                function loadPopRegional(){
+
+                    if (revision.length > 0) {
+                        for (i in revision) {
+                            if(typeof revision[i]['context'] != 'undefined'){
+                                var context_key = revision[i]['context']['context_key'];
+                                if(context_key == 'population_regional'){
+                                    var obj = revision[i]['context']['context_value'];
+                                    for (j in obj) {
+                                        var a = obj[j];
+                                        for (k in a){
+                                            var population = new popObject(a[k]['id'], a[k]['text'], a[k]['redlisted'], a[k]['trends'], a[k]['category'], a[k]['value'], a[k]['updated_by']);
+                                            pop_selecteds.push(population);	// PUSH TO SELECTEDS ARRAY
+                                            printPopRegional(a[k]['id'], a[k]['text'], a[k]['redlisted'], a[k]['trends'], a[k]['category'], a[k]['updated_by'], a[k]['value']); // PRINT OUT ALERT BOXES AND RELOAD COUNTRIES SELECT2
+                                        }
+                                    }
+
+                                    // RE INIT TOOLTIP
+                                    $('i[title]').tooltip({trigger: 'hover'});
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+
+                /* REMOVES THE SELECTED COUNTRIES FROM COUNTRIES OBJECT */
+                function splicePopSelected(country_id){
+                      if (pop_selecteds.length > 0) {
+                        for (i in pop_selecteds) {
+                            for (var j in countries_data) {
+                                if(pop_selecteds[i]['id'] == countries_data[j]['id']){
+                                    //console.log('Spliced: '+ countries_data[j]['text']);
+                                    countries_data.splice(j,1); // DELETE FROM SELECTEDS ARRAY
+                                }
+                            }
+
+                        }
+                      //countries_data = countries_data.sort(function(a,b) {return (a.text > b.text) ? 1 : ((b.text > a.text) ? -1 : 0);} ); // http://stackoverflow.com/questions/1129216/sorting-objects-in-an-array-by-a-field-value-in-javascript
+                      }
+                    countries_data.sort(sortObject); // RESORT OBJECT
+                    reloadPopCountries(country_id); // RELOAD SELECT2
+                }
+
+                function reloadPopCountries(country_id){
+                    $("#s2-population-regional-countries").select2(pop_regions_options);
+                    $("#s2-population-regional-countries").select2("val", country_id);
+                }
+
+                function saveContext(key, value, type){
+                    var previous = $('#species_id').data(key); // GET PREVIOUS VALUE FOR THIS CONTEXT
+                    if(previous != value){ // IF VALUE HAVE CHANGED, SAVE IT TO DATABASE
+                        //if(is_logged_in()){
+                            var checkthis = 0;
+                            var url = '/iucn/save_context/'+ $('#species_id').val() +'/'+ get_timestamp();
+                            var data = {'taxon_id' : $('#species_id').val(),
+                                    'context_key' : key,
+                                    'context_value' : value,
+                                    'context_type' : type
+                                    };
+
+                            $('#species_id').data(key, value); // SAVE VALUE TO KEY
+
+                            if(type=='string'){
+                                var checkthis = (value.length > 25) ? 1:0;
+                            }
+
+                            $.post(url, data,
+                            function(obj){
+                                //console.log(obj);
+                                // UPDATE/REFRESH METADATA ON TEXTAREAS SOME HOW??
+                                // FIRST CHECK IF CONTEXT_KEY EXISTS AS AN ELEMENT IN DOCUMENT¨
+                                if($('#'+key).length){
+                                    obj.meta.checkthis = checkthis;
+                                    $('#'+key).data('meta', obj.meta); // SAVE METADATA TO ELEMENT!
+                                    //$('#'+key).data('meta.checkthis', checkthis);
+                                    printContextMetaCurrent(key);
+                                }
+                                // HANDLE ALERTS
+                                if(obj.alert != null && typeof obj.alert === 'object'){ handleAlert(obj.alert); }
+                                    // HANDLE CHECKED STEPS
+//									if(typeof obj['posted']['context_key'] != 'undefined'){
+//										// FIRST CHECK IF THIS IS A CHECKABLE ELEMENT
+//										if ($('#i-'+ obj['posted']['context_key']).length > 0){ // CHECKABLE ELEMENT EXISTS!
+//											if(obj['posted']['context_type'] == 'string'){
+//												if(obj['posted']['context_value'].length > 25){ // IS TEXT CONTENT MORE THAN 25 CHARS IN LENGTH.. CONSIDER IT CHECKED!
+//													$('#i-'+ obj['posted']['context_key']).removeClass('icon-check-empty').addClass('icon-check');
+//												} else {
+//													$('#i-'+ obj['posted']['context_key']).addClass('icon-check-empty').removeClass('icon-check');
+//												}
+//											}
+//										}
+//									}
+
+                            }, "json");
+                        //} else {
+                        //	handleNotLoggedIn();
+                        //}
+                    } else {
+                        //console.log('Matches previous value! No Post made');
+                    }
+                 }
+
+
+//////////////////
+// SELECT2 INITS
+        $("#s2-population-regional-countries").select2(pop_regions_options); // MAY BE INITIALIZED DYNAMICALLY IN OTHER FUNCTIONS! reloadPopCountries()
+        $("#s2-common-name-countries").select2(regions_options);
+
+            /* HABITAT SELECT BOX IN FORM */
+            $("#s2-habitats").select2({	placeholder: "Choose..." }).on("change", function(e) { saveContext('iucn_habitats', getObjectS2('habitats'), 'array'); });
+            $("#s2-threats").select2({	placeholder: "Choose..." }).on("change", function(e) { saveContext('iucn_threats', getObjectS2('threats'), 'array'); });
+            $("#s2-conservation").select2({	placeholder: "Choose..." }).on("change", function(e) { saveContext('iucn_conservation', getObjectS2('conservation'), 'array'); });
+            $("#s2-research").select2({	placeholder: "Choose..." }).on("change", function(e) { saveContext('iucn_research', getObjectS2('research'), 'array'); });
+            $("#s2-usentrade").select2({	placeholder: "Choose..." }).on("change", function(e) { saveContext('iucn_usentrade', getObjectS2('usentrade'), 'array'); });
+            $("#s2-species-group").select2({
+                    formatResult: format_group,
+                    formatSelection: format_group,
+                    escapeMarkup: function(m) { return m; }
+                }).on("change", function(e) {
+                    //console.log($(this).val());
+
+                        var url = '/iucn/save_iucn_group/'+ $('#species_id').val() +'/'+ get_timestamp();
+                        var data = {'taxon_id' : $('#species_id').val(), 'iucn_group_id' : $(this).val() };
+
+                        $.post(url, data,
+                             function(obj){
+                                // LOAD DD LIST IN TAXONOMY SUMMARY
+                                //console.log(obj);
+                                // HANDLE ALERTS
+                                if(obj.alert != null && typeof obj.alert === 'object'){ handleAlert(obj.alert); }
+
+                                // HANDLE CHECKED HEADINGS AND GROUP UPDATE IN TAXONOMIC INFO
+                                if(typeof obj['iucn_group_id'] != 'undefined'){
+                                    $(".iucn_group").remove();
+                                    $("dt:contains('IUCN')").after('<dd class="iucn_group"><img class="flag" src="/assets/img/groups_'+ obj['iucn_group_id'] +'.png"/><span class="species-cname">'+ obj['iucn_group'] +'</span></dd>');
+//									if(obj['iucn_group_id'] == 0){
+//										$('#i-iucn_groups').removeClass('icon-check').addClass('icon-check-empty');
+//									} else {
+//										$('#i-iucn_groups').removeClass('icon-check-empty').addClass('icon-check');
+//									}
+                                }
+
+                             }, "json");
+                });
+
+
+
+            // MAKE OBJECT OF SELECT 2 DATA FOR SENDING TO SERVER
+            function getObjectS2(selector){
+                var o = new Object();
+                var c = $('#s2-'+ selector).select2('data');
+                // ADD LABELS IN HEADINGS
+                //$('#labels-heading-'+ selector).html(''); // EMPTY TAG HEADING
+                for (var i = 0; i < c.length; i++) {
+                    //var txt = $.trim(c[i].text);
+                    //txt = txt.replace(/[^-a-z \&\/]/ig,'');
+                    o[c[i].id] = c[i].id; //o[c[i].id] = c[i].text;
+                    //$('#labels-heading-'+selector).append('<span class="label">'+txt+'</span> ');
+                }
+                if($('#'+ selector +'-count').length > 0){
+                    $('#'+ selector +'-count').html(c.length); // COUNTER
+                }
+                return $.param(o);
+            }
+
+            /* COUNTRY SELECT BOX IN FORM */
+            $("#s2-georange-native").select2(regions_options).on("change", function(e) {
+                // RE DRAW MAP AFTER CHANGE....
+
+                drawGeorangeFromS2();
+                saveContext('georange_regions', getObjectS2('georange-native'), 'array');
+            });
+
+            // SPECIES SELECTBOX
+            $('#select_species').select2({
+                    placeholder: "Search for a species...",
+                    minimumInputLength: 3,
+//					multiple:true,
+//					allowClear: false,
+                    ajax: {
+                        url: "/iucn/search_taxa/app_suggested/",
+                        dataType: 'json',
+                        quietMillis: 100,
+                        data: function (term, page) {
+                            return {
+                                term: term, //search term
+                                page_limit: 500 // page size
+                            };
+                        },
+                        results: function (data, page) {
+                            return { results: data.results };
+                        }
+
+                    },
+                    initSelection: function(element, callback) {
+                        return $.getJSON("/iucn/search_taxa/app_suggested/?id=" + (element.val()), null, function(data) {
+                                //console.log(data);
+                                return callback(data);
+                        });
+                    },
+                    formatResult: speciesFormatResult, // omitted for brevity, see the source of this page
+                    formatSelection: speciesFormatSelection,  // omitted for brevity, see the source of this page
+                    dropdownCssClass: "bigdrop", // apply css that makes the dropdown taller
+                    escapeMarkup: function (m) { return m; } // we do not want to escape markup since we are displaying html in results
+                })
+                .on('change', function(e) {
+                    // REDIRECT TO SPECIES MAIN PAGE ON CHANGE
+                    var id = $(this).select2('data').id;
+                    if(id > 0){	window.location.href = 'https://redlist.info/iucn/species_view/'+id; }
+                    // LOAD INFO ABOUT THIS SPECIES TAXONOMY ETC...
+                });
+
+
+
+    // TRIGGER TOOLTIPS ON INPUT AND TEXTAREA TITLES
+    $('input[title]').tooltip({trigger: 'focus'});
+    $('textarea[title]').tooltip({trigger: 'hover', placement: 'bottom'});
+    //$('li a[title]').tooltip({trigger: 'hover'});
+    $('img[title]').tooltip({trigger: 'hover'});
+    $('i[title]').tooltip({trigger: 'hover'});
+
+$('a[title]').tooltip({trigger: 'hover'});
+
+
+/* AUTO SAVE CONTEXT TEXT IN TEXTAREAS ON FOCUS OUT */
+$('.context-wrapper').on('focusout', 'textarea', function(e){
+    if(this.id != 'population_regional'){ // UTESLUT POPULATION REGIONAL
+        saveContext(this.id, this.value, 'string'); // OBS! FÅR ABSOLUT INTE SPARA POPULATION REGIONAL SOM SKA HANTERAS PÅ ANNAT SÄTT!
+    }
+});
+
+
+/* SAVES A CONFIRMED TIMESTAMP ON ALL LATEST REVISIONS PER CONTEXT KEY */
+$('#confirm-revisions').on('click', confirmRevisions);
+
+
+/* SHOW/HIDE WHY DESCRIPTION */
+$('button[name="btn-why"]').on('click', (function(e) {
+    //e.preventDefault();
+    var choosen = $(this).val();
+    if(choosen=='yes'){
+        updateSuggested(1);// UPDATE DB
+        $(this).addClass('btn-success');
+        $('#btn-why-no').removeClass('btn-success');
+        $('#slider-suggested_why').slideDown("slow");
+    } else {
+        updateSuggested(0);// UPDATE DB
+        $(this).addClass('btn-success');
+        $('#btn-why-yes').removeClass('btn-success');
+        $('#slider-suggested_why').slideUp("fast");
+    }
+}));
+
+
+
+
+
+/* SHOW/HIDES FORM INPUT TEXTAREAS FROM HREF IN LINKS */
+$('.replyto').on('click', (function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    var input = '<div class="input-append"><input class="span2" id="input-replyto-'+id+'" type="text"><button class="btn" type="button">Send</button></div>';
+    $(this).closest('p').html(input);
+}));
+
+
+            // DELETE COMMENT, PILLS ARE ADDED TO DOM DYNAMICALLY!!
+            $('body').on('click', '.submit-comment', (function(e) {
+                $(this).button('loading'); // SHOW LOADING TEXT
+                var context_key = $(this).data('contextkey');
+                addComment(context_key);
+            }));
+
+            // DELETE COMMENT
+            $('body').on('click', '.remove-comment', (function(e) {
+                $(this).button('loading'); // SHOW LOADING TEXT
+                var context_key = $(this).data('contextkey');
+                var comment_id = $(this).data('commentid');
+                var updated_by = $(this).data('updatedby');
+                removeComment(comment_id, context_key, updated_by);
+            }));
+
+            $('body').on('click', '.close-popover', (function(e) {
+                destroyPopovers();
+            }));
+
+
+
+        /* PRINTS METADATA ON PAGE LOAD */
+        function printContextMeta(){
+            var locked = $('#species_id').data('locked');
+            var user_id = $('#user_id').val();
+            var selector = '.context';
+                if(locked==1){
+                    selector = '.context-locked';
+                }
+                $(selector).each(function (i) {
+                    var updated_at = $(this).data('updated_at');
+                    var updated_by = $(this).data('updated_by');
+                    var checked = $(this).data('checkthis');
+                    var context = $(this).attr('id');
+                    //console.log(context +' updated by '+ updated_by +' at '+ updated_at);
+                    var profile = get_user_profile(updated_by);
+                    var username = profile['username'];
+
+                    if(user_id == updated_by) { username = 'You'; }
+
+                    var template = meta_tpl;
+                    var div = template.tpl(context, updated_by, username, updated_at, updated_at);
+
+                    if(checked==1){
+                        $('#i-'+context).addClass('icon-check').removeClass('icon-check-empty');
+                    }else{
+                        $('#i-'+context).addClass('icon-check-empty').removeClass('icon-check');
+                    }
+                    // CHECK THAT A VALUE EXIST BEFORE UPDATING!
+                    if(updated_at != 0){
+                        $('.meta-'+context).empty().html(div);
+                    }
+                    //$(this).after(div);
+
+                });
+
+        reloadtime();
+
+        }
+
+        /* UDPATES PRINTED META FOR CONTEXT KEY (TEXTAREAS) IN saveContext() CALLBACK */
+        function printContextMetaCurrent(key){
+            var meta = $('#'+key).data('meta');
+            console.log('Anropas');
+            //console.log(meta);
+            var user_id = $('#user_id').val();
+
+            if(typeof meta.updated_by != 'undefined'){
+                //meta = jQuery.parseJSON(json);
+                console.log(meta);
+
+                if(meta.updated_at != 0){
+                    var profile = get_user_profile(meta.updated_by);
+                    var username = profile['username'];
+                        if(user_id==meta.updated_by) { username = 'You'; }
+
+                        var template = meta_tpl;
+                        var div = template.tpl(key, meta.updated_by, username, meta.updated_at, meta.updated_at);
+
+                    if(meta.checkthis==1){
+                        $('#i-'+key).addClass('icon-check').removeClass('icon-check-empty');
+                    }else{
+                        $('#i-'+key).addClass('icon-check-empty').removeClass('icon-check');
+                    }
+
+                    if(meta.updated_at != 0){
+                        $('.meta-'+ key).empty().html(div);
+                        reloadtime();
+                    }
+                }
+            }
+        }
+
+        ///////////////////////////////
+            function goToByScroll(id){
+                //console.log('scroll Triggered!');
+                $('html,body').animate({ scrollTop: $("#"+id).offset().top-topoffset},'slow');
+            }
+
+            // SCROLLA TILL HEADING AV DENNA ACCORDION
+            $('#acc_species').on('shown', function(e) {
+                if($('#'+e.target.id).hasClass('in')){ // PREVENT TOOLTIP FROM MAKING SCROLL ON FOCUS EVENTS ETC.. WHEN COLLAPSE IS ALREADY OPEN! BUG?
+                    //console.log(e.target.id);
+                    var top = $(e.target).closest('div.accordion-group')[0].offsetTop-topoffset;
+                    $('html,body').animate({ scrollTop: top},'slow');
+                }
+            });
+
+            // INITS
+            //$('#tab-species a:first').tab('show');
+            reloadtime(); // JQUERY TIMAGO
+            // GETS CURRENT REVISION OF POPULATION REGIONAL STATUS
+            getCurrentRevision('population_regional',0,1);
+
+// DRAW GEO CHART MAP FROM SELECT2 VALUES ON INIT
+drawMapFromS2();
+
+printContextMeta(); // LOAD LABELS WITH METADATA FOR CONTEXTS
+
+
+    $("#s2-georange-native").select2("readonly", true);
+    $('button[name="population_trends"]').prop('disabled', true);
+
+        // STOP ROTATING IMAGES
+        $('.carousel').each(function(){
+            $(this).carousel({
+                interval: false
+            });
+        });
+
+});
+
+</script></body></html>
