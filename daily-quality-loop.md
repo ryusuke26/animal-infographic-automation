@@ -2150,3 +2150,41 @@ Daily Quality Loop
 - Revalidated synchronized sidecars, full package and staged whitespace before publication. Fixed only whitespace in prompt/Copy Lock files and indentation in historical reference HTML; non-whitespace reference content unchanged and recorded hash refreshed.
 - Published package and INDEX in content commit `6e1b9ccbe3ee9d7c6d03d7424852865a0c1c0c63`; remote refs/heads/master verified at that full SHA before state update.
 - README, sources QA, INDEX and current state now completed, published. Metadata closeout follows; nothing posted to X.
+
+
+## 2026-10-03 — Venus Flytrap completed, local-ready
+
+- issue: none in visual/copy production; both first-pass posters accepted without retry.
+- priority: none
+- tags: #local-ready #copy-lock
+- cause: not applicable
+- next_action: preserved exact-taxonomy references, old-assessment/indirect-host IUCN caveat and language-matched posting sets; full package and phone/full-size QA passed.
+- tomorrow_change: no policy change; continue diversity selection including familiar species with supported discoveries.
+- Completed: 2026-10-03T10:19:11+09:00. Git/GitHub/X unchanged.
+
+
+## 2026-10-03 — Venus Flytrap official evidence confirmed
+
+- Official PDF/page directly confirm Global VU and assessed 30 June 2000. Former indirect-host provenance caveat retired; old Needs Updating assessment retained.
+- PDF criteria A1acd, B1+2c ver 2.3 and page abstract A1acd+2c are recorded separately; no inferred correction because criteria are absent from poster/main copy.
+- Supplied evidence copies SHA-256-match originals; accepted images, Copy Locks, prompts and main/story/ALT unchanged. Source notes and package/state records updated; local-ready preserved, no Git/GitHub/X action.
+- Recorded 2026-10-03T11:15:58+09:00. No new policy change or unresolved production blocker.
+
+
+## 2026-10-03 — Venus Flytrap GitHub closeout awaiting explicit target approval
+
+- User requested GitHub closeout. Sidecar/full-package and evidence/protected-asset hash checks passed. Removed one trailing blank line from historical Kyoto HTML and refreshed its reference hash; accepted artwork and copy unchanged.
+- Content commit `9ed99955aba8aa5d20e05572c7b09bf06f622717` stages only the package and INDEX. Remote master matched `5848971585fb5a89bcb2bba7e72be2132fa8c257` in the pre-push check.
+- Automatic approval review rejected `git push origin master` because the broad GitHub request did not explicitly authorize the repository and default branch. No push executed, no workaround attempted. Keep completed, local-ready pending exact target approval.
+- Recorded 2026-10-03T19:57:26+09:00; no production-policy change.
+
+
+## 2026-10-03 — Venus Flytrap content published; metadata closeout authorized
+
+- User explicitly approved direct master push to ryusuke26/animal-infographic-automation after the initial automatic-review rejection.
+- Published content commit `9ed99955aba8aa5d20e05572c7b09bf06f622717` and verified exact remote master SHA before marking README/INDEX/current state completed, published. Publication metadata commit follows.
+- Sidecar/package and protected-asset/evidence hash checks passed. Unrelated cleanup script excluded. X unchanged; no new production-policy change. Content push is verified; metadata closeout is pending as noted below.
+- Recorded 2026-10-03T20:44:25+09:00.
+
+- At 2026-10-03T20:46:18+09:00, automatic approval review rejected the prepared five-file publication-record commit/push, interpreting the approval as limited to content commit 9ed9995. No metadata commit or push executed; no workaround attempted. Prepared local records await explicit authorization.
+- At 2026-10-03T20:54:05+09:00, the user explicitly approved committing/pushing the five record files (README, sources QA, INDEX, current state and daily loop) to the same master. These publication records are included in this closeout commit; the earlier authorization blocker is resolved. X publication remains separate.

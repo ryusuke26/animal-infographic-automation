@@ -83,3 +83,9 @@ Both cards-v2 files lock all nine strings before art. JA hooks considered: selec
 - Both supplied evidence originals and package copies SHA-256 match. PDF: 95885d01f0226c73358f6ee49423646236e6998181dcbefdc81ccdbf6b82d1e4; capture: 3ae41328a664804a001a504e5d05a435a2d683934578a3ea2f8acd80dc829b62.
 - Updated README, source QA, source replies, INDEX and current state. Retained historical initial retrieval notes. No image/prompt/Copy Lock/main/story/ALT edit; protected assets remain byte-identical. Two source-note sidecars regenerated; all eight sidecars synchronized and full package QA passed.
 - State completed, local-ready. No Git/GitHub/X action, no new production-policy change.
+
+
+## GitHub closeout — 2026-10-03T20:44:25+09:00
+
+- Content commit `9ed99955aba8aa5d20e05572c7b09bf06f622717` includes only this package and INDEX; pushed to origin/master and remote master verified before updating publication state.
+- Completed, published; original official-evidence caveats and criteria-notation scope retained. Accepted images, Copy Locks and posting copy unchanged; no X action.

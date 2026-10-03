@@ -1,6 +1,6 @@
 # Venus Flytrap / ハエトリグサ bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Plants
 Broad native region: eastern North and South Carolina, southeastern USA / North America.
@@ -45,3 +45,10 @@ The supplied [official IUCN PDF](evidence/iucn-venus-flytrap-assessment-2000.pdf
 
 
 Official-evidence follow-up completed 2026-10-03T11:15:58+09:00: only provenance, source replies and package records updated. Poster images, both Copy Locks, actual prompts and main/story/ALT blocks unchanged. Package remains completed, local-ready; no Git/GitHub/X action.
+
+
+## GitHub closeout — 2026-10-03T20:44:25+09:00
+
+- Published content commit `9ed99955aba8aa5d20e05572c7b09bf06f622717` to `origin/master` at the user's explicit approval of repository and branch; remote `refs/heads/master` verified at that exact SHA before this publication-state update.
+- Package/sidecar and protected-evidence/accepted-asset hash checks passed. One final blank line was removed from the Kyoto reference HTML and its recorded SHA-256 refreshed; poster pixels and copy unchanged.
+- README, INDEX and current state now record completed, published. After automatic review rejected the additional metadata operation, the user separately approved committing/pushing the five publication-record files to the same origin/master at 2026-10-03T20:54:05+09:00; these records are included in this closeout commit. No X post or reply sent.
