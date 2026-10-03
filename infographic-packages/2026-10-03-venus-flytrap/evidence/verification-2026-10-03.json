@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-10-03T11:15:58+09:00",
+  "evidence": [
+    {
+      "original_path": "C:/Users/ryusu/Downloads/IUCN.UK.2000.RLTS.T39636A10253384.en.1.pdf",
+      "package_path": "evidence/iucn-venus-flytrap-assessment-2000.pdf",
+      "sha256": "95885d01f0226c73358f6ee49423646236e6998181dcbefdc81ccdbf6b82d1e4",
+      "byte_identical": true
+    },
+    {
+      "original_path": "C:/Users/ryusu/AppData/Local/Temp/codex-clipboard-841e7fff-7295-4cd6-ac97-605ef125c0ef.png",
+      "package_path": "evidence/iucn-venus-flytrap-page-capture-2026-10-03.png",
+      "sha256": "3ae41328a664804a001a504e5d05a435a2d683934578a3ea2f8acd80dc829b62",
+      "byte_identical": true
+    }
+  ],
+  "protected_asset_sha256_before": {
+    "images/venus_flytrap_english_imagegen_2026-10-03.png": "dad7ca84e48ab9fceb76ddf6b576a6a8fa339cebebe4363e902344161789f7b7",
+    "images/venus_flytrap_english_posting_2026-10-03.png": "87fb27c4aaa5a487b5d0b423f301ea597ac13bf8155b849def6005d510d7b570",
+    "images/venus_flytrap_japanese_imagegen_2026-10-03.png": "27d4e8cda0b937515a8ac321310054a858fa95542c8f3c00aa028ec1ef4cc857",
+    "images/venus_flytrap_japanese_posting_2026-10-03.png": "c58bedfb9daba92b67a3676af8daa713e6b93296520b10b5274a2930bd7a43a9",
+    "infographic-copy-ja.md": "7fe84b5c0a8b330e8b80f52397485fffbfc3efbb8a9d332619598e84ab86aa54",
+    "infographic-copy-en.md": "57e2d900e135bb4b8f344c207e8f8ed1c10e9b391cdbddca16c614b0d458eb9b",
+    "image-prompt-ja.md": "1202cbe127e1288336c23ce8f57808dc24687ff8030cabfcb67c8a3ef8e30247",
+    "image-prompt-en.md": "ebb38469b3728f4a7b3aaea69562fbe83e9e35259cfd2c63552a683de369dc70"
+  },
+  "main_story_alt_unchanged": true,
+  "protected_asset_sha256_after": {
+    "images/venus_flytrap_english_imagegen_2026-10-03.png": "dad7ca84e48ab9fceb76ddf6b576a6a8fa339cebebe4363e902344161789f7b7",
+    "images/venus_flytrap_english_posting_2026-10-03.png": "87fb27c4aaa5a487b5d0b423f301ea597ac13bf8155b849def6005d510d7b570",
+    "images/venus_flytrap_japanese_imagegen_2026-10-03.png": "27d4e8cda0b937515a8ac321310054a858fa95542c8f3c00aa028ec1ef4cc857",
+    "images/venus_flytrap_japanese_posting_2026-10-03.png": "c58bedfb9daba92b67a3676af8daa713e6b93296520b10b5274a2930bd7a43a9",
+    "infographic-copy-ja.md": "7fe84b5c0a8b330e8b80f52397485fffbfc3efbb8a9d332619598e84ab86aa54",
+    "infographic-copy-en.md": "57e2d900e135bb4b8f344c207e8f8ed1c10e9b391cdbddca16c614b0d458eb9b",
+    "image-prompt-ja.md": "1202cbe127e1288336c23ce8f57808dc24687ff8030cabfcb67c8a3ef8e30247",
+    "image-prompt-en.md": "ebb38469b3728f4a7b3aaea69562fbe83e9e35259cfd2c63552a683de369dc70"
+  },
+  "protected_assets_unchanged": true
+}
