@@ -1,6 +1,6 @@
 # Automation 2 Current State
 
-Updated: 2026-10-03T20:54:05+09:00
+Updated: 2026-10-04T21:24:07+09:00
 
 ## Workflow
 
@@ -9,52 +9,52 @@ Updated: 2026-10-03T20:54:05+09:00
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none.
-- Latest package: `2026-10-03-venus-flytrap`.
-- Latest state: `completed, published`; content commit `9ed99955aba8aa5d20e05572c7b09bf06f622717` pushed to origin/master and remote master verified. User explicitly approved repository/master after initial review rejection, then separately approved the five-file publication-metadata commit/push to the same master. Publication records are included in this closeout commit. No X publication.
-- Latest evidence: supplied official PDF/page capture directly confirm T39636A10253384, Global VU and assessed 30 June 2000; PDF Year Published 2000, Needs Updating. Evidence copies hash-match originals. PDF criteria A1acd, B1+2c ver 2.3 versus page abstract A1acd+2c; strings retained separately, absent from poster/main copy. Initial indirect-evidence caveat retired; old-assessment note remains.
-- Latest visual result: one low green/red rosette in damp Carolina pine-savanna grass; three cards explain two-touch closure, nutrients versus photosynthetic energy, and white flowers above the traps. Both first-pass sources accepted, zero retries.
+- Latest package: 2026-10-04-banded-archerfish.
+- Latest state: completed, published. Content commit ff9c07bed9cd9fc6547e7828bdd5096456f0e1f4 pushed to origin/master at the user's request; remote master SHA verified. Publication records included in closeout commit. Nothing posted to X.
+- Latest evidence: official IUCN species page directly rendered in in-app browser, confirming T196451A2458352, Global LC, Date Assessed 16 September 2011, Year Published 2012, Needs updating. Field transcription saved; PDF download timed out and is not claimed. Old-assessment scope retained in both source replies.
+- Latest visual result: stable lateral silver/olive fish beneath mangrove water; cards explain water jets at insects, jumps for low branches and brackish habitat. Both first-pass sources accepted, zero retries.
 - Retired duplicate exclusion: 2026-08-21-montseny-brook-newt duplicates completed 2026-06-26-montseny-brook-newt; do not post.
 
 ## Latest Completed Package
 
-- Topic: Venus Flytrap / ハエトリグサ / *Dionaea muscipula*.
-- Region: eastern North/South Carolina / North America.
-- Editorial classification group: Plants; exact lineage Caryophyllales > Droseraceae.
-- Selected Japanese: images/venus_flytrap_japanese_imagegen_2026-10-03.png; actual prompt image-prompt-ja.md.
-- Selected English: images/venus_flytrap_english_imagegen_2026-10-03.png; actual prompt image-prompt-en.md.
+- Topic: Banded Archerfish / テッポウウオ / Toxotes jaculatrix.
+- Region: tropical Indo-Pacific mangrove estuaries, including northern Australia.
+- Editorial classification group: Fishes; official IUCN lineage Actinopterygii > Perciformes > Toxotidae.
+- Selected Japanese: images/banded_archerfish_japanese_imagegen_2026-10-04.png; actual prompt image-prompt-ja.md.
+- Selected English: images/banded_archerfish_english_imagegen_2026-10-04.png; actual prompt image-prompt-en.md.
 - Four canonical PNGs exact 1024x1536 and pixel-identical within language; two primary X sets, eight sidecars and full package QA pass.
-- Full-size and 342x513 phone visual review, all-nine-string Copy Lock, anatomy and medium checks pass.
-- Prior 2026-10-02-pink-waxcap remains completed, published; official-evidence confirmation and accepted assets preserved.
+- Full-size and 342x513 phone review accepted all nine strings, three illustrated explanations, identity, natural fin occlusion and visible crayon/pastel marks in hero/cards.
+- Prior 2026-10-03-venus-flytrap remains completed, published; accepted assets and evidence preserved. X publication remains separate.
 
 ## Recent-Eight Completed Region Summary
 
-1. 2026-09-26 — Tropical Central/South America — Sunbittern
-2. 2026-09-27 — Valley of Mexico — Axolotl
-3. 2026-09-28 — Central Africa — Okapi
-4. 2026-09-29 — Sub-Saharan Africa — Secretarybird
-5. 2026-09-30 — Central/South America — Giant Anteater
-6. 2026-10-01 — East/SE Asian sheltered coasts — Tri-spine Horseshoe Crab
-7. 2026-10-02 — Europe / British grassland — Pink Waxcap
-8. 2026-10-03 — Southeastern USA / Carolina wet pine savanna — Venus Flytrap
+1. 2026-09-27 — Valley of Mexico — Axolotl
+2. 2026-09-28 — Central Africa — Okapi
+3. 2026-09-29 — Sub-Saharan Africa — Secretarybird
+4. 2026-09-30 — Central/South America — Giant Anteater
+5. 2026-10-01 — East/SE Asian sheltered coasts — Tri-spine Horseshoe Crab
+6. 2026-10-02 — Europe / British grassland — Pink Waxcap
+7. 2026-10-03 — Southeastern USA / Carolina wet pine savanna — Venus Flytrap
+8. 2026-10-04 — Tropical Indo-Pacific / mangrove estuaries — Banded Archerfish
 
 ## Recent-Eight Completed Classification Summary
 
-1. Birds — Sunbittern
-2. Amphibians — Axolotl
-3. Mammals — Okapi
-4. Birds — Secretarybird
-5. Mammals — Giant Anteater
-6. Other invertebrates — Tri-spine Horseshoe Crab
-7. Fungi and lichens — Pink Waxcap
-8. Plants — Venus Flytrap
+1. Amphibians — Axolotl
+2. Mammals — Okapi
+3. Birds — Secretarybird
+4. Mammals — Giant Anteater
+5. Other invertebrates — Tri-spine Horseshoe Crab
+6. Fungi and lichens — Pink Waxcap
+7. Plants — Venus Flytrap
+8. Fishes — Banded Archerfish
 
-Diversity informs selection across subgroups, body forms, habitats and stories; no quotas/cooldowns. The familiar flytrap adds rapid movement and the nutrients/energy contrast; nearby history includes bats, a cycad, butterfly and weevil.
+Diversity informs selection across subgroups, body forms, habitats and discoveries without quotas/cooldowns. Banded Archerfish adds a deep conventional fish form, brackish mangroves and water-to-air feeding; nearby fish history includes seadragon and handfish.
 
 ## Daily Quality Loop
 
 - Issue: none in visual/copy production; both languages passed first attempt.
-- Unresolved carryover: none. Content commit 9ed99955aba8aa5d20e05572c7b09bf06f622717 reached origin/master and was verified; the user separately authorized publication-record closeout. Official old-assessment/criteria scope remains documented.
+- Unresolved carryover: none. GitHub content commit ff9c07bed9cd9fc6547e7828bdd5096456f0e1f4 verified on remote master; publication records included in closeout commit. X publication remains separate.
 
 ## Next Concrete Change
 
-Preserve completed, published package; X publication remains separate. Recalculate recent-history diversity next run; no policy change.
+Preserve completed, published package and dated evidence context; X publication remains separate. Recalculate recent-history diversity next run. No policy change.

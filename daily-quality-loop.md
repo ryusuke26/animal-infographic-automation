@@ -2188,3 +2188,19 @@ Daily Quality Loop
 
 - At 2026-10-03T20:46:18+09:00, automatic approval review rejected the prepared five-file publication-record commit/push, interpreting the approval as limited to content commit 9ed9995. No metadata commit or push executed; no workaround attempted. Prepared local records await explicit authorization.
 - At 2026-10-03T20:54:05+09:00, the user explicitly approved committing/pushing the five record files (README, sources QA, INDEX, current state and daily loop) to the same master. These publication records are included in this closeout commit; the earlier authorization blocker is resolved. X publication remains separate.
+
+## 2026-10-04T20:25:55.1358051+09:00 — Banded Archerfish Quality Run
+
+- issue: none in visual/copy production; both languages accepted first pass
+- priority: completed, local-ready
+- tags: #official-evidence #crayon-pastel #cards-v2
+- cause: web fetch failed, but the official dynamic page rendered in the in-app browser and directly exposed Global LC and Date Assessed 16 September 2011
+- next_action: bilingual package, source gates, all-nine-string/full-size/phone review, sidecar synchronization and full package QA complete; no Git or X action
+- tomorrow_change: one concrete learning — a navigation-only initial browser state can be temporary; a later rendered official species page can settle field-level evidence without a PDF. No policy change or unresolved carryover.
+
+
+## 2026-10-04T21:24:07+09:00 — Banded Archerfish GitHub closeout
+
+- At the user's request, content commit ff9c07bed9cd9fc6547e7828bdd5096456f0e1f4 was pushed to origin/master and remote refs/heads/master verified at the exact SHA before publication-state update.
+- README, sources QA, INDEX and current state now record completed, published. These five publication-record files are included in the closeout commit. Package/sidecar QA and accepted-poster/reference hash checks passed; artwork and factual/posting copy unchanged.
+- No new learning or unresolved production blocker. Nothing posted or replied to X. The unrelated one-off tri-spine cleanup script is excluded.

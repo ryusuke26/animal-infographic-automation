@@ -1,6 +1,6 @@
 # Banded Archerfish / テッポウウオ bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Fishes
 Broad native region: tropical Indo-Pacific mangrove estuaries, including northern Australia.
@@ -34,4 +34,11 @@ Each main post attaches its own language's single poster. The companion language
 - Four canonical PNGs are exactly 1024x1536; each language's direct/posting pair is pixel-identical. [Asset and reference hash manifest](audit/asset-manifest.json).
 - Immediate direct-source gates, pre-image Copy Lock and full package QA passed, including the installed official X text helper offline. Eight UTF-8 sidecars synchronized; no dependencies installed.
 - Full-size and 342x513 phone-size manual review accepted deep compressed fish form, upward terminal mouth, upper-flank wedge marks, natural fin attachments/occlusion, three numbered illustrated explanatory cards, all nine locked strings and readable card margins. Visible broken crayon/pastel marks remain in hero, roots/leaves and card studies, matching benchmark warmth. No explicit user adoption claimed.
-- No material visual/copy blocker remains. The global status is the dated 2011 LC assessment annotated Needs updating; this scope is retained in source replies. Local production only; Git/GitHub/X publication has not occurred.
+- No material visual/copy blocker remains. The global status is the dated 2011 LC assessment annotated Needs updating; this scope is retained in source replies. Production completed locally; GitHub closeout is recorded below. Nothing was posted to X.
+
+
+## GitHub closeout — 2026-10-04T21:24:07+09:00
+
+- At the user's request, pushed content commit `ff9c07bed9cd9fc6547e7828bdd5096456f0e1f4` to `origin/master` on `ryusuke26/animal-infographic-automation`. Remote `refs/heads/master` matched the full SHA before updating publication state.
+- Package and sidecar QA passed; accepted poster/reference hashes and pixel-identical language pairs preserved.
+- README, sources QA, INDEX, current state and Daily Quality Loop record completed, published. These five publication-record files are included in the closeout commit. X publication remains separate.

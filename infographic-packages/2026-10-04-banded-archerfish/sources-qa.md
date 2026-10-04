@@ -70,4 +70,9 @@ Both cards-v2 files lock nine strings; prompts use those exact strings. Three ca
 - Concrete style observation: broken olive/charcoal crayon strokes expose warm paper within the hero's scales and wedge marks, the root bark/leaf edges and both behavior illustrations; matte layered pigment dominates. This matches purple-frog benchmark stroke texture/warmth rather than paper texture alone.
 - Accepted direct images normalized with normalize_poster.py; four PNGs exactly 1024x1536 and language pairs pixel-identical. Pre-image, immediate direct-source, offline X and full package checks passed; eight sidecars synchronized. Detailed hash results in audit/asset-manifest.json, phone images in audit/phone-japanese.png and audit/phone-english.png.
 - Story replies read as a connected water-to-air hunt rather than three copied card labels; latest two posts compared. ALT matches accepted images. Main attachment is language-matched single poster.
-- Mechanical validation is separate from biological/visual review; explicit user adoption not claimed. State completed, local-ready. No Git mutation, GitHub closeout or X publication. Remaining scope: IUCN LC comes from the dated 2011 assessment marked Needs updating.
+- Mechanical validation is separate from biological/visual review; explicit user adoption not claimed. Production finished completed, local-ready; GitHub closeout below now records completed, published. Nothing was posted to X. Remaining scope: IUCN LC comes from the dated 2011 assessment marked Needs updating.
+
+
+## GitHub closeout — 2026-10-04T21:24:07+09:00
+
+User requested GitHub closeout. Content commit ff9c07bed9cd9fc6547e7828bdd5096456f0e1f4 was pushed to origin/master; remote refs/heads/master verified at that exact SHA. Package/sidecar QA and accepted-poster/reference hash checks passed; image pixels, Copy Locks, prompts and posting copy unchanged. State completed, published; five publication-record files included in closeout commit. X publication remains separate.
