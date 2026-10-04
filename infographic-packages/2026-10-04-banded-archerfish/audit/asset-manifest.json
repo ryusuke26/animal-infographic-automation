@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-04T20:22:27.420557+09:00",
+  "posters": {
+    "japanese": {
+      "direct": "infographic-packages\\2026-10-04-banded-archerfish\\images\\banded_archerfish_japanese_imagegen_2026-10-04.png",
+      "posting": "infographic-packages\\2026-10-04-banded-archerfish\\images\\banded_archerfish_japanese_posting_2026-10-04.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true,
+      "sha256": "4454146f75e367f8160204491e6ca3de1a27f0a2e0e053c523ba93673b9330b2"
+    },
+    "english": {
+      "direct": "infographic-packages\\2026-10-04-banded-archerfish\\images\\banded_archerfish_english_imagegen_2026-10-04.png",
+      "posting": "infographic-packages\\2026-10-04-banded-archerfish\\images\\banded_archerfish_english_posting_2026-10-04.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true,
+      "sha256": "1b5a0f9812a3e2ab53ca3c5567d8bbbf2d4467bacf495254eeea039bd477bbb2"
+    }
+  },
+  "references": {
+    "aquamarine-front.jpg": {
+      "sha256": "dc8fc84040e3c4d9edf6bace980f3f4a0087a8dc206c6aa505c2b86c25a2cd55",
+      "source": "https://www.aquamarine.or.jp/animals/bandedarcherfish/",
+      "role": "biological identity only"
+    },
+    "aquamarine-lateral.jpg": {
+      "sha256": "c50f0d5ad49e45709bf4891b74d030c68df0a0d7387c3746835c1cf82bee27c2",
+      "source": "https://www.aquamarine.or.jp/animals/bandedarcherfish/",
+      "role": "biological identity only"
+    }
+  },
+  "selected_prompts": {
+    "japanese": "image-prompt-ja.md",
+    "english": "image-prompt-en.md"
+  },
+  "generation_attempts": {
+    "japanese": 1,
+    "english": 1,
+    "retries": 0
+  }
+}
