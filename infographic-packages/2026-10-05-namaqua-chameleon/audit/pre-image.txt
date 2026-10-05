@@ -1,0 +1,1 @@
+OK: infographic-packages/2026-10-05-namaqua-chameleon passed pre-visual Copy Lock QA

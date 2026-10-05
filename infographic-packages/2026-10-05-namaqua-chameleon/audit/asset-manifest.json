@@ -1,0 +1,139 @@
+{
+  "checked_at": "2026-10-05T21:41:28+09:00",
+  "language_pairs": {
+    "japanese": {
+      "size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true,
+      "direct": "namaqua_chameleon_japanese_imagegen_2026-10-05.png",
+      "posting": "namaqua_chameleon_japanese_posting_2026-10-05.png"
+    },
+    "english": {
+      "size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true,
+      "direct": "namaqua_chameleon_english_imagegen_2026-10-05.png",
+      "posting": "namaqua_chameleon_english_posting_2026-10-05.png"
+    }
+  },
+  "files": {
+    "images/namaqua_chameleon_english_imagegen_2026-10-05.png": {
+      "sha256": "98d3d8aaef214db072d4960689a3b49352ab18d6bc64c3c37a2755c3b978b76f",
+      "bytes": 3963390
+    },
+    "images/namaqua_chameleon_english_posting_2026-10-05.alt.txt": {
+      "sha256": "b899fdf16fcb8bea69ae50428b7bf5df40d7a3fdacf55233afb813988b6daeb9",
+      "bytes": 484
+    },
+    "images/namaqua_chameleon_english_posting_2026-10-05.caption.txt": {
+      "sha256": "cb1b06edc5eddce53d9f462738a6d44118c1054576d1b54cb5ee4b5ae6c34b2b",
+      "bytes": 197
+    },
+    "images/namaqua_chameleon_english_posting_2026-10-05.png": {
+      "sha256": "f9ecee6ad82f682aece728085509c28e971fe0b007b5d137d0846067b444a398",
+      "bytes": 3510356
+    },
+    "images/namaqua_chameleon_english_posting_2026-10-05.source-note.txt": {
+      "sha256": "259b057babd772852f6d1d2ac3ce23c132ea764fe850168e8a2093cc921e3b29",
+      "bytes": 244
+    },
+    "images/namaqua_chameleon_english_posting_2026-10-05.story-reply.txt": {
+      "sha256": "28b47caf48f32a998f56e164037d053376b2b0c3eb3c6768ddb9f81aabde1770",
+      "bytes": 246
+    },
+    "images/namaqua_chameleon_japanese_imagegen_2026-10-05.png": {
+      "sha256": "8f65c0e371469ba3865da89d552bf4ca501c830125e78fb7a3ac9cf8aa7652db",
+      "bytes": 4079670
+    },
+    "images/namaqua_chameleon_japanese_posting_2026-10-05.alt.txt": {
+      "sha256": "46c7ded295626db66588df66d2070933235c46f8ee9d81f01b65156dbb0b8fc8",
+      "bytes": 593
+    },
+    "images/namaqua_chameleon_japanese_posting_2026-10-05.caption.txt": {
+      "sha256": "5fff5b2a6c83a945dc99cdc485175c3c094384b779d7659a553332b27e3fb121",
+      "bytes": 266
+    },
+    "images/namaqua_chameleon_japanese_posting_2026-10-05.png": {
+      "sha256": "f1f81e0daad68756f8804c4233417cc1ba693a2ae40546920c5928984316fa84",
+      "bytes": 3579752
+    },
+    "images/namaqua_chameleon_japanese_posting_2026-10-05.source-note.txt": {
+      "sha256": "1de879f3aa5daeaa99095de91f3450d632a37428641c8d9a2047727280805ebf",
+      "bytes": 275
+    },
+    "images/namaqua_chameleon_japanese_posting_2026-10-05.story-reply.txt": {
+      "sha256": "44742ee2cfd7579b7ae0cd63dfe2f63555e024ef5e7ea275f36e388838e3e311",
+      "bytes": 357
+    },
+    "references/iucn-namaqua.jpg": {
+      "sha256": "15d730c316707e3b38f6f2d5507c8a0875b0f255ee9921a66487fd2e3a9a1226",
+      "bytes": 388418
+    },
+    "references/sanbi-pale-namaqua.jpg": {
+      "sha256": "93786bdc3e2e1d96e4c59372daeffaf786412d8cc8107fed639c665cfdac1a30",
+      "bytes": 33222
+    },
+    "evidence/burrage-volume-ocr-original.txt.gz": {
+      "sha256": "2dd0028116f3d337ec3083f97858859fa5bd14b695b06a4f9ae8e730d8329570",
+      "bytes": 350705
+    },
+    "evidence/burrage-volume-ocr.txt": {
+      "sha256": "4e621fda39eb0c85ebbf7498ed00497eae63cc78f6aeb86886fc49c3c4925976",
+      "bytes": 1007000
+    },
+    "evidence/iucn-browser-fields-2026-10-05.md": {
+      "sha256": "19d94ae125664e9f1734f92391e14c1b751a37bb88d4100c110ab662a14ff424",
+      "bytes": 845
+    },
+    "evidence/sanbi-browser-fields-2026-10-05.md": {
+      "sha256": "52b76a003f4606109c373ee9ae56e6c0a2af9c170dec98d5174a10955d05b622",
+      "bytes": 926
+    },
+    "evidence/sanbi-pale-photo-original.jp2": {
+      "sha256": "69ba6516d67c465bff99270d96059831b1ce2a425caa51c52bc6aab6250919b0",
+      "bytes": 210693
+    },
+    "evidence/sanbi-range-map-original.jp2": {
+      "sha256": "6399205defb2abc603b77a00992a091b1fda27de77e79b116e05132f85022a75",
+      "bytes": 229254
+    },
+    "evidence/sanbi-species-page.png": {
+      "sha256": "42540182a212ee4094fbcfd3ee3812476332817f1c4242b32c3f3c88b56c4c67",
+      "bytes": 650100
+    },
+    "evidence/sanbi-species-text.txt": {
+      "sha256": "7253ed2bfd335ba4148e80e01a3f962e75ba48a6c0b1eaa16bc9d14ecde947ce",
+      "bytes": 1957
+    },
+    "evidence/sanbi-suricata-2014.pdf": {
+      "sha256": "ee7aae90dfed42fa2986025a035ef539a9939acaa9b4ac3d96ab049c6a74404f",
+      "bytes": 31668169
+    },
+    "image-prompt-ja.md": {
+      "sha256": "2bf474444f8b20b3beca1b0bc56bd60d07ff82b0f548f420f0a25c55d77c0406",
+      "bytes": 4293
+    },
+    "image-prompt-en.md": {
+      "sha256": "823fb0bd48887cd0f95ac23c779954d5742b80127869cf64e5bcd8dd5cb675f3",
+      "bytes": 4399
+    },
+    "infographic-copy-ja.md": {
+      "sha256": "dd6ac38a59d5a8fc4798dd24f56f0a80f639d857b14932ebdf7de1d673842bb1",
+      "bytes": 582
+    },
+    "infographic-copy-en.md": {
+      "sha256": "743fd549bf1e7539bfc31d80df1692cb05d4ce98808ea63ed54204a6acce0b92",
+      "bytes": 529
+    }
+  },
+  "original_ocr_sha256": "6916e7ce8285839ef4c178ab1fdb6ef00d7708b897e04050f88e9bd7ba2b90e7",
+  "imagegen_mode": "built-in",
+  "retries": {
+    "ja": 0,
+    "en": 0
+  }
+}
