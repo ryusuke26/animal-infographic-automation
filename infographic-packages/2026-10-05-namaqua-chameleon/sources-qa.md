@@ -71,4 +71,10 @@ Evidence and bilingual cards-v2 Copy Lock completed before art; pre-image valida
 - Main posts attach their own language's one poster. Story replies connect sand-level movement, conditional colour and prey; no copied three-label list, unsupported danger or advocacy. ALT checked against accepted images.
 - Eight UTF-8 sidecars synchronized. Full package QA, including pinned offline twitter-text X counts, passed; no dependency installation. Pixel/hash manifest is audit/asset-manifest.json. Mechanical success, manual visual review and user adoption are separate; no user adoption claimed.
 - Original Burrage OCR bytes are preserved as evidence/burrage-volume-ocr-original.txt.gz, original SHA-256 6916e7ce8285839ef4c178ab1fdb6ef00d7708b897e04050f88e9bd7ba2b90e7. Readable OCR companion and SANBI text extraction have trailing whitespace normalized solely for package checks; no OCR wording corrections. Complete SANBI PDF retained, actual species page visually reviewed.
-- State: completed, local-ready. Git/GitHub/X not mutated. Remaining material caveat is dated 2009 LC/Needs updating; both source notes retain it. No unresolved production gate.
+- Initial automated production finished completed, local-ready without Git/GitHub/X mutation. User-authorized GitHub closeout below now records completed, published. Remaining material caveat is dated 2009 LC/Needs updating; both source notes retain it. No unresolved production gate.
+
+## GitHub closeout — 2026-10-05T22:53:48+09:00
+
+- At the user's explicit request, directly pushed content commit 062d2ed0e4e60c06bf06fb9fd949eeccf2379758 to origin/master on ryusuke26/animal-infographic-automation. Remote refs/heads/master matched that full SHA before updating publication state.
+- Package, offline X-format, synchronized sidecar, preserved asset hash and whitespace checks passed. Canonical poster pixels, original evidence bytes and factual/posting copy are preserved. Only text-file final blank lines were normalized for staged whitespace checks and relevant manifest hashes refreshed.
+- State: completed, published. README, sources QA, INDEX, current state and Daily Quality Loop publication records are included in the metadata closeout commit. Nothing posted or replied to X. Unrelated cleanup script excluded.

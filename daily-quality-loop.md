@@ -2204,3 +2204,27 @@ Daily Quality Loop
 - At the user's request, content commit ff9c07bed9cd9fc6547e7828bdd5096456f0e1f4 was pushed to origin/master and remote refs/heads/master verified at the exact SHA before publication-state update.
 - README, sources QA, INDEX and current state now record completed, published. These five publication-record files are included in the closeout commit. Package/sidecar QA and accepted-poster/reference hash checks passed; artwork and factual/posting copy unchanged.
 - No new learning or unresolved production blocker. Nothing posted or replied to X. The unrelated one-off tri-spine cleanup script is excluded.
+
+## 2026-10-05T21:41:28+09:00 — Namaqua Chameleon Quality Run
+
+- issue: none; both initial bilingual posters passed visual and mechanical gates
+- priority: clean completion
+- tags: #first-pass-visual #crayon-oil-pastel #local-ready
+- cause: two exact-taxon colour-state photos settled short tail, casque, spaced back spikes and natural terrestrial posture; original museum prose supported heat-related colour
+- next_action: completed package, synchronized eight sidecars and preserved dated 2009 LC scope
+- tomorrow_change: no policy change; no unresolved carryover
+
+## 2026-10-05T22:48:20+09:00 — Namaqua Chameleon GitHub closeout pending authentication
+
+- User authorized GitHub closeout. Content commit 062d2ed0e4e60c06bf06fb9fd949eeccf2379758 contains the package and INDEX only.
+- Package/sidecar/hash checks passed. Final blank lines were normalized for staged whitespace checks, and affected text hashes refreshed; poster pixels and original evidence bytes preserved.
+- Git push waited in the credential helper; bounded noninteractive diagnosis confirms desktop Git credentials unavailable. Both stalled task-local attempts were stopped. GitHub connector login is active, but CLI authentication is separate.
+- Remote refs/heads/master remains dcf72b34979b930a20e89ab790fd4cb7124acd5b. State remains completed, local-ready; publication records must wait for remote confirmation.
+- Resume the already authorized closeout after desktop Git sign-in. Nothing posted to X; unrelated cleanup script excluded.
+
+## 2026-10-05T22:53:48+09:00 — Namaqua Chameleon GitHub closeout completed
+
+- At the user's explicit request, direct push succeeded for content commit 062d2ed0e4e60c06bf06fb9fd949eeccf2379758; remote refs/heads/master verified at the exact SHA.
+- Prior authentication wait is resolved. Normal interactive terminal push completed; no lasting transport or authentication configuration override was introduced by this task.
+- README, sources QA, INDEX and current state now record completed, published. These five publication-record files are included in the closeout metadata commit. Asset hashes/poster pixels and factual/posting copy remain preserved; final newlines were normalized only for staged whitespace checks.
+- No unresolved publication blocker or new policy change. Nothing posted to X. Unrelated one-off tri-spine cleanup script excluded.
