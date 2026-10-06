@@ -82,3 +82,9 @@ Both downloaded through observed pageAssets and inspected locally; source photog
 - Acceptance scope: mantle colour varies individually and does not diagnose the species by itself. Algae magnification is conceptual, not a calibrated microscopic section or exact cell-count claim. No detailed gill anatomy, sex diagnosis, individual size measurement, or numerical population certification claimed. These are illustration scopes, not unresolved material blockers. Mechanical validation is separate from this biological/visual review; no explicit user adoption claimed.
 - Pre-image, immediate source gates, normalization, offline installed X parser, eight synchronized UTF-8 sidecars and full package QA passed. No dependencies installed and no Git/GitHub/X mutation.
 - Official status is the dated Global CR assessment of 23 May 2024. Prior VU snippets are excluded. No unresolved production blocker; publication remains separate.
+
+## GitHub closeout — 2026-10-06T23:56:06+09:00
+
+- User-authorized package/INDEX content commit aeeab1a11aaff03415dc5cb4643996c0d84938d6 verified on remote refs/heads/master before this published-state record. State: completed, published.
+- All recorded pre-publication asset hashes matched. Both language posters, identity references, field evidence, Copy Locks, actual prompts and main/story/ALT/source copy remain unchanged. Only README and QA publication text hashes are refreshed in the existing manifest.
+- Full package/X-format QA passed; no new factual or visual claims. README, INDEX, current state and Daily Quality Loop record this closeout; publication metadata is sent in the separate closeout commit. Nothing posted to X; unrelated cleanup script excluded.

@@ -1,6 +1,6 @@
 # Giant Clam / オオシャコガイ bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Other invertebrates
 Broad native region: tropical Indo-Pacific; selected scene is shallow western-Pacific coral reef.
@@ -10,7 +10,7 @@ Broad native region: tropical Indo-Pacific; selected scene is shallow western-Pa
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
 
-Each main post attaches its own language's single poster. Both remain local; GitHub and X publication are separate.
+Each main post attaches its own language's single poster. GitHub publication is recorded below; X publication remains separate.
 
 ## Selected poster files
 
@@ -35,6 +35,13 @@ Each main post attaches its own language's single poster. Both remain local; Git
 - All four canonical PNGs are exact 1024x1536 and each language direct/posting pair is pixel-identical. [Asset manifest](audit/asset-manifest.json).
 - Style observation: ochre/teal broken pigment and exposed paper remain visible in mantle, shell and each card illustration; matte handmade drawing matches the style-only benchmark.
 - Acceptance scope: variable mantle colour, conceptual algae-cell magnification, naturally hidden hinge/underside/far shell base; no sex, calibrated microscopic anatomy or individual measured size claim. Mechanical success is separate from biological/visual review; explicit user adoption not claimed.
-- Material remaining caveats: none unresolved. CR is the dated 2024 global assessment. Git/GitHub/X not mutated; completed, local-ready, publication separate.
+- Material remaining caveats: none unresolved. CR is the dated 2024 global assessment. The initial production run stopped at completed, local-ready without Git/GitHub/X mutation; subsequent user-authorized GitHub publication is recorded below. Nothing posted to X.
 
 Completed local run: 2026-10-06T20:30:01+09:00
+
+## GitHub closeout — 2026-10-06T23:56:06+09:00
+
+- At the user's explicit request, published the package and INDEX to origin/master in content commit aeeab1a11aaff03415dc5cb4643996c0d84938d6. Remote refs/heads/master matched that exact SHA before marking this package published.
+- Repository: https://github.com/ryusuke26/animal-infographic-automation. State: completed, published. Publication records in README, sources QA, INDEX, current state and Daily Quality Loop are included in the metadata closeout commit, together with refreshed text-file hashes.
+- Full package QA and original asset-manifest hash verification passed. Poster pixels, reference/evidence bytes, Copy Locks, prompts, X posting sets and sidecars remain preserved.
+- Credential-helper wait was resolved by a normal interactive terminal push; no lasting authentication/transport configuration change was made. Nothing posted or replied to X. Unrelated cleanup script excluded.

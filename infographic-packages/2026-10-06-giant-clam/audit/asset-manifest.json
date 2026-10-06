@@ -92,7 +92,7 @@
       "sha256": "ffd5833c779ac859984294d512969aae07460524607371c70d17363f1498b04a"
     },
     "README.md": {
-      "sha256": "67bd8eac831036d21a1c501ab0971979b37e0bd5029b551b197ddf58b3f4b525"
+      "sha256": "f199d8dd93663397464c739b8f66ce8dab9a9b53b64324a181c41031ca879c94"
     },
     "references/iucn-giant-clam-oblique.jpg": {
       "sha256": "2a26a810da5ee63897c4adbbfed5fffbcb17a2586a6ebe18cccd3d4a57ea3f80",
@@ -109,7 +109,7 @@
       ]
     },
     "sources-qa.md": {
-      "sha256": "34352beb68bdddb18a6aba5b9e24a376d9078cbde3ab1f7d0cfa9b99776f0dd8"
+      "sha256": "4264244417da26709cd0ebff20a7d519446e0c3bd9b14ea53f23444268666089"
     },
     "x-post-en.md": {
       "sha256": "992e13a9a5a72e4ce7bc3001a873bbcd02330f0e2024111a6472acb0f6ec22e5"
@@ -119,5 +119,12 @@
     }
   },
   "japanese_pixel_identical": true,
-  "english_pixel_identical": true
+  "english_pixel_identical": true,
+  "publication": {
+    "state": "completed, published",
+    "content_commit": "aeeab1a11aaff03415dc5cb4643996c0d84938d6",
+    "content_remote_verified_at": "2026-10-06T23:56:06+09:00",
+    "repository": "https://github.com/ryusuke26/animal-infographic-automation",
+    "x_published": false
+  }
 }

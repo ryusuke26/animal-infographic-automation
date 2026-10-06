@@ -2228,3 +2228,18 @@ Daily Quality Loop
 - Prior authentication wait is resolved. Normal interactive terminal push completed; no lasting transport or authentication configuration override was introduced by this task.
 - README, sources QA, INDEX and current state now record completed, published. These five publication-record files are included in the closeout metadata commit. Asset hashes/poster pixels and factual/posting copy remain preserved; final newlines were normalized only for staged whitespace checks.
 - No unresolved publication blocker or new policy change. Nothing posted to X. Unrelated one-off tri-spine cleanup script excluded.
+
+## 2026-10-06T20:30:01+09:00 — Giant Clam Quality Run
+
+- Completed 2026-10-06-giant-clam as completed, local-ready. Other invertebrates; tropical Indo-Pacific / shallow western-Pacific reef scene. Three-candidate slate and full-history accepted-name/synonym/alias duplicate gate passed.
+- Official IUCN Global CR A2acd, assessed 23 May 2024, published 2024 directly read. Older VU accounts excluded; photos and GBIF settle identity/naming. Two reference downloads took about 14 minutes, then succeeded.
+- Both initial crayon/oil-pastel posters accepted; zero retries. Four exact 1024x1536 PNGs, pixel-identical language pairs, nine locked strings, three illustrated explanations, full/342x513 phone review, eight sidecars and package checks pass. Git/GitHub/X untouched.
+- issue: none. No new learning/policy change or unresolved carryover.
+
+
+## 2026-10-06T23:56:06+09:00 — Giant Clam GitHub closeout completed
+
+- User requested GitHub closeout. Package and INDEX published in content commit aeeab1a11aaff03415dc5cb4643996c0d84938d6; exact remote refs/heads/master verified before marking completed, published.
+- Full package/X-format and original asset-manifest hash checks passed. Canonical poster pixels, identity/evidence bytes and factual/posting copy preserved; refreshed existing manifest for changed README/QA text only.
+- Credential-helper wait resolved by normal interactive terminal push. No lasting authentication or transport settings changed. README, sources QA, INDEX and current state now record completed, published; these five records and refreshed manifest follow in the metadata closeout commit.
+- Nothing posted to X. Unrelated one-off tri-spine cleanup script excluded. No unresolved publication blocker or new policy change.
