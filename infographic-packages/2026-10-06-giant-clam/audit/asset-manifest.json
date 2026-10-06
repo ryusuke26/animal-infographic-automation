@@ -1,0 +1,123 @@
+{
+  "checked_at": "2026-10-06T20:30:01+09:00",
+  "selected_prompts": {
+    "ja": "image-prompt-ja.md",
+    "en": "image-prompt-en.md"
+  },
+  "generation_mode": "built-in image_gen",
+  "retries": {
+    "ja": 0,
+    "en": 0
+  },
+  "assets": {
+    "audit/english-phone.png": {
+      "sha256": "75cb95ea02bf13c04dae635c8342e1d19fbf4569c2f6390901464f324deeab8f",
+      "dimensions": [
+        342,
+        513
+      ]
+    },
+    "audit/japanese-phone.png": {
+      "sha256": "18069eacda7fcc316d343df901cef51781c1a855f642b552ee7b61359f1f7839",
+      "dimensions": [
+        342,
+        513
+      ]
+    },
+    "evidence/iucn-browser-fields-2026-10-06.md": {
+      "sha256": "b3dca9080ed5b39615e325ea93b7c1045d9f17ef43b233b45d465ce205e42969"
+    },
+    "image-prompt-en.md": {
+      "sha256": "dc19866acb00a3c7126860aaa5c4fc7a3d96c194081b570b4c72dd519f54c000"
+    },
+    "image-prompt-ja.md": {
+      "sha256": "1c3296f90901d318c72456f577aeb8de9991e4c18351b29658fc0db2c3b4fcf6"
+    },
+    "images/giant_clam_english_imagegen_2026-10-06.png": {
+      "sha256": "2883e8f6dde3aa41621872cf073deca342e22d6435b114237a85faa6f869e25c",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "images/giant_clam_english_posting_2026-10-06.alt.txt": {
+      "sha256": "8631cf749d3f77fbc74ebd7f8cb5a875ef42765d568d8e0355e4302726314cc6"
+    },
+    "images/giant_clam_english_posting_2026-10-06.caption.txt": {
+      "sha256": "1c72bdb4c04e7ca30797e88de1c30b616c887cf5cc7c267b680d3cc8b01c931e"
+    },
+    "images/giant_clam_english_posting_2026-10-06.png": {
+      "sha256": "4958bf543758981ef362ff16dd1cd9658c5e7d373d63bed3a16da54b9a7c8bfc",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "images/giant_clam_english_posting_2026-10-06.source-note.txt": {
+      "sha256": "6291a33b0fbb9164a5bf9044660433ae0d72a3c500da9d0e3e76de9e7aea64a8"
+    },
+    "images/giant_clam_english_posting_2026-10-06.story-reply.txt": {
+      "sha256": "d5c012ab3bf281743d58fcd4fb7f4d1d18cdc8e92b1538bcdaa9afd7e1d446a0"
+    },
+    "images/giant_clam_japanese_imagegen_2026-10-06.png": {
+      "sha256": "7100177bf4ab10f4ee11764de2b7777c99171c139d10686fb94f659900a0d7e2",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "images/giant_clam_japanese_posting_2026-10-06.alt.txt": {
+      "sha256": "98e981a6eab62d0d80199d635469a3414a0486e23c402cc14fd68e793a8f03bf"
+    },
+    "images/giant_clam_japanese_posting_2026-10-06.caption.txt": {
+      "sha256": "d44955ba51a221d630cbe28662fa0472d35264b5f7012c0e9755f3f9fac3bf97"
+    },
+    "images/giant_clam_japanese_posting_2026-10-06.png": {
+      "sha256": "881036364f8df87fe9e9ab700c1269ce09f48c32c0c2a7dc96a7bad3f4e8e307",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "images/giant_clam_japanese_posting_2026-10-06.source-note.txt": {
+      "sha256": "2fd71ad55a65e9741ddeb4d7ef0ca17789516b6d73d6c565f09c65cb7c9aefa0"
+    },
+    "images/giant_clam_japanese_posting_2026-10-06.story-reply.txt": {
+      "sha256": "8a5a4559b0dd6a892f7d0a6782368fc662eaa3a9871a17a0807f4c9d4a8b0af3"
+    },
+    "infographic-copy-en.md": {
+      "sha256": "7274c9236d1cbc7baf18ca33ba34c34d48b261dfcf35d1f28aab395f26a8f3fe"
+    },
+    "infographic-copy-ja.md": {
+      "sha256": "ffd5833c779ac859984294d512969aae07460524607371c70d17363f1498b04a"
+    },
+    "README.md": {
+      "sha256": "67bd8eac831036d21a1c501ab0971979b37e0bd5029b551b197ddf58b3f4b525"
+    },
+    "references/iucn-giant-clam-oblique.jpg": {
+      "sha256": "2a26a810da5ee63897c4adbbfed5fffbcb17a2586a6ebe18cccd3d4a57ea3f80",
+      "dimensions": [
+        1920,
+        1440
+      ]
+    },
+    "references/iucn-giant-clam-top.jpg": {
+      "sha256": "1b1873f017dacb07e15009727a6006fc736bb42e1d82e1001b258b2f168d7d80",
+      "dimensions": [
+        1200,
+        930
+      ]
+    },
+    "sources-qa.md": {
+      "sha256": "34352beb68bdddb18a6aba5b9e24a376d9078cbde3ab1f7d0cfa9b99776f0dd8"
+    },
+    "x-post-en.md": {
+      "sha256": "992e13a9a5a72e4ce7bc3001a873bbcd02330f0e2024111a6472acb0f6ec22e5"
+    },
+    "x-post-ja.md": {
+      "sha256": "f7a64386a4e3d08eece130d71221961c473a9750211500b187c202248e36fa78"
+    }
+  },
+  "japanese_pixel_identical": true,
+  "english_pixel_identical": true
+}
