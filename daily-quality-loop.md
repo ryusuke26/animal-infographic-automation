@@ -2243,3 +2243,20 @@ Daily Quality Loop
 - Full package/X-format and original asset-manifest hash checks passed. Canonical poster pixels, identity/evidence bytes and factual/posting copy preserved; refreshed existing manifest for changed README/QA text only.
 - Credential-helper wait resolved by normal interactive terminal push. No lasting authentication or transport settings changed. README, sources QA, INDEX and current state now record completed, published; these five records and refreshed manifest follow in the metadata closeout commit.
 - Nothing posted to X. Unrelated one-off tri-spine cleanup script excluded. No unresolved publication blocker or new policy change.
+
+
+## 2026-10-07 — Monkey Puzzle Quality Run
+
+- State: completed, local-ready; Plants / temperate Andean woodland, South America. IUCN official Global EN, assessed 22 August 2011, published 2013, Needs updating; dated context preserved.
+- JA one allowed localized edit separated male/female twig specimens and replaced flower-like cone opening with detached scales/seeds. EN initial accepted. Four exact 1024x1536 PNGs, full/342x513 phone review, nine strings, three illustrated cards, eight synchronized sidecars and package QA passed. No Git/GitHub/X mutation.
+- One concrete learning: when reproductive structures normally occur on different trees, two separated twig studies need a visible paper gap; a connecting stem contradicts the claim.
+- Issue: none unresolved; carryover: none; no policy change.
+- Current run time: 2026-10-07T20:17:02.000+09:00.
+
+
+## 2026-10-07T21:25:24+09:00 — Monkey Puzzle GitHub closeout
+
+- At the user's explicit request, published package and INDEX directly to origin/master in content commit 2ffd4f6ec4311cb4b9e7d8b686ebc9294f0b04e9; exact remote refs/heads/master verified before marking completed, published.
+- Full package QA and all recorded hashes passed. Removed surplus EOF blank lines from nine Markdown files and refreshed their manifest entries; selected image/reference/sidecar bytes and public wording preserved.
+- README, QA, INDEX, current state and Daily Quality Loop publication records follow in metadata closeout, with refreshed README/QA manifest entries. Nothing posted to X; unrelated cleanup script excluded.
+- No unresolved publication blocker or new learning/policy change. Current run time: 2026-10-07T21:25:24+09:00.

@@ -79,3 +79,9 @@ Compared latest two completed X sets (clam and Namaqua chameleon): selected leaf
 - Selected actual prompt paths: image-prompt-ja-retry.md and image-prompt-en.md. Original image-prompt-ja.md and audit/japanese-first-pass-rejected.png retained as rejected-attempt audit. JA one allowed localized edit; EN zero retries.
 - Editorial review: main contrasts expected needles with triangular leaves; story proceeds from mountain shoots to separate cone types and seed release. Latest two main/story sets compared. ALT matches actual artwork and language. Eight sidecars synchronized with installed official twitter-text offline; no dependencies installed.
 - Pre-image, immediate direct-source, normalization and full package QA passed. State: completed, local-ready. No unresolved material visual blocker or explicit user adoption. Dated 2011/Needs updating context remains in both source replies; Git/GitHub/X untouched. Completed: 2026-10-07T20:17:02.000+09:00.
+
+## GitHub closeout — 2026-10-07T21:25:24+09:00
+
+- User-authorized content commit 2ffd4f6ec4311cb4b9e7d8b686ebc9294f0b04e9 pushed directly to origin/master; exact remote refs/heads/master verified before setting completed, published.
+- Full package QA and all recorded asset hashes passed before publication. Only surplus EOF blank lines in nine Markdown files normalized; selected poster pixels, biological references, source evidence content, Copy Lock text, prompt wording, X copy and eight sidecars preserved.
+- README, INDEX, current state and Daily Quality Loop updated; publication metadata and refreshed README/QA manifest entries follow in the closeout commit. Nothing posted to X; unrelated cleanup script excluded.

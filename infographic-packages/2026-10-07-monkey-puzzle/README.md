@@ -1,6 +1,6 @@
 # Monkey Puzzle / チリマツ bilingual infographic package
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Plants
 Broad native region: southern-central Chile to Neuquén, Argentina / South America; temperate Andean woodland scene.
@@ -10,7 +10,7 @@ Broad native region: southern-central Chile to Neuquén, Argentina / South Ameri
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
 
-Each main post attaches its own language's single poster. GitHub and X publication remain separate.
+Each main post attaches its own language's single poster. GitHub publication is recorded below; X publication remains separate.
 
 ## Selected poster files
 
@@ -37,6 +37,13 @@ Each main post attaches its own language's single poster. GitHub and X publicati
 - [Asset manifest](audit/asset-manifest.json), [Japanese phone review](audit/japanese-phone.png), [English phone review](audit/english-phone.png).
 - No unresolved material visual blocker. Conservation context is the dated 2011 global assessment. Kew main-profile content was official web-indexed, while direct browser access remained at automated security verification; POWO biological text and photos were directly reviewed. Detailed provenance stays in QA.
 - Pre-image, both immediate direct-source checks and full package QA passed; eight UTF-8 posting sidecars synchronized with the installed offline X helper. Mechanical passes are separate from biological/visual acceptance.
-- No Git/GitHub/X mutation or publication in this run.
+- The initial production run ended local-ready without Git/GitHub/X action. Subsequent user-authorized GitHub closeout is recorded below; nothing posted to X.
 
 Completed local run: 2026-10-07T20:17:02.000+09:00
+
+## GitHub closeout — 2026-10-07T21:25:24+09:00
+
+- At the user's explicit request, published this package and INDEX directly to origin/master in content commit 2ffd4f6ec4311cb4b9e7d8b686ebc9294f0b04e9. GitHub refs/heads/master matched the exact SHA before changing publication state.
+- State: completed, published. Repository: https://github.com/ryusuke26/animal-infographic-automation . Publication records and refreshed README/QA hashes follow in the metadata closeout commit.
+- Package QA and all recorded asset hashes passed. Nine Markdown files had only surplus EOF blank lines removed before committing; image/reference/sidecar bytes and public wording remain preserved.
+- Nothing posted or replied to X. Unrelated tri-spine cleanup script excluded.
