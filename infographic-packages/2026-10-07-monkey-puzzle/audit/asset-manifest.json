@@ -1,0 +1,114 @@
+{
+  "image-prompt-en.md": {
+    "sha256": "af1cacd977455dd18a990d9fb19ec2c6324ba3b42901383200b840968f2a5df1",
+    "bytes": 6223
+  },
+  "image-prompt-ja-retry.md": {
+    "sha256": "919b062dde26eb93722836bb3d6719495c3958744c10b442fea578205e9d3e3f",
+    "bytes": 2715
+  },
+  "image-prompt-ja.md": {
+    "sha256": "90481bda32cc177c7be4b3ff982126fdb9c135170a7bd3476e179857f83b92b6",
+    "bytes": 5556
+  },
+  "infographic-copy-en.md": {
+    "sha256": "1003cae96431218bd8de8f3b066f06bdad90ffd39a10dc3a3788a2ac0210e256",
+    "bytes": 502
+  },
+  "infographic-copy-ja.md": {
+    "sha256": "42b2649305d15f0281aab0342daf76afdbf689f279fe4fa348e8f2bb09c1e155",
+    "bytes": 556
+  },
+  "README.md": {
+    "sha256": "0293ba3be4e72719aa60046b93f6e4db7b993decc81fbdbf4c89c3bcec6d23d9",
+    "bytes": 4397
+  },
+  "sources-qa.md": {
+    "sha256": "4203b4b7fde4ac279097c26e79a321b631b65f066691f033d9dbed14ce826d1f",
+    "bytes": 13338
+  },
+  "x-post-en.md": {
+    "sha256": "e1c2ed61dc88340318db969b7ad7c8482d16a6e9b164f13726397e364e85169d",
+    "bytes": 1503
+  },
+  "x-post-ja.md": {
+    "sha256": "aa5a88404470d7ef2a8c3b452a665f9aceb5657ccd15788c78a43fd5bbfae696",
+    "bytes": 1562
+  },
+  "audit/english-phone.png": {
+    "sha256": "710a5491339ecffee88277088cf162c6a5864e7c4fdb03fdfb4a920aa2a79dc8",
+    "bytes": 445585
+  },
+  "audit/japanese-first-pass-rejected.png": {
+    "sha256": "285b4fdff220a77204abb0dca7f109166d6af5270ff34c70f9b679dddef75d2e",
+    "bytes": 4112908
+  },
+  "audit/japanese-phone.png": {
+    "sha256": "246faacd1552791ebf408682ba3cbb1126c37bac7da4f8c9beba53de3a071556",
+    "bytes": 434709
+  },
+  "evidence/iucn-browser-fields-2026-10-07.md": {
+    "sha256": "10852351280037ed0f45de82ceeda3518789b5d8351bf15e024e28aee0837b4f",
+    "bytes": 1072
+  },
+  "images/monkey_puzzle_english_imagegen_2026-10-07.png": {
+    "sha256": "31edd370edce78e01ba5ba7280b16c119f64adea812b58c0e13d172dd886242b",
+    "bytes": 3826579
+  },
+  "images/monkey_puzzle_english_posting_2026-10-07.alt.txt": {
+    "sha256": "e70eb8519d52632b1d34cc2079503fc88ef45bea8db442f5423c333ab24350ca",
+    "bytes": 610
+  },
+  "images/monkey_puzzle_english_posting_2026-10-07.caption.txt": {
+    "sha256": "b21e467dda82f4acc5042df4aceedbca9b6e2a2f62ba2e3b263fa5b1e12dcd23",
+    "bytes": 165
+  },
+  "images/monkey_puzzle_english_posting_2026-10-07.png": {
+    "sha256": "2b3ed7d4a76c9da13cd0cc51435846106a7955e8f165983c6e83d4ce515fe85c",
+    "bytes": 3497663
+  },
+  "images/monkey_puzzle_english_posting_2026-10-07.source-note.txt": {
+    "sha256": "9a18284b21487677e02160c01770934c27dffe852b9344fa423f249ffca955dc",
+    "bytes": 261
+  },
+  "images/monkey_puzzle_english_posting_2026-10-07.story-reply.txt": {
+    "sha256": "b567eba7d5d0b671da193ccebcb45451ed8c365eeb8b317f9222cde96ae85af7",
+    "bytes": 254
+  },
+  "images/monkey_puzzle_japanese_imagegen_2026-10-07.png": {
+    "sha256": "9d4ba56b559aaf5b181d4f8607c7058b4481a3dc5fa1ae871208d49deaa3f74b",
+    "bytes": 3659529
+  },
+  "images/monkey_puzzle_japanese_posting_2026-10-07.alt.txt": {
+    "sha256": "e4274fc228b725683589bc1981d3de32f623f528d2538a6f5be296106d83d639",
+    "bytes": 590
+  },
+  "images/monkey_puzzle_japanese_posting_2026-10-07.caption.txt": {
+    "sha256": "cbb7e9a5262e9295fd90abd22d0a6852c952bc634a2c4ddff12398b844c2cfdf",
+    "bytes": 184
+  },
+  "images/monkey_puzzle_japanese_posting_2026-10-07.png": {
+    "sha256": "119de6dc91058ae45ac3a683db962c48be0786e6d64bcbd93ae74b96baa35a22",
+    "bytes": 3371920
+  },
+  "images/monkey_puzzle_japanese_posting_2026-10-07.source-note.txt": {
+    "sha256": "a0ce4a61ae7ec8f472b3e6bb69ac384514d3cd1f711a21fc327e4752c04a71e4",
+    "bytes": 264
+  },
+  "images/monkey_puzzle_japanese_posting_2026-10-07.story-reply.txt": {
+    "sha256": "872579bc31ab43aa888cbb8fc6ff5784471f38b606c2c8a7648efb2d38434e74",
+    "bytes": 303
+  },
+  "references/kew-female-cones.jpg": {
+    "sha256": "c2bff823e8ca332880feb116ee51faa8c7a852cf5134c3671607d904c85343ac",
+    "bytes": 187875
+  },
+  "references/kew-habit.jpg": {
+    "sha256": "137f22d51e53b5a622390bbfd142995c4a8d2d1343d1e4e1b29eba10e5d33d56",
+    "bytes": 228082
+  },
+  "references/kew-male-leaves.jpg": {
+    "sha256": "e30f676f6b7e7c4f0ec716fd67005342e1deb8061e6bfb275e8100632e6e6b7f",
+    "bytes": 34455
+  }
+}
