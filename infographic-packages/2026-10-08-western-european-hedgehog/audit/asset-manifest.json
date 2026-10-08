@@ -1,0 +1,155 @@
+{
+  "run_time": "2026-10-08T22:23:50+09:00",
+  "state": "completed, local-ready",
+  "pair_checks": {
+    "japanese": {
+      "direct_size": [
+        1024,
+        1536
+      ],
+      "posting_size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true
+    },
+    "english": {
+      "direct_size": [
+        1024,
+        1536
+      ],
+      "posting_size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true
+    }
+  },
+  "assets": [
+    {
+      "path": "audit/english-phone.png",
+      "bytes": 438846,
+      "sha256": "4d9d5f4bdc82403689a03d5710927904b2baa7e80f865158f68209417cf46518"
+    },
+    {
+      "path": "audit/japanese-phone.png",
+      "bytes": 434800,
+      "sha256": "fa190d4de12326df220995600d0954216a04b1805451f7c69e44605bffbb94d2"
+    },
+    {
+      "path": "evidence/iucn-browser-fields-2026-10-08.md",
+      "bytes": 1424,
+      "sha256": "7e39bcadb7122cae1846fa541150c2aba4378ffa9a4f40ca6df8fabfb4b0e468"
+    },
+    {
+      "path": "image-prompt-en.md",
+      "bytes": 4954,
+      "sha256": "83d5415245f21077889381eb59046f05dc460754f8937c0022ce4c8b117edb5e"
+    },
+    {
+      "path": "image-prompt-ja.md",
+      "bytes": 4503,
+      "sha256": "72127add7d97401a175c425427349293b2d076247a7ae4f44c4b4a230c94fea1"
+    },
+    {
+      "path": "images/western_european_hedgehog_english_imagegen_2026-10-08.png",
+      "bytes": 3993300,
+      "sha256": "dcf477f3f36ae9a142380e5fc0c16aab657ec5fe1e8d2d9d76276af6596c76d7"
+    },
+    {
+      "path": "images/western_european_hedgehog_english_posting_2026-10-08.alt.txt",
+      "bytes": 579,
+      "sha256": "5c14fe57ec7574e77d076d8c3c720b95dc3850e13e9c88afbbc9adb5b3e7434f"
+    },
+    {
+      "path": "images/western_european_hedgehog_english_posting_2026-10-08.caption.txt",
+      "bytes": 186,
+      "sha256": "bfc6c4505b1a2a2c0aee6195352f0d5b4538d7f0197262904c8073a53a336ac8"
+    },
+    {
+      "path": "images/western_european_hedgehog_english_posting_2026-10-08.png",
+      "bytes": 3557360,
+      "sha256": "d0cab3ca5da4b0a51a384228ab812cf864b892fc37336ba85df02f2ee9d35175"
+    },
+    {
+      "path": "images/western_european_hedgehog_english_posting_2026-10-08.source-note.txt",
+      "bytes": 227,
+      "sha256": "de2eaa4a5a5439dbf420e1052787906337c3d9b9a7499901857b18bbcd0834e9"
+    },
+    {
+      "path": "images/western_european_hedgehog_english_posting_2026-10-08.story-reply.txt",
+      "bytes": 241,
+      "sha256": "9fb80f39bc0fe6d047b64f3c2d666be8988f60388db5c1a6a11e14300f460651"
+    },
+    {
+      "path": "images/western_european_hedgehog_japanese_imagegen_2026-10-08.png",
+      "bytes": 4051212,
+      "sha256": "6dafc7ad59c9e5ffd982f62317115624ed5cbe764be13af1cc953556949345b1"
+    },
+    {
+      "path": "images/western_european_hedgehog_japanese_posting_2026-10-08.alt.txt",
+      "bytes": 585,
+      "sha256": "64898f67145422ee5c39878dad1c73c6e72e77fbc386e2c4e4dccea7851bf5fe"
+    },
+    {
+      "path": "images/western_european_hedgehog_japanese_posting_2026-10-08.caption.txt",
+      "bytes": 227,
+      "sha256": "efad57c68b207cf48cb51783faee30b559b6fd7e1b12d6b49accbbfa37f97245"
+    },
+    {
+      "path": "images/western_european_hedgehog_japanese_posting_2026-10-08.png",
+      "bytes": 3571073,
+      "sha256": "f2fdf8d3653fc5d7a3aed956ce9d55dc51368d3c8c924d5a34d8b0d7ca461497"
+    },
+    {
+      "path": "images/western_european_hedgehog_japanese_posting_2026-10-08.source-note.txt",
+      "bytes": 260,
+      "sha256": "80728b5e6eda3e9e558b7a8689d7026eaf082661973e2bb6b8e2829f76423c08"
+    },
+    {
+      "path": "images/western_european_hedgehog_japanese_posting_2026-10-08.story-reply.txt",
+      "bytes": 303,
+      "sha256": "a8ed9353539ba9865700c4b70caa97700e8251d830d973bd6dafd57c4c1e8ecf"
+    },
+    {
+      "path": "infographic-copy-en.md",
+      "bytes": 543,
+      "sha256": "5837a609b2e3b0df7c5153d2e1a32eac473420a983cfbc973ffdb7a1846ef562"
+    },
+    {
+      "path": "infographic-copy-ja.md",
+      "bytes": 610,
+      "sha256": "b58c54e70c020dd643e73462f7559e02636d5ca40286e2c016910a4c9f8f4342"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4192,
+      "sha256": "98fabec50c32fca59061cf8149f5bbc11db79b86cdb42ae7763c08358bb1a0a0"
+    },
+    {
+      "path": "references/iucn-habit.jpg",
+      "bytes": 143021,
+      "sha256": "edacf82de4d77b7664ec88ee5b7fed84c8263a3453e1ce27ca2f139c23b0f331"
+    },
+    {
+      "path": "references/iucn-second-view.jpg",
+      "bytes": 44959,
+      "sha256": "2a05768686a8a32d1f4e45b48e1094d21b4876290e2cfee4d12aab930ff0fcc3"
+    },
+    {
+      "path": "sources-qa.md",
+      "bytes": 15194,
+      "sha256": "aa09c0f6ef2a0795f82eedeac88d04637b249a954f49cea34ad21847f4b55a7a"
+    },
+    {
+      "path": "x-post-en.md",
+      "bytes": 1489,
+      "sha256": "19f1b3a15f040f40ab21d1a24fb9a6c8436395b034afcbbee9ff31c3e3869df1"
+    },
+    {
+      "path": "x-post-ja.md",
+      "bytes": 1632,
+      "sha256": "beb4f89a7b1804fa23befc04d4f01402f38d15af8a7a6b73c89c11a3c09eec6c"
+    }
+  ]
+}
