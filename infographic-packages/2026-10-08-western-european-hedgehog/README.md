@@ -1,6 +1,6 @@
 # Western European Hedgehog / ナミハリネズミ
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Mammals
 Broad native region: Europe; British autumn hedgerow scene.
@@ -10,7 +10,7 @@ Broad native region: Europe; British autumn hedgerow scene.
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
 
-Each main post attaches its own language's single poster. Companion language separately available. Local production only; no Git/GitHub/X mutation.
+Each main post attaches its own language's single poster. Companion language separately available. GitHub publication is recorded below; X publication remains separate.
 
 ## Selected poster files
 
@@ -42,6 +42,13 @@ Both first-pass posters accepted after direct-source, biological, text, medium a
 - Natural far-side limb, belly and tail occlusion accepted; no forced limb/digit display. Card 1 depicts two schematic winter states and Card 3 a qualitative dense-leaf nest study. No calibrated nest section/count, fixed waking frequency or sex claimed.
 - [Japanese phone review](audit/japanese-phone.png), [English phone review](audit/english-phone.png), [asset manifest](audit/asset-manifest.json).
 - Pre-image and full package QA passed, including direct-source/X-format checks; eight UTF-8 posting sidecars synchronized offline. Mechanical success is distinct from biological/visual review and does not imply user adoption.
-- No unresolved material blocker. Completed, local-ready; GitHub and X publication remain separate. No Git mutation, push, X posting or replies occurred.
+- No unresolved material blocker. The production run finished local-ready without Git/GitHub/X mutation. Subsequent user-authorized GitHub publication is recorded below; nothing posted or replied to X.
 
 Completed local run: 2026-10-08T22:23:50+09:00
+
+## GitHub closeout — 2026-10-08T22:42:03+09:00
+
+- At the user's explicit request, published this bilingual package and INDEX directly to origin/master in content commit bd5cea2e7e6be270c3aa75ddf2761bada6e5e9e7. Exact remote refs/heads/master matched that SHA before changing publication state.
+- State: completed, published. Repository: https://github.com/ryusuke26/animal-infographic-automation . Publication records follow in the metadata closeout commit.
+- Package QA and all 25 recorded asset hashes passed before content commit. Poster, reference, Copy Lock, prompt, posting-set and sidecar bytes remain preserved; README/QA hashes refreshed after publication metadata edits.
+- Nothing posted or replied to X. Unrelated tri-spine cleanup script excluded.

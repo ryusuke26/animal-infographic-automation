@@ -2260,3 +2260,14 @@ Daily Quality Loop
 - Full package QA and all recorded hashes passed. Removed surplus EOF blank lines from nine Markdown files and refreshed their manifest entries; selected image/reference/sidecar bytes and public wording preserved.
 - README, QA, INDEX, current state and Daily Quality Loop publication records follow in metadata closeout, with refreshed README/QA manifest entries. Nothing posted to X; unrelated cleanup script excluded.
 - No unresolved publication blocker or new learning/policy change. Current run time: 2026-10-07T21:25:24+09:00.
+
+## 2026-10-08 — Western European Hedgehog Quality Run
+
+- issue: none
+- Completed bilingual cards-v2 package, both first passes accepted with immediate source gates and full biological/text/medium/phone review. Official NT uses assessment year 2023, not publication 2024. Two exact-taxon references, eight sidecars and package QA pass. Familiar seasonal torpor story adds within-Mammals variety. No policy change or unresolved carryover; Git/GitHub/X untouched.
+- Current run time: 2026-10-08T22:23:50+09:00.
+
+## 2026-10-08 — Western European Hedgehog GitHub closeout
+
+- At user request, content commit bd5cea2e7e6be270c3aa75ddf2761bada6e5e9e7 pushed to origin/master and exact remote SHA verified before marking published. Package QA and all 25 asset hashes passed; artwork/public copy unchanged. README/QA/INDEX/current state updated, publication metadata follows in closeout commit. X untouched; unrelated cleanup script excluded. No new quality issue.
+- Current run time: 2026-10-08T22:42:03+09:00.

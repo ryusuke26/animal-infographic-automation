@@ -1,6 +1,6 @@
 {
   "run_time": "2026-10-08T22:23:50+09:00",
-  "state": "completed, local-ready",
+  "state": "completed, published",
   "pair_checks": {
     "japanese": {
       "direct_size": [
@@ -123,8 +123,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4192,
-      "sha256": "98fabec50c32fca59061cf8149f5bbc11db79b86cdb42ae7763c08358bb1a0a0"
+      "bytes": 5029,
+      "sha256": "340e09c8d6cddc3cf5f56e8acddbd68eefb6a5c1e8724c4ef9681a42595dc766"
     },
     {
       "path": "references/iucn-habit.jpg",
@@ -138,8 +138,8 @@
     },
     {
       "path": "sources-qa.md",
-      "bytes": 15194,
-      "sha256": "aa09c0f6ef2a0795f82eedeac88d04637b249a954f49cea34ad21847f4b55a7a"
+      "bytes": 15803,
+      "sha256": "7301c142faec1a913a4089b96f15e179b253e06d61ffca43f3553c4a446f0fc5"
     },
     {
       "path": "x-post-en.md",
@@ -151,5 +151,11 @@
       "bytes": 1632,
       "sha256": "beb4f89a7b1804fa23befc04d4f01402f38d15af8a7a6b73c89c11a3c09eec6c"
     }
-  ]
+  ],
+  "publication": {
+    "content_commit": "bd5cea2e7e6be270c3aa75ddf2761bada6e5e9e7",
+    "remote_ref": "refs/heads/master",
+    "verified_at": "2026-10-08T22:42:03+09:00",
+    "x_posted": false
+  }
 }

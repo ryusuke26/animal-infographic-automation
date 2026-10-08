@@ -1,6 +1,6 @@
 # Evidence Lock and QA — Western European Hedgehog
 
-Checked: 2026-10-08. Workflow mode: Quality Run. State: completed, local-ready.
+Checked: 2026-10-08. Workflow mode: Quality Run. State: completed, published.
 
 Editorial classification group: Mammals
 Evidence Lock: complete before art
@@ -89,3 +89,7 @@ English first pass accepted. Actual prompt: image-prompt-en.md. Direct file: ima
 Both accepted sources normalized through normalize_poster.py to exact 1024x1536 posting PNGs. Source and posting pixels within each language are identical; no crop, padding, stretch or local text/anatomy repair. Eight sidecars synchronized with sync_posting_sidecars.py; the two X Markdown sets remain primary. ALT describes the actual accepted art. Qualitative nest insulation and occasional awakening are supported; nest wall/opening and two states are schematic, no fixed event frequency, nest measurements, sex, digit or spine count claimed. No material visual blocker remains.
 
 Final package QA passed (includes X-format and direct-source checks). Four canonical PNG sizes and language-pair pixel identity independently verified. Eight sidecars synchronized. README/INDEX/current state and Daily Quality Loop updated once after final acceptance. No Git/GitHub/X mutation. Current run time: 2026-10-08T22:23:50+09:00. Issue: none; no new policy change or unresolved carryover.
+
+## GitHub closeout — 2026-10-08T22:42:03+09:00
+
+User explicitly requested GitHub closeout. Content commit bd5cea2e7e6be270c3aa75ddf2761bada6e5e9e7 published to origin/master; exact remote master SHA verified before marking published. All 25 asset hashes and package QA passed before commit; scientific/public copy, selected PNGs, references and sidecars preserved. README/QA metadata hashes refreshed. Initial no-publication production statements above are historical; package now completed, published. Metadata closeout commit follows. Nothing posted or replied to X; unrelated cleanup script excluded.
