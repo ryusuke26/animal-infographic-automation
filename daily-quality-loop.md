@@ -199,6 +199,21 @@ most one skill, prompt, template, or policy improvement from that review.
 Do not add date-window counting, dashboards, or extra tracking unless the
 simple tag loop stops working in practice.
 
+## 2026-10-09T22:48:30+09:00 — Whale Shark GitHub closeout completed
+
+- Published accepted bilingual package and INDEX in content commit 41cb6648858cd75bd752b5c0638ac9693211f4f9; exact remote origin/master verified before changing publication state.
+- Scoped publication metadata synchronized; package QA/asset hashes/pixel identity and staged whitespace checks pass. Only trailing blank lines required deterministic cleanup; no new quality rule. No X post, no unresolved carryover.
+
+## 2026-10-09T19:05:20+09:00 — Whale Shark Quality Run completed
+
+- issue: IUCN reference export took about 63 minutes before successfully returning one photograph.
+- priority: ops-friction contained
+- tags: #reference-export-latency #first-pass-visual #local-ready
+- cause: slow pageAssets bundling; biological/evidence fields themselves were readable.
+- next_action: retained the downloaded exact-taxon photo, reused the compact two-photo bundle and completed both posters and QA without changing topic.
+- tomorrow_change: no policy change; continue bounded reference reuse.
+
+
 ## 2026-07-28 — Kea English footer spacing
 
 Daily Quality Loop

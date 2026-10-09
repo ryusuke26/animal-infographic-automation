@@ -1,6 +1,6 @@
 # Whale Shark / ジンベエザメ
 
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Fishes
 Broad native region: Ocean/Global; tropical and warm temperate seas. Scene: Ningaloo, Western Australia.
@@ -10,7 +10,7 @@ Broad native region: Ocean/Global; tropical and warm temperate seas. Scene: Ning
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
 
-Each main post attaches its own language's single poster. GitHub and X publication are separate and not authorized by this run.
+Each main post attaches its own language's single poster. GitHub publication is recorded below; X publication remains separate.
 
 ## Selected poster files
 
@@ -39,6 +39,13 @@ English: [caption](images/whale_shark_english_posting_2026-10-09.caption.txt), [
 - Acceptance scope: illustrative spot pattern, unspecified sex/age/length, qualitative prey size/water-column depth and upright feeding capability. No calibrated depth plot, exact routine, exclusive diet, photo-identification individual or population count is claimed. No unresolved material caveat.
 - [Japanese phone review](audit/japanese-phone.png), [English phone review](audit/english-phone.png), [asset manifest](audit/asset-manifest.json).
 - Pre-image, immediate direct-source, offline X-format/sidecar and full package QA passed; eight UTF-8 sidecars synchronized. Mechanical checks remain distinct from biological/visual review and do not imply user adoption.
-- Git, GitHub and X were not mutated. Package is completed, local-ready; publication is separate.
+- The initial production run finished completed, local-ready without Git/GitHub/X mutation. Subsequent user-authorized GitHub closeout is recorded below; X remains unpublished.
 
 Completed local run: 2026-10-09T19:05:20+09:00
+
+## GitHub closeout — 2026-10-09T22:48:30+09:00
+
+- At the user's explicit end-of-day request, published the bilingual package and INDEX directly to origin/master in content commit 41cb6648858cd75bd752b5c0638ac9693211f4f9. Exact remote refs/heads/master matched that SHA before updating publication state.
+- State: completed, published. Repository: https://github.com/ryusuke26/animal-infographic-automation . Publication metadata follows in the closeout commit.
+- Package QA, sidecar synchronization, all 25 recorded hashes, four 1024x1536 PNGs and direct/posting pixel identity passed before publication. Seven Markdown files received only trailing-blank-line cleanup for the staged whitespace gate; text content and all artwork were preserved. Manifest updated accordingly, then package QA passed again.
+- README/INDEX/current state and Daily Quality Loop synchronized. Nothing posted or replied to X; unrelated tri-spine cleanup script excluded.

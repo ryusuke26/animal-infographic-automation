@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-09T19:05:20+09:00",
-  "state": "completed, local-ready",
+  "recorded_at": "2026-10-09T22:48:30+09:00",
+  "state": "completed, published",
   "assets": {
     "audit/english-phone.png": {
       "sha256": "dc595f433c059bb7e068df0a047309fa18110f9cbc7e73fbd141764e2c56a641",
@@ -79,8 +79,8 @@
       "bytes": 595
     },
     "README.md": {
-      "sha256": "51929d42e534b7b3e3307fc4c8172c7a990944f98c39e9e079abeb7f1d5b5e59",
-      "bytes": 3938
+      "sha256": "6f7170ddb49c60bb2f48426c3098718eca0cdcc135260140a27a521d921b9dae",
+      "bytes": 4922
     },
     "references/australian-museum-ningaloo.jpg": {
       "sha256": "9681519e3c8369a868f85e211d660dc01ab4bff70d5d6a157a094807cb03927b",
@@ -91,8 +91,8 @@
       "bytes": 45427
     },
     "sources-qa.md": {
-      "sha256": "b3f9fdbdf93cd3480a265a1674ace9022cda3b25ea2d5f6ce7ff06502e0578b9",
-      "bytes": 11116
+      "sha256": "6f5d6b509a1419a1bbe7dc54082432d7f7a501477b03a8baa1648ced1def1f92",
+      "bytes": 11500
     },
     "x-post-en.md": {
       "sha256": "fd15b7b95c524caa3d210a3f2cbbdbc69fb657f166b69dda12de07006c3d85e8",
@@ -102,5 +102,6 @@
       "sha256": "320dd72b20c6984a94b50121e9b7cef4a4325d2ee045eef4383b1acac020870d",
       "bytes": 1551
     }
-  }
+  },
+  "github_content_commit": "41cb6648858cd75bd752b5c0638ac9693211f4f9"
 }

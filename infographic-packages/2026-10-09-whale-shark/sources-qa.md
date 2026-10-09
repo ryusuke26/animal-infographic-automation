@@ -72,3 +72,7 @@ References saved once and reused. IUCN pageAssets export unexpectedly took about
 
 
 Final local acceptance recorded: 2026-10-09T19:05:20+09:00
+
+## User-authorized GitHub closeout — 2026-10-09T22:48:30+09:00
+
+Content commit 41cb6648858cd75bd752b5c0638ac9693211f4f9 reached origin/master; exact remote ref verified before published-state metadata. The original no-Git production statements above remain historical. Artwork, Copy Lock text and posting content preserved; only seven trailing Markdown blank lines trimmed for staged whitespace QA, corresponding manifest entries refreshed. No X posting.
