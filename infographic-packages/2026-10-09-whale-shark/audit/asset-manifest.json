@@ -1,0 +1,106 @@
+{
+  "recorded_at": "2026-10-09T19:05:20+09:00",
+  "state": "completed, local-ready",
+  "assets": {
+    "audit/english-phone.png": {
+      "sha256": "dc595f433c059bb7e068df0a047309fa18110f9cbc7e73fbd141764e2c56a641",
+      "bytes": 420678
+    },
+    "audit/japanese-phone.png": {
+      "sha256": "fc49b61627539719511d92d0a6b6b001262ca5f4e8ee0ed18c0ef477f4f293e9",
+      "bytes": 414677
+    },
+    "evidence/iucn-browser-fields-2026-10-09.md": {
+      "sha256": "d10984111c2a0f6f4f8b261ee4844f7ba013c2df4612605e366fe4c231126103",
+      "bytes": 860
+    },
+    "image-prompt-en.md": {
+      "sha256": "1fdb1ee6306d62eca3022403e1a2c5b5de3e172c7ff1d70daf2dd51ad481d4e1",
+      "bytes": 4912
+    },
+    "image-prompt-ja.md": {
+      "sha256": "b415c258724488d2afd44b6e7e1807a9d2c506506d3ef73b2b52ff27d71728fb",
+      "bytes": 4822
+    },
+    "images/whale_shark_english_imagegen_2026-10-09.png": {
+      "sha256": "cecabc24507437a6fb5b11196169649c2a66417376e4aaa6c791044daa456f8d",
+      "bytes": 3672472
+    },
+    "images/whale_shark_english_posting_2026-10-09.alt.txt": {
+      "sha256": "8d880c17d994cf66afa94043718839a2ec86a2f048a0f9f3e125497816a99dcd",
+      "bytes": 554
+    },
+    "images/whale_shark_english_posting_2026-10-09.caption.txt": {
+      "sha256": "a1e2678c2657334ff4b974b665922039911c5794e2e26bd39aef1d9b3244d43c",
+      "bytes": 139
+    },
+    "images/whale_shark_english_posting_2026-10-09.png": {
+      "sha256": "705a6b6cd4c26fc0b58697560d042bf268e7b48525786e497e1bf7109be9d664",
+      "bytes": 3392498
+    },
+    "images/whale_shark_english_posting_2026-10-09.source-note.txt": {
+      "sha256": "d7fd8ea08a2f82411be0785b33a167617c60db775c7666edf54af556d59ab791",
+      "bytes": 238
+    },
+    "images/whale_shark_english_posting_2026-10-09.story-reply.txt": {
+      "sha256": "ab5b9b921590c507143b335a35231d617c5aed338c11e0a99cc7e0156bc136df",
+      "bytes": 200
+    },
+    "images/whale_shark_japanese_imagegen_2026-10-09.png": {
+      "sha256": "05dea7e678066d1b43a9b8b2db3a06e707e67ffca932ce4952b0c2863343f7d0",
+      "bytes": 3868291
+    },
+    "images/whale_shark_japanese_posting_2026-10-09.alt.txt": {
+      "sha256": "43539fddd2b9f6ca9ecca7013e52079d195fbcbb446f8511120cc9c07598e888",
+      "bytes": 587
+    },
+    "images/whale_shark_japanese_posting_2026-10-09.caption.txt": {
+      "sha256": "44acf6246188bbfd852bd19b21bb140cad5203e548f5bf3a128c0da5b6ad0a4f",
+      "bytes": 188
+    },
+    "images/whale_shark_japanese_posting_2026-10-09.png": {
+      "sha256": "90e62a6fbb1a13da3fcf5e818d2cecc49a70828aedaac28b4d4050fb8490aa47",
+      "bytes": 3485235
+    },
+    "images/whale_shark_japanese_posting_2026-10-09.source-note.txt": {
+      "sha256": "1e58f75bbff412e822d0b83952a9d8849fa0cfd9950836f77a7762429591b6b9",
+      "bytes": 267
+    },
+    "images/whale_shark_japanese_posting_2026-10-09.story-reply.txt": {
+      "sha256": "0787cff4e0222c7bfb06b096fe53618cb56f1e4f7d571d7978e4f59f8951a34d",
+      "bytes": 300
+    },
+    "infographic-copy-en.md": {
+      "sha256": "f74dc3141f4fea2e26e7a19ec21743ab6f8410dace68f3e658fba7ddcc54baf6",
+      "bytes": 526
+    },
+    "infographic-copy-ja.md": {
+      "sha256": "30c4018926f6affc3c5265d9f459bb518beaebbf8ce85b6a0f6b0fd70e473df3",
+      "bytes": 595
+    },
+    "README.md": {
+      "sha256": "51929d42e534b7b3e3307fc4c8172c7a990944f98c39e9e079abeb7f1d5b5e59",
+      "bytes": 3938
+    },
+    "references/australian-museum-ningaloo.jpg": {
+      "sha256": "9681519e3c8369a868f85e211d660dc01ab4bff70d5d6a157a094807cb03927b",
+      "bytes": 101265
+    },
+    "references/iucn-feeding-front.jpg": {
+      "sha256": "c45a7d87f8a1dbb68466e9635f40de2b7ef089b327e1857d8d5d7a9b3ea870de",
+      "bytes": 45427
+    },
+    "sources-qa.md": {
+      "sha256": "b3f9fdbdf93cd3480a265a1674ace9022cda3b25ea2d5f6ce7ff06502e0578b9",
+      "bytes": 11116
+    },
+    "x-post-en.md": {
+      "sha256": "fd15b7b95c524caa3d210a3f2cbbdbc69fb657f166b69dda12de07006c3d85e8",
+      "bytes": 1341
+    },
+    "x-post-ja.md": {
+      "sha256": "320dd72b20c6984a94b50121e9b7cef4a4325d2ee045eef4383b1acac020870d",
+      "bytes": 1551
+    }
+  }
+}
