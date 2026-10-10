@@ -1,5 +1,5 @@
 # Automation 2 Current State
-Updated: 2026-10-10T21:05:13+09:00
+Updated: 2026-10-10T21:07:57+09:00
 
 ## Workflow
 - Default workflow: Quality Run; Japanese/English posters, exact vertical 2:3, exactly three numbered illustrated explanatory cards.
@@ -8,7 +8,7 @@ Updated: 2026-10-10T21:05:13+09:00
 - Active package: none.
 - Unfinished visual gate: none.
 - Latest package: 2026-10-10-lesser-flamingo.
-- Latest state: completed, local-ready; user-authorized GitHub closeout pending verification. User reports prior X publication; exact URL/languages/text unverified. No assistant X action.
+- Latest state: completed, published. User-authorized content commit 670c5282e0674eb1735c792765e1216ea5e0a4de verified at origin/master; publication records synchronized. User reports prior X publication; exact URL/languages/text unverified. No assistant X action.
 - Latest evidence: latest official IUCN T22697369A129912906 Global NT A2c+3c+4c ver 3.1, assessed 7 August 2018, published 2018; directly rendered field transcription saved. Separate 2025 southern-African regional VU not substituted; no official PDF claimed.
 - Latest visual result: user-selected original Japanese feeding pose restored, with a matching new English localization accepted first pass. Earlier visible-eye/head-angle exclusion withdrawn; superseded variants retained. Full anatomy/text/style/phone gates pass.
 - Retired duplicate exclusion: 2026-08-21-montseny-brook-newt duplicates completed 2026-06-26-montseny-brook-newt; do not post.

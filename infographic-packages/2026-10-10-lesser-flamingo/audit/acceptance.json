@@ -55,10 +55,10 @@
     "images\\lesser_flamingo_japanese_posting_2026-10-10.story-reply.txt": "684e58b67668c7c5261a58134419c9318a507a4498568963eb0ccbcee6d816ac",
     "infographic-copy-en.md": "b6876d72d80955faa5246b0266fa09e6562ac2311ab08fb04f1e3429224c3901",
     "infographic-copy-ja.md": "dd82319f822786e8c7f8f91977a89cce252a6155c0a92394b5141cccae4ca279",
-    "README.md": "6b3017201cb0db4dee0797fa2057c193c20c2f43ebd67d2938c80ea0f485c930",
+    "README.md": "9e9fd9268d9407adeed9e44ddaf040d6a744fa1b16231ad373aafeae039ce47a",
     "references\\fsg-feeding-anissa-camp.webp": "ef3f04363934c63ad890dc9210e33203b95402ce9db078404e8e9e0aca7c8bb4",
     "references\\fsg-standing-neil-jones.webp": "697c4fa465608ffd7a8d6d3daa31636c108ef331a68e608b7a071a6f7cf33f49",
-    "sources-qa.md": "3d395519d600cb87153fb8b9f00016da54fe0f2d6f088e8ea215bf9a0dedeb82",
+    "sources-qa.md": "e5a3e3fb55e3048fe74f7fcdd84e0298bc2372af801883e313f62741b63ed296",
     "x-post-en.md": "420745ea2d6b68663a2e4c8c1fa3fd2686a441b21a676d9b7d8211c8fbdbecdf",
     "x-post-ja.md": "e93dfe6dfb01e1690c93e8699a7fd62e80050171accc2f8279989445cb1d9499"
   },
@@ -87,8 +87,10 @@
     "protected_existing_assets_unchanged": true
   },
   "publication": {
-    "github": "pending remote verification",
+    "github": "completed, published; content SHA verified at origin/master",
     "x": "already posted, user reported; exact URL/languages/live text unverified",
-    "local_posting_revision": "editorial example; not asserted to match live X text"
+    "local_posting_revision": "editorial example; not asserted to match live X text",
+    "content_commit": "670c5282e0674eb1735c792765e1216ea5e0a4de",
+    "records_synchronized_at": "2026-10-10T21:07:57+09:00"
   }
 }

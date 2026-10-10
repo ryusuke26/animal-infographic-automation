@@ -207,6 +207,12 @@ most one skill, prompt, template, or policy improvement from that review.
 Do not add date-window counting, dashboards, or extra tracking unless the
 simple tag loop stops working in practice.
 
+## 2026-10-10T21:07:57+09:00 — Lesser Flamingo GitHub closeout
+
+- At the user's request, published the accepted package, INDEX and authorized policy/template improvements in content commit 670c5282e0674eb1735c792765e1216ea5e0a4de. Verified exact remote origin/master SHA before marking completed, published; publication records synchronized in the metadata closeout.
+- Full package validation, staged whitespace and existing asset hashes passed. Artwork, Copy Lock and posting copy preserved during closeout. Unrelated cleanup script excluded. User reports the topic was already posted to X; the revised local copy is an editorial example, not asserted to match the live post. No assistant X action.
+- Existing reference-latency verification is the sole operational carryover for the next actual production run. No new quality rule from closeout.
+
 ## 2026-10-10T20:12:16+09:00 — User-authorized workflow and posting follow-up
 
 - User confirmed the card/post repetition concern and authorized the review's actionable improvements. Updated policy/templates for distinct information contributions, grounded anatomy-rejection reasons, reference waiting/fallback and deferred-candidate progress. Existing Automation entry point already reads these authoritative files; its prompt and schedule need no change.
