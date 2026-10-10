@@ -1,6 +1,6 @@
 # Daily Quality Loop
 
-## Active guidance — revised 2026-09-19
+## Active guidance — revised 2026-10-10
 
 Read this active guidance and current state's unresolved carryover during
 preflight. The production policy and two production templates are authoritative.
@@ -9,19 +9,27 @@ not reinstate full-limb visibility or bare-label rules from those entries.
 
 - Prioritize reference-grounded species identity and natural posture. Review
   every defining feature after a correction, including features not edited.
+  Use the policy's contradiction record before rejecting anatomy or pose;
+  keep unverified features and visual preferences distinct from confirmed errors.
 - Follow the production policy's Topic diversity design: consider within-group,
   visual, habitat and story variety; familiar species may offer unfamiliar
   discoveries. Old unfamiliarity gates and rotation-only tie-breaker notes are
   superseded. No fixed quotas or cooldowns apply.
+  Reused deferred candidates must advance their recorded blocker; do not fill
+  the slate with the same unresolved entries.
 - Use cards-v2 for new packages; lock a heading and explanatory sentence per card.
+  Plan cards, main post and story together under the X template's information
+  roles; paraphrases alone do not add value. ALT remains complete and accessible.
 - Apply the production policy's restored crayon / oil-pastel art direction and
   benchmark-based visual check; recent watercolor-style prompts are historical.
-- Keep reference downloads bounded and reuse the first usable local bundle.
+- Apply the policy's elapsed-time/fallback budget for reference access and reuse
+  the first usable local bundle. Record uninterruptible overruns honestly;
+  eventual transfer success does not by itself resolve repeated latency.
 - Edit X posting sets once and generate sidecars; use X-weighted text counts.
 - Use one language-matched image per X main post by default. Distribution
   experiments are optional and must not add daily production gates.
-- No unresolved carryover is created solely by this workflow update. Preserve
-  the latest published package and its recorded acceptance caveats.
+- Keep only unresolved follow-up in current state. Preserve completed packages
+  and their recorded acceptance caveats unless a scoped user correction applies.
 
 The remaining procedural sections describe the learning method; read them when
 updating a counter or resolving a recurrence. Search dated history only for a
@@ -198,6 +206,13 @@ most one skill, prompt, template, or policy improvement from that review.
 
 Do not add date-window counting, dashboards, or extra tracking unless the
 simple tag loop stops working in practice.
+
+## 2026-10-10T20:12:16+09:00 — User-authorized workflow and posting follow-up
+
+- User confirmed the card/post repetition concern and authorized the review's actionable improvements. Updated policy/templates for distinct information contributions, grounded anatomy-rejection reasons, reference waiting/fallback and deferred-candidate progress. Existing Automation entry point already reads these authoritative files; its prompt and schedule need no change.
+- Applied the copy approach to current Lesser Flamingo JA/EN posting sets: swimming extends the feeding hook; chick groups and juvenile plumage continue beyond the cards. Direct FSG/BirdLife checks recorded in sources-qa.md. Six sidecars updated; full package QA passed. Artwork, Copy Lock and ALT preserved; no historical-package rewrite or Git/publication action.
+- Concrete learning: wording variation alone does not add information. Review the card/post/story meaning together and trace any added biology to its source; ALT remains an accessible account of the image.
+- Remaining verification: reference-access limits are now explicit, but reduced latency must be measured on the next real transfer. A tool that cannot cancel must be logged as an overrun, not reported as respecting a hard deadline. This is current state's only operational carryover; no invented recurrence count/reset.
 
 ## 2026-10-09T22:48:30+09:00 — Whale Shark GitHub closeout completed
 
@@ -2286,3 +2301,9 @@ Daily Quality Loop
 
 - At user request, content commit bd5cea2e7e6be270c3aa75ddf2761bada6e5e9e7 pushed to origin/master and exact remote SHA verified before marking published. Package QA and all 25 asset hashes passed; artwork/public copy unchanged. README/QA/INDEX/current state updated, publication metadata follows in closeout commit. X untouched; unrelated cleanup script excluded. No new quality issue.
 - Current run time: 2026-10-08T22:42:03+09:00.
+
+
+## 2026-10-10 — Lesser Flamingo Quality Run, corrected after user review
+- Completed, local-ready; latest official Global NT assessed 7 August 2018, distinct from regional 2025 VU. Canonical Japanese initial restored after exact user-attachment hash match and explicit matching-English request; English localized from that composition, accepted first pass. Prior variants preserved. Full/phone/art/text/source gates pass; full package revalidation passed.
+- One concrete learning, superseding the earlier entry: eye visibility alone cannot establish head inversion. The earlier initial-card rejection was insufficiently supported and is withdrawn. Compare the entire neck/head/bill/water pose to real references and separate user-reported video observation from independently reviewed evidence. No new policy gate or unresolved carryover.
+- Current revision time: 2026-10-10T19:50:56+09:00.

@@ -5,6 +5,17 @@ these four sections and put each copy target in its own fenced `text` block:
 main post, story reply, ALT text, and source/context reply. Earlier three-block
 packages are grandfathered and need not be rewritten.
 
+Draft the post, cards and story together during Copy Lock. Give each a distinct
+information contribution: the main post is a concrete discovery doorway, the
+cards explain three illustrated observations, and the story follows one of them
+into a supported detail or next stage that the cards do not already tell.
+Different wording with the same meaning does not satisfy this division. The
+central discovery may recur briefly to orient a reader; names, dated status and
+the series ending may also repeat. ALT must still describe all relevant image
+content for accessibility and is not subject to the novelty requirement.
+Record the contribution and its source briefly in the existing sources-qa.md,
+not a separate checklist. Do not add speculative claims to manufacture novelty.
+
 ## Main post
 
 - Attach the single accepted poster in the post's language: Japanese for the
@@ -15,6 +26,10 @@ packages are grandfathered and need not be rewritten.
   Write two short hook candidates during drafting and select one; keep only the
   selected text in the posting set. Do not save the most interesting fact only
   for a reply. One follow-through sentence before the identity lines is allowed.
+- When the hook shares a card's core discovery, add a supported context,
+  comparison or observation absent from that card's text. Do not simply copy
+  the heading or shorten its explanation. Keep the opening concrete rather
+  than replacing the discovery with a vague teaser.
 - Put the public common name and scientific name on two adjacent standalone
   lines after the hook. Do not fold them into prose.
 - Follow with the quiet conservation-status footer.
@@ -51,8 +66,10 @@ Write the first reply as the fuller natural-history story, not as the three
 poster cards copied into sentences.
 
 - Let the reader follow one observable progression, such as setting -> visible
-  identity -> movement -> consequence. Connect at least two locked facts
-  through cause, contrast, movement, or observation instead of listing them.
+  identity -> movement -> consequence. Connect at least two evidence-verified
+  facts through cause, contrast, movement, or observation, with at least one
+  useful detail beyond the cards and main post. A brief link back to a card is
+  enough; continue into the new detail instead of summarizing all three cards.
 - Vary short and long sentences. Do not use numbered facts or three parallel
   bullet sentences.
 - Use concrete habitat, body, and behavior detail when the evidence supports

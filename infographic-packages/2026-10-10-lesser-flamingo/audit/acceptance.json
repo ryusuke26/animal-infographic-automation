@@ -1,0 +1,94 @@
+{
+  "checked": "2026-10-10T10:50:41+09:00",
+  "selected_prompts": {
+    "ja": "image-prompt-ja.md",
+    "en": "image-prompt-en-user-selected-initial.md"
+  },
+  "pairs": [
+    {
+      "language": "japanese",
+      "source": "images\\lesser_flamingo_japanese_imagegen_2026-10-10.png",
+      "posting": "images\\lesser_flamingo_japanese_posting_2026-10-10.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true
+    },
+    {
+      "language": "english",
+      "source": "images\\lesser_flamingo_english_imagegen_2026-10-10.png",
+      "posting": "images\\lesser_flamingo_english_posting_2026-10-10.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "pixel_identical": true
+    }
+  ],
+  "assets": {
+    "audit\\build-package.py": "081df93e3a51f1ee86f4b8d3d9fd3163727af3c593b4c1657509d8820cd4cfa2",
+    "audit\\closeout-records.py": "027c5c98c0967b37fa6e215582e663744540f9933c30130e2a43cfc53085c120",
+    "audit\\finish-package.py": "dcc5f94457895ca766cbb47f83a6171aa5395d085769b7e58c46ca9c5048170b",
+    "audit\\lesser_flamingo_english_superseded_horizontal_pose.png": "1821c64365fb841a388d00bbda35c277b1aad19623e1ba103f4fec1d81456554",
+    "audit\\lesser_flamingo_english_user_selected_source.png": "c36c05d5ef3c7faa55eccbfd595f7373d7b2baa5941e4f43b994371aa7cf213e",
+    "audit\\lesser_flamingo_japanese_initial.png": "ec6365787c8a2f78de5fe3d34c75f9e55ee844274d27177d3111a4499b00f1b5",
+    "audit\\lesser_flamingo_japanese_superseded_retry.png": "b88b93c3a2814bd5dc2a1d701df188ec67c22da620f333988548882b605c0330",
+    "audit\\phone-en.png": "eef5328d28619e2c9d3cb83a04fdf8be493d1fc5d38e68f1f114a8d1c4d04451",
+    "audit\\phone-ja.png": "b78f1c712d0952961646cb851d7fff2643295b343c68e22a47e02aaa38d35a60",
+    "evidence\\iucn-browser-fields-2026-10-10.md": "1e36f82165b6cad1637ef1c0cf6eed74298654ba1cb46b7a4854a74ce816a32e",
+    "image-prompt-en-user-selected-initial.md": "bd7f85eb5393a647197e13a4cfc02ad7209c0d7ba256ce61bcdb7974871bd33c",
+    "image-prompt-en.md": "07fd95bba11711724ad81ea2a1e0474a67bf4ef1e8d48c048d0c5b5f27231a3a",
+    "image-prompt-ja-retry.md": "b44c4dde9a736b075a21f367ae0c7c42c57766027b3377c2ee8c22c177485fc6",
+    "image-prompt-ja.md": "2118627e15de02a82e0de008443872202a9c98388be78419d35765292d70abf5",
+    "images\\lesser_flamingo_english_imagegen_2026-10-10.png": "c36c05d5ef3c7faa55eccbfd595f7373d7b2baa5941e4f43b994371aa7cf213e",
+    "images\\lesser_flamingo_english_posting_2026-10-10.alt.txt": "a83deaaf6cb451b49ee2432ed80f2228da0132f3ce96f7aa7474935c93f297e8",
+    "images\\lesser_flamingo_english_posting_2026-10-10.caption.txt": "75275525c8076b6f066fe111704eb65f64f0664076818b4b8d25481e0f927c97",
+    "images\\lesser_flamingo_english_posting_2026-10-10.png": "9d4bd7ab9945d42458a25a817f241c7a8c52192b5907f595fe3a00c44f86a46c",
+    "images\\lesser_flamingo_english_posting_2026-10-10.source-note.txt": "5063b32fb002695ec1747fd31d406cdd49c78af1bf0db5e12eab9f670e835ab1",
+    "images\\lesser_flamingo_english_posting_2026-10-10.story-reply.txt": "a8bf36f5799132f291cacf9266885e16a15d5c1006d73faec9285a38738834b4",
+    "images\\lesser_flamingo_japanese_imagegen_2026-10-10.png": "ec6365787c8a2f78de5fe3d34c75f9e55ee844274d27177d3111a4499b00f1b5",
+    "images\\lesser_flamingo_japanese_posting_2026-10-10.alt.txt": "0fa8fd7a27a1f64b7970fb188d111ccae86290142d23841f99b79b559c3c2e7e",
+    "images\\lesser_flamingo_japanese_posting_2026-10-10.caption.txt": "35024906fe1a2d131aecb39d5dfadf1481b5e1c6b0a4d119201d1595e596c9ce",
+    "images\\lesser_flamingo_japanese_posting_2026-10-10.png": "c6b72a383dd27374cc30cb2ae1e19ea12d88c11380d316a7b6662509ce688621",
+    "images\\lesser_flamingo_japanese_posting_2026-10-10.source-note.txt": "0a004beb678c9b6c22c6768e19fb074095d24907bb3ee4a316cee69f8944b848",
+    "images\\lesser_flamingo_japanese_posting_2026-10-10.story-reply.txt": "684e58b67668c7c5261a58134419c9318a507a4498568963eb0ccbcee6d816ac",
+    "infographic-copy-en.md": "b6876d72d80955faa5246b0266fa09e6562ac2311ab08fb04f1e3429224c3901",
+    "infographic-copy-ja.md": "dd82319f822786e8c7f8f91977a89cce252a6155c0a92394b5141cccae4ca279",
+    "README.md": "6b3017201cb0db4dee0797fa2057c193c20c2f43ebd67d2938c80ea0f485c930",
+    "references\\fsg-feeding-anissa-camp.webp": "ef3f04363934c63ad890dc9210e33203b95402ce9db078404e8e9e0aca7c8bb4",
+    "references\\fsg-standing-neil-jones.webp": "697c4fa465608ffd7a8d6d3daa31636c108ef331a68e608b7a071a6f7cf33f49",
+    "sources-qa.md": "3d395519d600cb87153fb8b9f00016da54fe0f2d6f088e8ea215bf9a0dedeb82",
+    "x-post-en.md": "420745ea2d6b68663a2e4c8c1fa3fd2686a441b21a676d9b7d8211c8fbdbecdf",
+    "x-post-ja.md": "e93dfe6dfb01e1690c93e8699a7fd62e80050171accc2f8279989445cb1d9499"
+  },
+  "final_package_qa": "PASS",
+  "closed_at": "2026-10-10T19:51:46+09:00",
+  "revised_at": "2026-10-10T19:50:56+09:00",
+  "revision_generations": {
+    "ja": 0,
+    "en": 1
+  },
+  "revision_retries": {
+    "ja": 0,
+    "en": 0
+  },
+  "user_selected_ja_attachment_sha256": "EC6365787C8A2F78DE5FE3D34C75F9E55EE844274D27177D3111A4499B00F1B5",
+  "withdrawn_judgment": "Initial feeding pose rejected from eye visibility/head angle without sufficient evidence",
+  "initial_run_retries_historical": {
+    "ja": 1,
+    "en": 0
+  },
+  "posting_revision": {
+    "recorded_at": "2026-10-10T20:12:16+09:00",
+    "scope": "User-authorized main/story/source copy revision; poster Copy Lock, all PNGs, image prompts, references and ALT preserved",
+    "qa": "PASS: full package validator and manual bilingual information-role/source review",
+    "changed_sidecars": 6,
+    "protected_existing_assets_unchanged": true
+  },
+  "publication": {
+    "github": "pending remote verification",
+    "x": "already posted, user reported; exact URL/languages/live text unverified",
+    "local_posting_revision": "editorial example; not asserted to match live X text"
+  }
+}

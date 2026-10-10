@@ -187,7 +187,7 @@ Use these editorial classification groups:
 These are practical selection buckets rather than formal taxonomic ranks.
 Record the organism's exact lineage separately in Evidence Lock.
 
-#### Topic diversity — revised 2026-09-19
+#### Topic diversity — revised 2026-10-10
 
 The editorial goal is a varied journey through living things, across and within
 classification groups. Unfamiliar species remain welcome, and familiar species
@@ -206,6 +206,14 @@ different lineages and ways of life. Consider variation within groups: Mammals
 must not default to bats, nor Amphibians to frogs. Include familiar-species
 possibilities in the search without reserving a fixed slot. Compare silhouettes,
 habitats, behaviors and stories as well as regions and classification labels.
+
+For a previously deferred candidate, read its last recorded blocker before
+reusing it. A focused check must advance that blocker or test a concrete new
+lead; repeating the same unresolved status/name/reference note does not make
+a meaningful comparison. If readiness has not advanced, retain the reason in
+the existing notes and replace that slate entry with a credible alternative
+within the same three-or-four-candidate budget. This is not a cooldown or a
+permanent exclusion, and does not require full Evidence Lock for every candidate.
 
 Keep full-history duplicate exclusion, supported naming, reliable evidence and
 usable visual identity as hard gates. Among viable candidates, weigh discovery
@@ -288,6 +296,21 @@ only when documented sex, age, or stage variation materially changes the visual 
 Before bundling, use the exposed asset name and visible thumbnail to exclude range
 maps, threat photographs, logos and other non-identity assets from that cap.
 
+Bound reference acquisition by elapsed waiting as well as image count. Prefer
+an observed direct-media route or an already usable saved reference when it
+provides the same evidence. Set a tool timeout when supported. After five
+minutes without a usable file, stop/cancel that route where supported and try
+at most one already identified alternative; limit controllable waiting across
+both routes to ten minutes. Preserve the selected species. If the available
+references still cannot settle material identity, retain the work as needs
+review under the existing evidence gate rather than generating from guesswork.
+A yielded call is not cancelled: if the tool cannot interrupt its underlying
+operation, record the actual overrun, avoid duplicate requests and do independent
+work when possible. Do not claim a hard timeout was enforced. In the existing
+QA/quality-loop note record route, elapsed wait and fallback/overrun; eventual
+download success does not resolve recurrent latency. Verify the timing change
+on the next real transfer, without a separate benchmark or tracking file.
+
 Only a visually high-risk species may use one optional text-free identity
 anchor before the Japanese poster. Validate the anchor against real references;
 it is not itself evidence. This adds at most one generation, not a separate
@@ -356,8 +379,12 @@ README must contain:
 New infographic-copy files use `Copy format: cards-v2` as specified in
 templates/visual-and-copy-brief.md: exact title, scientific name, three heading
 and explanation pairs, and a short label-free status footer. Lock all nine
-text strings before generation. Each explanation adds an observation, mechanism,
-contrast or change; do not merely repeat what the illustration already shows.
+text strings before generation. Each explanation adds a supported observation,
+mechanism, condition, contrast or change beyond its heading; a longer paraphrase
+of the heading is insufficient. Plan the main post and story reply alongside
+the cards, using the distinct information roles in the X template. Verify and
+record any additional story fact before art; do not invent extra biology merely
+to avoid repetition.
 Existing three-label packages remain supported and are not rewritten.
 
 Each image prompt:
@@ -462,6 +489,17 @@ companion. Accept it only when:
 - the result feels authored for this species rather than filled into a generic
   template.
 
+Before rejecting anatomy or pose, record one concise reason in sources-qa.md:
+observed feature -> specific reference/source or demonstrable structural
+contradiction -> minimum correction. Separate a confirmed error from unresolved
+identity evidence and a visual preference. A single reference angle, hidden
+feature or impression that a pose looks unfamiliar is not proof of error.
+For material uncertainty, make one focused reference check within the existing
+acquisition budget; if it remains unresolved, preserve the source as needs
+review instead of using a speculative retry. User-requested visual preferences
+are recorded as preferences, not retroactive biological-error claims. This
+reason is part of the existing review, not an extra approval or reviewer step.
+
 Choose the retry type before the one allowed Japanese retry:
 
 - use a targeted edit only when the source gate passes and the defect is truly
@@ -552,7 +590,11 @@ Perform one deliberate QA pass:
 - reject generic dashboard/card styling or cards that bury the hero;
 - confirm the main post is the short image-attached doorway and the first reply
   carries the connected natural-history story;
-- read each story reply aloud and reject flat poster-summary prose;
+- read each story reply aloud and compare meaning across main post, cards and
+  reply: each adds useful information, and the reply continues with a verified
+  detail beyond the cards. Rewording the same facts is not enough. ALT remains
+  a faithful accessible account of the poster and is exempt from this novelty
+  check;
 - compare the latest two completed X files and rewrite any repeated opening or
   sentence pattern;
 - confirm ALT text describes the actual accepted poster;

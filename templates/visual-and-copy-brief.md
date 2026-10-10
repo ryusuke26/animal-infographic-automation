@@ -11,6 +11,8 @@ the production policy's Topic diversity section. Note how the selected subgroup,
 body form, habitat or discovery adds variety to recent entries. For a familiar
 species, identify the less familiar supported aspect. Use existing history;
 no numerical scores, fixed quotas or separate selection file are required.
+For a reused deferred candidate, state what advanced since its last blocker;
+otherwise replace the unchanged entry under the policy's existing slate budget.
 
 ## Art direction
 
@@ -32,6 +34,10 @@ extra generation or extra review round is required.
 - Natural pose: one reference-supported viewpoint, and what may be occluded.
 - False silhouette: only the 1-3 most likely confusions, with concrete differences.
 - Uncertainty: do not turn an unreadable feature into an invented instruction.
+
+Before an anatomy/pose rejection, use the policy's concise contradiction record.
+An unfamiliar-looking pose and a confirmed anatomical error are different
+findings; a preference must not silently become a species rule.
 
 Review the full defining-feature set after a retry, including unchanged regions.
 Trace visible anatomy; do not force hidden limbs into view. Reject extra limbs
@@ -55,6 +61,13 @@ mechanism or change. Do not invent a purpose or causal explanation. Aim initiall
 for about 8-16 Japanese heading characters and 20-40 explanation characters;
 these are drafting guides, not gates. Prefer meaningful readable copy to quotas.
 English conveys the same claim naturally. Reserve space for both languages.
+
+Read each heading and explanation together: the explanation must add a concrete
+supported detail, not just restate the heading at greater length. If no causal
+mechanism is established, use a documented condition, contrast or observation.
+Draft the X hook and story reply at the same time. In the existing sources-qa.md,
+briefly identify what the post adds and which sourced detail the story continues
+with beyond the cards, following the X template. No additional per-run file.
 
 Use detail studies, attached insets, habitat scenes, developmental comparisons,
 or a complete animal as appropriate. Do not duplicate the hero merely to fill cards.
