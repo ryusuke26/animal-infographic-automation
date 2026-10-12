@@ -67,3 +67,6 @@ Actual selected prompts: image-prompt-ja.md and image-prompt-en.md, built-in Ima
 Main post adds German overwintering; story continues hatching/molt/adult wing development beyond poster text. Read as connected narrative in both languages; no mandatory pupal stage or unsupported universal schedule. Actual ALT matches accepted brown female/green coxal study/grass/egg case/prey illustration. Eight UTF-8 sidecars synchronized offline; no dependency installation. No user adoption claimed. Old 2015 Global LC/Needs updating is the material dated-evidence caveat. No unresolved biological/visual blocker.
 
 Final package validator: PASS at 2026-10-12T20:21:18+09:00, includes direct-source, X format/weighted budgets, synchronized sidecars and whitespace checks. Completed, local-ready. No Git/GitHub/X mutation.
+
+## GitHub closeout — 2026-10-12
+User authorized today's GitHub closeout. Content commit 7dac95c3a1e34d3b7c48b31047610dcec702af42 pushed to origin/master, exact remote refs/heads/master verified before marking published. Metadata synchronized 2026-10-12T20:58:50+09:00. Sidecar drift: none; package QA: PASS. No poster/Copy Lock/posting-copy changes. No X posting/replies. Production-stage local-ready statements above are historical.

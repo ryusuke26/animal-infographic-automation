@@ -1,5 +1,5 @@
 # Automation 2 Current State
-Updated: 2026-10-10T21:07:57+09:00
+Updated: 2026-10-12T20:58:50+09:00
 
 ## Workflow
 - Default workflow: Quality Run; Japanese/English posters, exact vertical 2:3, exactly three numbered illustrated explanatory cards.
@@ -7,49 +7,49 @@ Updated: 2026-10-10T21:07:57+09:00
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none.
-- Latest package: 2026-10-10-lesser-flamingo.
-- Latest state: completed, published. User-authorized content commit 670c5282e0674eb1735c792765e1216ea5e0a4de verified at origin/master; publication records synchronized. User reports prior X publication; exact URL/languages/text unverified. No assistant X action.
-- Latest evidence: latest official IUCN T22697369A129912906 Global NT A2c+3c+4c ver 3.1, assessed 7 August 2018, published 2018; directly rendered field transcription saved. Separate 2025 southern-African regional VU not substituted; no official PDF claimed.
-- Latest visual result: user-selected original Japanese feeding pose restored, with a matching new English localization accepted first pass. Earlier visible-eye/head-angle exclusion withdrawn; superseded variants retained. Full anatomy/text/style/phone gates pass.
+- Latest package: 2026-10-12-european-mantis.
+- Latest state: completed, published. User-authorized content commit 7dac95c3a1e34d3b7c48b31047610dcec702af42 pushed to origin/master; exact remote refs/heads/master verified before publication metadata. No X posting/reply.
+- Latest evidence: direct official IUCN T44793247A44798476 Global LC ver 3.1, assessed 18 November 2015, published 2016, Needs updating. Old-assessment caveat retained in bilingual source replies.
+- Latest visual result: both initial built-in Image Gen sources accepted; zero retries/local repairs. Full-size and 342x513 phone/anatomy/nine-string/three-card/crayon-pastel gates passed.
 - Retired duplicate exclusion: 2026-08-21-montseny-brook-newt duplicates completed 2026-06-26-montseny-brook-newt; do not post.
 
 ## Latest Completed Package
-- Topic: Lesser Flamingo / コフラミンゴ / Phoeniconaias minor. Historical combinations/duplicate aliases screened: Phoenicopterus minor/parvus/rubidus/blythi and Phcenicopterus parvus/rubidus; candidate-only mentions, no package collision.
-- Region: Africa and South Asia; qualitative East African saline-alkaline lake margin.
-- Editorial classification group: Birds. Exact lineage: Animalia > Chordata > Aves > Phoenicopteriformes > Phoenicopteridae > Phoeniconaias.
-- Selected Japanese: images/lesser_flamingo_japanese_imagegen_2026-10-10.png; actual prompt image-prompt-ja.md. Initial source explicitly user-selected, attachment hash matched; retry retained as superseded audit.
-- Selected English: images/lesser_flamingo_english_imagegen_2026-10-10.png; actual prompt image-prompt-en-user-selected-initial.md. One user-requested localization, zero revision retries.
-- Four canonical PNGs exact 1024x1536, pixel-identical language pairs; nine strings, three illustrated explanatory cards, reference-based identity/anatomy, crayon/pastel medium, full-size/342x513 phone review, eight synchronized sidecars and package QA pass.
-- Natural submerged-foot/far-toe occlusion allowed; feeding-eye visibility is not an exclusion gate. Qualitative microscopic-food/travel/nest studies; adult sex/size/feather/toe counts unspecified, usual egg and often-night qualifiers preserved. No unresolved material caveat.
-- User-requested posting revision: JA/EN main posts add swimming while feeding; stories continue into chick groups and grey-brown juvenile plumage. FSG/BirdLife sources directly checked, six changed sidecars synchronized, full package QA passed. Posters, poster Copy Lock and ALT preserved.
-- User subsequently clarified that this topic was already posted. The revised local posting sets are editorial examples, not a transcription of the live X post; apply the workflow improvements from the next production run. No repost or live edit requested.
-- Previous 2026-10-09-whale-shark remains completed, published after user-authorized GitHub closeout. Nothing posted to X.
+- Topic: European Mantis / ウスバカマキリ / Mantis religiosa. Full-history accepted name, historical Gryllus and Mantis synonyms, bilingual common names and slug screened, no collision.
+- Region: Europe, Africa and Asia; European sunny dry grassland scene.
+- Editorial classification group: Insects. Exact lineage: Animalia > Arthropoda > Insecta > Mantodea > Mantidae > Mantis.
+- Selected Japanese: images/european_mantis_japanese_imagegen_2026-10-12.png; actual prompt image-prompt-ja.md.
+- Selected English: images/european_mantis_english_imagegen_2026-10-12.png; actual prompt image-prompt-en.md.
+- GitHub closeout: content commit 7dac95c3a1e34d3b7c48b31047610dcec702af42, verified at origin/master; publication metadata follows in a separate commit. No X action.
+- Four canonical PNGs exact 1024x1536, pixel-identical language pairs; pre-image/immediate-source/full package QA and eight synchronized UTF-8 sidecars pass. Installed offline X helper used; no dependency installs.
+- Brown adult female, contextual green coxal study, opaque ridged attached foam egg case; natural far-leg overlap allowed, no forced spread or invented hidden structures. No exact body/egg/spine count. German overwintering scope in main/source reply, not worldwide season. No unresolved material biological/visual caveat; dated Global 2015 LC remains disclosed.
+- Main adds winter egg survival, story follows young without fully formed wings through molts to adult wings; distinct information beyond cards. ALT language-matched and actual-art reviewed.
+- Previous 2026-10-10-lesser-flamingo remains completed, published. User's earlier X-publication report remains unverified; no assistant X action.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-10-03 — Southeastern USA / Carolina wet pine savanna — Venus Flytrap
-2. 2026-10-04 — Tropical Indo-Pacific / mangrove estuaries — Banded Archerfish
-3. 2026-10-05 — Southwestern Africa / Namib arid sand and gravel — Namaqua Chameleon
-4. 2026-10-06 — Tropical Indo-Pacific / shallow western-Pacific coral reef — Giant Clam
-5. 2026-10-07 — South America / temperate Andean woodland — Monkey Puzzle
-6. 2026-10-08 — Europe / British autumn hedgerow — Western European Hedgehog
-7. 2026-10-09 — Ocean/Global / Ningaloo warm offshore water — Whale Shark
-8. 2026-10-10 — Africa and South Asia / East African inland saline lake — Lesser Flamingo
+1. 2026-10-04 — Tropical Indo-Pacific / mangrove estuaries — Banded Archerfish
+2. 2026-10-05 — Southwestern Africa / Namib arid sand and gravel — Namaqua Chameleon
+3. 2026-10-06 — Tropical Indo-Pacific / shallow western-Pacific coral reef — Giant Clam
+4. 2026-10-07 — South America / temperate Andean woodland — Monkey Puzzle
+5. 2026-10-08 — Europe / British autumn hedgerow — Western European Hedgehog
+6. 2026-10-09 — Ocean/Global / Ningaloo warm offshore water — Whale Shark
+7. 2026-10-10 — Africa and South Asia / East African inland saline lake — Lesser Flamingo
+8. 2026-10-12 — Europe, Africa and Asia / European dry grassland stems — European Mantis
 
 ## Recent-Eight Completed Classification Summary
-1. Plants — Venus Flytrap
-2. Fishes — Banded Archerfish
-3. Reptiles — Namaqua Chameleon
-4. Other invertebrates — Giant Clam
-5. Plants — Monkey Puzzle
-6. Mammals — Western European Hedgehog
-7. Fishes — Whale Shark
-8. Birds — Lesser Flamingo
+1. Fishes — Banded Archerfish
+2. Reptiles — Namaqua Chameleon
+3. Other invertebrates — Giant Clam
+4. Plants — Monkey Puzzle
+5. Mammals — Western European Hedgehog
+6. Fishes — Whale Shark
+7. Birds — Lesser Flamingo
+8. Insects — European Mantis
 
-Diversity informs selection across and within groups/forms/habitats/discoveries without quotas/cooldowns. Long-legged saline-lake wader adds inverted-bill feeding, aerial night travel and mud-nest architecture; broad filtering theme repeats Whale Shark but form, scale, habitat and connected story differ.
+Diversity informs selection across and within groups/forms/habitats/discoveries without quotas/cooldowns. Slender grass-stem ambush hunter and foam egg architecture add an insect body plan and developmental progression; Europe repeats a recent region but not its form/habitat/story.
 
 ## Daily Quality Loop
-- Issue: no unresolved package blocker. User-authorized editorial/workflow changes implemented in the policy and templates.
-- Unresolved carryover: verify the revised reference-acquisition waiting budget on the next actual transfer; record elapsed wait, fallback or uninterruptible overrun. Latency reduction has not yet been measured. No separate benchmark run required.
+- Issue: browser downloadMedia timeoutMs=60000 did not enforce a one-minute wait: uninterruptible 1809.58s overrun then failure. One identified museum direct-media fallback (urllib timeout=35, network-capable execution) succeeded in about 2.2s; full references preserved and reused.
+- Unresolved carryover: browser download timeout enforcement/latency remains unresolved. Do not treat eventual direct-media success as a fix to the browser route. Prefer observed direct-media transfer where it supplies the same evidence; record actual timing on next required acquisition without separate benchmark.
 
 ## Next Concrete Change
-Apply the revised policy/templates through the existing Automation entry point: distinct card/post/story information, evidence-grounded anatomy-rejection reasons, elapsed-time reference fallback and meaningful deferred-candidate reuse. Confirm reference waiting on the next actual acquisition; retain the accepted package and its 2018 footer. GitHub/X publication remains separate.
+Continue revised diversity, distinct card/post/story information and reference-grounded natural anatomy. Use observed direct-media references before a slow browser export when equivalent. GitHub/X closeout remains separate.
