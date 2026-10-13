@@ -2323,3 +2323,16 @@ Daily Quality Loop
 ## 2026-10-12 — European Mantis GitHub closeout
 - User authorized end-of-day GitHub publication. Package and INDEX pushed to origin/master in content commit 7dac95c3a1e34d3b7c48b31047610dcec702af42; exact remote refs/heads/master matched before publication records were updated. README, sources QA, INDEX and current state synchronized 2026-10-12T20:58:50+09:00; metadata follows in a separate commit.
 - Sidecar drift: none, package QA and staged whitespace checks passed. Posters and public copy preserved; unrelated cleanup script excluded. Nothing posted or replied to X. No new learning or production-policy change.
+
+
+## 2026-10-13 — Fire Salamander Quality Run
+- Completed 2026-10-13-fire-salamander / ファイアサラマンダー / Salamandra salamandra, Amphibians, Europe/woodland stream; completed, local-ready. Compared Common Cuttlefish and duplicate Welwitschia, scanned latest eight/twenty and full-history names/aliases. No collision for selected taxon.
+- Official IUCN T59467A219148292 Global & Europe VU A3ce ver 3.1, assessed 26 July 2022, published 2023 directly rendered; field transcription retained. MME adult/portrait and JLU larva references settle black-yellow stout adult, posterior parotid and brown gilled larva; reproduction varies, most/common scope retained. Cards birth/pattern/gland, main land mating, story aquatic feeding/gill regression/land progression.
+- One concrete learning: the Card-3 initial arrow pointed above the eye rather than at the posterior parotid; a single localized removal corrected the explanation without a replacement pointer. All defining structures and copy re-reviewed after the edit; original retained in audit. Actual prompts image-prompt-ja-retry.md / image-prompt-en.md. English first pass accepted.
+- Four exact 1024x1536 PNGs, pixel-identical language pairs, nine strings, three illustrated explanatory cards, crayon/pastel/full-size/342x513 phone reviews, eight offline UTF-8 sidecars and all package QA passed. No installs, Git/GitHub/X mutation or publication. No material remaining biological/visual caveat.
+- Prior transfer carryover observed on required acquisition: sandbox DNS failed immediately, same identified direct-media route with network-capable execution and 35s timeout succeeded 3.11/1.78/1.83s. Browser download timeout enforcement remains unresolved; no browser export repeated. No policy change/new gate.
+- Current run time: 2026-10-13T19:43:53+09:00.
+
+## 2026-10-13 — Fire Salamander GitHub closeout
+- User authorized end-of-day GitHub publication. Package and INDEX pushed to origin/master in content commit ecfe170b9d7dc1a1c6ffb3e62ec787a65f763976; exact remote refs/heads/master matched before publication records were updated. README, sources QA, INDEX and current state synchronized 2026-10-13T22:46:01+09:00; metadata follows in a separate commit.
+- Sidecar drift: none; full package and staged whitespace checks passed. Posters and public copy preserved. Nothing posted or replied to X. No new learning or production-policy change.
