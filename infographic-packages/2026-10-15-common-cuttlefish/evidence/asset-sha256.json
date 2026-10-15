@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-15T21:41:02+09:00",
+  "sha256": {
+    "evidence/iucn-browser-fields-2026-10-15.md": "fa4f0089b6855765f7b83c2c14999713d329abb7aa8402ac6dd0a0c561292ea5",
+    "evidence/phone-en.png": "900446006786c39dc6e18c00e075e441bee409d81dcbe8964a289e4e7dad5beb",
+    "evidence/phone-ja.png": "cbab00f85db7b99eb698b3b8105e407e534544091fb3370631f4216b33c24793",
+    "image-prompt-en.md": "050be9da4a08c5535ba89b5b93ae31ed3ecef7e5f3425bba0ce692e55e0dd684",
+    "image-prompt-ja.md": "376c8d655f18e07963ddcbb257fb3109692d4eacac0da3d5dc3e8480c52736d3",
+    "images/common_cuttlefish_english_imagegen_2026-10-15.png": "97372bd7b69d3c49b6284222d96e57fa9e5a37389288929c872d1578c4e279b5",
+    "images/common_cuttlefish_english_posting_2026-10-15.alt.txt": "e2ade7726a2ae408068249cafd38bf54dfef3868fd5e89d35cea33aca3844586",
+    "images/common_cuttlefish_english_posting_2026-10-15.caption.txt": "2a4ded869c9cbcd775d53027f6646085fd2b045ed72b43603e2ee754d2f34eb0",
+    "images/common_cuttlefish_english_posting_2026-10-15.png": "de2178c67df8a93faae79c02a4a3d36b1912d5faa8d17b78b314d039479ddd65",
+    "images/common_cuttlefish_english_posting_2026-10-15.source-note.txt": "b0e52eb564e5a9d66b3736b63b39f219502f0e0d98f28f4efdeedd21976fe4fe",
+    "images/common_cuttlefish_english_posting_2026-10-15.story-reply.txt": "8a0ee4e6f92cdb1dd1c6e44923bcdf46f6462fef213986bf0e8b54ab8285ac57",
+    "images/common_cuttlefish_japanese_imagegen_2026-10-15.png": "7bccd8348f0f216252843773b27d62e0722f7e2213ecaf7ae3bb75fa22b6edfa",
+    "images/common_cuttlefish_japanese_posting_2026-10-15.alt.txt": "91cd2e3248adad3958c206314b6f876a62bf4f49552a7f6939de22907d062519",
+    "images/common_cuttlefish_japanese_posting_2026-10-15.caption.txt": "3b268ea6b00b7dadc87a75b6a03697e4487ae42a109aa2373a65f244bb28a59e",
+    "images/common_cuttlefish_japanese_posting_2026-10-15.png": "4f8395baa5cd33eb344e2f56f3683555ff7291a593bd0e922009b70d29b5fd6f",
+    "images/common_cuttlefish_japanese_posting_2026-10-15.source-note.txt": "e43a76a85adfb813d1ee9975bd672631d3921f504493c43a5b4893da02a1d190",
+    "images/common_cuttlefish_japanese_posting_2026-10-15.story-reply.txt": "61e6f3c05ee5cee5fea0fd0980815aed5796c39fe02fe3bdf8e8e2b86577c336",
+    "infographic-copy-en.md": "8a1a4ef7f47c2376d3b15c896fb8220821334f172dd6f672d1a37b32aedc7a32",
+    "infographic-copy-ja.md": "56439c61fbd226f87bc1cdf8fb99e4f0788f7c390dfaee41f92239e729e38783",
+    "references/marlin-body.jpg": "707e0f9643f671869dc86e0e75027d4eba2444137ac5a544d8d36b6e1aff7d21",
+    "references/marlin-cuttlebone.jpg": "f6e06b6d0ad5958b4c7be31b7c8a2a5f834ea0f214c51fe6a327c3d5a9ef4c0f",
+    "references/marlin-eggs.jpg": "0e2a8bf1a43c5189d5e2d6d6900e2c56f4c1971b2c45510e713d98e3bed1a3c7",
+    "x-post-en.md": "b5eac303e389933435cbd4e499426016ccc6933f648fa05d8390142166e45f57",
+    "x-post-ja.md": "db46bbf43b1d26324f89909d9cb78e6af1b334801581b9891cb7e8125af44f1d",
+    "evidence/iucn-sepia-officinalis-assessment-2012.pdf": "51e0c2780b01e30b5f00247dcc498c0ca8c18e37481f46c9a600b140a0be2941",
+    "evidence/iucn-user-page-capture-2026-10-15.png": "872b5f806a3016ae926478767ad5defb10ee81038365fdbd88c16bf1471c312b"
+  }
+}
