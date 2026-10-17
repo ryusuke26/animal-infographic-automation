@@ -2365,3 +2365,16 @@ Daily Quality Loop
 - README, sources QA, INDEX and current state now record completed, published; metadata follows in a separate commit. Full package QA, all 26 asset hashes, four exact 1024x1536 PNGs, direct/posting pixel identity, sidecar sync (0 updated) and staged whitespace checks pass. No adopted artwork, public copy, Copy Lock, prompts or evidence originals changed; no unrelated changes found, no new production learning/policy change.
 - X publication: user reported that they had already posted on X. Post URL, posting time and Japanese/English publication scope were not supplied or independently verified. The assistant did not post or send replies.
 - Current run time: 2026-10-15T21:48:39+09:00.
+
+## 2026-10-17 — Bearded Vulture Quality Run
+- Completed 2026-10-17-bearded-vulture, Birds, Europe/Asia/Africa mountain range with Pyrenean ledge scene; completed, local-ready. Compared Marine Iguana and Lion's Mane; Saiga excluded as completed. Full-history synonyms/aliases pass; prior candidate advanced to direct Global/date and exact-taxon references. Latest eight/twenty scanned; mountain scavenger/bone processing/cosmetic coloration add within-group/habitat variety.
+- IUCN official Global NT A2cde ver 3.1, T22695174A154813652, assessed 26 July 2021/published 2021 directly rendered and transcribed. Avibase names and VCF biology/three real references support locked cards, vertebra-sized bone capability and juvenile-to-adult feather story; staining reason explicitly uncertain.
+- Both initial built-in crayon/pastel posters accepted, zero retries/repairs. Japanese reviewed before English; actual prompts image-prompt-ja.md/image-prompt-en.md. Four exact 1024x1536 PNGs, pixel-identical pairs, nine strings/three illustrated numbered cards, natural occlusion, full/342x513 phone review, eight offline sidecars, 24 asset hashes and package QA pass. No Git/GitHub/X mutation/publication.
+- Daily Quality Loop issue: none; no new learning/policy/gate. Existing downloadMedia timeout issue unresolved. Actual required acquisition: sandbox direct-media DNS 0.12s; network-capable same URL HTTP 403 under 2s; one current-pageAssets alternative, exactly three observed/visually checked photos, succeeded 4.277s. No repeated export or timeout-fix claim.
+- Current run time: 2026-10-17T11:22:12+09:00.
+
+## 2026-10-17 — Bearded Vulture authorized GitHub closeout
+- User explicitly authorized commit and push via voice chat. Package and INDEX published in content commit 6b97f65a73fcac6f3598b4e9473dab4e0a774c58; exact remote refs/heads/master verified before published-state metadata.
+- README, sources QA, INDEX, current state and this closeout record now mark completed, published on GitHub; metadata follows separately. Full package QA, all 24 asset hashes, four exact 1024x1536 PNGs/pixel-identical language pairs, eight synchronized sidecars (zero drift), and staged whitespace checks passed. Accepted art, public copy, Copy Lock, prompts and evidence unchanged. No unrelated files included; no new production learning or policy change.
+- X posting/replies not authorized or performed; no X publication inferred.
+- Current run time: 2026-10-17T20:57:16+09:00.

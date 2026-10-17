@@ -1,5 +1,5 @@
 # Bearded Vulture / ヒゲワシ
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Birds
 Broad native region: mountains of Europe, Asia and Africa; Pyrenean rocky mountain scene.
@@ -7,7 +7,7 @@ Broad native region: mountains of Europe, Asia and Africa; Pyrenean rocky mounta
 ## Posting sets
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
-Each main post attaches its own language's single poster. Local production only; no GitHub or X publication authorized.
+Each main post attaches its own language's single poster. GitHub publication is verified below. No X post or reply is authorized or performed.
 
 ## Selected poster files
 - [Japanese posting PNG](images/bearded_vulture_japanese_posting_2026-10-17.png)
@@ -29,4 +29,9 @@ Visible broken charcoal/orange pastel strokes remain in the hero's feathers, blu
 
 Status is the dated official Global NT assessment from 26 July 2021, not a new 2026 assessment. Exact sex, age, size, bone dimensions and reason for feather staining are not asserted. No material remaining biological/visual blocker; no explicit user adoption claimed.
 
-Completed, local-ready. Git/GitHub and X were not mutated or published by this run. Each main post is ready to use with its language-matched single posting PNG.
+At production closeout the package was completed, local-ready, with Git/GitHub/X untouched. The subsequent user-authorized GitHub publication is recorded below. Each main post remains ready to use with its language-matched single posting PNG.
+
+## Authorized GitHub closeout — 2026-10-17T20:57:16+09:00
+The user explicitly authorized commit and push through the voice chat. The package and INDEX reached origin/master in [6b97f65](https://github.com/ryusuke26/animal-infographic-automation/commit/6b97f65a73fcac6f3598b4e9473dab4e0a774c58); exact remote refs/heads/master matched 6b97f65a73fcac6f3598b4e9473dab4e0a774c58 before this published-state update. Publication metadata follows in a separate commit.
+
+Full package QA, eight sidecars (zero drift), all 24 protected asset hashes, four exact 1024x1536 PNGs and direct/posting pixel identity passed. Accepted images, posting copy, Copy Lock, prompts and evidence were preserved; no unrelated changes included. State: completed, published on GitHub. X posting/replies remain unperformed and no X publication is inferred.
