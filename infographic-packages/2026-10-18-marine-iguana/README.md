@@ -1,5 +1,5 @@
 # Marine Iguana / ウミイグアナ
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Reptiles
 Broad native region: Galapagos Islands, Ecuador / eastern tropical Pacific, South America; volcanic rocky shore.
@@ -7,7 +7,7 @@ Broad native region: Galapagos Islands, Ecuador / eastern tropical Pacific, Sout
 ## Posting sets
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
-Each main post attaches its own language's single poster. GitHub and X publication require separate authorization.
+Each main post attaches its own language's single poster. User-authorized GitHub publication is verified below. X posting/replies remain unauthorized and unperformed.
 
 ## Selected poster files
 - [Japanese posting PNG](images/marine_iguana_japanese_posting_2026-10-18.png)
@@ -31,4 +31,11 @@ Status footer uses the directly verified 1 December 2019 assessment, not 2020 pu
 
 Reference acquisition encountered a recorded 25m35s uninterruptible pageAssets overrun before success; that is operational history, with no missing reference asset. Browser media latency remains unresolved.
 
-Completed locally. No Git mutation, GitHub publication, X post or reply performed.
+At production closeout this package was completed, local-ready. Subsequent user-authorized GitHub publication is recorded below. No X post or reply performed.
+
+## Authorized GitHub closeout — 2026-10-18T21:55:01+09:00
+The human user explicitly confirmed commit and push in the voice chat; that authorization was relayed to this production chat. Package and INDEX were published to origin/master in [d794136](https://github.com/ryusuke26/animal-infographic-automation/commit/d794136b90d86fc2ea83a4cd9856261369c550e7). Exact remote refs/heads/master, local HEAD and tracking origin/master all matched d794136b90d86fc2ea83a4cd9856261369c550e7 before these publication-state changes. Publication metadata follows separately.
+
+Full package QA, eight sidecars (zero drift), all 23 protected asset hashes, four exact 1024x1536 PNGs and direct/posting pixel identity passed. Completed images, public copy, Copy Lock, prompts, references and evidence preserved; only publication records changed. No unrelated changes included, no new production learning or policy change. State: completed, published on GitHub. X posting/replies remain unperformed; no X publication inferred.
+
+Final Git-blob verification found seven Markdown sources differed only by Windows CRLF versus Git LF. Their working copies were normalized to the already-published LF bytes and the asset manifest refreshed, so all 23 hashes now verify both locally and from Git blobs. Text content, all images, reference files and sidecars are unchanged; this is newline/manifest bookkeeping only.

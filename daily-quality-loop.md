@@ -2378,3 +2378,17 @@ Daily Quality Loop
 - README, sources QA, INDEX, current state and this closeout record now mark completed, published on GitHub; metadata follows separately. Full package QA, all 24 asset hashes, four exact 1024x1536 PNGs/pixel-identical language pairs, eight synchronized sidecars (zero drift), and staged whitespace checks passed. Accepted art, public copy, Copy Lock, prompts and evidence unchanged. No unrelated files included; no new production learning or policy change.
 - X posting/replies not authorized or performed; no X publication inferred.
 - Current run time: 2026-10-17T20:57:16+09:00.
+
+## 2026-10-18T21:17:11+09:00 — Marine Iguana Quality Run
+- Completed 2026-10-18-marine-iguana, Reptiles, Galapagos/Ecuador volcanic shore; completed, local-ready. Compared Fennec Fox and Red Cage fungus; replaced unchanged Lion's Mane blocker. Latest eight/twenty and full-history synonym/alias gates pass; prior Marine Iguana candidate advanced to direct Global/date and real identity references.
+- Official IUCN T1086A177552193 Global VU A2abce+4abce ver 3.1, assessed 1 December 2019, published/assessor-name erratum 2020 directly rendered and transcribed. Reptile Database/Japan MOE names and two GCT real photos support locked identity. Cards algae/salt/sun; main adds low-tide small individuals, story underwater heartbeat and cold-night aggregation.
+- Both initial built-in crayon/pastel posters accepted, zero retries/repairs. Japanese reviewed before English; actual prompts image-prompt-ja.md/image-prompt-en.md. Four exact 1024x1536 PNGs, pixel-identical pairs, nine strings/three illustrated numbered cards, natural occlusion, full/342x513 phone review, eight offline sidecars and package QA pass. No installs or Git/GitHub/X mutation/publication.
+- One concrete learning, ops-friction: pageAssets is also subject to uninterruptible latency. Sandbox direct-media DNS failed 0.05s; same observed URL network-capable HTTP403 0.69s; one pageAssets alternative for exactly two checked photographs succeeded but took 1535.105s. No exposed cancellation/timeout, duplicate export or latency-fix claim. Reuse first bundle; next required acquisition records actual wait without separate benchmarking. No new policy/gate.
+- Current run time: 2026-10-18T21:17:11+09:00.
+
+## 2026-10-18T21:55:01+09:00 — Marine Iguana authorized GitHub closeout
+- Human user explicitly confirmed commit/push via voice chat; authorization relayed to this production chat. Package and INDEX published in content commit d794136b90d86fc2ea83a4cd9856261369c550e7; exact remote refs/heads/master and local/tracking values matched before published-state metadata.
+- README, sources QA, INDEX, current state and this closeout record mark completed, published on GitHub; metadata follows in a separate commit. Full package QA, eight sidecars (zero drift), all 23 protected asset hashes, four exact 1024x1536 PNGs and direct/posting pixel identity pass. Completed artwork, public copy, Copy Lock, prompts and evidence unchanged; no unrelated changes or new production learning/policy changes.
+- No X posting/reply authorization or action; no X publication inferred. Existing browser reference-export latency carryover unchanged.
+- Current run time: 2026-10-18T21:55:01+09:00.
+- Closeout hash detail: seven Markdown working copies normalized CRLF to the already-published Git LF; manifest refreshed. All 23 local/Git-blob hashes now agree; images, public text content, references and sidecars preserved. No new production policy/gate.

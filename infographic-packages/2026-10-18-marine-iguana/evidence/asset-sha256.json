@@ -1,9 +1,9 @@
 {
-  "evidence/iucn-browser-fields-2026-10-18.md": "dc8a867f0929e5b8572f04443507d2eb02dbce8856ffc96435799bd14c6a9441",
+  "evidence/iucn-browser-fields-2026-10-18.md": "7d3c033594b60f27e5833eab2d4ba50aab6f40232afb0e332e028c62b80e81a1",
   "evidence/phone-en.png": "f2be901135ce5df7633fe2604bc688f7e7c36d24651099e1b937ba1efee3aeb7",
   "evidence/phone-ja.png": "406173c5f44f8f36e69e1bc2d42b30872ccd2e3960876ae5bc9ba2e6ba3f2388",
-  "image-prompt-en.md": "cd87daeb628316acf38ee7345644c4deac60f02edfb75d6358028448ca44dabe",
-  "image-prompt-ja.md": "ff454c7fd32e426e175e858d736e959678c91c74c650606de8bfeeb6e32ac34d",
+  "image-prompt-en.md": "f5267331f6b5c10de65484d040c241a4b3cda88d9891adf66b12f14cdfbea23d",
+  "image-prompt-ja.md": "5b8d9b0041439c17a4f45061ea07a9ac0fd4021f97ceb04f7f057b0961dbf6ca",
   "images/marine_iguana_english_imagegen_2026-10-18.png": "5a3fa1ed19c53897dc7cb1d0679648e8be4c121352afa40a80f302f5075227bf",
   "images/marine_iguana_english_posting_2026-10-18.alt.txt": "8a74ac359817b8c89a26e80fab0fce78cb8172ad578376231ca4a1c32e1445a3",
   "images/marine_iguana_english_posting_2026-10-18.caption.txt": "4e15d76103c8eb3e0ea7cf662f0eba33983c4403b2132794634661e87b01e5b2",
@@ -16,10 +16,10 @@
   "images/marine_iguana_japanese_posting_2026-10-18.png": "5f7cdfad77d75f8b5a93671d78097b599fc48c7c58f7a042db227aae4a30ad1a",
   "images/marine_iguana_japanese_posting_2026-10-18.source-note.txt": "7e9675b10e0fdf17c2f009b5b63897989c3d9c4d32b0d32fc2b7443271dc8112",
   "images/marine_iguana_japanese_posting_2026-10-18.story-reply.txt": "474a993b550c887b4ad79e74909485bf67830380b9665af229603a9298d51a24",
-  "infographic-copy-en.md": "7e94b142cd31e919403fb4be337edce2bd360eaa2a1a5e41dcb67510fcd5333a",
-  "infographic-copy-ja.md": "4dbbb30eba97e3bc792166e40700af60a83d7a985b0d1ab15df3a4f6b0e1c6a7",
+  "infographic-copy-en.md": "2006f3a6379696eb00ce938d36b72d0dc53d3fd3e91e3e4eef3404e68bf32144",
+  "infographic-copy-ja.md": "1480a64cdff2cc296999cad2fe72d054751584a0f69b392ce7e5fcd2852ecbbb",
   "references/gct-body.webp": "fd2053a2af524afc14dfcb82f59bd8dcffa7c505ee29b2515b81d6b1f9c22b7f",
   "references/gct-head.webp": "76d1431aa34e3916732df4bc44a7a8b33345a0b6022b46416a8601401feb2a3c",
-  "x-post-en.md": "6a8cfdfc5e3fa4ebc2c8e6b7030062763c73becb09b3dfdf7f2c0c1a122a5456",
-  "x-post-ja.md": "e2b4d5001aaf085afb0681358b5cc5c0dc8c5eef81a2cfbbd5a434bfe9fcdf64"
+  "x-post-en.md": "8a89977edf72cddccf6196ac7c021b1977014de5b90e066da593644aa830b24d",
+  "x-post-ja.md": "19745b9f8994674a2d1df40abd8ec1e1b20a811b87db3ced20eaf4d3cc938633"
 }
