@@ -1,5 +1,5 @@
 # Fennec Fox / フェネック
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Mammals
 Broad native region: North Africa / Sahara and Sinai; Saharan sandy dune margin with sparse grass.
@@ -7,7 +7,7 @@ Broad native region: North Africa / Sahara and Sinai; Saharan sandy dune margin 
 ## Posting sets
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
-Each main post attaches its own language's single poster. Local production only; no Git/GitHub/X publication or replies authorized or performed.
+Each main post attaches its own language's single poster. User-authorized GitHub publication is verified below. X posting/replies remain unrequested and unperformed.
 
 ## Selected poster files
 - [Japanese posting PNG](images/fennec_fox_japanese_posting_2026-10-19.png)
@@ -27,6 +27,13 @@ Both initial built-in Image Gen posters accepted, zero retries/local repairs. Ja
 
 Footpads are not exposed diagrammatically; no forced underside pose, exact digit count, sex, size or population assertion. Warm golden-ochre fur represents the sandy-buff adult in dusk light, with diagnostic pale face/legs retained. Footer uses the directly confirmed 22 July 2015 assessment; source replies retain Needs updating. No material remaining visual/biological blocker. Biological and manual visual gates remain separate from validators and explicit user adoption; no user adoption claimed.
 
-[Phone JA](evidence/phone-ja.png), [Phone EN](evidence/phone-en.png). Accepted direct sources and posting copies are exact 1024x1536; normalization, sidecars and package checks are recorded in sources-qa.md. Completed, local-ready; GitHub and X remain unpublished by this run.
+[Phone JA](evidence/phone-ja.png), [Phone EN](evidence/phone-en.png). Accepted direct sources and posting copies are exact 1024x1536; normalization, sidecars and package checks are recorded in sources-qa.md. At production completion this package was local-ready; subsequent authorized GitHub publication is recorded below. No X action was performed.
 
 Final package QA and eight offline sidecars passed; four exact 1024x1536 PNGs and language-pair pixel identity verified. [Asset SHA-256 manifest](evidence/asset-sha256.json). Completed 2026-10-19T20:37:40+09:00.
+
+## Authorized GitHub closeout — 2026-10-19T22:51:50+09:00
+The human user requested today's GitHub work and reconfirmed proceeding. The existing destination and scope were verified: ryusuke26/animal-infographic-automation, master; this package plus INDEX and related current-state/daily metadata only. After the earlier review rejected an unspecified destination/scope, those facts were supplied and the scoped push succeeded.
+
+Package and INDEX published in [d18469d](https://github.com/ryusuke26/animal-infographic-automation/commit/d18469d78cf441c196c2ae6f2338329cf76d4e16); actual remote refs/heads/master matched d18469d78cf441c196c2ae6f2338329cf76d4e16 before these publication-state edits. Publication metadata follows separately.
+
+Full package QA, eight sidecars (zero drift), 25 local and staged/committed asset hashes, four exact 1024x1536 PNGs and language-pair pixel identity passed. Text line endings were normalized to Git LF and the manifest refreshed; accepted images, public copy, Copy Lock and prompts retain the same content. No unrelated changes included. User-reported personal confirmation of IUCN 2015 LC agrees with existing official evidence; no new assessment, PDF or screenshot claimed. State: completed, published on GitHub. No X post/reply performed or X publication inferred.

@@ -2392,3 +2392,16 @@ Daily Quality Loop
 - No X posting/reply authorization or action; no X publication inferred. Existing browser reference-export latency carryover unchanged.
 - Current run time: 2026-10-18T21:55:01+09:00.
 - Closeout hash detail: seven Markdown working copies normalized CRLF to the already-published Git LF; manifest refreshed. All 23 local/Git-blob hashes now agree; images, public text content, references and sidecars preserved. No new production policy/gate.
+
+## 2026-10-19 — Fennec Fox Quality Run
+- Completed 2026-10-19-fennec-fox, Mammals, North Africa / Saharan sandy dune margin; completed, local-ready. Latest eight/twenty scanned; full-history associated names and aliases pass. Familiar fox's furry soles and den/family story add within-group variety; desert recurrence weighed. Venus Flytrap duplicate excluded, Elephant Beetle contrasting reference lead, unchanged Red Cage replaced.
+- Official IUCN T41588A46173447 Global LC ver 3.1, assessed 22 July 2015/published 2015, Needs updating directly rendered/transcribed. MDD/Kyoto names and two SDZ real photos support Evidence/Copy Lock. Cards soles/ears/den; main adds fruit/roots; story adds mother care and father provisioning.
+- Both initial built-in crayon/pastel posters accepted, zero retries/repairs. Actual prompts image-prompt-ja.md/image-prompt-en.md; Japanese reviewed before English. Four exact 1024x1536 PNGs, pixel-identical pairs, nine strings/three illustrated cards, natural anatomy, full/342x513 phone/style review, eight offline sidecars and package QA pass. No installs or Git/GitHub/X mutation/publication.
+- Daily Quality Loop issue: none; no new learning, gate or policy change. Existing browser export latency remains unresolved. Required observed direct-media acquisition: sandbox DNS 0.046s/0.000s; network-capable same URLs with timeout35 succeeded 0.515s/0.078s, 0.593s total. First two-photo bundle reused; no browser export or benchmark.
+- Current run time: 2026-10-19T20:37:40+09:00.
+
+## 2026-10-19T22:51:50+09:00 — Fennec Fox authorized GitHub closeout
+- Human user requested today's GitHub processing and reconfirmed proceeding. Existing destination ryusuke26/animal-infographic-automation/master and package26 + INDEX/current-state/daily total29 paths verified. Earlier unspecified destination/scope rejection addressed with concrete read-only evidence; scoped content push succeeded.
+- Package and INDEX published in d18469d78cf441c196c2ae6f2338329cf76d4e16; actual remote refs/heads/master verified before completed,published metadata. Current-state/daily and package/INDEX publication records follow separately.
+- Full package QA, eight sidecars (zero drift), 25 local/staged Git-blob hashes, four exact 1024x1536 PNGs and language-pair pixel identity passed. Text line endings normalized to Git LF and manifest refreshed; artwork/public copy/Copy Lock/prompt content preserved. No unrelated changes, no new production learning/gate/policy.
+- User reported checking official IUCN homepage and confirming 2015 LC; attributed corroboration agrees with existing direct fields, no new assessment or supplied evidence claimed. No X post/reply performed or publication inferred. Existing browser latency carryover unchanged.

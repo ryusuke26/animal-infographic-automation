@@ -2,7 +2,7 @@
 IUCN check: Global Least Concern (LC), ver 3.1; T41588A46173447; Date assessed 22 July 2015, Year published 2015; Needs updating. Official fields directly rendered before Copy Lock; no PDF claimed.
 Copy Lock: cards-v2, nine strings per language, locked before art.
 Workflow mode: Quality Run
-State: completed, local-ready.
+State: completed, published.
 Checked: 2026-10-19 (Asia/Tokyo)
 
 ## Selection and full-history gate
@@ -80,3 +80,7 @@ Pre-image Copy Lock QA passed before art; each initial output passed its immedia
 
 ## User-reported official-page confirmation — 2026-10-19
 The human user reported personally checking the IUCN homepage and confirming the 2015 LC record. This is user-reported corroboration, not a newly acquired PDF/screenshot or a new assessment. It agrees with the production run's directly rendered Date Assessed 22 July 2015, Global LC, and Needs updating. Locked public text and accepted artwork remain unchanged. The human user also requested today's GitHub closeout and reconfirmed proceeding; the verified target is the existing ryusuke26/animal-infographic-automation repository's master branch, scoped to this package and INDEX plus its current-state/daily publication metadata. X actions were not requested.
+
+## Authorized GitHub closeout — 2026-10-19T22:51:50+09:00
+Human user requested today's GitHub closeout and reconfirmed proceeding; concrete destination and 29-path scope verified after the earlier unspecified-scope review rejection. Content commit d18469d78cf441c196c2ae6f2338329cf76d4e16 includes only package (26 files) plus INDEX. Normal push to origin/master succeeded and actual remote refs/heads/master equalled d18469d78cf441c196c2ae6f2338329cf76d4e16 before publication-state edits. Current-state/daily and package/INDEX published-state metadata follow separately. No X action authorized or performed.
+All 25 manifest assets matched working bytes and staged Git blobs before the content commit; all accepted artwork/public-copy/Copy Lock/prompt content is preserved. CRLF-to-LF bookkeeping and hash refresh only, apart from explicitly attributed user-reported IUCN confirmation and publication records. Full package QA and zero sidecar drift passed. No new production learning/policy change; browser export latency remains unresolved historical carryover.
