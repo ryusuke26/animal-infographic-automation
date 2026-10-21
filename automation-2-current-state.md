@@ -1,55 +1,57 @@
 # Automation 2 Current State
-Updated: 2026-10-19T22:51:50+09:00
+Updated: 2026-10-21T21:51:38+09:00
 
 ## Workflow
-- Default workflow: Quality Run; Japanese/English posters, exact vertical 2:3, exactly three numbered illustrated explanatory cards.
-- Required medium: crayon / oil-pastel observation sketch; generated_infographics/purple_frog_ja_2026-04-28.png benchmark controls texture/warmth only.
+- Default workflow: Quality Run; Japanese/English, exact vertical 2:3, exactly three numbered illustrated explanatory cards.
+- Required medium: crayon / oil-pastel observation sketch; generated_infographics/purple_frog_ja_2026-04-28.png controls texture/warmth only.
 - Pending evidence package: none.
 - Active package: none.
 - Unfinished visual gate: none.
-- Latest package: 2026-10-19-fennec-fox.
-- Latest state: completed, published on GitHub. User-authorized content commit d18469d78cf441c196c2ae6f2338329cf76d4e16 pushed to origin/master; exact remote refs/heads/master verified before publication metadata. Previous Marine Iguana remains published. No X action performed.
-- Latest evidence: official IUCN T41588A46173447 Global LC ver 3.1, assessed 22 July 2015, published 2015, Needs updating. Fields directly rendered and transcribed; no PDF claimed.
+- Latest package: 2026-10-21-eurasian-beaver.
+- Latest state: completed, published on GitHub. Both Eurasian Beaver and Four-eyed Fish published in user-authorized content commit 713f75fc0bf31b08ddd690d5730399bb0d71d3ce to origin/master; actual remote verified before publication metadata. Previous Fennec Fox remains published. No X action performed or publication inferred.
+- Latest evidence: official IUCN T4007A197499749 Global LC ver 3.1, assessed 10 September 2016; amended version published 2021. Direct Global field transcription retained; user-supplied Europe PDF/page capture added separately (Europe LC assessed 7 February 2023, published 2024, T4007A218566456). Global 2016 LC rechecked; no Global PDF claimed.
 - Latest visual result: both initial built-in posters accepted, zero retries/repairs; full/342x513 phone/nine-string/three-card/identity/anatomy/crayon-pastel gates passed.
 - Retired duplicate exclusion: 2026-08-21-montseny-brook-newt duplicates completed 2026-06-26-montseny-brook-newt; do not post.
 
 ## Latest Completed Package
-- Topic: Fennec Fox / フェネック / Vulpes zerda. MDD's 20 associated names/combinations/spellings, IUCN synonym, original combination, bilingual aliases and slug searched across full history; only prior candidate note, no package collision.
-- Region: North Africa / Sahara and Sinai; Saharan sandy dune margin with sparse dry grass.
-- Editorial classification group: Mammals. Exact lineage: Animalia > Chordata > Mammalia > Carnivora > Canidae > Vulpes.
-- Selected Japanese: images/fennec_fox_japanese_imagegen_2026-10-19.png; actual prompt image-prompt-ja.md.
-- Selected English: images/fennec_fox_english_imagegen_2026-10-19.png; actual prompt image-prompt-en.md. Built-in Image Gen; both first pass accepted.
-- Four canonical PNGs exact 1024x1536 and pixel-identical within language. Pre-image, immediate-source, full package and eight UTF-8 sidecars pass using installed offline X helper; no dependencies installed.
-- Two SDZ exact-taxon references settle enormous upright ears, tapered muzzle, buff/cream fur zones, slim coherent legs and attached bushy tail; ADW supports dark tip. Natural far-leg/toe overlap allowed; no forced underside, exact digit count, sex, age, measurement or population claim.
-- Cards: furry soles protect footpads; large ears release heat and hear prey; cool daytime den and dusk foraging. Main adds fruit/roots; story continues den into parental care/provisioning. ALT matches selected art.
-- No material remaining biological/visual blocker; no explicit user adoption claimed. Dated official assessment is 2015, not a new 2026 assessment; Needs updating disclosed in both source replies.
-- Authorized GitHub closeout: human user requested today's GitHub reflection and reconfirmed proceeding. Verified existing repository/master and scoped 29 paths; content d18469d78cf441c196c2ae6f2338329cf76d4e16 remote-verified before published-state edits. Metadata follows separately. User-reported personal IUCN 2015 LC check corroborates existing official evidence; no new PDF/screenshot/reassessment. X post/reply remains unrequested and unperformed.
+- Eurasian Beaver / ヨーロッパビーバー / Castor fiber. All 45 MDD associated names inspected; full-history Castor historical combinations, Trogontherium Werneri, genus-free belarusicus spelling, English/JP aliases and slug found no collision.
+- Broad native region: northern Eurasia; northern European freshwater willow-bank scene. Editorial classification group: Mammals. Exact lineage Animalia > Chordata > Mammalia > Rodentia > Castoridae > Castor.
+- Selected Japanese: images/eurasian_beaver_japanese_imagegen_2026-10-21.png; actual prompt image-prompt-ja.md.
+- Selected English: images/eurasian_beaver_english_imagegen_2026-10-21.png; actual prompt image-prompt-en.md. Built-in Image Gen; first passes accepted.
+- Four canonical PNGs exact 1024x1536, pixel-identical within language; pre-image, immediate-source, full package, eight UTF-8 sidecars passed with installed offline X helper; no dependencies installed.
+- Beaver Trust feeding and ASM/MDD swimming exact-taxon photographs settle blunt muzzle/small ears/dark paws/rounded body/attached paddle tail. Natural far-paw overlap and submerged hind feet accepted; no sex, exact size or fine digit count claimed.
+- Cards: naturally deep water without dams; iron in orange incisor enamel; underwater entrance rising into dry bank chamber. Main adds predator refuge; story follows northern autumn branch cache to active winter under ice. ALT matches accepted art.
+- No material remaining visual/biological blocker or explicit user adoption. Dated 2016 Global LC footer, not 2021 amendment year. Burrow schematic; illustration alone not claimed to distinguish C. canadensis.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-10-10 — Africa and South Asia / East African inland saline lake — Lesser Flamingo
-2. 2026-10-12 — Europe, Africa and Asia / European dry grassland stems — European Mantis
-3. 2026-10-13 — Europe / damp woodland floor and stream — Fire Salamander
-4. 2026-10-14 — North America / Sonoran Desert stony shrubland — Saguaro
-5. 2026-10-15 — Eastern Atlantic and Mediterranean / shallow sandy-pebbly seabed — Common Cuttlefish
-6. 2026-10-17 — Europe, Asia and Africa / Pyrenean rocky mountain ledge — Bearded Vulture
-7. 2026-10-18 — Galapagos Islands, Ecuador / volcanic intertidal shore — Marine Iguana
-8. 2026-10-19 — North Africa / Saharan sandy dune margin — Fennec Fox
+1. 2026-10-13 — Europe / damp woodland floor and stream — Fire Salamander
+2. 2026-10-14 — North America / Sonoran stony desert — Saguaro
+3. 2026-10-15 — eastern Atlantic and Mediterranean / shallow seabed — Common Cuttlefish
+4. 2026-10-17 — Europe, Asia and Africa / Pyrenean mountain ledge — Bearded Vulture
+5. 2026-10-18 — Galapagos Islands, Ecuador / volcanic shore — Marine Iguana
+6. 2026-10-19 — North Africa / Saharan sandy dune margin — Fennec Fox
+7. 2026-10-20 — northern South America and Trinidad / north Brazilian tidal mangrove creek — Four-eyed Fish
+8. 2026-10-21 — northern Eurasia / northern European willow-fringed freshwater river — Eurasian Beaver
 
 ## Recent-Eight Completed Classification Summary
-1. Birds — Lesser Flamingo
-2. Insects — European Mantis
-3. Amphibians — Fire Salamander
-4. Plants — Saguaro
-5. Other invertebrates — Common Cuttlefish
-6. Birds — Bearded Vulture
-7. Reptiles — Marine Iguana
-8. Mammals — Fennec Fox
+1. Amphibians — Fire Salamander
+2. Plants — Saguaro
+3. Other invertebrates — Common Cuttlefish
+4. Birds — Bearded Vulture
+5. Reptiles — Marine Iguana
+6. Mammals — Fennec Fox
+7. Fishes — Four-eyed Fish
+8. Mammals — Eurasian Beaver
 
-Diversity informs selection across and within groups/forms/habitats/discoveries without quotas/cooldowns. A pale desert canid and furry-sole/den/parenting story contrast with latest marine/mountain work and recent hedgehog/anteater/okapi, while desert recurrence with Saguaro/Namaqua Chameleon was explicitly weighed. Latest twenty scanned. Familiar Venus Flytrap rejected as duplicate; Elephant Beetle had Smithsonian sex-specific real reference viability, no recorded blocker, but full lock not pursued. Yesterday's unchanged Red Cage work was replaced within the three-entry slate.
+Diversity actively informs selection without quotas or cooldowns. Latest twenty scanned; rodent/water-depth/bank-burrow story contrasts with recent desert canid, hedgehog and anteater, though Europe/water recur. Compared Wrinkled Peach (official Europe VU, not Global) and Sky-blue Mushroom (preliminary assessment, Japanese E. virescens name conflict); no unresolved status promoted to Global. Familiar species admitted through supported unfamiliar aspect.
 
 ## Daily Quality Loop — unresolved carryover only
-- Browser media export latency remains unresolved: historical downloadMedia 1809.58s and pageAssets 1535.105s were uninterruptible. Do not assume either is bounded by earlier successful quick calls. On the next genuinely required acquisition, prefer already usable saved or observed direct-media references, record actual elapsed waiting, and avoid duplicate exports once a usable set exists.
-- Today's required acquisition used observed SDZ direct URLs, timeout35: sandbox DNS failed 0.046s/0.000s; network-capable same URLs succeeded 0.515s/0.078s (0.593s total). Two checked local photos reused. No browser export repeated, no separate benchmark or latency-fix claim.
+- Browser media export latency remains unresolved: historical downloadMedia 1809.58s and pageAssets 1535.105s were uninterruptible. Prefer usable saved or observed direct-media references on the next genuinely required acquisition, record actual elapsed waiting, avoid duplicate exports once a usable set exists.
+- Today: IUCN observed thumbnail sandbox DNS 0.110s, network-capable HTTP403 about 1.07s; one identified Beaver Trust direct-photo alternative succeeded 2.766s, role-distinct ASM body photo 1.469s with timeout35. Two-photo set reused; no browser export, separate benchmark or latency-fix claim.
 
 ## Next Concrete Change
-Continue varied familiar/unfamiliar discovery topics with reference-grounded natural anatomy and required crayon/pastel medium. Keep only unresolved browser latency follow-up. Today's authorized GitHub closeout is complete; X posting/replies require separate human authorization.
+Continue varied discovery topics with reference-grounded natural anatomy and required crayon/pastel medium. Keep only unresolved browser latency follow-up. Both latest packages completed and published on GitHub after explicit human authorization. X posting/replies remain separate and unperformed.
+
+## Authorized GitHub closeout
+- Human user requested both packages and explicitly approved preserving content while aligning storage format. Verified scope: fish26 + beaver31 + INDEX/current-state/daily =60 paths. First content commit 713f75fc0bf31b08ddd690d5730399bb0d71d3ce contains the two packages and INDEX (58 paths), pushed and actual remote verified; this publication metadata follows separately.
+- Both package QA,16 sidecars with zero drift,53 local/staged/committed Git-blob hashes,8 exact1024x1536 PNGs and language-pair pixel identity passed. Accepted art/public copy/Copy Lock/prompts/evidence preserved; Europe2023/Global2016 distinction retained. No X action, unrelated content, new learning or policy change.

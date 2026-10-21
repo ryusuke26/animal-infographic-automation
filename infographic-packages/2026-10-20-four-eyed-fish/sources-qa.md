@@ -58,3 +58,11 @@ Reference photographs retained for identity audit, not presented as generated/pu
 Acceptance limits: red-algae dominance is scoped to the north Brazilian study; juveniles are qualitative fully formed miniatures, not calibrated size/age specimens. No sex-specific organs, precise pupil optics/ray paths, birth aperture or fine scale/ray counts inferred. Current official LC/date supersedes older Academy status uncertainty. No material remaining biological/visual blocker. Git/GitHub/X untouched; completed, local-ready.
 
 Completed 2026-10-20T19:58:40+09:00. Daily Quality Loop issue: none; no new production learning or policy change. Existing browser-export latency remains unresolved.
+
+
+## Authorized GitHub closeout — 2026-10-21T21:51:38+09:00
+State: `completed, published` on GitHub.
+The human user requested both today's Eurasian Beaver and yesterday's Four-eyed Fish GitHub closeout, then explicitly approved preserving content while aligning storage format. Verified repository: https://github.com/ryusuke26/animal-infographic-automation , branch master; pre-closeout local/tracking/actual remote all ebf7cf9cec58fb69e228a79391399f855e98e386.
+Both packages plus INDEX were published in content commit `713f75fc0bf31b08ddd690d5730399bb0d71d3ce`. Actual remote refs/heads/master was independently verified at that full hash before updating publication state. This metadata update follows separately.
+Both package validators passed, eight sidecars per package had zero drift, all 53 manifested local/staged/committed Git-blob hashes matched, and all eight canonical posters are 1024x1536 with direct/posting pixel identity within language. Text line endings were aligned to Git LF and manifests refreshed; accepted artwork, public copy, Copy Lock, prompts and reference/evidence content were preserved (text newline representation only). Europe 2023 LC / Global 2016 LC remain distinct; Beaver PDF and screenshot remain byte-identical to the user originals.
+GitHub publication only. No X post, reply or account action performed; no user X publication inferred. No new production learning or policy change. Earlier local-ready and no-publication statements describe the production/evidence runs preceding this authorized closeout.
