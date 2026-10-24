@@ -1,5 +1,5 @@
 # Turkey Tail / カワラタケ
-State: `completed, local-ready`
+State: `completed, published`
 Workflow mode: Quality Run
 Editorial classification group: Fungi and lichens
 Broad native region: Widespread; temperate woodland hardwood log scene, North America.
@@ -7,7 +7,7 @@ Broad native region: Widespread; temperate woodland hardwood log scene, North Am
 ## Posting sets
 - [日本語の投稿セット](x-post-ja.md)
 - [English posting set](x-post-en.md)
-Attach one language-matched posting PNG. Local production; GitHub and X publication are separate.
+GitHub package published. Attach one language-matched posting PNG when posting to X; X publication remains separate and unperformed.
 
 ## Selected poster files
 - [Japanese posting PNG](images/turkey_tail_japanese_posting_2026-10-24.png)
@@ -35,4 +35,9 @@ English original: same directory, exec-650d4c6f-a81a-4a31-bd47-58862479d2aa.png.
 Copies preserved in images; originals retained. Both direct/posting pairs pixel-identical. Japanese tool references: two real photographs plus style-only benchmark. English: accepted Japanese composition plus the same two photographs and benchmark, with roles stated in prompt.
 
 
-Final QA: validate_package.py passed; eight sidecars synchronized offline, 23 protected asset SHA-256 hashes verified, four exact1024x1536 PNGs and pixel-identical per-language direct/posting pairs. No dependencies installed. Completed, local-ready; Git/GitHub/X untouched.
+Final QA: validate_package.py passed; eight sidecars synchronized offline, 23 protected asset SHA-256 hashes verified, four exact1024x1536 PNGs and pixel-identical per-language direct/posting pairs. No dependencies installed. Production finished local-ready before the authorized GitHub closeout; X untouched.
+
+## Authorized GitHub closeout — 2026-10-24T21:45:52+09:00
+Human explicitly authorized Turkey Tail commit/push, 'push too' and 'as usual', via trusted voice delegation. Destination ryusuke26/animal-infographic-automation/master independently verified; prior local/tracking/actualremote69b4f406a157889e99aef02b477a45c62e11cecd. Exact29-path union: package26 + INDEX/current-state/daily3. Content commit 7b19aca8bf57595b068157a793c60b30c52f2d4b published27 paths(package26+INDEX); independently queried actualremote, localHEAD and origin/master all matched before this five-file metadata update.
+PackageQA and eight zero-drift sidecars passed; all23 local/staged/content-committed hashes, four exact1024x1536 PNGs and pixel-identical language pairs verified. Seven extra EOF blank lines removed and manifest CRLF aligned to LF; manifest refreshed. Storage-only changes preserve artwork, public text, locked copy, prompt content, references and evidence. Conservative no-confirmed-global-assessment/Proposed caveat preserved. No X post/reply/account action. No new production learning/policy/gate.
+State: completed, published on GitHub. Separate metadata commit records publication only.

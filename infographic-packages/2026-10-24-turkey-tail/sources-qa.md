@@ -56,7 +56,7 @@ Benchmark viewed: generated_infographics/purple_frog_ja_2026-04-28.png, texture/
 Two hook candidates considered: 'ひだの代わりに、小さな孔。似たしま模様のきのこでも、裏側は違う。' (selected); 'しま模様の扇をのぞくと、裏側には小さな孔。' (less useful comparison context).
 Card1 pore/spore production, card2 internal mycelium/decomposition, card3 attachment/growth form, strongest first. Each heading plus sentence adds concrete detail.
 Main adds comparison with lookalikes absent from card1 wording. Story follows reproductive structure into dispersal/new mycelium elsewhere, a sourced next stage not enumerated cards. ALT describes all three actual illustrations. Source replies preserve Proposed versus published distinction.
-Latest Sensitive Plant and Atlantic Puffin posts read; avoided sequential seasonal-change or water-pressure openers. English conveys same biology naturally. Read-aloud editorial review pending accepted art.
+Latest Sensitive Plant and Atlantic Puffin posts read; avoided sequential seasonal-change or water-pressure openers. English conveys same biology naturally. Completed read-aloud editorial review is recorded below.
 
 ## Acquisition and review record
 Bundled dependency loader available, Python path returned; installed pinned X helper used offline, no installs.
@@ -67,4 +67,9 @@ All nine locked strings checked visually, including title, scientific name, six 
 Read-aloud editorial comparison passed: main introduces pore discovery and lookalike contrast, cards explain mechanism/growth form, story continues into dispersal and new mycelium elsewhere. ALT matches accepted drawings. No explicit user adoption; neither mechanical nor visual review claims taxonomic identification from artwork alone.
 
 
-Final QA: validate_package.py passed; eight sidecars synchronized offline, 23 protected asset SHA-256 hashes verified, four exact1024x1536 PNGs and pixel-identical per-language direct/posting pairs. No dependencies installed. Completed, local-ready; Git/GitHub/X untouched.
+Final QA: validate_package.py passed; eight sidecars synchronized offline, 23 protected asset SHA-256 hashes verified, four exact1024x1536 PNGs and pixel-identical per-language direct/posting pairs. No dependencies installed. Production finished local-ready before the authorized GitHub closeout; X untouched.
+
+## Authorized GitHub closeout — 2026-10-24T21:45:52+09:00
+Human explicitly authorized Turkey Tail commit/push, 'push too' and 'as usual', via trusted voice delegation. Destination ryusuke26/animal-infographic-automation/master independently verified; prior local/tracking/actualremote69b4f406a157889e99aef02b477a45c62e11cecd. Exact29-path union: package26 + INDEX/current-state/daily3. Content commit 7b19aca8bf57595b068157a793c60b30c52f2d4b published27 paths(package26+INDEX); independently queried actualremote, localHEAD and origin/master all matched before this five-file metadata update.
+PackageQA and eight zero-drift sidecars passed; all23 local/staged/content-committed hashes, four exact1024x1536 PNGs and pixel-identical language pairs verified. Seven extra EOF blank lines removed and manifest CRLF aligned to LF; manifest refreshed. Storage-only changes preserve artwork, public text, locked copy, prompt content, references and evidence. Conservative no-confirmed-global-assessment/Proposed caveat preserved. No X post/reply/account action. No new production learning/policy/gate.
+State: completed, published on GitHub. Separate metadata commit records publication only.
