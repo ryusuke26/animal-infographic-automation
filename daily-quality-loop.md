@@ -1,6 +1,6 @@
 # Daily Quality Loop
 
-## Active guidance — revised 2026-10-10
+## Active guidance — revised 2026-10-26
 
 Read this active guidance and current state's unresolved carryover during
 preflight. The production policy and two production templates are authoritative.
@@ -20,8 +20,18 @@ not reinstate full-limb visibility or bare-label rules from those entries.
 - Use cards-v2 for new packages; lock a heading and explanatory sentence per card.
   Plan cards, main post and story together under the X template's information
   roles; paraphrases alone do not add value. ALT remains complete and accessible.
-- Apply the production policy's restored crayon / oil-pastel art direction and
-  benchmark-based visual check; recent watercolor-style prompts are historical.
+- After selecting the species and strongest discovery, choose one suitable art
+  direction under the policy; keep the daily Japanese/English pair consistent.
+  Crayon/pastel, woodblock, collage and other treatments are available without
+  compulsory daily changes, weekday assignments or quotas. Judge the chosen
+  medium, diagnostic features and readability; no universal sketch benchmark
+  or pale-paper/layout rule. Record one short selection reason in sources-qa.md.
+- At the first successful daily finish in each Asia/Tokyo ISO week, follow the
+  policy's Weekly visual reflection: compare recent accepted work, record one
+  concise completed week marker here and mirror it in current state. Check the
+  ledger before recording to avoid duplicate reviews; first use is the first
+  successful run after activation, with no historical backfill. Do not invent
+  audience metrics. No separate weekly automation or mandatory extra deliverable.
 - Apply the policy's elapsed-time/fallback budget for reference access and reuse
   the first usable local bundle. Record uninterruptible overruns honestly;
   eventual transfer success does not by itself resolve repeated latency.
@@ -2458,3 +2468,21 @@ Current run time: 2026-10-24T11:05:26+09:00.
 Human explicitly authorized Turkey Tail commit/push, 'push too' and 'as usual', via trusted voice delegation. Destination ryusuke26/animal-infographic-automation/master independently verified; prior local/tracking/actualremote69b4f406a157889e99aef02b477a45c62e11cecd. Exact29-path union: package26 + INDEX/current-state/daily3. Content commit 7b19aca8bf57595b068157a793c60b30c52f2d4b published27 paths(package26+INDEX); independently queried actualremote, localHEAD and origin/master all matched before this five-file metadata update.
 PackageQA and eight zero-drift sidecars passed; all23 local/staged/content-committed hashes, four exact1024x1536 PNGs and pixel-identical language pairs verified. Seven extra EOF blank lines removed and manifest CRLF aligned to LF; manifest refreshed. Storage-only changes preserve artwork, public text, locked copy, prompt content, references and evidence. Conservative no-confirmed-global-assessment/Proposed caveat preserved. No X post/reply/account action. No new production learning/policy/gate.
 State: completed, published on GitHub. Separate metadata commit records publication only.
+
+## 2026-10-25 — Spotted Garden Eel Quality Run
+- Completed, local-ready. Official Global LC/date2016 directly read, field transcription separates publication2019. Four-candidate/latest-eight/twenty/full-history naming gates passed. JA one localized card3 edit; EN initial accepted; all defining features, physical crayon medium, nine strings/three illustrated explanations, full/342x513 phone QA, four1024x1536 PNGs/pixel identity, eight sidecars and full packageQA pass. No Git/GitHub/X mutation/publication or installs.
+- One concrete learning: a retreat arrow paired with a downward-pointing snout can falsely imply head-first diving; corrected card3 to horizontal head plus body entering its existing burrow tail-first. All defining features rechecked; no new gate/policy.
+- Existing browser-export latency unresolved. Real acquisition sandboxDNS0.141/0.000s; network timeout35 Churaumi0.234s returned HTML (preserved as .html.bin), Academy JPEG0.922s and one already identified Museum alternativeJPEG0.922s succeeded. Reused first usable pair, no browser export, duplicate transfer, benchmark or latency-fix claim.
+- Current run time: 2026-10-25T21:08:50+09:00.
+
+
+## 2026-10-26T19:34:52+09:00 — Ginkgo Quality Run
+- Completed 2026-10-26-ginkgo / イチョウ / Ginkgo biloba, Plants; native China (Zhejiang), cultivated temperate autumn branch. Candidate slate Ginkgo/Luna Moth/American Burying Beetle, recent-eight/twenty diversity and full-history aliases checked. Official Global EN B1+2c ver2.3 assessed1January1998/published1998, Needs updating, direct field transcription. Kew/NC State/Tsukuba identity and claims.
+- Chosen gold/indigo woodblock-inspired print emphasizes fan leaves/forked veins and fleshy-coated seeds. Both initial built-in posters accepted, zero retries; actual prompts image-prompt-ja.md/image-prompt-en.md. JA full/phone acceptance before EN, same gates. Four exact1024x1536 PNGs, pixel-identical pairs, nine strings/three illustrated explanatory cards, eight offline sidecars and final packageQA pass. Initial README-only backup-link omission corrected; no copy/art changes. No material blocker/user adoption.
+- Issue: none; no new production learning/gate/policy. Historical browser export latency unresolved. Three observed direct-media references: sandbox DNS0.125/0.000/0.000s; same URLs network-capable timeout35 success1.500/1.719/1.641s (4.860s). First set reused, no browser export/benchmark/duplicate success or latency repair claim. Completed local-ready; no dependencies installed, no Git/GitHub/X mutation or publication.
+
+[weekly-style-review: 2026-W44] completed — Viewed accepted Japanese posters together at comparable300x450 size: 2026-10-20-four-eyed-fish, 2026-10-21-eurasian-beaver, 2026-10-22-sensitive-plant, 2026-10-23-atlantic-puffin, 2026-10-24-turkey-tail, 2026-10-25-spotted-garden-eel, 2026-10-26-ginkgo; today's English also checked full/phone for pairing. Diagnostic eyes/tails/fans/growth forms remain distinct, illustrations explain mechanisms and seasonal changes, and headings remain clear though long explanatory copy warrants full-size reading. Six pastel treatments are coherent; the dark indigo/gold carved-ink ginkgo adds an observable medium/palette contrast while preserving leaf/seed identity. Audience reaction data unavailable; visual assessment only, no engagement gain claimed. Next adjustment: none.
+
+
+## 2026-10-26T21:20:05+09:00 — Ginkgo supplied-evidence verification
+- Supplied7-page translated IUCN HTML/print PDF and official screenshot match existing GlobalEN B1+2c ver2.3, assessed1January1998/published1998, Needs updating. All pages extracted; relevant complete pages1-3 rendered/read. PDF inner generation20October2026/browser-print26October2026/copyright2024 kept distinct from assessment1998. Original files saved hash-identically. No public copy/art changes; all original24 protected assets unchanged. README/sourcesQA/INDEX/current-state provenance updated, manifest expanded. Completed local-ready; no Git/GitHub/X mutation/publication, no new learning/gate.

@@ -21,7 +21,9 @@ not a separate checklist. Do not add speculative claims to manufacture novelty.
 - Attach the single accepted poster in the post's language: Japanese for the
   Japanese main post, English for the English main post. Provide the companion
   language in a separate reply/post if wanted; when both are explicitly requested
-  together, put the audience's language first. Both files are still produced.
+  together, put the audience's language first. Both files are still produced
+  as one paired design in the same selected art direction; daily style choice
+  does not add extra posters or comparison posts.
 - Open with the strongest supported discovery, contrast, scene or action.
   Write two short hook candidates during drafting and select one; keep only the
   selected text in the posting set. Do not save the most interesting fact only
@@ -101,6 +103,8 @@ poster cards copied into sentences.
 
 Describe the actual attached poster in the same language. When posting the
 English companion separately, use its English ALT instead of reusing Japanese ALT.
+Describe the actual selected medium when useful; do not call every poster a
+crayon sketch or describe stylized explanatory diagrams as photographs.
 
 ```text
 <complete ALT text>

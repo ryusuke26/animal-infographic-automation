@@ -10,8 +10,13 @@ The production policy is the single source of quality rules; this prompt is
 the execution entry point. Project requirements override generic skill examples
 such as 4:5 layout or shortening copy into bare labels. Use exact vertical 2:3.
 Do not import obsolete rules from historical package prompts or learning logs.
-Use the policy's required crayon / oil-pastel art direction and existing style
-benchmark. Include its medium block in new poster prompts for both languages.
+Choose one art direction after selecting the species and strongest supported
+discovery, following the policy's Species-led art direction. Crayon/pastel
+remains an option alongside woodblock, collage, landscape/portrait treatments
+and contemporary art. No compulsory daily changes, weekday assignments or
+quotas. Produce one Japanese/English pair in the same style and composition
+concept; do not add routine multi-style trials. Match palette, brightness and
+background density to the selected medium; no universal pale paper or benchmark.
 
 1. Preflight in one batch: current state, INDEX, recent package folders, recent
    Automation memory and git status. Read the active guidance at the beginning
@@ -27,20 +32,24 @@ benchmark. Include its medium block in new poster prompts for both languages.
    Diversity actively informs selection without fixed quotas or cooldowns.
    Preserve the selected topic when tools encounter friction.
 3. Complete Evidence Lock, the compact visual identity brief and bilingual
-   Copy Lock before art. Use cards-v2 for new packages: three headings with one
+   Copy Lock before art. Record the selected style and reason briefly in the
+   existing sources-qa.md; include its medium cues and diagnostic invariants in
+   both poster prompts. Use cards-v2 for new packages: three headings with one
    explanatory sentence each, strongest discovery first. Settle defining
    structures from real references, including sex/stage variation and allowed
    natural occlusion. Run validate_package.py --pre-image <package>.
 4. Generate the Japanese full poster, then run validate_direct_poster.py
    immediately. Review species identity, natural anatomy, all three illustrated
-   explanations, exact text, crayon/pastel style and mobile readability before
-   the English companion. Compare with the policy's style benchmark; a
-   mechanical pass does not establish style acceptance.
+   explanations, exact text, chosen-medium coherence and mobile readability
+   before the English companion. Match review to the selected medium while
+   preserving diagnostic form, structures and markings; a mechanical pass
+   does not establish visual acceptance.
    Apply the production policy's bounded retry and optional high-risk anchor
    rules. Never distort a natural pose to display every limb. After any retry,
    recheck every defining feature, not just the repaired region.
-5. Generate the English companion from accepted composition and real identity
-   references. Apply the same source and visual gates. Normalize only accepted
+5. Generate the English companion with the accepted Japanese art direction,
+   composition concept and real identity references. Apply the same source
+   and visual gates. Normalize only accepted
    sources to 1024x1536. Record selected files, actual prompt paths and acceptance
    caveats in the existing README/sources-qa.md.
 6. Prepare both X posting sets. Main post begins with the strongest supported
@@ -50,8 +59,15 @@ benchmark. Include its medium block in new poster prompts for both languages.
    sync_posting_sidecars.py <package> --write, then validate_package.py <package>.
    The package validator already runs X-format checks; do not duplicate them
    unless diagnosing a failure. Review full-size and phone-size images once.
-7. Finish once: update package README, INDEX and current state. Record at most
-   one concrete learning; keep only unresolved carryover in current state.
+7. Finish once: after a successful daily package, perform the policy's weekly
+   visual reflection only if the current Asia/Tokyo ISO week has no completed
+   ledger marker. First use reviews available recent work; no backfill, new
+   art or separate weekly automation. Compare species clarity, explanatory
+   readability and visual variety; use reactions only when measured data is
+   accessible. Record one concise result in daily-quality-loop.md and mirror
+   its week key in current state, rechecking the ledger to avoid duplicate
+   completion. Update package README, INDEX and current state. Record at most
+   one concrete daily learning; retain the weekly pointer and unresolved carryover.
    Finish completed, local-ready. GitHub closeout and X publication are separate.
    Do not mutate Git or publish in a no-approval automation context.
 

@@ -6,7 +6,7 @@ Use this as the quick navigation map for the infographic automation.
 
 | File | Role |
 |---|---|
-| `automation-2-updated-prompt.md` | Short execution entry point synchronized to the live Automation; references the quality policy. |
+| `automation-2-updated-prompt.md` | Execution entry point for the live Automation; references the quality policy. Synchronize through the authorized settings owner; a local edit alone does not prove live prompt synchronization. |
 | `automation-2-production-policy.md` | Single source of production quality rules, approval budget, and exception modes. |
 | `templates/visual-and-copy-brief.md` | Compact identity brief and cards-v2 copy syntax; reuse within existing package files. |
 | `templates/x-post-copy-template.md` | Language-matched single-image posts, discovery hooks and exact copy structure. |

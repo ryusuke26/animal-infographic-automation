@@ -16,52 +16,94 @@ instructions. Use templates/visual-and-copy-brief.md for the brief and Copy Lock
 syntax; use templates/x-post-copy-template.md for X presentation and copy limits.
 Apply the revised card format to new packages; preserve accepted historical art.
 
-## Required art direction — restored 2026-09-17
+## Species-led art direction — revised 2026-10-26
 
-Use a crayon / oil-pastel observation sketch with adult editorial direction.
-This is the project's required medium for both languages, including retries,
-not an optional interpretation of "handmade" or "natural-history poster".
-Keep the current explanatory cards, biological evidence and natural-occlusion
-rules. Accurate anatomy does not require photographic rendering.
+After choosing the species and strongest supported discovery, choose ONE art
+direction that makes those features easiest to notice. Crayon/oil-pastel
+observation sketches remain an option alongside ukiyo-e/woodblock, cut-paper
+or geometric collage, landscape-oriented painting, portrait-oriented studies,
+and contemporary art. These are examples, not a fixed menu or assignment.
+Consider recent visual variety, but do not require a different style every day,
+weekday assignments, quotas, scores or a fixed rotation. Do not choose a species
+merely to fill a style slot.
 
-Use this medium block in every new full-poster prompt, including the English
-companion and fresh retries; localized edits must preserve the same medium:
+Produce one adopted design per daily package: one Japanese/English pair in the
+same medium, palette, composition concept and information hierarchy. Language
+reflow is allowed. Do not routinely add multiple style trials or comparisons.
+Keep the existing retry budget; a retry is a correction, not another art proposal.
 
-```text
-Style/medium: crayon and oil-pastel field-notebook observation sketch on warm
-textured paper; colored pencil only for small diagnostic details. Visible broken
-strokes, layered pigment, paper showing through the drawing and imperfect
-hand-drawn contours across the hero, habitat and card illustrations. Childlike
-warmth with accurate species geometry and adult editorial direction. Use matte,
-sketched shading; avoid photorealism, glossy 3D rendering, airbrushed gradients,
-cinematic lighting and watercolor/gouache/ink as the dominant medium. Keep type
-legible; do not sacrifice exact text or diagnostic anatomy to roughness.
-```
+Write a short species-specific Style/medium instruction in both poster prompts:
+chosen medium and visible rendering cues; colors, brightness and background
+density that support the discovery; diagnostic features that must survive
+stylization. Pale paper, handmade texture, a fixed palette and an old poster's
+composition are not universal requirements. A landscape treatment must retain
+a legible organism; a portrait treatment must preserve nonhuman anatomy; modern
+abstraction must not turn diagnostic structures or patterns into another species.
+The exact vertical 2:3 canvas, three numbered illustrated explanatory cards,
+Evidence/Copy Lock and source gates still apply.
 
-Inspect `generated_infographics/purple_frog_ja_2026-04-28.png` as the existing
-style benchmark before the first poster and during visual review. It controls
-stroke texture and warmth only, not anatomy, text, status, layout or aspect ratio.
-Keep the current exact 2:3 canvas and three explanatory cards. If supplied to
-Image Gen, label it `style reference only`; label real taxon photographs as
-`biological identity references only`. Do not copy the frog or its labels into
-another species. Do not substitute recent watercolor-style packages as the
-style benchmark. No extra generation or per-run reference file is needed.
+Use a relevant style reference only when useful and label it style-only;
+real taxon photographs remain biological identity references. There is no
+universal benchmark. The old purple-frog sketch may inform a chosen crayon
+treatment's texture, never another medium's acceptance, anatomy or text.
+For crayon/pastel specifically, visible strokes must occur in the hero and
+card illustrations, not just a paper overlay. For other media, judge the
+actual selected medium's visible qualities instead.
 
-During the existing visual review, check the following before the English
-companion, and again for the English output and any retry:
+Within the existing Japanese-first/full-size/phone-size review, check that
+the selected medium is coherent across hero, habitat and cards; species-defining
+form, attachment, structures and markings remain reference-grounded; every
+diagram still explains the locked claim; and text remains readable against
+the chosen palette and background. Apply the same review to English and retries.
+Record the selected style and reason in one sentence in sources-qa.md, plus
+one concrete observation in its existing visual-QA record. No separate daily
+style file, checklist, approval or generation round is needed. A mechanical
+pass does not establish visual acceptance. Material failures use the existing
+bounded retry rules, then needs review if unresolved.
 
-- Broken crayon/pastel strokes and exposed paper remain visible in the hero
-  and illustrations, not only in a decorative paper border.
-- Matte drawn shading and handmade contours dominate over glossy, photographic
-  detail; a paper texture overlay alone is insufficient.
-- Species-defining shape, marks and natural posture survive simplification;
-  the subject, habitat and cards feel like one sketched observation page.
+This user-authorized change replaces the former required crayon medium and
+universal benchmark for future production. Preserve accepted historical art,
+its prompts and recorded reviews, including the Spotted Garden Eel package.
 
-Record one concrete style observation in sources-qa.md. A mechanically valid
-but materially off-style image fails visual acceptance. Use the existing retry
-budget, then needs review if unresolved; do not open a separate style retry loop.
-Apply this restoration to future production and explicitly requested redraws;
-do not automatically replace previously accepted images or their audit prompts.
+## Weekly visual reflection inside the daily run
+
+Use the ISO week-year/week in Asia/Tokyo (Monday 00:00 through the following
+Monday 00:00, end exclusive), not UTC week or calendar year plus week number.
+During the normal finish step of the first successfully completed daily package
+in that local week, review the latest up to seven completed packages, including
+the current package. View their accepted Japanese posters together at comparable
+size; inspect English companions when readability or pairing needs checking.
+Use existing images or a temporary comparison view; no new art, obligatory
+deliverable, scoring sheet or separate automation.
+
+Briefly assess whether species features come through, explanations are readable,
+and the succession of styles is enjoyable. All three may be summarized in one
+short paragraph. Repeated styles are valid when they suit the species; do not
+invent variety or engagement gains. Use audience reaction only if actual measured
+data is accessible, with its source and period; otherwise say reaction data
+was unavailable and base the review on visuals alone.
+
+Use daily-quality-loop.md as the completion ledger. After the review, append
+one concise paragraph with the exact marker
+`[weekly-style-review: YYYY-Www] completed`, actual reviewed package dates/slugs,
+findings and at most one next adjustment (or none); mirror the week key in
+current state's Weekly visual reflection section. Re-read the current-week
+ledger marker immediately before recording. If it already exists, reuse it
+and repair only a missing/stale state pointer; never run or append a second
+review for the same week. A state pointer without a completed ledger entry
+is not evidence of completion. Preserve the pointer during daily state refresh.
+
+First use: the completion pointer is none. The first successfully completed
+daily run after activation performs the initial review for its then-current
+Tokyo week, using available recent packages even if fewer than seven exist.
+No historical weeks are backfilled and this policy edit is not itself a review.
+A blocked/incomplete daily package does not consume the week's review. If images
+cannot be inspected or the review is interrupted, leave the week incomplete,
+keep one short pending note in existing state, and resume it at the next
+successful finish in that week. Update an unfinished paragraph rather than
+duplicating it. On a later week, review current recent work once; do not catch up
+missed weeks. A completed ledger entry written before a crash remains complete
+even if the state pointer was not yet updated.
 
 ## Operating Targets
 
@@ -390,7 +432,7 @@ Existing three-label packages remain supported and are not rewritten.
 Each image prompt:
 
 - requests a complete vertical 2:3 poster, not a mockup;
-- includes the required art-direction medium block above;
+- includes the chosen species-specific Style/medium instruction above;
 - includes a `Text, verbatim:` block matching Copy Lock exactly;
 - gives one identifiable hero organism an accurate body plan, posture, and
   habitat;
@@ -460,8 +502,7 @@ one allowed retry for the language.
 After the source gate passes, inspect the Japanese poster before generating the
 companion. Accept it only when:
 
-- the required crayon / oil-pastel style review above passes against the
-  existing style benchmark;
+- the selected art direction passes the medium-appropriate visual review above;
 - the organism is immediately identifiable and no diagnostic structure is
   invented, detached, or duplicated; natural perspective occlusion is allowed
   when the chosen viewpoint clearly explains it and species identity does not
@@ -528,7 +569,7 @@ images/species_slug_english_imagegen_YYYY-MM-DD.png
 
 Use the accepted Japanese poster as a visual reference when the tool supports
 it, or carry forward its art direction explicitly. Preserve the species,
-habitat, palette, handmade medium, hierarchy, and card concept without forcing
+habitat, palette, selected medium, hierarchy, and card concept without forcing
 pixel-identical placement. Inspect it against the same standard and make at
 most one retry for a material English-version issue. Run the direct-source gate
 immediately after the initial English generation and after its retry; the same
@@ -621,7 +662,9 @@ pass must not be reported as certification of an unchecked biological feature.
 
 ### 5. Finish once
 
-After final QA, update in one batch:
+After final QA, perform the weekly visual reflection here only when due under
+the rule above. Record it within the existing log/state update, not a separate
+run or extra daily report. Then update in one batch:
 
 - package README;
 - `infographic-packages/INDEX.md`;

@@ -16,12 +16,20 @@ otherwise replace the unchanged entry under the policy's existing slate budget.
 
 ## Art direction
 
-Apply the production policy's required crayon / oil-pastel medium block and
-inspect its existing style benchmark. Distinguish style-only references from
-biological identity references. In the existing sources-qa.md, record one
-observable style check covering the hero and card art, not just the paper frame.
-Keep medium consistent across languages and retries. No separate style file,
-extra generation or extra review round is required.
+After the species and strongest supported discovery are selected, choose one
+suitable medium under the policy's Species-led art direction. Record the style
+and its reason in one sentence in sources-qa.md. Crayon/pastel is one option;
+woodblock, collage, landscape/portrait treatments and contemporary art are also
+available without daily change requirements, weekday assignments or quotas.
+Write the chosen medium's visible cues and diagnostic invariants into both
+poster prompts. Choose palette, brightness, background density and composition
+for this species and medium; do not impose pale paper or an old layout on all art.
+Keep Japanese/English in the same style and composition concept, with natural
+language reflow. Distinguish optional style-only references from biological
+identity references; no universal benchmark. Record one observable style/identity/
+readability check in the existing visual review. No extra daily file, checklist,
+generation, approval or comparison round. Weekly reflection belongs in the
+existing finish log under the policy's Tokyo ISO-week completion marker.
 
 ## Visual identity
 
