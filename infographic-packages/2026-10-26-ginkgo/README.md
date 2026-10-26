@@ -1,7 +1,7 @@
 # Ginkgo / イチョウ
 Workflow mode: Quality Run
 Editorial classification group: Plants
-Status: completed, local-ready
+Status: completed, published on GitHub
 Region: China (Zhejiang) native; illustrated cultivated temperate autumn branch.
 
 [日本語の投稿セット](x-post-ja.md) · [English posting set](x-post-en.md)
@@ -10,7 +10,7 @@ Region: China (Zhejiang) native; illustrated cultivated temperate autumn branch.
 - [Japanese posting PNG](images/ginkgo_japanese_posting_2026-10-26.png) · [Japanese direct Image Gen](images/ginkgo_japanese_imagegen_2026-10-26.png)
 - [English posting PNG](images/ginkgo_english_posting_2026-10-26.png) · [English direct Image Gen](images/ginkgo_english_imagegen_2026-10-26.png)
 
-Actual planned prompts: [Japanese](image-prompt-ja.md), [English](image-prompt-en.md). Built-in Image Gen; no CLI fallback. Biological references: [leaf](references/leaf.jpg), [seeds](references/seeds.jpg), [tree](references/tree.jpg), credits and acceptance in [sources and QA](sources-qa.md).
+Actual selected prompts: [Japanese](image-prompt-ja.md), [English](image-prompt-en.md). Built-in Image Gen; no CLI fallback. Biological references: [leaf](references/leaf.jpg), [seeds](references/seeds.jpg), [tree](references/tree.jpg), credits and acceptance in [sources and QA](sources-qa.md).
 
 Woodblock-inspired gold/indigo botanical print, same composition concept in both languages. Evidence Lock: official IUCN Global EN B1+2c ver2.3, assessed1January1998, Needs updating; dated wild assessment distinct from common cultivated trees.
 
@@ -27,8 +27,13 @@ Material context: official Global EN is assessed1998 and marked Needs updating, 
 
 [Japanese phone view](evidence/phone-ja.png) · [English phone view](evidence/phone-en.png) · [Official field transcription](evidence/iucn-fields-2026-10-26.md) · [Asset manifest](evidence/asset-sha256.json).
 
-Completed, local-ready. No Git mutation, GitHub publication, X posting or reply; those require a separate authorized closeout.
+Production finished local-ready; subsequent user-authorized GitHub closeout is recorded below. X posting/reply remains separate.
 
 
 ## User-supplied evidence verified — 2026-10-26
 [Supplied translated HTML/print PDF](evidence/user-supplied-iucn-html-2026-10-26.pdf) and [official-page screenshot](evidence/user-supplied-iucn-page-2026-10-26.png) saved byte-identically. PDF7 pages extracted; complete relevant pages1-3 visually checked. Both agree with Global EN B1+2c ver2.3, assessed1January1998, Needs updating.2026generation and2024copyright dates are not assessment dates. No poster/posting-copy correction; all original24 protected assets unchanged. Detailed provenance in sources-qa.md.
+
+
+## GitHub publication — 2026-10-26T21:28:57+09:00
+Human explicitly authorized both2026-10-25/26 packages, supplied Ginkgo IUCN evidence and seven saved workflow files for commit/push in voice chat, relayed by trusted delegation. Published package content plus INDEX in [4d85004](https://github.com/ryusuke26/animal-infographic-automation/commit/4d85004db0679c9ff9ca00254d7dd8df4112ef40); published species-led art/weekly-reflection workflow in [04b2f56](https://github.com/ryusuke26/animal-infographic-automation/commit/04b2f5680a064cfc8117de88ed8ce370affdfb1b). Actual remote refs/heads/master, local HEAD and origin/master independently matched 04b2f5680a064cfc8117de88ed8ce370affdfb1b before this publication-state update.
+[Published package](https://github.com/ryusuke26/animal-infographic-automation/tree/master/infographic-packages/2026-10-26-ginkgo). State: completed, published on GitHub. Earlier local-ready/no-publication statements describe production or evidence-verification snapshots. Selected artwork, locked copy, posting text, original references/evidence and all manifested asset hashes preserved. Full package QA, eight zero-drift sidecars, exact1024x1536/pixel-pair checks and local/staged/committed asset hashes passed. Raw saved HTTP-response evidence retains its original whitespace and bytes; excluded only from prose whitespace lint. X posting/reply and live automation settings were not changed. This separate metadata commit records publication.

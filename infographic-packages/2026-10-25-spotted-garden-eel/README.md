@@ -1,5 +1,5 @@
 # Spotted Garden Eel / チンアナゴ
-State: `completed, local-ready`
+State: `completed, published on GitHub`
 Workflow mode: Quality Run
 Editorial classification group: Fishes
 Broad native region: tropical Indo-Pacific; reef-edge sandy seabed scene.
@@ -31,3 +31,8 @@ Four canonical PNGs exactly1024x1536, per-language direct/posting pairs pixel-id
 
 ## Generation provenance
 Built-in Image Gen, no CLI fallback. Original outputs retained at C:/Users/ryusu/.codex/generated_images/01a172e6-ee7f-7693-8f12-9f305f625b3e/ . Japanese initial exec-aa2d58a4-96e2-478d-a832-0f614a715479.png is rejected history. Japanese selected localized retry exec-23d86340-0f94-4bcd-b3c8-40197dd824e2.png. English selected original path is recorded in sources-qa.md. First generation references were two biological photographs plus style benchmark. Japanese retry references: edit target plus same photographs/benchmark. English references: accepted Japanese composition plus same photographs/benchmark. No rejected source supplied to English.
+
+
+## GitHub publication — 2026-10-26T21:28:57+09:00
+Human explicitly authorized both2026-10-25/26 packages, supplied Ginkgo IUCN evidence and seven saved workflow files for commit/push in voice chat, relayed by trusted delegation. Published package content plus INDEX in [4d85004](https://github.com/ryusuke26/animal-infographic-automation/commit/4d85004db0679c9ff9ca00254d7dd8df4112ef40); published species-led art/weekly-reflection workflow in [04b2f56](https://github.com/ryusuke26/animal-infographic-automation/commit/04b2f5680a064cfc8117de88ed8ce370affdfb1b). Actual remote refs/heads/master, local HEAD and origin/master independently matched 04b2f5680a064cfc8117de88ed8ce370affdfb1b before this publication-state update.
+[Published package](https://github.com/ryusuke26/animal-infographic-automation/tree/master/infographic-packages/2026-10-25-spotted-garden-eel). State: completed, published on GitHub. Earlier local-ready/no-publication statements describe production or evidence-verification snapshots. Selected artwork, locked copy, posting text, original references/evidence and all manifested asset hashes preserved. Full package QA, eight zero-drift sidecars, exact1024x1536/pixel-pair checks and local/staged/committed asset hashes passed. Raw saved HTTP-response evidence retains its original whitespace and bytes; excluded only from prose whitespace lint. X posting/reply and live automation settings were not changed. This separate metadata commit records publication.
