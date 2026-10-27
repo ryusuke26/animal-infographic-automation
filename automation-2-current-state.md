@@ -1,12 +1,12 @@
 # Automation 2 Current State
-Updated: 2026-10-27T23:17:42+09:00
+Updated: 2026-10-27T23:21:00+09:00
 
 ## Workflow
 - Default: Quality Run; bilingual exact vertical2:3, three numbered illustrated explanatory cards, cards-v2 Copy Lock.
 - Art direction: choose one medium after species/discovery; one shared JA/EN design. No mandatory rotation, quotas or universal benchmark. Today's accepted crayon/oil-pastel artwork is retained by the user's decision; future choices follow the species-led policy.
 - Pending evidence package: none. Active package: none. Unfinished visual gate: none.
 - Historical Sunda Colugo remains separately pending human adoption in INDEX, not active daily work.
-- Latest2026-10-27-common-flying-dragon: completed, local-ready. Previous Ginkgo/Spotted Garden Eel remain published on GitHub under their separate authorized closeout. X posts/replies require separate authorization.
+- Latest2026-10-27-common-flying-dragon: completed, published on GitHub via separately authorized closeout. Previous Ginkgo/Spotted Garden Eel remain published on GitHub under their separate authorized closeout. X posts/replies require separate authorization.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
@@ -20,7 +20,7 @@ Updated: 2026-10-27T23:17:42+09:00
 - Cards rib-supported membrane/ants/female blue throat; main adds tree-to-tree glide, story forest-edge/secondary-forest/riverside locality. No population/legal/urgency claim. Three-candidate slate Draco/African Bullfrog/Bee Orchid(duplicate excluded), recent-eight/twenty and full-history aliases checked.
 - Crayon/oil-pastel selected for scaled bark camouflage and blue throat detail. Initial JA accepted before EN; both initial images accepted, zero retries. Selected images/common_flying_dragon_japanese_imagegen_2026-10-27.png and images/common_flying_dragon_english_imagegen_2026-10-27.png; actual prompts image-prompt-ja.md/image-prompt-en.md.
 - Four exact1024x1536 PNGs, pixel-identical pairs, nine strings/three numbered illustrated explanations, five defining features/natural occlusion, full/342x513 phone/style QA, eight offline sidecars and full packageQA pass.24 asset hashes. Qualitative rib schematic, not measured bone count; full PNG benefits fine text. No material blocker or user adoption claim.
-- Production completed local-ready; no dependency installs, staging, commit/push, GitHub publication or X action.
+- Production completed local-ready; subsequent authorized content871d107 and workflow-record3d93269 normal push verified at actualrefs/heads/master/localHEAD/origin/master before publication metadata. No dependency installs or X action.
 
 ## Recent-Eight Completed Region Summary
 1. 2026-10-20 — northern South America/Trinidad mangrove — Four-eyed Fish
@@ -57,4 +57,8 @@ Continue reference-grounded variety and one matching JA/EN style. Weekly2026-W44
 - Voice chat verified id/kind/name/status/rrule/model/reasoning_effort/execution_environment/target/cwds/created_at unchanged across its prompt update. This closeout snapshots those fields and verifies they stay unchanged during publishing. Live status ACTIVE. No home configuration, unrelated personal data or secrets copied into the repository; no live automation mutation in this closeout.
 
 ## Latest Authorized GitHub Closeout
+- 2026-10-27T23:21:00+09:00: human authorized2026-10-27 Common Flying Dragon plus today's live automation-prompt application record, exact30-path union(package27+INDEX+current-state+daily). Content871d107eb92429c716e485dc79f96a17f5a41c1a, workflow-record3d93269c035ce6cfc6764383a2771dce7f9c2607; normal push exit0, independently queried actualrefs/heads/master/localHEAD/origin/master all matched3d93269c035ce6cfc6764383a2771dce7f9c2607, worktree clean before metadata. This separate metadata update records completed,published on GitHub.
+- PackageQA/8 zero-drift sidecars/4 exact1024x1536 PNGs/pixel pairs/24 local-staged-content-committed hashes pass. Ten package text files normalizedLF and seven protected text hashes refreshed, no logical copy or binary art/reference/sidecar changes. Live prompt equals already-committed saved instruction, ACTIVE; protected settings unchanged. Accepted crayon/oil-pastel images preserved; no collage trial. No X posts/replies.
+
+### Previous authorized closeout
 - 2026-10-26T21:28:57+09:00: packages61 files + INDEX and seven saved operational files,69-path union. Published content4d85004db0679c9ff9ca00254d7dd8df4112ef40 and workflow04b2f5680a064cfc8117de88ed8ce370affdfb1b; actualremote/local/tracking matched before metadata. PackageQA/16 sidecars/8 exact1024x1536 PNGs/pixel pairs/55 local-staged-committed hashes pass. No normalization needed; original raw HTTP evidence whitespace preserved. Publication metadata committed separately. No X or live automation setting action.
