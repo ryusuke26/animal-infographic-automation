@@ -1,12 +1,11 @@
 # Automation 2 Current State
-Updated: 2026-10-27T23:21:00+09:00
+Updated: 2026-10-28T20:51:57+09:00
 
 ## Workflow
 - Default: Quality Run; bilingual exact vertical2:3, three numbered illustrated explanatory cards, cards-v2 Copy Lock.
-- Art direction: choose one medium after species/discovery; one shared JA/EN design. No mandatory rotation, quotas or universal benchmark. Today's accepted crayon/oil-pastel artwork is retained by the user's decision; future choices follow the species-led policy.
-- Pending evidence package: none. Active package: none. Unfinished visual gate: none.
-- Historical Sunda Colugo remains separately pending human adoption in INDEX, not active daily work.
-- Latest2026-10-27-common-flying-dragon: completed, published on GitHub via separately authorized closeout. Previous Ginkgo/Spotted Garden Eel remain published on GitHub under their separate authorized closeout. X posts/replies require separate authorization.
+- Species-led art direction: one matching JA/EN design, no compulsory rotation, quotas or universal benchmark. Today's accepted layered paper collage suits repeated rings and woodland litter.
+- Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo remains separately pending human adoption in INDEX.
+- Latest2026-10-28-giant-african-millipede: completed, local-ready. Previous Common Flying Dragon/Ginkgo/Spotted Garden Eel GitHub publication remains separately authorized history. No publication inferred for today's package.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
@@ -14,47 +13,41 @@ Updated: 2026-10-27T23:21:00+09:00
 - Execution prompt: live automation-2 prompt synchronization completed by the authorized voice chat on2026-10-27 and independently read-back verified here at2026-10-27T23:17:42+09:00. Saved automation-2-updated-prompt.md and live prompt match after outer-whitespace trim/LF normalization; SHA-256 cdffd045c3e27305c30e3b625a43664a21ed4e3bb93db08ed92bbfcef9c004bf. ACTIVE; no schedule/model/notification/destination change performed during this closeout.
 
 ## Latest Completed Package
-- Common Flying Dragon / ジャワトビトカゲ / Draco volans; Reptiles. Animalia > Chordata > Reptilia > Squamata > Agamidae > Draco > Draco volans.
-- Modern native scope Java/Bali, Indonesia; pictured adult female from Bali river-adjacent secondary forest. Slender tree glider, folded lateral membrane, ant diet and female throat offer subgroup/body/story contrast with recent marine iguana and fish/plant scenes; tropical Asian recurrence acknowledged.
-- Official live IUCN T99929352A99929358: GlobalLC ver3.1, assessed26May2017, published2018, trendUnknown; field transcription saved. Reptile Database taxonomy/genus mechanism plus exact Ecology Asia female photos/biology; legacy Borneo/Philippines taxon concepts excluded.
-- Cards rib-supported membrane/ants/female blue throat; main adds tree-to-tree glide, story forest-edge/secondary-forest/riverside locality. No population/legal/urgency claim. Three-candidate slate Draco/African Bullfrog/Bee Orchid(duplicate excluded), recent-eight/twenty and full-history aliases checked.
-- Crayon/oil-pastel selected for scaled bark camouflage and blue throat detail. Initial JA accepted before EN; both initial images accepted, zero retries. Selected images/common_flying_dragon_japanese_imagegen_2026-10-27.png and images/common_flying_dragon_english_imagegen_2026-10-27.png; actual prompts image-prompt-ja.md/image-prompt-en.md.
-- Four exact1024x1536 PNGs, pixel-identical pairs, nine strings/three numbered illustrated explanations, five defining features/natural occlusion, full/342x513 phone/style QA, eight offline sidecars and full packageQA pass.24 asset hashes. Qualitative rib schematic, not measured bone count; full PNG benefits fine text. No material blocker or user adoption claim.
-- Production completed local-ready; subsequent authorized content871d107 and workflow-record3d93269 normal push verified at actualrefs/heads/master/localHEAD/origin/master before publication metadata. No dependency installs or X action.
+- Giant African Millipede / アフリカオオヤスデ / Archispirostreptus gigas (Peters,1855); Other invertebrates. Animalia > Arthropoda > Myriapoda > Diplopoda > Spirostreptida > Spirostreptidae.
+- Eastern/southeastern Africa; East African woodland leaf litter. Cylindrical myriapod, numerous short paired legs and armor defense contrast with recent coastal vertebrates/plants; decomposer recurrence with Turkey Tail weighed.
+- Official live IUCN T103866629A103877116 GlobalLC ver3.1, assessed26July2017/published2021, trendUnknown; direct rendered fields transcribed. Current primary native range used instead of secondary West-Africa wording; old zooNE superseded. GBIF/MCZ/keeper names and two exact-taxon photos; Zagreb/Buffalo biology.
+- Cards paired legs on most double trunk rings / decaying plants / protective coil. Main adds droppings as plant nutrients; story continues into irritating fluid from body pores. No population/legal/urgency claim.
+- Three-candidate slate millipede/desert locust/water shrew; latest-eight/twenty and accepted/historical/bilingual/slug full-history gates passed. One layered paper-collage art direction, matte leaves/teal ground/cream studies and dimensional dark shell forms. Initial JA accepted before initial EN, zero retries. Actual prompts image-prompt-ja.md/image-prompt-en.md.
+- Four exact1024x1536 PNGs, pixel-identical direct/posting pairs,9 locked strings,3 numbered illustrated explanations, defining-feature/full/342x513 phone reviews,8 offline sidecars and final packageQA passed. 25 SHA-256 assets. Card1 qualitative visible near-side pairs, far side naturally hidden; cropped rear natural. Fine text benefits full PNG, no material blocker or user adoption claim.
+- Completed, local-ready; no dependency install, Git mutation, GitHub publication or X account/post/reply action.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-10-20 — northern South America/Trinidad mangrove — Four-eyed Fish
-2. 2026-10-21 — northern Eurasia freshwater river — Eurasian Beaver
-3. 2026-10-22 — Mexico/tropical America ground margin — Sensitive Plant
-4. 2026-10-23 — North Atlantic island/offshore — Atlantic Puffin
-5. 2026-10-24 — widespread/North American hardwood log — Turkey Tail
-6. 2026-10-25 — tropical Indo-Pacific reef-edge sand — Spotted Garden Eel
-7. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
-8. 2026-10-27 — Java/Bali tropical forest edge — Common Flying Dragon
+1. 2026-10-21 — northern Eurasia freshwater river — Eurasian Beaver
+2. 2026-10-22 — Mexico/tropical America ground margin — Sensitive Plant
+3. 2026-10-23 — North Atlantic island/offshore — Atlantic Puffin
+4. 2026-10-24 — widespread/North American hardwood log — Turkey Tail
+5. 2026-10-25 — tropical Indo-Pacific reef-edge sand — Spotted Garden Eel
+6. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
+7. 2026-10-27 — Java/Bali tropical forest edge — Common Flying Dragon
+8. 2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
 
 ## Recent-Eight Completed Classification Summary
-1. Fishes — Four-eyed Fish
-2. Mammals — Eurasian Beaver
-3. Plants — Sensitive Plant
-4. Birds — Atlantic Puffin
-5. Fungi and lichens — Turkey Tail
-6. Fishes — Spotted Garden Eel
-7. Plants — Ginkgo
-8. Reptiles — Common Flying Dragon
+1. Mammals — Eurasian Beaver
+2. Plants — Sensitive Plant
+3. Birds — Atlantic Puffin
+4. Fungi and lichens — Turkey Tail
+5. Fishes — Spotted Garden Eel
+6. Plants — Ginkgo
+7. Reptiles — Common Flying Dragon
+8. Other invertebrates — Giant African Millipede
 
-Latest twenty scanned for subgroups/silhouettes/habitat/hooks; no quota/cooldown. No unresolved new candidate counter.
+Latest twenty scanned for subgroups/silhouettes/habitat/hooks; no quota/cooldown or unresolved new candidate counter.
 
 ## Daily Quality Loop — unresolved carryover only
-- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Prefer observed direct media and reuse first usable bundle. Today3 Ecology Asia reference transfers: sandbox DNS0.117/0.005/0.004s, same observed URLs network-capable timeout35 success1.466/0.471/0.451s. No browser export, duplicate successful transfer, separate benchmark or latency-fix claim.
+- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Today observed direct keeper-media transfers timeout30 succeeded0.343/4.938s; sandbox page DNS0.078/0.000s, network-capable pages0.453/2.813s. First usable two-photo set reused; no browser export/benchmark/duplicate successful transfer or latency-fix claim.
 
 ## Next Concrete Change
-Continue reference-grounded variety and one matching JA/EN style. Weekly2026-W44 reflection already complete; no adjustment or remaining Common Flying Dragon correction. Production finishes local-ready; GitHub closeout and X publication remain separate.
-
-## Live Automation Prompt Synchronization — 2026-10-27
-- User explicitly authorized the voice chat to align the live prompt with the saved project entry point; it used automation_update, then verified the saved automation TOML. This closeout independently read the live prompt and compared it with automation-2-updated-prompt.md; exact normalized match confirmed at2026-10-27T23:17:42+09:00.
-- Canonical instruction was already committed in04b2f5680a064cfc8117de88ed8ce370affdfb1b and matches current HEAD. No artificial rewrite of that file is needed; this record publishes completion of the live application.
-- Old compulsory crayon/oil-pastel instruction removed from the live entry point. Species-led choice, concise style rationale and Tokyo-week reflection are present. Today's accepted JA/EN crayon/oil-pastel artwork is retained; collage was a conversational proposal, not an adopted redesign. Observe future daily selections without added trials.
-- Voice chat verified id/kind/name/status/rrule/model/reasoning_effort/execution_environment/target/cwds/created_at unchanged across its prompt update. This closeout snapshots those fields and verifies they stay unchanged during publishing. Live status ACTIVE. No home configuration, unrelated personal data or secrets copied into the repository; no live automation mutation in this closeout.
+Continue reference-grounded species/story/medium variety. Weekly2026-W44 reflection already complete; no new production policy or required next correction. GitHub closeout and X publication remain separate.
 
 ## Latest Authorized GitHub Closeout
 - 2026-10-27T23:21:00+09:00: human authorized2026-10-27 Common Flying Dragon plus today's live automation-prompt application record, exact30-path union(package27+INDEX+current-state+daily). Content871d107eb92429c716e485dc79f96a17f5a41c1a, workflow-record3d93269c035ce6cfc6764383a2771dce7f9c2607; normal push exit0, independently queried actualrefs/heads/master/localHEAD/origin/master all matched3d93269c035ce6cfc6764383a2771dce7f9c2607, worktree clean before metadata. This separate metadata update records completed,published on GitHub.
