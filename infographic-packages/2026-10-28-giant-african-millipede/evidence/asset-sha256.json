@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-10-28T20:51:57+09:00",
+  "files": {
+    "evidence/iucn-fields-2026-10-28.md": "129db638527d91b2669dc5c85f03ae3e1bbd2322a7b0cdabe89b0e36d1936a68",
+    "evidence/phone-en.png": "65027521c064e7b7dc8185151f2a273556a6b4aecc9beeacefdc2bec83fbc0e8",
+    "evidence/phone-ja.png": "d77281628c1e44e2442ac37ce6c17d86264fe67d45cfe446e351bbbbbd7541ce",
+    "image-prompt-en.md": "e104b10c7cacabb0621bbac11a6e1741e2dbfccbbb51f07a8224604a184a557e",
+    "image-prompt-ja.md": "c8da0715bc4c1b115fdd81f10294f11eaadcf879bf9505a3254e388561855e03",
+    "images/giant_african_millipede_english_imagegen_2026-10-28.png": "a0265a2f92787d41d257d49448e13010ba396fafd754f46a9b7971a2121b391f",
+    "images/giant_african_millipede_english_posting_2026-10-28.alt.txt": "8ac9219e072c686e1c03cbc89b9cfd44fe942e129cf58500f87dbbf5f59dd9cf",
+    "images/giant_african_millipede_english_posting_2026-10-28.caption.txt": "04e12952350e6bd925222ffed60668f5556c0703ef07e4dfca9ab2b0ff5811ab",
+    "images/giant_african_millipede_english_posting_2026-10-28.png": "6480d1a4d061f6c30e6bfe783fa7727e27955ef4f40578bf215973ac3e015541",
+    "images/giant_african_millipede_english_posting_2026-10-28.source-note.txt": "238394a6cfcf1612070607841ed1f2dc6cab40731a933ed97d229334580e3069",
+    "images/giant_african_millipede_english_posting_2026-10-28.story-reply.txt": "cb6425f19b0b3574adfa3bf0e9de45fea03900bfd82e05fcaa890ae153c09d10",
+    "images/giant_african_millipede_japanese_imagegen_2026-10-28.png": "084047c9f7c3685788795b927ff09cfe7b15081fd106a55187b1153a44b332f7",
+    "images/giant_african_millipede_japanese_posting_2026-10-28.alt.txt": "84eb1b2b5d160261fac9b69bc0e994a10136618f3aab5f9c35ab2622cc4965f4",
+    "images/giant_african_millipede_japanese_posting_2026-10-28.caption.txt": "21554d0114d2e67bd580d747b58531d9f35091f55ab96f76cae683cdb0f6fbf8",
+    "images/giant_african_millipede_japanese_posting_2026-10-28.png": "2f8535774996e9362ff7beae6b32e115cbc11377774bc4fe95accf4a5b00d136",
+    "images/giant_african_millipede_japanese_posting_2026-10-28.source-note.txt": "8ca3d82aeddfd0ce30a5415dfc96c98d4264603aebdc7d7cbb2803fd4006f9b9",
+    "images/giant_african_millipede_japanese_posting_2026-10-28.story-reply.txt": "0d421c3710ed127a64ba34167eef4e65048f592710b407baaf3799264f063564",
+    "infographic-copy-en.md": "506404e14273c99c5b8f123680cb1df01bccbbfc0b6d423a59fbc8bceee08f6f",
+    "infographic-copy-ja.md": "0caab1f3eed961f6f340d195d6d5176cdfe27007f6f5bd829b469b06ce214b53",
+    "README.md": "5b8e571676fec9289860c49a17342de5ca3ee87c085d627a04d4499f38a20070",
+    "references/coiled.png": "086122ef569d13397f56ede0a88ffe77bd95e43f83fab264c63ac8056bfdb2df",
+    "references/elongate.png": "2ec9875152ee484e5bcbbe16bbaee72824ead4c65e1238ea8d50d5e96ed1014f",
+    "sources-qa.md": "66b8ecabc788563ecf8378ba2885145af150d4477b3b6396a6e8675dcf21e1c6",
+    "x-post-en.md": "3c69ba6d9515ddf78a4116907888ba3607435e3dc3bb9acd07fb76abef4eccd1",
+    "x-post-ja.md": "e1c8ea56c6eb84f5cccd4f93db58129cf7b2205c7b35f3e8a85cad28ca6f0e02"
+  }
+}
