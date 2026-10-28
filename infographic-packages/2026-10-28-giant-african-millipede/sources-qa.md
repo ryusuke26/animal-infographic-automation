@@ -54,3 +54,11 @@ Selected direct files: images/giant_african_millipede_japanese_imagegen_2026-10-
 Final editorial/mechanical acceptance: all4 canonical PNGs exact1024x1536; eight sidecars generated offline with installed official X text helper; no install. Stories read as connected coil-to-pore-defense progression with new supported detail, not three card paraphrases. ALT matches medium, hero and three studies in each language. Full package validator includes X budgets; initial final check identified missing README sidecar links, deterministically added all8. No public copy/art changed after acceptance. Mechanical pass is distinct from biological and visual acceptance.
 
 Completed local-ready 2026-10-28T20:51:57+09:00. Weekly2026-W44 marker rechecked and reused, no duplicate reflection. No Git mutation or publication and no X interaction.
+
+
+## Authorized GitHub publication — 2026-10-28T21:53:34+09:00
+Human requested today's Giant African Millipede Git closeout in the active voice conversation after discussing its artwork and official status. Independently verified existing origin ryusuke26/animal-infographic-automation, master, base393f352045eaf566a23fcda5d250139c8e918a6f and exact29-path scope(package26+INDEX+current-state+daily). No unrelated files.
+
+Content [a664dff](https://github.com/ryusuke26/animal-infographic-automation/commit/a664dff18f95a10feadcbb148cee74f68bdc20d8) published package26+INDEX; production-record [b6ba3b9](https://github.com/ryusuke26/animal-infographic-automation/commit/b6ba3b9a23781786f590193d410f4af33106760a) published current-state+daily. Normal push completed; actualrefs/heads/master independently queried and matched localHEAD and tracking origin/master before this publication-state update. This separate metadata commit records completed,published on GitHub.
+
+Full packageQA,8 zero-drift sidecars,4 exact1024x1536 PNGs/pixel pairs,25 local/staged/committed manifest hashes passed. Thirteen scoped text files normalizedCRLF toLF without logical-copy changes; manifest refreshed. All accepted art, public Copy Lock, prompts, references, official evidence and sidecars preserved. WeeklyW44 ledger remains exactly once; no new learning/gate/policy. X posting/replies untouched.

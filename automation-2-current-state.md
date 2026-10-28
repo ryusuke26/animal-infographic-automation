@@ -1,11 +1,11 @@
 # Automation 2 Current State
-Updated: 2026-10-28T20:51:57+09:00
+Updated: 2026-10-28T21:53:34+09:00
 
 ## Workflow
 - Default: Quality Run; bilingual exact vertical2:3, three numbered illustrated explanatory cards, cards-v2 Copy Lock.
 - Species-led art direction: one matching JA/EN design, no compulsory rotation, quotas or universal benchmark. Today's accepted layered paper collage suits repeated rings and woodland litter.
 - Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo remains separately pending human adoption in INDEX.
-- Latest2026-10-28-giant-african-millipede: completed, local-ready. Previous Common Flying Dragon/Ginkgo/Spotted Garden Eel GitHub publication remains separately authorized history. No publication inferred for today's package.
+- Latest2026-10-28-giant-african-millipede: completed, published on GitHub via separately authorized closeout. Previous Common Flying Dragon/Ginkgo/Spotted Garden Eel GitHub publication remains separately authorized history. X posts/replies remain separately authorized.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
@@ -19,7 +19,7 @@ Updated: 2026-10-28T20:51:57+09:00
 - Cards paired legs on most double trunk rings / decaying plants / protective coil. Main adds droppings as plant nutrients; story continues into irritating fluid from body pores. No population/legal/urgency claim.
 - Three-candidate slate millipede/desert locust/water shrew; latest-eight/twenty and accepted/historical/bilingual/slug full-history gates passed. One layered paper-collage art direction, matte leaves/teal ground/cream studies and dimensional dark shell forms. Initial JA accepted before initial EN, zero retries. Actual prompts image-prompt-ja.md/image-prompt-en.md.
 - Four exact1024x1536 PNGs, pixel-identical direct/posting pairs,9 locked strings,3 numbered illustrated explanations, defining-feature/full/342x513 phone reviews,8 offline sidecars and final packageQA passed. 25 SHA-256 assets. Card1 qualitative visible near-side pairs, far side naturally hidden; cropped rear natural. Fine text benefits full PNG, no material blocker or user adoption claim.
-- Completed, local-ready; no dependency install, Git mutation, GitHub publication or X account/post/reply action.
+- Production completed local-ready; subsequent user-authorized contenta664dff and production-recordb6ba3b9 push independently verified against actualremote/local/tracking before marking GitHub published. No dependency install or X action.
 
 ## Recent-Eight Completed Region Summary
 1. 2026-10-21 — northern Eurasia freshwater river — Eurasian Beaver
@@ -50,6 +50,9 @@ Latest twenty scanned for subgroups/silhouettes/habitat/hooks; no quota/cooldown
 Continue reference-grounded species/story/medium variety. Weekly2026-W44 reflection already complete; no new production policy or required next correction. GitHub closeout and X publication remain separate.
 
 ## Latest Authorized GitHub Closeout
+- 2026-10-28T21:53:34+09:00: human voice authorized today's Giant African Millipede package and production records, exact29 paths. Contenta664dff18f95a10feadcbb148cee74f68bdc20d8, production-recordb6ba3b9a23781786f590193d410f4af33106760a; normal push completed, actualrefs/heads/master independently matched localHEAD/tracking, clean worktree before metadata. FullQA/8 sidecars/4 exactPNG pixel pairs/25 local-staged-committed hashes passed.13 text files alignedLF, no logical copy or binary changes. Completed,published on GitHub; X untouched.
+
+### Previously authorized Common Flying Dragon closeout
 - 2026-10-27T23:21:00+09:00: human authorized2026-10-27 Common Flying Dragon plus today's live automation-prompt application record, exact30-path union(package27+INDEX+current-state+daily). Content871d107eb92429c716e485dc79f96a17f5a41c1a, workflow-record3d93269c035ce6cfc6764383a2771dce7f9c2607; normal push exit0, independently queried actualrefs/heads/master/localHEAD/origin/master all matched3d93269c035ce6cfc6764383a2771dce7f9c2607, worktree clean before metadata. This separate metadata update records completed,published on GitHub.
 - PackageQA/8 zero-drift sidecars/4 exact1024x1536 PNGs/pixel pairs/24 local-staged-content-committed hashes pass. Ten package text files normalizedLF and seven protected text hashes refreshed, no logical copy or binary art/reference/sidecar changes. Live prompt equals already-committed saved instruction, ACTIVE; protected settings unchanged. Accepted crayon/oil-pastel images preserved; no collage trial. No X posts/replies.
 
