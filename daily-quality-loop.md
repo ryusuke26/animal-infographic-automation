@@ -2521,3 +2521,13 @@ State: completed, published on GitHub. This separate metadata commit follows ver
 
 ## 2026-10-28T21:53:34+09:00 — Giant African Millipede authorized GitHub closeout
 Human voice authorized today's package/records; exact29-path scope, contenta664dff, production-recordb6ba3b9, normal push and independent actualremote/local/tracking equality verified before metadata.25 local-staged-committed asset hashes,4 exact1024x1536 pixel pairs,8 zero-drift sidecars/fullQA pass.13 text files alignedLF with logical copy preserved. Completed,published on GitHub; accepted art/evidence/copy unchanged; no X action, new learning or policy. WeeklyW44 pointer retained once; historical media-export latency unresolved.
+
+
+## 2026-10-29T21:55:09+09:00 — Spotted Salamander Quality Run
+- Completed2026-10-29-spotted-salamander, local-ready; Amphibians/eastern North American spring pond. Official global2020LC/published2022 directly rendered, two INHS identity photographs, Evidence/Copy Lock before art. Nocturnal gouache bilingual pair; cards algae/spring pond/day-night, main oxygen/story gilled larval development. Four exact1024x1536 PNGs/pixel pairs,9 strings/3 illustrated cards,full/342x513 phone,8 offline sidecars/full packageQA pass. JA one fresh retry, EN zero; no user adoption claim or Git/GitHub/X action.
+- issue: initial near forefoot had5 digits despite correct limb count, plus localized extra card2 text. Magnified check matched Virginia DWR/NPS four-front/five-hind evidence; changed planned text edit to fresh retry before execution. All five defining features rechecked. One learning: inspect exposed digits by limb region, not merely the number of limbs. Existing gate/retry sufficient; no policy change/new checklist.
+- Carryover: historical browser-export latency unresolved. Observed direct-media timeout35 adult2.441s/eggs0.537s after sandboxDNS0.112/0.004s; first usable set reused, no export/benchmark/latency-repair claim. Weekly2026-W44 ledger re-read, exactly one completion; reused without duplicate review. No measured engagement data accessed.
+- Current run time: 2026-10-29T21:55:09+09:00.
+
+## 2026-10-29T22:04:31+09:00 — Spotted Salamander rejected-image cleanup
+User authorized deletion of the single rejected initial Japanese package PNG. Exact file moved to Windows Recycle Bin, obsolete README link removed, sources QA/current state/27-asset manifest synchronized. Four accepted PNGs and all posting sidecars unchanged; local-ready, no Git/GitHub/X action.
