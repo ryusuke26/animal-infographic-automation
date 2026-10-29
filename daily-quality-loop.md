@@ -2531,3 +2531,6 @@ Human voice authorized today's package/records; exact29-path scope, contenta664d
 
 ## 2026-10-29T22:04:31+09:00 — Spotted Salamander rejected-image cleanup
 User authorized deletion of the single rejected initial Japanese package PNG. Exact file moved to Windows Recycle Bin, obsolete README link removed, sources QA/current state/27-asset manifest synchronized. Four accepted PNGs and all posting sidecars unchanged; local-ready, no Git/GitHub/X action.
+
+## Authorized GitHub closeout — 2026-10-29T22:08:33+09:00
+Human requested today's Spotted Salamander cleanup and usual Git closeout in the active voice conversation. Exact scope31paths: package28+INDEX+current-state+daily. Failed initial package PNG moved to Windows Recycle Bin; four accepted images unchanged. Content3b3d170 and production-record7565eb0 normally pushed to existing origin/master; independently queried actual remote, local HEAD and tracking all match 7565eb0d3f7fe660bc8ac74a28012b0409205489 before this publication metadata. Full packageQA,27 local/staged/committed asset hashes and whitespace pass. No dependency or credential/config changes. User reports X already posted; URL/language/image not independently verified, assistant no X action. WeeklyW44 ledger remains once; historical browser-export latency unresolved. This metadata records completed,published on GitHub.
