@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-10-30T12:41:41+09:00",
+  "files": {
+    "evidence/iucn-fields-2026-10-30.md": "27f16c06f6b4bf5e784d59fe60a7fffbbcc1169d197bd29c43e0836a12a7366a",
+    "evidence/phone-en.png": "359e767a6e66e3fb863aed5a3b5ed8fde321b502dc3b661d5618331f548ba52a",
+    "evidence/phone-ja-initial.png": "a19df98e336f66ad567ec1073db99186390518c51df88cc67ff7d148ce7ae2e8",
+    "evidence/phone-ja.png": "2b54fae8750ab9079e4037f765bb10ac1d0fc9f156cabb6179fd4d21255253cd",
+    "image-prompt-en.md": "cee1a10c7081b8948cb2b4e38cde8627734d0e50c8e7d63fbfacfdc2863af7b4",
+    "image-prompt-ja-retry.md": "215dba9cceebf892c2550a41505b54819d2e66994953ce37f40f8efe0123a5fb",
+    "image-prompt-ja.md": "e2140bdd3dd2f22cd041f7fdb5a7e7d032f3c39a1b9a1174ec7992a20053c15f",
+    "images/bare_nosed_wombat_english_imagegen_2026-10-30.png": "55952d4c9fd37547c45b95cedd9d0c5cbd356edcc3b4742a4685e645e2ddfa14",
+    "images/bare_nosed_wombat_english_posting_2026-10-30.alt.txt": "4e361272b40a51a9bcb587c116a2913aeccdbbcfe66d92258dc33b60435445fe",
+    "images/bare_nosed_wombat_english_posting_2026-10-30.caption.txt": "2161417d056258851fc49e16b5c728dce7a396a3faa47d2626a840d4a56b6613",
+    "images/bare_nosed_wombat_english_posting_2026-10-30.png": "5e119dbaa64fd178dc9342ba9c7acd9355bf1a0ce77d4c11f26fd675e01ff359",
+    "images/bare_nosed_wombat_english_posting_2026-10-30.source-note.txt": "c3dc85c415a1a99c7b86be589e6349a71e7bdfecd5bbe6febc9ff13cf28bb9c0",
+    "images/bare_nosed_wombat_english_posting_2026-10-30.story-reply.txt": "f59c5ebbec9e33d987ed58a44a25aca0ef4a2d740f2243b838921596407433dc",
+    "images/bare_nosed_wombat_japanese_imagegen_2026-10-30.png": "82e3f4e4be656ca6d29f960fbbc477e26f60078e9c4520d9ea68959e0f0f6b2f",
+    "images/bare_nosed_wombat_japanese_posting_2026-10-30.alt.txt": "baf0ec6c798c623155d31e35f687924260b4c41d0c33ae3c7334692069117c87",
+    "images/bare_nosed_wombat_japanese_posting_2026-10-30.caption.txt": "ab7fb88537cbe2fa006b30f9234d108edbcdfb38d4bb38412fd943e1f416069c",
+    "images/bare_nosed_wombat_japanese_posting_2026-10-30.png": "e1ca8cb0446c8c70f5bf861dcf19ab2f16e22881f94a4886750bea471fdf703c",
+    "images/bare_nosed_wombat_japanese_posting_2026-10-30.source-note.txt": "0d29465903a59f22e96f14b0eac7c0b4e324d9a27ad491626d24c7d153c60bba",
+    "images/bare_nosed_wombat_japanese_posting_2026-10-30.story-reply.txt": "ba03900fe1c6751fe2e9e20722a48f8a5b9f0ed7b6cc1a4cf45d34dd26234e9d",
+    "infographic-copy-en.md": "17acc24d7a31e29df8c7ab928e6e75fe5d6b92c2ee29bb82b996db5a8c1d2421",
+    "infographic-copy-ja.md": "4ac049cddc090043a19457b51534446cec9429a9e8959bf0f08882cff49b6a8e",
+    "references/adult-side.jpg": "cc8d8278461a7e3b6d0ea32c778cdcac2c899e53107b61c4d7fd6d0dfcf1d571",
+    "x-post-en.md": "08dd17a5ec63dd7010f2cab97b3a4e09d77f9ed29d7ba87c410d4a8fc2baf0bd",
+    "x-post-ja.md": "232e11b5476ff339470b82bfe62694674344a799bc62581bf4ce48d7fb3cab64"
+  },
+  "cleanup_at": "2026-10-30T23:57:21+09:00"
+}
