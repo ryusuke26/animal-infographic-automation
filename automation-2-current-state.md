@@ -1,11 +1,11 @@
 # Automation 2 Current State
-Updated: 2026-10-29T22:08:33+09:00
+Updated: 2026-10-30T23:57:21+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today nocturnal editorial gouache suits yellow-spotted adult and green egg study.
+- Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today earthy linocut uses curved fur marks against angular scats to explain a round marsupial's gut mechanics.
 - Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo separately pending human adoption in INDEX.
-- Latest2026-10-29-spotted-salamander: completed, published on GitHub. Prior Giant African Millipede GitHub closeout remains separately authorized history. Human has now authorized today's GitHub closeout in the active voice conversation; content/record push independently verified. User reports X already posted; URL/language/image unverified, assistant no X action.
+- Latest2026-10-30-bare-nosed-wombat: completed, local-ready. User authorized today's usual GitHub closeout and confirmed the scope; publication pending actual remote verification. No X action. Previous user-authorized Spotted Salamander publication remains historical below.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
@@ -13,41 +13,43 @@ Updated: 2026-10-29T22:08:33+09:00
 - Execution prompt: live automation-2 prompt synchronization completed by the authorized voice chat on2026-10-27 and independently read-back verified here at2026-10-27T23:17:42+09:00. Saved automation-2-updated-prompt.md and live prompt match after outer-whitespace trim/LF normalization; SHA-256 cdffd045c3e27305c30e3b625a43664a21ed4e3bb93db08ed92bbfcef9c004bf. ACTIVE; no schedule/model/notification/destination change performed during this closeout.
 
 ## Latest Completed Package
-- Spotted Salamander / キボシサンショウウオ / Ambystoma maculatum (Shaw,1802); Amphibians; Animalia > Chordata > Amphibia > Caudata > Ambystomatidae.
-- Eastern North America, deciduous woodland spring pond. Green egg/algae association contrasts recent coastal/plant/myriapod stories; Fire Salamander yellow-black and forest recurrence weighed explicitly in sources QA.
-- Current official IUCN T59064A193224401 GlobalLC ver3.1, assessed18December2020/published2022, directly rendered fields transcribed. AMNH/ITIS, Japanese J-STAGE name, INHS adult/egg photographs and state-agency biology verified. No population/legal/urgency claim or adult photosynthesis claim.
-- Cards green algae in egg jelly / spring forest-to-pond gathering / day shelter-night foraging. Main adds oxygen delivery, story aquatic gilled larvae to terrestrial metamorphosis. Candidate slate salamander/European mole/Indian moon moth; latest-eight/twenty and full-history aliases checked.
-- One gouache art direction. Japanese one fresh retry corrects exposed5-to-4 foredigits and extra tiny card2 text; all five defining features rechecked before English initial accepted. Actual prompts image-prompt-ja-retry.md/image-prompt-en.md; initial JA rejected package copy moved to Recycle Bin by user request. No local image repair.
-- Four exact1024x1536 PNGs/pixel-identical language pairs,9 locked strings,3 illustrated numbered cards,full/342x513 phone review,8 offline sidecars and packageQA passed. Natural far-limb occlusion allowed. Egg tint qualitative/variable; fine type benefits full PNG. No material blocker/user adoption claim.
-- Production completed local-ready; subsequent user-authorized GitHub content/record push independently verified before publication metadata. No dependency install or assistant X action; user reports X already posted.
+- Bare-nosed Wombat / ウォンバット / Vombatus ursinus (Shaw,1800); Mammals; Animalia > Chordata > Mammalia > Diprotodontia > Vombatidae.
+- Australia/Oceania, southeastern Australia including Tasmania; open woodland and grassy clearing. Squat marsupial/intestinal mechanics contrasts recent elongated invertebrate and amphibian/pond stories; soil-burrow recurrence in latest twenty explicitly weighed.
+- Current official IUCN T40556A258654868 GlobalLC ver3.1, assessed11October2024/published2025, directly rendered fields transcribed. MDD/AFD and official Japanese zoo names, Australian Museum photograph/morphology, Yang2021 study and Tasmania NRE biology verified. No population/legal/urgency claim.
+- Cards intestinal cubes/digging legs and claws/growing incisors. Main adds rock/log communication placement, story adds backward-opening female pouch and early development. Candidate slate wombat/hoopoe/wētāpunga; latest-eight/twenty and full-history scientific/historical/bilingual/slug gates checked.
+- One earthy linocut direction. Japanese one localized Image Gen retry corrects overlong projecting teeth in card3, all five defining features rechecked before English initial accepted. Actual prompts image-prompt-ja-retry.md/image-prompt-en.md; initial rejected package PNG subsequently moved to Windows Recycle Bin at user request; accepted art preserved. No local image repair.
+- Four exact1024x1536 PNGs/pixel-identical language pairs,9 locked strings,3 illustrated numbered cards,full/342x513 phone review,8 offline sidecars and packageQA. Natural far-leg occlusion allowed. Gut/teeth/burrow studies qualitative; fine type benefits full PNG. No material blocker/user adoption claim.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-10-22 — Mexico/tropical American ground margin — Sensitive Plant
-2. 2026-10-23 — North Atlantic island/offshore — Atlantic Puffin
-3. 2026-10-24 — widespread/North American hardwood log — Turkey Tail
-4. 2026-10-25 — Indo-Pacific reef-edge sand — Spotted Garden Eel
-5. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
-6. 2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
-7. 2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
-8. 2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+1. 2026-10-23 — North Atlantic island/offshore — Atlantic Puffin
+2. 2026-10-24 — widespread/North American hardwood log — Turkey Tail
+3. 2026-10-25 — Indo-Pacific reef-edge sand — Spotted Garden Eel
+4. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
+5. 2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
+6. 2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
+7. 2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+8. 2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
 
 ## Recent-Eight Completed Classification Summary
-1. Plants — Sensitive Plant
-2. Birds — Atlantic Puffin
-3. Fungi and lichens — Turkey Tail
-4. Fishes — Spotted Garden Eel
-5. Plants — Ginkgo
-6. Reptiles — Common Flying Dragon
-7. Other invertebrates — Giant African Millipede
-8. Amphibians — Spotted Salamander
+1. Birds — Atlantic Puffin
+2. Fungi and lichens — Turkey Tail
+3. Fishes — Spotted Garden Eel
+4. Plants — Ginkgo
+5. Reptiles — Common Flying Dragon
+6. Other invertebrates — Giant African Millipede
+7. Amphibians — Spotted Salamander
+8. Mammals — Bare-nosed Wombat
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
 ## Daily Quality Loop — unresolved carryover only
-- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Today's observed INHS direct-media routes timeout35 succeeded2.441/0.537s after sandboxDNS0.112/0.004s failures; first usable two-photo set reused. No browser export/benchmark/duplicate successful transfer or latency-fix claim.
+- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Today's observed Australian Museum direct-media timeout35 succeeded0.688s after immediate sandboxDNS failure. Additional lazy-photo DOM read timed out; existing usable reference reused. No browser media-export/benchmark/duplicate successful download or latency-fix claim.
 
 ## Next Concrete Change
-Continue reference-grounded species/story/medium variety. Today's existing full-feature gate caught a wrong exposed foredigit count; keep checking visible digits by limb region within the existing review, no added gate. Weekly2026-W44 already complete. GitHub closeout and X publication remain separate.
+Continue reference-grounded species/story/medium variety. Today's existing morphology gate caught an overgrown-looking tooth study; preserve the working bite in growth illustrations. Corrected locally within the normal generation retry budget; no new gate. Weekly2026-W44 already complete. GitHub closeout and X publication remain separate.
+
+## Current Authorized GitHub Closeout
+- 2026-10-30T23:57:21+09:00: today's Bare-nosed Wombat package plus INDEX/current-state/daily, exact30paths. Existing origin/master verified, base remote/local/tracking match5628f96. Single rejected package PNG recycled; all24 remaining protected hashes and four accepted PNGs preserved. Publication pending content/record push and remote verification, then metadata. No X action.
 
 ## Latest Authorized GitHub Closeout
 
