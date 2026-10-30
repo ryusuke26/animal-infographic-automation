@@ -1,5 +1,5 @@
 # Bare-nosed Wombat / ウォンバット
-Status: completed, local-ready
+Status: completed, published on GitHub
 Workflow mode: Quality Run
 Editorial classification group: Mammals
 Region: Australia/Oceania — southeastern Australian woodland and grassland, including Tasmania.
@@ -30,8 +30,12 @@ Actual selected prompts: image-prompt-ja-retry.md and image-prompt-en.md. [Initi
 
 [Japanese phone review](evidence/phone-ja.png) · [English phone review](evidence/phone-en.png) · [Asset manifest](evidence/asset-sha256.json).
 
-Completed 2026-10-30T12:41:41+09:00. Final full package validator includes X budgets and source checks. Weekly2026-W44 already completed and reused once. GitHub unpublished; X unpublished by this task. No Git staging/commit/push or external publication performed.
+Completed 2026-10-30T12:41:41+09:00. Final full package validator includes X budgets and source checks. Weekly2026-W44 already completed and reused once. Production originally finished local-ready without Git/X actions; subsequent user-authorized GitHub closeout completed below. No X post/reply by this task.
 
 
 ## User-authorized cleanup and GitHub closeout
-At 2026-10-30T23:57:21+09:00, the user asked to remove today's failed image and complete the usual Git closeout, then confirmed the scope. Exactly one rejected package PNG was moved recoverably to Windows Recycle Bin. Real reference, prompts, copy, sidecars, accepted phone views and initial-phone audit evidence are preserved. Generated-image cache outside the workspace is unchanged. Destination verified as the existing ryusuke26/animal-infographic-automation repository on master; scope is this package plus INDEX/current-state/daily records. Publication remains pending until an actual remote-ref match. No X action.
+At 2026-10-30T23:57:21+09:00, the user asked to remove today's failed image and complete the usual Git closeout, then confirmed the scope. Exactly one rejected package PNG was moved recoverably to Windows Recycle Bin. Real reference, prompts, copy, sidecars, accepted phone views and initial-phone audit evidence are preserved. Generated-image cache outside the workspace is unchanged. Destination verified as the existing ryusuke26/animal-infographic-automation repository on master; scope is this package plus INDEX/current-state/daily records. Content/record publication independently verified by actual remote-ref match; see completed closeout below. No X action.
+
+
+## Authorized GitHub closeout — 2026-10-31T00:00:29+09:00
+Human requested today's failed-image removal and usual Git closeout in the active voice conversation, then confirmed the scope. Exactly1 rejected package PNG moved recoverably to Windows Recycle Bin; four accepted images, eight sidecars and24 remaining protected assets preserved. Initial phone audit evidence and generated-image cache unchanged. Exact30-path scope: package27+INDEX+current-state+daily. Contenta611dbf and production-record0dd63da pushed normally to existing origin/master; independent actual remote, localHEAD and tracking all match 0dd63dadee88d7a35201e086c388976ef89c8a53 before this publication metadata. Full packageQA,24 local/staged/committed hashes, all27 package-file byte comparisons, four exact1024x1536 PNGs/pixel pairs and whitespace passed. No dependencies, credentials/config, artwork or public-copy changes. Weekly2026-W44 ledger remains once; historical browser-export latency unresolved. Completed,published on GitHub; no X post/reply/account action.

@@ -5,7 +5,7 @@ Updated: 2026-10-30T23:57:21+09:00
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
 - Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today earthy linocut uses curved fur marks against angular scats to explain a round marsupial's gut mechanics.
 - Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo separately pending human adoption in INDEX.
-- Latest2026-10-30-bare-nosed-wombat: completed, local-ready. User authorized today's usual GitHub closeout and confirmed the scope; publication pending actual remote verification. No X action. Previous user-authorized Spotted Salamander publication remains historical below.
+- Latest2026-10-30-bare-nosed-wombat: completed, published on GitHub. User authorized today's usual GitHub closeout and confirmed scope; content/record push independently verified before publication metadata. No X action. Previous user-authorized Spotted Salamander publication remains historical below.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
@@ -49,9 +49,12 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 Continue reference-grounded species/story/medium variety. Today's existing morphology gate caught an overgrown-looking tooth study; preserve the working bite in growth illustrations. Corrected locally within the normal generation retry budget; no new gate. Weekly2026-W44 already complete. GitHub closeout and X publication remain separate.
 
 ## Current Authorized GitHub Closeout
-- 2026-10-30T23:57:21+09:00: today's Bare-nosed Wombat package plus INDEX/current-state/daily, exact30paths. Existing origin/master verified, base remote/local/tracking match5628f96. Single rejected package PNG recycled; all24 remaining protected hashes and four accepted PNGs preserved. Publication pending content/record push and remote verification, then metadata. No X action.
+- 2026-10-30T23:57:21+09:00: today's Bare-nosed Wombat package plus INDEX/current-state/daily, exact30paths. Existing origin/master verified, base remote/local/tracking match5628f96. Single rejected package PNG recycled; all24 remaining protected hashes and four accepted PNGs preserved. Contenta611dbf/record0dd63da pushed normally; actualremote/local/tracking independently match0dd63da before this publication metadata. No X action.
 
-## Latest Authorized GitHub Closeout
+## Authorized GitHub closeout — 2026-10-31T00:00:29+09:00
+Human requested today's failed-image removal and usual Git closeout in the active voice conversation, then confirmed the scope. Exactly1 rejected package PNG moved recoverably to Windows Recycle Bin; four accepted images, eight sidecars and24 remaining protected assets preserved. Initial phone audit evidence and generated-image cache unchanged. Exact30-path scope: package27+INDEX+current-state+daily. Contenta611dbf and production-record0dd63da pushed normally to existing origin/master; independent actual remote, localHEAD and tracking all match 0dd63dadee88d7a35201e086c388976ef89c8a53 before this publication metadata. Full packageQA,24 local/staged/committed hashes, all27 package-file byte comparisons, four exact1024x1536 PNGs/pixel pairs and whitespace passed. No dependencies, credentials/config, artwork or public-copy changes. Weekly2026-W44 ledger remains once; historical browser-export latency unresolved. Completed,published on GitHub; no X post/reply/account action.
+
+## Previous Authorized GitHub Closeout
 
 
 ## Authorized GitHub closeout — 2026-10-29T22:08:33+09:00
