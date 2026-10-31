@@ -1,11 +1,11 @@
 # Automation 2 Current State
-Updated: 2026-10-31T11:59:51+09:00
+Updated: 2026-10-31T21:22:27+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
 - Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today luminous naturalist watercolor keeps the peach crest and crisp black/white wings clear against soft olive/gold grass, with an egg-coating cavity study.
 - Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo separately pending human adoption in INDEX.
-- Latest2026-10-31-common-hoopoe: completed, local-ready. No Git staging/commit/push, GitHub or X publication/account action. Previous user-authorized Bare-nosed Wombat publication remains historical below; it does not authorize today's publication.
+- Latest2026-10-31-common-hoopoe: completed, published on GitHub. User authorized today's usual Git closeout in active voice; content/record push independently verified before publication metadata. No X action. Prior Bare-nosed Wombat publication remains historical below.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
@@ -47,6 +47,9 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 
 ## Next Concrete Change
 Continue reference-grounded species/story/medium variety. Today issue:none, no new gate/policy or daily learning. Existing official field-level browser route resolved a previously deferred candidate. Weekly2026-W44 already complete and reused once. GitHub closeout and X publication remain separate.
+
+## Current Authorized GitHub Closeout — Common Hoopoe
+At 2026-10-31T21:22:27+09:00, the user requested today's usual Git closeout in the active voice conversation. Exact28-path scope: package25 plus INDEX/current-state/daily. Existing origin/master and base7bcccdb verified read-only. Full packageQA, four1024x1536 PNGs/pixel pairs, eight sidecars and all25 local/staged/committed package-file hashes passed. Scoped text line endings normalized toLF without logical-copy or binary changes. Content63ee02e and production-record3450f91 pushed normally; actual remote refs/heads/master independently matched localHEAD/tracking3450f91 before this publication metadata. Completed,published on GitHub. No artwork/public-copy changes, dependency installs, credential/config changes, rejected-image cleanup or X account/post/reply action. Weekly2026-W44 remains complete once; historical export latency unresolved.
 
 ## Previous Authorized GitHub Closeout — Bare-nosed Wombat
 - 2026-10-30T23:57:21+09:00: today's Bare-nosed Wombat package plus INDEX/current-state/daily, exact30paths. Existing origin/master verified, base remote/local/tracking match5628f96. Single rejected package PNG recycled; all24 remaining protected hashes and four accepted PNGs preserved. Contenta611dbf/record0dd63da pushed normally; actualremote/local/tracking independently match0dd63da before this publication metadata. No X action.

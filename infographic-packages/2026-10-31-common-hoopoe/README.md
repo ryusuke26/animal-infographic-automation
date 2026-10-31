@@ -1,5 +1,5 @@
 # Common Hoopoe / ヤツガシラ
-Status: completed, local-ready
+Status: completed, published on GitHub
 Workflow mode: Quality Run
 Editorial classification group: Birds
 Region: Europe — Mediterranean short-grass open woodland/orchard edge; Spanish breeding-study context.
@@ -29,4 +29,8 @@ Four canonical PNGs are1024x1536, direct/posting pairs pixel-identical. Eight si
 
 [Japanese phone review](evidence/phone-ja.png) · [English phone review](evidence/phone-en.png).
 
-Completed2026-10-31T11:59:51+09:00, local-ready. Weekly2026-W44 ledger already completed once and reused, no duplicate reflection or invented engagement data. Git/GitHub and X were not mutated or published; closeout/publication remains separate.
+Completed2026-10-31T11:59:51+09:00, local-ready. Weekly2026-W44 ledger already completed once and reused, no duplicate reflection or invented engagement data. Production originally finished without Git/GitHub or X publication; subsequent user-authorized GitHub closeout is recorded below. X remains outside this closeout.
+
+
+## Authorized GitHub closeout
+At 2026-10-31T21:22:27+09:00, the user requested today's usual Git closeout in the active voice conversation. Exact28-path scope: package25 plus INDEX/current-state/daily. Existing origin/master and base7bcccdb verified read-only. Full packageQA, four1024x1536 PNGs/pixel pairs, eight sidecars and all25 local/staged/committed package-file hashes passed. Scoped text line endings normalized toLF without logical-copy or binary changes. Content63ee02e and production-record3450f91 pushed normally; actual remote refs/heads/master independently matched localHEAD/tracking3450f91 before this publication metadata. Completed,published on GitHub. No artwork/public-copy changes, dependency installs, credential/config changes, rejected-image cleanup or X account/post/reply action. Weekly2026-W44 remains complete once; historical export latency unresolved.
