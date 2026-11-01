@@ -1,54 +1,54 @@
 # Automation 2 Current State
-Updated: 2026-10-31T21:22:27+09:00
+Updated: 2026-11-01T21:19:54+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today luminous naturalist watercolor keeps the peach crest and crisp black/white wings clear against soft olive/gold grass, with an egg-coating cavity study.
+- Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today deep teal opaque gouache with fine pencil lines keeps the silver air film and copper-brown jointed spider clear among green water plants.
 - Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo separately pending human adoption in INDEX.
-- Latest2026-10-31-common-hoopoe: completed, published on GitHub. User authorized today's usual Git closeout in active voice; content/record push independently verified before publication metadata. No X action. Prior Bare-nosed Wombat publication remains historical below.
+- Latest2026-11-01-diving-bell-spider: completed, local-ready. Git/GitHub/X untouched; publishing requires separate authorization. Prior Common Hoopoe GitHub publication remains historical below.
 
 ## Weekly visual reflection
 - Last completed review week: 2026-W44.
-- Completion ledger: daily-quality-loop.md, `[weekly-style-review: 2026-W44] completed`, checked again today; exactly one entry. Seven accepted Japanese posters2026-10-20 through26 inspected on26October, English pairing checked. No measured reaction data. Next adjustment:none. Pending review:none. No duplicate review today.
+- Completion ledger: daily-quality-loop.md, `[weekly-style-review: 2026-W44] completed`, re-read at this run's finish; exactly one entry. Seven accepted Japanese posters2026-10-20 through26 inspected on26October, English pairing checked then. No measured reactions. Next adjustment:none. Pending review:none. Reused without duplicate review on this Sunday; next ISO week begins2November Tokyo.
 - Execution prompt: live automation-2 prompt synchronization completed by the authorized voice chat on2026-10-27 and independently read-back verified here at2026-10-27T23:17:42+09:00. Saved automation-2-updated-prompt.md and live prompt match after outer-whitespace trim/LF normalization; SHA-256 cdffd045c3e27305c30e3b625a43664a21ed4e3bb93db08ed92bbfcef9c004bf. ACTIVE; no schedule/model/notification/destination change performed during this closeout.
 
 ## Latest Completed Package
-- Common Hoopoe / ヤツガシラ / Upupa epops Linnaeus,1758; Birds; Animalia > Chordata > Aves > Bucerotiformes > Upupidae.
-- Europe, Mediterranean short-grass open woodland/orchard edge; Spanish breeding-study context. Slender curved-bill/fan-crest terrestrial bird contrasts recent marine birds and mammals. Recent salamander egg symbiosis weighed: maternal external coating/shell retention offers a different mechanism.
-- Official IUCN T22682655A181836360 GlobalLC ver3.1, assessed14August2020/published2020, directly rendered field transcription saved. Yesterday's candidate-only status-scope blocker resolved by actual official fields. ITIS/Tokyo park names, RSPB two real photos, Naturalis ecology and primary2014 egg experiment/UGR research report verified. No population/legal/urgency claim.
-- Cards antimicrobial-producing bacteria in female egg oil/soil probing/folding crest. Main adds egg-colour change; story blind shell pits/controlled access experiment. Slate Sandbox Tree/nocturnal dung beetle; latest-eight/twenty and full-history scientific/historical/bilingual/slug gates checked.
-- One luminous naturalist-watercolor pair; both initial built-in posters accepted, zero retries. Actual prompts image-prompt-ja.md/image-prompt-en.md. Japanese immediate source/full/phone acceptance before English; same gates and all five defining features rechecked in English. No local image repair or CLI fallback.
-- Four exact1024x1536 PNGs/pixel-identical language pairs,9 locked strings,3 numbered illustrated cards,full/342x513 phone review,8 offline sidecars,README links and packageQA passed. Natural far-foot/grass overlap allowed. Microscopic oil/bacteria qualitative; fine type benefits full PNG. No material blocker/user adoption claim.
+- Diving Bell Spider / ミズグモ / Argyroneta aquatica (Clerck,1757); Other invertebrates; Animalia > Arthropoda > Arachnida > Araneae > Argyronetidae.
+- Eurasia including Japan, quiet freshwater pond with dense aquatic vegetation. New arachnid body form, silver air film and physical gas-transfer hook; water setting overlaps eel/salamander but changes mechanism and plant-associated life.
+- Official IUCN T85737177A213955433 GlobalNT A3c ver3.1, assessed3April2023/published2026, directly rendered field transcription saved. Tokyo Zoo unassessed line superseded for Global; JapaneseVU remains separate. Current WSC family updated from older IUCNCybaeidae. No population/legal/urgency claim.
+- Cards dissolved oxygen into bell/air transport on hairs/silk room feeding and egg-laying; main experimental resting needs, story nitrogen loss/shrinkage/refill. Slate Great Diving Beetle/Giant Sequoia; full-history accepted/historical/bilingual/slug exclusion and latest-eight/twenty diversity checked.
+- Both initial built-in gouache posters accepted, zero retries. Actual prompts image-prompt-ja.md/image-prompt-en.md, three real references and accepted Japanese as English style/composition reference. Japanese immediate/full/phone acceptance before English; all five defining features rechecked in English.
+- Four exact1024x1536 PNGs, pixel-identical pairs, nine locked strings, three numbered illustrated explanations,342x513 phone/full review, eight offline sidecars, README links and full packageQA pass. Natural far-leg overlap accepted. Gas arrows/hair detail qualitative; no material blocker/human-adoption claim.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-10-24 — widespread/North American hardwood log — Turkey Tail
-2. 2026-10-25 — Indo-Pacific reef-edge sand — Spotted Garden Eel
-3. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
-4. 2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
-5. 2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
-6. 2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
-7. 2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-8. 2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+1. 2026-10-25 — Indo-Pacific reef-edge sand — Spotted Garden Eel
+2. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
+3. 2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
+4. 2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
+5. 2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+6. 2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
+7. 2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+8. 2026-11-01 — Eurasian vegetated freshwater pond, including Japan — Diving Bell Spider
 
 ## Recent-Eight Completed Classification Summary
-1. Fungi and lichens — Turkey Tail
-2. Fishes — Spotted Garden Eel
-3. Plants — Ginkgo
-4. Reptiles — Common Flying Dragon
-5. Other invertebrates — Giant African Millipede
-6. Amphibians — Spotted Salamander
-7. Mammals — Bare-nosed Wombat
-8. Birds — Common Hoopoe
+1. Fishes — Spotted Garden Eel
+2. Plants — Ginkgo
+3. Reptiles — Common Flying Dragon
+4. Other invertebrates — Giant African Millipede
+5. Amphibians — Spotted Salamander
+6. Mammals — Bare-nosed Wombat
+7. Birds — Common Hoopoe
+8. Other invertebrates — Diving Bell Spider
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
 ## Daily Quality Loop — unresolved carryover only
-- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Today's observed RSPB direct-media timeout35 transfers succeeded3.606/2.941s after initial sandboxDNS0.109s. UGR legacy linked image unavailable; descriptions/primary research sufficient for qualitative egg study, first usable two-photo adult bundle reused. No browser media-export/benchmark/duplicate successful download or latency-fix claim.
+- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Today's real-reference direct-media transfers with timeout35s succeeded0.827/0.262/0.719s after initial sandboxDNS0.104s. First usable three-reference bundle reused; no browser media-export/benchmark/duplicate success or latency-fix claim.
 
 ## Next Concrete Change
-Continue reference-grounded species/story/medium variety. Today issue:none, no new gate/policy or daily learning. Existing official field-level browser route resolved a previously deferred candidate. Weekly2026-W44 already complete and reused once. GitHub closeout and X publication remain separate.
+Continue reference-grounded species/story/medium variety. Today issue:none, no new gate/policy or learning. Existing dated official field route resolves stale zoo unassessed wording. Weekly2026-W44 already complete and reused once; GitHub closeout and X publication remain separate.
 
-## Current Authorized GitHub Closeout — Common Hoopoe
+## Previous Authorized GitHub Closeout — Common Hoopoe
 At 2026-10-31T21:22:27+09:00, the user requested today's usual Git closeout in the active voice conversation. Exact28-path scope: package25 plus INDEX/current-state/daily. Existing origin/master and base7bcccdb verified read-only. Full packageQA, four1024x1536 PNGs/pixel pairs, eight sidecars and all25 local/staged/committed package-file hashes passed. Scoped text line endings normalized toLF without logical-copy or binary changes. Content63ee02e and production-record3450f91 pushed normally; actual remote refs/heads/master independently matched localHEAD/tracking3450f91 before this publication metadata. Completed,published on GitHub. No artwork/public-copy changes, dependency installs, credential/config changes, rejected-image cleanup or X account/post/reply action. Weekly2026-W44 remains complete once; historical export latency unresolved.
 
 ## Previous Authorized GitHub Closeout — Bare-nosed Wombat
