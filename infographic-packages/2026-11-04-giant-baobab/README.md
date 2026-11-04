@@ -1,5 +1,5 @@
 # Giant Baobab / アダンソニア・グランディディエリ
-Status: completed, local-ready
+Status: completed, published on GitHub
 Workflow mode: Quality Run
 Editorial classification group: Plants
 Region: western/southwestern Madagascar — seasonal dry deciduous woodland.
@@ -33,3 +33,7 @@ ja: [caption](images/giant_baobab_japanese_posting_2026-11-04.caption.txt) · [s
 en: [caption](images/giant_baobab_english_posting_2026-11-04.caption.txt) · [story-reply](images/giant_baobab_english_posting_2026-11-04.story-reply.txt) · [alt](images/giant_baobab_english_posting_2026-11-04.alt.txt) · [source-note](images/giant_baobab_english_posting_2026-11-04.source-note.txt)
 
 Completed 2026-11-04T11:02:08+09:00. Full package validation passed, including offline X-weighted format checks, direct-source gates and posting-sidecar links. Four canonical PNGs exactly1024x1536, direct/posting pairs pixel-identical; local file links and protected asset hashes independently checked. Weekly 2026-W45 reflection completed once in daily-quality-loop.md. No Git staging/commit/push, GitHub publication or X post/reply.
+
+
+## Authorized GitHub closeout
+At 2026-11-04T19:46:56+09:00, the user requested today's usual GitHub closeout in active voice. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base9100f33. Exact42-path union: Giant Baobab25, cancelled Living Stone archive13, INDEX and three operational documents. No unrelated changes. Content605477a and archive/workflow104edf8 pushed normally; actual remote refs/heads/master independently verified equal localHEAD/tracking104edf8 before this publication metadata. All42 local/staged/committed hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars and full packageQA passed. One archive text file normalizedCRLF-toLF; no logical-copy or binary changes, protected manifests verified. Giant Baobab completed,published on GitHub; Living Stone remains cancelled research archive, never completed art. No artwork, public copy, dependencies, credentials/config or X account/post/reply changes. Weekly2026-W45 remains completed once; historical browser-media latency unresolved. No PR created.

@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-04T11:02:08+09:00
+Updated: 2026-11-04T19:46:56+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful2026-11-04-giant-baobab is completed, local-ready. Four canonical PNGs and both posting sets validated; no GitHub or X publication.
+- Active unfinished daily package:NONE. Latest successful2026-11-04-giant-baobab is completed,published on GitHub after user-authorized closeout. Four canonical PNGs and both posting sets validated; no X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
 - Same-taxon assessment/copy/actual references required; species-wide Global status cannot be inferred from subspecies or national categories. No general policy change. Historical Sunda Colugo human-adoption hold remains separate.
@@ -20,7 +20,7 @@ Updated: 2026-11-04T11:02:08+09:00
 - Direct official IUCNT30388A64007143 GlobalEN A4c ver3.1, assessed7July2016/published2016; rendered field record saved. Species-wide assessment matches exact-taxon park photograph and copy; no subspecies, population or law claim.
 - Three cards:stored water supports new leaves; bare through much of dry season; adult palmate compound leaf. Main adds pre-rain timing; story continues to stomata waiting for root water. Conflicting flower reference excluded before Copy Lock, no speculative flower art or species switch.
 - Both initial built-in Image Gen dusk woodblock posters accepted, zero retries. Japanese source/full/342x513 phone acceptance before English; same checks and all five defining features repeated in English. Actual prompts:image-prompt-ja.md/image-prompt-en.md; real park photo identity reference, Japanese as English composition reference only.
-- Four1024x1536 canonical PNGs, pixel-identical direct/posting pairs,9strings/3numbered illustrated explanations,8offline sidecars, README links and full packageQA passed.24protected asset hashes verified. Tissue/seasonal studies qualitative;9leaflets within natural variation. No material blocker/human adoption claim. Completed,local-ready; unpublished.
+- Four1024x1536 canonical PNGs, pixel-identical direct/posting pairs,9strings/3numbered illustrated explanations,8offline sidecars, README links and full packageQA passed.24protected asset hashes verified. Tissue/seasonal studies qualitative;9leaflets within natural variation. No material blocker/human adoption claim. Completed,published on GitHub; no X publication by assistant.
 
 ## Recent-Eight Completed Region Summary
 1.2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
@@ -48,9 +48,12 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. Today's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-Resume ordinary Topic diversity across all groups after the fulfilled4November plant override. Preserve cancelled日輪玉 exclusion. Latest package completed, local-ready; GitHub closeout and X posting remain separate authorized scopes. Weekly2026-W45 complete exactly once; preserve marker. No new quality gate/policy; compare actual reference structures with authoritative descriptions, not captions alone. Historical browser-media export latency unresolved.
+Resume ordinary Topic diversity across all groups after the fulfilled4November plant override. Preserve cancelled日輪玉 exclusion. Latest package completed,published on GitHub after authorized closeout; X posting remains separate. Weekly2026-W45 complete exactly once; preserve marker. No new quality gate/policy; compare actual reference structures with authoritative descriptions, not captions alone. Historical browser-media export latency unresolved.
 
-## Current Authorized GitHub Closeout — Diving Bell Spider
+## Current Authorized GitHub Closeout — Giant Baobab
+At 2026-11-04T19:46:56+09:00, the user requested today's usual GitHub closeout in active voice. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base9100f33. Exact42-path union: Giant Baobab25, cancelled Living Stone archive13, INDEX and three operational documents. No unrelated changes. Content605477a and archive/workflow104edf8 pushed normally; actual remote refs/heads/master independently verified equal localHEAD/tracking104edf8 before this publication metadata. All42 local/staged/committed hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars and full packageQA passed. One archive text file normalizedCRLF-toLF; no logical-copy or binary changes, protected manifests verified. Giant Baobab completed,published on GitHub; Living Stone remains cancelled research archive, never completed art. No artwork, public copy, dependencies, credentials/config or X account/post/reply changes. Weekly2026-W45 remains completed once; historical browser-media latency unresolved. No PR created.
+
+## Previous Authorized GitHub Closeout — Diving Bell Spider
 At 2026-11-01T22:26:59+09:00, the user requested today's Git closeout in the active voice conversation. Exact29-path scope: package26 plus INDEX/current-state/daily. Existing origin/master and base9ebfa41 verified read-only. Content3e10b8d and production-record8ae3b8a pushed normally; actual remote refs/heads/master independently matched local HEAD/tracking8ae3b8a before this publication metadata. All26 package files matched staged/committed bytes and protected hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars, all25 README links and full packageQA passed. Scoped text line endings normalized toLF without logical-copy or binary changes. Completed,published on GitHub. The user reports personally posting to X in progress; no completed X publication, language, URL or attached image independently verified. Assistant performed no X post/reply/account action. No artwork/public-copy changes, dependency installation, credential/config changes or rejected-image cleanup. Weekly2026-W44 remains complete once; historical browser-export latency unresolved.
 
 ## Previous Authorized GitHub Closeout — Common Hoopoe

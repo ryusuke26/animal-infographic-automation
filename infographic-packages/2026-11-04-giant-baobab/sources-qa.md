@@ -1,5 +1,5 @@
 # Giant Baobab — sources, Evidence Lock and QA
-Status: completed, local-ready; Evidence/Copy Lock, visual review and full package QA passed.
+Status: completed, published on GitHub; Evidence/Copy Lock, visual review and full package QA passed.
 Workflow mode: Quality Run
 Editorial classification group: Plants
 IUCN check: Global Endangered (EN), A4c, ver3.1, T30388A64007143; assessed07July2016, published2016. Direct rendered official fields preserved in evidence/iucn-fields-2026-11-04.md. Species-wide assessment, not subspecies or national status.
@@ -67,3 +67,7 @@ English initial source exec-12e9f277-4fc3-4903-b663-66fe0728f8a1.png accepted, z
 Eight sidecars synchronized offline. First full validator found only missing README sidecar links; deterministic documentation links added. No copy/art changes or extra generation. Final package/README-link/pixel/hash results recorded at finish.
 
 Final verification 2026-11-04T11:02:08+09:00: packageQA passed after README links; eight sidecars match primary posting sets, four canonical PNGs1024x1536 and language pairs pixel-identical. Local README links checked and24 protected asset SHA-256 values recorded in evidence/asset-sha256.json (manifest excludes itself). Weekly 2026-W45 visual review completed once; no measured audience data. Fine text benefits full PNG; no material blocker. Git/GitHub/X unmutated.
+
+
+## Authorized publication
+At 2026-11-04T19:46:56+09:00, the user requested today's usual GitHub closeout in active voice. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base9100f33. Exact42-path union: Giant Baobab25, cancelled Living Stone archive13, INDEX and three operational documents. No unrelated changes. Content605477a and archive/workflow104edf8 pushed normally; actual remote refs/heads/master independently verified equal localHEAD/tracking104edf8 before this publication metadata. All42 local/staged/committed hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars and full packageQA passed. One archive text file normalizedCRLF-toLF; no logical-copy or binary changes, protected manifests verified. Giant Baobab completed,published on GitHub; Living Stone remains cancelled research archive, never completed art. No artwork, public copy, dependencies, credentials/config or X account/post/reply changes. Weekly2026-W45 remains completed once; historical browser-media latency unresolved. No PR created.
