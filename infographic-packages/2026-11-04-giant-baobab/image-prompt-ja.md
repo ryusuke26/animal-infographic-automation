@@ -1,0 +1,21 @@
+Use case: infographic-diagram.
+Create a complete finished JAPANESE natural-history poster, exact vertical 2:3, native 1024x1536. Artwork fills all four edges; no mockup, blank outer band or transparent edge.
+Style/medium: luminous layered WOODBLOCK PRINT with carved fine hatching, broad inked silhouettes, subtle wood grain within tree and illustrated notes, and slight ink-registration texture. Madagascar dusk: indigo upper sky, apricot/amber horizon, rose-grey and cinnamon trunks, deep olive ground. Strong light-dark hierarchy and warm ivory printing areas for text, not universal pale paper. Every card illustration shares the woodcut medium. Not crayon, watercolor or software UI.
+Reference image 1: oki-grandidieri-tree.jpg, REAL biological identity reference, a park staff photograph in Madagascar explicitly identified as Adansonia grandidieri. Use its tall cylindrical western-form adult trunks, smooth reddish-grey bark, high attached spreading branches, compact flat crown and natural leafless stance. Not a layout target. Botanical descriptions in PROTA and Kew further constrain identity. No photograph of a different baobab is supplied. No generated composition reference; establish the Japanese design first.
+Subject: ONE dominant adult Adansonia grandidieri, rooted in western Madagascar dry deciduous woodland, leafless late-dry-season view. One whole tall thick column with little taper, subtle natural base flare, high horizontal main branches and finer connected crown twigs. Fully visible crown, no cropped top. No bulbous squat African baobab, bottle-shaped stem, cactus ribs/spines, palm fronds, thorny Didierea or ginkgo fans. Sparse low dry woodland ground cover; no invented mountains, savanna animal silhouettes, houses or crowds. Natural far branches may overlap; not a symmetric candelabrum. The hero occupies the upper/middle majority, unobstructed.
+Composition: title large at top, scientific name below in italic; hero against broad dusk sky. Three unequal illustrated explanatory notes integrated into lower landscape, numbered clearly 1,2,3. Note1 broad and more prominent, notes2/3 staggered beneath; do not obscure the hero trunk. Warm ivory irregular print reserves, dark indigo legible type, generous margins, full explanation paired with its own spot art. Title can reflow across two balanced lines. Body typography about 30-34px at 1024 width where feasible; no tiny squeezed text. Quiet footer integrated at bottom.
+Card1 spot art: connected trunk-to-twig botanical study, a small intact trunk with emerging attached green leaves, plus a modest magnified patch of solid fibrous living wood containing stored water. A qualitative unlabelled arrow from stem tissue toward young leaves. Water is held in tissue: NO hollow water tank, blue liquid level, open wound, tap, pipe or free-standing water bottle. Do not depict a big blue reservoir inside the tree.
+Card2 spot art: two small clearly separate complete silhouettes of this species, one with a compact leafy crown and the other leafless, with a small directional transition arrow. Both retain tall cylindrical trunks/high spreading crowns. Qualitative seasonal comparison; no rain cloud that implies all of the dry season has no leaves. These are small explanatory studies, not competing heroes. No text labels added.
+Card3 spot art: one adult compound leaf attached by its petiole to a short twig. NINE narrow elliptical/lanceolate entire-edged blue-green leaflets emerge at ONE shared point, each with its own small stalk. Leaflets are separate blades with clear gaps, not a single deeply cut fan, a pinnate row, cactus paddle or marijuana serrations. Count is illustrative within reported variation, not a fixed species-wide count. Adult leaves only; do not use simple seedling leaves. No flower or fruit art.
+Exactly three numbered illustrated notes. Render all nine locked strings once, no extra captions or decorative prose. The scientific name is exactly Adansonia grandidieri. ASCII colon has no space before and one after. One space before (EN). Preserve all punctuation. No logos, map, watermark, population total, urgency or advocacy slogan.
+
+Text, verbatim:
+"アダンソニア・グランディディエリ"
+"Adansonia grandidieri"
+"幹の水で、葉を育てる"
+"新しい葉の成長には、幹に蓄えた水が使われる。"
+"乾季には、葉を落とす"
+"雨季に葉を茂らせ、乾季の大半は葉のない姿で過ごす。"
+"一枚の葉が、小葉の束"
+"成木の葉は、細長い小葉が手のひら状に集まる。"
+"IUCN Red List 2016: 絶滅危惧 (EN)"
