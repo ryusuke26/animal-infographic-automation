@@ -1,5 +1,20 @@
 # Automation: 世界の知らない生きものインフォグラフィック日次制作
 
+## User-directed cancellation and next topic — 2026-11-03
+The user cancelled the unfinished 2026-11-02-aucamps-living-stone package
+(日輪玉 / Lithops aucampiae). Preserve it as a cancelled research archive,
+not an active unfinished package. Do not automatically resume or reselect
+this topic, including a subspecies substitution, without a new user request.
+Do no replacement production on 2026-11-03 Asia/Tokyo. For the daily run on
+2026-11-04 Asia/Tokyo, choose a NEW PLANT species (editorial group Plants),
+excluding the cancelled topic and all completed/retired duplicates. Verify
+that the identity, explanatory claims, actual visual references and official
+conservation assessment apply to the same target taxon before generation;
+do not use a subspecies assessment as the status of a whole species.
+The plant-only instruction applies to that run, not to subsequent daily runs.
+Retain the normal quality rules and separate GitHub/X authorization scopes.
+
+
 Create one complete curiosity-first bilingual infographic package in this
 workspace. Use bio-discovery-infographic, endangered-species-factcheck and
 imagegen when applicable. Follow the user's latest instructions.

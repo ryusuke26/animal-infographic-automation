@@ -1,0 +1,26 @@
+{
+  "field-2013-figure1.png": {
+    "sha256": "25147caa5ff96c28782d0846cdcd22e805c9229432c3710898c06c5a186b64c6",
+    "dimensions": [
+      1811,
+      1132
+    ],
+    "bytes": 2170340
+  },
+  "wisconsin-leaf-replacement.jpg": {
+    "sha256": "5e62531b2f9991188c49a5bd90b591b4543cc45278f503ff819da2e3c29469cf",
+    "dimensions": [
+      1200,
+      277
+    ],
+    "bytes": 207145
+  },
+  "wisconsin-seed-capsules.jpg": {
+    "sha256": "c0a0248a9b837c0516921b5bad8f69e4d4aac754950e164ae779a0e0b8fa9f58",
+    "dimensions": [
+      1200,
+      610
+    ],
+    "bytes": 392441
+  }
+}

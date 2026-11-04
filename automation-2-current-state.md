@@ -1,52 +1,54 @@
 # Automation 2 Current State
-Updated: 2026-11-01T22:26:59+09:00
+Updated: 2026-11-04T11:02:08+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Species-led art direction: one matching JA/EN pair, no compulsory rotation or universal benchmark. Today deep teal opaque gouache with fine pencil lines keeps the silver air film and copper-brown jointed spider clear among green water plants.
-- Active unfinished package: none. Pending evidence/visual gate: none. Historical Sunda Colugo separately pending human adoption in INDEX.
-- Latest2026-11-01-diving-bell-spider: completed, published on GitHub after user-authorized scoped closeout. Actual remote verified before publication metadata. User reports personally posting to X in progress; completion/URL/language/image not independently verified, no assistant X action. Prior Common Hoopoe GitHub publication remains historical below.
+- Active unfinished daily package:NONE. Latest successful2026-11-04-giant-baobab is completed, local-ready. Four canonical PNGs and both posting sets validated; no GitHub or X publication.
+-4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
+- User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
+- Same-taxon assessment/copy/actual references required; species-wide Global status cannot be inferred from subspecies or national categories. No general policy change. Historical Sunda Colugo human-adoption hold remains separate.
+- Pre-existing cancellation/saved-prompt files preserved. No staging/commit/push, GitHub or X account/post/reply action during this daily run.
 
 ## Weekly visual reflection
-- Last completed review week: 2026-W44.
-- Completion ledger: daily-quality-loop.md, `[weekly-style-review: 2026-W44] completed`, re-read at this run's finish; exactly one entry. Seven accepted Japanese posters2026-10-20 through26 inspected on26October, English pairing checked then. No measured reactions. Next adjustment:none. Pending review:none. Reused without duplicate review on this Sunday; next ISO week begins2November Tokyo.
-- Execution prompt: live automation-2 prompt synchronization completed by the authorized voice chat on2026-10-27 and independently read-back verified here at2026-10-27T23:17:42+09:00. Saved automation-2-updated-prompt.md and live prompt match after outer-whitespace trim/LF normalization; SHA-256 cdffd045c3e27305c30e3b625a43664a21ed4e3bb93db08ed92bbfcef9c004bf. ACTIVE; no schedule/model/notification/destination change performed during this closeout.
+- Last completed review week:2026-W45; completion ledger daily-quality-loop.md, `[weekly-style-review: 2026-W45] completed`, independently re-read exactly once.
+- Latest seven accepted Japanese posters27,28,29,30,31October,1and4November compared at equal280x420; current English pairing/full/phone checked. Distinct species silhouettes and explanations clear, media range from pastel/collage to gouache/linocut/watercolor/woodblock. No measured audience data; visual assessment only. Next adjustment:none. No backfill or new weekly art.
+- Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
-- Diving Bell Spider / ミズグモ / Argyroneta aquatica (Clerck,1757); Other invertebrates; Animalia > Arthropoda > Arachnida > Araneae > Argyronetidae.
-- Eurasia including Japan, quiet freshwater pond with dense aquatic vegetation. New arachnid body form, silver air film and physical gas-transfer hook; water setting overlaps eel/salamander but changes mechanism and plant-associated life.
-- Official IUCN T85737177A213955433 GlobalNT A3c ver3.1, assessed3April2023/published2026, directly rendered field transcription saved. Tokyo Zoo unassessed line superseded for Global; JapaneseVU remains separate. Current WSC family updated from older IUCNCybaeidae. No population/legal/urgency claim.
-- Cards dissolved oxygen into bell/air transport on hairs/silk room feeding and egg-laying; main experimental resting needs, story nitrogen loss/shrinkage/refill. Slate Great Diving Beetle/Giant Sequoia; full-history accepted/historical/bilingual/slug exclusion and latest-eight/twenty diversity checked.
-- Both initial built-in gouache posters accepted, zero retries. Actual prompts image-prompt-ja.md/image-prompt-en.md, three real references and accepted Japanese as English style/composition reference. Japanese immediate/full/phone acceptance before English; all five defining features rechecked in English.
-- Four exact1024x1536 PNGs, pixel-identical pairs, nine locked strings, three numbered illustrated explanations,342x513 phone/full review, eight offline sidecars, README links and full packageQA pass. Natural far-leg overlap accepted. Gas arrows/hair detail qualitative; no material blocker/human-adoption claim.
+- Giant Baobab / アダンソニア・グランディディエリ / Adansonia grandidieri Baill.; Plants; angiosperms > Malvales > Malvaceae.
+- Western/southwestern Madagascar dry deciduous woodland. Tall columnar adult and pre-rain stored-water leaf growth add physiological/landscape variety; recent ginkgo and saguaro recurrence weighed. Slate Nepenthes rajah/Giant Sequoia; full-history species/name/alias/slug exclusions checked, no collision.
+- Direct official IUCNT30388A64007143 GlobalEN A4c ver3.1, assessed7July2016/published2016; rendered field record saved. Species-wide assessment matches exact-taxon park photograph and copy; no subspecies, population or law claim.
+- Three cards:stored water supports new leaves; bare through much of dry season; adult palmate compound leaf. Main adds pre-rain timing; story continues to stomata waiting for root water. Conflicting flower reference excluded before Copy Lock, no speculative flower art or species switch.
+- Both initial built-in Image Gen dusk woodblock posters accepted, zero retries. Japanese source/full/342x513 phone acceptance before English; same checks and all five defining features repeated in English. Actual prompts:image-prompt-ja.md/image-prompt-en.md; real park photo identity reference, Japanese as English composition reference only.
+- Four1024x1536 canonical PNGs, pixel-identical direct/posting pairs,9strings/3numbered illustrated explanations,8offline sidecars, README links and full packageQA passed.24protected asset hashes verified. Tissue/seasonal studies qualitative;9leaflets within natural variation. No material blocker/human adoption claim. Completed,local-ready; unpublished.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-10-25 — Indo-Pacific reef-edge sand — Spotted Garden Eel
-2. 2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
-3. 2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
-4. 2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
-5. 2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
-6. 2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-7. 2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
-8. 2026-11-01 — Eurasian vegetated freshwater pond, including Japan — Diving Bell Spider
+1.2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
+2.2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
+3.2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
+4.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+5.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
+6.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+7.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
+8.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
 
 ## Recent-Eight Completed Classification Summary
-1. Fishes — Spotted Garden Eel
-2. Plants — Ginkgo
-3. Reptiles — Common Flying Dragon
-4. Other invertebrates — Giant African Millipede
-5. Amphibians — Spotted Salamander
-6. Mammals — Bare-nosed Wombat
-7. Birds — Common Hoopoe
-8. Other invertebrates — Diving Bell Spider
+1.Plants — Ginkgo
+2.Reptiles — Common Flying Dragon
+3.Other invertebrates — Giant African Millipede
+4.Amphibians — Spotted Salamander
+5.Mammals — Bare-nosed Wombat
+6.Birds — Common Hoopoe
+7.Other invertebrates — Diving Bell Spider
+8.Plants — Giant Baobab
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
 ## Daily Quality Loop — unresolved carryover only
-- Historical browser downloadMedia1809.58s/pageAssets1535.105s latency remains unresolved. Today's real-reference direct-media transfers with timeout35s succeeded0.827/0.262/0.719s after initial sandboxDNS0.104s. First usable three-reference bundle reused; no browser media-export/benchmark/duplicate success or latency-fix claim.
+- Historical browser media-export latency remains unresolved. Today's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-Continue reference-grounded species/story/medium variety. Today issue:none, no new gate/policy or learning. Existing dated official field route resolves stale zoo unassessed wording. Weekly2026-W44 already complete and reused once; GitHub closeout and X publication remain separate.
+Resume ordinary Topic diversity across all groups after the fulfilled4November plant override. Preserve cancelled日輪玉 exclusion. Latest package completed, local-ready; GitHub closeout and X posting remain separate authorized scopes. Weekly2026-W45 complete exactly once; preserve marker. No new quality gate/policy; compare actual reference structures with authoritative descriptions, not captions alone. Historical browser-media export latency unresolved.
 
 ## Current Authorized GitHub Closeout — Diving Bell Spider
 At 2026-11-01T22:26:59+09:00, the user requested today's Git closeout in the active voice conversation. Exact29-path scope: package26 plus INDEX/current-state/daily. Existing origin/master and base9ebfa41 verified read-only. Content3e10b8d and production-record8ae3b8a pushed normally; actual remote refs/heads/master independently matched local HEAD/tracking8ae3b8a before this publication metadata. All26 package files matched staged/committed bytes and protected hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars, all25 README links and full packageQA passed. Scoped text line endings normalized toLF without logical-copy or binary changes. Completed,published on GitHub. The user reports personally posting to X in progress; no completed X publication, language, URL or attached image independently verified. Assistant performed no X post/reply/account action. No artwork/public-copy changes, dependency installation, credential/config changes or rejected-image cleanup. Weekly2026-W44 remains complete once; historical browser-export latency unresolved.
