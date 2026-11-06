@@ -1,5 +1,5 @@
 # Freshwater Butterflyfish / バタフライフィッシュ
-Status: completed, local-ready
+Status: completed, published on GitHub
 Workflow mode: Quality Run
 Editorial classification group: Fishes
 Region: West and Central Africa — calm freshwater creeks, backwaters and swamps.
@@ -35,6 +35,11 @@ ja: [caption](images/freshwater_butterflyfish_japanese_posting_2026-11-06.captio
 en: [caption](images/freshwater_butterflyfish_english_posting_2026-11-06.caption.txt) · [story-reply](images/freshwater_butterflyfish_english_posting_2026-11-06.story-reply.txt) · [alt](images/freshwater_butterflyfish_english_posting_2026-11-06.alt.txt) · [source-note](images/freshwater_butterflyfish_english_posting_2026-11-06.source-note.txt)
 
 
-No Git staging/commit/push, GitHub or X publication. Weekly2026-W45 completed previously, no repeat reflection.
+Production ended without Git/GitHub/X mutation. Subsequent user-authorized GitHub closeout is recorded below. X remains untouched; weekly2026-W45 is not repeated.
 
-Completed 2026-11-06T21:09:06+09:00. Full package QA passed, including offline X-weighted format, direct-source gates and eight synchronized sidecars. Four canonical PNGs1024x1536, direct/posting pixel-identical within each language. Local links and preserved evidence verified. Weekly2026-W45 marker reused, no duplicate reflection. GitHub/X publication remains separate and unperformed.
+Completed 2026-11-06T21:09:06+09:00. Full package QA passed, including offline X-weighted format, direct-source gates and eight synchronized sidecars. Four canonical PNGs1024x1536, direct/posting pixel-identical within each language. Local links and preserved evidence verified. Weekly2026-W45 marker reused, no duplicate reflection. Production was local-ready; subsequent authorized GitHub publication is recorded below. No X publication.
+
+
+## Authorized GitHub closeout — 2026-11-06T21:22:20+09:00
+The user requested today's usual Git work in the active voice conversation. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base0484078; exact34-path scope: package31 plus INDEX/current-state/daily3. No unrelated changes. Contenta9f1c24baf0559217396827e0bc8c808f7d5c3c6 and production-record8f77e05a84e05761d6a690ca0e73bc56914968b4 committed separately and normally pushed. Actual remote refs/heads/master independently matched localHEAD/tracking8f77e05a84e05761d6a690ca0e73bc56914968b4 with a clean worktree before this publication metadata.
+Full packageQA, four1024x1536PNGs/pixel-identical pairs, eight offline sidecars, all28READMElinks and all34local/staged/committed file hashes passed. Thirteen package text files aligned toLF without logical copy changes; a manifest-onlyCRLF serialization difference caught before commit was corrected and byte-verified. SuppliedPDF/screenshot, accepted images, public copy and binary references preserved. Completed,published on GitHub; X not posted/replied/accessed. Weekly2026-W45 remains completed once; historical browsermedia latency unresolved. No dependencies, credentials/config or PR changes. Publication-state metadata is committed separately; final remote/local/tracking verification follows.

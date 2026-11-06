@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-06T21:09:06+09:00
+Updated: 2026-11-06T21:22:20+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful2026-11-06-freshwater-butterflyfish completed,local-ready after user-supplied official evidence resolved initial hold. Both posting sets and four canonical PNGs validated. GitHub/X publication remains separate and unperformed.
+- Active unfinished daily package:NONE. Latest successful2026-11-06-freshwater-butterflyfish completed,published on GitHub after user-authorized closeout. Both posting sets and four canonical PNGs validated. No X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
 - Same-taxon assessment/copy/actual references required; species-wide Global status cannot be inferred from subspecies or national categories. No general policy change. Historical Sunda Colugo human-adoption hold remains separate.
@@ -20,7 +20,7 @@ Updated: 2026-11-06T21:09:06+09:00
 - Slate Atlantic Wolffish/Common Hippopotamus; full-history accepted/historical/bilingual/misspelled names searched and latest-eight/twenty reviewed. Broad patterned pectorals/hanging pelvic rays and experimental jump offer distinctive fish form/mechanism; surface-water setting recurrence weighed.
 - Two actual photos/description settle5diagnostic features and natural overlap. Cards escape jump/surface insect ambush/broad pectorals with hanging pelvic rays; main adds jump/glide distinction, story experimental in-air movement did not extend travel. No speculative numerical trajectory/population/legal claim.
 - One jade/copper translucent ink-wash/fine-pen pair; both initial built-inImageGen posters accepted, zero retries/anchors/repairs. Actual prompts:image-prompt-ja.md/image-prompt-en.md; two real identity references, acceptedJapanese as English composition-only reference. Japanese immediate/full/342x513phone acceptance beforeEnglish; all5features/9strings/3numbered illustrated explanations repeated.
-- Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,local-ready. No Git staging/commit/push, GitHub or X publication.
+- Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,published on GitHub after separately authorized closeout below. No X post/reply/account action.
 
 ## Recent-Eight Completed Region Summary
 1.2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
@@ -48,9 +48,14 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-No active unfinished daily package. Continue normal all-group Topic diversity; cancelled日輪玉 remains excluded. Latest Freshwater Butterflyfish completed,local-ready after official evidence verification; GitHub/X require separate authorization. Weekly2026-W45 complete once; preserve marker and unresolved historical browser-media-export latency. No new policy/gate.
+No active unfinished daily package. Continue normal all-group Topic diversity; cancelled日輪玉 remains excluded. Latest Freshwater Butterflyfish completed,published on GitHub after authorized closeout; X posting remains separate. Weekly2026-W45 complete once; preserve marker and unresolved historical browser-media-export latency. No new policy/gate.
 
-## Current Authorized GitHub Closeout — Giant Baobab
+## Current Authorized GitHub Closeout — Freshwater Butterflyfish
+## Authorized GitHub closeout — 2026-11-06T21:22:20+09:00
+The user requested today's usual Git work in the active voice conversation. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base0484078; exact34-path scope: package31 plus INDEX/current-state/daily3. No unrelated changes. Contenta9f1c24baf0559217396827e0bc8c808f7d5c3c6 and production-record8f77e05a84e05761d6a690ca0e73bc56914968b4 committed separately and normally pushed. Actual remote refs/heads/master independently matched localHEAD/tracking8f77e05a84e05761d6a690ca0e73bc56914968b4 with a clean worktree before this publication metadata.
+Full packageQA, four1024x1536PNGs/pixel-identical pairs, eight offline sidecars, all28READMElinks and all34local/staged/committed file hashes passed. Thirteen package text files aligned toLF without logical copy changes; a manifest-onlyCRLF serialization difference caught before commit was corrected and byte-verified. SuppliedPDF/screenshot, accepted images, public copy and binary references preserved. Completed,published on GitHub; X not posted/replied/accessed. Weekly2026-W45 remains completed once; historical browsermedia latency unresolved. No dependencies, credentials/config or PR changes. Publication-state metadata is committed separately; final remote/local/tracking verification follows.
+
+## Previous Authorized GitHub Closeout — Giant Baobab
 At 2026-11-04T19:46:56+09:00, the user requested today's usual GitHub closeout in active voice. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base9100f33. Exact42-path union: Giant Baobab25, cancelled Living Stone archive13, INDEX and three operational documents. No unrelated changes. Content605477a and archive/workflow104edf8 pushed normally; actual remote refs/heads/master independently verified equal localHEAD/tracking104edf8 before this publication metadata. All42 local/staged/committed hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars and full packageQA passed. One archive text file normalizedCRLF-toLF; no logical-copy or binary changes, protected manifests verified. Giant Baobab completed,published on GitHub; Living Stone remains cancelled research archive, never completed art. No artwork, public copy, dependencies, credentials/config or X account/post/reply changes. Weekly2026-W45 remains completed once; historical browser-media latency unresolved. No PR created.
 
 ## Previous Authorized GitHub Closeout — Diving Bell Spider
