@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-04T19:46:56+09:00
+Updated: 2026-11-06T21:09:06+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful2026-11-04-giant-baobab is completed,published on GitHub after user-authorized closeout. Four canonical PNGs and both posting sets validated; no X action.
+- Active unfinished daily package:NONE. Latest successful2026-11-06-freshwater-butterflyfish completed,local-ready after user-supplied official evidence resolved initial hold. Both posting sets and four canonical PNGs validated. GitHub/X publication remains separate and unperformed.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
 - Same-taxon assessment/copy/actual references required; species-wide Global status cannot be inferred from subspecies or national categories. No general policy change. Historical Sunda Colugo human-adoption hold remains separate.
@@ -15,40 +15,40 @@ Updated: 2026-11-04T19:46:56+09:00
 - Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
-- Giant Baobab / アダンソニア・グランディディエリ / Adansonia grandidieri Baill.; Plants; angiosperms > Malvales > Malvaceae.
-- Western/southwestern Madagascar dry deciduous woodland. Tall columnar adult and pre-rain stored-water leaf growth add physiological/landscape variety; recent ginkgo and saguaro recurrence weighed. Slate Nepenthes rajah/Giant Sequoia; full-history species/name/alias/slug exclusions checked, no collision.
-- Direct official IUCNT30388A64007143 GlobalEN A4c ver3.1, assessed7July2016/published2016; rendered field record saved. Species-wide assessment matches exact-taxon park photograph and copy; no subspecies, population or law claim.
-- Three cards:stored water supports new leaves; bare through much of dry season; adult palmate compound leaf. Main adds pre-rain timing; story continues to stomata waiting for root water. Conflicting flower reference excluded before Copy Lock, no speculative flower art or species switch.
-- Both initial built-in Image Gen dusk woodblock posters accepted, zero retries. Japanese source/full/342x513 phone acceptance before English; same checks and all five defining features repeated in English. Actual prompts:image-prompt-ja.md/image-prompt-en.md; real park photo identity reference, Japanese as English composition reference only.
-- Four1024x1536 canonical PNGs, pixel-identical direct/posting pairs,9strings/3numbered illustrated explanations,8offline sidecars, README links and full packageQA passed.24protected asset hashes verified. Tissue/seasonal studies qualitative;9leaflets within natural variation. No material blocker/human adoption claim. Completed,published on GitHub; no X publication by assistant.
+- Freshwater Butterflyfish / バタフライフィッシュ / Pantodon buchholzi; Fishes; Actinopterygii > Osteoglossiformes > Pantodontidae. West/Central African calm freshwater surface.
+- User-supplied10-pageofficialHTML-derivedPDF plus matching screenshot resolve initial403/browser evidence hold. FullPDF text checked; pages1/2/5 visually reviewed. Species-wide GlobalLC v3.1, assessed5June2019/published2020, T183157A135016934. Original PDF/screenshot preserved byte-identically;2026generation date not an assessment date. No remaining official-access caveat for public copy.
+- Slate Atlantic Wolffish/Common Hippopotamus; full-history accepted/historical/bilingual/misspelled names searched and latest-eight/twenty reviewed. Broad patterned pectorals/hanging pelvic rays and experimental jump offer distinctive fish form/mechanism; surface-water setting recurrence weighed.
+- Two actual photos/description settle5diagnostic features and natural overlap. Cards escape jump/surface insect ambush/broad pectorals with hanging pelvic rays; main adds jump/glide distinction, story experimental in-air movement did not extend travel. No speculative numerical trajectory/population/legal claim.
+- One jade/copper translucent ink-wash/fine-pen pair; both initial built-inImageGen posters accepted, zero retries/anchors/repairs. Actual prompts:image-prompt-ja.md/image-prompt-en.md; two real identity references, acceptedJapanese as English composition-only reference. Japanese immediate/full/342x513phone acceptance beforeEnglish; all5features/9strings/3numbered illustrated explanations repeated.
+- Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,local-ready. No Git staging/commit/push, GitHub or X publication.
 
 ## Recent-Eight Completed Region Summary
-1.2026-10-26 — China native/cultivated East Asian autumn — Ginkgo
-2.2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
-3.2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
-4.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
-5.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-6.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
-7.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
-8.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
+1.2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
+2.2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
+3.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+4.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
+5.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+6.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
+7.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
+8.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
 
 ## Recent-Eight Completed Classification Summary
-1.Plants — Ginkgo
-2.Reptiles — Common Flying Dragon
-3.Other invertebrates — Giant African Millipede
-4.Amphibians — Spotted Salamander
-5.Mammals — Bare-nosed Wombat
-6.Birds — Common Hoopoe
-7.Other invertebrates — Diving Bell Spider
-8.Plants — Giant Baobab
+1.Reptiles — Common Flying Dragon
+2.Other invertebrates — Giant African Millipede
+3.Amphibians — Spotted Salamander
+4.Mammals — Bare-nosed Wombat
+5.Birds — Common Hoopoe
+6.Other invertebrates — Diving Bell Spider
+7.Plants — Giant Baobab
+8.Fishes — Freshwater Butterflyfish
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
 ## Daily Quality Loop — unresolved carryover only
-- Historical browser media-export latency remains unresolved. Today's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
+- Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-Resume ordinary Topic diversity across all groups after the fulfilled4November plant override. Preserve cancelled日輪玉 exclusion. Latest package completed,published on GitHub after authorized closeout; X posting remains separate. Weekly2026-W45 complete exactly once; preserve marker. No new quality gate/policy; compare actual reference structures with authoritative descriptions, not captions alone. Historical browser-media export latency unresolved.
+No active unfinished daily package. Continue normal all-group Topic diversity; cancelled日輪玉 remains excluded. Latest Freshwater Butterflyfish completed,local-ready after official evidence verification; GitHub/X require separate authorization. Weekly2026-W45 complete once; preserve marker and unresolved historical browser-media-export latency. No new policy/gate.
 
 ## Current Authorized GitHub Closeout — Giant Baobab
 At 2026-11-04T19:46:56+09:00, the user requested today's usual GitHub closeout in active voice. Read-only verification established existing origin ryusuke26/animal-infographic-automation, master and base9100f33. Exact42-path union: Giant Baobab25, cancelled Living Stone archive13, INDEX and three operational documents. No unrelated changes. Content605477a and archive/workflow104edf8 pushed normally; actual remote refs/heads/master independently verified equal localHEAD/tracking104edf8 before this publication metadata. All42 local/staged/committed hashes, four1024x1536 PNGs/pixel pairs, eight offline sidecars and full packageQA passed. One archive text file normalizedCRLF-toLF; no logical-copy or binary changes, protected manifests verified. Giant Baobab completed,published on GitHub; Living Stone remains cancelled research archive, never completed art. No artwork, public copy, dependencies, credentials/config or X account/post/reply changes. Weekly2026-W45 remains completed once; historical browser-media latency unresolved. No PR created.
