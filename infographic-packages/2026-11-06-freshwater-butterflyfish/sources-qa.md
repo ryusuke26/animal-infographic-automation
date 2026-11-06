@@ -1,0 +1,62 @@
+# Freshwater Butterflyfish — Evidence Lock, copy and QA
+Status: completed, local-ready; Evidence Lock, bilingual Copy Lock, source/visual/full package QA passed.
+Workflow mode: Quality Run; initial access caution resolved by supplied official PDF/screenshot.
+Editorial classification group: Fishes
+IUCN check: Global Least Concern (LC), ver3.1; T183157A135016934; assessed 5 June 2019, published 2020. User-supplied official PDF physical pages1/2 and matching page screenshot directly inspected; no outstanding assessment-access caveat.
+
+## Preflight and Topic diversity
+No active unfinished daily package at run start; previous Giant Baobab completed/published. Cancelled Lithops aucampiae archive excluded and untouched. Historical Sunda Colugo human-adoption hold remains separate. Initial Git worktree clean. Runtime loader succeeded; recorded bundled Python and existing offline X helper located; no dependencies installed.
+
+Recent eight: Ginkgo/China/Plants; Common Flying Dragon/Java-Bali/Reptiles; Giant African Millipede/eastern-southeastern Africa/Other invertebrates; Spotted Salamander/North America/Amphibians; Wombat/Australia/Mammals; Hoopoe/Europe/Birds; Diving Bell Spider/Eurasia/Other invertebrates; Giant Baobab/Madagascar/Plants. Latest twenty scanned from Fire Salamander through Giant Baobab, including Four-eyed Fish and Garden Eel. Surface-water setting repeats a recent habitat, but broad wing-like fins, hanging pelvic rays and a ballistic escape differ from the spider's underwater gas room and the earlier fish's divided eyes. Do not make split vision a card today.
+
+| Candidate | Familiarity and discovery | Contribution to variety | Conservation context | Local-knowledge caution |
+|---|---|---|---|---|
+| Freshwater Butterflyfish / Pantodon buchholzi — selected | Familiar to aquarists; its apparent wings accompany a studied jump, not sustained aerial propulsion | Small osteoglossiform, horizontal surface silhouette and fin-driven escape; water-setting repetition weighed | Official species-wide GlobalLC, assessed5June2019/published2020; user-supplied PDF and matching screenshot directly inspected | Regional names exist; no claim of universal ignorance |
+| Atlantic Wolffish / Anarhichas lupus | Shell-crushing dentition is a credible discovery lead | Cold marine rocky habitat and robust head contrast recent works | Search exposed regional assessments; Global scope/date not locked | No obscurity claim; no copy adopted |
+| Hippopotamus / Hippopotamus amphibius | Familiar species with less familiar pigmented skin secretion | Large riverbank grazer; broad mammal body differs from recent wombat but water recurs | Official status not investigated to lock depth; no category adopted | Avoid treating local knowledge as a new discovery |
+
+Selection: the fin/body silhouette and experimentally documented escape are strong, manageable with real references. Official access hold resolved with user evidence; same selected species preserved.
+
+Full-history scientific-name, historical variety, misspelling, bilingual name and slug searches across INDEX, package text, registry memory and Automation memory found no completed/retired/unfinished collision. Terms included Pantodon/Pantadon, buchholzi/buccholzi/buccholzii/buchholtzi/bucholzi, macrolepis, schizonotus, Freshwater/African Butterflyfish/Butterfly fish, バタフライフィッシュ, パントドン and freshwater-butterflyfish. Candidate-only/irrelevant word matches were not treated as completed packages.
+
+## Sources and claim check
+| Claim | Verdict and scope | Source |
+|---|---|---|
+| Accepted name and family/order | Pantodon buchholzi; Osteoglossiformes > Pantodontidae, species rank. Authority year differs in older databases, so omit authority from public name | [GBIF/Catalogue of Life](https://www.gbif.org/taxon/4CH3F), [Eschmeyer synonym entry](https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=10145) |
+| Japanese name | バタフライフィッシュ explicitly paired with scientific name; not a marine butterflyfish | [JAZA holdings, page46](https://www.jaza.jp/animal/enkan?_Abbreviation=%E5%90%8D%E6%B8%AF%E6%B0%B4&_commonname=%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%B8%AF%E6%B0%B4%E6%97%8F%E9%A4%A8&_method=true&page=46), [Toba Aquarium historical list](https://aquarium.co.jp/tobacms/wp-content/uploads/09-1998.pdf) |
+| Global status/date | Accurate, directly verified in supplied official PDF pages1/2 and matching screenshot: GlobalLC v3.1, assessed2019-06-05, published2020, T183157A135016934 | [Official IUCN DOI](https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T183157A135016934.en), access record |
+| Jump and story progression | Accurate: startled surface fish jump with pectoral action; in-air body/fin changes did not extend distance in the experiment | [Saidel, Strain & Fornari2004](https://link.springer.com/article/10.1023/B:EBFI.0000043153.38418.cd) |
+| Near-surface feeding | Accurate: insect targets at/above surface, calm freshwater setting | [Schwab & Saidel2003](https://pmc.ncbi.nlm.nih.gov/articles/PMC1771592/), [FishBase description with original references](https://www.fishbase.se/summary/Pantodon-buchholzi) |
+| Shape and fins | Accurate against two actual photographs and morphological description; no imposed exact visible ray count | Same FishBase and real references below |
+
+No population, trend, legal, urgency or ranked-threat claim. The official record's possible species-complex note is retained as taxonomy context; no formally different species/subspecies substituted. Research claims and reference captions use the same currently accepted target taxon, and official species-wide Evidence Lock is now complete.
+
+## Compact visual identity brief — actual images viewed
+Individual/stage: adult wild-type Pantodon buchholzi; sex not determined. Do not illustrate sex-specific anal-fin notches or larval form. Family body plan is well represented; no optional anchor needed.
+
+1. Broad, dorsally flattened head with upturned mouth and projecting lower jaw: Cologne central fish's head/eye region, supported by FishBase diagnosis. Mouth can remain closed.
+2. ONE paired set of broad pectorals attached just behind the head, with radiating rays and dark/pale pattern: dorsal photograph shows both connected fan outlines; Cologne establishes their near-horizontal surface posture. These are fish fins, not detached butterfly wings.
+3. Anterior pelvic fins carry long thin rays hanging below the body: Cologne central/left fish, reinforced by FishBase. They arise from the ventral region, not the mouth. Natural overlap is permitted; do not invent an exact displayed count from this view.
+4. Short posterior dorsal fin, longer anal fin farther forward, single caudal fin: morphology description plus both photos. Tail continuous with body, not a second wing pair.
+5. Brown/olive mottled scaled body and patterned translucent chest fins: both photos. Keep fin pattern separate from dorsal mottling; no marine butterflyfish disk body or colorful reef stripes.
+
+Natural pose: stable, shallow oblique surface-resting hero, with far pectoral partly foreshortened and far pelvic rays naturally overlapping. No demand that every ray be visible. Small separate jump study for card1; do not make the hero a flapping airborne animal. Surface reflections in the Cologne image are not extra anatomical heads or fins.
+
+Real references, downloaded once and reused:
+- [Cologne surface photograph](references/cologne-surface.jpg): Vassil,31December2014, CC0; [original file page](https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi_K%C3%B6ln_Zoo_31122014_1.jpg). Hero posture/pelvic attachment role.
+- [Dorsal pectoral photograph](references/dorsal-pectoral.jpg): Isidro Martínez,8January2010, CC BY-SA2.0; [original file page](https://commons.wikimedia.org/wiki/File:Pantodon_wings.jpg). Fin attachment/silhouette role. Unmodified reference only, not a posting attachment.
+
+## Copy Lock and art direction
+Three cards: escape jump; surface insect ambush; broad pectorals versus hanging pelvic rays. Main adds the ballistic-versus-gliding distinction beyond card1. Story follows jump into the experimental observation that movements in air did not extend the distance. No numerical jump performance or speculative adaptive purpose.
+
+Two hook drafts considered: JA「チョウのようなひれ。でも逃げるときは、水面から跳ね上がる。」/「翼のようなひれがあっても、逃げ方は滑空ではなく跳躍。」; EN「Butterfly-like fins, but a jump rather than a glide.」/「A startled fish breaks the surface; its wings do not power an aerial flight.」. First JA and first EN selected for Copy Lock, with JA distinction supplied by its follow-through sentence. Recent spider gas-transfer and baobab pre-rain openings do not repeat this contrast pattern.
+
+Selected style and reason: translucent ink wash with fine brown pen rays, copper/olive fish and patterned fins against luminous jade water; layered transparency makes fin membranes and surface position readable. ONE paired-language concept selected after evidence resolution; actual prompts image-prompt-ja.md/image-prompt-en.md. Hero and all three illustrated explanations must share it, exact vertical2:3, no generic equal dashboard rectangles. Diagnostic forms above survive stylization.
+
+## Supplied evidence resolution
+The user supplied the official HTML-derived PDF and matching page screenshot. Entire10-pagePDF text inspected, physical pages1/2/5 rendered and visually checked; taxon/global scope/LC/DateAssessed2019-06-05/publication2020 agree. Copies and hashes preserved in evidence/. See [verified fields](evidence/iucn-verified-fields.md). The 2026generation date and 2020publication year are not the public assessment-year footer. Initial access-record.md remains history, superseded by this verification.
+
+## QA state
+Pre-image gate passed before art; initial structured IUCN-record warning was filled from directly inspected supplied evidence. Japanese first built-in Image Gen source exec-6c3a9795-25cc-48c7-a1e4-706208d6c085.png copied byte-for-byte to images/freshwater_butterflyfish_japanese_imagegen_2026-11-06.png; immediate direct-source gate passed1024x1536/exact2:3 before visual acceptance. Actual prompt image-prompt-ja.md, two real references supplied, no anchor/retry/edit.
+
+Japanese full and342x513phone review accepted before English: flattened/upturned jaw profile, one pair of attached patterned pectorals, ventral hanging pelvic rays, separate posterior dorsal/anal and continuous tail, mottled olive-brown pattern all compared with real references/diagnosis. Far-fin overlap and obscured ray origins are natural; no forced display/count. Three complete numbered illustrated explanations, all9locked strings and footer checked; body text fits its wash reserves. Hero dominant, transparent wash and fine ray lines coherent in hero and three studies, jade/copper contrast clear on phone. Jump arc is a schematic launch/path study, not scale or sustained flight. No material visual blocker; no user artwork adoption claimed. English initial built-in source exec-207eccba-78ab-4621-aab4-715a19e46ca1.png accepted, zero retries; actual prompt image-prompt-en.md, both real photos plus Japanese composition-only reference. Immediate1024x1536/exact2:3source gate before visual review. Full/342x513phone review repeated all five traits: broad flattened/upturned jaw, attached patterned pectoral pair, pelvic rays from ventral trunk, posterior dorsal/separate anal/continuous tail, brown mottling/cream fin windows. Far-side overlap coherent and no extra structures; card3 frontal view explains the two fin types. All9English strings, ASCII colon/spacing,3numbered illustrated sentences and mobile fit match lock. Same wash/pen medium, jade palette and species silhouette as Japanese. ALT checked against both selected images; insect reflection is a water reflection, jump dotted arc qualitative. Accepted sources normalized without geometry/pixel repair. Eight sidecars synchronized through installed offline helper. Main adds jump/glide distinction; story carries the experimental in-air movement result beyond cards, both languages read coherently. Full package QA passed with offline X checks; four exact1024x1536images and pixel-identical direct/posting pairs independently verified. All README local links resolve. Supplied PDF/screenshot remain byte-identical to originals. No remaining material blocker. Weekly2026-W45 already completed; no duplicate reflection. Git/GitHub/X untouched.
