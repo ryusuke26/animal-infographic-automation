@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-06T21:22:20+09:00
+Updated: 2026-11-12T22:10:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful2026-11-06-freshwater-butterflyfish completed,published on GitHub after user-authorized closeout. Both posting sets and four canonical PNGs validated. No X action.
+- Active unfinished daily package:NONE. Latest successful2026-11-07-weedy-seadragon completed,local-ready. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
 - Same-taxon assessment/copy/actual references required; species-wide Global status cannot be inferred from subspecies or national categories. No general policy change. Historical Sunda Colugo human-adoption hold remains separate.
@@ -15,6 +15,13 @@ Updated: 2026-11-06T21:22:20+09:00
 - Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
+- Weedy Seadragon / ウィーディー・シードラゴン / *Phyllopteryx taeniolatus*; Fishes; Actinopterygii > Syngnathiformes > Syngnathidae. Southern Australian temperate kelp and seagrass habitat.
+- Official current IUCN assessment directly indexed: Global VU A2bc, assessed5July2024/published2025, T17177A263199517. Australian Museum and Fishes of Australia support identity, male brood, appendages and feeding claims.
+- Sun Bear/Pink Fairy Armadillo did not clear current official-evidence gates. Latest-eight/twenty and full-history aliases/slug reviewed; the immediate fish recurrence was accepted only for a distinct marine habitat, narrow syngnathid silhouette and male-brood hook.
+- Cards: eggs under male tail, outline-breaking sparse appendages and tubular-mouth feeding. Hero locks five diagnostic features; natural far pectoral fin is occluded.
+- After the user's plan change removed ImageGen access, a deterministic cyanotype pair was first produced; on2026-11-12 it was replaced by a user-run ChatGPT watercolour pair generated from corrected prompts (old art in superseded-deterministic/). Both language posters passed direct-source gates, full-size/342x513 review, exact locked text, three illustrated cards, 1024x1536 pixel-identical direct/posting pairs, eight sidecars and package QA. No retry, user adoption, GitHub or X action.
+
+## Previous Completed Package
 - Freshwater Butterflyfish / バタフライフィッシュ / Pantodon buchholzi; Fishes; Actinopterygii > Osteoglossiformes > Pantodontidae. West/Central African calm freshwater surface.
 - User-supplied10-pageofficialHTML-derivedPDF plus matching screenshot resolve initial403/browser evidence hold. FullPDF text checked; pages1/2/5 visually reviewed. Species-wide GlobalLC v3.1, assessed5June2019/published2020, T183157A135016934. Original PDF/screenshot preserved byte-identically;2026generation date not an assessment date. No remaining official-access caveat for public copy.
 - Slate Atlantic Wolffish/Common Hippopotamus; full-history accepted/historical/bilingual/misspelled names searched and latest-eight/twenty reviewed. Broad patterned pectorals/hanging pelvic rays and experimental jump offer distinctive fish form/mechanism; surface-water setting recurrence weighed.
@@ -23,24 +30,24 @@ Updated: 2026-11-06T21:22:20+09:00
 - Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,published on GitHub after separately authorized closeout below. No X post/reply/account action.
 
 ## Recent-Eight Completed Region Summary
-1.2026-10-27 — Java/Bali tropical forest — Common Flying Dragon
-2.2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
-3.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
-4.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-5.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
-6.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
-7.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
-8.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
+1.2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
+2.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+3.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
+4.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+5.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
+6.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
+7.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
+8.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
 
 ## Recent-Eight Completed Classification Summary
-1.Reptiles — Common Flying Dragon
-2.Other invertebrates — Giant African Millipede
-3.Amphibians — Spotted Salamander
-4.Mammals — Bare-nosed Wombat
-5.Birds — Common Hoopoe
-6.Other invertebrates — Diving Bell Spider
-7.Plants — Giant Baobab
-8.Fishes — Freshwater Butterflyfish
+1.Other invertebrates — Giant African Millipede
+2.Amphibians — Spotted Salamander
+3.Mammals — Bare-nosed Wombat
+4.Birds — Common Hoopoe
+5.Other invertebrates — Diving Bell Spider
+6.Plants — Giant Baobab
+7.Fishes — Freshwater Butterflyfish
+8.Fishes — Weedy Seadragon
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
@@ -48,7 +55,7 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-No active unfinished daily package. Continue normal all-group Topic diversity; cancelled日輪玉 remains excluded. Latest Freshwater Butterflyfish completed,published on GitHub after authorized closeout; X posting remains separate. Weekly2026-W45 complete once; preserve marker and unresolved historical browser-media-export latency. No new policy/gate.
+No active unfinished daily package. Continue normal all-group Topic diversity; cancelled日輪玉 remains excluded. Latest Weedy Seadragon is completed,local-ready; its posters were replaced2026-11-12 with user-run image generation, so the earlier deterministic-art caveat no longer applies. X posting remains separate. Weekly2026-W45 complete once; preserve marker and unresolved historical browser-media-export latency. No new policy/gate.
 
 ## Current Authorized GitHub Closeout — Freshwater Butterflyfish
 ## Authorized GitHub closeout — 2026-11-06T21:22:20+09:00
