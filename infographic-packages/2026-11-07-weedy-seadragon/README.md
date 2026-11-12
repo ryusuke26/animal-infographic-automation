@@ -1,6 +1,6 @@
 # Weedy Seadragon / ウィーディー・シードラゴン
 
-Status: **completed, local-ready** (posters replaced 2026-11-12 with user-run image generation; see provenance below)
+Status: **completed, published** (posters replaced 2026-11-12 with user-run image generation; see provenance below)
 
 Workflow mode: `Quality Run`
 
@@ -37,4 +37,4 @@ See [sources-qa.md](sources-qa.md) for the Evidence Lock, direct sources, select
 
 ## Image provenance
 
-On 2026-11-12 the user generated both posters in ChatGPT image generation from [image-prompt-ja.md](image-prompt-ja.md) and [image-prompt-en.md](image-prompt-en.md); the supplied WebP files were converted losslessly to PNG at their native 1024×1536. They replace the 2026-11-07 deterministic local illustrations, which are preserved with their prompts in [superseded-deterministic/](superseded-deterministic/). An earlier user draft (English title, no footer, dense branched lobes, yellow-green colouring) was reviewed and not adopted. No GitHub or X action.
+On 2026-11-12 the user generated both posters in ChatGPT image generation from [image-prompt-ja.md](image-prompt-ja.md) and [image-prompt-en.md](image-prompt-en.md); the supplied WebP files were converted losslessly to PNG at their native 1024×1536. They replace the 2026-11-07 deterministic local illustrations, which are preserved with their prompts in [superseded-deterministic/](superseded-deterministic/). Published on GitHub 2026-11-12 (content `07f82ea`, record `66025e4`, user-authorized). The user reports posting to X themselves on 2026-11-12; the assistant took no X action. An earlier user draft (English title, no footer, dense branched lobes, yellow-green colouring) was reviewed and not adopted.
