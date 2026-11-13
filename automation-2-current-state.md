@@ -3,7 +3,7 @@ Updated: 2026-11-13T15:00:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful 2026-11-13-wallaces-giant-bee completed, local-ready (user-run ChatGPT posters; not published).
+- Active unfinished daily package:NONE. Latest successful 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized); no X action.
 - Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
@@ -65,7 +65,7 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-No active unfinished daily package. Continue all-group Topic diversity (recent eight lack Reptiles and Fungi). ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment). Wallace's Giant Bee is local-ready; GitHub/X separate.
+No active unfinished daily package. Continue all-group Topic diversity (recent eight lack Reptiles and Fungi). ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment). Wallace's Giant Bee published on GitHub 2026-11-13; X separate.
 
 ## Current Authorized GitHub Closeout — Weedy Seadragon
 At 2026-11-12, the user requested today's GitHub closeout in Claude Code. Existing origin ryusuke26/animal-infographic-automation/master, base965e2b1. Scope: package27 plus INDEX (content07f82ea) and current-state/daily (record66025e4), pushed normally; actual remote refs/heads/master matched local HEAD66025e4 before this publication metadata. Full package QA passed before commit. User reports posting to X themselves; assistant performed no X action. Daily production now continues as Claude Code scheduled task daily-creature-infographic (10:00, user-run ChatGPT image generation); Codex automation-2 remains PAUSED.
