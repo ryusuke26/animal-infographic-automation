@@ -1,27 +1,37 @@
 # Automation 2 Current State
-Updated: 2026-11-12T22:10:00+09:00
+Updated: 2026-11-13T15:00:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
+- Active unfinished daily package:NONE. Latest successful 2026-11-13-wallaces-giant-bee completed, local-ready (user-run ChatGPT posters; not published).
+- Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
 - Same-taxon assessment/copy/actual references required; species-wide Global status cannot be inferred from subspecies or national categories. No general policy change. Historical Sunda Colugo human-adoption hold remains separate.
 - Pre-existing cancellation/saved-prompt files preserved. No staging/commit/push, GitHub or X account/post/reply action during this daily run.
 
 ## Weekly visual reflection
-- Last completed review week:2026-W45; completion ledger daily-quality-loop.md, `[weekly-style-review: 2026-W45] completed`, independently re-read exactly once.
+- Last completed review week: 2026-W46; ledger daily-quality-loop.md `[weekly-style-review: 2026-W46] completed` (2026-11-13). Next adjustment: in ChatGPT poster prompts ask for a larger title and larger explanation type.
+- Previous: 2026-W45; completion ledger daily-quality-loop.md, `[weekly-style-review: 2026-W45] completed`, independently re-read exactly once.
 - Latest seven accepted Japanese posters27,28,29,30,31October,1and4November compared at equal280x420; current English pairing/full/phone checked. Distinct species silhouettes and explanations clear, media range from pastel/collage to gouache/linocut/watercolor/woodblock. No measured audience data; visual assessment only. Next adjustment:none. No backfill or new weekly art.
 - Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
+- Wallace's Giant Bee / ウォレスズ・ジャイアント・ビー / *Megachile pluto*; Insects; Insecta > Hymenoptera > Megachilidae. North Moluccan lowland forest, tree-termite nests.
+- Official IUCN read directly in the built-in browser: Global VU D2, assessed 11 Dec 2013/published 2014, T4410A21426160, "Needs updating". NHM London supports ecology/size; Wood et al. 2025 and LACM/Naturalis CC specimen photos settle anatomy.
+- Cards: resin-lined tunnels inside tree-termite nests / female-only stag-beetle-like jaws carry resin balls / largest known bee (~4x honeybee; males smaller, no big jaws). Hand-coloured copperplate engraving.
+- User-run ChatGPT: Japanese retry (attempt 1 boxed row + painted look), English retry (two abdominal stripes); not-adopted files preserved. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, local-ready; no Git/GitHub/X action.
+
+## Previous Completed Package
+- Weedy Seadragon / ウィーディー・シードラゴン / *Phyllopteryx taeniolatus*; completed, published 2026-11-12 (user-run ChatGPT posters). Note: its footer uses publication year 2025 although assessed 2024; flagged to user 2026-11-13, unchanged pending request.
+
+## Older Completed Package
 - Weedy Seadragon / ウィーディー・シードラゴン / *Phyllopteryx taeniolatus*; Fishes; Actinopterygii > Syngnathiformes > Syngnathidae. Southern Australian temperate kelp and seagrass habitat.
 - Official current IUCN assessment directly indexed: Global VU A2bc, assessed5July2024/published2025, T17177A263199517. Australian Museum and Fishes of Australia support identity, male brood, appendages and feeding claims.
 - Sun Bear/Pink Fairy Armadillo did not clear current official-evidence gates. Latest-eight/twenty and full-history aliases/slug reviewed; the immediate fish recurrence was accepted only for a distinct marine habitat, narrow syngnathid silhouette and male-brood hook.
 - Cards: eggs under male tail, outline-breaking sparse appendages and tubular-mouth feeding. Hero locks five diagnostic features; natural far pectoral fin is occluded.
 - After the user's plan change removed ImageGen access, a deterministic cyanotype pair was first produced; on2026-11-12 it was replaced by a user-run ChatGPT watercolour pair generated from corrected prompts (old art in superseded-deterministic/). Both language posters passed direct-source gates, full-size/342x513 review, exact locked text, three illustrated cards, 1024x1536 pixel-identical direct/posting pairs, eight sidecars and package QA. No retry, user adoption, GitHub or X action.
 
-## Previous Completed Package
 - Freshwater Butterflyfish / バタフライフィッシュ / Pantodon buchholzi; Fishes; Actinopterygii > Osteoglossiformes > Pantodontidae. West/Central African calm freshwater surface.
 - User-supplied10-pageofficialHTML-derivedPDF plus matching screenshot resolve initial403/browser evidence hold. FullPDF text checked; pages1/2/5 visually reviewed. Species-wide GlobalLC v3.1, assessed5June2019/published2020, T183157A135016934. Original PDF/screenshot preserved byte-identically;2026generation date not an assessment date. No remaining official-access caveat for public copy.
 - Slate Atlantic Wolffish/Common Hippopotamus; full-history accepted/historical/bilingual/misspelled names searched and latest-eight/twenty reviewed. Broad patterned pectorals/hanging pelvic rays and experimental jump offer distinctive fish form/mechanism; surface-water setting recurrence weighed.
@@ -30,24 +40,24 @@ Updated: 2026-11-12T22:10:00+09:00
 - Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,published on GitHub after separately authorized closeout below. No X post/reply/account action.
 
 ## Recent-Eight Completed Region Summary
-1.2026-10-28 — eastern/southeastern African woodland floor — Giant African Millipede
-2.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
-3.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-4.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
-5.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
-6.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
-7.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
-8.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
+1.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
+2.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
+3.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+4.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
+5.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
+6.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
+7.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
+8.2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
 
 ## Recent-Eight Completed Classification Summary
-1.Other invertebrates — Giant African Millipede
-2.Amphibians — Spotted Salamander
-3.Mammals — Bare-nosed Wombat
-4.Birds — Common Hoopoe
-5.Other invertebrates — Diving Bell Spider
-6.Plants — Giant Baobab
-7.Fishes — Freshwater Butterflyfish
-8.Fishes — Weedy Seadragon
+1.Amphibians — Spotted Salamander
+2.Mammals — Bare-nosed Wombat
+3.Birds — Common Hoopoe
+4.Other invertebrates — Diving Bell Spider
+5.Plants — Giant Baobab
+6.Fishes — Freshwater Butterflyfish
+7.Fishes — Weedy Seadragon
+8.Insects — Wallace's Giant Bee
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
@@ -55,7 +65,7 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-No active unfinished daily package. Continue normal all-group Topic diversity; cancelled日輪玉 remains excluded. Latest Weedy Seadragon is completed,published; its posters were replaced2026-11-12 with user-run image generation, so the earlier deterministic-art caveat no longer applies. X posting remains separate. Weekly2026-W45 complete once; preserve marker and unresolved historical browser-media-export latency. No new policy/gate.
+No active unfinished daily package. Continue all-group Topic diversity (recent eight lack Reptiles and Fungi). ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment). Wallace's Giant Bee is local-ready; GitHub/X separate.
 
 ## Current Authorized GitHub Closeout — Weedy Seadragon
 At 2026-11-12, the user requested today's GitHub closeout in Claude Code. Existing origin ryusuke26/animal-infographic-automation/master, base965e2b1. Scope: package27 plus INDEX (content07f82ea) and current-state/daily (record66025e4), pushed normally; actual remote refs/heads/master matched local HEAD66025e4 before this publication metadata. Full package QA passed before commit. User reports posting to X themselves; assistant performed no X action. Daily production now continues as Claude Code scheduled task daily-creature-infographic (10:00, user-run ChatGPT image generation); Codex automation-2 remains PAUSED.
