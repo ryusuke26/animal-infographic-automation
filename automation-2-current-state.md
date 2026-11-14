@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-13T15:00:00+09:00
+Updated: 2026-11-14T23:30:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized); no X action.
+- Active unfinished daily package:NONE. Latest successful 2026-11-14-gharial completed, local-ready (not committed; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2026-11-13) still uncommitted.
 - Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
@@ -17,13 +17,13 @@ Updated: 2026-11-13T15:00:00+09:00
 - Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
-- Wallace's Giant Bee / ウォレスズ・ジャイアント・ビー / *Megachile pluto*; Insects; Insecta > Hymenoptera > Megachilidae. North Moluccan lowland forest, tree-termite nests.
-- Official IUCN read directly in the built-in browser: Global VU D2, assessed 11 Dec 2013/published 2014, T4410A21426160, "Needs updating". NHM London supports ecology/size; Wood et al. 2025 and LACM/Naturalis CC specimen photos settle anatomy.
-- Cards: resin-lined tunnels inside tree-termite nests / female-only stag-beetle-like jaws carry resin balls / largest known bee (~4x honeybee; males smaller, no big jaws). Hand-coloured copperplate engraving.
-- User-run ChatGPT: Japanese retry (attempt 1 boxed row + painted look), English retry (two abdominal stripes); not-adopted files preserved. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, local-ready; no Git/GitHub/X action.
+- Gharial / インドガビアル / *Gavialis gangeticus*; Reptiles; Reptilia > Crocodylia > Gavialidae. Northern India/Nepal sandy rivers (Chambal).
+- Official IUCN read directly in the built-in browser: Global CR A2bce, assessed 30 Dec 2017/published 2019 (errata), T8966A149227430; earlier deferral blocker (date) resolved. Smithsonian National Zoo and ADW support claims; three CC BY-SA Commons photos settle anatomy.
+- Cards: male ghara (covers nostrils, resonates calls, signals females) / >100 interlocking teeth for fish / belly-sliding on land. Indian Company School-style painting.
+- User-run ChatGPT: Japanese attempt 1 drew the ghara as two balls; targeted-edit retry accepted (redrawn equal-box alternative not adopted). English first attempt accepted. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, local-ready; no Git/GitHub/X action.
 
 ## Previous Completed Package
-- Weedy Seadragon / ウィーディー・シードラゴン / *Phyllopteryx taeniolatus*; completed, published 2026-11-12 (user-run ChatGPT posters). Note: its footer uses publication year 2025 although assessed 2024; flagged to user 2026-11-13, unchanged pending request.
+- Wallace's Giant Bee / ウォレスズ・ジャイアント・ビー / *Megachile pluto*; Insects; completed, published on GitHub 2026-11-13 (user-run ChatGPT engraving posters, one retry per language).
 
 ## Older Completed Package
 - Weedy Seadragon / ウィーディー・シードラゴン / *Phyllopteryx taeniolatus*; Fishes; Actinopterygii > Syngnathiformes > Syngnathidae. Southern Australian temperate kelp and seagrass habitat.
@@ -40,24 +40,24 @@ Updated: 2026-11-13T15:00:00+09:00
 - Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,published on GitHub after separately authorized closeout below. No X post/reply/account action.
 
 ## Recent-Eight Completed Region Summary
-1.2026-10-29 — eastern North American woodland spring pond — Spotted Salamander
-2.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-3.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
-4.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
-5.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
-6.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
-7.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
-8.2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
+1.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
+2.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+3.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
+4.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
+5.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
+6.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
+7.2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
+8.2026-11-14 — northern India/Nepal sandy rivers (Chambal sandbar) — Gharial
 
 ## Recent-Eight Completed Classification Summary
-1.Amphibians — Spotted Salamander
-2.Mammals — Bare-nosed Wombat
-3.Birds — Common Hoopoe
-4.Other invertebrates — Diving Bell Spider
-5.Plants — Giant Baobab
-6.Fishes — Freshwater Butterflyfish
-7.Fishes — Weedy Seadragon
-8.Insects — Wallace's Giant Bee
+1.Mammals — Bare-nosed Wombat
+2.Birds — Common Hoopoe
+3.Other invertebrates — Diving Bell Spider
+4.Plants — Giant Baobab
+5.Fishes — Freshwater Butterflyfish
+6.Fishes — Weedy Seadragon
+7.Insects — Wallace's Giant Bee
+8.Reptiles — Gharial
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
