@@ -24,7 +24,7 @@ This bilingual, curiosity-first package introduces the Weedy Seadragon (*Phyllop
 | Japanese | [direct poster](images/weedy_seadragon_japanese_imagegen_2026-11-07.png) | [posting PNG](images/weedy_seadragon_japanese_posting_2026-11-07.png) | [image-prompt-ja.md](image-prompt-ja.md) | User-run ChatGPT image generation from this prompt (2026-11-12); five invariants, nine locked strings and three illustrated cards reviewed. |
 | English | [direct poster](images/weedy_seadragon_english_imagegen_2026-11-07.png) | [posting PNG](images/weedy_seadragon_english_posting_2026-11-07.png) | [image-prompt-en.md](image-prompt-en.md) | User-run ChatGPT image generation as an edit of the accepted Japanese composition; same review applied. |
 
-The direct and posting files are pixel-identical canonical 1024×1536 PNGs. Sidecars are derived from the two posting-set files.
+The direct and posting files are pixel-identical canonical 1024×1536 PNGs. On 2026-11-13 the footer year was corrected from 2025 (publication) to 2024 (assessment) by a one-glyph local repair; pre-repair files are in [superseded-footer-2025/](superseded-footer-2025/). Sidecars are derived from the two posting-set files.
 
 ### Copy-ready sidecars
 

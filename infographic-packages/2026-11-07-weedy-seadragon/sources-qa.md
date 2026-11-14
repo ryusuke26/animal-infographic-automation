@@ -56,3 +56,8 @@ Style/medium (2026-11-12 replacement): soft natural-history watercolour in sunli
 - English: same gate passed; all nine English strings match Copy Lock including footer punctuation spacing; hero and cards are the same accepted art.
 - Visual observation: at 342×513 phone size the titles, headings and footer are clearly legible; card explanations are small but readable. Ventral flaps on downward spines read slightly limb-like at phone size; accepted as reference-consistent spine flaps, not legs.
 - Posting PNGs are pixel-identical 1024×1536 copies of the direct sources; ALT text rewritten for the watercolour art and eight sidecars regenerated; full package QA passed.
+
+### Footer year correction — 2026-11-13
+
+- The footer showed the publication year (2025) although the policy requires the field-level assessment year; the official record gives Date Assessed 5 July 2024. At the user's request the footer was corrected to `IUCN Red List 2024: 危急 (VU)` / `IUCN Red List 2024: Vulnerable (VU)` in both Copy Lock files, both prompts, both main posts and ALT texts.
+- Poster repair: local text-safe repair of one glyph only — the final "5" of the footer year was replaced with a "4" (Cambria glyph, matched height and ink colour, paper interpolated underneath) on both direct posters; no other pixels changed in artwork, anatomy or layout. Posting PNGs re-normalized; both direct-source gates pass. Pre-repair PNGs preserved in superseded-footer-2025/. The source note already states "assessed 5 July 2024; published 2025" and is unchanged.

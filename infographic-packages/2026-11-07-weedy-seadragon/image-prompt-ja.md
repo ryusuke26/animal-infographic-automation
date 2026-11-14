@@ -43,7 +43,7 @@ Text, verbatim:
 "体の葉のような突起は推進器ではなく、海藻帯で輪郭を崩して見せる。"
 "ゆっくり、狙いを定める"
 "小さな胸びれと背びれで静かに進み、管状の口で小さな甲殻類を吸い込む。"
-"IUCN Red List 2025: 危急 (VU)"
+"IUCN Red List 2024: 危急 (VU)"
 
 Render each text string exactly once, exactly as written, in clean Japanese typography. Card numbers are 1, 2, 3. No other text, no English title, no logos, no watermark, no signature, no map, no second hero seadragon.
 ```

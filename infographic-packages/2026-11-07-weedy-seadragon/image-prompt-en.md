@@ -31,7 +31,7 @@ Text, verbatim:
 "Its leaf-like appendages are not propellers; they break up the outline among seaweed."
 "A slow, precise hunter"
 "Small pectoral and dorsal fins move it quietly as its tubular mouth sucks in tiny crustaceans."
-"IUCN Red List 2025: Vulnerable (VU)"
+"IUCN Red List 2024: Vulnerable (VU)"
 
 Render each string exactly once, exactly as written. In the footer: no space before the colon, one space after the colon, one space before "(VU)". Card numbers are 1, 2, 3. No other text, no Japanese text, no logos, no watermark, no signature, no map, no second hero seadragon.
 ```

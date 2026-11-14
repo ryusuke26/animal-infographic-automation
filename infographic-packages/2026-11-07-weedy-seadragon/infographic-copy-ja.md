@@ -11,4 +11,4 @@ Observation cards:
    Explanation: 小さな胸びれと背びれで静かに進み、管状の口で小さな甲殻類を吸い込む。
 
 Footer/status:
-IUCN Red List 2025: 危急 (VU)
+IUCN Red List 2024: 危急 (VU)

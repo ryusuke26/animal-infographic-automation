@@ -11,4 +11,4 @@ Observation cards:
    Explanation: Small pectoral and dorsal fins move it quietly as its tubular mouth sucks in tiny crustaceans.
 
 Footer/status:
-IUCN Red List 2025: Vulnerable (VU)
+IUCN Red List 2024: Vulnerable (VU)
