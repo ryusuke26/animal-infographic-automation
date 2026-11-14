@@ -3,7 +3,7 @@ Updated: 2026-11-14T23:30:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful 2026-11-14-gharial completed, local-ready (not committed; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2026-11-13) still uncommitted.
+- Active unfinished daily package:NONE. Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
 - Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
@@ -20,7 +20,7 @@ Updated: 2026-11-14T23:30:00+09:00
 - Gharial / インドガビアル / *Gavialis gangeticus*; Reptiles; Reptilia > Crocodylia > Gavialidae. Northern India/Nepal sandy rivers (Chambal).
 - Official IUCN read directly in the built-in browser: Global CR A2bce, assessed 30 Dec 2017/published 2019 (errata), T8966A149227430; earlier deferral blocker (date) resolved. Smithsonian National Zoo and ADW support claims; three CC BY-SA Commons photos settle anatomy.
 - Cards: male ghara (covers nostrils, resonates calls, signals females) / >100 interlocking teeth for fish / belly-sliding on land. Indian Company School-style painting.
-- User-run ChatGPT: Japanese attempt 1 drew the ghara as two balls; targeted-edit retry accepted (redrawn equal-box alternative not adopted). English first attempt accepted. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, local-ready; no Git/GitHub/X action.
+- User-run ChatGPT: Japanese attempt 1 drew the ghara as two balls; targeted-edit retry accepted (redrawn equal-box alternative not adopted). English first attempt accepted. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, published on GitHub 2026-11-15; no X action.
 
 ## Previous Completed Package
 - Wallace's Giant Bee / ウォレスズ・ジャイアント・ビー / *Megachile pluto*; Insects; completed, published on GitHub 2026-11-13 (user-run ChatGPT engraving posters, one retry per language).
@@ -67,7 +67,10 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 ## Next Concrete Change
 No active unfinished daily package. Continue all-group Topic diversity (recent eight lack Reptiles and Fungi). ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment). Wallace's Giant Bee published on GitHub 2026-11-13; X separate.
 
-## Current Authorized GitHub Closeout — Weedy Seadragon
+## Current Authorized GitHub Closeout — Gharial
+At 2026-11-15 the user requested Git work and the Weedy Seadragon footer fix in Claude Code. Base 95483a1 on origin ryusuke26/animal-infographic-automation master. Commits: bb01053 (Weedy Seadragon footer IUCN year 2025 -> 2024; superseded images moved to superseded-footer-2025/; validate_package passed), b8d8c74 (Gharial package plus INDEX), 748336e (current-state/daily record), pushed normally after Git Credential Manager sign-in; remote refs/heads/master matched local 748336e before this publication metadata. No X action.
+
+## Previous Authorized GitHub Closeout — Weedy Seadragon
 At 2026-11-12, the user requested today's GitHub closeout in Claude Code. Existing origin ryusuke26/animal-infographic-automation/master, base965e2b1. Scope: package27 plus INDEX (content07f82ea) and current-state/daily (record66025e4), pushed normally; actual remote refs/heads/master matched local HEAD66025e4 before this publication metadata. Full package QA passed before commit. User reports posting to X themselves; assistant performed no X action. Daily production now continues as Claude Code scheduled task daily-creature-infographic (10:00, user-run ChatGPT image generation); Codex automation-2 remains PAUSED.
 
 ## Previous Authorized GitHub Closeout — Freshwater Butterflyfish
