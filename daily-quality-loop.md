@@ -2652,3 +2652,7 @@ Full packageQA, four1024x1536PNGs/pixel-identical pairs, eight offline sidecars,
 ## 2026-11-14T23:30:00+09:00 — Gharial completed (Claude Code, user-run ChatGPT posters)
 - Completed 2026-11-14-gharial, Reptiles (first crocodilian), northern India/Nepal rivers; completed, local-ready. Official IUCN CR A2bce (assessed 30 Dec 2017) read directly in the built-in browser, resolving the candidate's earlier date blocker.
 - issue: species-identity-drift — ChatGPT drew the male ghara as two separate smooth balls although the prompt said "ONE rounded, lumpy knob ... like a small round clay pot"; the pot comparison likely invited a clean sphere. Fixed in the one Japanese retry as a targeted edit ("one continuous warty skin bulb joined to the snout, NOT two balls"); English first attempt kept it. A second output of the edit redrew the poster as equal stacked boxes and was rejected. next_action: watch; tomorrow_change: describe soft-tissue structures by texture and attachment, not by an object simile.
+
+## 2026-11-15 — Caterpillar Fungus (Claude Code, user-run ChatGPT)
+- issue: none — both posters accepted on the first attempt; explicit "ONE stalk joined to the top of the head, NOT a capped mushroom, NOT Cordyceps militaris" plus figure shapes (medallion / tall oval / frameless) held identity and avoided the equal boxed row. Minor: title katakana spacing uneven, not repaired.
+  priority: none; tags: none; next_action: ignore; tomorrow_change: keep naming the nearest lookalike and the figure frame shapes in prompts.

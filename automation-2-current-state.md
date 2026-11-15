@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-14T23:30:00+09:00
+Updated: 2026-11-15T23:20:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package:NONE. Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
+- Active unfinished daily package: NONE. Latest successful 2026-11-15-caterpillar-fungus completed, local-ready (not yet on GitHub; no X action). Previous 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
 - Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
@@ -17,12 +17,18 @@ Updated: 2026-11-14T23:30:00+09:00
 - Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
+- Caterpillar Fungus / シネンシストウチュウカソウ / *Ophiocordyceps sinensis*; Fungi and lichens; Fungi > Ascomycota > Hypocreales > Ophiocordycipitaceae. Himalaya/Tibetan Plateau alpine grassland 3,000–5,000 m.
+- Official IUCN read directly in the built-in browser: Global VU A2bcd+3bcd+4bcd, assessed 31 Oct 2019/published 2020 (amended), T58514773A179197748. IUCN account and National Geographic support claims; three Commons photos settle anatomy.
+- Cards: stalk from the dead caterpillar's head / sclerotium inside intact skin / host larva 3–4+ years underground on roots. Colour-lithograph wall-chart soil cutaway.
+- User-run ChatGPT: Japanese and English first attempts accepted (no retry). Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, local-ready; no Git/GitHub/X action.
+
+## Previous Completed Package (Gharial)
 - Gharial / インドガビアル / *Gavialis gangeticus*; Reptiles; Reptilia > Crocodylia > Gavialidae. Northern India/Nepal sandy rivers (Chambal).
 - Official IUCN read directly in the built-in browser: Global CR A2bce, assessed 30 Dec 2017/published 2019 (errata), T8966A149227430; earlier deferral blocker (date) resolved. Smithsonian National Zoo and ADW support claims; three CC BY-SA Commons photos settle anatomy.
 - Cards: male ghara (covers nostrils, resonates calls, signals females) / >100 interlocking teeth for fish / belly-sliding on land. Indian Company School-style painting.
 - User-run ChatGPT: Japanese attempt 1 drew the ghara as two balls; targeted-edit retry accepted (redrawn equal-box alternative not adopted). English first attempt accepted. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, published on GitHub 2026-11-15; no X action.
 
-## Previous Completed Package
+## Older Completed Package (Wallace's Giant Bee)
 - Wallace's Giant Bee / ウォレスズ・ジャイアント・ビー / *Megachile pluto*; Insects; completed, published on GitHub 2026-11-13 (user-run ChatGPT engraving posters, one retry per language).
 
 ## Older Completed Package
@@ -40,24 +46,24 @@ Updated: 2026-11-14T23:30:00+09:00
 - Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,published on GitHub after separately authorized closeout below. No X post/reply/account action.
 
 ## Recent-Eight Completed Region Summary
-1.2026-10-30 — southeastern Australian grassy woodland — Bare-nosed Wombat
-2.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
-3.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
-4.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
-5.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
-6.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
-7.2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
-8.2026-11-14 — northern India/Nepal sandy rivers (Chambal sandbar) — Gharial
+1.2026-10-31 — European Mediterranean short-grass woodland/cavity — Common Hoopoe
+2.2026-11-01 — Eurasian vegetated freshwater pond including Japan — Diving Bell Spider
+3.2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
+4.2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
+5.2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
+6.2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
+7.2026-11-14 — northern India/Nepal sandy rivers (Chambal sandbar) — Gharial
+8. 2026-11-15 — Himalaya/Tibetan Plateau alpine grassland — Caterpillar Fungus
 
 ## Recent-Eight Completed Classification Summary
-1.Mammals — Bare-nosed Wombat
-2.Birds — Common Hoopoe
-3.Other invertebrates — Diving Bell Spider
-4.Plants — Giant Baobab
-5.Fishes — Freshwater Butterflyfish
-6.Fishes — Weedy Seadragon
-7.Insects — Wallace's Giant Bee
-8.Reptiles — Gharial
+1.Birds — Common Hoopoe
+2.Other invertebrates — Diving Bell Spider
+3.Plants — Giant Baobab
+4.Fishes — Freshwater Butterflyfish
+5.Fishes — Weedy Seadragon
+6.Insects — Wallace's Giant Bee
+7.Reptiles — Gharial
+8. Fungi and lichens — Caterpillar Fungus
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
@@ -65,7 +71,7 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-No active unfinished daily package. Continue all-group Topic diversity (recent eight lack Reptiles and Fungi). ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment). Wallace's Giant Bee published on GitHub 2026-11-13; X separate.
+No active unfinished daily package. Continue all-group Topic diversity (recent eight now lack Amphibians). Continue all-group Topic diversity (recent eight lack Reptiles and Fungi). ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment). Wallace's Giant Bee published on GitHub 2026-11-13; X separate.
 
 ## Current Authorized GitHub Closeout — Gharial
 At 2026-11-15 the user requested Git work and the Weedy Seadragon footer fix in Claude Code. Base 95483a1 on origin ryusuke26/animal-infographic-automation master. Commits: bb01053 (Weedy Seadragon footer IUCN year 2025 -> 2024; superseded images moved to superseded-footer-2025/; validate_package passed), b8d8c74 (Gharial package plus INDEX), 748336e (current-state/daily record), pushed normally after Git Credential Manager sign-in; remote refs/heads/master matched local 748336e before this publication metadata. No X action.
