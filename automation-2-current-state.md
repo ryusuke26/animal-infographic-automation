@@ -3,7 +3,7 @@ Updated: 2026-11-15T23:20:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package: NONE. Latest successful 2026-11-15-caterpillar-fungus completed, local-ready (not yet on GitHub; no X action). Previous 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
+- Active unfinished daily package: NONE. Latest successful 2026-11-15-caterpillar-fungus completed, published on GitHub 2026-11-15 (5a6d67f/9b0c044, user-authorized; no X action). Previous 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
 - Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
@@ -20,7 +20,7 @@ Updated: 2026-11-15T23:20:00+09:00
 - Caterpillar Fungus / シネンシストウチュウカソウ / *Ophiocordyceps sinensis*; Fungi and lichens; Fungi > Ascomycota > Hypocreales > Ophiocordycipitaceae. Himalaya/Tibetan Plateau alpine grassland 3,000–5,000 m.
 - Official IUCN read directly in the built-in browser: Global VU A2bcd+3bcd+4bcd, assessed 31 Oct 2019/published 2020 (amended), T58514773A179197748. IUCN account and National Geographic support claims; three Commons photos settle anatomy.
 - Cards: stalk from the dead caterpillar's head / sclerotium inside intact skin / host larva 3–4+ years underground on roots. Colour-lithograph wall-chart soil cutaway.
-- User-run ChatGPT: Japanese and English first attempts accepted (no retry). Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, local-ready; no Git/GitHub/X action.
+- User-run ChatGPT: Japanese and English first attempts accepted (no retry). Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, published on GitHub 2026-11-15 (5a6d67f/9b0c044); no X action.
 
 ## Previous Completed Package (Gharial)
 - Gharial / インドガビアル / *Gavialis gangeticus*; Reptiles; Reptilia > Crocodylia > Gavialidae. Northern India/Nepal sandy rivers (Chambal).
