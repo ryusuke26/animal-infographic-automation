@@ -2656,3 +2656,9 @@ Full packageQA, four1024x1536PNGs/pixel-identical pairs, eight offline sidecars,
 ## 2026-11-15 — Caterpillar Fungus (Claude Code, user-run ChatGPT)
 - issue: none — both posters accepted on the first attempt; explicit "ONE stalk joined to the top of the head, NOT a capped mushroom, NOT Cordyceps militaris" plus figure shapes (medallion / tall oval / frameless) held identity and avoided the equal boxed row. Minor: title katakana spacing uneven, not repaired.
   priority: none; tags: none; next_action: ignore; tomorrow_change: keep naming the nearest lookalike and the figure frame shapes in prompts.
+
+## 2026-11-18 — Wood Frog (Claude Code, user-run ChatGPT)
+
+[weekly-style-review: 2026-W47] completed — Reviewed accepted Japanese posters at equal 280x420: 2026-11-04-giant-baobab, 2026-11-06-freshwater-butterflyfish, 2026-11-07-weedy-seadragon, 2026-11-13-wallaces-giant-bee, 2026-11-14-gharial, 2026-11-15-caterpillar-fungus, 2026-11-18-wood-frog. Silhouettes and defining structures stay clear; media vary (dusk painting, watercolour, engraving, Company School, lithograph wall chart, cut-paper collage). The W46 large-title request shows in Gharial and Wood Frog (bold titles readable at thumbnail); Caterpillar Fungus title remains smaller, and explanation type is still the smallest element on all ChatGPT-era posters. Reaction data unavailable; visual assessment only. Next adjustment: none (keep the W46 large-type request).
+
+- Daily: issue: none. Both ChatGPT posters accepted on first attempt; explicit marking counts plus "no equal boxes, not in a row" again held. Conflicting frozen-water percentages were kept off the poster.
