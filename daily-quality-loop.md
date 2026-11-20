@@ -2662,3 +2662,7 @@ Full packageQA, four1024x1536PNGs/pixel-identical pairs, eight offline sidecars,
 [weekly-style-review: 2026-W47] completed — Reviewed accepted Japanese posters at equal 280x420: 2026-11-04-giant-baobab, 2026-11-06-freshwater-butterflyfish, 2026-11-07-weedy-seadragon, 2026-11-13-wallaces-giant-bee, 2026-11-14-gharial, 2026-11-15-caterpillar-fungus, 2026-11-18-wood-frog. Silhouettes and defining structures stay clear; media vary (dusk painting, watercolour, engraving, Company School, lithograph wall chart, cut-paper collage). The W46 large-title request shows in Gharial and Wood Frog (bold titles readable at thumbnail); Caterpillar Fungus title remains smaller, and explanation type is still the smallest element on all ChatGPT-era posters. Reaction data unavailable; visual assessment only. Next adjustment: none (keep the W46 large-type request).
 
 - Daily: issue: none. Both ChatGPT posters accepted on first attempt; explicit marking counts plus "no equal boxes, not in a row" again held. Conflicting frozen-water percentages were kept off the poster.
+
+## 2026-11-20 — Narwhal (Claude Code, user-run ChatGPT)
+
+- Daily: issue: an internal-structure diagram (top view of two upper-jaw teeth) came back with a central tusk plus two stubs although the prompt said "exactly TWO teeth"; the retry fixed it after stating the total, the side and "nothing in the centre". ChatGPT regenerated the whole poster instead of a local edit, so all features were rechecked. No policy change. Weekly 2026-W47 already completed (not repeated).
