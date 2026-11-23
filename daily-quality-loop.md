@@ -2666,3 +2666,9 @@ Full packageQA, four1024x1536PNGs/pixel-identical pairs, eight offline sidecars,
 ## 2026-11-20 — Narwhal (Claude Code, user-run ChatGPT)
 
 - Daily: issue: an internal-structure diagram (top view of two upper-jaw teeth) came back with a central tusk plus two stubs although the prompt said "exactly TWO teeth"; the retry fixed it after stating the total, the side and "nothing in the centre". ChatGPT regenerated the whole poster instead of a local edit, so all features were rechecked. No policy change. Weekly 2026-W47 already completed (not repeated).
+
+## 2026-11-23 — Common Potoo (Claude Code, user-run ChatGPT)
+
+[weekly-style-review: 2026-W48] completed — Reviewed accepted Japanese posters at equal 280x420: 2026-11-07-weedy-seadragon, 2026-11-13-wallaces-giant-bee, 2026-11-14-gharial, 2026-11-15-caterpillar-fungus, 2026-11-18-wood-frog, 2026-11-20-narwhal, 2026-11-23-common-potoo. Every hero remains identifiable at thumbnail size; media run from watercolour, engraving, Company School and wall chart to collage, woodblock and a toned-paper drawing, so the muted potoo poster contrasts well with the saturated narwhal and wood frog. Large titles hold from Gharial onward; explanation type is still the smallest element, readable at phone size but not at thumbnail. Reaction data unavailable; visual assessment only. Next adjustment: none (keep the W46 large-type request).
+
+- Daily: issue: none. Both ChatGPT posters accepted on the first attempt. Named relaxed→freeze pair, eyelid close-up and "exactly ONE egg, NO nest" figures all held; figure 2 drew one narrow slit rather than separate eyelid notches (depiction caveat, not a contradiction). Commons Special:FilePath returns an error page when the requested width exceeds the original; use a width at or below the original.

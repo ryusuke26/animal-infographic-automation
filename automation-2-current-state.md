@@ -1,9 +1,9 @@
 # Automation 2 Current State
-Updated: 2026-11-20T15:30:00+09:00
+Updated: 2026-11-23T16:30:00+09:00
 
 ## Workflow
 - Default Quality Run; exact vertical2:3 bilingual cards-v2, three numbered illustrated explanations.
-- Active unfinished daily package: NONE. Latest successful 2026-11-20-narwhal completed, published on GitHub 2026-11-20 (bdf7ae3/e79af0e, user-authorized; no X action). Latest successful 2026-11-18-wood-frog completed, published on GitHub 2026-11-18 (6046ba7/770be31, user-authorized; no X action). Latest successful 2026-11-15-caterpillar-fungus completed, published on GitHub 2026-11-15 (5a6d67f/9b0c044, user-authorized; no X action). Previous 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
+- Active unfinished daily package: NONE. Latest successful 2026-11-23-common-potoo completed, published on GitHub 2026-11-23 (c3b226c plus record commit, user-authorized; no X action). Latest successful 2026-11-20-narwhal completed, published on GitHub 2026-11-20 (bdf7ae3/e79af0e, user-authorized; no X action). Latest successful 2026-11-18-wood-frog completed, published on GitHub 2026-11-18 (6046ba7/770be31, user-authorized; no X action). Latest successful 2026-11-15-caterpillar-fungus completed, published on GitHub 2026-11-15 (5a6d67f/9b0c044, user-authorized; no X action). Previous 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Latest successful 2026-11-14-gharial completed, published on GitHub 2026-11-15 (b8d8c74/748336e, user-authorized; no X action). Previous 2026-11-13-wallaces-giant-bee completed, published on GitHub 2026-11-13 (6ddef6a/2a7f735, user-authorized). Weedy Seadragon footer-year correction (2025 -> 2024) committed and pushed in bb01053.
 - Previous: Latest successful2026-11-07-weedy-seadragon completed,published on GitHub2026-11-12 (07f82ea/66025e4); user reports own X post2026-11-12. Both posting sets, 8 sidecars and four canonical PNGs validated. No GitHub or X action.
 -4November NEW PLANT one-run instruction fulfilled. Subsequent daily runs resume normal Topic diversity across all editorial groups; no permanent plant-only restriction.
 - User CANCELLED2026-11-02-aucamps-living-stone / 日輪玉 / Lithops aucampiae on3November. Preserve cancelled research archive; do not resume/reselect/substitute subspecies without a new request. No3November replacement was produced.
@@ -11,13 +11,20 @@ Updated: 2026-11-20T15:30:00+09:00
 - Pre-existing cancellation/saved-prompt files preserved. No staging/commit/push, GitHub or X account/post/reply action during this daily run.
 
 ## Weekly visual reflection
-- Last completed review week: 2026-W47; ledger daily-quality-loop.md `[weekly-style-review: 2026-W47] completed` (2026-11-18). Next adjustment: none (keep the W46 large-type request).
+- Last completed review week: 2026-W48; ledger daily-quality-loop.md `[weekly-style-review: 2026-W48] completed` (2026-11-23). Next adjustment: none (keep the W46 large-type request).
+- Previous: - Last completed review week: 2026-W47; ledger daily-quality-loop.md `[weekly-style-review: 2026-W47] completed` (2026-11-18). Next adjustment: none (keep the W46 large-type request).
 - Previous: - Last completed review week: 2026-W46; ledger daily-quality-loop.md `[weekly-style-review: 2026-W46] completed` (2026-11-13). Next adjustment: in ChatGPT poster prompts ask for a larger title and larger explanation type.
 - Previous: 2026-W45; completion ledger daily-quality-loop.md, `[weekly-style-review: 2026-W45] completed`, independently re-read exactly once.
 - Latest seven accepted Japanese posters27,28,29,30,31October,1and4November compared at equal280x420; current English pairing/full/phone checked. Distinct species silhouettes and explanations clear, media range from pastel/collage to gouache/linocut/watercolor/woodblock. No measured audience data; visual assessment only. Next adjustment:none. No backfill or new weekly art.
 - Previous2026-W44 ledger preserved. Live/saved cancellation override was synchronized3November; this run does not change automation settings or saved execution prompt.
 
 ## Latest Completed Package
+- Common Potoo / ハイイロタチヨタカ / *Nyctibius griseus*; Birds; Aves > Caprimulgiformes > Nyctibiidae. Central and South American woodland edges and savanna.
+- Official IUCN read directly in the built-in browser: Global LC, assessed 04 Dec 2019/published 2020, T22689646A163600335. UWI OGATT and bioGraphic support claims; three Commons photographs (CC BY 4.0, PD, CC BY-SA 4.0) settle identity.
+- Cards: freeze as a broken branch tip / eyelid slits sense movement with eyes closed (genus-level Borrero 1974 caveat) / single white egg in a branch dent, both parents incubate. Toned-paper charcoal/chalk drawing (rendered closer to coloured pencil).
+- User-run ChatGPT: Japanese and English first attempts accepted. Four 1024x1536 PNGs, 8 sidecars, full QA pass. Completed, published on GitHub 2026-11-23 (c3b226c); no X action.
+
+## Previous Completed Package (Narwhal)
 - Narwhal / イッカク / *Monodon monoceros*; Mammals (first cetacean); Mammalia > Artiodactyla (Cetacea) > Monodontidae. Arctic Ocean pack-ice edges, fjords and deep offshore water.
 - Official IUCN read directly in the built-in browser: Global LC, assessed 03 Jul 2017/published 2017, T13704A50367651. NOAA Fisheries and UW Laidre narwhal FAQ support claims; two PD NOAA/UW photos and one CC BY-SA skull settle anatomy.
 - Cards: tusk is the male's left upper tooth / males cross tusks in summer bays (thought to settle rank) / winter dives beyond 800 m 18–25 times a day under >99% ice. Moku-hanga woodblock print.
@@ -59,24 +66,24 @@ Updated: 2026-11-20T15:30:00+09:00
 - Four canonical1024x1536PNGs, pixel-identical direct/posting pairs,8offline sidecars, READMElinks/evidencehashes and fullpackageQA pass. Qualitative leap/fin studies; natural fin/ray overlap. No material remaining blocker or explicit human artwork adoption. Completed,published on GitHub after separately authorized closeout below. No X post/reply/account action.
 
 ## Recent-Eight Completed Region Summary
-1. 2026-11-04 — western Madagascar seasonal dry deciduous woodland — Giant Baobab
-2. 2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
-3. 2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
-4. 2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
-5. 2026-11-14 — northern India/Nepal sandy rivers (Chambal sandbar) — Gharial
-6. 2026-11-15 — Himalaya/Tibetan Plateau alpine grassland — Caterpillar Fungus
-7. 2026-11-18 — North American forests and seasonal pools — Wood Frog
-8. 2026-11-20 — Arctic Ocean pack ice, fjords and deep offshore water — Narwhal
+1. 2026-11-06 — West/Central African calm freshwater backwater surface — Freshwater Butterflyfish
+2. 2026-11-07 — southern Australian temperate kelp/seagrass coast — Weedy Seadragon
+3. 2026-11-13 — North Moluccan (Indonesia) lowland forest, tree-termite nests — Wallace's Giant Bee
+4. 2026-11-14 — northern India/Nepal sandy rivers (Chambal sandbar) — Gharial
+5. 2026-11-15 — Himalaya/Tibetan Plateau alpine grassland — Caterpillar Fungus
+6. 2026-11-18 — North American forests and seasonal pools — Wood Frog
+7. 2026-11-20 — Arctic Ocean pack ice, fjords and deep offshore water — Narwhal
+8. 2026-11-23 — Central/South American woodland edges and savanna — Common Potoo
 
 ## Recent-Eight Completed Classification Summary
-1. Plants — Giant Baobab
-2. Fishes — Freshwater Butterflyfish
-3. Fishes — Weedy Seadragon
-4. Insects — Wallace's Giant Bee
-5. Reptiles — Gharial
-6. Fungi and lichens — Caterpillar Fungus
-7. Amphibians — Wood Frog
-8. Mammals — Narwhal
+1. Fishes — Freshwater Butterflyfish
+2. Fishes — Weedy Seadragon
+3. Insects — Wallace's Giant Bee
+4. Reptiles — Gharial
+5. Fungi and lichens — Caterpillar Fungus
+6. Amphibians — Wood Frog
+7. Mammals — Narwhal
+8. Birds — Common Potoo
 
 Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/cooldown or unresolved candidate counter.
 
@@ -84,7 +91,7 @@ Latest twenty scanned for subgroup/silhouette/habitat/hook repetition; no quota/
 - Historical browser media-export latency remains unresolved. 4November's first usable exact-taxon park JPEG direct transfer0.157s after sandboxDNS failure; MNHN/IUCN media403. Browser image export used a no-match DOM selector and overran requested35s timeout to56.745s; no export success, duplicate successful download or latency-fix claim. Reuse the existing local bundle; observe next necessary real acquisition without a separate benchmark.
 
 ## Next Concrete Change
-No active unfinished daily package. Recent eight now lack Birds and Other invertebrates; continue all-group Topic diversity. ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment); for internal-structure diagrams state the total count and which side ("nothing in the centre"). Narwhal local-ready 2026-11-20; GitHub/X separate.
+No active unfinished daily package. Recent eight now lack Plants and Other invertebrates (Peacock Mantis Shrimp is an unscreened later option); continue all-group Topic diversity. ChatGPT poster prompts: varied figure layout (no equal boxed row), medium stated by what it must not do, explicit marking counts, larger title/explanation type (W46 adjustment); for internal-structure diagrams state the total count and which side ("nothing in the centre"). Narwhal local-ready 2026-11-20; GitHub/X separate.
 
 ## Current Authorized GitHub Closeout — Gharial
 At 2026-11-15 the user requested Git work and the Weedy Seadragon footer fix in Claude Code. Base 95483a1 on origin ryusuke26/animal-infographic-automation master. Commits: bb01053 (Weedy Seadragon footer IUCN year 2025 -> 2024; superseded images moved to superseded-footer-2025/; validate_package passed), b8d8c74 (Gharial package plus INDEX), 748336e (current-state/daily record), pushed normally after Git Credential Manager sign-in; remote refs/heads/master matched local 748336e before this publication metadata. No X action.
